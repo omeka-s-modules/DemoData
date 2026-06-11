@@ -4,11 +4,6 @@ namespace SampleData\Job;
 use Omeka\Module\Manager as ModuleManager;
 use Throwable;
 
-/**
- * Import a sample dataset, creating item sets, a resource template, items, and inter-item relations.
- *
- * If the dataset is already imported it is fully replaced.
- */
 class Import extends AbstractSampleDataJob
 {
     private const MOD_NUMERIC = 'NumericDataTypes';
@@ -24,11 +19,11 @@ class Import extends AbstractSampleDataJob
     private array $classIdMap;
     private array $templatePropIdMap;
     private array $itemSetIds = [];
+    private array $createdItemIds = [];
     private ?int $templateId = null;
 
     public function perform(): void
     {
-        $api = $this->get('Omeka\ApiManager');
         $logger = $this->get('Omeka\Logger');
         $settings = $this->get('Omeka\Settings');
 
@@ -86,8 +81,6 @@ class Import extends AbstractSampleDataJob
         $this->classIdMap = $this->resolveTermIds($this->collectClasses($this->items), 'resource_classes');
         $this->templatePropIdMap = $this->resolveTermIds($this->collectTemplatePropertyTerms($templateDef), 'properties');
 
-        $createdItemIds = [];
-
         try {
             $this->createItemSets($setDefs);
             if ($templateDef) {
@@ -102,36 +95,18 @@ class Import extends AbstractSampleDataJob
                 'resource_template' => $this->templateId,
             ]);
 
-            $slugToId = [];
-            $i = 0;
-            $total = count($this->items);
-            $mapCount = 0;
+            $result = $this->createItems();
 
-            foreach ($this->items as $item) {
-                if ($this->shouldStop()) {
-                    $this->rollbackImport($createdItemIds);
-                    $this->clearPendingJob($this->dataset);
-                    return;
-                }
-
-                $payload = $this->buildItemPayload($item);
-                $created = $api->create('items', $payload)->getContent();
-                $createdItemIds[] = $created->id();
-                if (isset($item['id'])) {
-                    $slugToId[$item['id']] = $created->id();
-                }
-                if ($this->hasMapping && !empty($item['map_coordinates'])) {
-                    $mapCount++;
-                }
-
-                $logger->info(sprintf('[%d/%d] %s', ++$i, $total,
-                    $item['dcterms:title'] ?? $item['id'] ?? '(untitled)'));
+            if ($this->shouldStop()) {
+                $this->rollbackImport();
+                $this->clearPendingJob($this->dataset);
+                return;
             }
 
-            $relationsComplete = $this->addRelations($slugToId);
+            $relationsComplete = $this->addRelations($result['slug_to_id']);
 
             $settings->set("sample_data_imported_{$this->dataset}", [
-                'items' => $createdItemIds,
+                'items' => $this->createdItemIds,
                 'item_sets' => $this->itemSetIds,
                 'resource_template' => $this->templateId,
             ]);
@@ -141,19 +116,48 @@ class Import extends AbstractSampleDataJob
                 $logger->warn('Job stopped during relation linking. Some inter-item relations may be incomplete. Re-import to resolve.');
             }
 
-            $logger->info(sprintf('Import complete: %d items, %d map markers.', $total, $mapCount));
+            $logger->info(sprintf('Import complete: %d items, %d map markers.', count($this->items), $result['map_count']));
 
         } catch (Throwable $e) {
             $logger->err(sprintf('Import failed: %s', $e->getMessage()));
-            $this->rollbackImport($createdItemIds);
-            throw $e; // Re-throw so the job runner marks this job as failed.
+            $this->rollbackImport();
+            throw $e;
         }
     }
 
-    private function rollbackImport(array $createdItemIds): void
+    private function createItems(): array
+    {
+        $api = $this->get('Omeka\ApiManager');
+        $logger = $this->get('Omeka\Logger');
+
+        $slugToId = [];
+        $mapCount = 0;
+        $total = count($this->items);
+
+        foreach ($this->items as $i => $item) {
+            if ($this->shouldStop()) {
+                break;
+            }
+            $payload = $this->buildItemPayload($item);
+            $created = $api->create('items', $payload)->getContent();
+            $this->createdItemIds[] = $created->id();
+            if (isset($item['id'])) {
+                $slugToId[$item['id']] = $created->id();
+            }
+            if ($this->hasMapping && !empty($item['map_coordinates'])) {
+                $mapCount++;
+            }
+            $logger->info(sprintf('[%d/%d] %s', $i + 1, $total,
+                $item['dcterms:title'] ?? $item['id'] ?? '(untitled)'));
+        }
+
+        return ['slug_to_id' => $slugToId, 'map_count' => $mapCount];
+    }
+
+    private function rollbackImport(): void
     {
         $this->purgeDataset([
-            'items' => $createdItemIds,
+            'items' => $this->createdItemIds,
             'item_sets' => $this->itemSetIds,
             'resource_template' => $this->templateId,
         ]);
@@ -204,10 +208,11 @@ class Import extends AbstractSampleDataJob
 
     private function buildValues(mixed $value, string $type): array
     {
+        // 'auto' for property_id lets ValueHydrator resolve the ID from the term key — avoids pre-resolving every property.
         $values = is_array($value) ? $value : [$value];
         return array_map(fn ($v) => $type === 'uri'
             ? ['type' => 'uri', 'property_id' => 'auto', '@id' => (string) $v]
-            : ['type' => $type, 'property_id' => 'auto', '@value' => (string) $v], // ValueHydrator resolves the term to a property ID — avoids pre-resolving every property in the data.
+            : ['type' => $type, 'property_id' => 'auto', '@value' => (string) $v],
         $values);
     }
 
@@ -228,34 +233,28 @@ class Import extends AbstractSampleDataJob
         return $map;
     }
 
-    /** @return array<string, true> e.g. ['sample-data:Person' => true] */
+    /** @return string[] e.g. ['sample-data:Person', 'sample-data:Empire'] */
     private function collectClasses(array $items): array
     {
-        $classes = [];
-        foreach ($items as $item) {
-            if (!empty($item['class'])) {
-                $classes[$item['class']] = true;
-            }
-        }
-        return $classes;
+        return array_unique(array_filter(array_column($items, 'class')));
     }
 
-    /** @return array<string, true> e.g. ['dcterms:title' => true] */
+    /** @return string[] e.g. ['dcterms:title', 'dcterms:date'] */
     private function collectTemplatePropertyTerms(?array $templateDef): array
     {
-        $terms = [self::RELATION_TERM => true]; // addRelations needs this property ID even though it is not a dataset property.
+        $terms = [self::RELATION_TERM]; // addRelations needs this even though it's not a dataset property
         foreach ($templateDef['properties'] ?? [] as $prop) {
-            $terms[$prop['term']] = true;
+            $terms[] = $prop['term'];
         }
-        return $terms;
+        return array_unique($terms);
     }
 
     /**
      * Resolve vocabulary terms to their database IDs.
      *
-     * @param array<string, true> $terms   Terms to resolve, e.g. ['dcterms:title' => true]
-     * @param string $resource             API resource name: 'properties' or 'resource_classes'
-     * @return array<string, int>          Map of term to database ID
+     * @param string[] $terms     Terms to resolve, e.g. ['dcterms:title', 'dcterms:date']
+     * @param string $resource    API resource name: 'properties' or 'resource_classes'
+     * @return array<string, int> Map of term to database ID
      */
     private function resolveTermIds(array $terms, string $resource): array
     {
@@ -264,11 +263,8 @@ class Import extends AbstractSampleDataJob
         }
 
         $api = $this->get('Omeka\ApiManager');
-        $prefixes = [];
-        foreach (array_keys($terms) as $term) {
-            $prefixes[] = explode(':', $term, 2)[0];
-        }
-        $prefixes = array_unique($prefixes);
+        $termSet = array_flip($terms);
+        $prefixes = array_unique(array_map(fn ($t) => explode(':', $t, 2)[0], $terms));
 
         $idMap = [];
         foreach ($prefixes as $prefix) {
@@ -281,7 +277,7 @@ class Import extends AbstractSampleDataJob
                 ])->getContent();
                 foreach ($results as $obj) {
                     $term = $prefix . ':' . $obj->localName();
-                    if (isset($terms[$term])) {
+                    if (isset($termSet[$term])) {
                         $idMap[$term] = $obj->id();
                     }
                 }

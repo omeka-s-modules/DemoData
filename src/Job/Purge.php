@@ -6,9 +6,6 @@ namespace SampleData\Job;
  */
 class Purge extends AbstractSampleDataJob
 {
-    /**
-     * Purge the dataset specified in the job arguments.
-     */
     public function perform(): void
     {
         $settings = $this->get('Omeka\Settings');
@@ -29,10 +26,8 @@ class Purge extends AbstractSampleDataJob
         ));
 
         $this->purgeDataset($tracking);
-
         $settings->delete("sample_data_imported_{$dataset}");
         $this->clearPendingJob($dataset);
-
         $logger->info('Purge complete.');
     }
 }

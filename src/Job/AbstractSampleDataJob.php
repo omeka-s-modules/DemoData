@@ -5,9 +5,6 @@ use Omeka\Api\Exception\NotFoundException;
 use Omeka\Job\AbstractJob;
 use Throwable;
 
-/**
- * Base class for Sample Data jobs providing shared service access and cleanup helpers.
- */
 abstract class AbstractSampleDataJob extends AbstractJob
 {
     protected function get(string $serviceName)

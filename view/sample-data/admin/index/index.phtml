@@ -60,7 +60,7 @@ $csrfValue = $csrf->getValue();
                 <input type="hidden" name="csrf" value="<?php echo $this->escapeHtmlAttr($csrfValue); ?>">
                 <input type="hidden" name="dataset" value="<?php echo $this->escapeHtmlAttr($dataset['name']); ?>">
                 <input type="hidden" name="action" value="purge">
-                <button type="submit" class="o-icon-delete button" aria-label="<?php echo $this->escapeHtmlAttr(sprintf($this->translate('Purge %s'), $dataset['label'])); ?>" onclick="return confirm('<?php echo $this->escapeJs($this->translate('This will delete all imported items. Continue?')); ?>')"><?php echo $this->translate('Purge'); ?></button>
+                <button type="submit" class="button" aria-label="<?php echo $this->escapeHtmlAttr(sprintf($this->translate('Purge %s'), $dataset['label'])); ?>" onclick="return confirm('<?php echo $this->escapeJs($this->translate('This will delete all imported items. Continue?')); ?>')"><span class="o-icon-delete" aria-hidden="true"></span><?php echo $this->translate('Purge'); ?></button>
             </form>
             <?php endif; ?>
             <?php endif; ?>

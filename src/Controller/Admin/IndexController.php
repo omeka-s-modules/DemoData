@@ -77,6 +77,7 @@ class IndexController extends AbstractActionController
                 'imported'         => (bool) $tracking,
                 'main_item_set_id' => $tracking['item_sets']['main'] ?? null,
                 'item_set_ids'     => $tracking ? array_values($tracking['item_sets']) : [],
+                'view_job_id'      => $tracking['job_id'] ?? null,
                 'pending_action'   => null,
                 'job_failed'       => false,
             ];
@@ -89,7 +90,7 @@ class IndexController extends AbstractActionController
             // Once failed, skip re-querying — the error state persists until the user acts.
             if (!empty($pendingJob['failed'])) {
                 $datasets[$name]['job_failed'] = true;
-                $datasets[$name]['pending_job_id'] = $jobId;
+                $datasets[$name]['view_job_id'] = $jobId;
                 continue;
             }
             try {
@@ -97,10 +98,10 @@ class IndexController extends AbstractActionController
                 $status = $job->status();
                 if (in_array($status, ['starting', 'in_progress'])) {
                     $datasets[$name]['pending_action'] = $pendingJob['action'];
-                    $datasets[$name]['pending_job_id'] = $jobId;
+                    $datasets[$name]['view_job_id'] = $jobId;
                 } elseif (in_array($status, ['error', 'stopped'])) {
                     $datasets[$name]['job_failed'] = true;
-                    $datasets[$name]['pending_job_id'] = $jobId;
+                    $datasets[$name]['view_job_id'] = $jobId;
                     $pendingJob['failed'] = true;
                     $settings->set("sample_data_job_{$name}", $pendingJob);
                 } else {

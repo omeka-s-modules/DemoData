@@ -93,14 +93,3 @@
 .sample-data-actions .o-icon-delete::before {
     margin-right: 4px;
 }
-
-.sample-data-view-log {
-    line-height: 36px;
-    font-size: 14px;
-}
-
-.sample-data-view-log-sep {
-    line-height: 36px;
-    font-size: 14px;
-    color: #aaa;
-}

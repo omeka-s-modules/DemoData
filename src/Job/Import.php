@@ -109,6 +109,7 @@ class Import extends AbstractSampleDataJob
                 'items' => $this->createdItemIds,
                 'item_sets' => $this->itemSetIds,
                 'resource_template' => $this->templateId,
+                'job_id' => $this->job->getId(),
             ]);
             $this->clearPendingJob($this->dataset);
 

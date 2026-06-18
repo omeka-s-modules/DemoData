@@ -44,11 +44,31 @@ $csrfValue = $csrf->getValue();
         </p>
 
         <?php if ($dataset['main_item_set_id']): ?>
-        <p><?php echo $this->translate('Browse:'); ?> <a href="<?php echo $this->escapeHtmlAttr($this->url('admin/default', ['controller' => 'item', 'action' => 'browse'], ['query' => ['item_set_id' => $dataset['main_item_set_id']]])); ?>" aria-label="<?php echo $this->escapeHtmlAttr(sprintf($this->translate('Browse items in %s'), $dataset['label'])); ?>"><?php echo $this->translate('items'); ?></a> &middot; <a href="<?php echo $this->escapeHtmlAttr($this->url('admin/default', ['controller' => 'item-set', 'action' => 'browse'], ['query' => ['id' => $dataset['item_set_ids']]])); ?>" aria-label="<?php echo $this->escapeHtmlAttr(sprintf($this->translate('Browse item sets in %s'), $dataset['label'])); ?>"><?php echo $this->translate('item sets'); ?></a></p>
+        <p><?php echo $this->hyperlink(
+            $this->translate('Browse items'),
+            $this->url('admin/default', ['controller' => 'item', 'action' => 'browse'], ['query' => ['item_set_id' => $dataset['main_item_set_id']]]),
+            ['aria-label' => sprintf($this->translate('Browse items in %s'), $dataset['label'])]
+        ); ?> &middot; <?php echo $this->hyperlink(
+            $this->translate('Browse item sets'),
+            $this->url('admin/default', ['controller' => 'item-set', 'action' => 'browse'], ['query' => ['id' => $dataset['item_set_ids']]]),
+            ['aria-label' => sprintf($this->translate('Browse item sets in %s'), $dataset['label'])]
+        ); ?></p>
         <?php endif; ?>
 
+        <?php if ($dataset['view_job_id']): ?>
+        <p><?php echo $this->hyperlink(
+            $this->translate('View job'),
+            $this->url('admin/id', ['controller' => 'job', 'action' => 'show', 'id' => $dataset['view_job_id']]),
+            ['aria-label' => sprintf($this->translate('View job for %s'), $dataset['label']), 'target' => '_blank']
+        ); ?> &middot; <?php echo $this->hyperlink(
+            $this->translate('View log'),
+            $this->url('admin/id', ['controller' => 'job', 'action' => 'log', 'id' => $dataset['view_job_id']]),
+            ['aria-label' => sprintf($this->translate('View log for %s'), $dataset['label']), 'target' => '_blank']
+        ); ?></p>
+        <?php endif; ?>
+
+        <?php if (!$dataset['pending_action']): ?>
         <div class="sample-data-actions">
-            <?php if (!$dataset['pending_action']): ?>
             <form method="POST" action="<?php echo $this->escapeHtmlAttr($this->url('admin/sample-data')); ?>">
                 <input type="hidden" name="csrf" value="<?php echo $this->escapeHtmlAttr($csrfValue); ?>">
                 <input type="hidden" name="dataset" value="<?php echo $this->escapeHtmlAttr($dataset['name']); ?>">
@@ -63,13 +83,8 @@ $csrfValue = $csrf->getValue();
                 <button type="submit" class="button" aria-label="<?php echo $this->escapeHtmlAttr(sprintf($this->translate('Purge %s'), $dataset['label'])); ?>" onclick="return confirm('<?php echo $this->escapeJs($this->translate('This will delete all imported items. Continue?')); ?>')"><span class="o-icon-delete" aria-hidden="true"></span><?php echo $this->translate('Purge'); ?></button>
             </form>
             <?php endif; ?>
-            <?php endif; ?>
-            <?php if ($dataset['pending_action'] || $dataset['job_failed']): ?>
-            <a href="<?php echo $this->escapeHtmlAttr($this->url('admin/id', ['controller' => 'job', 'action' => 'show', 'id' => $dataset['pending_job_id']])); ?>" class="sample-data-view-log" aria-label="<?php echo $this->escapeHtmlAttr(sprintf($this->translate('View job for %s'), $dataset['label'])); ?>" target="_blank"><?php echo $this->translate('View job'); ?></a>
-            <span class="sample-data-view-log-sep">|</span>
-            <a href="<?php echo $this->escapeHtmlAttr($this->url('admin/id', ['controller' => 'job', 'action' => 'log', 'id' => $dataset['pending_job_id']])); ?>" class="sample-data-view-log" aria-label="<?php echo $this->escapeHtmlAttr(sprintf($this->translate('Log for %s'), $dataset['label'])); ?>" target="_blank"><?php echo $this->translate('Log'); ?></a>
-            <?php endif; ?>
         </div>
+        <?php endif; ?>
     </div>
 </div>
 <?php endforeach; ?>

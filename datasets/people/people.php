@@ -110,8 +110,14 @@ return [
             'sample-data:nationality' => 'Ancient Egyptian',
             'dcterms:language' => 'Ancient Egyptian',
             'dcterms:temporal' => 'New Kingdom Egypt',
-            'sample-data:birthDate' => '-1507',
-            'sample-data:deathDate' => '-1458',
+            'sample-data:birthDate' => [
+                '@value' => '-1507',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
+            'sample-data:deathDate' => [
+                '@value' => '-1458',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:birthPlace' => 'Thebes, Ancient Egypt',
             'sample-data:deathPlace' => 'Thebes, Ancient Egypt',
             'map_coordinates' => [
@@ -150,7 +156,10 @@ return [
                 'Latin',
             ],
             'dcterms:temporal' => 'Hellenistic Period',
-            'sample-data:birthDate' => '-0069',
+            'sample-data:birthDate' => [
+                '@value' => '-0069',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '-0030',
             'sample-data:birthPlace' => 'Alexandria, Ptolemaic Egypt',
             'sample-data:deathPlace' => 'Alexandria, Ptolemaic Egypt',
@@ -183,7 +192,10 @@ return [
             'sample-data:nationality' => 'Greco-Egyptian',
             'dcterms:language' => 'Greek',
             'dcterms:temporal' => 'Late Antiquity',
-            'sample-data:birthDate' => '0360',
+            'sample-data:birthDate' => [
+                '@value' => '0360',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '0415',
             'sample-data:birthPlace' => 'Alexandria, Roman Egypt',
             'sample-data:deathPlace' => 'Alexandria, Roman Egypt',
@@ -254,8 +266,14 @@ return [
             'sample-data:nationality' => 'Japanese',
             'dcterms:language' => 'Japanese',
             'dcterms:temporal' => 'Heian Period',
-            'sample-data:birthDate' => '0973',
-            'sample-data:deathDate' => '1025',
+            'sample-data:birthDate' => [
+                '@value' => '0973',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
+            'sample-data:deathDate' => [
+                '@value' => '1025',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:birthPlace' => 'Heian-kyō (Kyoto), Japan',
             'sample-data:deathPlace' => 'Heian-kyō (Kyoto), Japan',
             'map_coordinates' => [
@@ -330,8 +348,14 @@ return [
             'sample-data:nationality' => 'Arab',
             'dcterms:language' => 'Arabic',
             'dcterms:temporal' => 'Islamic Golden Age',
-            'sample-data:birthDate' => '0965',
-            'sample-data:deathDate' => '1040',
+            'sample-data:birthDate' => [
+                '@value' => '0965',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
+            'sample-data:deathDate' => [
+                '@value' => '1040',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:birthPlace' => 'Basra, Buyid Emirate (modern Iraq)',
             'sample-data:deathPlace' => 'Cairo, Fatimid Caliphate',
             'map_coordinates' => [
@@ -414,7 +438,10 @@ return [
                 'Middle High German',
             ],
             'dcterms:temporal' => 'High Middle Ages',
-            'sample-data:birthDate' => '1098',
+            'sample-data:birthDate' => [
+                '@value' => '1098',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '1179',
             'sample-data:birthPlace' => 'Bermersheim vor der Höhe, Holy Roman Empire',
             'sample-data:deathPlace' => 'Rupertsberg, Holy Roman Empire',
@@ -533,8 +560,14 @@ return [
             'sample-data:nationality' => 'Mandinka',
             'dcterms:language' => 'Mandinka',
             'dcterms:temporal' => 'High Middle Ages',
-            'sample-data:birthDate' => '1217',
-            'sample-data:deathDate' => '1255',
+            'sample-data:birthDate' => [
+                '@value' => '1217',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
+            'sample-data:deathDate' => [
+                '@value' => '1255',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:birthPlace' => 'Niani, Mali Empire (modern Guinea-Mali border)',
             'sample-data:deathPlace' => 'Niani, Mali Empire',
             'map_coordinates' => [
@@ -568,8 +601,14 @@ return [
             'sample-data:nationality' => 'Italian-French',
             'dcterms:language' => 'French',
             'dcterms:temporal' => 'Late Middle Ages',
-            'sample-data:birthDate' => '1364',
-            'sample-data:deathDate' => '1430',
+            'sample-data:birthDate' => [
+                '@value' => '1364',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
+            'sample-data:deathDate' => [
+                '@value' => '1430',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:birthPlace' => 'Venice, Republic of Venice',
             'sample-data:deathPlace' => 'Poissy, Kingdom of France',
             'map_coordinates' => [
@@ -606,7 +645,10 @@ return [
             'dcterms:language' => 'Arabic',
             'dcterms:temporal' => 'Late Middle Ages',
             'sample-data:birthDate' => '1304',
-            'sample-data:deathDate' => '1368',
+            'sample-data:deathDate' => [
+                '@value' => '1368',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:birthPlace' => 'Tangier, Marinid Sultanate',
             'sample-data:deathPlace' => 'Morocco',
             'map_coordinates' => [
@@ -642,7 +684,10 @@ return [
             'sample-data:nationality' => 'Mandinka',
             'dcterms:language' => 'Mandinka',
             'dcterms:temporal' => 'Late Middle Ages',
-            'sample-data:birthDate' => '1280',
+            'sample-data:birthDate' => [
+                '@value' => '1280',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '1337',
             'sample-data:birthPlace' => 'Mali Empire (West Africa)',
             'sample-data:deathPlace' => 'Mali Empire',
@@ -760,7 +805,10 @@ return [
                 'Portuguese',
             ],
             'dcterms:temporal' => 'Early Modern',
-            'sample-data:birthDate' => '1583',
+            'sample-data:birthDate' => [
+                '@value' => '1583',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '1663',
             'sample-data:birthPlace' => 'Kabasa, Kingdom of Ndongo (modern Angola)',
             'sample-data:deathPlace' => 'Matamba, Kingdom of Matamba (modern Angola)',
@@ -1067,7 +1115,10 @@ return [
             'sample-data:nationality' => 'American',
             'dcterms:language' => 'English',
             'dcterms:temporal' => 'Victorian Era',
-            'sample-data:birthDate' => '1818',
+            'sample-data:birthDate' => [
+                '@value' => '1818',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '1895',
             'sample-data:birthPlace' => 'Cordova, Maryland, United States',
             'sample-data:deathPlace' => 'Washington, D.C., United States',
@@ -1104,7 +1155,10 @@ return [
             'sample-data:nationality' => 'American',
             'dcterms:language' => 'English',
             'dcterms:temporal' => 'Victorian Era',
-            'sample-data:birthDate' => '1822',
+            'sample-data:birthDate' => [
+                '@value' => '1822',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '1913',
             'sample-data:birthPlace' => 'Dorchester County, Maryland, United States',
             'sample-data:deathPlace' => 'Auburn, New York, United States',
@@ -1137,8 +1191,14 @@ return [
             'sample-data:nationality' => 'Akkadian',
             'dcterms:language' => 'Sumerian',
             'dcterms:temporal' => 'Akkadian Empire',
-            'sample-data:birthDate' => '-2285',
-            'sample-data:deathDate' => '-2250',
+            'sample-data:birthDate' => [
+                '@value' => '-2285',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
+            'sample-data:deathDate' => [
+                '@value' => '-2250',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:birthPlace' => 'Akkad (Mesopotamia, modern Iraq)',
             'sample-data:deathPlace' => 'Ur, Sumer (modern Iraq)',
             'map_coordinates' => [
@@ -1174,8 +1234,14 @@ return [
             'sample-data:nationality' => 'Ancient Greek',
             'dcterms:language' => 'Ancient Greek',
             'dcterms:temporal' => 'Archaic Greece',
-            'sample-data:birthDate' => '-0630',
-            'sample-data:deathDate' => '-0570',
+            'sample-data:birthDate' => [
+                '@value' => '-0630',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
+            'sample-data:deathDate' => [
+                '@value' => '-0570',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:birthPlace' => 'Eressos, Lesbos, Ancient Greece',
             'sample-data:deathPlace' => 'Lesbos, Ancient Greece',
             'map_coordinates' => [
@@ -1213,8 +1279,14 @@ return [
             'sample-data:nationality' => 'Chinese',
             'dcterms:language' => 'Classical Chinese',
             'dcterms:temporal' => 'Spring and Autumn Period',
-            'sample-data:birthDate' => '-0551',
-            'sample-data:deathDate' => '-0479',
+            'sample-data:birthDate' => [
+                '@value' => '-0551',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
+            'sample-data:deathDate' => [
+                '@value' => '-0479',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:birthPlace' => 'Zou, State of Lu (modern Shandong, China)',
             'sample-data:deathPlace' => 'State of Lu (modern Shandong, China)',
             'map_coordinates' => [
@@ -1247,8 +1319,14 @@ return [
             'sample-data:nationality' => 'Ancient Greek',
             'dcterms:language' => 'Ancient Greek',
             'dcterms:temporal' => 'Hellenistic Period',
-            'sample-data:birthDate' => '-0287',
-            'sample-data:deathDate' => '-0212',
+            'sample-data:birthDate' => [
+                '@value' => '-0287',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
+            'sample-data:deathDate' => [
+                '@value' => '-0212',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:birthPlace' => 'Syracuse, Magna Graecia (modern Sicily)',
             'sample-data:deathPlace' => 'Syracuse, Magna Graecia',
             'map_coordinates' => [
@@ -1408,7 +1486,10 @@ return [
             'sample-data:nationality' => 'Byzantine Greek',
             'dcterms:language' => 'Greek',
             'dcterms:temporal' => 'Byzantine Empire',
-            'sample-data:birthDate' => '0497',
+            'sample-data:birthDate' => [
+                '@value' => '0497',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '0548',
             'sample-data:birthPlace' => 'Constantinople (modern Istanbul), Byzantine Empire',
             'sample-data:deathPlace' => 'Constantinople, Byzantine Empire',
@@ -1734,7 +1815,10 @@ return [
                 'English',
             ],
             'dcterms:temporal' => 'Age of Revolution',
-            'sample-data:birthDate' => '1768',
+            'sample-data:birthDate' => [
+                '@value' => '1768',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '1813',
             'sample-data:birthPlace' => 'Old Piqua, Ohio (modern United States)',
             'sample-data:deathPlace' => 'Moraviantown, Upper Canada (modern Ontario, Canada)',
@@ -1775,7 +1859,10 @@ return [
                 'Dutch',
             ],
             'dcterms:temporal' => 'Antebellum and Civil War Era',
-            'sample-data:birthDate' => '1797',
+            'sample-data:birthDate' => [
+                '@value' => '1797',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '1883',
             'sample-data:birthPlace' => 'Swartekill, New York, United States',
             'sample-data:deathPlace' => 'Battle Creek, Michigan, United States',
@@ -1812,7 +1899,10 @@ return [
             'sample-data:nationality' => 'Ashanti (Ghanaian)',
             'dcterms:language' => 'Twi',
             'dcterms:temporal' => 'Colonial Era',
-            'sample-data:birthDate' => '1840',
+            'sample-data:birthDate' => [
+                '@value' => '1840',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '1921',
             'sample-data:birthPlace' => 'Besease, Ashanti Empire (modern Ghana)',
             'sample-data:deathPlace' => 'Seychelles (in exile)',
@@ -2045,7 +2135,10 @@ return [
             'sample-data:nationality' => 'Ancient Greek (Milesian)',
             'dcterms:language' => 'Ancient Greek',
             'dcterms:temporal' => 'Classical Greece',
-            'sample-data:birthDate' => '-0470',
+            'sample-data:birthDate' => [
+                '@value' => '-0470',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '-0400',
             'sample-data:birthPlace' => 'Miletus, Ancient Greece (modern Turkey)',
             'sample-data:deathPlace' => 'Athens, Ancient Greece',
@@ -2082,7 +2175,10 @@ return [
             'sample-data:nationality' => 'Indian',
             'dcterms:language' => 'Sanskrit',
             'dcterms:temporal' => 'Kushan Empire',
-            'sample-data:birthDate' => '0150',
+            'sample-data:birthDate' => [
+                '@value' => '0150',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '0250',
             'sample-data:birthPlace' => 'Vidarbha, India (modern Maharashtra)',
             'sample-data:deathPlace' => 'Nagarjunakonda, India (modern Andhra Pradesh)',
@@ -2556,7 +2652,10 @@ return [
             'sample-data:nationality' => 'Igbo Nigerian British',
             'dcterms:language' => 'English',
             'dcterms:temporal' => 'Enlightenment',
-            'sample-data:birthDate' => '1745',
+            'sample-data:birthDate' => [
+                '@value' => '1745',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '1797',
             'sample-data:birthPlace' => 'Essaka, Kingdom of Benin (modern Nigeria)',
             'sample-data:deathPlace' => 'London, England',
@@ -2634,7 +2733,10 @@ return [
                 'French',
             ],
             'dcterms:temporal' => 'Age of Revolution',
-            'sample-data:birthDate' => '1788',
+            'sample-data:birthDate' => [
+                '@value' => '1788',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '1812',
             'sample-data:birthPlace' => 'Lemhi River valley, Shoshone territory (modern Idaho, United States)',
             'sample-data:deathPlace' => 'Fort Manuel, Missouri Territory (modern South Dakota, United States)',
@@ -2994,8 +3096,14 @@ return [
             'sample-data:nationality' => 'Ancient Egyptian',
             'dcterms:language' => 'Ancient Egyptian',
             'dcterms:temporal' => 'Old Kingdom Egypt',
-            'sample-data:birthDate' => '-2650',
-            'sample-data:deathDate' => '-2600',
+            'sample-data:birthDate' => [
+                '@value' => '-2650',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
+            'sample-data:deathDate' => [
+                '@value' => '-2600',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:birthPlace' => 'Ankhtawy, near Memphis, Ancient Egypt',
             'sample-data:deathPlace' => 'Memphis, Ancient Egypt',
             'map_coordinates' => [
@@ -3035,8 +3143,14 @@ return [
                 'Sumerian',
             ],
             'dcterms:temporal' => 'Akkadian Empire',
-            'sample-data:birthDate' => '-2334',
-            'sample-data:deathDate' => '-2279',
+            'sample-data:birthDate' => [
+                '@value' => '-2334',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
+            'sample-data:deathDate' => [
+                '@value' => '-2279',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:birthPlace' => 'Azupiranu (location uncertain), Mesopotamia',
             'sample-data:deathPlace' => 'Agade, Akkadian Empire (modern Iraq)',
             'map_coordinates' => [
@@ -3273,7 +3387,10 @@ return [
             'sample-data:nationality' => 'Mongolian',
             'dcterms:language' => 'Mongolian',
             'dcterms:temporal' => 'Mongol Empire',
-            'sample-data:birthDate' => '1260',
+            'sample-data:birthDate' => [
+                '@value' => '1260',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '1306',
             'sample-data:birthPlace' => 'Central Asia, Mongol Empire',
             'sample-data:deathPlace' => 'Central Asia, Mongol Empire',
@@ -3311,7 +3428,10 @@ return [
             'dcterms:language' => 'Hausa',
             'dcterms:temporal' => 'Pre-colonial Africa',
             'sample-data:birthDate' => '1533',
-            'sample-data:deathDate' => '1610',
+            'sample-data:deathDate' => [
+                '@value' => '1610',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:birthPlace' => 'Zaria, Hausa Kingdoms (modern Nigeria)',
             'sample-data:deathPlace' => 'Atagara (modern Bida, Nigeria)',
             'map_coordinates' => [
@@ -3544,7 +3664,10 @@ return [
             'dcterms:language' => 'Classical Chinese',
             'dcterms:temporal' => 'Qing Dynasty',
             'sample-data:birthDate' => '1715',
-            'sample-data:deathDate' => '1763',
+            'sample-data:deathDate' => [
+                '@value' => '1763',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:birthPlace' => 'Nanjing, Qing China',
             'sample-data:deathPlace' => 'Beijing, Qing China',
             'map_coordinates' => [
@@ -3581,7 +3704,10 @@ return [
             'sample-data:nationality' => 'Hawaiian',
             'dcterms:language' => 'Hawaiian',
             'dcterms:temporal' => 'Age of Revolution',
-            'sample-data:birthDate' => '1758',
+            'sample-data:birthDate' => [
+                '@value' => '1758',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '1819',
             'sample-data:birthPlace' => 'Kohala District, Island of Hawaii',
             'sample-data:deathPlace' => 'Kailua, Island of Hawaii',
@@ -3622,7 +3748,10 @@ return [
                 'English',
             ],
             'dcterms:temporal' => 'Early 19th Century',
-            'sample-data:birthDate' => '1770',
+            'sample-data:birthDate' => [
+                '@value' => '1770',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '1843',
             'sample-data:birthPlace' => 'Tuskegee, Cherokee territory (modern Tennessee, United States)',
             'sample-data:deathPlace' => 'San Fernando de Rosas, Mexico (modern Tamaulipas, Mexico)',
@@ -3848,7 +3977,10 @@ return [
             'sample-data:nationality' => 'Hunkpapa Lakota',
             'dcterms:language' => 'Lakota',
             'dcterms:temporal' => 'Gilded Age',
-            'sample-data:birthDate' => '1831',
+            'sample-data:birthDate' => [
+                '@value' => '1831',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'sample-data:deathDate' => '1890',
             'sample-data:birthPlace' => 'Grand River, Dakota Territory (modern South Dakota, United States)',
             'sample-data:deathPlace' => 'Standing Rock Reservation, Dakota Territory',

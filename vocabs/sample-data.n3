@@ -109,3 +109,7 @@
 :knownFor a rdf:Property ;
     rdfs:label "Known For"@en ;
     rdfs:comment "A brief phrase describing the person's most significant contribution or achievement."@en .
+
+:qualifier a rdf:Property ;
+    rdfs:label "Qualifier"@en ;
+    rdfs:comment "A qualifying note on a value, such as 'approximate' for uncertain dates."@en .

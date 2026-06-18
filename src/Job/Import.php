@@ -210,11 +210,30 @@ class Import extends AbstractSampleDataJob
     private function buildValues(mixed $value, string $type): array
     {
         // 'auto' for property_id lets ValueHydrator resolve the ID from the term key — avoids pre-resolving every property.
-        $values = is_array($value) ? $value : [$value];
-        return array_map(fn ($v) => $type === 'uri'
-            ? ['type' => 'uri', 'property_id' => 'auto', '@id' => (string) $v]
-            : ['type' => $type, 'property_id' => 'auto', '@value' => (string) $v],
-        $values);
+        $values = is_array($value) && !isset($value['@value']) ? $value : [$value];
+        return array_map(function ($v) use ($type) {
+            if (is_array($v) && isset($v['@value'])) {
+                $entry = $type === 'uri'
+                    ? ['type' => 'uri', 'property_id' => 'auto', '@id' => (string) $v['@value']]
+                    : ['type' => $type, 'property_id' => 'auto', '@value' => (string) $v['@value']];
+                if (!empty($v['@annotation'])) {
+                    $entry['@annotation'] = $this->buildAnnotation($v['@annotation']);
+                }
+                return $entry;
+            }
+            return $type === 'uri'
+                ? ['type' => 'uri', 'property_id' => 'auto', '@id' => (string) $v]
+                : ['type' => $type, 'property_id' => 'auto', '@value' => (string) $v];
+        }, $values);
+    }
+
+    private function buildAnnotation(array $annotation): array
+    {
+        $payload = [];
+        foreach ($annotation as $term => $value) {
+            $payload[$term] = $this->buildValues($value, 'literal');
+        }
+        return $payload;
     }
 
     /** @return array<string, string> e.g. ['sample-data:birthDate' => 'numeric:timestamp'] */

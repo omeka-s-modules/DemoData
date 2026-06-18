@@ -276,6 +276,7 @@ return [
         'properties' => [
             ['term' => 'dcterms:title'],
             ['term' => 'dcterms:description'],
+            ['term' => 'dcterms:created', 'data_type' => ['numeric:timestamp']],
             ['term' => 'dcterms:date', 'data_type' => ['numeric:timestamp']],
             // alternate_label overrides the property label in the form:
             ['term' => 'dcterms:relation', 'data_type' => ['resource'], 'alternate_label' => 'Related Items'],
@@ -322,7 +323,12 @@ return [
             // or arrays of strings.
             'dcterms:title'       => 'My Item',
             'dcterms:description' => 'A longer description of this item.',
-            'dcterms:date'        => '1850',         // plain text or ISO 8601
+            'dcterms:created'     => '1850',             // numeric:timestamp — type set in resource template
+            // Annotated value — attach metadata to the value itself:
+            'dcterms:date'        => [
+                '@value'      => '1850',
+                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+            ],
             'dcterms:subject'     => ['Tag One', 'Tag Two'],
 
             // Media filename relative to datasets/<name>/media/.
@@ -331,6 +337,36 @@ return [
         ],
     ],
 ];
+```
+
+#### Value annotations
+
+A property value can carry an annotation — metadata attached to the value itself
+rather than to the item. Use an associative array with `@value` and `@annotation`
+keys instead of a plain string:
+
+```php
+'sample-data:birthDate' => [
+    '@value'      => '-0551',
+    '@annotation' => ['sample-data:qualifier' => 'approximate'],
+],
+```
+
+`@annotation` is a dict keyed by property term, with the annotation value as a
+plain string. Multiple annotation properties are supported:
+
+```php
+'@annotation' => [
+    'sample-data:qualifier' => 'approximate',
+],
+```
+
+This format is only needed for a single annotated value. A plain string remains
+correct for unannotated values, and a sequential array remains correct for
+multiple unannotated values of the same property:
+
+```php
+'dcterms:subject' => ['Tag One', 'Tag Two'],  // multiple plain values — unchanged
 ```
 
 #### Numeric data types
@@ -421,3 +457,4 @@ dataset files.
 | `sample-data:deathPlace` | Death Place | People |
 | `sample-data:nationality` | Nationality | People |
 | `sample-data:knownFor` | Known For | People |
+| `sample-data:qualifier` | Qualifier | People (value annotations) |

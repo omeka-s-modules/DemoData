@@ -335,9 +335,11 @@ return [
             ],
             'dcterms:subject'     => ['Tag One', 'Tag Two'],
 
-            // Media filename relative to datasets/<name>/media/.
-            // Populated automatically by build-media.php.
+            // Media file(s) relative to datasets/<name>/media/.
+            // Single string for one file; array for multiple files (e.g. multi-page documents).
+            // Populated automatically by build-media.php (single-file items only).
             'media' => 'my-item.jpg',
+            // 'media' => ['my-item-p1.jpg', 'my-item-p2.jpg'],  // multi-page
         ],
     ],
 ];

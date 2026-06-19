@@ -108,9 +108,16 @@ class MediaBuilder
 
         $data = require $this->dataFile;
         $items = $data['items'] ?? [];
-        $pending = array_values(array_filter($items, fn ($i) =>
-            empty($i['media']) || !file_exists($this->mediaDir . $i['media'])
-        ));
+        $pending = array_values(array_filter($items, function ($i) {
+            if (empty($i['media'])) {
+                return true;
+            }
+            // Multi-file items are managed manually — not candidates for automated search.
+            if (is_array($i['media'])) {
+                return false;
+            }
+            return !file_exists($this->mediaDir . $i['media']);
+        }));
 
         $total = count($items);
         $done = $total - count($pending);

@@ -203,10 +203,13 @@ class Import extends AbstractSampleDataJob
             }
         }
         if (!empty($item['media']) && $this->mediaBaseUrl) {
-            $payload['o:media'][] = [
-                'o:ingester' => 'url',
-                'ingest_url' => sprintf('%s%s/media/%s', $this->mediaBaseUrl, $this->dataset, $item['media']),
-            ];
+            $files = is_array($item['media']) ? $item['media'] : [$item['media']];
+            foreach ($files as $file) {
+                $payload['o:media'][] = [
+                    'o:ingester' => 'url',
+                    'ingest_url' => sprintf('%s%s/media/%s', $this->mediaBaseUrl, $this->dataset, $file),
+                ];
+            }
         }
         return $payload;
     }

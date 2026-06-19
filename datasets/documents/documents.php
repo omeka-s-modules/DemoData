@@ -524,7 +524,13 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration, Washington, D.C.',
             'dcterms:format' => 'mixed',
             'dcterms:source' => 'WDL2714; LOC Handle hdl.loc.gov/loc.wdl/dna.2714',
-            'media' => 'emancipation-proclamation-1862.jpg',
+            'media' => [
+                'emancipation-proclamation-1862-1.jpg',
+                'emancipation-proclamation-1862-2.jpg',
+                'emancipation-proclamation-1862-3.jpg',
+                'emancipation-proclamation-1862-4.jpg',
+                'emancipation-proclamation-1862-5.jpg',
+            ],
         ],
         [
             'id' => 'gettysburg-address-bliss-1864',
@@ -547,7 +553,11 @@ return [
             'dcterms:publisher' => 'White House, Washington, D.C.',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'White House collections; purchased at auction 1949 by Oscar Cintas, bequeathed to the United States 1957',
-            'media' => 'gettysburg-address-bliss-1864.jpg',
+            'media' => [
+                'gettysburg-address-bliss-1864-1.jpg',
+                'gettysburg-address-bliss-1864-2.jpg',
+                'gettysburg-address-bliss-1864-3.jpg',
+            ],
         ],
         [
             'id' => 'honolulu-star-bulletin-1941',
@@ -949,7 +959,12 @@ return [
             'dcterms:language' => 'fr',
             'dcterms:publisher' => 'Bibliothèque nationale de France',
             'dcterms:format' => 'handwritten',
-            'media' => 'mary-queen-scots-1587.jpg',
+            'media' => [
+                'mary-queen-scots-1587-1.jpg',
+                'mary-queen-scots-1587-2.jpg',
+                'mary-queen-scots-1587-3.jpg',
+                'mary-queen-scots-1587-4.jpg',
+            ],
         ],
         [
             'id' => 'darwin-gray-1857',
@@ -1226,7 +1241,12 @@ return [
             'dcterms:language' => 'it',
             'dcterms:publisher' => 'Royal Collection Trust, Windsor Castle',
             'dcterms:format' => 'handwritten',
-            'media' => 'leonardo-notebook-1490s.jpg',
+            'media' => [
+                'leonardo-notebook-1490s-1.jpg',
+                'leonardo-notebook-1490s-2.jpg',
+                'leonardo-notebook-1490s-3.jpg',
+                'leonardo-notebook-1490s-4.jpg',
+            ],
         ],
     ],
 ];

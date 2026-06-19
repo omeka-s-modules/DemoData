@@ -15,7 +15,6 @@ class Import extends AbstractSampleDataJob
     private bool $hasNumeric;
     private bool $hasMapping;
     private array $items;
-    private array $termTypeMap;
     private array $classIdMap;
     private array $templatePropIdMap;
     private array $itemSetIds = [];
@@ -54,11 +53,17 @@ class Import extends AbstractSampleDataJob
         $logger->info(sprintf('Importing %s dataset: %d items, %d item sets.', $this->dataset, count($this->items), count($setDefs)));
 
         if (!$this->hasNumeric) {
-            foreach ($templateDef['properties'] ?? [] as $prop) {
-                foreach ($prop['data_type'] ?? [] as $type) {
-                    if (str_starts_with($type, 'numeric:')) {
-                        $logger->warn('NumericDataTypes module inactive — numeric values will be imported as plain text.');
-                        break 2;
+            foreach ($this->items as $item) {
+                foreach ($item as $key => $value) {
+                    if (!str_contains($key, ':')) {
+                        continue;
+                    }
+                    $vals = is_array($value) && !isset($value['@value']) ? $value : [$value];
+                    foreach ($vals as $v) {
+                        if (is_array($v) && isset($v['@type']) && str_starts_with($v['@type'], 'numeric:')) {
+                            $logger->warn('NumericDataTypes module inactive — numeric values will be imported as plain text.');
+                            break 3;
+                        }
                     }
                 }
             }
@@ -76,7 +81,6 @@ class Import extends AbstractSampleDataJob
             $logger->warn('No media base URL provided — items will be imported without media.');
         }
 
-        $this->termTypeMap = $this->buildTermTypeMap($templateDef);
         // Term ID lookups are read-only — nothing to roll back if they fail, so they run before the try.
         $this->classIdMap = $this->resolveTermIds($this->collectClasses($this->items), 'resource_classes');
         $this->templatePropIdMap = $this->resolveTermIds($this->collectTemplatePropertyTerms($templateDef), 'properties');
@@ -184,7 +188,7 @@ class Import extends AbstractSampleDataJob
             if (!str_contains($key, ':')) {
                 continue;
             }
-            $payload[$key] = $this->buildValues($value, $this->termTypeMap[$key] ?? 'literal');
+            $payload[$key] = $this->buildValues($value);
         }
         if ($this->hasMapping && !empty($item['map_coordinates'])) {
             $coords = $item['map_coordinates'];
@@ -207,15 +211,19 @@ class Import extends AbstractSampleDataJob
         return $payload;
     }
 
-    private function buildValues(mixed $value, string $type): array
+    private function buildValues(mixed $value, string $type = 'literal'): array
     {
         // 'auto' for property_id lets ValueHydrator resolve the ID from the term key — avoids pre-resolving every property.
         $values = is_array($value) && !isset($value['@value']) ? $value : [$value];
         return array_map(function ($v) use ($type) {
             if (is_array($v) && isset($v['@value'])) {
-                $entry = $type === 'uri'
+                $resolvedType = $v['@type'] ?? $type;
+                if (str_starts_with($resolvedType, 'numeric:') && !$this->hasNumeric) {
+                    $resolvedType = 'literal';
+                }
+                $entry = $resolvedType === 'uri'
                     ? ['type' => 'uri', 'property_id' => 'auto', '@id' => (string) $v['@value']]
-                    : ['type' => $type, 'property_id' => 'auto', '@value' => (string) $v['@value']];
+                    : ['type' => $resolvedType, 'property_id' => 'auto', '@value' => (string) $v['@value']];
                 if (!empty($v['@annotation'])) {
                     $entry['@annotation'] = $this->buildAnnotation($v['@annotation']);
                 }
@@ -234,23 +242,6 @@ class Import extends AbstractSampleDataJob
             $payload[$term] = $this->buildValues($value, 'literal');
         }
         return $payload;
-    }
-
-    /** @return array<string, string> e.g. ['sample-data:birthDate' => 'numeric:timestamp'] */
-    private function buildTermTypeMap(?array $templateDef): array
-    {
-        $map = [];
-        foreach ($templateDef['properties'] ?? [] as $prop) {
-            if (empty($prop['data_type'])) {
-                continue;
-            }
-            $type = $prop['data_type'][0];
-            if (str_starts_with($type, 'numeric:') && !$this->hasNumeric) {
-                $type = 'literal'; // NumericDataTypes not active; fall back so values still import as plain text.
-            }
-            $map[$prop['term']] = $type;
-        }
-        return $map;
     }
 
     /** @return string[] e.g. ['sample-data:Person', 'sample-data:Empire'] */

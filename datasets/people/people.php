@@ -97,7 +97,7 @@ return [
             'relations' => [
                 'cleopatra-vii',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q129234',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q129234', '@type' => 'uri'],
             'dcterms:title' => 'Hatshepsut',
             'dcterms:alternative' => 'Maatkare',
             'sample-data:knownFor' => 'One of ancient Egypt\'s most successful pharaohs; launched major trading expeditions and building programs including the mortuary temple at Deir el-Bahari',
@@ -112,10 +112,12 @@ return [
             'dcterms:temporal' => 'New Kingdom Egypt',
             'sample-data:birthDate' => [
                 '@value' => '-1507',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:deathDate' => [
                 '@value' => '-1458',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:birthPlace' => 'Thebes, Ancient Egypt',
@@ -136,7 +138,7 @@ return [
             'relations' => [
                 'hatshepsut',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q635',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q635', '@type' => 'uri'],
             'dcterms:title' => 'Cleopatra VII',
             'dcterms:alternative' => [
                 'Cleopatra Philopator',
@@ -158,9 +160,10 @@ return [
             'dcterms:temporal' => 'Hellenistic Period',
             'sample-data:birthDate' => [
                 '@value' => '-0069',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '-0030',
+            'sample-data:deathDate' => ['@value' => '-0030', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Alexandria, Ptolemaic Egypt',
             'sample-data:deathPlace' => 'Alexandria, Ptolemaic Egypt',
             'map_coordinates' => [
@@ -179,7 +182,7 @@ return [
             'relations' => [
                 'al-khwarizmi',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q11903',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q11903', '@type' => 'uri'],
             'dcterms:title' => 'Hypatia',
             'dcterms:alternative' => 'Hypatia of Alexandria',
             'sample-data:knownFor' => 'First recorded female mathematician; head of the Platonist school at Alexandria; commentaries on Diophantus and Apollonius of Perga',
@@ -194,9 +197,10 @@ return [
             'dcterms:temporal' => 'Late Antiquity',
             'sample-data:birthDate' => [
                 '@value' => '0360',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '0415',
+            'sample-data:deathDate' => ['@value' => '0415', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Alexandria, Roman Egypt',
             'sample-data:deathPlace' => 'Alexandria, Roman Egypt',
             'map_coordinates' => [
@@ -216,7 +220,7 @@ return [
                 'hatshepsut',
                 'cleopatra-vii',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q9738',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q9738', '@type' => 'uri'],
             'dcterms:title' => 'Wu Zetian',
             'dcterms:alternative' => [
                 'Empress Wu',
@@ -233,8 +237,8 @@ return [
             'sample-data:nationality' => 'Chinese',
             'dcterms:language' => 'Chinese',
             'dcterms:temporal' => 'Tang Dynasty',
-            'sample-data:birthDate' => '0624',
-            'sample-data:deathDate' => '0705',
+            'sample-data:birthDate' => ['@value' => '0624', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '0705', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Wenshui, Shanxi, Tang China',
             'sample-data:deathPlace' => 'Luoyang, Tang China',
             'map_coordinates' => [
@@ -253,7 +257,7 @@ return [
             'relations' => [
                 'christine-de-pizan',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q81731',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q81731', '@type' => 'uri'],
             'dcterms:title' => 'Murasaki Shikibu',
             'dcterms:alternative' => 'Lady Murasaki',
             'sample-data:knownFor' => 'Author of The Tale of Genji, considered the world\'s first novel',
@@ -268,10 +272,12 @@ return [
             'dcterms:temporal' => 'Heian Period',
             'sample-data:birthDate' => [
                 '@value' => '0973',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:deathDate' => [
                 '@value' => '1025',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:birthPlace' => 'Heian-kyō (Kyoto), Japan',
@@ -294,7 +300,7 @@ return [
                 'ibn-al-haytham',
                 'nasir-al-din-al-tusi',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1031798',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1031798', '@type' => 'uri'],
             'dcterms:title' => 'Al-Khwarizmi',
             'dcterms:alternative' => [
                 'Muhammad ibn Musa al-Khwarizmi',
@@ -310,8 +316,8 @@ return [
             'sample-data:nationality' => 'Persian',
             'dcterms:language' => 'Arabic',
             'dcterms:temporal' => 'Islamic Golden Age',
-            'sample-data:birthDate' => '0780',
-            'sample-data:deathDate' => '0850',
+            'sample-data:birthDate' => ['@value' => '0780', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '0850', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Khwarazm (modern Uzbekistan)',
             'sample-data:deathPlace' => 'Baghdad, Abbasid Caliphate',
             'map_coordinates' => [
@@ -331,7 +337,7 @@ return [
                 'al-khwarizmi',
                 'nasir-al-din-al-tusi',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q11104',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q11104', '@type' => 'uri'],
             'dcterms:title' => 'Ibn al-Haytham',
             'dcterms:alternative' => [
                 'Alhazen',
@@ -350,10 +356,12 @@ return [
             'dcterms:temporal' => 'Islamic Golden Age',
             'sample-data:birthDate' => [
                 '@value' => '0965',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:deathDate' => [
                 '@value' => '1040',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:birthPlace' => 'Basra, Buyid Emirate (modern Iraq)',
@@ -376,7 +384,7 @@ return [
                 'ibn-al-haytham',
                 'nasir-al-din-al-tusi',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q110929048',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q110929048', '@type' => 'uri'],
             'dcterms:title' => 'Ibn Sina',
             'dcterms:alternative' => [
                 'Avicenna',
@@ -397,8 +405,8 @@ return [
                 'Persian',
             ],
             'dcterms:temporal' => 'Islamic Golden Age',
-            'sample-data:birthDate' => '0980',
-            'sample-data:deathDate' => '1037',
+            'sample-data:birthDate' => ['@value' => '0980', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1037', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Afshana, near Bukhara, Samanid Empire',
             'sample-data:deathPlace' => 'Hamadan, Buyid Emirate',
             'map_coordinates' => [
@@ -418,7 +426,7 @@ return [
             'relations' => [
                 'christine-de-pizan',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q70991',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q70991', '@type' => 'uri'],
             'dcterms:title' => 'Hildegard of Bingen',
             'dcterms:alternative' => [
                 'Saint Hildegard',
@@ -440,9 +448,10 @@ return [
             'dcterms:temporal' => 'High Middle Ages',
             'sample-data:birthDate' => [
                 '@value' => '1098',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '1179',
+            'sample-data:deathDate' => ['@value' => '1179', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Bermersheim vor der Höhe, Holy Roman Empire',
             'sample-data:deathPlace' => 'Rupertsberg, Holy Roman Empire',
             'map_coordinates' => [
@@ -463,7 +472,7 @@ return [
                 'ibn-al-haytham',
                 'ibn-sina',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q302835',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q302835', '@type' => 'uri'],
             'dcterms:title' => 'Nasir al-Din al-Tusi',
             'dcterms:alternative' => [
                 'Al-Tusi',
@@ -482,8 +491,8 @@ return [
                 'Persian',
             ],
             'dcterms:temporal' => 'Islamic Golden Age',
-            'sample-data:birthDate' => '1201',
-            'sample-data:deathDate' => '1274',
+            'sample-data:birthDate' => ['@value' => '1201', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1274', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Tus, Khorasan (modern Iran)',
             'sample-data:deathPlace' => 'Baghdad, Ilkhanate',
             'map_coordinates' => [
@@ -503,7 +512,7 @@ return [
                 'ibn-sina',
                 'ibn-battuta',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q43347',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q43347', '@type' => 'uri'],
             'dcterms:title' => 'Rumi',
             'dcterms:alternative' => [
                 'Jalal ad-Din Muhammad Rumi',
@@ -524,8 +533,8 @@ return [
                 'Arabic',
             ],
             'dcterms:temporal' => 'High Middle Ages',
-            'sample-data:birthDate' => '1207',
-            'sample-data:deathDate' => '1273',
+            'sample-data:birthDate' => ['@value' => '1207', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1273', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Vakhsh, Khwarazmian Empire (modern Tajikistan)',
             'sample-data:deathPlace' => 'Konya, Sultanate of Rum',
             'map_coordinates' => [
@@ -544,7 +553,7 @@ return [
             'relations' => [
                 'mansa-musa',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q175772',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q175772', '@type' => 'uri'],
             'dcterms:title' => 'Sundiata Keita',
             'dcterms:alternative' => [
                 'Mari Djata',
@@ -562,10 +571,12 @@ return [
             'dcterms:temporal' => 'High Middle Ages',
             'sample-data:birthDate' => [
                 '@value' => '1217',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:deathDate' => [
                 '@value' => '1255',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:birthPlace' => 'Niani, Mali Empire (modern Guinea-Mali border)',
@@ -588,7 +599,7 @@ return [
                 'murasaki-shikibu',
                 'sor-juana',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q234816',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q234816', '@type' => 'uri'],
             'dcterms:title' => 'Christine de Pizan',
             'dcterms:alternative' => 'Christine de Pisan',
             'sample-data:knownFor' => 'The Book of the City of Ladies — allegorical defense of women\'s virtue and capability; first professional woman writer in European literature',
@@ -603,10 +614,12 @@ return [
             'dcterms:temporal' => 'Late Middle Ages',
             'sample-data:birthDate' => [
                 '@value' => '1364',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:deathDate' => [
                 '@value' => '1430',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:birthPlace' => 'Venice, Republic of Venice',
@@ -628,7 +641,7 @@ return [
                 'zheng-he',
                 'rumi',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7331',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7331', '@type' => 'uri'],
             'dcterms:title' => 'Ibn Battuta',
             'dcterms:alternative' => [
                 'Abu Abdallah Muhammad ibn Battuta',
@@ -644,9 +657,10 @@ return [
             'sample-data:nationality' => 'Moroccan Berber',
             'dcterms:language' => 'Arabic',
             'dcterms:temporal' => 'Late Middle Ages',
-            'sample-data:birthDate' => '1304',
+            'sample-data:birthDate' => ['@value' => '1304', '@type' => 'numeric:timestamp'],
             'sample-data:deathDate' => [
                 '@value' => '1368',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:birthPlace' => 'Tangier, Marinid Sultanate',
@@ -668,7 +682,7 @@ return [
                 'sundiata-keita',
                 'ibn-battuta',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q309333',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q309333', '@type' => 'uri'],
             'dcterms:title' => 'Mansa Musa',
             'dcterms:alternative' => [
                 'Musa I of Mali',
@@ -686,9 +700,10 @@ return [
             'dcterms:temporal' => 'Late Middle Ages',
             'sample-data:birthDate' => [
                 '@value' => '1280',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '1337',
+            'sample-data:deathDate' => ['@value' => '1337', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Mali Empire (West Africa)',
             'sample-data:deathPlace' => 'Mali Empire',
             'map_coordinates' => [
@@ -707,7 +722,7 @@ return [
             'relations' => [
                 'ibn-battuta',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7333',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7333', '@type' => 'uri'],
             'dcterms:title' => 'Zheng He',
             'dcterms:alternative' => [
                 'Ma He',
@@ -727,8 +742,8 @@ return [
                 'Arabic',
             ],
             'dcterms:temporal' => 'Ming Dynasty',
-            'sample-data:birthDate' => '1371',
-            'sample-data:deathDate' => '1433',
+            'sample-data:birthDate' => ['@value' => '1371', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1433', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Kunyang, Yunnan, Ming China',
             'sample-data:deathPlace' => 'Calicut (modern Kozhikode), India',
             'map_coordinates' => [
@@ -747,7 +762,7 @@ return [
             'relations' => [
                 'sundiata-keita',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q51722101',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q51722101', '@type' => 'uri'],
             'dcterms:title' => 'Pachacuti',
             'dcterms:alternative' => [
                 'Pachacutec',
@@ -764,8 +779,8 @@ return [
             'sample-data:nationality' => 'Inca (Quechua)',
             'dcterms:language' => 'Quechua',
             'dcterms:temporal' => 'Late Pre-Columbian',
-            'sample-data:birthDate' => '1418',
-            'sample-data:deathDate' => '1471',
+            'sample-data:birthDate' => ['@value' => '1418', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1471', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Cusco, Inca Empire',
             'sample-data:deathPlace' => 'Cusco, Inca Empire',
             'map_coordinates' => [
@@ -785,7 +800,7 @@ return [
                 'hatshepsut',
                 'wu-zetian',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q467650',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q467650', '@type' => 'uri'],
             'dcterms:title' => 'Queen Nzinga',
             'dcterms:alternative' => [
                 'Ana de Sousa Nzinga Mbande',
@@ -807,9 +822,10 @@ return [
             'dcterms:temporal' => 'Early Modern',
             'sample-data:birthDate' => [
                 '@value' => '1583',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '1663',
+            'sample-data:deathDate' => ['@value' => '1663', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Kabasa, Kingdom of Ndongo (modern Angola)',
             'sample-data:deathPlace' => 'Matamba, Kingdom of Matamba (modern Angola)',
             'map_coordinates' => [
@@ -829,7 +845,7 @@ return [
                 'nasir-al-din-al-tusi',
                 'galileo',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q619',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q619', '@type' => 'uri'],
             'dcterms:title' => 'Nicolaus Copernicus',
             'dcterms:alternative' => [
                 'Mikołaj Kopernik',
@@ -848,8 +864,8 @@ return [
                 'German',
             ],
             'dcterms:temporal' => 'Renaissance',
-            'sample-data:birthDate' => '1473',
-            'sample-data:deathDate' => '1543',
+            'sample-data:birthDate' => ['@value' => '1473', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1543', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Toruń, Royal Prussia (modern Poland)',
             'sample-data:deathPlace' => 'Frombork, Royal Prussia',
             'map_coordinates' => [
@@ -869,7 +885,7 @@ return [
                 'christine-de-pizan',
                 'mary-wollstonecraft',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q183074',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q183074', '@type' => 'uri'],
             'dcterms:title' => 'Sor Juana Inés de la Cruz',
             'dcterms:alternative' => [
                 'Juana Ramírez de Asbaje',
@@ -890,8 +906,8 @@ return [
                 'Latin',
             ],
             'dcterms:temporal' => 'Baroque',
-            'sample-data:birthDate' => '1648',
-            'sample-data:deathDate' => '1695',
+            'sample-data:birthDate' => ['@value' => '1648', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1695', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'San Miguel Nepantla, New Spain (modern Mexico)',
             'sample-data:deathPlace' => 'Mexico City, New Spain',
             'map_coordinates' => [
@@ -911,7 +927,7 @@ return [
                 'copernicus',
                 'isaac-newton',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q307',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q307', '@type' => 'uri'],
             'dcterms:title' => 'Galileo Galilei',
             'dcterms:alternative' => [
                 'Galileo',
@@ -932,8 +948,8 @@ return [
                 'Latin',
             ],
             'dcterms:temporal' => 'Scientific Revolution',
-            'sample-data:birthDate' => '1564',
-            'sample-data:deathDate' => '1642',
+            'sample-data:birthDate' => ['@value' => '1564', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1642', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Pisa, Duchy of Florence',
             'sample-data:deathPlace' => 'Arcetri, Grand Duchy of Tuscany',
             'map_coordinates' => [
@@ -953,7 +969,7 @@ return [
                 'galileo',
                 'ada-lovelace',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q935',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q935', '@type' => 'uri'],
             'dcterms:title' => 'Isaac Newton',
             'dcterms:alternative' => [
                 'Sir Isaac Newton',
@@ -969,8 +985,8 @@ return [
             'sample-data:nationality' => 'English',
             'dcterms:language' => 'English',
             'dcterms:temporal' => 'Scientific Revolution',
-            'sample-data:birthDate' => '1643',
-            'sample-data:deathDate' => '1727',
+            'sample-data:birthDate' => ['@value' => '1643', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1727', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Woolsthorpe-by-Colsterworth, Lincolnshire, England',
             'sample-data:deathPlace' => 'Kensington, Middlesex, England',
             'map_coordinates' => [
@@ -991,7 +1007,7 @@ return [
                 'christine-de-pizan',
                 'ada-lovelace',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q101638',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q101638', '@type' => 'uri'],
             'dcterms:title' => 'Mary Wollstonecraft',
             'dcterms:alternative' => 'Mary Godwin',
             'sample-data:knownFor' => 'A Vindication of the Rights of Woman (1792) — foundational text of feminist political philosophy',
@@ -1004,8 +1020,8 @@ return [
             'sample-data:nationality' => 'English',
             'dcterms:language' => 'English',
             'dcterms:temporal' => 'Enlightenment',
-            'sample-data:birthDate' => '1759',
-            'sample-data:deathDate' => '1797',
+            'sample-data:birthDate' => ['@value' => '1759', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1797', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Spitalfields, London, England',
             'sample-data:deathPlace' => 'Somers Town, London, England',
             'map_coordinates' => [
@@ -1026,7 +1042,7 @@ return [
                 'mary-wollstonecraft',
                 'charles-darwin',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7259',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7259', '@type' => 'uri'],
             'dcterms:title' => 'Ada Lovelace',
             'dcterms:alternative' => [
                 'Augusta Ada King, Countess of Lovelace',
@@ -1041,8 +1057,8 @@ return [
             'sample-data:nationality' => 'English',
             'dcterms:language' => 'English',
             'dcterms:temporal' => 'Victorian Era',
-            'sample-data:birthDate' => '1815',
-            'sample-data:deathDate' => '1852',
+            'sample-data:birthDate' => ['@value' => '1815', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1852', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'London, England',
             'sample-data:deathPlace' => 'Marylebone, London, England',
             'map_coordinates' => [
@@ -1062,7 +1078,7 @@ return [
                 'ada-lovelace',
                 'frederick-douglass',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1035',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1035', '@type' => 'uri'],
             'dcterms:title' => 'Charles Darwin',
             'dcterms:alternative' => [
                 'Charles Robert Darwin',
@@ -1077,8 +1093,8 @@ return [
             'sample-data:nationality' => 'English',
             'dcterms:language' => 'English',
             'dcterms:temporal' => 'Victorian Era',
-            'sample-data:birthDate' => '1809',
-            'sample-data:deathDate' => '1882',
+            'sample-data:birthDate' => ['@value' => '1809', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1882', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Shrewsbury, Shropshire, England',
             'sample-data:deathPlace' => 'Downe, Kent, England',
             'map_coordinates' => [
@@ -1099,7 +1115,7 @@ return [
                 'harriet-tubman',
                 'charles-darwin',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q215562',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q215562', '@type' => 'uri'],
             'dcterms:title' => 'Frederick Douglass',
             'dcterms:alternative' => [
                 'Frederick Augustus Washington Bailey',
@@ -1117,9 +1133,10 @@ return [
             'dcterms:temporal' => 'Victorian Era',
             'sample-data:birthDate' => [
                 '@value' => '1818',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '1895',
+            'sample-data:deathDate' => ['@value' => '1895', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Cordova, Maryland, United States',
             'sample-data:deathPlace' => 'Washington, D.C., United States',
             'map_coordinates' => [
@@ -1139,7 +1156,7 @@ return [
                 'frederick-douglass',
                 'sojourner-truth',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q102870',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q102870', '@type' => 'uri'],
             'dcterms:title' => 'Harriet Tubman',
             'dcterms:alternative' => [
                 'Araminta Ross',
@@ -1157,9 +1174,10 @@ return [
             'dcterms:temporal' => 'Victorian Era',
             'sample-data:birthDate' => [
                 '@value' => '1822',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '1913',
+            'sample-data:deathDate' => ['@value' => '1913', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Dorchester County, Maryland, United States',
             'sample-data:deathPlace' => 'Auburn, New York, United States',
             'map_coordinates' => [
@@ -1178,7 +1196,7 @@ return [
             'relations' => [
                 'sappho',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q232505',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q232505', '@type' => 'uri'],
             'dcterms:title' => 'Enheduanna',
             'dcterms:alternative' => 'En-hedu-ana',
             'sample-data:knownFor' => 'First named author in recorded history; composer of hymns to the moon god Nanna and the goddess Inanna',
@@ -1193,10 +1211,12 @@ return [
             'dcterms:temporal' => 'Akkadian Empire',
             'sample-data:birthDate' => [
                 '@value' => '-2285',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:deathDate' => [
                 '@value' => '-2250',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:birthPlace' => 'Akkad (Mesopotamia, modern Iraq)',
@@ -1218,7 +1238,7 @@ return [
                 'enheduanna',
                 'christine-de-pizan',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q17892',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q17892', '@type' => 'uri'],
             'dcterms:title' => 'Sappho',
             'dcterms:alternative' => [
                 'Psappha',
@@ -1236,10 +1256,12 @@ return [
             'dcterms:temporal' => 'Archaic Greece',
             'sample-data:birthDate' => [
                 '@value' => '-0630',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:deathDate' => [
                 '@value' => '-0570',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:birthPlace' => 'Eressos, Lesbos, Ancient Greece',
@@ -1261,7 +1283,7 @@ return [
                 'ashoka',
                 'zhang-heng',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q4604',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q4604', '@type' => 'uri'],
             'dcterms:title' => 'Confucius',
             'dcterms:alternative' => [
                 'Kong Qiu',
@@ -1281,10 +1303,12 @@ return [
             'dcterms:temporal' => 'Spring and Autumn Period',
             'sample-data:birthDate' => [
                 '@value' => '-0551',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:deathDate' => [
                 '@value' => '-0479',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:birthPlace' => 'Zou, State of Lu (modern Shandong, China)',
@@ -1306,7 +1330,7 @@ return [
                 'zhang-heng',
                 'al-khwarizmi',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q8739',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q8739', '@type' => 'uri'],
             'dcterms:title' => 'Archimedes',
             'dcterms:alternative' => 'Archimedes of Syracuse',
             'sample-data:knownFor' => 'Principle of buoyancy; methods anticipating integral calculus; design of war machines defending Syracuse against Rome',
@@ -1321,10 +1345,12 @@ return [
             'dcterms:temporal' => 'Hellenistic Period',
             'sample-data:birthDate' => [
                 '@value' => '-0287',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:deathDate' => [
                 '@value' => '-0212',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:birthPlace' => 'Syracuse, Magna Graecia (modern Sicily)',
@@ -1346,7 +1372,7 @@ return [
                 'confucius',
                 'sundiata-keita',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q8589',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q8589', '@type' => 'uri'],
             'dcterms:title' => 'Ashoka',
             'dcterms:alternative' => [
                 'Ashoka the Great',
@@ -1368,8 +1394,8 @@ return [
                 'Prakrit',
             ],
             'dcterms:temporal' => 'Maurya Empire',
-            'sample-data:birthDate' => '-0304',
-            'sample-data:deathDate' => '-0232',
+            'sample-data:birthDate' => ['@value' => '-0304', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '-0232', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Pataliputra, Maurya Empire (modern Patna, India)',
             'sample-data:deathPlace' => 'Pataliputra, Maurya Empire',
             'map_coordinates' => [
@@ -1390,7 +1416,7 @@ return [
                 'confucius',
                 'ibn-al-haytham',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q197206',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q197206', '@type' => 'uri'],
             'dcterms:title' => 'Zhang Heng',
             'dcterms:alternative' => [
                 'Chang Heng',
@@ -1407,8 +1433,8 @@ return [
             'sample-data:nationality' => 'Chinese',
             'dcterms:language' => 'Classical Chinese',
             'dcterms:temporal' => 'Han Dynasty',
-            'sample-data:birthDate' => '0078',
-            'sample-data:deathDate' => '0139',
+            'sample-data:birthDate' => ['@value' => '0078', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '0139', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Nanyang, Han China (modern Henan, China)',
             'sample-data:deathPlace' => 'Luoyang, Han China',
             'map_coordinates' => [
@@ -1428,7 +1454,7 @@ return [
                 'cleopatra-vii',
                 'queen-nzinga',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q189687',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q189687', '@type' => 'uri'],
             'dcterms:title' => 'Zenobia',
             'dcterms:alternative' => [
                 'Septimia Zenobia',
@@ -1450,8 +1476,8 @@ return [
                 'Egyptian',
             ],
             'dcterms:temporal' => 'Crisis of the Third Century',
-            'sample-data:birthDate' => '0240',
-            'sample-data:deathDate' => '0274',
+            'sample-data:birthDate' => ['@value' => '0240', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '0274', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Palmyra, Roman Syria (modern Syria)',
             'sample-data:deathPlace' => 'Tibur (Tivoli), Roman Empire',
             'map_coordinates' => [
@@ -1472,7 +1498,7 @@ return [
                 'zenobia',
                 'queen-nzinga',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q44978',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q44978', '@type' => 'uri'],
             'dcterms:title' => 'Theodora',
             'dcterms:alternative' => 'Empress Theodora',
             'sample-data:knownFor' => 'Byzantine empress who co-ruled with Justinian I; her intervention during the Nika riots saved the Empire; champion of women\'s legal rights',
@@ -1488,9 +1514,10 @@ return [
             'dcterms:temporal' => 'Byzantine Empire',
             'sample-data:birthDate' => [
                 '@value' => '0497',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '0548',
+            'sample-data:deathDate' => ['@value' => '0548', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Constantinople (modern Istanbul), Byzantine Empire',
             'sample-data:deathPlace' => 'Constantinople, Byzantine Empire',
             'map_coordinates' => [
@@ -1510,7 +1537,7 @@ return [
                 'al-khwarizmi',
                 'hildegard-of-bingen',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q182363',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q182363', '@type' => 'uri'],
             'dcterms:title' => 'Fatima al-Fihri',
             'dcterms:alternative' => [
                 'Fatima bint Muhammad al-Fihri',
@@ -1526,8 +1553,8 @@ return [
             'sample-data:nationality' => 'Moroccan (Ifriqiyan)',
             'dcterms:language' => 'Arabic',
             'dcterms:temporal' => 'Islamic Golden Age',
-            'sample-data:birthDate' => '0800',
-            'sample-data:deathDate' => '0880',
+            'sample-data:birthDate' => ['@value' => '0800', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '0880', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Kairouan, Aghlabid Emirate (modern Tunisia)',
             'sample-data:deathPlace' => 'Fez, Idrisid dynasty (modern Morocco)',
             'map_coordinates' => [
@@ -1548,7 +1575,7 @@ return [
                 'theodora',
                 'queen-nzinga',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q465076',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q465076', '@type' => 'uri'],
             'dcterms:title' => 'Razia Sultana',
             'dcterms:alternative' => [
                 'Razia al-Din',
@@ -1568,8 +1595,8 @@ return [
                 'Turkish',
             ],
             'dcterms:temporal' => 'Delhi Sultanate',
-            'sample-data:birthDate' => '1205',
-            'sample-data:deathDate' => '1240',
+            'sample-data:birthDate' => ['@value' => '1205', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1240', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Delhi, Delhi Sultanate (modern India)',
             'sample-data:deathPlace' => 'Kaithal, Delhi Sultanate (modern Haryana, India)',
             'map_coordinates' => [
@@ -1589,7 +1616,7 @@ return [
                 'rumi',
                 'sor-juana',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q113809924',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q113809924', '@type' => 'uri'],
             'dcterms:title' => 'Mirabai',
             'dcterms:alternative' => [
                 'Meera',
@@ -1611,8 +1638,8 @@ return [
                 'Hindi',
             ],
             'dcterms:temporal' => 'Mughal Era',
-            'sample-data:birthDate' => '1498',
-            'sample-data:deathDate' => '1547',
+            'sample-data:birthDate' => ['@value' => '1498', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1547', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Kudki, Rajputana (modern Rajasthan, India)',
             'sample-data:deathPlace' => 'Dwarka, Gujarat, India',
             'map_coordinates' => [
@@ -1632,7 +1659,7 @@ return [
                 'akbar',
                 'mansa-musa',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q8474',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q8474', '@type' => 'uri'],
             'dcterms:title' => 'Suleiman the Magnificent',
             'dcterms:alternative' => [
                 'Suleiman I',
@@ -1654,8 +1681,8 @@ return [
                 'Persian',
             ],
             'dcterms:temporal' => 'Ottoman Empire',
-            'sample-data:birthDate' => '1494',
-            'sample-data:deathDate' => '1566',
+            'sample-data:birthDate' => ['@value' => '1494', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1566', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Trabzon, Ottoman Empire (modern Turkey)',
             'sample-data:deathPlace' => 'Szigetvár, Kingdom of Hungary',
             'map_coordinates' => [
@@ -1675,7 +1702,7 @@ return [
                 'suleiman-the-magnificent',
                 'mirabai',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q8597',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q8597', '@type' => 'uri'],
             'dcterms:title' => 'Akbar',
             'dcterms:alternative' => [
                 'Akbar the Great',
@@ -1697,8 +1724,8 @@ return [
                 'Turkish',
             ],
             'dcterms:temporal' => 'Mughal Empire',
-            'sample-data:birthDate' => '1542',
-            'sample-data:deathDate' => '1605',
+            'sample-data:birthDate' => ['@value' => '1542', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1605', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Umerkot, Sindh (modern Pakistan)',
             'sample-data:deathPlace' => 'Fatehpur Sikri, Mughal Empire (modern India)',
             'map_coordinates' => [
@@ -1717,7 +1744,7 @@ return [
             'relations' => [
                 'zheng-he',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q50184',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q50184', '@type' => 'uri'],
             'dcterms:title' => 'Yi Sun-sin',
             'dcterms:alternative' => [
                 'Admiral Yi',
@@ -1733,8 +1760,8 @@ return [
             'sample-data:nationality' => 'Korean',
             'dcterms:language' => 'Korean',
             'dcterms:temporal' => 'Joseon Dynasty',
-            'sample-data:birthDate' => '1545',
-            'sample-data:deathDate' => '1598',
+            'sample-data:birthDate' => ['@value' => '1545', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1598', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Hanseong (modern Seoul), Joseon Korea',
             'sample-data:deathPlace' => 'Noryang, Joseon Korea',
             'map_coordinates' => [
@@ -1755,7 +1782,7 @@ return [
                 'harriet-tubman',
                 'tecumseh',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q205783',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q205783', '@type' => 'uri'],
             'dcterms:title' => 'Toussaint Louverture',
             'dcterms:alternative' => [
                 'François-Dominique Toussaint Louverture',
@@ -1775,8 +1802,8 @@ return [
                 'Haitian Creole',
             ],
             'dcterms:temporal' => 'Age of Revolution',
-            'sample-data:birthDate' => '1743',
-            'sample-data:deathDate' => '1803',
+            'sample-data:birthDate' => ['@value' => '1743', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1803', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Bréda plantation, Saint-Domingue (modern Haiti)',
             'sample-data:deathPlace' => 'Fort de Joux, France',
             'map_coordinates' => [
@@ -1796,7 +1823,7 @@ return [
                 'toussaint-louverture',
                 'pachacuti',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q257808',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q257808', '@type' => 'uri'],
             'dcterms:title' => 'Tecumseh',
             'dcterms:alternative' => [
                 'Tecumtha',
@@ -1817,9 +1844,10 @@ return [
             'dcterms:temporal' => 'Age of Revolution',
             'sample-data:birthDate' => [
                 '@value' => '1768',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '1813',
+            'sample-data:deathDate' => ['@value' => '1813', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Old Piqua, Ohio (modern United States)',
             'sample-data:deathPlace' => 'Moraviantown, Upper Canada (modern Ontario, Canada)',
             'map_coordinates' => [
@@ -1840,7 +1868,7 @@ return [
                 'frederick-douglass',
                 'mary-wollstonecraft',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q105180',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q105180', '@type' => 'uri'],
             'dcterms:title' => 'Sojourner Truth',
             'dcterms:alternative' => [
                 'Isabella Baumfree',
@@ -1861,9 +1889,10 @@ return [
             'dcterms:temporal' => 'Antebellum and Civil War Era',
             'sample-data:birthDate' => [
                 '@value' => '1797',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '1883',
+            'sample-data:deathDate' => ['@value' => '1883', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Swartekill, New York, United States',
             'sample-data:deathPlace' => 'Battle Creek, Michigan, United States',
             'map_coordinates' => [
@@ -1883,7 +1912,7 @@ return [
                 'queen-nzinga',
                 'harriet-tubman',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q467803',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q467803', '@type' => 'uri'],
             'dcterms:title' => 'Yaa Asantewaa',
             'dcterms:alternative' => [
                 'Yaa Asantewaah',
@@ -1901,9 +1930,10 @@ return [
             'dcterms:temporal' => 'Colonial Era',
             'sample-data:birthDate' => [
                 '@value' => '1840',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '1921',
+            'sample-data:deathDate' => ['@value' => '1921', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Besease, Ashanti Empire (modern Ghana)',
             'sample-data:deathPlace' => 'Seychelles (in exile)',
             'map_coordinates' => [
@@ -1923,7 +1953,7 @@ return [
                 'ada-lovelace',
                 'marie-curie',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q9036',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q9036', '@type' => 'uri'],
             'dcterms:title' => 'Nikola Tesla',
             'dcterms:alternative' => [
                 'Никола Тесла',
@@ -1943,8 +1973,8 @@ return [
                 'German',
             ],
             'dcterms:temporal' => 'Gilded Age',
-            'sample-data:birthDate' => '1856',
-            'sample-data:deathDate' => '1943',
+            'sample-data:birthDate' => ['@value' => '1856', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1943', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Smiljan, Austrian Empire (modern Croatia)',
             'sample-data:deathPlace' => 'New York City, United States',
             'map_coordinates' => [
@@ -1966,7 +1996,7 @@ return [
                 'sojourner-truth',
                 'web-du-bois',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q289428',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q289428', '@type' => 'uri'],
             'dcterms:title' => 'Ida B. Wells',
             'dcterms:alternative' => [
                 'Ida Bell Wells-Barnett',
@@ -1982,8 +2012,8 @@ return [
             'sample-data:nationality' => 'American',
             'dcterms:language' => 'English',
             'dcterms:temporal' => 'Gilded Age',
-            'sample-data:birthDate' => '1862',
-            'sample-data:deathDate' => '1931',
+            'sample-data:birthDate' => ['@value' => '1862', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1931', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Holly Springs, Mississippi, United States',
             'sample-data:deathPlace' => 'Chicago, Illinois, United States',
             'map_coordinates' => [
@@ -2004,7 +2034,7 @@ return [
                 'nikola-tesla',
                 'srinivasa-ramanujan',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q6762812',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q6762812', '@type' => 'uri'],
             'dcterms:title' => 'Marie Curie',
             'dcterms:alternative' => [
                 'Maria Skłodowska-Curie',
@@ -2025,8 +2055,8 @@ return [
                 'Russian',
             ],
             'dcterms:temporal' => 'Gilded Age',
-            'sample-data:birthDate' => '1867',
-            'sample-data:deathDate' => '1934',
+            'sample-data:birthDate' => ['@value' => '1867', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1934', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Warsaw, Congress Poland (modern Poland)',
             'sample-data:deathPlace' => 'Passy, France',
             'map_coordinates' => [
@@ -2047,7 +2077,7 @@ return [
                 'frederick-douglass',
                 'ida-b-wells',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q158060',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q158060', '@type' => 'uri'],
             'dcterms:title' => 'W. E. B. Du Bois',
             'dcterms:alternative' => [
                 'William Edward Burghardt Du Bois',
@@ -2063,8 +2093,8 @@ return [
             'sample-data:nationality' => 'American',
             'dcterms:language' => 'English',
             'dcterms:temporal' => 'Gilded Age',
-            'sample-data:birthDate' => '1868',
-            'sample-data:deathDate' => '1963',
+            'sample-data:birthDate' => ['@value' => '1868', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1963', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Great Barrington, Massachusetts, United States',
             'sample-data:deathPlace' => 'Accra, Ghana',
             'map_coordinates' => [
@@ -2084,7 +2114,7 @@ return [
                 'isaac-newton',
                 'marie-curie',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q83163',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q83163', '@type' => 'uri'],
             'dcterms:title' => 'Srinivasa Ramanujan',
             'dcterms:alternative' => [
                 'Srinivasa Ramanujan Aiyangar',
@@ -2101,8 +2131,8 @@ return [
                 'English',
             ],
             'dcterms:temporal' => 'Edwardian Era',
-            'sample-data:birthDate' => '1887',
-            'sample-data:deathDate' => '1920',
+            'sample-data:birthDate' => ['@value' => '1887', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1920', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Erode, Madras Presidency, British India (modern Tamil Nadu, India)',
             'sample-data:deathPlace' => 'Kumbakonam, Madras Presidency, British India',
             'map_coordinates' => [
@@ -2122,7 +2152,7 @@ return [
                 'sappho',
                 'hypatia',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q228564',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q228564', '@type' => 'uri'],
             'dcterms:title' => 'Aspasia',
             'dcterms:alternative' => 'Aspasia of Miletus',
             'sample-data:knownFor' => 'Influential philosopher and rhetorician in Classical Athens; companion of Pericles; her salon attracted Socrates, Plato, and the leading minds of the age',
@@ -2137,9 +2167,10 @@ return [
             'dcterms:temporal' => 'Classical Greece',
             'sample-data:birthDate' => [
                 '@value' => '-0470',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '-0400',
+            'sample-data:deathDate' => ['@value' => '-0400', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Miletus, Ancient Greece (modern Turkey)',
             'sample-data:deathPlace' => 'Athens, Ancient Greece',
             'map_coordinates' => [
@@ -2159,7 +2190,7 @@ return [
                 'ashoka',
                 'ibn-sina',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q3347300',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3347300', '@type' => 'uri'],
             'dcterms:title' => 'Nāgārjuna',
             'dcterms:alternative' => [
                 'Nagarjuna',
@@ -2177,9 +2208,10 @@ return [
             'dcterms:temporal' => 'Kushan Empire',
             'sample-data:birthDate' => [
                 '@value' => '0150',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '0250',
+            'sample-data:deathDate' => ['@value' => '0250', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Vidarbha, India (modern Maharashtra)',
             'sample-data:deathPlace' => 'Nagarjunakonda, India (modern Andhra Pradesh)',
             'map_coordinates' => [
@@ -2199,7 +2231,7 @@ return [
                 'archimedes',
                 'ashoka',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q36456',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q36456', '@type' => 'uri'],
             'dcterms:title' => 'Hannibal Barca',
             'dcterms:alternative' => [
                 'Hannibal',
@@ -2218,8 +2250,8 @@ return [
                 'Greek',
             ],
             'dcterms:temporal' => 'Hellenistic Period',
-            'sample-data:birthDate' => '-0247',
-            'sample-data:deathDate' => '-0183',
+            'sample-data:birthDate' => ['@value' => '-0247', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '-0183', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Carthage (modern Tunisia)',
             'sample-data:deathPlace' => 'Libyssa, Bithynia (modern Turkey)',
             'map_coordinates' => [
@@ -2239,7 +2271,7 @@ return [
                 'zenobia',
                 'trung-trac',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q71352061',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q71352061', '@type' => 'uri'],
             'dcterms:title' => 'Boudicca',
             'dcterms:alternative' => [
                 'Boudica',
@@ -2255,8 +2287,8 @@ return [
             'sample-data:nationality' => 'Celtic British (Iceni)',
             'dcterms:language' => 'Brythonic Celtic',
             'dcterms:temporal' => 'Roman Britain',
-            'sample-data:birthDate' => '0025',
-            'sample-data:deathDate' => '0061',
+            'sample-data:birthDate' => ['@value' => '0025', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '0061', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'East Anglia, Roman Britain (modern England)',
             'sample-data:deathPlace' => 'Midlands, Roman Britain (modern England)',
             'map_coordinates' => [
@@ -2277,7 +2309,7 @@ return [
                 'yi-sun-sin',
                 'queen-nzinga',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q10828670',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q10828670', '@type' => 'uri'],
             'dcterms:title' => 'Trưng Trắc',
             'dcterms:alternative' => [
                 'Trung Trac',
@@ -2294,8 +2326,8 @@ return [
             'sample-data:nationality' => 'Vietnamese (Lạc)',
             'dcterms:language' => 'Vietnamese',
             'dcterms:temporal' => 'Han Dynasty occupation of Vietnam',
-            'sample-data:birthDate' => '0012',
-            'sample-data:deathDate' => '0043',
+            'sample-data:birthDate' => ['@value' => '0012', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '0043', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Mê Linh, Han-controlled Vietnam (modern Vĩnh Phúc Province, Vietnam)',
             'sample-data:deathPlace' => 'Hát Giang River, Vietnam',
             'map_coordinates' => [
@@ -2317,7 +2349,7 @@ return [
                 'nasir-al-din-al-tusi',
                 'rumi',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1815018',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1815018', '@type' => 'uri'],
             'dcterms:title' => 'Omar Khayyam',
             'dcterms:alternative' => [
                 'Ghiyāth ad-Dīn Abū al-Fatḥ ʿUmar ibn Ibrāhīm Khayyām Nīshāpūrī',
@@ -2335,8 +2367,8 @@ return [
                 'Arabic',
             ],
             'dcterms:temporal' => 'Islamic Golden Age',
-            'sample-data:birthDate' => '1048',
-            'sample-data:deathDate' => '1131',
+            'sample-data:birthDate' => ['@value' => '1048', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1131', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Nishapur, Khorasan (modern Iran)',
             'sample-data:deathPlace' => 'Nishapur, Khorasan (modern Iran)',
             'map_coordinates' => [
@@ -2357,7 +2389,7 @@ return [
                 'ibn-battuta',
                 'nasir-al-din-al-tusi',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q101914845',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q101914845', '@type' => 'uri'],
             'dcterms:title' => 'Al-Idrisi',
             'dcterms:alternative' => [
                 'Muhammad al-Idrisi',
@@ -2374,8 +2406,8 @@ return [
             'sample-data:nationality' => 'Moroccan Arab',
             'dcterms:language' => 'Arabic',
             'dcterms:temporal' => 'Islamic Golden Age',
-            'sample-data:birthDate' => '1100',
-            'sample-data:deathDate' => '1165',
+            'sample-data:birthDate' => ['@value' => '1100', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1165', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Ceuta, Almoravid dynasty (modern Morocco)',
             'sample-data:deathPlace' => 'Ceuta (modern Morocco)',
             'map_coordinates' => [
@@ -2395,7 +2427,7 @@ return [
                 'ibn-battuta',
                 'al-idrisi',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q9294',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q9294', '@type' => 'uri'],
             'dcterms:title' => 'Ibn Khaldun',
             'dcterms:alternative' => [
                 'Abd ar-Rahman ibn Khaldun',
@@ -2412,8 +2444,8 @@ return [
             'sample-data:nationality' => 'Tunisian Arab',
             'dcterms:language' => 'Arabic',
             'dcterms:temporal' => 'Late Middle Ages',
-            'sample-data:birthDate' => '1332',
-            'sample-data:deathDate' => '1406',
+            'sample-data:birthDate' => ['@value' => '1332', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1406', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Tunis, Hafsid Sultanate (modern Tunisia)',
             'sample-data:deathPlace' => 'Cairo, Mamluk Sultanate',
             'map_coordinates' => [
@@ -2433,7 +2465,7 @@ return [
                 'sundiata-keita',
                 'mansa-musa',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q383455',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q383455', '@type' => 'uri'],
             'dcterms:title' => 'Afonso I of Kongo',
             'dcterms:alternative' => [
                 'Nzinga a Ntinu Wene',
@@ -2453,8 +2485,8 @@ return [
                 'Portuguese',
             ],
             'dcterms:temporal' => 'Early Modern',
-            'sample-data:birthDate' => '1456',
-            'sample-data:deathDate' => '1542',
+            'sample-data:birthDate' => ['@value' => '1456', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1542', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Mbanza Kongo, Kingdom of Kongo (modern Angola)',
             'sample-data:deathPlace' => 'Mbanza Kongo, Kingdom of Kongo',
             'map_coordinates' => [
@@ -2475,7 +2507,7 @@ return [
                 'afonso-i-kongo',
                 'sor-juana',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q5651653',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q5651653', '@type' => 'uri'],
             'dcterms:title' => 'Bartolomé de las Casas',
             'dcterms:alternative' => [
                 'Fray Bartolomé de las Casas',
@@ -2492,8 +2524,8 @@ return [
             'sample-data:nationality' => 'Spanish',
             'dcterms:language' => 'Spanish',
             'dcterms:temporal' => 'Early Modern',
-            'sample-data:birthDate' => '1484',
-            'sample-data:deathDate' => '1566',
+            'sample-data:birthDate' => ['@value' => '1484', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1566', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Seville, Crown of Castile (modern Spain)',
             'sample-data:deathPlace' => 'Madrid, Crown of Castile',
             'map_coordinates' => [
@@ -2513,7 +2545,7 @@ return [
                 'suleiman-the-magnificent',
                 'sor-juana',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q365749',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q365749', '@type' => 'uri'],
             'dcterms:title' => 'Elizabeth I',
             'dcterms:alternative' => [
                 'Good Queen Bess',
@@ -2535,8 +2567,8 @@ return [
                 'Italian',
             ],
             'dcterms:temporal' => 'Elizabethan Era',
-            'sample-data:birthDate' => '1533',
-            'sample-data:deathDate' => '1603',
+            'sample-data:birthDate' => ['@value' => '1533', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1603', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Greenwich Palace, Kingdom of England',
             'sample-data:deathPlace' => 'Richmond Palace, Kingdom of England',
             'map_coordinates' => [
@@ -2557,7 +2589,7 @@ return [
                 'galileo',
                 'isaac-newton',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q8963',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q8963', '@type' => 'uri'],
             'dcterms:title' => 'Johannes Kepler',
             'dcterms:alternative' => [
                 'Johann Kepler',
@@ -2575,8 +2607,8 @@ return [
                 'German',
             ],
             'dcterms:temporal' => 'Scientific Revolution',
-            'sample-data:birthDate' => '1571',
-            'sample-data:deathDate' => '1630',
+            'sample-data:birthDate' => ['@value' => '1571', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1630', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Weil der Stadt, Duchy of Württemberg (modern Germany)',
             'sample-data:deathPlace' => 'Regensburg, Holy Roman Empire',
             'map_coordinates' => [
@@ -2596,7 +2628,7 @@ return [
                 'zheng-he',
                 'queen-nzinga',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q266715',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q266715', '@type' => 'uri'],
             'dcterms:title' => 'Ching Shih',
             'dcterms:alternative' => [
                 'Zheng Yi Sao',
@@ -2613,8 +2645,8 @@ return [
             'sample-data:nationality' => 'Chinese',
             'dcterms:language' => 'Cantonese',
             'dcterms:temporal' => 'Qing Dynasty',
-            'sample-data:birthDate' => '1775',
-            'sample-data:deathDate' => '1844',
+            'sample-data:birthDate' => ['@value' => '1775', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1844', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Guangdong, Qing China',
             'sample-data:deathPlace' => 'Canton (Guangzhou), Qing China',
             'map_coordinates' => [
@@ -2635,7 +2667,7 @@ return [
                 'frederick-douglass',
                 'toussaint-louverture',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q379887',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q379887', '@type' => 'uri'],
             'dcterms:title' => 'Olaudah Equiano',
             'dcterms:alternative' => [
                 'Gustavus Vassa',
@@ -2654,9 +2686,10 @@ return [
             'dcterms:temporal' => 'Enlightenment',
             'sample-data:birthDate' => [
                 '@value' => '1745',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '1797',
+            'sample-data:deathDate' => ['@value' => '1797', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Essaka, Kingdom of Benin (modern Nigeria)',
             'sample-data:deathPlace' => 'London, England',
             'map_coordinates' => [
@@ -2676,7 +2709,7 @@ return [
                 'toussaint-louverture',
                 'tecumseh',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q8605',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q8605', '@type' => 'uri'],
             'dcterms:title' => 'Simón Bolívar',
             'dcterms:alternative' => [
                 'El Libertador',
@@ -2692,8 +2725,8 @@ return [
             'sample-data:nationality' => 'Venezuelan',
             'dcterms:language' => 'Spanish',
             'dcterms:temporal' => 'Age of Revolution',
-            'sample-data:birthDate' => '1783',
-            'sample-data:deathDate' => '1830',
+            'sample-data:birthDate' => ['@value' => '1783', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1830', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Caracas, Captaincy General of Venezuela (modern Venezuela)',
             'sample-data:deathPlace' => 'Santa Marta, Gran Colombia (modern Colombia)',
             'map_coordinates' => [
@@ -2713,7 +2746,7 @@ return [
                 'tecumseh',
                 'ibn-battuta',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q238960',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q238960', '@type' => 'uri'],
             'dcterms:title' => 'Sacagawea',
             'dcterms:alternative' => [
                 'Sakakawea',
@@ -2735,9 +2768,10 @@ return [
             'dcterms:temporal' => 'Age of Revolution',
             'sample-data:birthDate' => [
                 '@value' => '1788',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '1812',
+            'sample-data:deathDate' => ['@value' => '1812', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Lemhi River valley, Shoshone territory (modern Idaho, United States)',
             'sample-data:deathPlace' => 'Fort Manuel, Missouri Territory (modern South Dakota, United States)',
             'map_coordinates' => [
@@ -2757,7 +2791,7 @@ return [
                 'wu-zetian',
                 'ching-shih',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q47842',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q47842', '@type' => 'uri'],
             'dcterms:title' => 'Empress Dowager Cixi',
             'dcterms:alternative' => [
                 'Tzu Hsi',
@@ -2777,8 +2811,8 @@ return [
                 'Chinese',
             ],
             'dcterms:temporal' => 'Late Qing Dynasty',
-            'sample-data:birthDate' => '1835',
-            'sample-data:deathDate' => '1908',
+            'sample-data:birthDate' => ['@value' => '1835', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1908', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Beijing, Qing China',
             'sample-data:deathPlace' => 'Beijing, Qing China',
             'map_coordinates' => [
@@ -2798,7 +2832,7 @@ return [
                 'harriet-tubman',
                 'yaa-asantewaa',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q963703',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q963703', '@type' => 'uri'],
             'dcterms:title' => 'Mary Seacole',
             'dcterms:alternative' => [
                 'Mary Jane Seacole',
@@ -2814,8 +2848,8 @@ return [
             'sample-data:nationality' => 'Jamaican British',
             'dcterms:language' => 'English',
             'dcterms:temporal' => 'Victorian Era',
-            'sample-data:birthDate' => '1805',
-            'sample-data:deathDate' => '1881',
+            'sample-data:birthDate' => ['@value' => '1805', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1881', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Kingston, Jamaica',
             'sample-data:deathPlace' => 'London, England',
             'map_coordinates' => [
@@ -2835,7 +2869,7 @@ return [
                 'queen-nzinga',
                 'yaa-asantewaa',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q130234684',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q130234684', '@type' => 'uri'],
             'dcterms:title' => 'Lakshmibai',
             'dcterms:alternative' => [
                 'Rani of Jhansi',
@@ -2855,8 +2889,8 @@ return [
                 'Hindi',
             ],
             'dcterms:temporal' => 'Victorian Era',
-            'sample-data:birthDate' => '1828',
-            'sample-data:deathDate' => '1858',
+            'sample-data:birthDate' => ['@value' => '1828', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1858', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Varanasi, Maratha Confederacy, British India',
             'sample-data:deathPlace' => 'Gwalior, Central India',
             'map_coordinates' => [
@@ -2876,7 +2910,7 @@ return [
                 'mahatma-gandhi',
                 'srinivasa-ramanujan',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7241',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7241', '@type' => 'uri'],
             'dcterms:title' => 'Rabindranath Tagore',
             'dcterms:alternative' => [
                 'Gurudev',
@@ -2896,8 +2930,8 @@ return [
                 'English',
             ],
             'dcterms:temporal' => 'Colonial Era',
-            'sample-data:birthDate' => '1861',
-            'sample-data:deathDate' => '1941',
+            'sample-data:birthDate' => ['@value' => '1861', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1941', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Jorasanko, Calcutta, British India (modern Kolkata, India)',
             'sample-data:deathPlace' => 'Jorasanko, Calcutta, British India',
             'map_coordinates' => [
@@ -2917,7 +2951,7 @@ return [
                 'marie-curie',
                 'emmy-noether',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q56189',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q56189', '@type' => 'uri'],
             'dcterms:title' => 'Lise Meitner',
             'dcterms:alternative' => [
                 'Elise Meitner',
@@ -2935,8 +2969,8 @@ return [
                 'English',
             ],
             'dcterms:temporal' => 'Early 20th Century',
-            'sample-data:birthDate' => '1878',
-            'sample-data:deathDate' => '1968',
+            'sample-data:birthDate' => ['@value' => '1878', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1968', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Vienna, Austria-Hungary',
             'sample-data:deathPlace' => 'Cambridge, England',
             'map_coordinates' => [
@@ -2957,7 +2991,7 @@ return [
                 'lise-meitner',
                 'ada-lovelace',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7099',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7099', '@type' => 'uri'],
             'dcterms:title' => 'Emmy Noether',
             'dcterms:alternative' => [
                 'Amalie Emmy Noether',
@@ -2976,8 +3010,8 @@ return [
                 'English',
             ],
             'dcterms:temporal' => 'Early 20th Century',
-            'sample-data:birthDate' => '1882',
-            'sample-data:deathDate' => '1935',
+            'sample-data:birthDate' => ['@value' => '1882', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1935', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Erlangen, Kingdom of Bavaria (modern Germany)',
             'sample-data:deathPlace' => 'Bryn Mawr, Pennsylvania, United States',
             'map_coordinates' => [
@@ -2997,7 +3031,7 @@ return [
                 'rabindranath-tagore',
                 'toussaint-louverture',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1001',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1001', '@type' => 'uri'],
             'dcterms:title' => 'Mahatma Gandhi',
             'dcterms:alternative' => [
                 'Mohandas Karamchand Gandhi',
@@ -3019,8 +3053,8 @@ return [
                 'English',
             ],
             'dcterms:temporal' => 'Colonial Era',
-            'sample-data:birthDate' => '1869',
-            'sample-data:deathDate' => '1948',
+            'sample-data:birthDate' => ['@value' => '1869', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1948', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Porbandar, Kathiawar Agency, British India (modern Gujarat, India)',
             'sample-data:deathPlace' => 'New Delhi, Dominion of India',
             'map_coordinates' => [
@@ -3040,7 +3074,7 @@ return [
                 'ada-lovelace',
                 'emmy-noether',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7251',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7251', '@type' => 'uri'],
             'dcterms:title' => 'Alan Turing',
             'dcterms:alternative' => [
                 'Alan Mathison Turing',
@@ -3058,8 +3092,8 @@ return [
             'sample-data:nationality' => 'English',
             'dcterms:language' => 'English',
             'dcterms:temporal' => 'Early 20th Century',
-            'sample-data:birthDate' => '1912',
-            'sample-data:deathDate' => '1954',
+            'sample-data:birthDate' => ['@value' => '1912', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1954', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Maida Vale, London, England',
             'sample-data:deathPlace' => 'Wilmslow, Cheshire, England',
             'map_coordinates' => [
@@ -3080,7 +3114,7 @@ return [
                 'enheduanna',
                 'archimedes',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q131171',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q131171', '@type' => 'uri'],
             'dcterms:title' => 'Imhotep',
             'dcterms:alternative' => [
                 'Ii-em-Hotep',
@@ -3098,10 +3132,12 @@ return [
             'dcterms:temporal' => 'Old Kingdom Egypt',
             'sample-data:birthDate' => [
                 '@value' => '-2650',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:deathDate' => [
                 '@value' => '-2600',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:birthPlace' => 'Ankhtawy, near Memphis, Ancient Egypt',
@@ -3123,7 +3159,7 @@ return [
                 'enheduanna',
                 'hatshepsut',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q199461',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q199461', '@type' => 'uri'],
             'dcterms:title' => 'Sargon of Akkad',
             'dcterms:alternative' => [
                 'Sargon I',
@@ -3145,10 +3181,12 @@ return [
             'dcterms:temporal' => 'Akkadian Empire',
             'sample-data:birthDate' => [
                 '@value' => '-2334',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:deathDate' => [
                 '@value' => '-2279',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:birthPlace' => 'Azupiranu (location uncertain), Mesopotamia',
@@ -3170,7 +3208,7 @@ return [
                 'wu-zetian',
                 'murasaki-shikibu',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q234451',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q234451', '@type' => 'uri'],
             'dcterms:title' => 'Himiko',
             'dcterms:alternative' => [
                 'Pimiko',
@@ -3186,8 +3224,8 @@ return [
             'sample-data:nationality' => 'Ancient Japanese (Wa)',
             'dcterms:language' => 'Ancient Japanese',
             'dcterms:temporal' => 'Yayoi Period',
-            'sample-data:birthDate' => '0170',
-            'sample-data:deathDate' => '0248',
+            'sample-data:birthDate' => ['@value' => '0170', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '0248', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Yamatai, Wa (ancient Japan)',
             'sample-data:deathPlace' => 'Yamatai, Wa (ancient Japan)',
             'map_coordinates' => [
@@ -3207,7 +3245,7 @@ return [
                 'murasaki-shikibu',
                 'rumi',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7071',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7071', '@type' => 'uri'],
             'dcterms:title' => 'Li Bai',
             'dcterms:alternative' => [
                 'Li Po',
@@ -3224,8 +3262,8 @@ return [
             'sample-data:nationality' => 'Chinese (Tang)',
             'dcterms:language' => 'Classical Chinese',
             'dcterms:temporal' => 'Tang Dynasty',
-            'sample-data:birthDate' => '0701',
-            'sample-data:deathDate' => '0762',
+            'sample-data:birthDate' => ['@value' => '0701', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '0762', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Suyab, Tang Empire (modern Kyrgyzstan)',
             'sample-data:deathPlace' => 'Dangtu, Tang Empire (modern Anhui, China)',
             'map_coordinates' => [
@@ -3247,7 +3285,7 @@ return [
                 'maimonides',
                 'nagarjuna',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q39837',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q39837', '@type' => 'uri'],
             'dcterms:title' => 'Averroes',
             'dcterms:alternative' => [
                 'Ibn Rushd',
@@ -3265,8 +3303,8 @@ return [
             'sample-data:nationality' => 'Andalusian Arab',
             'dcterms:language' => 'Arabic',
             'dcterms:temporal' => 'Islamic Golden Age',
-            'sample-data:birthDate' => '1126',
-            'sample-data:deathDate' => '1198',
+            'sample-data:birthDate' => ['@value' => '1126', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1198', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Córdoba, Almohad Caliphate (modern Spain)',
             'sample-data:deathPlace' => 'Marrakesh, Almohad Caliphate (modern Morocco)',
             'map_coordinates' => [
@@ -3287,7 +3325,7 @@ return [
                 'averroes',
                 'ibn-sina',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q3303399',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3303399', '@type' => 'uri'],
             'dcterms:title' => 'Maimonides',
             'dcterms:alternative' => [
                 'Moses Maimonides',
@@ -3309,8 +3347,8 @@ return [
                 'Judeo-Arabic',
             ],
             'dcterms:temporal' => 'Medieval',
-            'sample-data:birthDate' => '1138',
-            'sample-data:deathDate' => '1204',
+            'sample-data:birthDate' => ['@value' => '1138', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1204', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Córdoba, Almoravid dynasty (modern Spain)',
             'sample-data:deathPlace' => 'Fustat, Ayyubid Sultanate (modern Cairo, Egypt)',
             'map_coordinates' => [
@@ -3330,7 +3368,7 @@ return [
                 'zenobia',
                 'elizabeth-i',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q244007',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q244007', '@type' => 'uri'],
             'dcterms:title' => 'Tamar of Georgia',
             'dcterms:alternative' => [
                 'Queen Tamar',
@@ -3349,8 +3387,8 @@ return [
                 'Greek',
             ],
             'dcterms:temporal' => 'Georgian Golden Age',
-            'sample-data:birthDate' => '1160',
-            'sample-data:deathDate' => '1213',
+            'sample-data:birthDate' => ['@value' => '1160', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1213', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Kutaisi, Kingdom of Georgia (modern Georgia)',
             'sample-data:deathPlace' => 'Agara, Kingdom of Georgia',
             'map_coordinates' => [
@@ -3370,7 +3408,7 @@ return [
                 'wu-zetian',
                 'ching-shih',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q6403237',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q6403237', '@type' => 'uri'],
             'dcterms:title' => 'Khutulun',
             'dcterms:alternative' => [
                 'Aiyurug',
@@ -3389,9 +3427,10 @@ return [
             'dcterms:temporal' => 'Mongol Empire',
             'sample-data:birthDate' => [
                 '@value' => '1260',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '1306',
+            'sample-data:deathDate' => ['@value' => '1306', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Central Asia, Mongol Empire',
             'sample-data:deathPlace' => 'Central Asia, Mongol Empire',
             'map_coordinates' => [
@@ -3411,7 +3450,7 @@ return [
                 'yaa-asantewaa',
                 'queen-nzinga',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2843390',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2843390', '@type' => 'uri'],
             'dcterms:title' => 'Amina of Zaria',
             'dcterms:alternative' => [
                 'Queen Amina',
@@ -3427,9 +3466,10 @@ return [
             'sample-data:nationality' => 'Hausa',
             'dcterms:language' => 'Hausa',
             'dcterms:temporal' => 'Pre-colonial Africa',
-            'sample-data:birthDate' => '1533',
+            'sample-data:birthDate' => ['@value' => '1533', '@type' => 'numeric:timestamp'],
             'sample-data:deathDate' => [
                 '@value' => '1610',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:birthPlace' => 'Zaria, Hausa Kingdoms (modern Nigeria)',
@@ -3451,7 +3491,7 @@ return [
                 'yi-sun-sin',
                 'akbar',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q171977',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q171977', '@type' => 'uri'],
             'dcterms:title' => 'Tokugawa Ieyasu',
             'dcterms:alternative' => [
                 'Matsudaira Motoyasu',
@@ -3467,8 +3507,8 @@ return [
             'sample-data:nationality' => 'Japanese',
             'dcterms:language' => 'Japanese',
             'dcterms:temporal' => 'Sengoku / Early Edo Period',
-            'sample-data:birthDate' => '1543',
-            'sample-data:deathDate' => '1616',
+            'sample-data:birthDate' => ['@value' => '1543', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1616', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Okazaki Castle, Mikawa Province (modern Aichi, Japan)',
             'sample-data:deathPlace' => 'Sunpu Castle, Suruga Province (modern Shizuoka, Japan)',
             'map_coordinates' => [
@@ -3488,7 +3528,7 @@ return [
                 'mary-wollstonecraft',
                 'voltaire',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q9353',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q9353', '@type' => 'uri'],
             'dcterms:title' => 'John Locke',
             'dcterms:alternative' => [
                 'Father of Liberalism',
@@ -3506,8 +3546,8 @@ return [
                 'Latin',
             ],
             'dcterms:temporal' => 'Glorious Revolution',
-            'sample-data:birthDate' => '1632',
-            'sample-data:deathDate' => '1704',
+            'sample-data:birthDate' => ['@value' => '1632', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1704', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Wrington, Somerset, England',
             'sample-data:deathPlace' => 'Oates, Essex, England',
             'map_coordinates' => [
@@ -3527,7 +3567,7 @@ return [
                 'isaac-newton',
                 'emmy-noether',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q9047',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q9047', '@type' => 'uri'],
             'dcterms:title' => 'Gottfried Wilhelm Leibniz',
             'dcterms:alternative' => [
                 'Leibniz',
@@ -3548,8 +3588,8 @@ return [
                 'French',
             ],
             'dcterms:temporal' => 'Scientific Revolution',
-            'sample-data:birthDate' => '1646',
-            'sample-data:deathDate' => '1716',
+            'sample-data:birthDate' => ['@value' => '1646', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1716', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Leipzig, Electorate of Saxony (modern Germany)',
             'sample-data:deathPlace' => 'Hanover, Electorate of Hanover (modern Germany)',
             'map_coordinates' => [
@@ -3569,7 +3609,7 @@ return [
                 'harriet-tubman',
                 'toussaint-louverture',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q274041',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q274041', '@type' => 'uri'],
             'dcterms:title' => 'Nanny of the Maroons',
             'dcterms:alternative' => [
                 'Queen Nanny',
@@ -3589,8 +3629,8 @@ return [
                 'Jamaican Creole',
             ],
             'dcterms:temporal' => 'Colonial Era',
-            'sample-data:birthDate' => '1686',
-            'sample-data:deathDate' => '1755',
+            'sample-data:birthDate' => ['@value' => '1686', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1755', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Gold Coast (modern Ghana)',
             'sample-data:deathPlace' => 'Blue Mountains, Jamaica',
             'map_coordinates' => [
@@ -3610,7 +3650,7 @@ return [
                 'john-locke',
                 'mary-wollstonecraft',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q9068',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q9068', '@type' => 'uri'],
             'dcterms:title' => 'Voltaire',
             'dcterms:alternative' => [
                 'François-Marie Arouet',
@@ -3626,8 +3666,8 @@ return [
             'sample-data:nationality' => 'French',
             'dcterms:language' => 'French',
             'dcterms:temporal' => 'Enlightenment',
-            'sample-data:birthDate' => '1694',
-            'sample-data:deathDate' => '1778',
+            'sample-data:birthDate' => ['@value' => '1694', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1778', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Paris, Kingdom of France',
             'sample-data:deathPlace' => 'Paris, Kingdom of France',
             'map_coordinates' => [
@@ -3647,7 +3687,7 @@ return [
                 'murasaki-shikibu',
                 'sor-juana',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q182874',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q182874', '@type' => 'uri'],
             'dcterms:title' => 'Cao Xueqin',
             'dcterms:alternative' => [
                 'Ts\'ao Hsueh-ch\'in',
@@ -3663,9 +3703,10 @@ return [
             'sample-data:nationality' => 'Chinese (Manchu-Chinese)',
             'dcterms:language' => 'Classical Chinese',
             'dcterms:temporal' => 'Qing Dynasty',
-            'sample-data:birthDate' => '1715',
+            'sample-data:birthDate' => ['@value' => '1715', '@type' => 'numeric:timestamp'],
             'sample-data:deathDate' => [
                 '@value' => '1763',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'sample-data:birthPlace' => 'Nanjing, Qing China',
@@ -3688,7 +3729,7 @@ return [
                 'zheng-he',
                 'sacagawea',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q214910',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q214910', '@type' => 'uri'],
             'dcterms:title' => 'Kamehameha I',
             'dcterms:alternative' => [
                 'Kamehameha the Great',
@@ -3706,9 +3747,10 @@ return [
             'dcterms:temporal' => 'Age of Revolution',
             'sample-data:birthDate' => [
                 '@value' => '1758',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '1819',
+            'sample-data:deathDate' => ['@value' => '1819', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Kohala District, Island of Hawaii',
             'sample-data:deathPlace' => 'Kailua, Island of Hawaii',
             'map_coordinates' => [
@@ -3728,7 +3770,7 @@ return [
                 'tecumseh',
                 'sacagawea',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q313595',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q313595', '@type' => 'uri'],
             'dcterms:title' => 'Sequoyah',
             'dcterms:alternative' => [
                 'George Gist',
@@ -3750,9 +3792,10 @@ return [
             'dcterms:temporal' => 'Early 19th Century',
             'sample-data:birthDate' => [
                 '@value' => '1770',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '1843',
+            'sample-data:deathDate' => ['@value' => '1843', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Tuskegee, Cherokee territory (modern Tennessee, United States)',
             'sample-data:deathPlace' => 'San Fernando de Rosas, Mexico (modern Tamaulipas, Mexico)',
             'map_coordinates' => [
@@ -3772,7 +3815,7 @@ return [
                 'yaa-asantewaa',
                 'queen-nzinga',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q451624',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q451624', '@type' => 'uri'],
             'dcterms:title' => 'Shaka',
             'dcterms:alternative' => [
                 'Shaka Zulu',
@@ -3788,8 +3831,8 @@ return [
             'sample-data:nationality' => 'Zulu',
             'dcterms:language' => 'Zulu',
             'dcterms:temporal' => 'Age of Revolution',
-            'sample-data:birthDate' => '1787',
-            'sample-data:deathDate' => '1828',
+            'sample-data:birthDate' => ['@value' => '1787', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1828', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Near present-day Melmoth, KwaZulu-Natal, South Africa',
             'sample-data:deathPlace' => 'KwaDukuza, KwaZulu-Natal, South Africa',
             'map_coordinates' => [
@@ -3809,7 +3852,7 @@ return [
                 'mary-wollstonecraft',
                 'ada-lovelace',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q47152',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q47152', '@type' => 'uri'],
             'dcterms:title' => 'Mary Shelley',
             'dcterms:alternative' => [
                 'Mary Wollstonecraft Shelley',
@@ -3825,8 +3868,8 @@ return [
             'sample-data:nationality' => 'British',
             'dcterms:language' => 'English',
             'dcterms:temporal' => 'Romantic Era',
-            'sample-data:birthDate' => '1797',
-            'sample-data:deathDate' => '1851',
+            'sample-data:birthDate' => ['@value' => '1797', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1851', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Somers Town, London, England',
             'sample-data:deathPlace' => 'Chester Square, London, England',
             'map_coordinates' => [
@@ -3846,7 +3889,7 @@ return [
                 'charles-darwin',
                 'galileo',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q230491',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q230491', '@type' => 'uri'],
             'dcterms:title' => 'Mary Anning',
             'dcterms:alternative' => [
                 'The Greatest Fossilist the World Ever Knew',
@@ -3861,8 +3904,8 @@ return [
             'sample-data:nationality' => 'English',
             'dcterms:language' => 'English',
             'dcterms:temporal' => 'Romantic Era',
-            'sample-data:birthDate' => '1799',
-            'sample-data:deathDate' => '1847',
+            'sample-data:birthDate' => ['@value' => '1799', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1847', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Lyme Regis, Dorset, England',
             'sample-data:deathPlace' => 'Lyme Regis, Dorset, England',
             'map_coordinates' => [
@@ -3882,7 +3925,7 @@ return [
                 'mary-wollstonecraft',
                 'ida-b-wells',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q131333',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q131333', '@type' => 'uri'],
             'dcterms:title' => 'George Eliot',
             'dcterms:alternative' => [
                 'Mary Ann Evans',
@@ -3898,8 +3941,8 @@ return [
             'sample-data:nationality' => 'English',
             'dcterms:language' => 'English',
             'dcterms:temporal' => 'Victorian Era',
-            'sample-data:birthDate' => '1819',
-            'sample-data:deathDate' => '1880',
+            'sample-data:birthDate' => ['@value' => '1819', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1880', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Nuneaton, Warwickshire, England',
             'sample-data:deathPlace' => 'Chelsea, London, England',
             'map_coordinates' => [
@@ -3919,7 +3962,7 @@ return [
                 'mary-seacole',
                 'marie-curie',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q37103',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q37103', '@type' => 'uri'],
             'dcterms:title' => 'Florence Nightingale',
             'dcterms:alternative' => [
                 'The Lady with the Lamp',
@@ -3939,8 +3982,8 @@ return [
                 'Italian',
             ],
             'dcterms:temporal' => 'Victorian Era',
-            'sample-data:birthDate' => '1820',
-            'sample-data:deathDate' => '1910',
+            'sample-data:birthDate' => ['@value' => '1820', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1910', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Florence, Grand Duchy of Tuscany (modern Italy)',
             'sample-data:deathPlace' => 'Mayfair, London, England',
             'map_coordinates' => [
@@ -3960,7 +4003,7 @@ return [
                 'tecumseh',
                 'sacagawea',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q43527',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q43527', '@type' => 'uri'],
             'dcterms:title' => 'Sitting Bull',
             'dcterms:alternative' => [
                 'Tȟatȟáŋka Íyotȟake',
@@ -3979,9 +4022,10 @@ return [
             'dcterms:temporal' => 'Gilded Age',
             'sample-data:birthDate' => [
                 '@value' => '1831',
+                '@type' => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
-            'sample-data:deathDate' => '1890',
+            'sample-data:deathDate' => ['@value' => '1890', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Grand River, Dakota Territory (modern South Dakota, United States)',
             'sample-data:deathPlace' => 'Standing Rock Reservation, Dakota Territory',
             'map_coordinates' => [
@@ -4001,7 +4045,7 @@ return [
                 'nikola-tesla',
                 'emmy-noether',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q9095',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q9095', '@type' => 'uri'],
             'dcterms:title' => 'James Clerk Maxwell',
             'dcterms:alternative' => [
                 'Maxwell',
@@ -4017,8 +4061,8 @@ return [
             'sample-data:nationality' => 'Scottish',
             'dcterms:language' => 'English',
             'dcterms:temporal' => 'Victorian Era',
-            'sample-data:birthDate' => '1831',
-            'sample-data:deathDate' => '1879',
+            'sample-data:birthDate' => ['@value' => '1831', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1879', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Edinburgh, Scotland',
             'sample-data:deathPlace' => 'Cambridge, England',
             'map_coordinates' => [
@@ -4038,7 +4082,7 @@ return [
                 'nasir-al-din-al-tusi',
                 'emmy-noether',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q3138460',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3138460', '@type' => 'uri'],
             'dcterms:title' => 'Wang Zhenyi',
             'dcterms:alternative' => [
                 'Wang Chen-i',
@@ -4054,8 +4098,8 @@ return [
             'sample-data:nationality' => 'Chinese (Qing)',
             'dcterms:language' => 'Classical Chinese',
             'dcterms:temporal' => 'Qing Dynasty',
-            'sample-data:birthDate' => '1768',
-            'sample-data:deathDate' => '1797',
+            'sample-data:birthDate' => ['@value' => '1768', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1797', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Jiangning, Qing China (modern Nanjing, China)',
             'sample-data:deathPlace' => 'Tongcheng, Anhui Province, Qing China',
             'map_coordinates' => [
@@ -4075,7 +4119,7 @@ return [
                 'lise-meitner',
                 'marie-curie',
             ],
-            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7474',
+            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7474', '@type' => 'uri'],
             'dcterms:title' => 'Rosalind Franklin',
             'dcterms:alternative' => [
                 'Rosalind Elsie Franklin',
@@ -4093,8 +4137,8 @@ return [
                 'French',
             ],
             'dcterms:temporal' => 'Early 20th Century',
-            'sample-data:birthDate' => '1920',
-            'sample-data:deathDate' => '1958',
+            'sample-data:birthDate' => ['@value' => '1920', '@type' => 'numeric:timestamp'],
+            'sample-data:deathDate' => ['@value' => '1958', '@type' => 'numeric:timestamp'],
             'sample-data:birthPlace' => 'Notting Hill, London, England',
             'sample-data:deathPlace' => 'Chelsea, London, England',
             'map_coordinates' => [

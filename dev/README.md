@@ -318,15 +318,19 @@ return [
 
             // Any installed vocabulary term can be used here — the importer
             // resolves term strings at runtime, so foaf:name, schema:*, etc.
-            // all work as long as the vocabulary is installed. Terms from
-            // missing vocabularies are silently skipped. Values can be strings
-            // or arrays of strings.
+            // all work as long as the vocabulary is installed. Values can be:
+            //   'string'                           — plain literal
+            //   ['@value' => '...', '@type' => '...']  — typed value
+            //   ['@value' => '...', '@annotation' => [...]]  — annotated value
+            //   ['str1', 'str2']                   — multiple plain literals
+            // Terms from missing vocabularies are silently skipped.
             'dcterms:title'       => 'My Item',
             'dcterms:description' => 'A longer description of this item.',
-            'dcterms:created'     => '1850',             // numeric:timestamp — type set in resource template
+            'dcterms:created'     => ['@value' => '1850', '@type' => 'numeric:timestamp'],
             // Annotated value — attach metadata to the value itself:
             'dcterms:date'        => [
                 '@value'      => '1850',
+                '@type'       => 'numeric:timestamp',
                 '@annotation' => ['sample-data:qualifier' => 'approximate'],
             ],
             'dcterms:subject'     => ['Tag One', 'Tag Two'],
@@ -348,6 +352,7 @@ keys instead of a plain string:
 ```php
 'sample-data:birthDate' => [
     '@value'      => '-0551',
+    '@type'       => 'numeric:timestamp',
     '@annotation' => ['sample-data:qualifier' => 'approximate'],
 ],
 ```
@@ -371,16 +376,28 @@ multiple unannotated values of the same property:
 
 #### Numeric data types
 
-When the `NumericDataTypes` module is active, values for properties with
-`data_type` set are stored as typed numeric values. When it is inactive they
-are stored as plain text. Supported types: `numeric:timestamp`, `numeric:duration`,
-`numeric:interval`, `numeric:integer`.
+Set `@type` on a value object to store it as a typed numeric value when the
+`NumericDataTypes` module is active. When the module is inactive, numeric values
+fall back to plain text automatically. Supported types: `numeric:timestamp`,
+`numeric:duration`, `numeric:interval`, `numeric:integer`.
+
+```php
+'dcterms:created' => ['@value' => '1850', '@type' => 'numeric:timestamp'],
+'dcterms:extent'  => ['@value' => 'P250Y', '@type' => 'numeric:duration'],
+'dcterms:temporal' => ['@value' => '-500/-323', '@type' => 'numeric:interval'],
+'sample-data:area' => ['@value' => '150000', '@type' => 'numeric:integer'],
+```
 
 Value formats:
 - `numeric:timestamp` — ISO 8601 year or date: `'1850'`, `'-500'`, `'1850-06-15'`
 - `numeric:duration` — ISO 8601 duration: `'P250Y'` (250 years), `'P1Y6M'`
 - `numeric:interval` — ISO 8601 interval: `'-500/-323'`
 - `numeric:integer` — plain integer string: `'150000'`
+
+The resource template's `data_type` entries (e.g. `['term' => 'dcterms:created',
+'data_type' => ['numeric:timestamp']]`) are for the Omeka S admin UI only —
+they constrain which data types the form offers when editing items. They do not
+drive import typing; `@type` on the value does.
 
 ### 3. Register in module.config.php
 

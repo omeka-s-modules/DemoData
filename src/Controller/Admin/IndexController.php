@@ -1,12 +1,12 @@
 <?php
-namespace SampleData\Controller\Admin;
+namespace DemoData\Controller\Admin;
 
 use Exception;
 use Laminas\Form\Element\Csrf;
 use Laminas\Mvc\Controller\AbstractActionController;
 use Laminas\View\Model\ViewModel;
-use SampleData\Job\Import;
-use SampleData\Job\Purge;
+use DemoData\Job\Import;
+use DemoData\Job\Purge;
 
 class IndexController extends AbstractActionController
 {
@@ -31,30 +31,30 @@ class IndexController extends AbstractActionController
     public function indexAction()
     {
         if ($this->getRequest()->isPost()) {
-            $csrf = new Csrf('sample_data_csrf');
+            $csrf = new Csrf('demo_data_csrf');
             if (!$csrf->getCsrfValidator()->isValid($this->params()->fromPost('csrf', ''))) {
                 $this->messenger()->addError('Invalid or expired security token. Please try again.');
-                return $this->redirect()->toRoute('admin/sample-data');
+                return $this->redirect()->toRoute('admin/demo-data');
             }
 
             $dataset = $this->params()->fromPost('dataset');
             $action = $this->params()->fromPost('action');
 
             if (!isset($this->datasets[$dataset]) || !isset(self::JOBS[$action])) {
-                return $this->redirect()->toRoute('admin/sample-data');
+                return $this->redirect()->toRoute('admin/demo-data');
             }
 
             $args = ['dataset' => $dataset];
             if ($action === 'import') {
                 $args['media_base_url'] = sprintf(
-                    '%smodules/SampleData/datasets/',
+                    '%smodules/DemoData/datasets/',
                     $this->url()->fromRoute('top', [], ['force_canonical' => true])
                 );
             }
 
             $job = $this->jobDispatcher()->dispatch(self::JOBS[$action]['class'], $args);
 
-            $this->settings()->set("sample_data_job_{$dataset}", [
+            $this->settings()->set("demo_data_job_{$dataset}", [
                 'job_id' => $job->getId(),
                 'action' => $action,
             ]);
@@ -64,14 +64,14 @@ class IndexController extends AbstractActionController
                 $this->datasets[$dataset]['label']
             ));
 
-            return $this->redirect()->toRoute('admin/sample-data');
+            return $this->redirect()->toRoute('admin/demo-data');
         }
 
         $settings = $this->settings();
         $datasets = [];
 
         foreach ($this->datasets as $name => $config) {
-            $tracking = $settings->get("sample_data_imported_{$name}");
+            $tracking = $settings->get("demo_data_imported_{$name}");
             $datasets[$name] = $config + [
                 'name'             => $name,
                 'imported'         => (bool) $tracking,
@@ -82,7 +82,7 @@ class IndexController extends AbstractActionController
                 'job_failed'       => false,
             ];
 
-            $pendingJob = $settings->get("sample_data_job_{$name}");
+            $pendingJob = $settings->get("demo_data_job_{$name}");
             if (!$pendingJob) {
                 continue;
             }
@@ -103,13 +103,13 @@ class IndexController extends AbstractActionController
                     $datasets[$name]['job_failed'] = true;
                     $datasets[$name]['view_job_id'] = $jobId;
                     $pendingJob['failed'] = true;
-                    $settings->set("sample_data_job_{$name}", $pendingJob);
+                    $settings->set("demo_data_job_{$name}", $pendingJob);
                 } else {
-                    $settings->delete("sample_data_job_{$name}");
+                    $settings->delete("demo_data_job_{$name}");
                 }
             } catch (Exception $e) {
                 // Job record unreadable (likely deleted); remove the stale tracking entry.
-                $settings->delete("sample_data_job_{$name}");
+                $settings->delete("demo_data_job_{$name}");
             }
         }
 

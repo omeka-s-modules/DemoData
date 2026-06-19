@@ -14,7 +14,7 @@ return [
     ['type' => 'field_order', 'fields' => [
         'id', 'class', 'sets', 'relations', 'dcterms:identifier',
         'dcterms:title', 'dcterms:creator', 'dcterms:created', 'dcterms:description',
-        'dcterms:subject', 'dcterms:medium', 'dcterms:publisher', 'sample-data:movement',
+        'dcterms:subject', 'dcterms:medium', 'dcterms:publisher', 'demo-data:movement',
         'map_coordinates', 'media',
     ]],
     ['type' => 'override', 'commons_file_overrides' => [

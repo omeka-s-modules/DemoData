@@ -1,11 +1,11 @@
 <?php
-namespace SampleData\Job;
+namespace DemoData\Job;
 
 use Omeka\Api\Exception\NotFoundException;
 use Omeka\Job\AbstractJob;
 use Throwable;
 
-abstract class AbstractSampleDataJob extends AbstractJob
+abstract class AbstractDemoDataJob extends AbstractJob
 {
     protected function get(string $serviceName)
     {
@@ -14,7 +14,7 @@ abstract class AbstractSampleDataJob extends AbstractJob
 
     protected function clearPendingJob(string $dataset): void
     {
-        $this->get('Omeka\Settings')->delete("sample_data_job_{$dataset}");
+        $this->get('Omeka\Settings')->delete("demo_data_job_{$dataset}");
     }
 
     /**

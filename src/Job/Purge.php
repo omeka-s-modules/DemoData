@@ -1,10 +1,10 @@
 <?php
-namespace SampleData\Job;
+namespace DemoData\Job;
 
 /**
- * Purge a previously imported sample dataset, removing all items, item sets, and the resource template.
+ * Purge a previously imported demo dataset, removing all items, item sets, and the resource template.
  */
-class Purge extends AbstractSampleDataJob
+class Purge extends AbstractDemoDataJob
 {
     public function perform(): void
     {
@@ -12,7 +12,7 @@ class Purge extends AbstractSampleDataJob
         $logger = $this->get('Omeka\Logger');
 
         $dataset = $this->getArg('dataset');
-        $tracking = $settings->get("sample_data_imported_{$dataset}");
+        $tracking = $settings->get("demo_data_imported_{$dataset}");
 
         if (!$tracking) {
             $logger->info('Nothing to purge — dataset not recorded as imported.');
@@ -26,7 +26,7 @@ class Purge extends AbstractSampleDataJob
         ));
 
         $this->purgeDataset($tracking);
-        $settings->delete("sample_data_imported_{$dataset}");
+        $settings->delete("demo_data_imported_{$dataset}");
         $this->clearPendingJob($dataset);
         $logger->info('Purge complete.');
     }

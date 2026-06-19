@@ -1,6 +1,6 @@
 # dev/
 
-Build tools for the SampleData module. None of these files are shipped with the module.
+Build tools for the DemoData module. None of these files are shipped with the module.
 
 ## Contents
 
@@ -25,7 +25,7 @@ cp dev/config.php.dist dev/config.php
 Register an owner-only OAuth 2.0 consumer at
 `https://meta.wikimedia.org/wiki/Special:OAuthConsumerRegistration/propose`
 to get an access token. The user agent string should identify your app,
-e.g. `YourName/SampleData-build (your@email.example)`.
+e.g. `YourName/DemoData-build (your@email.example)`.
 
 `config.php` is gitignored. Do not commit it.
 
@@ -267,12 +267,12 @@ return [
 
     // -------------------------------------------------------------------------
     // Resource template
-    // The label should use the "Sample Data: " prefix to avoid conflicts with
+    // The label should use the "Demo Data: " prefix to avoid conflicts with
     // user-created templates. Properties not found in any installed vocabulary
     // are silently skipped on import.
     // -------------------------------------------------------------------------
     'resource_template' => [
-        'label' => 'Sample Data: My Item',
+        'label' => 'Demo Data: My Item',
         'properties' => [
             ['term' => 'dcterms:title'],
             ['term' => 'dcterms:description'],
@@ -280,8 +280,8 @@ return [
             ['term' => 'dcterms:date', 'data_type' => ['numeric:timestamp']],
             // alternate_label overrides the property label in the form:
             ['term' => 'dcterms:relation', 'data_type' => ['resource'], 'alternate_label' => 'Related Items'],
-            // sample-data vocabulary terms:
-            ['term' => 'sample-data:knownFor'],
+            // demo-data vocabulary terms:
+            ['term' => 'demo-data:knownFor'],
         ],
     ],
 
@@ -294,9 +294,9 @@ return [
             // inter-item relation links and media file naming.
             'id' => 'my-item',
 
-            // Resource class from the sample-data vocabulary (optional).
+            // Resource class from the demo-data vocabulary (optional).
             // See "Vocabulary" section below for available classes.
-            'class' => 'sample-data:Person',
+            'class' => 'demo-data:Person',
 
             // Item set keys from the item_sets array above.
             'sets' => ['main', 'subcategory-one'],
@@ -331,7 +331,7 @@ return [
             'dcterms:date'        => [
                 '@value'      => '1850',
                 '@type'       => 'numeric:timestamp',
-                '@annotation' => ['sample-data:qualifier' => 'approximate'],
+                '@annotation' => ['demo-data:qualifier' => 'approximate'],
             ],
             'dcterms:subject'     => ['Tag One', 'Tag Two'],
 
@@ -352,10 +352,10 @@ rather than to the item. Use an associative array with `@value` and `@annotation
 keys instead of a plain string:
 
 ```php
-'sample-data:birthDate' => [
+'demo-data:birthDate' => [
     '@value'      => '-0551',
     '@type'       => 'numeric:timestamp',
-    '@annotation' => ['sample-data:qualifier' => 'approximate'],
+    '@annotation' => ['demo-data:qualifier' => 'approximate'],
 ],
 ```
 
@@ -364,7 +364,7 @@ plain string. Multiple annotation properties are supported:
 
 ```php
 '@annotation' => [
-    'sample-data:qualifier' => 'approximate',
+    'demo-data:qualifier' => 'approximate',
 ],
 ```
 
@@ -387,7 +387,7 @@ fall back to plain text automatically. Supported types: `numeric:timestamp`,
 'dcterms:created' => ['@value' => '1850', '@type' => 'numeric:timestamp'],
 'dcterms:extent'  => ['@value' => 'P250Y', '@type' => 'numeric:duration'],
 'dcterms:temporal' => ['@value' => '-500/-323', '@type' => 'numeric:interval'],
-'sample-data:area' => ['@value' => '150000', '@type' => 'numeric:integer'],
+'demo-data:area' => ['@value' => '150000', '@type' => 'numeric:integer'],
 ```
 
 Value formats:
@@ -403,7 +403,7 @@ drive import typing; `@type` on the value does.
 
 ### 3. Register in module.config.php
 
-Add an entry to the `sample_data.datasets` array in `config/module.config.php`:
+Add an entry to the `demo_data.datasets` array in `config/module.config.php`:
 
 ```php
 'my-dataset' => [
@@ -437,7 +437,7 @@ script cannot match correctly (see **Strategies** above).
 
 ## Vocabulary
 
-The `sample-data` vocabulary (`https://omeka.org/s/vocabs/sample-data#`) is
+The `demo-data` vocabulary (`https://omeka.org/s/vocabs/demo-data#`) is
 installed by the module. Use its terms as `class` values and property terms in
 dataset files.
 
@@ -445,35 +445,35 @@ dataset files.
 
 | Term | Label |
 |------|-------|
-| `sample-data:Empire` | Empire |
-| `sample-data:Kingdom` | Kingdom |
-| `sample-data:Dynasty` | Dynasty |
-| `sample-data:City-state` | City-state |
-| `sample-data:Confederation` | Confederation |
-| `sample-data:CulturalPeriod` | Cultural Period |
-| `sample-data:Republic` | Republic |
-| `sample-data:Painting` | Painting |
-| `sample-data:Sculpture` | Sculpture |
-| `sample-data:WorkOnPaper` | Work on Paper |
-| `sample-data:Manuscript` | Manuscript |
-| `sample-data:Letter` | Letter |
-| `sample-data:Diary` | Diary |
-| `sample-data:Memorandum` | Memorandum |
-| `sample-data:Report` | Report |
-| `sample-data:Newspaper` | Newspaper |
-| `sample-data:Person` | Person |
+| `demo-data:Empire` | Empire |
+| `demo-data:Kingdom` | Kingdom |
+| `demo-data:Dynasty` | Dynasty |
+| `demo-data:City-state` | City-state |
+| `demo-data:Confederation` | Confederation |
+| `demo-data:CulturalPeriod` | Cultural Period |
+| `demo-data:Republic` | Republic |
+| `demo-data:Painting` | Painting |
+| `demo-data:Sculpture` | Sculpture |
+| `demo-data:WorkOnPaper` | Work on Paper |
+| `demo-data:Manuscript` | Manuscript |
+| `demo-data:Letter` | Letter |
+| `demo-data:Diary` | Diary |
+| `demo-data:Memorandum` | Memorandum |
+| `demo-data:Report` | Report |
+| `demo-data:Newspaper` | Newspaper |
+| `demo-data:Person` | Person |
 
 ### Properties
 
 | Term | Label | Used in |
 |------|-------|---------|
-| `sample-data:movement` | Movement | Artworks |
-| `sample-data:peakDate` | Peak Date | Civilizations |
-| `sample-data:area` | Area | Civilizations |
-| `sample-data:birthDate` | Birth Date | People |
-| `sample-data:deathDate` | Death Date | People |
-| `sample-data:birthPlace` | Birth Place | People |
-| `sample-data:deathPlace` | Death Place | People |
-| `sample-data:nationality` | Nationality | People |
-| `sample-data:knownFor` | Known For | People |
-| `sample-data:qualifier` | Qualifier | People (value annotations) |
+| `demo-data:movement` | Movement | Artworks |
+| `demo-data:peakDate` | Peak Date | Civilizations |
+| `demo-data:area` | Area | Civilizations |
+| `demo-data:birthDate` | Birth Date | People |
+| `demo-data:deathDate` | Death Date | People |
+| `demo-data:birthPlace` | Birth Place | People |
+| `demo-data:deathPlace` | Death Place | People |
+| `demo-data:nationality` | Nationality | People |
+| `demo-data:knownFor` | Known For | People |
+| `demo-data:qualifier` | Qualifier | People (value annotations) |

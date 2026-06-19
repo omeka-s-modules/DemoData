@@ -80,7 +80,7 @@ class MediaBuilder
 
         $configFile = __DIR__ . '/config.php';
         $config = file_exists($configFile) ? require $configFile : [];
-        $this->userAgent = $config['wikidata_user_agent'] ?? 'omeka-s/SampleData-module build-media/1.0 (https://omeka.org)';
+        $this->userAgent = $config['wikidata_user_agent'] ?? 'omeka-s/DemoData-module build-media/1.0 (https://omeka.org)';
         $this->oauthToken = $config['wikidata_access_token'] ?? null;
 
         $strategyFile = __DIR__ . "/strategies/$dataset.php";

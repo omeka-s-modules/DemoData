@@ -19,7 +19,7 @@ return [
         'id', 'class', 'sets', 'relations', 'dcterms:identifier',
         'map_bounds', 'map_coordinates',
         'dcterms:title', 'dcterms:description', 'dcterms:subject', 'dcterms:date',
-        'dcterms:extent', 'dcterms:temporal', 'sample-data:peakDate', 'sample-data:area',
+        'dcterms:extent', 'dcterms:temporal', 'demo-data:peakDate', 'demo-data:area',
         'media',
     ]],
     ['type' => 'override', 'commons_file_overrides' => [

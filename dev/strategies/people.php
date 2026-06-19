@@ -2,10 +2,10 @@
 return [
     ['type' => 'field_order', 'fields' => [
         'id', 'class', 'sets', 'relations', 'dcterms:identifier',
-        'dcterms:title', 'dcterms:alternative', 'sample-data:knownFor', 'dcterms:description',
-        'dcterms:subject', 'sample-data:nationality', 'dcterms:language', 'dcterms:temporal',
-        'sample-data:birthDate', 'sample-data:deathDate', 'sample-data:birthPlace',
-        'sample-data:deathPlace', 'map_coordinates', 'media',
+        'dcterms:title', 'dcterms:alternative', 'demo-data:knownFor', 'dcterms:description',
+        'dcterms:subject', 'demo-data:nationality', 'dcterms:language', 'dcterms:temporal',
+        'demo-data:birthDate', 'demo-data:deathDate', 'demo-data:birthPlace',
+        'demo-data:deathPlace', 'map_coordinates', 'media',
     ]],
     ['type' => 'override', 'qid_overrides' => [
         'queen-nzinga'  => 'Q467650',  // Wikidata label: "Nzingha Mbande"

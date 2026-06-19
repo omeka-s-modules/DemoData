@@ -51,7 +51,7 @@ class IdentifierBuilder
         $configFile = __DIR__ . '/config.php';
         $config = file_exists($configFile) ? require $configFile : [];
         $this->userAgent  = $config['wikidata_user_agent']
-            ?? 'omeka-s/SampleData-module build-identifiers/1.0 (https://omeka.org)';
+            ?? 'omeka-s/DemoData-module build-identifiers/1.0 (https://omeka.org)';
         $this->oauthToken = $config['wikidata_access_token'] ?? null;
     }
 

@@ -23,7 +23,7 @@ return [
         ],
     ],
     'resource_template' => [
-        'label' => 'Sample Data: Artwork',
+        'label' => 'Demo Data: Artwork',
         'properties' => [
             [
                 'term' => 'dcterms:title',
@@ -58,7 +58,7 @@ return [
                 'alternate_label' => 'Holding Institution',
             ],
             [
-                'term' => 'sample-data:movement',
+                'term' => 'demo-data:movement',
             ],
             [
                 'term' => 'dcterms:identifier',
@@ -72,7 +72,7 @@ return [
     'items' => [
         [
             'id' => 'mona-lisa',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -94,7 +94,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on poplar',
             'dcterms:publisher' => 'Louvre, Paris',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 2.3364,
                 48.8606,
@@ -103,7 +103,7 @@ return [
         ],
         [
             'id' => 'the-last-supper',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -125,7 +125,7 @@ return [
             ],
             'dcterms:medium' => 'Tempera and oil on plaster',
             'dcterms:publisher' => 'Convent of Santa Maria delle Grazie, Milan',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 9.1709,
                 45.466,
@@ -134,7 +134,7 @@ return [
         ],
         [
             'id' => 'the-starry-night',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -155,7 +155,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'MoMA, New York',
-            'sample-data:movement' => 'Post-Impressionism',
+            'demo-data:movement' => 'Post-Impressionism',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -164,7 +164,7 @@ return [
         ],
         [
             'id' => 'girl-with-a-pearl-earring',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -186,7 +186,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Mauritshuis, The Hague',
-            'sample-data:movement' => 'Baroque',
+            'demo-data:movement' => 'Baroque',
             'map_coordinates' => [
                 4.3131,
                 52.0804,
@@ -195,7 +195,7 @@ return [
         ],
         [
             'id' => 'the-birth-of-venus',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -216,7 +216,7 @@ return [
             ],
             'dcterms:medium' => 'Tempera on canvas',
             'dcterms:publisher' => 'Uffizi Gallery, Florence',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 11.2558,
                 43.7678,
@@ -225,7 +225,7 @@ return [
         ],
         [
             'id' => 'las-meninas',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -246,7 +246,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Prado, Madrid',
-            'sample-data:movement' => 'Baroque',
+            'demo-data:movement' => 'Baroque',
             'map_coordinates' => [
                 -3.6922,
                 40.4138,
@@ -255,7 +255,7 @@ return [
         ],
         [
             'id' => 'the-night-watch',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -277,7 +277,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Rijksmuseum, Amsterdam',
-            'sample-data:movement' => 'Baroque',
+            'demo-data:movement' => 'Baroque',
             'map_coordinates' => [
                 4.8852,
                 52.36,
@@ -286,7 +286,7 @@ return [
         ],
         [
             'id' => 'the-persistence-of-memory',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -307,7 +307,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'MoMA, New York',
-            'sample-data:movement' => 'Surrealism',
+            'demo-data:movement' => 'Surrealism',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -316,7 +316,7 @@ return [
         ],
         [
             'id' => 'a-sunday-on-la-grande-jatte',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -338,7 +338,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Art Institute of Chicago',
-            'sample-data:movement' => 'Post-Impressionism',
+            'demo-data:movement' => 'Post-Impressionism',
             'map_coordinates' => [
                 -87.6237,
                 41.8796,
@@ -347,7 +347,7 @@ return [
         ],
         [
             'id' => 'water-lilies',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -369,7 +369,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Art Institute of Chicago',
-            'sample-data:movement' => 'Impressionism',
+            'demo-data:movement' => 'Impressionism',
             'map_coordinates' => [
                 -87.6237,
                 41.8796,
@@ -378,7 +378,7 @@ return [
         ],
         [
             'id' => 'the-arnolfini-portrait',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -400,7 +400,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on oak panel',
             'dcterms:publisher' => 'National Gallery, London',
-            'sample-data:movement' => 'Early Netherlandish',
+            'demo-data:movement' => 'Early Netherlandish',
             'map_coordinates' => [
                 -0.1285,
                 51.5089,
@@ -409,7 +409,7 @@ return [
         ],
         [
             'id' => 'primavera',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -431,7 +431,7 @@ return [
             ],
             'dcterms:medium' => 'Tempera on panel',
             'dcterms:publisher' => 'Uffizi Gallery, Florence',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 11.2558,
                 43.7678,
@@ -440,7 +440,7 @@ return [
         ],
         [
             'id' => 'the-school-of-athens',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -462,7 +462,7 @@ return [
             ],
             'dcterms:medium' => 'Fresco',
             'dcterms:publisher' => 'Vatican Museums, Vatican City',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 12.4534,
                 41.9065,
@@ -471,7 +471,7 @@ return [
         ],
         [
             'id' => 'sistine-chapel-ceiling',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -495,7 +495,7 @@ return [
             ],
             'dcterms:medium' => 'Fresco',
             'dcterms:publisher' => 'Vatican Museums, Vatican City',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 12.4534,
                 41.9065,
@@ -504,7 +504,7 @@ return [
         ],
         [
             'id' => 'the-garden-of-earthly-delights',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -525,7 +525,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on oak panel',
             'dcterms:publisher' => 'Prado, Madrid',
-            'sample-data:movement' => 'Early Netherlandish',
+            'demo-data:movement' => 'Early Netherlandish',
             'map_coordinates' => [
                 -3.6922,
                 40.4138,
@@ -534,7 +534,7 @@ return [
         ],
         [
             'id' => 'guernica',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -555,7 +555,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Museo Reina Sofía, Madrid',
-            'sample-data:movement' => 'Cubism',
+            'demo-data:movement' => 'Cubism',
             'map_coordinates' => [
                 -3.6944,
                 40.4082,
@@ -564,7 +564,7 @@ return [
         ],
         [
             'id' => 'a-bar-at-the-folies-bergere',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -586,7 +586,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Courtauld Gallery, London',
-            'sample-data:movement' => 'Impressionism',
+            'demo-data:movement' => 'Impressionism',
             'map_coordinates' => [
                 -0.1167,
                 51.5112,
@@ -595,7 +595,7 @@ return [
         ],
         [
             'id' => 'self-portrait-thorn-necklace',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -616,7 +616,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Harry Ransom Center, Austin',
-            'sample-data:movement' => 'Surrealism',
+            'demo-data:movement' => 'Surrealism',
             'map_coordinates' => [
                 -97.7393,
                 30.2849,
@@ -625,7 +625,7 @@ return [
         ],
         [
             'id' => 'american-gothic',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -647,7 +647,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on beaver board',
             'dcterms:publisher' => 'Art Institute of Chicago',
-            'sample-data:movement' => 'American Regionalism',
+            'demo-data:movement' => 'American Regionalism',
             'map_coordinates' => [
                 -87.6237,
                 41.8796,
@@ -656,7 +656,7 @@ return [
         ],
         [
             'id' => 'the-swing',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -677,7 +677,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Wallace Collection, London',
-            'sample-data:movement' => 'Rococo',
+            'demo-data:movement' => 'Rococo',
             'map_coordinates' => [
                 -0.1531,
                 51.5156,
@@ -686,7 +686,7 @@ return [
         ],
         [
             'id' => 'venus-de-milo',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -708,7 +708,7 @@ return [
             ],
             'dcterms:medium' => 'Marble',
             'dcterms:publisher' => 'Louvre, Paris',
-            'sample-data:movement' => 'Hellenistic',
+            'demo-data:movement' => 'Hellenistic',
             'map_coordinates' => [
                 2.3364,
                 48.8606,
@@ -717,7 +717,7 @@ return [
         ],
         [
             'id' => 'david',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -739,7 +739,7 @@ return [
             ],
             'dcterms:medium' => 'Marble',
             'dcterms:publisher' => 'Galleria dell\'Accademia, Florence',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 11.2587,
                 43.7769,
@@ -748,7 +748,7 @@ return [
         ],
         [
             'id' => 'the-thinker',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -769,7 +769,7 @@ return [
             ],
             'dcterms:medium' => 'Bronze',
             'dcterms:publisher' => 'Musée Rodin, Paris',
-            'sample-data:movement' => 'Realism',
+            'demo-data:movement' => 'Realism',
             'map_coordinates' => [
                 2.3159,
                 48.8554,
@@ -778,7 +778,7 @@ return [
         ],
         [
             'id' => 'winged-victory-of-samothrace',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -800,7 +800,7 @@ return [
             ],
             'dcterms:medium' => 'Marble',
             'dcterms:publisher' => 'Louvre, Paris',
-            'sample-data:movement' => 'Hellenistic',
+            'demo-data:movement' => 'Hellenistic',
             'map_coordinates' => [
                 2.3364,
                 48.8606,
@@ -809,7 +809,7 @@ return [
         ],
         [
             'id' => 'laocoon-and-his-sons',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -831,7 +831,7 @@ return [
             ],
             'dcterms:medium' => 'Marble',
             'dcterms:publisher' => 'Vatican Museums, Vatican City',
-            'sample-data:movement' => 'Hellenistic',
+            'demo-data:movement' => 'Hellenistic',
             'map_coordinates' => [
                 12.4534,
                 41.9065,
@@ -840,7 +840,7 @@ return [
         ],
         [
             'id' => 'the-discobolus',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -861,7 +861,7 @@ return [
             ],
             'dcterms:medium' => 'Marble',
             'dcterms:publisher' => 'British Museum, London',
-            'sample-data:movement' => 'Classical',
+            'demo-data:movement' => 'Classical',
             'map_coordinates' => [
                 -0.1269,
                 51.5194,
@@ -870,7 +870,7 @@ return [
         ],
         [
             'id' => 'seated-scribe',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -893,7 +893,7 @@ return [
             ],
             'dcterms:medium' => 'Painted limestone with inlaid eyes',
             'dcterms:publisher' => 'Louvre, Paris',
-            'sample-data:movement' => 'Ancient Egyptian',
+            'demo-data:movement' => 'Ancient Egyptian',
             'map_coordinates' => [
                 2.3364,
                 48.8606,
@@ -902,7 +902,7 @@ return [
         ],
         [
             'id' => 'bust-of-nefertiti',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -925,7 +925,7 @@ return [
             ],
             'dcterms:medium' => 'Painted limestone',
             'dcterms:publisher' => 'Neues Museum, Berlin',
-            'sample-data:movement' => 'Ancient Egyptian',
+            'demo-data:movement' => 'Ancient Egyptian',
             'map_coordinates' => [
                 13.398,
                 52.5202,
@@ -934,7 +934,7 @@ return [
         ],
         [
             'id' => 'ecstasy-of-saint-teresa',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -957,7 +957,7 @@ return [
             ],
             'dcterms:medium' => 'Marble',
             'dcterms:publisher' => 'Santa Maria della Vittoria, Rome',
-            'sample-data:movement' => 'Baroque',
+            'demo-data:movement' => 'Baroque',
             'map_coordinates' => [
                 12.4898,
                 41.905,
@@ -966,7 +966,7 @@ return [
         ],
         [
             'id' => 'gates-of-paradise',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -988,7 +988,7 @@ return [
             ],
             'dcterms:medium' => 'Gilded bronze',
             'dcterms:publisher' => 'Museo dell\'Opera del Duomo, Florence',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 11.2568,
                 43.7732,
@@ -997,7 +997,7 @@ return [
         ],
         [
             'id' => 'vitruvian-man',
-            'class' => 'sample-data:WorkOnPaper',
+            'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
                 'drawings-prints',
@@ -1019,7 +1019,7 @@ return [
             ],
             'dcterms:medium' => 'Ink on paper',
             'dcterms:publisher' => 'Gallerie dell\'Accademia, Venice',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 12.3277,
                 45.4308,
@@ -1028,7 +1028,7 @@ return [
         ],
         [
             'id' => 'the-great-wave-off-kanagawa',
-            'class' => 'sample-data:WorkOnPaper',
+            'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
                 'drawings-prints',
@@ -1049,7 +1049,7 @@ return [
             ],
             'dcterms:medium' => 'Woodblock print',
             'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
-            'sample-data:movement' => 'Ukiyo-e',
+            'demo-data:movement' => 'Ukiyo-e',
             'map_coordinates' => [
                 -73.9632,
                 40.7794,
@@ -1058,7 +1058,7 @@ return [
         ],
         [
             'id' => 'rhinoceros',
-            'class' => 'sample-data:WorkOnPaper',
+            'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
                 'drawings-prints',
@@ -1081,7 +1081,7 @@ return [
             ],
             'dcterms:medium' => 'Woodcut',
             'dcterms:publisher' => 'British Museum, London',
-            'sample-data:movement' => 'Northern Renaissance',
+            'demo-data:movement' => 'Northern Renaissance',
             'map_coordinates' => [
                 -0.1269,
                 51.5194,
@@ -1090,7 +1090,7 @@ return [
         ],
         [
             'id' => 'melencolia-i',
-            'class' => 'sample-data:WorkOnPaper',
+            'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
                 'drawings-prints',
@@ -1112,7 +1112,7 @@ return [
             ],
             'dcterms:medium' => 'Engraving',
             'dcterms:publisher' => 'National Gallery of Art, Washington DC',
-            'sample-data:movement' => 'Northern Renaissance',
+            'demo-data:movement' => 'Northern Renaissance',
             'map_coordinates' => [
                 -77.0199,
                 38.8913,
@@ -1121,7 +1121,7 @@ return [
         ],
         [
             'id' => 'study-for-the-libyan-sibyl',
-            'class' => 'sample-data:WorkOnPaper',
+            'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
                 'drawings-prints',
@@ -1143,7 +1143,7 @@ return [
             ],
             'dcterms:medium' => 'Red chalk on paper',
             'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 -73.9632,
                 40.7794,
@@ -1152,7 +1152,7 @@ return [
         ],
         [
             'id' => 'self-portrait-at-the-age-of-34',
-            'class' => 'sample-data:WorkOnPaper',
+            'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
                 'drawings-prints',
@@ -1175,7 +1175,7 @@ return [
             ],
             'dcterms:medium' => 'Etching',
             'dcterms:publisher' => 'Rijksmuseum, Amsterdam',
-            'sample-data:movement' => 'Baroque',
+            'demo-data:movement' => 'Baroque',
             'map_coordinates' => [
                 4.8852,
                 52.36,
@@ -1184,7 +1184,7 @@ return [
         ],
         [
             'id' => 'three-crosses',
-            'class' => 'sample-data:WorkOnPaper',
+            'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
                 'drawings-prints',
@@ -1206,7 +1206,7 @@ return [
             ],
             'dcterms:medium' => 'Drypoint',
             'dcterms:publisher' => 'Rijksmuseum, Amsterdam',
-            'sample-data:movement' => 'Baroque',
+            'demo-data:movement' => 'Baroque',
             'map_coordinates' => [
                 4.8852,
                 52.36,
@@ -1215,7 +1215,7 @@ return [
         ],
         [
             'id' => 'four-horsemen-of-the-apocalypse',
-            'class' => 'sample-data:WorkOnPaper',
+            'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
                 'drawings-prints',
@@ -1237,7 +1237,7 @@ return [
             ],
             'dcterms:medium' => 'Woodcut',
             'dcterms:publisher' => 'British Museum, London',
-            'sample-data:movement' => 'Northern Renaissance',
+            'demo-data:movement' => 'Northern Renaissance',
             'map_coordinates' => [
                 -0.1269,
                 51.5194,
@@ -1246,7 +1246,7 @@ return [
         ],
         [
             'id' => 'the-sleep-of-reason',
-            'class' => 'sample-data:WorkOnPaper',
+            'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
                 'drawings-prints',
@@ -1267,7 +1267,7 @@ return [
             ],
             'dcterms:medium' => 'Etching and aquatint',
             'dcterms:publisher' => 'British Museum, London',
-            'sample-data:movement' => 'Romanticism',
+            'demo-data:movement' => 'Romanticism',
             'map_coordinates' => [
                 -0.1269,
                 51.5194,
@@ -1276,7 +1276,7 @@ return [
         ],
         [
             'id' => 'frontispiece-to-jerusalem',
-            'class' => 'sample-data:WorkOnPaper',
+            'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
                 'drawings-prints',
@@ -1296,7 +1296,7 @@ return [
             ],
             'dcterms:medium' => 'Relief etching with watercolor',
             'dcterms:publisher' => 'British Museum, London',
-            'sample-data:movement' => 'Romanticism',
+            'demo-data:movement' => 'Romanticism',
             'map_coordinates' => [
                 -0.1269,
                 51.5194,
@@ -1305,7 +1305,7 @@ return [
         ],
         [
             'id' => 'book-of-kells',
-            'class' => 'sample-data:Manuscript',
+            'class' => 'demo-data:Manuscript',
             'sets' => [
                 'main',
                 'manuscripts',
@@ -1326,7 +1326,7 @@ return [
             ],
             'dcterms:medium' => 'Vellum',
             'dcterms:publisher' => 'Trinity College Library, Dublin',
-            'sample-data:movement' => 'Insular',
+            'demo-data:movement' => 'Insular',
             'map_coordinates' => [
                 -6.2543,
                 53.344,
@@ -1335,7 +1335,7 @@ return [
         ],
         [
             'id' => 'lindisfarne-gospels',
-            'class' => 'sample-data:Manuscript',
+            'class' => 'demo-data:Manuscript',
             'sets' => [
                 'main',
                 'manuscripts',
@@ -1356,7 +1356,7 @@ return [
             ],
             'dcterms:medium' => 'Vellum',
             'dcterms:publisher' => 'British Library, London',
-            'sample-data:movement' => 'Insular',
+            'demo-data:movement' => 'Insular',
             'map_coordinates' => [
                 -0.1232,
                 51.5298,
@@ -1365,7 +1365,7 @@ return [
         ],
         [
             'id' => 'tres-riches-heures',
-            'class' => 'sample-data:Manuscript',
+            'class' => 'demo-data:Manuscript',
             'sets' => [
                 'main',
                 'manuscripts',
@@ -1388,7 +1388,7 @@ return [
             ],
             'dcterms:medium' => 'Vellum',
             'dcterms:publisher' => 'Musée Condé, Chantilly',
-            'sample-data:movement' => 'Gothic',
+            'demo-data:movement' => 'Gothic',
             'map_coordinates' => [
                 2.4847,
                 49.1939,
@@ -1397,7 +1397,7 @@ return [
         ],
         [
             'id' => 'gutenberg-bible',
-            'class' => 'sample-data:Manuscript',
+            'class' => 'demo-data:Manuscript',
             'sets' => [
                 'main',
                 'manuscripts',
@@ -1418,7 +1418,7 @@ return [
             ],
             'dcterms:medium' => 'Ink on vellum and paper',
             'dcterms:publisher' => 'British Library, London',
-            'sample-data:movement' => 'Early Printed',
+            'demo-data:movement' => 'Early Printed',
             'map_coordinates' => [
                 -0.1232,
                 51.5298,
@@ -1427,7 +1427,7 @@ return [
         ],
         [
             'id' => 'divine-comedy-manuscript',
-            'class' => 'sample-data:Manuscript',
+            'class' => 'demo-data:Manuscript',
             'sets' => [
                 'main',
                 'manuscripts',
@@ -1448,7 +1448,7 @@ return [
             ],
             'dcterms:medium' => 'Vellum',
             'dcterms:publisher' => 'British Library, London',
-            'sample-data:movement' => 'Gothic',
+            'demo-data:movement' => 'Gothic',
             'map_coordinates' => [
                 -0.1232,
                 51.5298,
@@ -1457,7 +1457,7 @@ return [
         ],
         [
             'id' => 'vienna-genesis',
-            'class' => 'sample-data:Manuscript',
+            'class' => 'demo-data:Manuscript',
             'sets' => [
                 'main',
                 'manuscripts',
@@ -1479,7 +1479,7 @@ return [
             ],
             'dcterms:medium' => 'Purple vellum',
             'dcterms:publisher' => 'Österreichische Nationalbibliothek, Vienna',
-            'sample-data:movement' => 'Early Christian',
+            'demo-data:movement' => 'Early Christian',
             'map_coordinates' => [
                 16.3656,
                 48.2066,
@@ -1488,7 +1488,7 @@ return [
         ],
         [
             'id' => 'codex-sinaiticus',
-            'class' => 'sample-data:Manuscript',
+            'class' => 'demo-data:Manuscript',
             'sets' => [
                 'main',
                 'manuscripts',
@@ -1510,7 +1510,7 @@ return [
             ],
             'dcterms:medium' => 'Parchment',
             'dcterms:publisher' => 'British Library, London',
-            'sample-data:movement' => 'Early Christian',
+            'demo-data:movement' => 'Early Christian',
             'map_coordinates' => [
                 -0.1232,
                 51.5298,
@@ -1519,7 +1519,7 @@ return [
         ],
         [
             'id' => 'book-of-hours-catherine-of-cleves',
-            'class' => 'sample-data:Manuscript',
+            'class' => 'demo-data:Manuscript',
             'sets' => [
                 'main',
                 'manuscripts',
@@ -1542,7 +1542,7 @@ return [
             ],
             'dcterms:medium' => 'Vellum',
             'dcterms:publisher' => 'Morgan Library, New York',
-            'sample-data:movement' => 'Gothic',
+            'demo-data:movement' => 'Gothic',
             'map_coordinates' => [
                 -73.982,
                 40.7491,
@@ -1551,7 +1551,7 @@ return [
         ],
         [
             'id' => 'tres-belles-heures-de-notre-dame',
-            'class' => 'sample-data:Manuscript',
+            'class' => 'demo-data:Manuscript',
             'sets' => [
                 'main',
                 'manuscripts',
@@ -1575,7 +1575,7 @@ return [
             ],
             'dcterms:medium' => 'Vellum',
             'dcterms:publisher' => 'Bibliothèque nationale de France, Paris',
-            'sample-data:movement' => 'Gothic',
+            'demo-data:movement' => 'Gothic',
             'map_coordinates' => [
                 2.3476,
                 48.8335,
@@ -1584,7 +1584,7 @@ return [
         ],
         [
             'id' => 'luttrell-psalter',
-            'class' => 'sample-data:Manuscript',
+            'class' => 'demo-data:Manuscript',
             'sets' => [
                 'main',
                 'manuscripts',
@@ -1605,7 +1605,7 @@ return [
             ],
             'dcterms:medium' => 'Vellum',
             'dcterms:publisher' => 'British Library, London',
-            'sample-data:movement' => 'Gothic',
+            'demo-data:movement' => 'Gothic',
             'map_coordinates' => [
                 -0.1232,
                 51.5298,
@@ -1614,7 +1614,7 @@ return [
         ],
         [
             'id' => 'the-annunciation-fra-angelico',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -1638,7 +1638,7 @@ return [
             ],
             'dcterms:medium' => 'Fresco',
             'dcterms:publisher' => 'Museo di San Marco, Florence',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 11.256,
                 43.7776,
@@ -1647,7 +1647,7 @@ return [
         ],
         [
             'id' => 'adoration-of-the-magi-botticelli',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -1670,7 +1670,7 @@ return [
             ],
             'dcterms:medium' => 'Tempera on panel',
             'dcterms:publisher' => 'Uffizi Gallery, Florence',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 11.2558,
                 43.7678,
@@ -1679,7 +1679,7 @@ return [
         ],
         [
             'id' => 'baptism-of-christ-piero',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -1701,7 +1701,7 @@ return [
             ],
             'dcterms:medium' => 'Tempera on panel',
             'dcterms:publisher' => 'National Gallery, London',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 -0.1285,
                 51.5089,
@@ -1710,7 +1710,7 @@ return [
         ],
         [
             'id' => 'transfiguration-raphael',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -1732,7 +1732,7 @@ return [
             ],
             'dcterms:medium' => 'Tempera and oil on panel',
             'dcterms:publisher' => 'Vatican Museums, Vatican City',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 12.4534,
                 41.9065,
@@ -1741,7 +1741,7 @@ return [
         ],
         [
             'id' => 'portrait-of-federico',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -1762,7 +1762,7 @@ return [
             ],
             'dcterms:medium' => 'Tempera on panel',
             'dcterms:publisher' => 'Uffizi Gallery, Florence',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 11.2558,
                 43.7678,
@@ -1771,7 +1771,7 @@ return [
         ],
         [
             'id' => 'self-portrait-at-28',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -1794,7 +1794,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on panel',
             'dcterms:publisher' => 'Alte Pinakothek, Munich',
-            'sample-data:movement' => 'Northern Renaissance',
+            'demo-data:movement' => 'Northern Renaissance',
             'map_coordinates' => [
                 11.5699,
                 48.1489,
@@ -1803,7 +1803,7 @@ return [
         ],
         [
             'id' => 'hunters-in-the-snow',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -1825,7 +1825,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on panel',
             'dcterms:publisher' => 'Kunsthistorisches Museum, Vienna',
-            'sample-data:movement' => 'Northern Renaissance',
+            'demo-data:movement' => 'Northern Renaissance',
             'map_coordinates' => [
                 16.3611,
                 48.2035,
@@ -1834,7 +1834,7 @@ return [
         ],
         [
             'id' => 'peasant-wedding',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -1855,7 +1855,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on panel',
             'dcterms:publisher' => 'Kunsthistorisches Museum, Vienna',
-            'sample-data:movement' => 'Northern Renaissance',
+            'demo-data:movement' => 'Northern Renaissance',
             'map_coordinates' => [
                 16.3611,
                 48.2035,
@@ -1864,7 +1864,7 @@ return [
         ],
         [
             'id' => 'ghent-altarpiece',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -1886,7 +1886,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on panel',
             'dcterms:publisher' => 'St Bavo\'s Cathedral, Ghent',
-            'sample-data:movement' => 'Early Netherlandish',
+            'demo-data:movement' => 'Early Netherlandish',
             'map_coordinates' => [
                 3.7213,
                 51.053,
@@ -1895,7 +1895,7 @@ return [
         ],
         [
             'id' => 'merode-altarpiece',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -1919,7 +1919,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on panel',
             'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
-            'sample-data:movement' => 'Early Netherlandish',
+            'demo-data:movement' => 'Early Netherlandish',
             'map_coordinates' => [
                 -73.9632,
                 40.7794,
@@ -1928,7 +1928,7 @@ return [
         ],
         [
             'id' => 'calling-of-saint-matthew',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -1951,7 +1951,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'San Luigi dei Francesi, Rome',
-            'sample-data:movement' => 'Baroque',
+            'demo-data:movement' => 'Baroque',
             'map_coordinates' => [
                 12.4726,
                 41.8993,
@@ -1960,7 +1960,7 @@ return [
         ],
         [
             'id' => 'judith-slaying-holofernes',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -1983,7 +1983,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Uffizi Gallery, Florence',
-            'sample-data:movement' => 'Baroque',
+            'demo-data:movement' => 'Baroque',
             'map_coordinates' => [
                 11.2558,
                 43.7678,
@@ -1992,7 +1992,7 @@ return [
         ],
         [
             'id' => 'garden-of-love',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2016,7 +2016,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Prado, Madrid',
-            'sample-data:movement' => 'Baroque',
+            'demo-data:movement' => 'Baroque',
             'map_coordinates' => [
                 -3.6922,
                 40.4138,
@@ -2025,7 +2025,7 @@ return [
         ],
         [
             'id' => 'self-portrait-two-circles',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2047,7 +2047,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Kenwood House, London',
-            'sample-data:movement' => 'Baroque',
+            'demo-data:movement' => 'Baroque',
             'map_coordinates' => [
                 -0.1678,
                 51.5717,
@@ -2056,7 +2056,7 @@ return [
         ],
         [
             'id' => 'girl-reading-a-letter',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2078,7 +2078,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Gemäldegalerie Alte Meister, Dresden',
-            'sample-data:movement' => 'Baroque',
+            'demo-data:movement' => 'Baroque',
             'map_coordinates' => [
                 13.7523,
                 51.0533,
@@ -2087,7 +2087,7 @@ return [
         ],
         [
             'id' => 'embarkation-for-cythera',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2109,7 +2109,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Louvre, Paris',
-            'sample-data:movement' => 'Rococo',
+            'demo-data:movement' => 'Rococo',
             'map_coordinates' => [
                 2.3364,
                 48.8606,
@@ -2118,7 +2118,7 @@ return [
         ],
         [
             'id' => 'toilet-of-venus',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2141,7 +2141,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
-            'sample-data:movement' => 'Rococo',
+            'demo-data:movement' => 'Rococo',
             'map_coordinates' => [
                 -73.9632,
                 40.7794,
@@ -2150,7 +2150,7 @@ return [
         ],
         [
             'id' => 'young-woman-reading',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2172,7 +2172,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'National Gallery of Art, Washington DC',
-            'sample-data:movement' => 'Rococo',
+            'demo-data:movement' => 'Rococo',
             'map_coordinates' => [
                 -77.0199,
                 38.8913,
@@ -2181,7 +2181,7 @@ return [
         ],
         [
             'id' => 'oath-of-the-horatii',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2204,7 +2204,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Louvre, Paris',
-            'sample-data:movement' => 'Neoclassicism',
+            'demo-data:movement' => 'Neoclassicism',
             'map_coordinates' => [
                 2.3364,
                 48.8606,
@@ -2213,7 +2213,7 @@ return [
         ],
         [
             'id' => 'the-death-of-socrates',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2235,7 +2235,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
-            'sample-data:movement' => 'Neoclassicism',
+            'demo-data:movement' => 'Neoclassicism',
             'map_coordinates' => [
                 -73.9632,
                 40.7794,
@@ -2244,7 +2244,7 @@ return [
         ],
         [
             'id' => 'napoleon-crossing-the-alps',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2266,7 +2266,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Château de Malmaison',
-            'sample-data:movement' => 'Neoclassicism',
+            'demo-data:movement' => 'Neoclassicism',
             'map_coordinates' => [
                 2.0108,
                 48.87,
@@ -2275,7 +2275,7 @@ return [
         ],
         [
             'id' => 'la-grande-odalisque',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2297,7 +2297,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Louvre, Paris',
-            'sample-data:movement' => 'Neoclassicism',
+            'demo-data:movement' => 'Neoclassicism',
             'map_coordinates' => [
                 2.3364,
                 48.8606,
@@ -2306,7 +2306,7 @@ return [
         ],
         [
             'id' => 'the-turkish-bath',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2328,7 +2328,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Louvre, Paris',
-            'sample-data:movement' => 'Neoclassicism',
+            'demo-data:movement' => 'Neoclassicism',
             'map_coordinates' => [
                 2.3364,
                 48.8606,
@@ -2337,7 +2337,7 @@ return [
         ],
         [
             'id' => 'apotheosis-of-homer',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2360,7 +2360,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Louvre, Paris',
-            'sample-data:movement' => 'Neoclassicism',
+            'demo-data:movement' => 'Neoclassicism',
             'map_coordinates' => [
                 2.3364,
                 48.8606,
@@ -2369,7 +2369,7 @@ return [
         ],
         [
             'id' => 'marat-assassinated',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2391,7 +2391,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Royal Museums of Fine Arts, Brussels',
-            'sample-data:movement' => 'Neoclassicism',
+            'demo-data:movement' => 'Neoclassicism',
             'map_coordinates' => [
                 3.7503,
                 50.8419,
@@ -2400,7 +2400,7 @@ return [
         ],
         [
             'id' => 'liberty-leading-the-people',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2422,7 +2422,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Louvre, Paris',
-            'sample-data:movement' => 'Romanticism',
+            'demo-data:movement' => 'Romanticism',
             'map_coordinates' => [
                 2.3364,
                 48.8606,
@@ -2431,7 +2431,7 @@ return [
         ],
         [
             'id' => 'raft-of-the-medusa',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2453,7 +2453,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Louvre, Paris',
-            'sample-data:movement' => 'Romanticism',
+            'demo-data:movement' => 'Romanticism',
             'map_coordinates' => [
                 2.3364,
                 48.8606,
@@ -2462,7 +2462,7 @@ return [
         ],
         [
             'id' => 'the-hay-wain',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2486,7 +2486,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'National Gallery, London',
-            'sample-data:movement' => 'Romanticism',
+            'demo-data:movement' => 'Romanticism',
             'map_coordinates' => [
                 -0.1285,
                 51.5089,
@@ -2495,7 +2495,7 @@ return [
         ],
         [
             'id' => 'wanderer-above-the-sea-of-fog',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2518,7 +2518,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Hamburger Kunsthalle',
-            'sample-data:movement' => 'Romanticism',
+            'demo-data:movement' => 'Romanticism',
             'map_coordinates' => [
                 10.0014,
                 53.5547,
@@ -2527,7 +2527,7 @@ return [
         ],
         [
             'id' => 'the-fighting-temeraire',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2551,7 +2551,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'National Gallery, London',
-            'sample-data:movement' => 'Romanticism',
+            'demo-data:movement' => 'Romanticism',
             'map_coordinates' => [
                 -0.1285,
                 51.5089,
@@ -2560,7 +2560,7 @@ return [
         ],
         [
             'id' => 'saturn-devouring-his-son',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2583,7 +2583,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on plaster transferred to canvas',
             'dcterms:publisher' => 'Prado, Madrid',
-            'sample-data:movement' => 'Romanticism',
+            'demo-data:movement' => 'Romanticism',
             'map_coordinates' => [
                 -3.6922,
                 40.4138,
@@ -2592,7 +2592,7 @@ return [
         ],
         [
             'id' => 'burial-at-ornans',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2615,7 +2615,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Musée d\'Orsay, Paris',
-            'sample-data:movement' => 'Realism',
+            'demo-data:movement' => 'Realism',
             'map_coordinates' => [
                 2.3266,
                 48.86,
@@ -2624,7 +2624,7 @@ return [
         ],
         [
             'id' => 'the-gleaners',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2646,7 +2646,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Musée d\'Orsay, Paris',
-            'sample-data:movement' => 'Realism',
+            'demo-data:movement' => 'Realism',
             'map_coordinates' => [
                 2.3266,
                 48.86,
@@ -2655,7 +2655,7 @@ return [
         ],
         [
             'id' => 'the-angelus',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2677,7 +2677,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Musée d\'Orsay, Paris',
-            'sample-data:movement' => 'Realism',
+            'demo-data:movement' => 'Realism',
             'map_coordinates' => [
                 2.3266,
                 48.86,
@@ -2686,7 +2686,7 @@ return [
         ],
         [
             'id' => 'olympia',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2708,7 +2708,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Musée d\'Orsay, Paris',
-            'sample-data:movement' => 'Realism',
+            'demo-data:movement' => 'Realism',
             'map_coordinates' => [
                 2.3266,
                 48.86,
@@ -2717,7 +2717,7 @@ return [
         ],
         [
             'id' => 'the-floor-scrapers',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2741,7 +2741,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Musée d\'Orsay, Paris',
-            'sample-data:movement' => 'Realism',
+            'demo-data:movement' => 'Realism',
             'map_coordinates' => [
                 2.3266,
                 48.86,
@@ -2750,7 +2750,7 @@ return [
         ],
         [
             'id' => 'third-class-carriage',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2774,7 +2774,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
-            'sample-data:movement' => 'Realism',
+            'demo-data:movement' => 'Realism',
             'map_coordinates' => [
                 -73.9632,
                 40.7794,
@@ -2783,7 +2783,7 @@ return [
         ],
         [
             'id' => 'christinas-world',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2806,7 +2806,7 @@ return [
             ],
             'dcterms:medium' => 'Tempera on panel',
             'dcterms:publisher' => 'MoMA, New York',
-            'sample-data:movement' => 'Realism',
+            'demo-data:movement' => 'Realism',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -2815,7 +2815,7 @@ return [
         ],
         [
             'id' => 'nighthawks',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2838,7 +2838,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Art Institute of Chicago',
-            'sample-data:movement' => 'Realism',
+            'demo-data:movement' => 'Realism',
             'map_coordinates' => [
                 -87.6237,
                 41.8796,
@@ -2847,7 +2847,7 @@ return [
         ],
         [
             'id' => 'impression-sunrise',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2868,7 +2868,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Musée Marmottan Monet, Paris',
-            'sample-data:movement' => 'Impressionism',
+            'demo-data:movement' => 'Impressionism',
             'map_coordinates' => [
                 2.2564,
                 48.8623,
@@ -2877,7 +2877,7 @@ return [
         ],
         [
             'id' => 'moulin-de-la-galette',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2899,7 +2899,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Musée d\'Orsay, Paris',
-            'sample-data:movement' => 'Impressionism',
+            'demo-data:movement' => 'Impressionism',
             'map_coordinates' => [
                 2.3266,
                 48.86,
@@ -2908,7 +2908,7 @@ return [
         ],
         [
             'id' => 'the-ballet-class',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2932,7 +2932,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Musée d\'Orsay, Paris',
-            'sample-data:movement' => 'Impressionism',
+            'demo-data:movement' => 'Impressionism',
             'map_coordinates' => [
                 2.3266,
                 48.86,
@@ -2941,7 +2941,7 @@ return [
         ],
         [
             'id' => 'luncheon-of-the-boating-party',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2963,7 +2963,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Phillips Collection, Washington DC',
-            'sample-data:movement' => 'Impressionism',
+            'demo-data:movement' => 'Impressionism',
             'map_coordinates' => [
                 -77.0478,
                 38.9116,
@@ -2972,7 +2972,7 @@ return [
         ],
         [
             'id' => 'haystacks',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -2995,7 +2995,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Art Institute of Chicago',
-            'sample-data:movement' => 'Impressionism',
+            'demo-data:movement' => 'Impressionism',
             'map_coordinates' => [
                 -87.6237,
                 41.8796,
@@ -3004,7 +3004,7 @@ return [
         ],
         [
             'id' => 'at-the-races',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3027,7 +3027,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Musée d\'Orsay, Paris',
-            'sample-data:movement' => 'Impressionism',
+            'demo-data:movement' => 'Impressionism',
             'map_coordinates' => [
                 2.3266,
                 48.86,
@@ -3036,7 +3036,7 @@ return [
         ],
         [
             'id' => 'the-cradle',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3060,7 +3060,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Musée d\'Orsay, Paris',
-            'sample-data:movement' => 'Impressionism',
+            'demo-data:movement' => 'Impressionism',
             'map_coordinates' => [
                 2.3266,
                 48.86,
@@ -3069,7 +3069,7 @@ return [
         ],
         [
             'id' => 'wheatfield-with-crows',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3090,7 +3090,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Van Gogh Museum, Amsterdam',
-            'sample-data:movement' => 'Post-Impressionism',
+            'demo-data:movement' => 'Post-Impressionism',
             'map_coordinates' => [
                 4.8811,
                 52.3584,
@@ -3099,7 +3099,7 @@ return [
         ],
         [
             'id' => 'the-card-players',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3120,7 +3120,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Musée d\'Orsay, Paris',
-            'sample-data:movement' => 'Post-Impressionism',
+            'demo-data:movement' => 'Post-Impressionism',
             'map_coordinates' => [
                 2.3266,
                 48.86,
@@ -3129,7 +3129,7 @@ return [
         ],
         [
             'id' => 'mont-sainte-victoire',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3151,7 +3151,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Philadelphia Museum of Art',
-            'sample-data:movement' => 'Post-Impressionism',
+            'demo-data:movement' => 'Post-Impressionism',
             'map_coordinates' => [
                 -75.1809,
                 39.9656,
@@ -3160,7 +3160,7 @@ return [
         ],
         [
             'id' => 'where-do-we-come-from',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3184,7 +3184,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on burlap',
             'dcterms:publisher' => 'Museum of Fine Arts, Boston',
-            'sample-data:movement' => 'Post-Impressionism',
+            'demo-data:movement' => 'Post-Impressionism',
             'map_coordinates' => [
                 -71.0942,
                 42.3394,
@@ -3193,7 +3193,7 @@ return [
         ],
         [
             'id' => 'vision-after-the-sermon',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3217,7 +3217,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'National Gallery of Scotland, Edinburgh',
-            'sample-data:movement' => 'Post-Impressionism',
+            'demo-data:movement' => 'Post-Impressionism',
             'map_coordinates' => [
                 -3.1937,
                 55.9509,
@@ -3226,7 +3226,7 @@ return [
         ],
         [
             'id' => 'isle-of-the-dead',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3250,7 +3250,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on panel',
             'dcterms:publisher' => 'Alte Nationalgalerie, Berlin',
-            'sample-data:movement' => 'Symbolism',
+            'demo-data:movement' => 'Symbolism',
             'map_coordinates' => [
                 13.3987,
                 52.5197,
@@ -3259,7 +3259,7 @@ return [
         ],
         [
             'id' => 'salome-moreau',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3283,7 +3283,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Musée Gustave Moreau, Paris',
-            'sample-data:movement' => 'Symbolism',
+            'demo-data:movement' => 'Symbolism',
             'map_coordinates' => [
                 2.3336,
                 48.881,
@@ -3292,7 +3292,7 @@ return [
         ],
         [
             'id' => 'the-cyclops',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3316,7 +3316,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on board',
             'dcterms:publisher' => 'Kröller-Müller Museum, Otterlo',
-            'sample-data:movement' => 'Symbolism',
+            'demo-data:movement' => 'Symbolism',
             'map_coordinates' => [
                 5.8286,
                 52.09,
@@ -3325,7 +3325,7 @@ return [
         ],
         [
             'id' => 'orpheus-moreau',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3348,7 +3348,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on panel',
             'dcterms:publisher' => 'Musée d\'Orsay, Paris',
-            'sample-data:movement' => 'Symbolism',
+            'demo-data:movement' => 'Symbolism',
             'map_coordinates' => [
                 2.3266,
                 48.86,
@@ -3357,7 +3357,7 @@ return [
         ],
         [
             'id' => 'adele-bloch-bauer',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3380,7 +3380,7 @@ return [
             ],
             'dcterms:medium' => 'Oil, silver, and gold on canvas',
             'dcterms:publisher' => 'Neue Galerie, New York',
-            'sample-data:movement' => 'Symbolism',
+            'demo-data:movement' => 'Symbolism',
             'map_coordinates' => [
                 -73.9632,
                 40.783,
@@ -3389,7 +3389,7 @@ return [
         ],
         [
             'id' => 'judith-i-klimt',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3413,7 +3413,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Österreichische Galerie Belvedere, Vienna',
-            'sample-data:movement' => 'Symbolism',
+            'demo-data:movement' => 'Symbolism',
             'map_coordinates' => [
                 16.3805,
                 48.1906,
@@ -3422,7 +3422,7 @@ return [
         ],
         [
             'id' => 'the-wounded-angel',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3446,7 +3446,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Finnish National Gallery, Helsinki',
-            'sample-data:movement' => 'Symbolism',
+            'demo-data:movement' => 'Symbolism',
             'map_coordinates' => [
                 24.9354,
                 60.1705,
@@ -3455,7 +3455,7 @@ return [
         ],
         [
             'id' => 'the-kiss-klimt',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3477,7 +3477,7 @@ return [
             ],
             'dcterms:medium' => 'Oil and gold leaf on canvas',
             'dcterms:publisher' => 'Österreichische Galerie Belvedere, Vienna',
-            'sample-data:movement' => 'Art Nouveau',
+            'demo-data:movement' => 'Art Nouveau',
             'map_coordinates' => [
                 16.3805,
                 48.1906,
@@ -3486,7 +3486,7 @@ return [
         ],
         [
             'id' => 'beethoven-frieze',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3508,7 +3508,7 @@ return [
             ],
             'dcterms:medium' => 'Casein colours, graphite, stucco, and gold leaf',
             'dcterms:publisher' => 'Secession Building, Vienna',
-            'sample-data:movement' => 'Art Nouveau',
+            'demo-data:movement' => 'Art Nouveau',
             'map_coordinates' => [
                 16.3652,
                 48.1993,
@@ -3517,7 +3517,7 @@ return [
         ],
         [
             'id' => 'job-mucha',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3540,7 +3540,7 @@ return [
             ],
             'dcterms:medium' => 'Colour lithograph',
             'dcterms:publisher' => 'Mucha Museum, Prague',
-            'sample-data:movement' => 'Art Nouveau',
+            'demo-data:movement' => 'Art Nouveau',
             'map_coordinates' => [
                 14.426,
                 50.0841,
@@ -3549,7 +3549,7 @@ return [
         ],
         [
             'id' => 'gismonda-mucha',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3572,7 +3572,7 @@ return [
             ],
             'dcterms:medium' => 'Colour lithograph',
             'dcterms:publisher' => 'Victoria and Albert Museum, London',
-            'sample-data:movement' => 'Art Nouveau',
+            'demo-data:movement' => 'Art Nouveau',
             'map_coordinates' => [
                 -0.1722,
                 51.4966,
@@ -3581,7 +3581,7 @@ return [
         ],
         [
             'id' => 'la-nature-mucha',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3603,7 +3603,7 @@ return [
             ],
             'dcterms:medium' => 'Gilt bronze and marble',
             'dcterms:publisher' => 'Slovak National Gallery, Bratislava',
-            'sample-data:movement' => 'Art Nouveau',
+            'demo-data:movement' => 'Art Nouveau',
             'map_coordinates' => [
                 17.1075,
                 48.1406,
@@ -3612,7 +3612,7 @@ return [
         ],
         [
             'id' => 'the-scream',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3636,7 +3636,7 @@ return [
             ],
             'dcterms:medium' => 'Tempera and casein on cardboard',
             'dcterms:publisher' => 'National Museum, Oslo',
-            'sample-data:movement' => 'Expressionism',
+            'demo-data:movement' => 'Expressionism',
             'map_coordinates' => [
                 10.7364,
                 59.9107,
@@ -3645,7 +3645,7 @@ return [
         ],
         [
             'id' => 'the-dance-of-life',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3666,7 +3666,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'National Museum, Oslo',
-            'sample-data:movement' => 'Expressionism',
+            'demo-data:movement' => 'Expressionism',
             'map_coordinates' => [
                 10.7364,
                 59.9107,
@@ -3675,7 +3675,7 @@ return [
         ],
         [
             'id' => 'street-berlin',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3699,7 +3699,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'MoMA, New York',
-            'sample-data:movement' => 'Expressionism',
+            'demo-data:movement' => 'Expressionism',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -3708,7 +3708,7 @@ return [
         ],
         [
             'id' => 'composition-vii',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3732,7 +3732,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Tretyakov Gallery, Moscow',
-            'sample-data:movement' => 'Expressionism',
+            'demo-data:movement' => 'Expressionism',
             'map_coordinates' => [
                 37.6208,
                 55.7415,
@@ -3741,7 +3741,7 @@ return [
         ],
         [
             'id' => 'the-large-blue-horses',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3764,7 +3764,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Walker Art Center, Minneapolis',
-            'sample-data:movement' => 'Expressionism',
+            'demo-data:movement' => 'Expressionism',
             'map_coordinates' => [
                 -93.2903,
                 44.9686,
@@ -3773,7 +3773,7 @@ return [
         ],
         [
             'id' => 'reclining-female-nude',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3797,7 +3797,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Albertina, Vienna',
-            'sample-data:movement' => 'Expressionism',
+            'demo-data:movement' => 'Expressionism',
             'map_coordinates' => [
                 16.3669,
                 48.2044,
@@ -3806,7 +3806,7 @@ return [
         ],
         [
             'id' => 'the-dream-marc',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3828,7 +3828,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Thyssen-Bornemisza Museum, Madrid',
-            'sample-data:movement' => 'Expressionism',
+            'demo-data:movement' => 'Expressionism',
             'map_coordinates' => [
                 -3.6937,
                 40.4154,
@@ -3837,7 +3837,7 @@ return [
         ],
         [
             'id' => 'self-portrait-dix',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3860,7 +3860,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on paper on panel',
             'dcterms:publisher' => 'Museum Kunstpalast, Düsseldorf',
-            'sample-data:movement' => 'Expressionism',
+            'demo-data:movement' => 'Expressionism',
             'map_coordinates' => [
                 6.7802,
                 51.2238,
@@ -3869,7 +3869,7 @@ return [
         ],
         [
             'id' => 'woman-with-the-hat',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3892,7 +3892,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'SFMOMA, San Francisco',
-            'sample-data:movement' => 'Fauvism',
+            'demo-data:movement' => 'Fauvism',
             'map_coordinates' => [
                 -122.4009,
                 37.7857,
@@ -3901,7 +3901,7 @@ return [
         ],
         [
             'id' => 'the-dance-matisse',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3923,7 +3923,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Hermitage Museum, Saint Petersburg',
-            'sample-data:movement' => 'Fauvism',
+            'demo-data:movement' => 'Fauvism',
             'map_coordinates' => [
                 30.3141,
                 59.9398,
@@ -3932,7 +3932,7 @@ return [
         ],
         [
             'id' => 'open-window-collioure',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3956,7 +3956,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'National Gallery of Art, Washington DC',
-            'sample-data:movement' => 'Fauvism',
+            'demo-data:movement' => 'Fauvism',
             'map_coordinates' => [
                 -77.0199,
                 38.8913,
@@ -3965,7 +3965,7 @@ return [
         ],
         [
             'id' => 'charing-cross-bridge',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -3989,7 +3989,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'National Gallery of Art, Washington DC',
-            'sample-data:movement' => 'Fauvism',
+            'demo-data:movement' => 'Fauvism',
             'map_coordinates' => [
                 -77.0199,
                 38.8913,
@@ -3998,7 +3998,7 @@ return [
         ],
         [
             'id' => 'la-joie-de-vivre',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4022,7 +4022,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Barnes Foundation, Philadelphia',
-            'sample-data:movement' => 'Fauvism',
+            'demo-data:movement' => 'Fauvism',
             'map_coordinates' => [
                 -75.1733,
                 39.9616,
@@ -4031,7 +4031,7 @@ return [
         ],
         [
             'id' => 'les-demoiselles-davignon',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4054,7 +4054,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'MoMA, New York',
-            'sample-data:movement' => 'Cubism',
+            'demo-data:movement' => 'Cubism',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -4063,7 +4063,7 @@ return [
         ],
         [
             'id' => 'three-musicians',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4085,7 +4085,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'MoMA, New York',
-            'sample-data:movement' => 'Cubism',
+            'demo-data:movement' => 'Cubism',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -4094,7 +4094,7 @@ return [
         ],
         [
             'id' => 'portrait-vollard',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4119,7 +4119,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Pushkin Museum, Moscow',
-            'sample-data:movement' => 'Cubism',
+            'demo-data:movement' => 'Cubism',
             'map_coordinates' => [
                 37.6055,
                 55.745,
@@ -4128,7 +4128,7 @@ return [
         ],
         [
             'id' => 'the-portuguese',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4151,7 +4151,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Kunstmuseum Basel',
-            'sample-data:movement' => 'Cubism',
+            'demo-data:movement' => 'Cubism',
             'map_coordinates' => [
                 7.5969,
                 47.557,
@@ -4160,7 +4160,7 @@ return [
         ],
         [
             'id' => 'fruit-dish-and-glass',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4184,7 +4184,7 @@ return [
             ],
             'dcterms:medium' => 'Charcoal, gouache, and papier collé on paper',
             'dcterms:publisher' => 'Yale University Art Gallery',
-            'sample-data:movement' => 'Cubism',
+            'demo-data:movement' => 'Cubism',
             'map_coordinates' => [
                 -72.9296,
                 41.3082,
@@ -4193,7 +4193,7 @@ return [
         ],
         [
             'id' => 'treachery-of-images',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4216,7 +4216,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Los Angeles County Museum of Art',
-            'sample-data:movement' => 'Surrealism',
+            'demo-data:movement' => 'Surrealism',
             'map_coordinates' => [
                 -118.3593,
                 34.0639,
@@ -4225,7 +4225,7 @@ return [
         ],
         [
             'id' => 'the-lovers-magritte',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4247,7 +4247,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'MoMA, New York',
-            'sample-data:movement' => 'Surrealism',
+            'demo-data:movement' => 'Surrealism',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -4256,7 +4256,7 @@ return [
         ],
         [
             'id' => 'harlekins-carnival',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4280,7 +4280,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Albright-Knox Art Gallery, Buffalo',
-            'sample-data:movement' => 'Surrealism',
+            'demo-data:movement' => 'Surrealism',
             'map_coordinates' => [
                 -78.8818,
                 42.9305,
@@ -4289,7 +4289,7 @@ return [
         ],
         [
             'id' => 'elephant-celebes',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4313,7 +4313,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Tate Modern, London',
-            'sample-data:movement' => 'Surrealism',
+            'demo-data:movement' => 'Surrealism',
             'map_coordinates' => [
                 -0.0994,
                 51.5076,
@@ -4322,7 +4322,7 @@ return [
         ],
         [
             'id' => 'no-31-pollock',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4345,7 +4345,7 @@ return [
             ],
             'dcterms:medium' => 'Oil and enamel on canvas',
             'dcterms:publisher' => 'MoMA, New York',
-            'sample-data:movement' => 'Abstract Expressionism',
+            'demo-data:movement' => 'Abstract Expressionism',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -4354,7 +4354,7 @@ return [
         ],
         [
             'id' => 'autumn-rhythm',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4377,7 +4377,7 @@ return [
             ],
             'dcterms:medium' => 'Enamel on canvas',
             'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
-            'sample-data:movement' => 'Abstract Expressionism',
+            'demo-data:movement' => 'Abstract Expressionism',
             'map_coordinates' => [
                 -73.9632,
                 40.7794,
@@ -4386,7 +4386,7 @@ return [
         ],
         [
             'id' => 'full-fathom-five',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4407,7 +4407,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas with nails, tacks, and other materials',
             'dcterms:publisher' => 'MoMA, New York',
-            'sample-data:movement' => 'Abstract Expressionism',
+            'demo-data:movement' => 'Abstract Expressionism',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -4416,7 +4416,7 @@ return [
         ],
         [
             'id' => 'woman-i',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4440,7 +4440,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'MoMA, New York',
-            'sample-data:movement' => 'Abstract Expressionism',
+            'demo-data:movement' => 'Abstract Expressionism',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -4449,7 +4449,7 @@ return [
         ],
         [
             'id' => 'orange-and-yellow',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4473,7 +4473,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Albright-Knox Art Gallery, Buffalo',
-            'sample-data:movement' => 'Abstract Expressionism',
+            'demo-data:movement' => 'Abstract Expressionism',
             'map_coordinates' => [
                 -78.8818,
                 42.9305,
@@ -4482,7 +4482,7 @@ return [
         ],
         [
             'id' => 'no-61-rust-and-blue',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4504,7 +4504,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'MOCA Los Angeles',
-            'sample-data:movement' => 'Abstract Expressionism',
+            'demo-data:movement' => 'Abstract Expressionism',
             'map_coordinates' => [
                 -118.2501,
                 34.0535,
@@ -4513,7 +4513,7 @@ return [
         ],
         [
             'id' => 'mountains-and-sea',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4537,7 +4537,7 @@ return [
             ],
             'dcterms:medium' => 'Oil and charcoal on canvas',
             'dcterms:publisher' => 'National Gallery of Art, Washington DC',
-            'sample-data:movement' => 'Abstract Expressionism',
+            'demo-data:movement' => 'Abstract Expressionism',
             'map_coordinates' => [
                 -77.0199,
                 38.8913,
@@ -4546,7 +4546,7 @@ return [
         ],
         [
             'id' => 'campbells-soup-cans',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4567,7 +4567,7 @@ return [
             ],
             'dcterms:medium' => 'Synthetic polymer paint on canvas',
             'dcterms:publisher' => 'MoMA, New York',
-            'sample-data:movement' => 'Pop Art',
+            'demo-data:movement' => 'Pop Art',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -4576,7 +4576,7 @@ return [
         ],
         [
             'id' => 'marilyn-diptych',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4598,7 +4598,7 @@ return [
             ],
             'dcterms:medium' => 'Silkscreen ink on synthetic polymer paint on canvas',
             'dcterms:publisher' => 'Tate Modern, London',
-            'sample-data:movement' => 'Pop Art',
+            'demo-data:movement' => 'Pop Art',
             'map_coordinates' => [
                 -0.0994,
                 51.5076,
@@ -4607,7 +4607,7 @@ return [
         ],
         [
             'id' => 'whaam',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4629,7 +4629,7 @@ return [
             ],
             'dcterms:medium' => 'Acrylic and oil on canvas',
             'dcterms:publisher' => 'Tate Modern, London',
-            'sample-data:movement' => 'Pop Art',
+            'demo-data:movement' => 'Pop Art',
             'map_coordinates' => [
                 -0.0994,
                 51.5076,
@@ -4638,7 +4638,7 @@ return [
         ],
         [
             'id' => 'drowning-girl',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4660,7 +4660,7 @@ return [
             ],
             'dcterms:medium' => 'Oil and synthetic polymer paint on canvas',
             'dcterms:publisher' => 'MoMA, New York',
-            'sample-data:movement' => 'Pop Art',
+            'demo-data:movement' => 'Pop Art',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -4669,7 +4669,7 @@ return [
         ],
         [
             'id' => 'a-bigger-splash',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4694,7 +4694,7 @@ return [
             ],
             'dcterms:medium' => 'Acrylic on canvas',
             'dcterms:publisher' => 'Tate Modern, London',
-            'sample-data:movement' => 'Pop Art',
+            'demo-data:movement' => 'Pop Art',
             'map_coordinates' => [
                 -0.0994,
                 51.5076,
@@ -4703,7 +4703,7 @@ return [
         ],
         [
             'id' => 'flag-johns',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4727,7 +4727,7 @@ return [
             ],
             'dcterms:medium' => 'Encaustic, oil, and collage on fabric',
             'dcterms:publisher' => 'MoMA, New York',
-            'sample-data:movement' => 'Pop Art',
+            'demo-data:movement' => 'Pop Art',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -4736,7 +4736,7 @@ return [
         ],
         [
             'id' => 'just-what-is-it',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4760,7 +4760,7 @@ return [
             ],
             'dcterms:medium' => 'Collage',
             'dcterms:publisher' => 'Kunsthalle Tübingen',
-            'sample-data:movement' => 'Pop Art',
+            'demo-data:movement' => 'Pop Art',
             'map_coordinates' => [
                 9.055,
                 48.5206,
@@ -4769,7 +4769,7 @@ return [
         ],
         [
             'id' => 'ophelia-millais',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4791,7 +4791,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Tate Britain, London',
-            'sample-data:movement' => 'Pre-Raphaelite',
+            'demo-data:movement' => 'Pre-Raphaelite',
             'map_coordinates' => [
                 -0.1276,
                 51.4912,
@@ -4800,7 +4800,7 @@ return [
         ],
         [
             'id' => 'beata-beatrix',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4823,7 +4823,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Tate Britain, London',
-            'sample-data:movement' => 'Pre-Raphaelite',
+            'demo-data:movement' => 'Pre-Raphaelite',
             'map_coordinates' => [
                 -0.1276,
                 51.4912,
@@ -4832,7 +4832,7 @@ return [
         ],
         [
             'id' => 'lady-of-shalott',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4857,7 +4857,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Tate Britain, London',
-            'sample-data:movement' => 'Pre-Raphaelite',
+            'demo-data:movement' => 'Pre-Raphaelite',
             'map_coordinates' => [
                 -0.1276,
                 51.4912,
@@ -4866,7 +4866,7 @@ return [
         ],
         [
             'id' => 'proserpine',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4888,7 +4888,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Tate Britain, London',
-            'sample-data:movement' => 'Pre-Raphaelite',
+            'demo-data:movement' => 'Pre-Raphaelite',
             'map_coordinates' => [
                 -0.1276,
                 51.4912,
@@ -4897,7 +4897,7 @@ return [
         ],
         [
             'id' => 'hylas-and-the-nymphs',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4919,7 +4919,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Manchester Art Gallery',
-            'sample-data:movement' => 'Pre-Raphaelite',
+            'demo-data:movement' => 'Pre-Raphaelite',
             'map_coordinates' => [
                 -2.2375,
                 53.4792,
@@ -4928,7 +4928,7 @@ return [
         ],
         [
             'id' => 'light-of-the-world',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4952,7 +4952,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'National Portrait Gallery, London',
-            'sample-data:movement' => 'Pre-Raphaelite',
+            'demo-data:movement' => 'Pre-Raphaelite',
             'map_coordinates' => [
                 -0.1282,
                 51.5097,
@@ -4961,7 +4961,7 @@ return [
         ],
         [
             'id' => 'wilton-diptych',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -4985,7 +4985,7 @@ return [
             ],
             'dcterms:medium' => 'Egg tempera and gold on panel',
             'dcterms:publisher' => 'National Gallery, London',
-            'sample-data:movement' => 'Gothic',
+            'demo-data:movement' => 'Gothic',
             'map_coordinates' => [
                 -0.1285,
                 51.5089,
@@ -4994,7 +4994,7 @@ return [
         ],
         [
             'id' => 'ognissanti-madonna',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -5017,7 +5017,7 @@ return [
             ],
             'dcterms:medium' => 'Tempera and gold on panel',
             'dcterms:publisher' => 'Uffizi Gallery, Florence',
-            'sample-data:movement' => 'Gothic',
+            'demo-data:movement' => 'Gothic',
             'map_coordinates' => [
                 11.2558,
                 43.7678,
@@ -5026,7 +5026,7 @@ return [
         ],
         [
             'id' => 'maesta-duccio',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -5050,7 +5050,7 @@ return [
             ],
             'dcterms:medium' => 'Tempera and gold on panel',
             'dcterms:publisher' => 'Museo dell\'Opera del Duomo, Siena',
-            'sample-data:movement' => 'Gothic',
+            'demo-data:movement' => 'Gothic',
             'map_coordinates' => [
                 11.3296,
                 43.3188,
@@ -5059,7 +5059,7 @@ return [
         ],
         [
             'id' => 'stone-city-iowa',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -5081,7 +5081,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on panel',
             'dcterms:publisher' => 'Joslyn Art Museum, Omaha',
-            'sample-data:movement' => 'American Regionalism',
+            'demo-data:movement' => 'American Regionalism',
             'map_coordinates' => [
                 -95.9504,
                 41.2602,
@@ -5090,7 +5090,7 @@ return [
         ],
         [
             'id' => 'cradling-wheat',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -5113,7 +5113,7 @@ return [
             ],
             'dcterms:medium' => 'Tempera on panel',
             'dcterms:publisher' => 'Saint Louis Art Museum',
-            'sample-data:movement' => 'American Regionalism',
+            'demo-data:movement' => 'American Regionalism',
             'map_coordinates' => [
                 -90.2958,
                 38.6289,
@@ -5122,7 +5122,7 @@ return [
         ],
         [
             'id' => 'psyche-revived',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -5144,7 +5144,7 @@ return [
             ],
             'dcterms:medium' => 'Marble',
             'dcterms:publisher' => 'Louvre, Paris',
-            'sample-data:movement' => 'Neoclassicism',
+            'demo-data:movement' => 'Neoclassicism',
             'map_coordinates' => [
                 2.3364,
                 48.8606,
@@ -5153,7 +5153,7 @@ return [
         ],
         [
             'id' => 'perseus-triumphant',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -5174,7 +5174,7 @@ return [
             ],
             'dcterms:medium' => 'Marble',
             'dcterms:publisher' => 'Vatican Museums, Vatican City',
-            'sample-data:movement' => 'Neoclassicism',
+            'demo-data:movement' => 'Neoclassicism',
             'map_coordinates' => [
                 12.4534,
                 41.9065,
@@ -5183,7 +5183,7 @@ return [
         ],
         [
             'id' => 'dying-gaul',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -5207,7 +5207,7 @@ return [
             ],
             'dcterms:medium' => 'Marble',
             'dcterms:publisher' => 'Capitoline Museums, Rome',
-            'sample-data:movement' => 'Hellenistic',
+            'demo-data:movement' => 'Hellenistic',
             'map_coordinates' => [
                 12.4829,
                 41.8937,
@@ -5216,7 +5216,7 @@ return [
         ],
         [
             'id' => 'boxer-at-rest',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -5241,7 +5241,7 @@ return [
             ],
             'dcterms:medium' => 'Bronze',
             'dcterms:publisher' => 'Palazzo Massimo, Rome',
-            'sample-data:movement' => 'Hellenistic',
+            'demo-data:movement' => 'Hellenistic',
             'map_coordinates' => [
                 12.4979,
                 41.8996,
@@ -5250,7 +5250,7 @@ return [
         ],
         [
             'id' => 'doryphoros',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -5274,7 +5274,7 @@ return [
             ],
             'dcterms:medium' => 'Marble',
             'dcterms:publisher' => 'Naples National Archaeological Museum',
-            'sample-data:movement' => 'Classical',
+            'demo-data:movement' => 'Classical',
             'map_coordinates' => [
                 14.2519,
                 40.8543,
@@ -5283,7 +5283,7 @@ return [
         ],
         [
             'id' => 'hermes-infant-dionysus',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -5306,7 +5306,7 @@ return [
             ],
             'dcterms:medium' => 'Marble',
             'dcterms:publisher' => 'Archaeological Museum of Olympia',
-            'sample-data:movement' => 'Classical',
+            'demo-data:movement' => 'Classical',
             'map_coordinates' => [
                 21.6286,
                 37.6375,
@@ -5315,7 +5315,7 @@ return [
         ],
         [
             'id' => 'mask-of-tutankhamun',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -5339,7 +5339,7 @@ return [
             ],
             'dcterms:medium' => 'Gold, lapis lazuli, carnelian, and glass',
             'dcterms:publisher' => 'Egyptian Museum, Cairo',
-            'sample-data:movement' => 'Ancient Egyptian',
+            'demo-data:movement' => 'Ancient Egyptian',
             'map_coordinates' => [
                 31.233,
                 30.0479,
@@ -5348,7 +5348,7 @@ return [
         ],
         [
             'id' => 'narmer-palette',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -5372,7 +5372,7 @@ return [
             ],
             'dcterms:medium' => 'Greywacke',
             'dcterms:publisher' => 'Egyptian Museum, Cairo',
-            'sample-data:movement' => 'Ancient Egyptian',
+            'demo-data:movement' => 'Ancient Egyptian',
             'map_coordinates' => [
                 31.233,
                 30.0479,
@@ -5381,7 +5381,7 @@ return [
         ],
         [
             'id' => 'red-fuji',
-            'class' => 'sample-data:WorkOnPaper',
+            'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
                 'drawings-prints',
@@ -5402,7 +5402,7 @@ return [
             ],
             'dcterms:medium' => 'Woodblock print',
             'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
-            'sample-data:movement' => 'Ukiyo-e',
+            'demo-data:movement' => 'Ukiyo-e',
             'map_coordinates' => [
                 -73.9632,
                 40.7794,
@@ -5411,7 +5411,7 @@ return [
         ],
         [
             'id' => 'sudden-shower-shin-ohashi',
-            'class' => 'sample-data:WorkOnPaper',
+            'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
                 'drawings-prints',
@@ -5436,7 +5436,7 @@ return [
             ],
             'dcterms:medium' => 'Woodblock print',
             'dcterms:publisher' => 'Brooklyn Museum, New York',
-            'sample-data:movement' => 'Ukiyo-e',
+            'demo-data:movement' => 'Ukiyo-e',
             'map_coordinates' => [
                 -73.9626,
                 40.6712,
@@ -5445,7 +5445,7 @@ return [
         ],
         [
             'id' => 'plum-estate',
-            'class' => 'sample-data:WorkOnPaper',
+            'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
                 'drawings-prints',
@@ -5467,7 +5467,7 @@ return [
             ],
             'dcterms:medium' => 'Woodblock print',
             'dcterms:publisher' => 'Brooklyn Museum, New York',
-            'sample-data:movement' => 'Ukiyo-e',
+            'demo-data:movement' => 'Ukiyo-e',
             'map_coordinates' => [
                 -73.9626,
                 40.6712,
@@ -5476,7 +5476,7 @@ return [
         ],
         [
             'id' => 'cuckoo-and-azalea',
-            'class' => 'sample-data:WorkOnPaper',
+            'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
                 'drawings-prints',
@@ -5500,7 +5500,7 @@ return [
             ],
             'dcterms:medium' => 'Woodblock print',
             'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
-            'sample-data:movement' => 'Ukiyo-e',
+            'demo-data:movement' => 'Ukiyo-e',
             'map_coordinates' => [
                 -73.9632,
                 40.7794,
@@ -5509,7 +5509,7 @@ return [
         ],
         [
             'id' => 'belles-heures',
-            'class' => 'sample-data:Manuscript',
+            'class' => 'demo-data:Manuscript',
             'sets' => [
                 'main',
                 'manuscripts',
@@ -5530,7 +5530,7 @@ return [
             ],
             'dcterms:medium' => 'Vellum',
             'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
-            'sample-data:movement' => 'Gothic',
+            'demo-data:movement' => 'Gothic',
             'map_coordinates' => [
                 -73.9632,
                 40.7794,
@@ -5539,7 +5539,7 @@ return [
         ],
         [
             'id' => 'hours-of-jeanne-devreux',
-            'class' => 'sample-data:Manuscript',
+            'class' => 'demo-data:Manuscript',
             'sets' => [
                 'main',
                 'manuscripts',
@@ -5563,7 +5563,7 @@ return [
             ],
             'dcterms:medium' => 'Vellum',
             'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
-            'sample-data:movement' => 'Gothic',
+            'demo-data:movement' => 'Gothic',
             'map_coordinates' => [
                 -73.9632,
                 40.7794,
@@ -5572,7 +5572,7 @@ return [
         ],
         [
             'id' => 'windmill-psalter',
-            'class' => 'sample-data:Manuscript',
+            'class' => 'demo-data:Manuscript',
             'sets' => [
                 'main',
                 'manuscripts',
@@ -5592,7 +5592,7 @@ return [
             ],
             'dcterms:medium' => 'Vellum',
             'dcterms:publisher' => 'Morgan Library, New York',
-            'sample-data:movement' => 'Gothic',
+            'demo-data:movement' => 'Gothic',
             'map_coordinates' => [
                 -73.982,
                 40.7491,
@@ -5601,7 +5601,7 @@ return [
         ],
         [
             'id' => 'rabbula-gospels',
-            'class' => 'sample-data:Manuscript',
+            'class' => 'demo-data:Manuscript',
             'sets' => [
                 'main',
                 'manuscripts',
@@ -5623,7 +5623,7 @@ return [
             ],
             'dcterms:medium' => 'Vellum',
             'dcterms:publisher' => 'Biblioteca Medicea Laurenziana, Florence',
-            'sample-data:movement' => 'Early Christian',
+            'demo-data:movement' => 'Early Christian',
             'map_coordinates' => [
                 11.2541,
                 43.7734,
@@ -5632,7 +5632,7 @@ return [
         ],
         [
             'id' => 'burial-of-count-of-orgaz',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -5654,7 +5654,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Church of Santo Tomé, Toledo',
-            'sample-data:movement' => 'Mannerism',
+            'demo-data:movement' => 'Mannerism',
             'map_coordinates' => [
                 -4.0286,
                 39.8581,
@@ -5663,7 +5663,7 @@ return [
         ],
         [
             'id' => 'venus-of-urbino',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -5685,7 +5685,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Uffizi Gallery, Florence',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 11.2557,
                 43.7678,
@@ -5694,7 +5694,7 @@ return [
         ],
         [
             'id' => 'charles-i-at-the-hunt',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -5717,7 +5717,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Louvre, Paris',
-            'sample-data:movement' => 'Baroque',
+            'demo-data:movement' => 'Baroque',
             'map_coordinates' => [
                 2.3364,
                 48.8606,
@@ -5726,7 +5726,7 @@ return [
         ],
         [
             'id' => 'portrait-pope-innocent-x',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -5748,7 +5748,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Galleria Doria Pamphilj, Rome',
-            'sample-data:movement' => 'Baroque',
+            'demo-data:movement' => 'Baroque',
             'map_coordinates' => [
                 12.4803,
                 41.8961,
@@ -5757,7 +5757,7 @@ return [
         ],
         [
             'id' => 'the-third-of-may',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -5779,7 +5779,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Museo del Prado, Madrid',
-            'sample-data:movement' => 'Romanticism',
+            'demo-data:movement' => 'Romanticism',
             'map_coordinates' => [
                 -3.6921,
                 40.4138,
@@ -5788,7 +5788,7 @@ return [
         ],
         [
             'id' => 'toulouse-lautrec-moulin-rouge',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -5811,7 +5811,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Art Institute of Chicago',
-            'sample-data:movement' => 'Post-Impressionism',
+            'demo-data:movement' => 'Post-Impressionism',
             'map_coordinates' => [
                 -87.6237,
                 41.8796,
@@ -5820,7 +5820,7 @@ return [
         ],
         [
             'id' => 'i-and-the-village',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -5842,7 +5842,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Museum of Modern Art, New York',
-            'sample-data:movement' => 'Expressionism',
+            'demo-data:movement' => 'Expressionism',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -5851,7 +5851,7 @@ return [
         ],
         [
             'id' => 'composition-red-blue-yellow',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -5874,7 +5874,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Kunsthaus Zürich',
-            'sample-data:movement' => 'De Stijl',
+            'demo-data:movement' => 'De Stijl',
             'map_coordinates' => [
                 8.548,
                 47.3706,
@@ -5883,7 +5883,7 @@ return [
         ],
         [
             'id' => 'nude-descending-staircase',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -5906,7 +5906,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Philadelphia Museum of Art',
-            'sample-data:movement' => 'Cubism',
+            'demo-data:movement' => 'Cubism',
             'map_coordinates' => [
                 -75.181,
                 39.9656,
@@ -5915,7 +5915,7 @@ return [
         ],
         [
             'id' => 'the-city-rises',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -5938,7 +5938,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Museum of Modern Art, New York',
-            'sample-data:movement' => 'Futurism',
+            'demo-data:movement' => 'Futurism',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -5947,7 +5947,7 @@ return [
         ],
         [
             'id' => 'the-two-fridas',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -5968,7 +5968,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Museo de Arte Moderno, Mexico City',
-            'sample-data:movement' => 'Surrealism',
+            'demo-data:movement' => 'Surrealism',
             'map_coordinates' => [
                 -99.1675,
                 19.4195,
@@ -5977,7 +5977,7 @@ return [
         ],
         [
             'id' => 'madame-x',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -5999,7 +5999,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
-            'sample-data:movement' => 'Realism',
+            'demo-data:movement' => 'Realism',
             'map_coordinates' => [
                 -73.9632,
                 40.7794,
@@ -6008,7 +6008,7 @@ return [
         ],
         [
             'id' => 'snap-the-whip',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -6031,7 +6031,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
-            'sample-data:movement' => 'Realism',
+            'demo-data:movement' => 'Realism',
             'map_coordinates' => [
                 -73.9632,
                 40.7794,
@@ -6040,7 +6040,7 @@ return [
         ],
         [
             'id' => 'the-blue-boy',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -6063,7 +6063,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'The Huntington, San Marino, California',
-            'sample-data:movement' => 'Rococo',
+            'demo-data:movement' => 'Rococo',
             'map_coordinates' => [
                 -118.1134,
                 34.129,
@@ -6072,7 +6072,7 @@ return [
         ],
         [
             'id' => 'laughing-cavalier',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -6095,7 +6095,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Wallace Collection, London',
-            'sample-data:movement' => 'Baroque',
+            'demo-data:movement' => 'Baroque',
             'map_coordinates' => [
                 -0.1582,
                 51.5152,
@@ -6104,7 +6104,7 @@ return [
         ],
         [
             'id' => 'battle-of-san-romano',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -6127,7 +6127,7 @@ return [
             ],
             'dcterms:medium' => 'Tempera on wood',
             'dcterms:publisher' => 'National Gallery, London',
-            'sample-data:movement' => 'Renaissance',
+            'demo-data:movement' => 'Renaissance',
             'map_coordinates' => [
                 -0.1281,
                 51.5086,
@@ -6136,7 +6136,7 @@ return [
         ],
         [
             'id' => 'whistlers-mother',
-            'class' => 'sample-data:Painting',
+            'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
                 'paintings',
@@ -6158,7 +6158,7 @@ return [
             ],
             'dcterms:medium' => 'Oil on canvas',
             'dcterms:publisher' => 'Musée d\'Orsay, Paris',
-            'sample-data:movement' => 'Realism',
+            'demo-data:movement' => 'Realism',
             'map_coordinates' => [
                 2.3265,
                 48.86,
@@ -6167,7 +6167,7 @@ return [
         ],
         [
             'id' => 'twittering-machine',
-            'class' => 'sample-data:WorkOnPaper',
+            'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
                 'drawings-prints',
@@ -6189,7 +6189,7 @@ return [
             ],
             'dcterms:medium' => 'Watercolor and pen and ink on oil transfer drawing on paper',
             'dcterms:publisher' => 'Museum of Modern Art, New York',
-            'sample-data:movement' => 'Expressionism',
+            'demo-data:movement' => 'Expressionism',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -6198,7 +6198,7 @@ return [
         ],
         [
             'id' => 'young-hare',
-            'class' => 'sample-data:WorkOnPaper',
+            'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
                 'drawings-prints',
@@ -6220,7 +6220,7 @@ return [
             ],
             'dcterms:medium' => 'Watercolor and gouache',
             'dcterms:publisher' => 'Albertina, Vienna',
-            'sample-data:movement' => 'Northern Renaissance',
+            'demo-data:movement' => 'Northern Renaissance',
             'map_coordinates' => [
                 16.3655,
                 48.2048,
@@ -6229,7 +6229,7 @@ return [
         ],
         [
             'id' => 'golden-haggadah',
-            'class' => 'sample-data:Manuscript',
+            'class' => 'demo-data:Manuscript',
             'sets' => [
                 'main',
                 'manuscripts',
@@ -6252,7 +6252,7 @@ return [
             ],
             'dcterms:medium' => 'Vellum with gold leaf and tempera',
             'dcterms:publisher' => 'British Library, London',
-            'sample-data:movement' => 'Gothic',
+            'demo-data:movement' => 'Gothic',
             'map_coordinates' => [
                 -0.1272,
                 51.5296,
@@ -6261,7 +6261,7 @@ return [
         ],
         [
             'id' => 'the-kiss-rodin',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -6282,7 +6282,7 @@ return [
             ],
             'dcterms:medium' => 'Marble',
             'dcterms:publisher' => 'Musée Rodin, Paris',
-            'sample-data:movement' => 'Romanticism',
+            'demo-data:movement' => 'Romanticism',
             'map_coordinates' => [
                 2.3159,
                 48.8554,
@@ -6291,7 +6291,7 @@ return [
         ],
         [
             'id' => 'bird-in-space',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -6313,7 +6313,7 @@ return [
             ],
             'dcterms:medium' => 'Bronze',
             'dcterms:publisher' => 'Museum of Modern Art, New York',
-            'sample-data:movement' => 'Modernism',
+            'demo-data:movement' => 'Modernism',
             'map_coordinates' => [
                 -73.9776,
                 40.7614,
@@ -6322,7 +6322,7 @@ return [
         ],
         [
             'id' => 'little-dancer',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -6344,7 +6344,7 @@ return [
             ],
             'dcterms:medium' => 'Pigmented beeswax, clay, metal armature, rope, horsehair, cotton, and silk (original); bronze casts after 1922',
             'dcterms:publisher' => 'National Gallery of Art, Washington, D.C.',
-            'sample-data:movement' => 'Impressionism',
+            'demo-data:movement' => 'Impressionism',
             'map_coordinates' => [
                 -77.02,
                 38.8913,
@@ -6353,7 +6353,7 @@ return [
         ],
         [
             'id' => 'walking-man',
-            'class' => 'sample-data:Sculpture',
+            'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
                 'sculptures',
@@ -6375,7 +6375,7 @@ return [
             ],
             'dcterms:medium' => 'Bronze',
             'dcterms:publisher' => 'Fondation Beyeler, Riehen',
-            'sample-data:movement' => 'Modernism',
+            'demo-data:movement' => 'Modernism',
             'map_coordinates' => [
                 7.6,
                 47.5696,

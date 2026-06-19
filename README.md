@@ -1,6 +1,6 @@
-# Sample Data
+# Demo Data
 
-An Omeka S module that imports sample datasets for development, testing, and evaluation. The datasets use realistic cultural heritage content to demonstrate the breadth of Omeka S's data model — vocabularies, resource classes, value types, media, and modules working together across four distinct domains.
+An Omeka S module that imports demo datasets for development, testing, and evaluation. The datasets use realistic cultural heritage content to demonstrate the breadth of Omeka S's data model — vocabularies, resource classes, value types, media, and modules working together across four distinct domains.
 
 The [NumericDataTypes](https://omeka.org/s/modules/NumericDataTypes/) module is optional; when active, date, duration, interval, and integer fields are stored as structured numeric values rather than plain text. The [Mapping](https://omeka.org/s/modules/Mapping/) module is optional; when active, geographic coordinates are displayed as map markers.
 
@@ -33,10 +33,10 @@ Historical figures spanning science, literature, philosophy, exploration, and po
 
 ## Copyright
 
-SampleData is Copyright © 2021-present Corporation for Digital Scholarship, Vienna,
+DemoData is Copyright © 2021-present Corporation for Digital Scholarship, Vienna,
 Virginia, USA http://digitalscholar.org
 
-The Corporation for Digital Scholarship distributes the Sample Data source code under
+The Corporation for Digital Scholarship distributes the Demo Data source code under
 the GNU General Public License, version 3 (GPLv3). The full text of this license
 is given in the license file.
 

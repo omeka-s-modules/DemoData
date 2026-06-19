@@ -1,10 +1,10 @@
 <?php
-namespace SampleData\Job;
+namespace DemoData\Job;
 
 use Omeka\Module\Manager as ModuleManager;
 use Throwable;
 
-class Import extends AbstractSampleDataJob
+class Import extends AbstractDemoDataJob
 {
     private const MOD_NUMERIC = 'NumericDataTypes';
     private const MOD_MAPPING = 'Mapping';
@@ -30,11 +30,11 @@ class Import extends AbstractSampleDataJob
         $this->mediaBaseUrl = $this->getArg('media_base_url');
 
         // If already imported, purge first — importing always means a full replace.
-        $existing = $settings->get("sample_data_imported_{$this->dataset}");
+        $existing = $settings->get("demo_data_imported_{$this->dataset}");
         if ($existing) {
             $logger->info('Existing import found — purging before re-import.');
             $this->purgeDataset($existing);
-            $settings->delete("sample_data_imported_{$this->dataset}");
+            $settings->delete("demo_data_imported_{$this->dataset}");
             if ($this->shouldStop()) {
                 $this->clearPendingJob($this->dataset);
                 return;
@@ -93,7 +93,7 @@ class Import extends AbstractSampleDataJob
 
             // Checkpoint: record sets and template now so a crash during item creation leaves
             // them recoverable — the next import attempt will pre-purge via this entry.
-            $settings->set("sample_data_imported_{$this->dataset}", [
+            $settings->set("demo_data_imported_{$this->dataset}", [
                 'items' => [],
                 'item_sets' => $this->itemSetIds,
                 'resource_template' => $this->templateId,
@@ -109,7 +109,7 @@ class Import extends AbstractSampleDataJob
 
             $relationsComplete = $this->addRelations($result['slug_to_id']);
 
-            $settings->set("sample_data_imported_{$this->dataset}", [
+            $settings->set("demo_data_imported_{$this->dataset}", [
                 'items' => $this->createdItemIds,
                 'item_sets' => $this->itemSetIds,
                 'resource_template' => $this->templateId,
@@ -166,7 +166,7 @@ class Import extends AbstractSampleDataJob
             'item_sets' => $this->itemSetIds,
             'resource_template' => $this->templateId,
         ]);
-        $this->get('Omeka\Settings')->delete("sample_data_imported_{$this->dataset}");
+        $this->get('Omeka\Settings')->delete("demo_data_imported_{$this->dataset}");
     }
 
     private function buildItemPayload(array $item): array
@@ -247,7 +247,7 @@ class Import extends AbstractSampleDataJob
         return $payload;
     }
 
-    /** @return string[] e.g. ['sample-data:Person', 'sample-data:Empire'] */
+    /** @return string[] e.g. ['demo-data:Person', 'demo-data:Empire'] */
     private function collectClasses(array $items): array
     {
         return array_unique(array_filter(array_column($items, 'class')));

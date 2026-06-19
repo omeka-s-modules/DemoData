@@ -22,7 +22,7 @@ return [
         ],
     ],
     'resource_template' => [
-        'label' => 'Sample Data: Document',
+        'label' => 'Demo Data: Document',
         'properties' => [
             [
                 'term' => 'dcterms:title',
@@ -60,7 +60,7 @@ return [
     'items' => [
         [
             'id' => 'lincoln-brayman-1854',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -83,7 +83,7 @@ return [
         ],
         [
             'id' => 'einstein-brunauer-may-1943',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -106,7 +106,7 @@ return [
         ],
         [
             'id' => 'leverett-fragment-1653',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -129,7 +129,7 @@ return [
         ],
         [
             'id' => 'burnett-letter-1726',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -152,7 +152,7 @@ return [
         ],
         [
             'id' => 'hopkins-hollenberg-1776',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -175,7 +175,7 @@ return [
         ],
         [
             'id' => 'sullivan-jackson-1802',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -198,7 +198,7 @@ return [
         ],
         [
             'id' => 'davis-cist-1837',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -221,7 +221,7 @@ return [
         ],
         [
             'id' => 'morton-hamlin-1850',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -244,7 +244,7 @@ return [
         ],
         [
             'id' => 'ware-letter-1840',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -267,7 +267,7 @@ return [
         ],
         [
             'id' => 'schnitzler-diary-1917',
-            'class' => 'sample-data:Diary',
+            'class' => 'demo-data:Diary',
             'sets' => [
                 'main',
                 'diaries',
@@ -289,7 +289,7 @@ return [
         ],
         [
             'id' => 'fersen-diary-1770',
-            'class' => 'sample-data:Diary',
+            'class' => 'demo-data:Diary',
             'sets' => [
                 'main',
                 'diaries',
@@ -312,7 +312,7 @@ return [
         ],
         [
             'id' => 'chopin-impressions-1894',
-            'class' => 'sample-data:Diary',
+            'class' => 'demo-data:Diary',
             'sets' => [
                 'main',
                 'diaries',
@@ -336,7 +336,7 @@ return [
         ],
         [
             'id' => 'browne-diary-1855',
-            'class' => 'sample-data:Diary',
+            'class' => 'demo-data:Diary',
             'sets' => [
                 'main',
                 'diaries',
@@ -359,7 +359,7 @@ return [
         ],
         [
             'id' => 'michinaga-diary-1010',
-            'class' => 'sample-data:Diary',
+            'class' => 'demo-data:Diary',
             'sets' => [
                 'main',
                 'diaries',
@@ -382,7 +382,7 @@ return [
         ],
         [
             'id' => 'zimmermann-telegram-1917',
-            'class' => 'sample-data:Memorandum',
+            'class' => 'demo-data:Memorandum',
             'sets' => [
                 'main',
                 'memoranda',
@@ -407,7 +407,7 @@ return [
         ],
         [
             'id' => 'cia-nie-11-3-71',
-            'class' => 'sample-data:Memorandum',
+            'class' => 'demo-data:Memorandum',
             'sets' => [
                 'main',
                 'memoranda',
@@ -431,7 +431,7 @@ return [
         ],
         [
             'id' => 'cia-nie-11-10-63',
-            'class' => 'sample-data:Memorandum',
+            'class' => 'demo-data:Memorandum',
             'sets' => [
                 'main',
                 'memoranda',
@@ -455,7 +455,7 @@ return [
         ],
         [
             'id' => 'clinton-yeltsin-memcon-1993',
-            'class' => 'sample-data:Memorandum',
+            'class' => 'demo-data:Memorandum',
             'sets' => [
                 'main',
                 'memoranda',
@@ -481,7 +481,7 @@ return [
         ],
         [
             'id' => 'fdr-manhattan-project-1942',
-            'class' => 'sample-data:Memorandum',
+            'class' => 'demo-data:Memorandum',
             'sets' => [
                 'main',
                 'memoranda',
@@ -505,7 +505,7 @@ return [
         ],
         [
             'id' => 'emancipation-proclamation-1862',
-            'class' => 'sample-data:Memorandum',
+            'class' => 'demo-data:Memorandum',
             'sets' => [
                 'main',
                 'memoranda',
@@ -534,7 +534,7 @@ return [
         ],
         [
             'id' => 'gettysburg-address-bliss-1864',
-            'class' => 'sample-data:Memorandum',
+            'class' => 'demo-data:Memorandum',
             'sets' => [
                 'main',
                 'memoranda',
@@ -561,7 +561,7 @@ return [
         ],
         [
             'id' => 'honolulu-star-bulletin-1941',
-            'class' => 'sample-data:Newspaper',
+            'class' => 'demo-data:Newspaper',
             'sets' => [
                 'main',
                 'newspapers',
@@ -585,7 +585,7 @@ return [
         ],
         [
             'id' => 'nytimes-armistice-1918',
-            'class' => 'sample-data:Newspaper',
+            'class' => 'demo-data:Newspaper',
             'sets' => [
                 'main',
                 'newspapers',
@@ -608,7 +608,7 @@ return [
         ],
         [
             'id' => 'aachener-nachrichten-1945',
-            'class' => 'sample-data:Newspaper',
+            'class' => 'demo-data:Newspaper',
             'sets' => [
                 'main',
                 'newspapers',
@@ -632,7 +632,7 @@ return [
         ],
         [
             'id' => 'nytimes-titanic-1912',
-            'class' => 'sample-data:Newspaper',
+            'class' => 'demo-data:Newspaper',
             'sets' => [
                 'main',
                 'newspapers',
@@ -654,7 +654,7 @@ return [
         ],
         [
             'id' => 'berliner-borsen-zeitung-1914',
-            'class' => 'sample-data:Newspaper',
+            'class' => 'demo-data:Newspaper',
             'sets' => [
                 'main',
                 'newspapers',
@@ -678,7 +678,7 @@ return [
         ],
         [
             'id' => 'pentagon-papers-vi-c-1',
-            'class' => 'sample-data:Report',
+            'class' => 'demo-data:Report',
             'sets' => [
                 'main',
                 'reports',
@@ -702,7 +702,7 @@ return [
         ],
         [
             'id' => 'project-solarium-task-force-c',
-            'class' => 'sample-data:Report',
+            'class' => 'demo-data:Report',
             'sets' => [
                 'main',
                 'reports',
@@ -727,7 +727,7 @@ return [
         ],
         [
             'id' => 'nuremberg-tribunal-ruling-1946',
-            'class' => 'sample-data:Report',
+            'class' => 'demo-data:Report',
             'sets' => [
                 'main',
                 'reports',
@@ -751,7 +751,7 @@ return [
         ],
         [
             'id' => 'japanese-fo-doc-2748',
-            'class' => 'sample-data:Report',
+            'class' => 'demo-data:Report',
             'sets' => [
                 'main',
                 'reports',
@@ -776,7 +776,7 @@ return [
         ],
         [
             'id' => 'dalembert-frederick-letters',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -800,7 +800,7 @@ return [
         ],
         [
             'id' => 'boufflers-senegal-diary',
-            'class' => 'sample-data:Diary',
+            'class' => 'demo-data:Diary',
             'sets' => [
                 'main',
                 'diaries',
@@ -824,7 +824,7 @@ return [
         ],
         [
             'id' => 'stendhal-journal-1810',
-            'class' => 'sample-data:Diary',
+            'class' => 'demo-data:Diary',
             'sets' => [
                 'main',
                 'diaries',
@@ -847,7 +847,7 @@ return [
         ],
         [
             'id' => 'renan-seminary-letters',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -870,7 +870,7 @@ return [
         ],
         [
             'id' => 'napoleon-josephine-1796',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -893,7 +893,7 @@ return [
         ],
         [
             'id' => 'abigail-adams-remember-ladies-1776',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -916,7 +916,7 @@ return [
         ],
         [
             'id' => 'galileo-jupiter-1610',
-            'class' => 'sample-data:Diary',
+            'class' => 'demo-data:Diary',
             'sets' => [
                 'main',
                 'diaries',
@@ -940,7 +940,7 @@ return [
         ],
         [
             'id' => 'mary-queen-scots-1587',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -968,7 +968,7 @@ return [
         ],
         [
             'id' => 'darwin-gray-1857',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -991,7 +991,7 @@ return [
         ],
         [
             'id' => 'mozart-leopold-1777',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -1014,7 +1014,7 @@ return [
         ],
         [
             'id' => 'nightingale-herbert-1855',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -1038,7 +1038,7 @@ return [
         ],
         [
             'id' => 'chopin-kumelski-1831',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -1061,7 +1061,7 @@ return [
         ],
         [
             'id' => 'bolivar-santander-1826',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -1084,7 +1084,7 @@ return [
         ],
         [
             'id' => 'pepys-diary-1660',
-            'class' => 'sample-data:Diary',
+            'class' => 'demo-data:Diary',
             'sets' => [
                 'main',
                 'diaries',
@@ -1107,7 +1107,7 @@ return [
         ],
         [
             'id' => 'clark-journal-1805',
-            'class' => 'sample-data:Diary',
+            'class' => 'demo-data:Diary',
             'sets' => [
                 'main',
                 'diaries',
@@ -1130,7 +1130,7 @@ return [
         ],
         [
             'id' => 'victoria-journal-1840',
-            'class' => 'sample-data:Diary',
+            'class' => 'demo-data:Diary',
             'sets' => [
                 'main',
                 'diaries',
@@ -1153,7 +1153,7 @@ return [
         ],
         [
             'id' => 'tolstoy-diary-1851',
-            'class' => 'sample-data:Diary',
+            'class' => 'demo-data:Diary',
             'sets' => [
                 'main',
                 'diaries',
@@ -1176,7 +1176,7 @@ return [
         ],
         [
             'id' => 'darwin-notebook-b-1837',
-            'class' => 'sample-data:Diary',
+            'class' => 'demo-data:Diary',
             'sets' => [
                 'main',
                 'diaries',
@@ -1199,7 +1199,7 @@ return [
         ],
         [
             'id' => 'bronte-letter-1847',
-            'class' => 'sample-data:Letter',
+            'class' => 'demo-data:Letter',
             'sets' => [
                 'main',
                 'letters',
@@ -1222,7 +1222,7 @@ return [
         ],
         [
             'id' => 'leonardo-notebook-1490s',
-            'class' => 'sample-data:Diary',
+            'class' => 'demo-data:Diary',
             'sets' => [
                 'main',
                 'diaries',

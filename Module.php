@@ -1,5 +1,5 @@
 <?php
-namespace SampleData;
+namespace DemoData;
 
 use Laminas\ServiceManager\ServiceLocatorInterface;
 use Omeka\Api\Exception\NotFoundException;
@@ -7,7 +7,7 @@ use Omeka\Module\AbstractModule;
 
 class Module extends AbstractModule
 {
-    private const VOCAB_NS_URI = 'https://omeka.org/s/vocabs/sample-data#';
+    private const VOCAB_NS_URI = 'https://omeka.org/s/vocabs/demo-data#';
 
     public function getConfig()
     {
@@ -26,9 +26,9 @@ class Module extends AbstractModule
                 'file',
                 [
                     'o:namespace_uri' => self::VOCAB_NS_URI,
-                    'o:prefix' => 'sample-data',
-                    'o:label' => 'Sample Data',
-                    'o:comment' => 'Shared vocabulary for the Sample Data module.',
+                    'o:prefix' => 'demo-data',
+                    'o:label' => 'Demo Data',
+                    'o:comment' => 'Shared vocabulary for the Demo Data module.',
                 ],
                 [
                     'file' => $this->vocabFile(),
@@ -60,8 +60,8 @@ class Module extends AbstractModule
         $allItemSetIds = [];
         $allTemplateIds = [];
 
-        foreach (array_keys($config['sample_data']['datasets']) as $dataset) {
-            $tracking = $settings->get("sample_data_imported_{$dataset}");
+        foreach (array_keys($config['demo_data']['datasets']) as $dataset) {
+            $tracking = $settings->get("demo_data_imported_{$dataset}");
             if ($tracking) {
                 $allItemIds = array_merge($allItemIds, $tracking['items'] ?? []);
                 $allItemSetIds = array_merge($allItemSetIds, array_values($tracking['item_sets'] ?? []));
@@ -99,9 +99,9 @@ class Module extends AbstractModule
             $api->delete('vocabularies', $vocabs[0]->id());
         }
 
-        foreach (array_keys($config['sample_data']['datasets']) as $dataset) {
-            $settings->delete("sample_data_imported_{$dataset}");
-            $settings->delete("sample_data_job_{$dataset}");
+        foreach (array_keys($config['demo_data']['datasets']) as $dataset) {
+            $settings->delete("demo_data_imported_{$dataset}");
+            $settings->delete("demo_data_job_{$dataset}");
         }
     }
 
@@ -124,6 +124,6 @@ class Module extends AbstractModule
 
     private function vocabFile(): string
     {
-        return sprintf('%s/vocabs/sample-data.n3', __DIR__);
+        return sprintf('%s/vocabs/demo-data.n3', __DIR__);
     }
 }

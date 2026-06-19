@@ -1,33 +1,33 @@
 <?php
-$this->headTitle('Sample Data');
-$this->headLink()->appendStylesheet($this->assetUrl('css/sample-data.css', 'SampleData'));
-echo $this->pageTitle('Sample Data');
-$csrf = new \Laminas\Form\Element\Csrf('sample_data_csrf');
+$this->headTitle('Demo Data');
+$this->headLink()->appendStylesheet($this->assetUrl('css/demo-data.css', 'DemoData'));
+echo $this->pageTitle('Demo Data');
+$csrf = new \Laminas\Form\Element\Csrf('demo_data_csrf');
 $csrfValue = $csrf->getValue();
 ?>
 
-<div id="sample-data-datasets">
+<div id="demo-data-datasets">
 <?php foreach ($datasets as $dataset): ?>
-<div class="sample-data-item">
-    <div class="sample-data-dataset">
-        <div class="sample-data-dataset-header">
+<div class="demo-data-item">
+    <div class="demo-data-dataset">
+        <div class="demo-data-dataset-header">
             <h2><?php echo $this->escapeHtml($dataset['label']); ?></h2>
             <?php if ($dataset['pending_action']): ?>
-            <span class="sample-data-status in-progress">
+            <span class="demo-data-status in-progress">
                 <?php echo $dataset['pending_action'] === 'purge'
                     ? $this->translate('Purging…')
                     : $this->translate('Importing…'); ?>
             </span>
             <?php elseif ($dataset['job_failed']): ?>
-            <span class="sample-data-status failed">
+            <span class="demo-data-status failed">
                 <?php echo $this->translate('Job failed'); ?>
             </span>
             <?php elseif ($dataset['imported']): ?>
-            <span class="sample-data-status imported">
+            <span class="demo-data-status imported">
                 <?php echo $this->translate('Imported'); ?>
             </span>
             <?php else: ?>
-            <span class="sample-data-status not-imported">
+            <span class="demo-data-status not-imported">
                 <?php echo $this->translate('Not imported'); ?>
             </span>
             <?php endif; ?>
@@ -35,7 +35,7 @@ $csrfValue = $csrf->getValue();
 
         <p><?php echo $this->escapeHtml($dataset['description']); ?></p>
 
-        <p class="sample-data-meta">
+        <p class="demo-data-meta">
             <?php echo sprintf(
                 $this->translate('%d items &middot; %d item sets &middot; media included'),
                 $dataset['item_count'],
@@ -68,15 +68,15 @@ $csrfValue = $csrf->getValue();
         <?php endif; ?>
 
         <?php if (!$dataset['pending_action']): ?>
-        <div class="sample-data-actions">
-            <form method="POST" action="<?php echo $this->escapeHtmlAttr($this->url('admin/sample-data')); ?>">
+        <div class="demo-data-actions">
+            <form method="POST" action="<?php echo $this->escapeHtmlAttr($this->url('admin/demo-data')); ?>">
                 <input type="hidden" name="csrf" value="<?php echo $this->escapeHtmlAttr($csrfValue); ?>">
                 <input type="hidden" name="dataset" value="<?php echo $this->escapeHtmlAttr($dataset['name']); ?>">
                 <input type="hidden" name="action" value="import">
                 <button type="submit" class="button" aria-label="<?php echo $this->escapeHtmlAttr($dataset['imported'] ? sprintf($this->translate('Re-import %s'), $dataset['label']) : sprintf($this->translate('Import %s'), $dataset['label'])); ?>"<?php if ($dataset['imported']): ?> onclick="return confirm('<?php echo $this->escapeJs($this->translate('This will delete all imported items and re-import from scratch. Continue?')); ?>')"<?php endif; ?>><?php echo $dataset['imported'] ? $this->translate('Re-import') : $this->translate('Import'); ?></button>
             </form>
             <?php if ($dataset['imported']): ?>
-            <form method="POST" action="<?php echo $this->escapeHtmlAttr($this->url('admin/sample-data')); ?>">
+            <form method="POST" action="<?php echo $this->escapeHtmlAttr($this->url('admin/demo-data')); ?>">
                 <input type="hidden" name="csrf" value="<?php echo $this->escapeHtmlAttr($csrfValue); ?>">
                 <input type="hidden" name="dataset" value="<?php echo $this->escapeHtmlAttr($dataset['name']); ?>">
                 <input type="hidden" name="action" value="purge">

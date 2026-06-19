@@ -1,10 +1,10 @@
 <?php
-namespace SampleData;
+namespace DemoData;
 
 use Laminas\Router\Http;
 
 return [
-    'sample_data' => [
+    'demo_data' => [
         'datasets' => [
             'artworks' => [
                 'label' => 'Artworks',
@@ -39,17 +39,17 @@ return [
     ],
     'controllers' => [
         'factories' => [
-            'SampleData\Controller\Admin\Index' => Service\Controller\IndexControllerFactory::class,
+            'DemoData\Controller\Admin\Index' => Service\Controller\IndexControllerFactory::class,
         ],
     ],
     'navigation' => [
         'AdminModule' => [
             [
-                'label' => 'Sample Data',
-                'route' => 'admin/sample-data',
+                'label' => 'Demo Data',
+                'route' => 'admin/demo-data',
                 'controller' => 'Index',
                 'action' => 'index',
-                'resource' => 'SampleData\Controller\Admin\Index',
+                'resource' => 'DemoData\Controller\Admin\Index',
                 'useRouteMatch' => true,
             ],
         ],
@@ -58,12 +58,12 @@ return [
         'routes' => [
             'admin' => [
                 'child_routes' => [
-                    'sample-data' => [
+                    'demo-data' => [
                         'type' => Http\Literal::class,
                         'options' => [
-                            'route' => '/sample-data',
+                            'route' => '/demo-data',
                             'defaults' => [
-                                '__NAMESPACE__' => 'SampleData\Controller\Admin',
+                                '__NAMESPACE__' => 'DemoData\Controller\Admin',
                                 'controller' => 'Index',
                                 'action' => 'index',
                             ],

@@ -34,37 +34,15 @@ e.g. `YourName/DemoData-build (your@email.example)`.
 
 ## build-identifiers.php
 
-Looks up a Wikidata entity URI for each item in a dataset that does not already
-have a `dcterms:identifier` value, and injects it into the dataset PHP file.
-The URI format is `https://www.wikidata.org/entity/QXXX`.
+Looks up a Wikidata entity URI for each item that does not already have a
+`dcterms:identifier` value, and injects it into the dataset PHP file.
 
 ```
 php dev/build-identifiers.php <dataset>           # look up and inject
 php dev/build-identifiers.php <dataset> --dry-run # report only, no writes
 ```
 
-Re-running is safe — only items without an existing `dcterms:identifier` are
-processed.
-
-### How it searches
-
-Each item goes through a series of passes until a match is found:
-
-1. **QID overrides** — hard-coded QIDs from the dataset's strategy file
-   (see **Strategies** below).
-2. **SPARQL batch** — matches items by `dcterms:title` label against Wikidata
-   `rdfs:label`. Also tries lowercase variants and paren-stripped variants
-   (e.g. "Madame X (Madame Pierre Gautreau)" → "Madame X"). If the dataset
-   strategy file includes a `strip_suffixes` pass, suffix-stripped variants are
-   tried as well (e.g. "Olmec Civilization" → "Olmec").
-3. **Entity search fallback** — calls `wbsearchentities` for any items still
-   unmatched.
-
-### Rate limits
-
-SPARQL requests are spaced 2 seconds apart; entity searches 0.5 seconds. If a
-429 is returned the script stops and reports how far it got — re-run to
-continue from where it left off (already-injected items are skipped).
+Re-running is safe — only items without an existing `dcterms:identifier` are processed.
 
 ---
 
@@ -79,203 +57,30 @@ php dev/build-labels.php <dataset>           # fetch and inject
 php dev/build-labels.php <dataset> --dry-run # report only, no writes
 ```
 
-Re-running is safe — items whose `dcterms:title` already contains a
-language-tagged value are skipped.
-
-### How it works
-
-**Phase 1 — resolve native language per item:**
-
-1. Queries Wikidata P103 (native language) for each item's QID. Resolves the
-   language to an ISO 639-1 code via P218 (ISO code), or via a built-in map for
-   classical languages without ISO codes (Classical Chinese → `zh`, Koine
-   Greek → `el`, Classical Arabic → `ar`).
-2. Items with no P103, or whose P103 resolves only to English (`en`) or Latin
-   (`la`) — a scholarly lingua franca, not a native language — fall through to
-   a P1412 (languages spoken/written) fallback.
-3. For P1412, collects all resolved non-English codes and picks by a priority
-   list (non-Latin scripts first); falls back to the first result.
-4. Manual overrides in `MANUAL_LANGS` supply the native language for figures
-   where Wikidata P103/P1412 is absent or incorrect.
-
-**Phase 2 — fetch label in native language:**
-
-Queries `rdfs:label` in the resolved language code for each matched item.
-Labels identical to the existing English title are skipped — they add a tag but
-no new content. Labels with Wikidata disambiguation suffixes that can't be
-stripped automatically are supplied via `MANUAL_LABELS` instead.
-
-**SKIP_IDS** excludes specific items where Wikidata language data is misleading
-and no correct override exists.
-
-### Rate limits
-
-SPARQL requests are spaced 2 seconds apart. If a 429 is returned, the script
-stops and reports how far it got — re-run to continue (already-tagged items are
-skipped).
+Re-running is safe — items whose `dcterms:title` already contains a language-tagged value are skipped.
 
 ---
 
 ## build-media.php
 
-Finds a Wikimedia Commons image for each item in a dataset that does not already
-have one, downloads it to `datasets/<dataset>/media/`, and injects the `'media'`
-key into the dataset PHP file.
+Finds a Wikimedia Commons image for each item that does not already have one,
+downloads it to `datasets/<dataset>/media/`, and injects the `'media'` key into
+the dataset PHP file.
 
 ```
 php dev/build-media.php <dataset>           # fetch + download
 php dev/build-media.php <dataset> --dry-run # report URLs only, no writes
 ```
 
-The script processes only items that have no `media` key or whose file is missing
-from the `media/` directory. Re-running is safe.
-
-### How it searches
-
-Each item goes through a series of passes until a match is found:
-
-1. **Label pass (title + creator)** — SPARQL query matching both `dcterms:title` and
-   `dcterms:creator` against Wikidata `rdfs:label` via P18 (image) and P170 (creator).
-2. **Label pass (title only)** — same query with only `dcterms:title`.
-3. **Label pass (title, article stripped)** — strips leading articles
-   ("The", "La", "Le", etc.) before matching.
-4. **Entity search** — calls `wbsearchentities` to find each item's Wikidata QID, then
-   batch-fetches P18.
-5. **Commons search (title + creator)** — full-text search in Wikimedia Commons
-   File namespace.
-6. **Commons search (title only)** — same search with only `dcterms:title`.
-
-Strategy overrides (see below) run before these default passes.
-
-### Rate limits
-
-The script respects API rate limits with automatic backoff. SPARQL requests are
-spaced 2 seconds apart; entity and Commons searches 0.5 seconds. If a 429 is
-returned the script sleeps for the Retry-After duration and continues.
+Re-running is safe — only items with no `media` key or a missing file are processed.
 
 ---
 
 ## Strategies
 
-Each dataset can have a strategy file at `dev/strategies/<dataset>.php`.
-It returns an array of passes that extend or override the default search
-behaviour.
-
-Passes with `'type' => 'override'` are applied before the default search
-passes. All other pass types either configure search behaviour or control
-output, and are applied at setup time.
-
-### identifier_skip
-
-Mark items as having no Wikidata entity, so `build-identifiers.php` does not
-attempt to match them. Without this, a short or common-word title may match an
-unrelated entity.
-
-```php
-['type' => 'identifier_skip', 'ids' => [
-    'item-id', // reason: no Wikidata entity; title matches unrelated entities
-]],
-```
-
-This pass is ignored by `build-media.php`.
-
-### use_alt_labels
-
-Tell `build-identifiers.php` to also match items against Wikidata `skos:altLabel`
-values, in addition to the default `rdfs:label` match. Without this pass, only
-`rdfs:label` is searched (safe default).
-
-```php
-['type' => 'use_alt_labels'],
-```
-
-Useful when dataset titles differ from Wikidata's canonical label but appear as
-an alias (e.g. "Chimú Kingdom" is an alias of the "Chimor" entity). Avoid on
-datasets with short or common-word titles — those can match unrelated entities
-that happen to share an alias. This pass is ignored by `build-media.php`.
-
-### strip_suffixes
-
-Tell `build-identifiers.php` to also search Wikidata using the title with a
-trailing type suffix removed — e.g. "Olmec Civilization" → also try "Olmec".
-Without this pass, suffix stripping is disabled (safe default for datasets
-where titles don't follow the `<name> <type>` pattern).
-
-```php
-['type' => 'strip_suffixes', 'suffixes' => [
-    'Civilization', 'Kingdom', 'Empire', 'Dynasty', 'Republic', // ...
-]],
-```
-
-Each suffix is checked case-sensitively against the end of the title. Only one
-suffix is stripped per title, and it is never combined with paren-stripping on
-the same variant, to prevent over-stripping. This pass is ignored by
-`build-media.php`.
-
-### field_order
-
-Control the key order when `build-identifiers.php` rewrites a dataset file.
-Without this, newly injected keys appear at the end of each item array.
-
-```php
-['type' => 'field_order', 'fields' => [
-    'id', 'class', 'sets', 'relations', 'dcterms:identifier',
-    'dcterms:title', 'dcterms:description', 'media',
-]],
-```
-
-Keys not listed are appended after the listed ones, preserving their original
-relative order. This pass is ignored by `build-media.php`.
-
-### commons_file_overrides
-
-Hardcode a specific Commons filename for an item:
-
-```php
-['type' => 'override', 'commons_file_overrides' => [
-    'item-id' => 'Exact Commons Filename.jpg',
-]]
-```
-
-Use when the automated passes would find the wrong image — e.g. an item whose
-title matches many unrelated Commons files.
-
-This pass is ignored by `build-identifiers.php`.
-
-### qid_overrides
-
-Hardcode a Wikidata QID for an item. The `property` key controls which script
-uses the override:
-
-```php
-// Used by build-media.php (P18 = image property)
-['type' => 'override', 'qid_overrides' => [
-    'item-id' => 'Q123456',
-], 'property' => 'P18'],
-
-// Used by build-identifiers.php (no property key)
-['type' => 'override', 'qid_overrides' => [
-    'item-id' => 'Q123456',
-]],
-```
-
-Use when automatic matching returns the wrong entity — e.g. the dataset title
-differs from the Wikidata label, or a low-QID entity with the same label
-shadows the intended one.
-
-### skip
-
-Mark items as having no available image:
-
-```php
-['type' => 'override', 'skip' => [
-    'item-id', // reason: no free image on Commons
-]],
-```
-
-Skipped items are removed from the pending list and not retried.
-
-This pass is ignored by `build-identifiers.php`.
+Each dataset can have a strategy file at `dev/strategies/<dataset>.php` that
+customizes search behavior for `build-identifiers.php` and `build-media.php`.
+Available pass types and their options are documented in `dev/strategies/artworks.php`.
 
 ---
 
@@ -291,115 +96,56 @@ datasets/<name>/media/       # created automatically by build-media.php
 
 ### 2. Write the data file
 
-`datasets/<name>/<name>.php` must return an associative array with three keys:
+`datasets/<name>/<name>.php` returns an associative array with three keys:
 `item_sets`, `resource_template`, and `items`.
 
 ```php
 <?php
 return [
 
-    // -------------------------------------------------------------------------
-    // Item sets
-    // Keys are slugs used in item 'sets' arrays. The 'main' key is the primary
-    // set and must always be present — the admin UI uses it for the browse link.
-    // -------------------------------------------------------------------------
     'item_sets' => [
+        // Keys are slugs used in item 'sets' arrays. 'main' must always be present.
         'main' => [
             'dcterms:title'       => 'My Dataset',
             'dcterms:description' => 'A short description.',
         ],
-        'subcategory-one' => [
-            'dcterms:title'       => 'Subcategory One',
-            'dcterms:description' => 'Items in this subcategory.',
-        ],
+        'subcategory-one' => ['dcterms:title' => 'Subcategory One'],
     ],
 
-    // -------------------------------------------------------------------------
-    // Resource template
-    // The label should use the "Demo Data: " prefix to avoid conflicts with
-    // user-created templates. Properties not found in any installed vocabulary
-    // are silently skipped on import.
-    // -------------------------------------------------------------------------
     'resource_template' => [
+        // Label should use the "Demo Data: " prefix to avoid conflicts.
         'label' => 'Demo Data: My Item',
         'properties' => [
             ['term' => 'dcterms:title'],
-            ['term' => 'dcterms:description'],
             ['term' => 'dcterms:created', 'data_type' => ['numeric:timestamp']],
-            ['term' => 'dcterms:date', 'data_type' => ['numeric:timestamp']],
-            // alternate_label overrides the property label in the form:
             ['term' => 'dcterms:relation', 'data_type' => ['resource'], 'alternate_label' => 'Related Items'],
-            // demo-data vocabulary terms:
             ['term' => 'demo-data:knownFor'],
         ],
     ],
 
-    // -------------------------------------------------------------------------
-    // Items
-    // -------------------------------------------------------------------------
     'items' => [
         [
-            // Required. Kebab-case slug, unique within the dataset. Used for
-            // inter-item relation links and media file naming.
-            'id' => 'my-item',
+            'id'      => 'my-item',          // kebab-case slug, unique within dataset
+            'class'   => 'demo-data:Person', // see Vocabulary section
+            'sets'    => ['main', 'subcategory-one'],
+            'relations' => ['other-item-id'], // dcterms:relation links, resolved in a second pass
 
-            // Resource class from the demo-data vocabulary (optional).
-            // See "Vocabulary" section below for available classes.
-            'class' => 'demo-data:Person',
-
-            // Item set keys from the item_sets array above.
-            'sets' => ['main', 'subcategory-one'],
-
-            // IDs of related items (dcterms:relation). These are linked in a
-            // second pass after all items are created.
-            'relations' => ['other-item-id'],
-
-            // Map geometry. Requires the Mapping module; skipped silently when inactive.
-            // The geometry type is inferred from the coordinate structure:
-            //   point      — [lng, lat]
-            //   linestring — [[lng, lat], [lng, lat], ...]
-            //   polygon    — [[[lng, lat], ...], ...]  (first ring exterior, additional rings holes)
+            // Requires Mapping module; skipped when inactive. See Map coordinates below.
             'map_coordinates' => [-0.1276, 51.5072],
+            'map_bounds'      => '-1.5,51.0,0.5,52.0', // 'west,south,east,north'
 
-            // Bounding box for the map view: 'west,south,east,north'.
-            // Only used when map_coordinates is also set.
-            'map_bounds' => '-1.5,51.0,0.5,52.0',
+            // Any installed vocabulary term works as a key.
+            'dcterms:title'   => 'My Item',
+            'dcterms:created' => ['@value' => '1850', '@type' => 'numeric:timestamp'],
+            'dcterms:subject' => ['Tag One', 'Tag Two'],
 
-            // Any installed vocabulary term can be used here — the importer
-            // resolves term strings at runtime, so foaf:name, schema:*, etc.
-            // all work as long as the vocabulary is installed. Values can be:
-            //   'string'                           — plain literal
-            //   ['@value' => '...', '@type' => '...']  — typed value
-            //   ['@value' => '...', '@annotation' => [...]]  — annotated value
-            //   ['str1', 'str2']                   — multiple plain literals
-            // Terms from missing vocabularies are silently skipped.
-            'dcterms:title'       => 'My Item',
-            'dcterms:description' => 'A longer description of this item.',
-            'dcterms:created'     => ['@value' => '1850', '@type' => 'numeric:timestamp'],
-            // Annotated value — attach metadata to the value itself:
-            'dcterms:date'        => [
-                '@value'      => '1850',
-                '@type'       => 'numeric:timestamp',
-                '@annotation' => ['demo-data:qualifier' => 'approximate'],
-            ],
-            'dcterms:subject'     => ['Tag One', 'Tag Two'],
-
-            // Media file(s) relative to datasets/<name>/media/. Three valid forms:
-            //   bare string       — single file, no properties (populated by build-media.php)
-            //   dict with 'file'  — single file with property values
-            //   array of dicts    — multiple files with property values
-            // See "Media property values" below for details.
-            'media' => 'my-item.jpg',
+            'media' => 'my-item.jpg', // see Media property values below
         ],
     ],
 ];
 ```
 
 #### Language-tagged values
-
-A value dict can carry a `@language` tag to store a literal in a specific
-language. English names stay first as plain strings; native-language names follow
-as tagged values:
 
 ```php
 'dcterms:title' => [
@@ -408,16 +154,12 @@ as tagged values:
 ],
 ```
 
-`@language` and `@type` are mutually exclusive in RDF — do not set both on the
-same value. Language-tagged values are always literals; no `@type` is needed.
-
+`@language` and `@type` are mutually exclusive — do not set both on the same value.
 Populated automatically by `build-labels.php` for items with a Wikidata QID.
 
 #### Value annotations
 
-A property value can carry an annotation — metadata attached to the value itself
-rather than to the item. Use an associative array with `@value` and `@annotation`
-keys instead of a plain string:
+Attach metadata to a value itself rather than to the item:
 
 ```php
 'demo-data:birthDate' => [
@@ -427,79 +169,57 @@ keys instead of a plain string:
 ],
 ```
 
-`@annotation` is a dict keyed by property term, with the annotation value as a
-plain string. Multiple annotation properties are supported:
-
-```php
-'@annotation' => [
-    'demo-data:qualifier' => 'approximate',
-],
-```
-
-This format is only needed for a single annotated value. A plain string remains
-correct for unannotated values, and a sequential array remains correct for
-multiple unannotated values of the same property:
-
-```php
-'dcterms:subject' => ['Tag One', 'Tag Two'],  // multiple plain values — unchanged
-```
-
 #### Numeric data types
 
-Set `@type` on a value object to store it as a typed numeric value when the
-`NumericDataTypes` module is active. When the module is inactive, numeric values
-fall back to plain text automatically. Supported types: `numeric:timestamp`,
-`numeric:duration`, `numeric:interval`, `numeric:integer`.
+Set `@type` on a value to store it as a structured type when NumericDataTypes is
+active; falls back to plain text when inactive.
 
 ```php
-'dcterms:created' => ['@value' => '1850', '@type' => 'numeric:timestamp'],
-'dcterms:extent'  => ['@value' => 'P250Y', '@type' => 'numeric:duration'],
+'dcterms:created'  => ['@value' => '1850',      '@type' => 'numeric:timestamp'],
+'dcterms:extent'   => ['@value' => 'P250Y',     '@type' => 'numeric:duration'],
 'dcterms:temporal' => ['@value' => '-500/-323', '@type' => 'numeric:interval'],
-'demo-data:area' => ['@value' => '150000', '@type' => 'numeric:integer'],
+'demo-data:area'   => ['@value' => '150000',    '@type' => 'numeric:integer'],
 ```
 
-Value formats:
-- `numeric:timestamp` — ISO 8601 year or date: `'1850'`, `'-500'`, `'1850-06-15'`
-- `numeric:duration` — ISO 8601 duration: `'P250Y'` (250 years), `'P1Y6M'`
-- `numeric:interval` — ISO 8601 interval: `'-500/-323'`
-- `numeric:integer` — plain integer string: `'150000'`
+Formats: timestamp (`'1850'`, `'-500'`, `'1850-06-15'`), duration (`'P250Y'`),
+interval (`'-500/-323'`), integer (`'150000'`). The resource template's
+`data_type` entries constrain the admin form UI only — they do not drive import
+typing.
 
-The resource template's `data_type` entries (e.g. `['term' => 'dcterms:created',
-'data_type' => ['numeric:timestamp']]`) are for the Omeka S admin UI only —
-they constrain which data types the form offers when editing items. They do not
-drive import typing; `@type` on the value does.
+#### Map coordinates
+
+The geometry type is inferred from the coordinate structure:
+
+```php
+'map_coordinates' => [-0.1276, 51.5072],                              // point: [lng, lat]
+'map_coordinates' => [[-0.1276, 51.5072], [2.3522, 48.8566]],        // linestring
+'map_coordinates' => [[[-0.1276, 51.5072], [2.3522, 48.8566], ...]],  // polygon (first ring exterior, additional rings holes)
+```
+
+`map_bounds` (`'west,south,east,north'`) sets the initial map viewport and is
+optional. Requires the Mapping module; both keys are skipped silently when
+inactive.
 
 #### Media property values
 
-Media objects support the same property values as items. Three forms are valid:
+Three forms are valid for the `media` key:
 
 ```php
 // 1. Bare string — single file, no properties (what build-media.php injects)
 'media' => 'my-item.jpg',
 
 // 2. Single file with properties
-'media' => [
-    'file'            => 'my-item.jpg',
-    'dcterms:title'   => 'My Item',
-    'dcterms:creator' => 'Artist Name',
-],
+'media' => ['file' => 'my-item.jpg', 'dcterms:title' => 'My Item', 'dcterms:creator' => 'Artist'],
 
 // 3. Multiple files with properties
 'media' => [
-    ['file' => 'my-item-p1.jpg', 'dcterms:title' => 'Page 1'],
-    ['file' => 'my-item-p2.jpg', 'dcterms:title' => 'Page 2'],
+    ['file' => 'page1.jpg', 'dcterms:title' => 'Page 1'],
+    ['file' => 'page2.jpg', 'dcterms:title' => 'Page 2'],
 ],
 ```
 
-A dict with a `'file'` key is treated as a single media object. A sequential array
-of strings is the old multi-file format (no properties). A sequential array of dicts
-is the new multi-file format.
-
-Property values in a media entry use the same shorthands as item-level properties —
-plain strings, typed values (`@type`), language-tagged values (`@language`),
-annotations (`@annotation`), and URIs are all supported. Any property term works.
-
-Seeded automatically into all datasets by `dev/migrate-media.php`.
+Property values use the same shorthands as item-level properties — plain strings,
+typed values, language-tagged values, and annotations are all supported.
 
 ### 3. Register in module.config.php
 
@@ -514,24 +234,21 @@ Add an entry to the `demo_data.datasets` array in `config/module.config.php`:
 ],
 ```
 
-`item_count` and `set_count` are displayed on the module admin page before import.
-
 ### 4. Inject identifiers
 
 ```
-php dev/build-identifiers.php my-dataset --dry-run   # review matches before writing
-php dev/build-identifiers.php my-dataset             # inject dcterms:identifier values
+php dev/build-identifiers.php my-dataset --dry-run
+php dev/build-identifiers.php my-dataset
 ```
 
 ### 5. Fetch media
 
 ```
-php dev/build-media.php my-dataset --dry-run   # review URLs before downloading
-php dev/build-media.php my-dataset             # download and inject media keys
+php dev/build-media.php my-dataset --dry-run
+php dev/build-media.php my-dataset
 ```
 
-Create a strategy file at `dev/strategies/my-dataset.php` for any items either
-script cannot match correctly (see **Strategies** above).
+Create `dev/strategies/my-dataset.php` for any items either script cannot match correctly.
 
 ---
 

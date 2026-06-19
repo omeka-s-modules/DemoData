@@ -1,14 +1,38 @@
 <?php
 /**
- * Artworks dataset media strategy.
+ * Artworks dataset strategy.
  *
- * commons_file_overrides: hardcoded Commons filenames for items the search passes
- * cannot auto-match (unusual titles, non-English labels, obscure entries).
+ * Strategy files return an array of passes that customize search behavior for
+ * build-identifiers.php and build-media.php. Available pass types:
  *
- * qid_overrides: hardcoded Wikidata QIDs for items the entity search cannot find
- * (common words in titles, ambiguous matches, or entities with no English label).
+ * identifier_skip — mark items as having no Wikidata entity; skipped by build-identifiers.php.
+ *   ['type' => 'identifier_skip', 'ids' => ['item-id']]
+ *   Ignored by build-media.php.
  *
- * skip: items for which no free image is available anywhere.
+ * use_alt_labels — also match items against Wikidata skos:altLabel (default: rdfs:label only).
+ *   ['type' => 'use_alt_labels']
+ *   Useful when dataset titles appear as Wikidata aliases rather than canonical labels.
+ *   Ignored by build-media.php.
+ *
+ * strip_suffixes — also search Wikidata with trailing type suffixes removed from the title.
+ *   ['type' => 'strip_suffixes', 'suffixes' => ['Civilization', 'Kingdom', ...]]
+ *   Ignored by build-media.php.
+ *
+ * field_order — control key order when build-identifiers.php rewrites a dataset file.
+ *   ['type' => 'field_order', 'fields' => ['id', 'class', 'dcterms:title', ...]]
+ *   Keys not listed are appended after the listed ones in original order.
+ *
+ * commons_file_overrides — hardcode a specific Commons filename for an item.
+ *   ['type' => 'override', 'commons_file_overrides' => ['item-id' => 'Filename.jpg']]
+ *   Ignored by build-identifiers.php.
+ *
+ * qid_overrides — hardcode a Wikidata QID for an item. 'property' => 'P18' targets
+ *   build-media.php (image lookup); omitting 'property' targets build-identifiers.php.
+ *   ['type' => 'override', 'qid_overrides' => ['item-id' => 'Q123456'], 'property' => 'P18']
+ *
+ * skip — mark items as having no available image; skipped by build-media.php.
+ *   ['type' => 'override', 'skip' => ['item-id']]
+ *   Ignored by build-identifiers.php.
  */
 return [
     ['type' => 'field_order', 'fields' => [

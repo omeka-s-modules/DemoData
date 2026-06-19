@@ -29,7 +29,7 @@ Historical handwritten and typed documents including letters, diaries, newspaper
 
 ### People
 
-Historical figures spanning science, literature, philosophy, exploration, and political leadership across cultures and centuries. Exercises value annotations (approximate birth and death dates flagged with a qualifier value), URI identifiers, numeric date values, and map markers.
+Historical figures spanning science, literature, philosophy, exploration, and political leadership across cultures and centuries. Exercises value annotations (approximate birth and death dates flagged with a qualifier value), language-tagged title values (native-language names in 15 languages), URI identifiers, numeric date values, and map markers.
 
 ## Copyright
 

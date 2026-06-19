@@ -7,6 +7,7 @@ Build tools for the DemoData module. None of these files are shipped with the mo
 | Path | Description |
 |------|-------------|
 | `build-identifiers.php` | Looks up Wikidata entity URIs and injects them as `dcterms:identifier` values |
+| `build-labels.php` | Fetches native-script Wikidata labels and injects them as language-tagged `dcterms:title` values |
 | `build-media.php` | Fetches and downloads media files for a dataset from Wikidata/Wikimedia Commons |
 | `config.php` | Local config — Wikimedia API credentials (**gitignored**) |
 | `config.php.dist` | Template for `config.php` |
@@ -64,6 +65,54 @@ Each item goes through a series of passes until a match is found:
 SPARQL requests are spaced 2 seconds apart; entity searches 0.5 seconds. If a
 429 is returned the script stops and reports how far it got — re-run to
 continue from where it left off (already-injected items are skipped).
+
+---
+
+## build-labels.php
+
+Fetches native-language `rdfs:label` values from Wikidata for items that have a
+Wikidata QID in `dcterms:identifier`, and injects them as additional
+`dcterms:title` values with `@language` tags.
+
+```
+php dev/build-labels.php <dataset>           # fetch and inject
+php dev/build-labels.php <dataset> --dry-run # report only, no writes
+```
+
+Re-running is safe — items whose `dcterms:title` already contains a
+language-tagged value are skipped.
+
+### How it works
+
+**Phase 1 — resolve native language per item:**
+
+1. Queries Wikidata P103 (native language) for each item's QID. Resolves the
+   language to an ISO 639-1 code via P218 (ISO code), or via a built-in map for
+   classical languages without ISO codes (Classical Chinese → `zh`, Koine
+   Greek → `el`, Classical Arabic → `ar`).
+2. Items with no P103, or whose P103 resolves only to English (`en`) or Latin
+   (`la`) — a scholarly lingua franca, not a native language — fall through to
+   a P1412 (languages spoken/written) fallback.
+3. For P1412, collects all resolved non-English codes and picks by a priority
+   list (non-Latin scripts first); falls back to the first result.
+4. Manual overrides in `MANUAL_LANGS` supply the native language for figures
+   where Wikidata P103/P1412 is absent or incorrect.
+
+**Phase 2 — fetch label in native language:**
+
+Queries `rdfs:label` in the resolved language code for each matched item.
+Labels identical to the existing English title are skipped — they add a tag but
+no new content. Labels with Wikidata disambiguation suffixes that can't be
+stripped automatically are supplied via `MANUAL_LABELS` instead.
+
+**SKIP_IDS** excludes specific items where Wikidata language data is misleading
+and no correct override exists.
+
+### Rate limits
+
+SPARQL requests are spaced 2 seconds apart. If a 429 is returned, the script
+stops and reports how far it got — re-run to continue (already-tagged items are
+skipped).
 
 ---
 
@@ -344,6 +393,24 @@ return [
     ],
 ];
 ```
+
+#### Language-tagged values
+
+A value dict can carry a `@language` tag to store a literal in a specific
+language. English names stay first as plain strings; native-language names follow
+as tagged values:
+
+```php
+'dcterms:title' => [
+    'Confucius',
+    ['@value' => '孔子', '@language' => 'zh'],
+],
+```
+
+`@language` and `@type` are mutually exclusive in RDF — do not set both on the
+same value. Language-tagged values are always literals; no `@type` is needed.
+
+Populated automatically by `build-labels.php` for items with a Wikidata QID.
 
 #### Value annotations
 

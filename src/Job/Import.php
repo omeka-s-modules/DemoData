@@ -227,6 +227,9 @@ class Import extends AbstractDemoDataJob
                 $entry = $resolvedType === 'uri'
                     ? ['type' => 'uri', 'property_id' => 'auto', '@id' => (string) $v['@value']]
                     : ['type' => $resolvedType, 'property_id' => 'auto', '@value' => (string) $v['@value']];
+                if (!empty($v['@language'])) {
+                    $entry['@language'] = (string) $v['@language'];
+                }
                 if (!empty($v['@annotation'])) {
                     $entry['@annotation'] = $this->buildAnnotation($v['@annotation']);
                 }

@@ -1,8 +1,8 @@
 # Sample Data
 
-An Omeka S module that imports sample datasets for development and testing.
+An Omeka S module that imports sample datasets for development, testing, and evaluation. The datasets use realistic cultural heritage content to demonstrate the breadth of Omeka S's data model — vocabularies, resource classes, value types, media, and modules working together across four distinct domains.
 
-The [NumericDataTypes](https://omeka.org/s/modules/NumericDataTypes/) and [Mapping](https://omeka.org/s/modules/Mapping/) modules are optional; when present, they unlock date fields, coordinates, and map markers in the Artworks and People datasets.
+The [NumericDataTypes](https://omeka.org/s/modules/NumericDataTypes/) module is optional; when active, date, duration, interval, and integer fields are stored as structured numeric values rather than plain text. The [Mapping](https://omeka.org/s/modules/Mapping/) module is optional; when active, geographic coordinates are displayed as map markers.
 
 ## Datasets
 
@@ -12,24 +12,24 @@ Each dataset creates its own item set(s) and resource template on import. Re-imp
 |---|---|---|
 | Artworks | 200 | 200 |
 | Civilizations | 450 | 450 |
-| Documents | 50 | 50 |
+| Documents | 50 | 62 |
 | People | 100 | 100 |
 
 ### Artworks
 
-Paintings, sculptures, drawings, and manuscripts spanning antiquity to the 20th century, covering movements from Ancient Egypt and Classical Greece through Impressionism, Fauvism, and Modernism. Exercises resource templates, map markers, and inter-item links.
+Paintings, sculptures, drawings, and manuscripts spanning antiquity to the 20th century, organized by movement and period. Exercises resource templates with alternate property labels, URI identifiers, numeric date values, map markers, and inter-item links.
 
 ### Civilizations
 
-Historical polities — kingdoms, empires, dynasties, and cultural periods — from across the ancient, medieval, and early modern world. Exercises large item counts, hierarchical subject matter, and inter-item links.
+Historical polities — kingdoms, empires, dynasties, and cultural periods — from across the ancient, medieval, and early modern world. The largest dataset at 450 items. Exercises all four NumericDataTypes (timestamp, duration, interval, integer), map markers with bounding boxes, and inter-item links.
 
 ### Documents
 
-Historical handwritten and typed documents including letters, diaries, newspapers, and official records from the 15th through 20th centuries. Includes large TIFF and PDF files; import may take longer than other datasets. Exercises non-image media ingestion.
+Historical handwritten and typed documents including letters, diaries, newspapers, and official records from the 15th through 20th centuries. Several items have multiple media files representing individual pages of a multi-page document. Includes large TIFF and PDF files.
 
 ### People
 
-Historical figures spanning science, literature, philosophy, exploration, and political leadership across cultures and centuries. Exercises resource templates and map markers.
+Historical figures spanning science, literature, philosophy, exploration, and political leadership across cultures and centuries. Exercises value annotations (approximate birth and death dates flagged with a qualifier value), URI identifiers, numeric date values, and map markers.
 
 ## Copyright
 

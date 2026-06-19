@@ -384,11 +384,12 @@ return [
             ],
             'dcterms:subject'     => ['Tag One', 'Tag Two'],
 
-            // Media file(s) relative to datasets/<name>/media/.
-            // Single string for one file; array for multiple files (e.g. multi-page documents).
-            // Populated automatically by build-media.php (single-file items only).
+            // Media file(s) relative to datasets/<name>/media/. Three valid forms:
+            //   bare string       — single file, no properties (populated by build-media.php)
+            //   dict with 'file'  — single file with property values
+            //   array of dicts    — multiple files with property values
+            // See "Media property values" below for details.
             'media' => 'my-item.jpg',
-            // 'media' => ['my-item-p1.jpg', 'my-item-p2.jpg'],  // multi-page
         ],
     ],
 ];
@@ -467,6 +468,38 @@ The resource template's `data_type` entries (e.g. `['term' => 'dcterms:created',
 'data_type' => ['numeric:timestamp']]`) are for the Omeka S admin UI only —
 they constrain which data types the form offers when editing items. They do not
 drive import typing; `@type` on the value does.
+
+#### Media property values
+
+Media objects support the same property values as items. Three forms are valid:
+
+```php
+// 1. Bare string — single file, no properties (what build-media.php injects)
+'media' => 'my-item.jpg',
+
+// 2. Single file with properties
+'media' => [
+    'file'            => 'my-item.jpg',
+    'dcterms:title'   => 'My Item',
+    'dcterms:creator' => 'Artist Name',
+],
+
+// 3. Multiple files with properties
+'media' => [
+    ['file' => 'my-item-p1.jpg', 'dcterms:title' => 'Page 1'],
+    ['file' => 'my-item-p2.jpg', 'dcterms:title' => 'Page 2'],
+],
+```
+
+A dict with a `'file'` key is treated as a single media object. A sequential array
+of strings is the old multi-file format (no properties). A sequential array of dicts
+is the new multi-file format.
+
+Property values in a media entry use the same shorthands as item-level properties —
+plain strings, typed values (`@type`), language-tagged values (`@language`),
+annotations (`@annotation`), and URIs are all supported. Any property term works.
+
+Seeded automatically into all datasets by `dev/migrate-media.php`.
 
 ### 3. Register in module.config.php
 

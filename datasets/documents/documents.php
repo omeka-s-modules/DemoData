@@ -67,7 +67,10 @@ return [
             ],
             'dcterms:title' => 'Abraham Lincoln Letter to Mr. Brayman, September 23, 1854',
             'dcterms:creator' => 'Abraham Lincoln',
-            'dcterms:created' => ['@value' => '1854', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1854',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten letter from President Abraham Lincoln to Mr. Brayman, held in the JFK Personal Papers Historical Documents Collection.',
             'dcterms:subject' => [
                 'Abraham Lincoln',
@@ -79,7 +82,12 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA) / John F. Kennedy Presidential Library',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 192847',
-            'media' => 'lincoln-brayman-1854.tif',
+            'media' => [
+                [
+                    'file' => 'lincoln-brayman-1854.tif',
+                    'dcterms:title' => 'Abraham Lincoln Letter to Mr. Brayman, September 23, 1854',
+                ],
+            ],
         ],
         [
             'id' => 'einstein-brunauer-may-1943',
@@ -90,7 +98,10 @@ return [
             ],
             'dcterms:title' => 'Albert Einstein Letter to Lt. Stephen Brunauer, U.S. Navy Bureau of Ordnance, May 17, 1943',
             'dcterms:creator' => 'Albert Einstein',
-            'dcterms:created' => ['@value' => '1943', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1943',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten letter in which Einstein discusses his involvement in Navy Research and Development Division research into naval problems.',
             'dcterms:subject' => [
                 'Albert Einstein',
@@ -102,7 +113,12 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA), Archives II, College Park, MD',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 305247; RG 74; NWCTM-74-EINSTEINLTRS',
-            'media' => 'einstein-brunauer-may-1943.tif',
+            'media' => [
+                [
+                    'file' => 'einstein-brunauer-may-1943.tif',
+                    'dcterms:title' => 'Albert Einstein Letter to Lt. Stephen Brunauer, U.S. Navy Bureau of Ordnance, May 17, 1943',
+                ],
+            ],
         ],
         [
             'id' => 'leverett-fragment-1653',
@@ -113,7 +129,10 @@ return [
             ],
             'dcterms:title' => 'John Leverett Letter Fragment, 1653',
             'dcterms:creator' => 'John Leverett',
-            'dcterms:created' => ['@value' => '1653', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1653',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten letter fragment from John Leverett, colonial administrator and later governor of Massachusetts (1673–1679), part of the JFK Historical Documents Collection.',
             'dcterms:subject' => [
                 'colonial America',
@@ -125,7 +144,12 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA) / John F. Kennedy Presidential Library',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 192948',
-            'media' => 'leverett-fragment-1653.tif',
+            'media' => [
+                [
+                    'file' => 'leverett-fragment-1653.tif',
+                    'dcterms:title' => 'John Leverett Letter Fragment, 1653',
+                ],
+            ],
         ],
         [
             'id' => 'burnett-letter-1726',
@@ -136,7 +160,10 @@ return [
             ],
             'dcterms:title' => 'William Burnett Letter, May 24, 1726',
             'dcterms:creator' => 'William Burnett',
-            'dcterms:created' => ['@value' => '1726', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1726',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten letter from William Burnett, colonial governor of Massachusetts (1728–1729), part of the JFK Historical Documents Collection.',
             'dcterms:subject' => [
                 'colonial America',
@@ -148,7 +175,12 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA) / John F. Kennedy Presidential Library',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 193049',
-            'media' => 'burnett-letter-1726.tif',
+            'media' => [
+                [
+                    'file' => 'burnett-letter-1726.tif',
+                    'dcterms:title' => 'William Burnett Letter, May 24, 1726',
+                ],
+            ],
         ],
         [
             'id' => 'hopkins-hollenberg-1776',
@@ -159,7 +191,10 @@ return [
             ],
             'dcterms:title' => 'Dan Hopkins Letter to Sam Hollenberg, August 22, 1776',
             'dcterms:creator' => 'Dan Hopkins',
-            'dcterms:created' => ['@value' => '1776', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1776',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten letter from Dan Hopkins to Sam Hollenberg, written during the year of American independence, part of the JFK Historical Documents Collection.',
             'dcterms:subject' => [
                 'American Revolution',
@@ -171,7 +206,12 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA) / John F. Kennedy Presidential Library',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 192869',
-            'media' => 'hopkins-hollenberg-1776.tif',
+            'media' => [
+                [
+                    'file' => 'hopkins-hollenberg-1776.tif',
+                    'dcterms:title' => 'Dan Hopkins Letter to Sam Hollenberg, August 22, 1776',
+                ],
+            ],
         ],
         [
             'id' => 'sullivan-jackson-1802',
@@ -182,7 +222,10 @@ return [
             ],
             'dcterms:title' => 'James Sullivan Letter to Andrew Jackson, March 16, 1802',
             'dcterms:creator' => 'James Sullivan',
-            'dcterms:created' => ['@value' => '1802', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1802',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten letter from Massachusetts lawyer and future governor James Sullivan (1744–1808) addressed to President Andrew Jackson.',
             'dcterms:subject' => [
                 'early American republic',
@@ -194,7 +237,12 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA) / John F. Kennedy Presidential Library',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 192980',
-            'media' => 'sullivan-jackson-1802.tif',
+            'media' => [
+                [
+                    'file' => 'sullivan-jackson-1802.tif',
+                    'dcterms:title' => 'James Sullivan Letter to Andrew Jackson, March 16, 1802',
+                ],
+            ],
         ],
         [
             'id' => 'davis-cist-1837',
@@ -205,7 +253,10 @@ return [
             ],
             'dcterms:title' => 'John Davis Letter to Louis Cist, September 3, 1837',
             'dcterms:creator' => 'John Davis',
-            'dcterms:created' => ['@value' => '1837', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1837',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten letter from John Davis (1787–1854), governor of Massachusetts, to Lewis Cist, held in the JFK Historical Documents Collection.',
             'dcterms:subject' => [
                 'antebellum America',
@@ -217,7 +268,12 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA) / John F. Kennedy Presidential Library',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 192962',
-            'media' => 'davis-cist-1837.tif',
+            'media' => [
+                [
+                    'file' => 'davis-cist-1837.tif',
+                    'dcterms:title' => 'John Davis Letter to Louis Cist, September 3, 1837',
+                ],
+            ],
         ],
         [
             'id' => 'morton-hamlin-1850',
@@ -228,7 +284,10 @@ return [
             ],
             'dcterms:title' => 'Marcus Morton Letter to Hannibal Hamlin, March 16, 1850',
             'dcterms:creator' => 'Marcus Morton',
-            'dcterms:created' => ['@value' => '1850', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1850',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten letter from Marcus Morton, governor of Massachusetts (1840–1844), addressed to future Vice President Hannibal Hamlin.',
             'dcterms:subject' => [
                 'antebellum America',
@@ -240,7 +299,12 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA) / John F. Kennedy Presidential Library',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 192994',
-            'media' => 'morton-hamlin-1850.tif',
+            'media' => [
+                [
+                    'file' => 'morton-hamlin-1850.tif',
+                    'dcterms:title' => 'Marcus Morton Letter to Hannibal Hamlin, March 16, 1850',
+                ],
+            ],
         ],
         [
             'id' => 'ware-letter-1840',
@@ -251,7 +315,10 @@ return [
             ],
             'dcterms:title' => 'Reverend Henry Ware Letter, November 10, 1840',
             'dcterms:creator' => 'Henry Ware',
-            'dcterms:created' => ['@value' => '1840', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1840',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten letter from Reverend Henry Ware, Unitarian clergyman and Harvard Divinity School professor, part of the JFK Historical Documents Collection.',
             'dcterms:subject' => [
                 '19th century',
@@ -263,7 +330,12 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA) / John F. Kennedy Presidential Library',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 192923',
-            'media' => 'ware-letter-1840.tif',
+            'media' => [
+                [
+                    'file' => 'ware-letter-1840.tif',
+                    'dcterms:title' => 'Reverend Henry Ware Letter, November 10, 1840',
+                ],
+            ],
         ],
         [
             'id' => 'schnitzler-diary-1917',
@@ -274,7 +346,10 @@ return [
             ],
             'dcterms:title' => 'Arthur Schnitzler\'s Diary, 14 May 1917',
             'dcterms:creator' => 'Arthur Schnitzler',
-            'dcterms:created' => ['@value' => '1917', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1917',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A facsimile scan of a handwritten diary entry by Austrian playwright and novelist Arthur Schnitzler dated 14 May 1917, written in German.',
             'dcterms:subject' => [
                 'diaries',
@@ -285,7 +360,12 @@ return [
             'dcterms:language' => 'de',
             'dcterms:publisher' => 'Österreichische Nationalbibliothek (Austrian National Library)',
             'dcterms:format' => 'handwritten',
-            'media' => 'schnitzler-diary-1917.tif',
+            'media' => [
+                [
+                    'file' => 'schnitzler-diary-1917.tif',
+                    'dcterms:title' => 'Arthur Schnitzler\'s Diary, 14 May 1917',
+                ],
+            ],
         ],
         [
             'id' => 'fersen-diary-1770',
@@ -296,7 +376,10 @@ return [
             ],
             'dcterms:title' => 'First Page of Axel von Fersen the Younger\'s Diary, 1770',
             'dcterms:creator' => 'Axel von Fersen the Younger',
-            'dcterms:created' => ['@value' => '1770', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1770',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'The opening handwritten page of Swedish nobleman Axel von Fersen the Younger\'s diary, dated 5 June 1770 and written in French.',
             'dcterms:subject' => [
                 'diaries',
@@ -308,7 +391,12 @@ return [
             'dcterms:publisher' => 'Riksarkivet (National Archives of Sweden), Stockholm',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Stafsundsarkivet, Dagböcker, SE/RA/720807/02/6/II/4 (1770-1778), bildid: R0000789_00011',
-            'media' => 'fersen-diary-1770.jpg',
+            'media' => [
+                [
+                    'file' => 'fersen-diary-1770.jpg',
+                    'dcterms:title' => 'First Page of Axel von Fersen the Younger\'s Diary, 1770',
+                ],
+            ],
         ],
         [
             'id' => 'chopin-impressions-1894',
@@ -319,7 +407,10 @@ return [
             ],
             'dcterms:title' => 'Kate Chopin\'s Manuscript Book "Impressions," 1894–1895 (page 87)',
             'dcterms:creator' => 'Kate Chopin',
-            'dcterms:created' => ['@value' => '1894', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1894',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Page 87 of Kate Chopin\'s handwritten personal manuscript notebook "Impressions," containing diary entries, literary translations, original stories, and poetry from 1894–1895.',
             'dcterms:subject' => [
                 'diaries',
@@ -332,7 +423,12 @@ return [
             'dcterms:publisher' => 'Missouri Historical Society, St. Louis',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Missouri Historical Society D03529; DPLA 049af3df8e9a433c9d0a594b33f127ec',
-            'media' => 'chopin-impressions-1894.jpg',
+            'media' => [
+                [
+                    'file' => 'chopin-impressions-1894.jpg',
+                    'dcterms:title' => 'Kate Chopin\'s Manuscript Book "Impressions," 1894–1895 (page 87)',
+                ],
+            ],
         ],
         [
             'id' => 'browne-diary-1855',
@@ -343,7 +439,10 @@ return [
             ],
             'dcterms:title' => 'Diary of Harriet Louisa Browne, 13 September 1855',
             'dcterms:creator' => 'Harriet Louisa Browne',
-            'dcterms:created' => ['@value' => '1855', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1855',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A handwritten diary page by Harriet Louisa Browne documenting a visit to the Poor Knights Islands and Bay of Islands in colonial New Zealand, dated 13 September 1855.',
             'dcterms:subject' => [
                 'diaries',
@@ -355,7 +454,12 @@ return [
             'dcterms:publisher' => 'Archives New Zealand',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'ADCZ 17007 W5601/1',
-            'media' => 'browne-diary-1855.jpg',
+            'media' => [
+                [
+                    'file' => 'browne-diary-1855.jpg',
+                    'dcterms:title' => 'Diary of Harriet Louisa Browne, 13 September 1855',
+                ],
+            ],
         ],
         [
             'id' => 'michinaga-diary-1010',
@@ -366,7 +470,10 @@ return [
             ],
             'dcterms:title' => 'Midō Kanpaku-ki (御堂関白記): Diary of Fujiwara no Michinaga',
             'dcterms:creator' => 'Fujiwara no Michinaga',
-            'dcterms:created' => ['@value' => '1010', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1010',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A handwritten page from the autograph diary of Heian-period regent Fujiwara no Michinaga, a National Treasure of Japan covering the years 998–1021.',
             'dcterms:subject' => [
                 'Japanese history',
@@ -378,7 +485,12 @@ return [
             'dcterms:publisher' => 'Yōmei Bunko, Kyoto, Japan',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'National Treasure of Japan (古文書)',
-            'media' => 'michinaga-diary-1010.jpg',
+            'media' => [
+                [
+                    'file' => 'michinaga-diary-1010.jpg',
+                    'dcterms:title' => 'Midō Kanpaku-ki (御堂関白記): Diary of Fujiwara no Michinaga',
+                ],
+            ],
         ],
         [
             'id' => 'zimmermann-telegram-1917',
@@ -389,7 +501,10 @@ return [
             ],
             'dcterms:title' => 'Zimmermann Telegram as Received by the German Ambassador to Mexico',
             'dcterms:creator' => 'Department of State, Office of the Secretary',
-            'dcterms:created' => ['@value' => '1917', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1917',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'The decoded Zimmermann Telegram proposing a German-Mexican military alliance against the United States, intercepted by British intelligence in January 1917.',
             'dcterms:subject' => [
                 'World War I',
@@ -403,7 +518,12 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA)',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'NARA NAID 302025; Record ID 862.20212/82A',
-            'media' => 'zimmermann-telegram-1917.jpg',
+            'media' => [
+                [
+                    'file' => 'zimmermann-telegram-1917.jpg',
+                    'dcterms:title' => 'Zimmermann Telegram as Received by the German Ambassador to Mexico',
+                ],
+            ],
         ],
         [
             'id' => 'cia-nie-11-3-71',
@@ -414,7 +534,10 @@ return [
             ],
             'dcterms:title' => 'Memo to Holders of NIE 11-3-71, Soviet Strategic Defenses',
             'dcterms:creator' => 'Central Intelligence Agency',
-            'dcterms:created' => ['@value' => '1971', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1971',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'An 11-page classified CIA memorandum updating National Intelligence Estimate 11-3-71 on Soviet strategic defense capabilities, now declassified and held at the National Archives.',
             'dcterms:subject' => [
                 'Cold War',
@@ -427,7 +550,12 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA), College Park, Maryland',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'NARA RG 263, NAID 590; Series NAID 6942952',
-            'media' => 'cia-nie-11-3-71.pdf',
+            'media' => [
+                [
+                    'file' => 'cia-nie-11-3-71.pdf',
+                    'dcterms:title' => 'Memo to Holders of NIE 11-3-71, Soviet Strategic Defenses',
+                ],
+            ],
         ],
         [
             'id' => 'cia-nie-11-10-63',
@@ -438,7 +566,10 @@ return [
             ],
             'dcterms:title' => 'Memo to Holders of NIE 11-10-63, Soviet Capabilities and Intentions with Respect to Chemical Warfare',
             'dcterms:creator' => 'Central Intelligence Agency',
-            'dcterms:created' => ['@value' => '1963', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1963',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A 34-page declassified CIA memorandum updating National Intelligence Estimate 11-10-63 assessing Soviet chemical warfare capabilities and strategic intentions during the Cold War.',
             'dcterms:subject' => [
                 'Cold War',
@@ -451,7 +582,12 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA), College Park, Maryland',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'NARA RG 263, NAID 590; Series NAID 6942952',
-            'media' => 'cia-nie-11-10-63.jpg',
+            'media' => [
+                [
+                    'file' => 'cia-nie-11-10-63.jpg',
+                    'dcterms:title' => 'Memo to Holders of NIE 11-10-63, Soviet Capabilities and Intentions with Respect to Chemical Warfare',
+                ],
+            ],
         ],
         [
             'id' => 'clinton-yeltsin-memcon-1993',
@@ -462,7 +598,10 @@ return [
             ],
             'dcterms:title' => 'Memorandum of Conversation between President Clinton and President Yeltsin',
             'dcterms:creator' => 'National Security Council, Clinton Administration',
-            'dcterms:created' => ['@value' => '1993', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1993',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A 37-page declassified memorandum of conversation recording diplomatic exchanges between U.S. President Bill Clinton and Russian President Boris Yeltsin, held at the Clinton Presidential Center.',
             'dcterms:subject' => [
                 'Post-Cold War',
@@ -477,7 +616,12 @@ return [
             'dcterms:publisher' => 'Clinton Presidential Center; National Archives and Records Administration',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'Clinton Presidential Center ID 163545436; DPLA ID a55d8fd18487037fc0e3eb47225370f1; Short title 2014-0948-M',
-            'media' => 'clinton-yeltsin-memcon-1993.pdf',
+            'media' => [
+                [
+                    'file' => 'clinton-yeltsin-memcon-1993.pdf',
+                    'dcterms:title' => 'Memorandum of Conversation between President Clinton and President Yeltsin',
+                ],
+            ],
         ],
         [
             'id' => 'fdr-manhattan-project-1942',
@@ -488,7 +632,10 @@ return [
             ],
             'dcterms:title' => 'FDR Approves the Creation of the Manhattan Project, 17 June 1942',
             'dcterms:creator' => 'Vannevar Bush',
-            'dcterms:created' => ['@value' => '1942', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1942',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Typed cover letter from Vannevar Bush to President Roosevelt forwarding the \'Atomic Fission Bombs\' report, bearing Roosevelt\'s handwritten approval annotation \'V.B. OK. FDR.\' authorizing the crash program that became the Manhattan Project.',
             'dcterms:subject' => [
                 'Manhattan Project',
@@ -501,7 +648,12 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration, Washington, D.C.',
             'dcterms:format' => 'mixed',
             'dcterms:source' => 'NARA NAID 486272327; Harrison-Bundy Files M1108, Folder 58, Roll 4, Target 4',
-            'media' => 'fdr-manhattan-project-1942.jpg',
+            'media' => [
+                [
+                    'file' => 'fdr-manhattan-project-1942.jpg',
+                    'dcterms:title' => 'FDR Approves the Creation of the Manhattan Project, 17 June 1942',
+                ],
+            ],
         ],
         [
             'id' => 'emancipation-proclamation-1862',
@@ -512,7 +664,10 @@ return [
             ],
             'dcterms:title' => 'Emancipation Proclamation (Preliminary, September 22, 1862)',
             'dcterms:creator' => 'Abraham Lincoln',
-            'dcterms:created' => ['@value' => '1862', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1862',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Manuscript of President Abraham Lincoln\'s preliminary Emancipation Proclamation declaring that all enslaved persons in rebellious states shall be free, a five-page document held by NARA and digitized through the World Digital Library.',
             'dcterms:subject' => [
                 'emancipation',
@@ -525,11 +680,26 @@ return [
             'dcterms:format' => 'mixed',
             'dcterms:source' => 'WDL2714; LOC Handle hdl.loc.gov/loc.wdl/dna.2714',
             'media' => [
-                'emancipation-proclamation-1862-1.jpg',
-                'emancipation-proclamation-1862-2.jpg',
-                'emancipation-proclamation-1862-3.jpg',
-                'emancipation-proclamation-1862-4.jpg',
-                'emancipation-proclamation-1862-5.jpg',
+                [
+                    'file' => 'emancipation-proclamation-1862-1.jpg',
+                    'dcterms:title' => 'Page 1',
+                ],
+                [
+                    'file' => 'emancipation-proclamation-1862-2.jpg',
+                    'dcterms:title' => 'Page 2',
+                ],
+                [
+                    'file' => 'emancipation-proclamation-1862-3.jpg',
+                    'dcterms:title' => 'Page 3',
+                ],
+                [
+                    'file' => 'emancipation-proclamation-1862-4.jpg',
+                    'dcterms:title' => 'Page 4',
+                ],
+                [
+                    'file' => 'emancipation-proclamation-1862-5.jpg',
+                    'dcterms:title' => 'Page 5',
+                ],
             ],
         ],
         [
@@ -541,7 +711,10 @@ return [
             ],
             'dcterms:title' => 'Gettysburg Address, Bliss Copy',
             'dcterms:creator' => 'Abraham Lincoln',
-            'dcterms:created' => ['@value' => '1864', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1864',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Lincoln\'s fifth and final manuscript draft of the Gettysburg Address, prepared in March 1864, signed, titled, and dated by Lincoln himself, making it the authoritative text displayed in the Lincoln Memorial.',
             'dcterms:subject' => [
                 'American Civil War',
@@ -554,9 +727,18 @@ return [
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'White House collections; purchased at auction 1949 by Oscar Cintas, bequeathed to the United States 1957',
             'media' => [
-                'gettysburg-address-bliss-1864-1.jpg',
-                'gettysburg-address-bliss-1864-2.jpg',
-                'gettysburg-address-bliss-1864-3.jpg',
+                [
+                    'file' => 'gettysburg-address-bliss-1864-1.jpg',
+                    'dcterms:title' => 'Page 1',
+                ],
+                [
+                    'file' => 'gettysburg-address-bliss-1864-2.jpg',
+                    'dcterms:title' => 'Page 2',
+                ],
+                [
+                    'file' => 'gettysburg-address-bliss-1864-3.jpg',
+                    'dcterms:title' => 'Page 3',
+                ],
             ],
         ],
         [
@@ -568,7 +750,10 @@ return [
             ],
             'dcterms:title' => 'Honolulu Star-Bulletin, December 7, 1941 (Extra Edition) — "WAR!"',
             'dcterms:creator' => 'Honolulu Star-Bulletin',
-            'dcterms:created' => ['@value' => '1941', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1941',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'First Extra edition of the Honolulu Star-Bulletin from the day of the Pearl Harbor attack, with the banner headline "WAR! OAHU BOMBED BY JAPANESE PLANES."',
             'dcterms:subject' => [
                 'Pearl Harbor',
@@ -581,7 +766,12 @@ return [
             'dcterms:publisher' => 'Castle Air Museum',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'Honolulu Star-Bulletin, 1st Extra, December 7, 1941',
-            'media' => 'honolulu-star-bulletin-1941.jpg',
+            'media' => [
+                [
+                    'file' => 'honolulu-star-bulletin-1941.jpg',
+                    'dcterms:title' => 'Honolulu Star-Bulletin, December 7, 1941 (Extra Edition) — "WAR!"',
+                ],
+            ],
         ],
         [
             'id' => 'nytimes-armistice-1918',
@@ -592,7 +782,10 @@ return [
             ],
             'dcterms:title' => 'New York Times, November 11, 1918 — Armistice Day Front Page',
             'dcterms:creator' => 'The New York Times',
-            'dcterms:created' => ['@value' => '1918', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1918',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Front page of The New York Times announcing the World War I Armistice, with multiple column headlines reporting the end of hostilities on November 11, 1918.',
             'dcterms:subject' => [
                 'World War I',
@@ -604,7 +797,12 @@ return [
             'dcterms:publisher' => 'Newspaper Archive (newspaperarchive.com)',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'newspaperarchive.com/new-york-times-nov-11-1918-p-1/',
-            'media' => 'nytimes-armistice-1918.jpg',
+            'media' => [
+                [
+                    'file' => 'nytimes-armistice-1918.jpg',
+                    'dcterms:title' => 'New York Times, November 11, 1918 — Armistice Day Front Page',
+                ],
+            ],
         ],
         [
             'id' => 'aachener-nachrichten-1945',
@@ -615,7 +813,10 @@ return [
             ],
             'dcterms:title' => 'Aachener Nachrichten, May 8, 1945 — German Surrender (VE Day)',
             'dcterms:creator' => 'Aachener Nachrichten',
-            'dcterms:created' => ['@value' => '1945', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1945',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Front page of the Aachener Nachrichten reporting the unconditional surrender of the Wehrmacht on May 8, 1945, considered the first post-Nazi German newspaper to cover this event.',
             'dcterms:subject' => [
                 'World War II',
@@ -628,7 +829,12 @@ return [
             'dcterms:publisher' => 'Centre Charlemagne, Aachen',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'Centre Charlemagne museum collection, Aachen',
-            'media' => 'aachener-nachrichten-1945.jpg',
+            'media' => [
+                [
+                    'file' => 'aachener-nachrichten-1945.jpg',
+                    'dcterms:title' => 'Aachener Nachrichten, May 8, 1945 — German Surrender (VE Day)',
+                ],
+            ],
         ],
         [
             'id' => 'nytimes-titanic-1912',
@@ -639,7 +845,10 @@ return [
             ],
             'dcterms:title' => 'New York Times, April 16, 1912 — Titanic Sinking Front Page',
             'dcterms:creator' => 'The New York Times',
-            'dcterms:created' => ['@value' => '1912', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1912',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Front page of The New York Times from April 16, 1912, reporting the sinking of the RMS Titanic with multi-column coverage including the first list of survivors rescued.',
             'dcterms:subject' => [
                 'RMS Titanic',
@@ -650,7 +859,12 @@ return [
             'dcterms:language' => 'en',
             'dcterms:publisher' => 'The New York Times',
             'dcterms:format' => 'typed',
-            'media' => 'nytimes-titanic-1912.jpg',
+            'media' => [
+                [
+                    'file' => 'nytimes-titanic-1912.jpg',
+                    'dcterms:title' => 'New York Times, April 16, 1912 — Titanic Sinking Front Page',
+                ],
+            ],
         ],
         [
             'id' => 'berliner-borsen-zeitung-1914',
@@ -661,7 +875,10 @@ return [
             ],
             'dcterms:title' => 'Berliner Börsen-Zeitung No. 355, August 1, 1914 — World War I Outbreak',
             'dcterms:creator' => 'Berliner Börsen-Zeitung',
-            'dcterms:created' => ['@value' => '1914', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1914',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Front page of the Berliner Börsen-Zeitung from August 1, 1914 — the day Germany declared war — with the headline announcing the ultimatum to Russia and inquiry to France.',
             'dcterms:subject' => [
                 'World War I',
@@ -674,7 +891,12 @@ return [
             'dcterms:publisher' => 'Public archive (digitized 2016)',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'Issue No. 355, 1 August 1914',
-            'media' => 'berliner-borsen-zeitung-1914.png',
+            'media' => [
+                [
+                    'file' => 'berliner-borsen-zeitung-1914.png',
+                    'dcterms:title' => 'Berliner Börsen-Zeitung No. 355, August 1, 1914 — World War I Outbreak',
+                ],
+            ],
         ],
         [
             'id' => 'pentagon-papers-vi-c-1',
@@ -685,7 +907,10 @@ return [
             ],
             'dcterms:title' => 'Pentagon Papers, Part VI-C-1',
             'dcterms:creator' => 'U.S. Department of Defense',
-            'dcterms:created' => ['@value' => '1967', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1967',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A 195-page section of the classified Defense Department history of U.S. political and military involvement in Vietnam, covering the period 1945–1967 and leaked by Daniel Ellsberg in 1971.',
             'dcterms:subject' => [
                 'Vietnam War',
@@ -698,7 +923,12 @@ return [
             'dcterms:publisher' => 'U.S. Government',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'Pentagon Papers Part VI-C-1',
-            'media' => 'pentagon-papers-vi-c-1.pdf',
+            'media' => [
+                [
+                    'file' => 'pentagon-papers-vi-c-1.pdf',
+                    'dcterms:title' => 'Pentagon Papers, Part VI-C-1',
+                ],
+            ],
         ],
         [
             'id' => 'project-solarium-task-force-c',
@@ -709,7 +939,10 @@ return [
             ],
             'dcterms:title' => 'Report to the National Security Council by Project Solarium Task Force C, Part 7 of 9',
             'dcterms:creator' => 'Office of the Special Assistant for National Security Affairs, Eisenhower Administration',
-            'dcterms:created' => ['@value' => '1953', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1953',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A 40-page classified report to the NSC from Project Solarium Task Force C, Eisenhower\'s 1953 strategic planning exercise that shaped U.S. Cold War containment policy.',
             'dcterms:subject' => [
                 'Cold War',
@@ -723,7 +956,12 @@ return [
             'dcterms:publisher' => 'Dwight D. Eisenhower Presidential Library; National Archives and Records Administration',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'NARA Identifier 331916994; DPLA ID fc8c6af04191eb347db6b871bdbcad9a',
-            'media' => 'project-solarium-task-force-c.jpg',
+            'media' => [
+                [
+                    'file' => 'project-solarium-task-force-c.jpg',
+                    'dcterms:title' => 'Report to the National Security Council by Project Solarium Task Force C, Part 7 of 9',
+                ],
+            ],
         ],
         [
             'id' => 'nuremberg-tribunal-ruling-1946',
@@ -734,7 +972,10 @@ return [
             ],
             'dcterms:title' => 'International Military Tribunal, Nuremberg – Germany, Ruling of the Tribunal',
             'dcterms:creator' => 'International Military Tribunal',
-            'dcterms:created' => ['@value' => '1946', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1946',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'The 60-page official ruling of the Nuremberg International Military Tribunal, used as background reference material by the prosecution section of the International Military Tribunal for the Far East.',
             'dcterms:subject' => [
                 'Nuremberg trials',
@@ -747,7 +988,12 @@ return [
             'dcterms:publisher' => 'National Diet Library, Tokyo; U.S. National Archives (RG331)',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'NDL ID 9884726; Call No. IPS-36 R8: 0246-0305; NDLBibID 000006850832',
-            'media' => 'nuremberg-tribunal-ruling-1946.pdf',
+            'media' => [
+                [
+                    'file' => 'nuremberg-tribunal-ruling-1946.pdf',
+                    'dcterms:title' => 'International Military Tribunal, Nuremberg – Germany, Ruling of the Tribunal',
+                ],
+            ],
         ],
         [
             'id' => 'japanese-fo-doc-2748',
@@ -758,7 +1004,10 @@ return [
             ],
             'dcterms:title' => 'Typewritten File of Japanese Foreign Office Documents Relating to Dutch-Japanese Commercial and Diplomatic Negotiations, 1940–1941 (Part 1)',
             'dcterms:creator' => 'Japanese Foreign Office; compiled by GHQ/SCAP International Prosecution Section',
-            'dcterms:created' => ['@value' => '1940', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1940',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A 100-page typewritten compilation of Japanese Foreign Office diplomatic telegrams and reports covering commercial and political negotiations between Japan and the Dutch East Indies in 1940–1941, assembled as evidence for the Tokyo War Crimes Tribunal.',
             'dcterms:subject' => [
                 'World War II',
@@ -772,7 +1021,12 @@ return [
             'dcterms:publisher' => 'National Diet Library, Tokyo; U.S. National Archives (RG331)',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'IPS Doc. No. 2748; IMT 505; NDL ID 12922668; Call No. IPS-18 R347: 0228-0390',
-            'media' => 'japanese-fo-doc-2748.jpg',
+            'media' => [
+                [
+                    'file' => 'japanese-fo-doc-2748.jpg',
+                    'dcterms:title' => 'Typewritten File of Japanese Foreign Office Documents Relating to Dutch-Japanese Commercial and Diplomatic Negotiations, 1940–1941 (Part 1)',
+                ],
+            ],
         ],
         [
             'id' => 'dalembert-frederick-letters',
@@ -783,7 +1037,10 @@ return [
             ],
             'dcterms:title' => 'Three Months at the Court of Frederick the Great: Unpublished Letters',
             'dcterms:creator' => 'Jean le Rond d\'Alembert',
-            'dcterms:created' => ['@value' => '1763', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1763',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Unpublished letters written by Enlightenment mathematician and philosopher Jean le Rond d\'Alembert during three months at the court of Frederick the Great of Prussia.',
             'dcterms:subject' => [
                 'Enlightenment',
@@ -796,7 +1053,12 @@ return [
             'dcterms:publisher' => 'Bibliothèque nationale de France',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Gallica / BNF',
-            'media' => 'dalembert-frederick-letters.tif',
+            'media' => [
+                [
+                    'file' => 'dalembert-frederick-letters.tif',
+                    'dcterms:title' => 'Three Months at the Court of Frederick the Great: Unpublished Letters',
+                ],
+            ],
         ],
         [
             'id' => 'boufflers-senegal-diary',
@@ -807,7 +1069,10 @@ return [
             ],
             'dcterms:title' => 'Unpublished Journal of the Second Stay in Senegal, 1786–1787',
             'dcterms:creator' => 'Stanislas de Boufflers',
-            'dcterms:created' => ['@value' => '1786', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1786',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Previously unpublished personal journal of Stanislas de Boufflers documenting his second term as governor of Senegal from December 1786 to December 1787.',
             'dcterms:subject' => [
                 'Senegal',
@@ -820,7 +1085,12 @@ return [
             'dcterms:publisher' => 'Bibliothèque nationale de France',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Gallica / BNF',
-            'media' => 'boufflers-senegal-diary.tif',
+            'media' => [
+                [
+                    'file' => 'boufflers-senegal-diary.tif',
+                    'dcterms:title' => 'Unpublished Journal of the Second Stay in Senegal, 1786–1787',
+                ],
+            ],
         ],
         [
             'id' => 'stendhal-journal-1810',
@@ -831,7 +1101,10 @@ return [
             ],
             'dcterms:title' => 'Journal, 1810–1811',
             'dcterms:creator' => 'Stendhal (Marie-Henri Beyle)',
-            'dcterms:created' => ['@value' => '1810', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1810',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Personal diary of the novelist Stendhal covering 1810 to 1811, written during the height of the Napoleonic Empire.',
             'dcterms:subject' => [
                 'Napoleonic era',
@@ -843,7 +1116,12 @@ return [
             'dcterms:publisher' => 'Bibliothèque nationale de France',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Gallica / BNF',
-            'media' => 'stendhal-journal-1810.tif',
+            'media' => [
+                [
+                    'file' => 'stendhal-journal-1810.tif',
+                    'dcterms:title' => 'Journal, 1810–1811',
+                ],
+            ],
         ],
         [
             'id' => 'renan-seminary-letters',
@@ -854,7 +1132,10 @@ return [
             ],
             'dcterms:title' => 'Seminary Letters, 1838–1846',
             'dcterms:creator' => 'Ernest Renan',
-            'dcterms:created' => ['@value' => '1838', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1838',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Letters written by philosopher and historian Ernest Renan during his years at the seminary, documenting his intellectual development and growing religious doubts.',
             'dcterms:subject' => [
                 'French philosophy',
@@ -866,7 +1147,12 @@ return [
             'dcterms:publisher' => 'Bibliothèque nationale de France',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Gallica / BNF',
-            'media' => 'renan-seminary-letters.tif',
+            'media' => [
+                [
+                    'file' => 'renan-seminary-letters.tif',
+                    'dcterms:title' => 'Seminary Letters, 1838–1846',
+                ],
+            ],
         ],
         [
             'id' => 'napoleon-josephine-1796',
@@ -877,7 +1163,10 @@ return [
             ],
             'dcterms:title' => 'Napoleon Bonaparte Letter to Joséphine, April 3, 1796',
             'dcterms:creator' => 'Napoleon Bonaparte',
-            'dcterms:created' => ['@value' => '1796', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1796',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten love letter from Napoleon Bonaparte to Joséphine de Beauharnais, written from Cherasco during the Italian campaign — one of his most celebrated personal letters.',
             'dcterms:subject' => [
                 'Napoleon Bonaparte',
@@ -889,7 +1178,12 @@ return [
             'dcterms:language' => 'fr',
             'dcterms:publisher' => 'Musée des Lettres et Manuscrits, Paris',
             'dcterms:format' => 'handwritten',
-            'media' => 'napoleon-josephine-1796.jpg',
+            'media' => [
+                [
+                    'file' => 'napoleon-josephine-1796.jpg',
+                    'dcterms:title' => 'Napoleon Bonaparte Letter to Joséphine, April 3, 1796',
+                ],
+            ],
         ],
         [
             'id' => 'abigail-adams-remember-ladies-1776',
@@ -900,7 +1194,10 @@ return [
             ],
             'dcterms:title' => 'Abigail Adams Letter to John Adams ("Remember the Ladies"), March 31, 1776',
             'dcterms:creator' => 'Abigail Adams',
-            'dcterms:created' => ['@value' => '1776', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1776',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten letter from Abigail Adams urging the Continental Congress to "remember the ladies" and not put unlimited power in the hands of husbands — an early statement of women\'s rights in America.',
             'dcterms:subject' => [
                 'Abigail Adams',
@@ -912,7 +1209,12 @@ return [
             'dcterms:language' => 'en',
             'dcterms:publisher' => 'Massachusetts Historical Society, Boston',
             'dcterms:format' => 'handwritten',
-            'media' => 'abigail-adams-remember-ladies-1776.jpg',
+            'media' => [
+                [
+                    'file' => 'abigail-adams-remember-ladies-1776.jpg',
+                    'dcterms:title' => 'Abigail Adams Letter to John Adams ("Remember the Ladies"), March 31, 1776',
+                ],
+            ],
         ],
         [
             'id' => 'galileo-jupiter-1610',
@@ -923,7 +1225,10 @@ return [
             ],
             'dcterms:title' => 'Galileo Galilei, Manuscript Observations of Jupiter and its Satellites, January 7, 1610',
             'dcterms:creator' => 'Galileo Galilei',
-            'dcterms:created' => ['@value' => '1610', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1610',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten manuscript page in which Galileo records his first telescopic observations of Jupiter and its four moons on the night of January 7, 1610 — the discovery of the Galilean moons, held at the Biblioteca Nazionale Centrale di Firenze.',
             'dcterms:subject' => [
                 'Galileo Galilei',
@@ -936,7 +1241,12 @@ return [
             'dcterms:publisher' => 'Biblioteca Nazionale Centrale di Firenze',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Ms. Gal. 48',
-            'media' => 'galileo-jupiter-1610.jpg',
+            'media' => [
+                [
+                    'file' => 'galileo-jupiter-1610.jpg',
+                    'dcterms:title' => 'Galileo Galilei, Manuscript Observations of Jupiter and its Satellites, January 7, 1610',
+                ],
+            ],
         ],
         [
             'id' => 'mary-queen-scots-1587',
@@ -947,7 +1257,10 @@ return [
             ],
             'dcterms:title' => 'Mary, Queen of Scots, Last Letter to Henry III of France, February 8, 1587',
             'dcterms:creator' => 'Mary, Queen of Scots',
-            'dcterms:created' => ['@value' => '1587', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1587',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Mary\'s final handwritten letter, composed the night before her execution at Fotheringhay Castle, requesting Masses be said for her soul and recommending her servants to Henry III.',
             'dcterms:subject' => [
                 'Mary Queen of Scots',
@@ -960,10 +1273,22 @@ return [
             'dcterms:publisher' => 'Bibliothèque nationale de France',
             'dcterms:format' => 'handwritten',
             'media' => [
-                'mary-queen-scots-1587-1.jpg',
-                'mary-queen-scots-1587-2.jpg',
-                'mary-queen-scots-1587-3.jpg',
-                'mary-queen-scots-1587-4.jpg',
+                [
+                    'file' => 'mary-queen-scots-1587-1.jpg',
+                    'dcterms:title' => 'Page 1',
+                ],
+                [
+                    'file' => 'mary-queen-scots-1587-2.jpg',
+                    'dcterms:title' => 'Page 2',
+                ],
+                [
+                    'file' => 'mary-queen-scots-1587-3.jpg',
+                    'dcterms:title' => 'Page 3',
+                ],
+                [
+                    'file' => 'mary-queen-scots-1587-4.jpg',
+                    'dcterms:title' => 'Page 4',
+                ],
             ],
         ],
         [
@@ -975,7 +1300,10 @@ return [
             ],
             'dcterms:title' => 'Charles Darwin Letter to Asa Gray, September 5, 1857',
             'dcterms:creator' => 'Charles Darwin',
-            'dcterms:created' => ['@value' => '1857', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1857',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten letter from Darwin to American botanist Asa Gray outlining the principles of natural selection — a key document establishing Darwin\'s priority for the theory, written two years before the publication of On the Origin of Species.',
             'dcterms:subject' => [
                 'Charles Darwin',
@@ -987,7 +1315,12 @@ return [
             'dcterms:language' => 'en',
             'dcterms:publisher' => 'American Philosophical Society, Philadelphia',
             'dcterms:format' => 'handwritten',
-            'media' => 'darwin-gray-1857.jpg',
+            'media' => [
+                [
+                    'file' => 'darwin-gray-1857.jpg',
+                    'dcterms:title' => 'Charles Darwin Letter to Asa Gray, September 5, 1857',
+                ],
+            ],
         ],
         [
             'id' => 'mozart-leopold-1777',
@@ -998,7 +1331,10 @@ return [
             ],
             'dcterms:title' => 'Wolfgang Amadeus Mozart Birthday Letter to Leopold Mozart, November 8, 1777',
             'dcterms:creator' => 'Wolfgang Amadeus Mozart',
-            'dcterms:created' => ['@value' => '1777', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1777',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten birthday letter from Mozart to his father Leopold, written from Mannheim during his European concert tour — one of hundreds of letters in the celebrated Mozart family correspondence, preserved at the Salzburg Museum.',
             'dcterms:subject' => [
                 'Mozart',
@@ -1010,7 +1346,12 @@ return [
             'dcterms:language' => 'de',
             'dcterms:publisher' => 'Salzburg Museum',
             'dcterms:format' => 'handwritten',
-            'media' => 'mozart-leopold-1777.jpg',
+            'media' => [
+                [
+                    'file' => 'mozart-leopold-1777.jpg',
+                    'dcterms:title' => 'Wolfgang Amadeus Mozart Birthday Letter to Leopold Mozart, November 8, 1777',
+                ],
+            ],
         ],
         [
             'id' => 'nightingale-herbert-1855',
@@ -1021,7 +1362,10 @@ return [
             ],
             'dcterms:title' => 'Florence Nightingale Letter, July 5, 1856',
             'dcterms:creator' => 'Florence Nightingale',
-            'dcterms:created' => ['@value' => '1856', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1856',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten letter written and signed by Florence Nightingale, dated July 5, 1856, shortly after her return from the Crimean War — from the Wellcome Collection, which holds one of the largest archives of Nightingale\'s correspondence.',
             'dcterms:subject' => [
                 'Florence Nightingale',
@@ -1034,7 +1378,12 @@ return [
             'dcterms:publisher' => 'Wellcome Collection, London',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Wellcome M0000370',
-            'media' => 'nightingale-herbert-1855.jpg',
+            'media' => [
+                [
+                    'file' => 'nightingale-herbert-1855.jpg',
+                    'dcterms:title' => 'Florence Nightingale Letter, July 5, 1856',
+                ],
+            ],
         ],
         [
             'id' => 'chopin-kumelski-1831',
@@ -1045,7 +1394,10 @@ return [
             ],
             'dcterms:title' => 'Frédéric Chopin Letter to Norbert Alfonse Kumelski, November 18, 1831',
             'dcterms:creator' => 'Frédéric Chopin',
-            'dcterms:created' => ['@value' => '1831', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1831',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten letter from Frédéric Chopin to his friend Norbert Alfonse Kumelski, written in Paris on November 18, 1831 — part of Chopin\'s autograph manuscript correspondence held at the Bibliothèque nationale de France.',
             'dcterms:subject' => [
                 'Frédéric Chopin',
@@ -1057,7 +1409,12 @@ return [
             'dcterms:publisher' => 'Bibliothèque nationale de France',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'BNF btv1b53142386j',
-            'media' => 'chopin-kumelski-1831.jpg',
+            'media' => [
+                [
+                    'file' => 'chopin-kumelski-1831.jpg',
+                    'dcterms:title' => 'Frédéric Chopin Letter to Norbert Alfonse Kumelski, November 18, 1831',
+                ],
+            ],
         ],
         [
             'id' => 'bolivar-santander-1826',
@@ -1068,7 +1425,10 @@ return [
             ],
             'dcterms:title' => 'Simón Bolívar Letter to Francisco de Paula Santander, 1826',
             'dcterms:creator' => 'Simón Bolívar',
-            'dcterms:created' => ['@value' => '1826', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1826',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten letter from Simón Bolívar to Vice President Francisco de Paula Santander during the height of Gran Colombia, addressing political tensions between federalists and centralists in the newly liberated republic.',
             'dcterms:subject' => [
                 'Simón Bolívar',
@@ -1080,7 +1440,12 @@ return [
             'dcterms:language' => 'es',
             'dcterms:publisher' => 'Archivo General de la Nación, Bogotá',
             'dcterms:format' => 'handwritten',
-            'media' => 'bolivar-santander-1826.jpg',
+            'media' => [
+                [
+                    'file' => 'bolivar-santander-1826.jpg',
+                    'dcterms:title' => 'Simón Bolívar Letter to Francisco de Paula Santander, 1826',
+                ],
+            ],
         ],
         [
             'id' => 'pepys-diary-1660',
@@ -1091,7 +1456,10 @@ return [
             ],
             'dcterms:title' => 'Samuel Pepys Diary, January 1, 1660',
             'dcterms:creator' => 'Samuel Pepys',
-            'dcterms:created' => ['@value' => '1660', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1660',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Opening page of Samuel Pepys\'s diary, one of the most celebrated eyewitness accounts of 17th-century London, written in a personal shorthand and covering events including the Restoration, the Plague, and the Great Fire.',
             'dcterms:subject' => [
                 'Samuel Pepys',
@@ -1103,7 +1471,12 @@ return [
             'dcterms:language' => 'en',
             'dcterms:publisher' => 'Pepys Library, Magdalene College, Cambridge',
             'dcterms:format' => 'handwritten',
-            'media' => 'pepys-diary-1660.jpg',
+            'media' => [
+                [
+                    'file' => 'pepys-diary-1660.jpg',
+                    'dcterms:title' => 'Samuel Pepys Diary, January 1, 1660',
+                ],
+            ],
         ],
         [
             'id' => 'clark-journal-1805',
@@ -1114,7 +1487,10 @@ return [
             ],
             'dcterms:title' => 'William Clark Voorhis Journal No. 1, Page 1, April 1805',
             'dcterms:creator' => 'William Clark',
-            'dcterms:created' => ['@value' => '1805', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1805',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Opening page of William Clark\'s Voorhis Journal No. 1 from the Lewis and Clark Expedition, April 1805 — one of Clark\'s personal field journals recording the Corps of Discovery\'s journey through the American West.',
             'dcterms:subject' => [
                 'Lewis and Clark Expedition',
@@ -1126,7 +1502,12 @@ return [
             'dcterms:language' => 'en',
             'dcterms:publisher' => 'Missouri History Museum, St. Louis',
             'dcterms:format' => 'handwritten',
-            'media' => 'clark-journal-1805.jpg',
+            'media' => [
+                [
+                    'file' => 'clark-journal-1805.jpg',
+                    'dcterms:title' => 'William Clark Voorhis Journal No. 1, Page 1, April 1805',
+                ],
+            ],
         ],
         [
             'id' => 'victoria-journal-1840',
@@ -1137,7 +1518,10 @@ return [
             ],
             'dcterms:title' => 'Queen Victoria\'s Journal, February 10, 1840 (Wedding Day)',
             'dcterms:creator' => 'Queen Victoria',
-            'dcterms:created' => ['@value' => '1840', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1840',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten journal entry by Queen Victoria describing her wedding day to Prince Albert at the Chapel Royal, St James\'s Palace — part of the journal she kept continuously from 1832 to 1901.',
             'dcterms:subject' => [
                 'Queen Victoria',
@@ -1149,7 +1533,12 @@ return [
             'dcterms:language' => 'en',
             'dcterms:publisher' => 'Royal Archives, Windsor Castle',
             'dcterms:format' => 'handwritten',
-            'media' => 'victoria-journal-1840.jpg',
+            'media' => [
+                [
+                    'file' => 'victoria-journal-1840.jpg',
+                    'dcterms:title' => 'Queen Victoria\'s Journal, February 10, 1840 (Wedding Day)',
+                ],
+            ],
         ],
         [
             'id' => 'tolstoy-diary-1851',
@@ -1160,7 +1549,10 @@ return [
             ],
             'dcterms:title' => 'Leo Tolstoy Diary, 1851',
             'dcterms:creator' => 'Leo Tolstoy',
-            'dcterms:created' => ['@value' => '1851', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1851',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten diary entry from Tolstoy\'s early journals, written during his time in the Caucasus, reflecting on moral self-improvement — laying foundations for the philosophical preoccupations that would pervade his novels.',
             'dcterms:subject' => [
                 'Leo Tolstoy',
@@ -1172,7 +1564,12 @@ return [
             'dcterms:language' => 'ru',
             'dcterms:publisher' => 'State Museum of Leo Tolstoy, Moscow',
             'dcterms:format' => 'handwritten',
-            'media' => 'tolstoy-diary-1851.jpg',
+            'media' => [
+                [
+                    'file' => 'tolstoy-diary-1851.jpg',
+                    'dcterms:title' => 'Leo Tolstoy Diary, 1851',
+                ],
+            ],
         ],
         [
             'id' => 'darwin-notebook-b-1837',
@@ -1183,7 +1580,10 @@ return [
             ],
             'dcterms:title' => 'Charles Darwin Notebook B: Transmutation of Species, 1837–1838',
             'dcterms:creator' => 'Charles Darwin',
-            'dcterms:created' => ['@value' => '1837', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1837',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A page from Darwin\'s "Notebook B" including his first sketch of an evolutionary tree of life above the words "I think," representing a pivotal moment in the development of the theory of evolution by natural selection.',
             'dcterms:subject' => [
                 'Charles Darwin',
@@ -1195,7 +1595,12 @@ return [
             'dcterms:language' => 'en',
             'dcterms:publisher' => 'Cambridge University Library',
             'dcterms:format' => 'handwritten',
-            'media' => 'darwin-notebook-b-1837.png',
+            'media' => [
+                [
+                    'file' => 'darwin-notebook-b-1837.png',
+                    'dcterms:title' => 'Charles Darwin Notebook B: Transmutation of Species, 1837–1838',
+                ],
+            ],
         ],
         [
             'id' => 'bronte-letter-1847',
@@ -1206,7 +1611,10 @@ return [
             ],
             'dcterms:title' => 'Charlotte Brontë Letter to Ellen Nussey, c. April 1847',
             'dcterms:creator' => 'Charlotte Brontë',
-            'dcterms:created' => ['@value' => '1847', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1847',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Handwritten letter from Charlotte Brontë to her lifelong friend Ellen Nussey, written around April 1847 — part of one of the most extensive personal correspondences in Victorian literature, held at Cornell University Library.',
             'dcterms:subject' => [
                 'Charlotte Brontë',
@@ -1218,7 +1626,12 @@ return [
             'dcterms:language' => 'en',
             'dcterms:publisher' => 'Cornell University Library, Rare and Manuscript Collections',
             'dcterms:format' => 'handwritten',
-            'media' => 'bronte-letter-1847.jpg',
+            'media' => [
+                [
+                    'file' => 'bronte-letter-1847.jpg',
+                    'dcterms:title' => 'Charlotte Brontë Letter to Ellen Nussey, c. April 1847',
+                ],
+            ],
         ],
         [
             'id' => 'leonardo-notebook-1490s',
@@ -1229,7 +1642,10 @@ return [
             ],
             'dcterms:title' => 'Leonardo da Vinci Anatomical Notebook Page, c. 1490s',
             'dcterms:creator' => 'Leonardo da Vinci',
-            'dcterms:created' => ['@value' => '1490', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1490',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A page from Leonardo da Vinci\'s anatomical notebooks combining detailed drawings with mirror-script observations, from a series of studies that redefined the scientific understanding of human anatomy.',
             'dcterms:subject' => [
                 'Leonardo da Vinci',
@@ -1242,10 +1658,22 @@ return [
             'dcterms:publisher' => 'Royal Collection Trust, Windsor Castle',
             'dcterms:format' => 'handwritten',
             'media' => [
-                'leonardo-notebook-1490s-1.jpg',
-                'leonardo-notebook-1490s-2.jpg',
-                'leonardo-notebook-1490s-3.jpg',
-                'leonardo-notebook-1490s-4.jpg',
+                [
+                    'file' => 'leonardo-notebook-1490s-1.jpg',
+                    'dcterms:title' => 'Page 1',
+                ],
+                [
+                    'file' => 'leonardo-notebook-1490s-2.jpg',
+                    'dcterms:title' => 'Page 2',
+                ],
+                [
+                    'file' => 'leonardo-notebook-1490s-3.jpg',
+                    'dcterms:title' => 'Page 3',
+                ],
+                [
+                    'file' => 'leonardo-notebook-1490s-4.jpg',
+                    'dcterms:title' => 'Page 4',
+                ],
             ],
         ],
     ],

@@ -203,15 +203,39 @@ class Import extends AbstractDemoDataJob
             }
         }
         if (!empty($item['media']) && $this->mediaBaseUrl) {
-            $files = is_array($item['media']) ? $item['media'] : [$item['media']];
-            foreach ($files as $file) {
-                $payload['o:media'][] = [
+            foreach ($this->normalizeMediaEntries($item['media']) as $entry) {
+                $file = $entry['file'] ?? null;
+                if (!$file) {
+                    continue;
+                }
+                $mediaEntry = [
                     'o:ingester' => 'url',
                     'ingest_url' => sprintf('%s%s/media/%s', $this->mediaBaseUrl, $this->dataset, $file),
                 ];
+                foreach ($entry as $key => $value) {
+                    if (str_contains($key, ':')) {
+                        $mediaEntry[$key] = $this->buildValues($value);
+                    }
+                }
+                $payload['o:media'][] = $mediaEntry;
             }
         }
         return $payload;
+    }
+
+    private function normalizeMediaEntries(mixed $media): array
+    {
+        if (is_string($media)) {
+            return [['file' => $media]];
+        }
+        if (is_array($media) && isset($media['file'])) {
+            return [$media]; // form 2: single dict
+        }
+        if (is_array($media)) {
+            // sequential array — strings (old multi-file) or dicts (new multi-file)
+            return array_map(fn ($e) => is_string($e) ? ['file' => $e] : $e, $media);
+        }
+        return [];
     }
 
     private function buildValues(mixed $value, string $type = 'literal'): array

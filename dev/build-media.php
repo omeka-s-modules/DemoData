@@ -112,11 +112,15 @@ class MediaBuilder
             if (empty($i['media'])) {
                 return true;
             }
-            // Multi-file items are managed manually — not candidates for automated search.
-            if (is_array($i['media'])) {
-                return false;
+            $media = $i['media'];
+            if (is_string($media)) {
+                return !file_exists($this->mediaDir . $media);
             }
-            return !file_exists($this->mediaDir . $i['media']);
+            if (is_array($media) && isset($media['file'])) {
+                return !file_exists($this->mediaDir . $media['file']);
+            }
+            // Sequential array (strings or dicts) — multi-file, managed manually
+            return false;
         }));
 
         $total = count($items);
@@ -609,7 +613,7 @@ class MediaBuilder
         $content = file_get_contents($this->dataFile);
         foreach ($mediaMap as $id => $filename) {
             $pattern = "/('id'\s*=>\s*'" . preg_quote($id, '/') . "',)\n/";
-            $replace = "$1\n            'media' => '$filename',\n";
+            $replace = "$1\n            'media' => ['file' => '$filename'],\n";
             $new = preg_replace($pattern, $replace, $content, 1, $count);
             if ($count === 1) {
                 $content = $new;

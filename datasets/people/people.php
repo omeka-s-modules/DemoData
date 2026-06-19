@@ -133,7 +133,12 @@ return [
                 32.6396,
                 25.6872,
             ],
-            'media' => 'hatshepsut.png',
+            'media' => [
+                [
+                    'file' => 'hatshepsut.png',
+                    'dcterms:title' => 'Hatshepsut',
+                ],
+            ],
         ],
         [
             'id' => 'cleopatra-vii',
@@ -191,7 +196,12 @@ return [
                 29.9187,
                 31.2001,
             ],
-            'media' => 'cleopatra-vii.jpg',
+            'media' => [
+                [
+                    'file' => 'cleopatra-vii.jpg',
+                    'dcterms:title' => 'Cleopatra VII',
+                ],
+            ],
         ],
         [
             'id' => 'hypatia',
@@ -242,7 +252,12 @@ return [
                 29.9187,
                 31.2001,
             ],
-            'media' => 'hypatia.jpg',
+            'media' => [
+                [
+                    'file' => 'hypatia.jpg',
+                    'dcterms:title' => 'Hypatia',
+                ],
+            ],
         ],
         [
             'id' => 'wu-zetian',
@@ -295,7 +310,12 @@ return [
                 112.0272,
                 37.4295,
             ],
-            'media' => 'wu-zetian.png',
+            'media' => [
+                [
+                    'file' => 'wu-zetian.png',
+                    'dcterms:title' => 'Wu Zetian',
+                ],
+            ],
         ],
         [
             'id' => 'murasaki-shikibu',
@@ -349,7 +369,12 @@ return [
                 135.7681,
                 35.0116,
             ],
-            'media' => 'murasaki-shikibu.png',
+            'media' => [
+                [
+                    'file' => 'murasaki-shikibu.png',
+                    'dcterms:title' => 'Murasaki Shikibu',
+                ],
+            ],
         ],
         [
             'id' => 'al-khwarizmi',
@@ -396,7 +421,12 @@ return [
                 60.3587,
                 41.38,
             ],
-            'media' => 'al-khwarizmi.jpg',
+            'media' => [
+                [
+                    'file' => 'al-khwarizmi.jpg',
+                    'dcterms:title' => 'Al-Khwarizmi',
+                ],
+            ],
         ],
         [
             'id' => 'ibn-al-haytham',
@@ -455,7 +485,12 @@ return [
                 47.7804,
                 30.5085,
             ],
-            'media' => 'ibn-al-haytham.jpg',
+            'media' => [
+                [
+                    'file' => 'ibn-al-haytham.jpg',
+                    'dcterms:title' => 'Ibn al-Haytham',
+                ],
+            ],
         ],
         [
             'id' => 'ibn-sina',
@@ -513,7 +548,12 @@ return [
                 64.4214,
                 39.7747,
             ],
-            'media' => 'ibn-sina.jpg',
+            'media' => [
+                [
+                    'file' => 'ibn-sina.jpg',
+                    'dcterms:title' => 'Ibn Sina',
+                ],
+            ],
         ],
         [
             'id' => 'hildegard-of-bingen',
@@ -572,7 +612,12 @@ return [
                 8.1667,
                 49.8,
             ],
-            'media' => 'hildegard-of-bingen.jpg',
+            'media' => [
+                [
+                    'file' => 'hildegard-of-bingen.jpg',
+                    'dcterms:title' => 'Hildegard of Bingen',
+                ],
+            ],
         ],
         [
             'id' => 'nasir-al-din-al-tusi',
@@ -628,7 +673,12 @@ return [
                 59.55,
                 36.4,
             ],
-            'media' => 'nasir-al-din-al-tusi.jpg',
+            'media' => [
+                [
+                    'file' => 'nasir-al-din-al-tusi.jpg',
+                    'dcterms:title' => 'Nasir al-Din al-Tusi',
+                ],
+            ],
         ],
         [
             'id' => 'rumi',
@@ -685,7 +735,12 @@ return [
                 69.2667,
                 37.7,
             ],
-            'media' => 'rumi.jpg',
+            'media' => [
+                [
+                    'file' => 'rumi.jpg',
+                    'dcterms:title' => 'Rumi',
+                ],
+            ],
         ],
         [
             'id' => 'sundiata-keita',
@@ -736,7 +791,12 @@ return [
                 -9.5,
                 11.8,
             ],
-            'media' => 'sundiata-keita.jpg',
+            'media' => [
+                [
+                    'file' => 'sundiata-keita.jpg',
+                    'dcterms:title' => 'Sundiata Keita',
+                ],
+            ],
         ],
         [
             'id' => 'christine-de-pizan',
@@ -786,7 +846,12 @@ return [
                 12.3155,
                 45.4408,
             ],
-            'media' => 'christine-de-pizan.jpg',
+            'media' => [
+                [
+                    'file' => 'christine-de-pizan.jpg',
+                    'dcterms:title' => 'Christine de Pizan',
+                ],
+            ],
         ],
         [
             'id' => 'ibn-battuta',
@@ -841,7 +906,12 @@ return [
                 -5.7998,
                 35.7595,
             ],
-            'media' => 'ibn-battuta.jpg',
+            'media' => [
+                [
+                    'file' => 'ibn-battuta.jpg',
+                    'dcterms:title' => 'Ibn Battuta',
+                ],
+            ],
         ],
         [
             'id' => 'mansa-musa',
@@ -896,7 +966,12 @@ return [
                 -8,
                 12.65,
             ],
-            'media' => 'mansa-musa.jpg',
+            'media' => [
+                [
+                    'file' => 'mansa-musa.jpg',
+                    'dcterms:title' => 'Mansa Musa',
+                ],
+            ],
         ],
         [
             'id' => 'zheng-he',
@@ -951,7 +1026,12 @@ return [
                 102.7667,
                 24.9,
             ],
-            'media' => 'zheng-he.jpg',
+            'media' => [
+                [
+                    'file' => 'zheng-he.jpg',
+                    'dcterms:title' => 'Zheng He',
+                ],
+            ],
         ],
         [
             'id' => 'pachacuti',
@@ -997,7 +1077,12 @@ return [
                 -71.9675,
                 -13.5319,
             ],
-            'media' => 'pachacuti.jpg',
+            'media' => [
+                [
+                    'file' => 'pachacuti.jpg',
+                    'dcterms:title' => 'Pachacuti',
+                ],
+            ],
         ],
         [
             'id' => 'queen-nzinga',
@@ -1050,7 +1135,12 @@ return [
                 15,
                 -9,
             ],
-            'media' => 'queen-nzinga.png',
+            'media' => [
+                [
+                    'file' => 'queen-nzinga.png',
+                    'dcterms:title' => 'Queen Nzinga',
+                ],
+            ],
         ],
         [
             'id' => 'copernicus',
@@ -1105,7 +1195,12 @@ return [
                 18.5982,
                 53.0137,
             ],
-            'media' => 'copernicus.jpg',
+            'media' => [
+                [
+                    'file' => 'copernicus.jpg',
+                    'dcterms:title' => 'Nicolaus Copernicus',
+                ],
+            ],
         ],
         [
             'id' => 'sor-juana',
@@ -1156,7 +1251,12 @@ return [
                 -98.8667,
                 19.1167,
             ],
-            'media' => 'sor-juana.jpg',
+            'media' => [
+                [
+                    'file' => 'sor-juana.jpg',
+                    'dcterms:title' => 'Sor Juana Inés de la Cruz',
+                ],
+            ],
         ],
         [
             'id' => 'galileo',
@@ -1207,7 +1307,12 @@ return [
                 10.4036,
                 43.7228,
             ],
-            'media' => 'galileo.jpg',
+            'media' => [
+                [
+                    'file' => 'galileo.jpg',
+                    'dcterms:title' => 'Galileo Galilei',
+                ],
+            ],
         ],
         [
             'id' => 'isaac-newton',
@@ -1253,7 +1358,12 @@ return [
                 -0.65,
                 52.8,
             ],
-            'media' => 'isaac-newton.jpg',
+            'media' => [
+                [
+                    'file' => 'isaac-newton.jpg',
+                    'dcterms:title' => 'Isaac Newton',
+                ],
+            ],
         ],
         [
             'id' => 'mary-wollstonecraft',
@@ -1297,7 +1407,12 @@ return [
                 -0.06,
                 51.52,
             ],
-            'media' => 'mary-wollstonecraft.jpg',
+            'media' => [
+                [
+                    'file' => 'mary-wollstonecraft.jpg',
+                    'dcterms:title' => 'Mary Wollstonecraft',
+                ],
+            ],
         ],
         [
             'id' => 'ada-lovelace',
@@ -1343,7 +1458,12 @@ return [
                 -0.1276,
                 51.5074,
             ],
-            'media' => 'ada-lovelace.png',
+            'media' => [
+                [
+                    'file' => 'ada-lovelace.png',
+                    'dcterms:title' => 'Ada Lovelace',
+                ],
+            ],
         ],
         [
             'id' => 'charles-darwin',
@@ -1388,7 +1508,12 @@ return [
                 -2.7519,
                 52.708,
             ],
-            'media' => 'charles-darwin.jpg',
+            'media' => [
+                [
+                    'file' => 'charles-darwin.jpg',
+                    'dcterms:title' => 'Charles Darwin',
+                ],
+            ],
         ],
         [
             'id' => 'frederick-douglass',
@@ -1438,7 +1563,12 @@ return [
                 -75.8096,
                 38.8121,
             ],
-            'media' => 'frederick-douglass.jpg',
+            'media' => [
+                [
+                    'file' => 'frederick-douglass.jpg',
+                    'dcterms:title' => 'Frederick Douglass',
+                ],
+            ],
         ],
         [
             'id' => 'harriet-tubman',
@@ -1487,7 +1617,12 @@ return [
                 -76.0744,
                 38.5762,
             ],
-            'media' => 'harriet-tubman.jpg',
+            'media' => [
+                [
+                    'file' => 'harriet-tubman.jpg',
+                    'dcterms:title' => 'Harriet Tubman',
+                ],
+            ],
         ],
         [
             'id' => 'enheduanna',
@@ -1535,7 +1670,12 @@ return [
                 46.1036,
                 30.9626,
             ],
-            'media' => 'enheduanna.jpg',
+            'media' => [
+                [
+                    'file' => 'enheduanna.jpg',
+                    'dcterms:title' => 'Enheduanna',
+                ],
+            ],
         ],
         [
             'id' => 'sappho',
@@ -1593,7 +1733,12 @@ return [
                 26.1667,
                 39.1667,
             ],
-            'media' => 'sappho.jpg',
+            'media' => [
+                [
+                    'file' => 'sappho.jpg',
+                    'dcterms:title' => 'Sappho',
+                ],
+            ],
         ],
         [
             'id' => 'confucius',
@@ -1653,7 +1798,12 @@ return [
                 117,
                 35.6,
             ],
-            'media' => 'confucius.jpg',
+            'media' => [
+                [
+                    'file' => 'confucius.jpg',
+                    'dcterms:title' => 'Confucius',
+                ],
+            ],
         ],
         [
             'id' => 'archimedes',
@@ -1708,7 +1858,12 @@ return [
                 15.2866,
                 37.0755,
             ],
-            'media' => 'archimedes.jpg',
+            'media' => [
+                [
+                    'file' => 'archimedes.jpg',
+                    'dcterms:title' => 'Archimedes',
+                ],
+            ],
         ],
         [
             'id' => 'ashoka',
@@ -1766,7 +1921,12 @@ return [
                 85.1376,
                 25.5941,
             ],
-            'media' => 'ashoka.jpg',
+            'media' => [
+                [
+                    'file' => 'ashoka.jpg',
+                    'dcterms:title' => 'Ashoka',
+                ],
+            ],
         ],
         [
             'id' => 'zhang-heng',
@@ -1820,7 +1980,12 @@ return [
                 112.5292,
                 33,
             ],
-            'media' => 'zhang-heng.jpg',
+            'media' => [
+                [
+                    'file' => 'zhang-heng.jpg',
+                    'dcterms:title' => 'Zhang Heng',
+                ],
+            ],
         ],
         [
             'id' => 'zenobia',
@@ -1872,7 +2037,12 @@ return [
                 38.2669,
                 34.5503,
             ],
-            'media' => 'zenobia.jpg',
+            'media' => [
+                [
+                    'file' => 'zenobia.jpg',
+                    'dcterms:title' => 'Zenobia',
+                ],
+            ],
         ],
         [
             'id' => 'theodora',
@@ -1926,7 +2096,12 @@ return [
                 28.9784,
                 41.0082,
             ],
-            'media' => 'theodora.jpg',
+            'media' => [
+                [
+                    'file' => 'theodora.jpg',
+                    'dcterms:title' => 'Theodora',
+                ],
+            ],
         ],
         [
             'id' => 'fatima-al-fihri',
@@ -1978,7 +2153,12 @@ return [
                 10.1,
                 35.6781,
             ],
-            'media' => 'fatima-al-fihri.jpg',
+            'media' => [
+                [
+                    'file' => 'fatima-al-fihri.jpg',
+                    'dcterms:title' => 'Fatima al-Fihri',
+                ],
+            ],
         ],
         [
             'id' => 'razia-sultana',
@@ -2035,7 +2215,12 @@ return [
                 77.209,
                 28.6139,
             ],
-            'media' => 'razia-sultana.jpg',
+            'media' => [
+                [
+                    'file' => 'razia-sultana.jpg',
+                    'dcterms:title' => 'Razia Sultana',
+                ],
+            ],
         ],
         [
             'id' => 'mirabai',
@@ -2087,7 +2272,12 @@ return [
                 72.8397,
                 26,
             ],
-            'media' => 'mirabai.jpg',
+            'media' => [
+                [
+                    'file' => 'mirabai.jpg',
+                    'dcterms:title' => 'Mirabai',
+                ],
+            ],
         ],
         [
             'id' => 'suleiman-the-magnificent',
@@ -2139,7 +2329,12 @@ return [
                 39.7258,
                 41.0027,
             ],
-            'media' => 'suleiman-the-magnificent.jpg',
+            'media' => [
+                [
+                    'file' => 'suleiman-the-magnificent.jpg',
+                    'dcterms:title' => 'Suleiman the Magnificent',
+                ],
+            ],
         ],
         [
             'id' => 'akbar',
@@ -2197,7 +2392,12 @@ return [
                 69.736,
                 25.3619,
             ],
-            'media' => 'akbar.jpg',
+            'media' => [
+                [
+                    'file' => 'akbar.jpg',
+                    'dcterms:title' => 'Akbar',
+                ],
+            ],
         ],
         [
             'id' => 'yi-sun-sin',
@@ -2248,7 +2448,12 @@ return [
                 126.978,
                 37.5665,
             ],
-            'media' => 'yi-sun-sin.jpg',
+            'media' => [
+                [
+                    'file' => 'yi-sun-sin.jpg',
+                    'dcterms:title' => 'Yi Sun-sin',
+                ],
+            ],
         ],
         [
             'id' => 'toussaint-louverture',
@@ -2299,7 +2504,12 @@ return [
                 -72.3388,
                 19.45,
             ],
-            'media' => 'toussaint-louverture.jpg',
+            'media' => [
+                [
+                    'file' => 'toussaint-louverture.jpg',
+                    'dcterms:title' => 'Toussaint Louverture',
+                ],
+            ],
         ],
         [
             'id' => 'tecumseh',
@@ -2351,7 +2561,12 @@ return [
                 -84,
                 39.9612,
             ],
-            'media' => 'tecumseh.jpg',
+            'media' => [
+                [
+                    'file' => 'tecumseh.jpg',
+                    'dcterms:title' => 'Tecumseh',
+                ],
+            ],
         ],
         [
             'id' => 'sojourner-truth',
@@ -2404,7 +2619,12 @@ return [
                 -73.9726,
                 41.739,
             ],
-            'media' => 'sojourner-truth.jpg',
+            'media' => [
+                [
+                    'file' => 'sojourner-truth.jpg',
+                    'dcterms:title' => 'Sojourner Truth',
+                ],
+            ],
         ],
         [
             'id' => 'yaa-asantewaa',
@@ -2453,7 +2673,12 @@ return [
                 -1.6083,
                 6.6885,
             ],
-            'media' => 'yaa-asantewaa.jpg',
+            'media' => [
+                [
+                    'file' => 'yaa-asantewaa.jpg',
+                    'dcterms:title' => 'Yaa Asantewaa',
+                ],
+            ],
         ],
         [
             'id' => 'nikola-tesla',
@@ -2509,7 +2734,12 @@ return [
                 15.3167,
                 44.5667,
             ],
-            'media' => 'nikola-tesla.jpeg',
+            'media' => [
+                [
+                    'file' => 'nikola-tesla.jpeg',
+                    'dcterms:title' => 'Nikola Tesla',
+                ],
+            ],
         ],
         [
             'id' => 'ida-b-wells',
@@ -2557,7 +2787,12 @@ return [
                 -89.4673,
                 34.7726,
             ],
-            'media' => 'ida-b-wells.jpg',
+            'media' => [
+                [
+                    'file' => 'ida-b-wells.jpg',
+                    'dcterms:title' => 'Ida B. Wells',
+                ],
+            ],
         ],
         [
             'id' => 'marie-curie',
@@ -2609,7 +2844,12 @@ return [
                 21.0122,
                 52.2297,
             ],
-            'media' => 'marie-curie.jpg',
+            'media' => [
+                [
+                    'file' => 'marie-curie.jpg',
+                    'dcterms:title' => 'Marie Curie',
+                ],
+            ],
         ],
         [
             'id' => 'web-du-bois',
@@ -2656,7 +2896,12 @@ return [
                 -73.3604,
                 42.1959,
             ],
-            'media' => 'web-du-bois.jpg',
+            'media' => [
+                [
+                    'file' => 'web-du-bois.jpg',
+                    'dcterms:title' => 'W. E. B. Du Bois',
+                ],
+            ],
         ],
         [
             'id' => 'srinivasa-ramanujan',
@@ -2709,7 +2954,12 @@ return [
                 77.7172,
                 11.341,
             ],
-            'media' => 'srinivasa-ramanujan.jpg',
+            'media' => [
+                [
+                    'file' => 'srinivasa-ramanujan.jpg',
+                    'dcterms:title' => 'Srinivasa Ramanujan',
+                ],
+            ],
         ],
         [
             'id' => 'aspasia',
@@ -2761,7 +3011,12 @@ return [
                 27.2784,
                 37.5304,
             ],
-            'media' => 'aspasia.jpg',
+            'media' => [
+                [
+                    'file' => 'aspasia.jpg',
+                    'dcterms:title' => 'Aspasia',
+                ],
+            ],
         ],
         [
             'id' => 'nagarjuna',
@@ -2816,7 +3071,12 @@ return [
                 78,
                 20,
             ],
-            'media' => 'nagarjuna.jpg',
+            'media' => [
+                [
+                    'file' => 'nagarjuna.jpg',
+                    'dcterms:title' => 'Nāgārjuna',
+                ],
+            ],
         ],
         [
             'id' => 'hannibal',
@@ -2865,7 +3125,12 @@ return [
                 10.3233,
                 36.8565,
             ],
-            'media' => 'hannibal.jpg',
+            'media' => [
+                [
+                    'file' => 'hannibal.jpg',
+                    'dcterms:title' => 'Hannibal Barca',
+                ],
+            ],
         ],
         [
             'id' => 'boudicca',
@@ -2911,7 +3176,12 @@ return [
                 0.9,
                 52.6,
             ],
-            'media' => 'boudicca.jpg',
+            'media' => [
+                [
+                    'file' => 'boudicca.jpg',
+                    'dcterms:title' => 'Boudicca',
+                ],
+            ],
         ],
         [
             'id' => 'trung-trac',
@@ -2959,7 +3229,12 @@ return [
                 105.7167,
                 21.2,
             ],
-            'media' => 'trung-trac.jpg',
+            'media' => [
+                [
+                    'file' => 'trung-trac.jpg',
+                    'dcterms:title' => 'Trưng Trắc',
+                ],
+            ],
         ],
         [
             'id' => 'omar-khayyam',
@@ -3015,7 +3290,12 @@ return [
                 58.7962,
                 36.2136,
             ],
-            'media' => 'omar-khayyam.jpg',
+            'media' => [
+                [
+                    'file' => 'omar-khayyam.jpg',
+                    'dcterms:title' => 'Omar Khayyam',
+                ],
+            ],
         ],
         [
             'id' => 'al-idrisi',
@@ -3063,7 +3343,12 @@ return [
                 -5.3093,
                 35.8897,
             ],
-            'media' => 'al-idrisi.jpg',
+            'media' => [
+                [
+                    'file' => 'al-idrisi.jpg',
+                    'dcterms:title' => 'Al-Idrisi',
+                ],
+            ],
         ],
         [
             'id' => 'ibn-khaldun',
@@ -3116,7 +3401,12 @@ return [
                 10.1815,
                 36.819,
             ],
-            'media' => 'ibn-khaldun.jpg',
+            'media' => [
+                [
+                    'file' => 'ibn-khaldun.jpg',
+                    'dcterms:title' => 'Ibn Khaldun',
+                ],
+            ],
         ],
         [
             'id' => 'afonso-i-kongo',
@@ -3166,7 +3456,12 @@ return [
                 14.25,
                 -6.2667,
             ],
-            'media' => 'afonso-i-kongo.png',
+            'media' => [
+                [
+                    'file' => 'afonso-i-kongo.png',
+                    'dcterms:title' => 'Afonso I of Kongo',
+                ],
+            ],
         ],
         [
             'id' => 'las-casas',
@@ -3214,7 +3509,12 @@ return [
                 -5.9845,
                 37.3891,
             ],
-            'media' => 'las-casas.jpg',
+            'media' => [
+                [
+                    'file' => 'las-casas.jpg',
+                    'dcterms:title' => 'Bartolomé de las Casas',
+                ],
+            ],
         ],
         [
             'id' => 'elizabeth-i',
@@ -3266,7 +3566,12 @@ return [
                 -0.0098,
                 51.4822,
             ],
-            'media' => 'elizabeth-i.jpg',
+            'media' => [
+                [
+                    'file' => 'elizabeth-i.jpg',
+                    'dcterms:title' => 'Elizabeth I',
+                ],
+            ],
         ],
         [
             'id' => 'kepler',
@@ -3315,7 +3620,12 @@ return [
                 8.8717,
                 48.75,
             ],
-            'media' => 'kepler.jpg',
+            'media' => [
+                [
+                    'file' => 'kepler.jpg',
+                    'dcterms:title' => 'Johannes Kepler',
+                ],
+            ],
         ],
         [
             'id' => 'ching-shih',
@@ -3368,7 +3678,12 @@ return [
                 113.2644,
                 23.1291,
             ],
-            'media' => 'ching-shih.jpg',
+            'media' => [
+                [
+                    'file' => 'ching-shih.jpg',
+                    'dcterms:title' => 'Ching Shih',
+                ],
+            ],
         ],
         [
             'id' => 'olaudah-equiano',
@@ -3419,7 +3734,12 @@ return [
                 6.5,
                 6,
             ],
-            'media' => 'olaudah-equiano.png',
+            'media' => [
+                [
+                    'file' => 'olaudah-equiano.png',
+                    'dcterms:title' => 'Olaudah Equiano',
+                ],
+            ],
         ],
         [
             'id' => 'simon-bolivar',
@@ -3465,7 +3785,12 @@ return [
                 -66.9036,
                 10.4806,
             ],
-            'media' => 'simon-bolivar.jpg',
+            'media' => [
+                [
+                    'file' => 'simon-bolivar.jpg',
+                    'dcterms:title' => 'Simón Bolívar',
+                ],
+            ],
         ],
         [
             'id' => 'sacagawea',
@@ -3518,7 +3843,12 @@ return [
                 -113.8958,
                 45.1699,
             ],
-            'media' => 'sacagawea.jpg',
+            'media' => [
+                [
+                    'file' => 'sacagawea.jpg',
+                    'dcterms:title' => 'Sacagawea',
+                ],
+            ],
         ],
         [
             'id' => 'cixi',
@@ -3574,7 +3904,12 @@ return [
                 116.3912,
                 39.9042,
             ],
-            'media' => 'cixi.png',
+            'media' => [
+                [
+                    'file' => 'cixi.png',
+                    'dcterms:title' => 'Empress Dowager Cixi',
+                ],
+            ],
         ],
         [
             'id' => 'mary-seacole',
@@ -3620,7 +3955,12 @@ return [
                 -76.7936,
                 17.997,
             ],
-            'media' => 'mary-seacole.jpg',
+            'media' => [
+                [
+                    'file' => 'mary-seacole.jpg',
+                    'dcterms:title' => 'Mary Seacole',
+                ],
+            ],
         ],
         [
             'id' => 'lakshmibai',
@@ -3670,7 +4010,12 @@ return [
                 82.9739,
                 25.3176,
             ],
-            'media' => 'lakshmibai.jpg',
+            'media' => [
+                [
+                    'file' => 'lakshmibai.jpg',
+                    'dcterms:title' => 'Lakshmibai',
+                ],
+            ],
         ],
         [
             'id' => 'rabindranath-tagore',
@@ -3726,7 +4071,12 @@ return [
                 88.3639,
                 22.5726,
             ],
-            'media' => 'rabindranath-tagore.jpg',
+            'media' => [
+                [
+                    'file' => 'rabindranath-tagore.jpg',
+                    'dcterms:title' => 'Rabindranath Tagore',
+                ],
+            ],
         ],
         [
             'id' => 'lise-meitner',
@@ -3774,7 +4124,12 @@ return [
                 16.3738,
                 48.2082,
             ],
-            'media' => 'lise-meitner.jpg',
+            'media' => [
+                [
+                    'file' => 'lise-meitner.jpg',
+                    'dcterms:title' => 'Lise Meitner',
+                ],
+            ],
         ],
         [
             'id' => 'emmy-noether',
@@ -3824,7 +4179,12 @@ return [
                 11.0061,
                 49.5897,
             ],
-            'media' => 'emmy-noether.jpg',
+            'media' => [
+                [
+                    'file' => 'emmy-noether.jpg',
+                    'dcterms:title' => 'Emmy Noether',
+                ],
+            ],
         ],
         [
             'id' => 'mahatma-gandhi',
@@ -3882,7 +4242,12 @@ return [
                 69.6093,
                 21.6417,
             ],
-            'media' => 'mahatma-gandhi.jpg',
+            'media' => [
+                [
+                    'file' => 'mahatma-gandhi.jpg',
+                    'dcterms:title' => 'Mahatma Gandhi',
+                ],
+            ],
         ],
         [
             'id' => 'alan-turing',
@@ -3930,7 +4295,12 @@ return [
                 -0.1838,
                 51.5225,
             ],
-            'media' => 'alan-turing.jpg',
+            'media' => [
+                [
+                    'file' => 'alan-turing.jpg',
+                    'dcterms:title' => 'Alan Turing',
+                ],
+            ],
         ],
         [
             'id' => 'imhotep',
@@ -3983,7 +4353,12 @@ return [
                 31.2517,
                 29.8474,
             ],
-            'media' => 'imhotep.jpg',
+            'media' => [
+                [
+                    'file' => 'imhotep.jpg',
+                    'dcterms:title' => 'Imhotep',
+                ],
+            ],
         ],
         [
             'id' => 'sargon-of-akkad',
@@ -4039,7 +4414,12 @@ return [
                 44.3661,
                 33.3152,
             ],
-            'media' => 'sargon-of-akkad.jpg',
+            'media' => [
+                [
+                    'file' => 'sargon-of-akkad.jpg',
+                    'dcterms:title' => 'Sargon of Akkad',
+                ],
+            ],
         ],
         [
             'id' => 'himiko',
@@ -4091,7 +4471,12 @@ return [
                 130.5,
                 33.5,
             ],
-            'media' => 'himiko.jpg',
+            'media' => [
+                [
+                    'file' => 'himiko.jpg',
+                    'dcterms:title' => 'Himiko',
+                ],
+            ],
         ],
         [
             'id' => 'li-bai',
@@ -4144,7 +4529,12 @@ return [
                 76.5,
                 42.8,
             ],
-            'media' => 'li-bai.png',
+            'media' => [
+                [
+                    'file' => 'li-bai.png',
+                    'dcterms:title' => 'Li Bai',
+                ],
+            ],
         ],
         [
             'id' => 'averroes',
@@ -4200,7 +4590,12 @@ return [
                 -4.7794,
                 37.8882,
             ],
-            'media' => 'averroes.jpg',
+            'media' => [
+                [
+                    'file' => 'averroes.jpg',
+                    'dcterms:title' => 'Averroes',
+                ],
+            ],
         ],
         [
             'id' => 'maimonides',
@@ -4253,7 +4648,12 @@ return [
                 -4.7794,
                 37.8882,
             ],
-            'media' => 'maimonides.jpg',
+            'media' => [
+                [
+                    'file' => 'maimonides.jpg',
+                    'dcterms:title' => 'Maimonides',
+                ],
+            ],
         ],
         [
             'id' => 'tamar-of-georgia',
@@ -4308,7 +4708,12 @@ return [
                 44.794,
                 41.6938,
             ],
-            'media' => 'tamar-of-georgia.jpg',
+            'media' => [
+                [
+                    'file' => 'tamar-of-georgia.jpg',
+                    'dcterms:title' => 'Tamar of Georgia',
+                ],
+            ],
         ],
         [
             'id' => 'khutulun',
@@ -4358,7 +4763,12 @@ return [
                 103.8467,
                 46.8625,
             ],
-            'media' => 'khutulun.jpeg',
+            'media' => [
+                [
+                    'file' => 'khutulun.jpeg',
+                    'dcterms:title' => 'Khutulun',
+                ],
+            ],
         ],
         [
             'id' => 'amina-of-zaria',
@@ -4413,7 +4823,12 @@ return [
                 7.7164,
                 11.0688,
             ],
-            'media' => 'amina-of-zaria.jpg',
+            'media' => [
+                [
+                    'file' => 'amina-of-zaria.jpg',
+                    'dcterms:title' => 'Amina of Zaria',
+                ],
+            ],
         ],
         [
             'id' => 'tokugawa-ieyasu',
@@ -4465,7 +4880,12 @@ return [
                 137.1641,
                 34.9555,
             ],
-            'media' => 'tokugawa-ieyasu.jpg',
+            'media' => [
+                [
+                    'file' => 'tokugawa-ieyasu.jpg',
+                    'dcterms:title' => 'Tokugawa Ieyasu',
+                ],
+            ],
         ],
         [
             'id' => 'john-locke',
@@ -4513,7 +4933,12 @@ return [
                 -2.767,
                 51.35,
             ],
-            'media' => 'john-locke.png',
+            'media' => [
+                [
+                    'file' => 'john-locke.png',
+                    'dcterms:title' => 'John Locke',
+                ],
+            ],
         ],
         [
             'id' => 'leibniz',
@@ -4564,7 +4989,12 @@ return [
                 12.3731,
                 51.3397,
             ],
-            'media' => 'leibniz.jpg',
+            'media' => [
+                [
+                    'file' => 'leibniz.jpg',
+                    'dcterms:title' => 'Gottfried Wilhelm Leibniz',
+                ],
+            ],
         ],
         [
             'id' => 'nanny-of-the-maroons',
@@ -4614,7 +5044,12 @@ return [
                 -76.601,
                 18.0679,
             ],
-            'media' => 'nanny-of-the-maroons.jpg',
+            'media' => [
+                [
+                    'file' => 'nanny-of-the-maroons.jpg',
+                    'dcterms:title' => 'Nanny of the Maroons',
+                ],
+            ],
         ],
         [
             'id' => 'voltaire',
@@ -4660,7 +5095,12 @@ return [
                 2.3522,
                 48.8566,
             ],
-            'media' => 'voltaire.jpg',
+            'media' => [
+                [
+                    'file' => 'voltaire.jpg',
+                    'dcterms:title' => 'Voltaire',
+                ],
+            ],
         ],
         [
             'id' => 'cao-xueqin',
@@ -4715,7 +5155,12 @@ return [
                 118.7969,
                 32.0603,
             ],
-            'media' => 'cao-xueqin.jpg',
+            'media' => [
+                [
+                    'file' => 'cao-xueqin.jpg',
+                    'dcterms:title' => 'Cao Xueqin',
+                ],
+            ],
         ],
         [
             'id' => 'kamehameha-i',
@@ -4765,7 +5210,12 @@ return [
                 -155.4656,
                 19.5429,
             ],
-            'media' => 'kamehameha-i.jpg',
+            'media' => [
+                [
+                    'file' => 'kamehameha-i.jpg',
+                    'dcterms:title' => 'Kamehameha I',
+                ],
+            ],
         ],
         [
             'id' => 'sequoyah',
@@ -4818,7 +5268,12 @@ return [
                 -84.2533,
                 35.5175,
             ],
-            'media' => 'sequoyah.jpg',
+            'media' => [
+                [
+                    'file' => 'sequoyah.jpg',
+                    'dcterms:title' => 'Sequoyah',
+                ],
+            ],
         ],
         [
             'id' => 'shaka',
@@ -4870,7 +5325,12 @@ return [
                 31.3951,
                 -28.5978,
             ],
-            'media' => 'shaka.jpg',
+            'media' => [
+                [
+                    'file' => 'shaka.jpg',
+                    'dcterms:title' => 'Shaka',
+                ],
+            ],
         ],
         [
             'id' => 'mary-shelley',
@@ -4916,7 +5376,12 @@ return [
                 -0.1276,
                 51.5074,
             ],
-            'media' => 'mary-shelley.jpg',
+            'media' => [
+                [
+                    'file' => 'mary-shelley.jpg',
+                    'dcterms:title' => 'Mary Shelley',
+                ],
+            ],
         ],
         [
             'id' => 'mary-anning',
@@ -4961,7 +5426,12 @@ return [
                 -2.9361,
                 50.7235,
             ],
-            'media' => 'mary-anning.jpg',
+            'media' => [
+                [
+                    'file' => 'mary-anning.jpg',
+                    'dcterms:title' => 'Mary Anning',
+                ],
+            ],
         ],
         [
             'id' => 'george-eliot',
@@ -5007,7 +5477,12 @@ return [
                 -1.4648,
                 52.5228,
             ],
-            'media' => 'george-eliot.jpg',
+            'media' => [
+                [
+                    'file' => 'george-eliot.jpg',
+                    'dcterms:title' => 'George Eliot',
+                ],
+            ],
         ],
         [
             'id' => 'florence-nightingale',
@@ -5057,7 +5532,12 @@ return [
                 11.2558,
                 43.7696,
             ],
-            'media' => 'florence-nightingale.jpg',
+            'media' => [
+                [
+                    'file' => 'florence-nightingale.jpg',
+                    'dcterms:title' => 'Florence Nightingale',
+                ],
+            ],
         ],
         [
             'id' => 'sitting-bull',
@@ -5107,7 +5587,12 @@ return [
                 -100.17,
                 45.48,
             ],
-            'media' => 'sitting-bull.jpg',
+            'media' => [
+                [
+                    'file' => 'sitting-bull.jpg',
+                    'dcterms:title' => 'Sitting Bull',
+                ],
+            ],
         ],
         [
             'id' => 'james-clerk-maxwell',
@@ -5153,7 +5638,12 @@ return [
                 -3.1883,
                 55.9533,
             ],
-            'media' => 'james-clerk-maxwell.jpg',
+            'media' => [
+                [
+                    'file' => 'james-clerk-maxwell.jpg',
+                    'dcterms:title' => 'James Clerk Maxwell',
+                ],
+            ],
         ],
         [
             'id' => 'wang-zhenyi',
@@ -5205,7 +5695,12 @@ return [
                 118.7969,
                 32.0603,
             ],
-            'media' => 'wang-zhenyi.jpg',
+            'media' => [
+                [
+                    'file' => 'wang-zhenyi.jpg',
+                    'dcterms:title' => 'Wang Zhenyi',
+                ],
+            ],
         ],
         [
             'id' => 'rosalind-franklin',
@@ -5253,7 +5748,12 @@ return [
                 -0.1938,
                 51.5122,
             ],
-            'media' => 'rosalind-franklin.jpg',
+            'media' => [
+                [
+                    'file' => 'rosalind-franklin.jpg',
+                    'dcterms:title' => 'Rosalind Franklin',
+                ],
+            ],
         ],
     ],
 ];

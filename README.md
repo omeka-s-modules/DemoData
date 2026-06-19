@@ -17,19 +17,19 @@ Each dataset creates its own item set(s) and resource template on import. Re-imp
 
 ### Artworks
 
-Paintings, sculptures, drawings, and manuscripts spanning antiquity to the 20th century, organized by movement and period. Exercises resource templates with alternate property labels, URI identifiers, numeric date values, map markers, and inter-item links.
+Paintings, sculptures, drawings, and manuscripts spanning antiquity to the 20th century, organized by movement and period. Exercises resource templates with alternate property labels, URI identifiers, numeric date values, map markers, inter-item links, and media with title and creator property values.
 
 ### Civilizations
 
-Historical polities — kingdoms, empires, dynasties, and cultural periods — from across the ancient, medieval, and early modern world. The largest dataset at 450 items. Exercises all four NumericDataTypes (timestamp, duration, interval, integer), map markers with bounding boxes, and inter-item links.
+Historical polities — kingdoms, empires, dynasties, and cultural periods — from across the ancient, medieval, and early modern world. The largest dataset at 450 items. Exercises all four NumericDataTypes (timestamp, duration, interval, integer), map markers with bounding boxes, inter-item links, and media with title property values.
 
 ### Documents
 
-Historical handwritten and typed documents including letters, diaries, newspapers, and official records from the 15th through 20th centuries. Several items have multiple media files representing individual pages of a multi-page document. Includes large TIFF and PDF files.
+Historical handwritten and typed documents including letters, diaries, newspapers, and official records from the 15th through 20th centuries. Several items have multiple media files representing individual pages of a multi-page document; each page carries a title property value. Includes large TIFF and PDF files.
 
 ### People
 
-Historical figures spanning science, literature, philosophy, exploration, and political leadership across cultures and centuries. Exercises value annotations (approximate birth and death dates flagged with a qualifier value), language-tagged title values (native-language names in 15 languages), URI identifiers, numeric date values, and map markers.
+Historical figures spanning science, literature, philosophy, exploration, and political leadership across cultures and centuries. Exercises value annotations (approximate birth and death dates flagged with a qualifier value), language-tagged title values (native-language names in 15 languages), URI identifiers, numeric date values, map markers, and media with title property values.
 
 ## Copyright
 

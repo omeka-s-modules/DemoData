@@ -81,10 +81,16 @@ return [
                 'the-last-supper',
                 'vitruvian-man',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q12418', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q12418',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Mona Lisa',
             'dcterms:creator' => 'Leonardo da Vinci',
-            'dcterms:created' => ['@value' => '1503', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1503',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Half-length portrait of a woman believed to be Lisa Gherardini, celebrated for its sfumato technique and enigmatic expression.',
             'dcterms:subject' => [
                 'Painting',
@@ -99,7 +105,13 @@ return [
                 2.3364,
                 48.8606,
             ],
-            'media' => 'mona-lisa.jpg',
+            'media' => [
+                [
+                    'file' => 'mona-lisa.jpg',
+                    'dcterms:title' => 'Mona Lisa',
+                    'dcterms:creator' => 'Leonardo da Vinci',
+                ],
+            ],
         ],
         [
             'id' => 'the-last-supper',
@@ -112,10 +124,16 @@ return [
                 'mona-lisa',
                 'vitruvian-man',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q25207', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q25207',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Last Supper',
             'dcterms:creator' => 'Leonardo da Vinci',
-            'dcterms:created' => ['@value' => '1498', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1498',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Mural depicting the moment Jesus announces that one of his apostles will betray him, painted in tempera on a prepared wall in Milan.',
             'dcterms:subject' => [
                 'Painting',
@@ -130,7 +148,13 @@ return [
                 9.1709,
                 45.466,
             ],
-            'media' => 'the-last-supper.jpg',
+            'media' => [
+                [
+                    'file' => 'the-last-supper.jpg',
+                    'dcterms:title' => 'The Last Supper',
+                    'dcterms:creator' => 'Leonardo da Vinci',
+                ],
+            ],
         ],
         [
             'id' => 'the-starry-night',
@@ -142,10 +166,16 @@ return [
             'relations' => [
                 'water-lilies',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q45585', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q45585',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Starry Night',
             'dcterms:creator' => 'Vincent van Gogh',
-            'dcterms:created' => ['@value' => '1889', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1889',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Swirling nocturnal landscape painted from the window of Van Gogh\'s room at the Saint-Paul-de-Mausole asylum in Saint-Rémy-de-Provence.',
             'dcterms:subject' => [
                 'Painting',
@@ -160,7 +190,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'the-starry-night.jpg',
+            'media' => [
+                [
+                    'file' => 'the-starry-night.jpg',
+                    'dcterms:title' => 'The Starry Night',
+                    'dcterms:creator' => 'Vincent van Gogh',
+                ],
+            ],
         ],
         [
             'id' => 'girl-with-a-pearl-earring',
@@ -173,10 +209,16 @@ return [
                 'the-night-watch',
                 'the-arnolfini-portrait',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q185372', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q185372',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Girl with a Pearl Earring',
             'dcterms:creator' => 'Johannes Vermeer',
-            'dcterms:created' => ['@value' => '1665', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1665',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Tronie of a girl in exotic dress wearing a large pearl earring, often called the \'Mona Lisa of the North\'.',
             'dcterms:subject' => [
                 'Painting',
@@ -191,7 +233,13 @@ return [
                 4.3131,
                 52.0804,
             ],
-            'media' => 'girl-with-a-pearl-earring.jpg',
+            'media' => [
+                [
+                    'file' => 'girl-with-a-pearl-earring.jpg',
+                    'dcterms:title' => 'Girl with a Pearl Earring',
+                    'dcterms:creator' => 'Johannes Vermeer',
+                ],
+            ],
         ],
         [
             'id' => 'the-birth-of-venus',
@@ -203,10 +251,16 @@ return [
             'relations' => [
                 'primavera',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q151047', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q151047',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Birth of Venus',
             'dcterms:creator' => 'Sandro Botticelli',
-            'dcterms:created' => ['@value' => '1485', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1485',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Depicts the goddess Venus emerging from the sea as a fully grown woman, painted for the Medici family villa at Castello.',
             'dcterms:subject' => [
                 'Painting',
@@ -221,7 +275,13 @@ return [
                 11.2558,
                 43.7678,
             ],
-            'media' => 'the-birth-of-venus.jpg',
+            'media' => [
+                [
+                    'file' => 'the-birth-of-venus.jpg',
+                    'dcterms:title' => 'The Birth of Venus',
+                    'dcterms:creator' => 'Sandro Botticelli',
+                ],
+            ],
         ],
         [
             'id' => 'las-meninas',
@@ -233,10 +293,16 @@ return [
             'relations' => [
                 'a-bar-at-the-folies-bergere',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q208758', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q208758',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Las Meninas',
             'dcterms:creator' => 'Diego Velázquez',
-            'dcterms:created' => ['@value' => '1656', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1656',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Complex composition depicting the Infanta Margaret Theresa with her entourage, the artist himself, and the reflected images of King Philip IV and Queen Mariana.',
             'dcterms:subject' => [
                 'Painting',
@@ -251,7 +317,13 @@ return [
                 -3.6922,
                 40.4138,
             ],
-            'media' => 'las-meninas.jpg',
+            'media' => [
+                [
+                    'file' => 'las-meninas.jpg',
+                    'dcterms:title' => 'Las Meninas',
+                    'dcterms:creator' => 'Diego Velázquez',
+                ],
+            ],
         ],
         [
             'id' => 'the-night-watch',
@@ -264,10 +336,16 @@ return [
                 'the-arnolfini-portrait',
                 'girl-with-a-pearl-earring',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q219831', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q219831',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Night Watch',
             'dcterms:creator' => 'Rembrandt van Rijn',
-            'dcterms:created' => ['@value' => '1642', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1642',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Militia company of Captain Frans Banninck Cocq depicted in motion, notable for its dramatic use of light and shadow.',
             'dcterms:subject' => [
                 'Painting',
@@ -282,7 +360,13 @@ return [
                 4.8852,
                 52.36,
             ],
-            'media' => 'the-night-watch.jpg',
+            'media' => [
+                [
+                    'file' => 'the-night-watch.jpg',
+                    'dcterms:title' => 'The Night Watch',
+                    'dcterms:creator' => 'Rembrandt van Rijn',
+                ],
+            ],
         ],
         [
             'id' => 'the-persistence-of-memory',
@@ -294,10 +378,16 @@ return [
             'relations' => [
                 'guernica',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q25729', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q25729',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Persistence of Memory',
             'dcterms:creator' => 'Salvador Dalí',
-            'dcterms:created' => ['@value' => '1931', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1931',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Surrealist dreamscape featuring melting pocket watches draped over a barren landscape, exploring the fluidity of time.',
             'dcterms:subject' => [
                 'Painting',
@@ -312,7 +402,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'the-persistence-of-memory.png',
+            'media' => [
+                [
+                    'file' => 'the-persistence-of-memory.png',
+                    'dcterms:title' => 'The Persistence of Memory',
+                    'dcterms:creator' => 'Salvador Dalí',
+                ],
+            ],
         ],
         [
             'id' => 'a-sunday-on-la-grande-jatte',
@@ -325,10 +421,16 @@ return [
                 'water-lilies',
                 'a-bar-at-the-folies-bergere',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1044742', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1044742',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'A Sunday on La Grande Jatte',
             'dcterms:creator' => 'Georges Seurat',
-            'dcterms:created' => ['@value' => '1886', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1886',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Pointillist scene of Parisians relaxing on an island in the Seine, composed of millions of tiny dots of pure color.',
             'dcterms:subject' => [
                 'Painting',
@@ -343,7 +445,13 @@ return [
                 -87.6237,
                 41.8796,
             ],
-            'media' => 'a-sunday-on-la-grande-jatte.jpg',
+            'media' => [
+                [
+                    'file' => 'a-sunday-on-la-grande-jatte.jpg',
+                    'dcterms:title' => 'A Sunday on La Grande Jatte',
+                    'dcterms:creator' => 'Georges Seurat',
+                ],
+            ],
         ],
         [
             'id' => 'water-lilies',
@@ -356,10 +464,16 @@ return [
                 'a-sunday-on-la-grande-jatte',
                 'the-starry-night',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1189907', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1189907',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Water Lilies',
             'dcterms:creator' => 'Claude Monet',
-            'dcterms:created' => ['@value' => '1906', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1906',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'One of Monet\'s celebrated series depicting the water lily pond at his garden in Giverny, focusing on light and reflection.',
             'dcterms:subject' => [
                 'Painting',
@@ -374,7 +488,13 @@ return [
                 -87.6237,
                 41.8796,
             ],
-            'media' => 'water-lilies.jpg',
+            'media' => [
+                [
+                    'file' => 'water-lilies.jpg',
+                    'dcterms:title' => 'Water Lilies',
+                    'dcterms:creator' => 'Claude Monet',
+                ],
+            ],
         ],
         [
             'id' => 'the-arnolfini-portrait',
@@ -387,10 +507,16 @@ return [
                 'the-night-watch',
                 'girl-with-a-pearl-earring',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q220859', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q220859',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Arnolfini Portrait',
             'dcterms:creator' => 'Jan van Eyck',
-            'dcterms:created' => ['@value' => '1434', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1434',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Double portrait of Giovanni di Nicolao Arnolfini and his wife in a Flemish interior, remarkable for its optical mirror and inscription.',
             'dcterms:subject' => [
                 'Painting',
@@ -405,7 +531,13 @@ return [
                 -0.1285,
                 51.5089,
             ],
-            'media' => 'the-arnolfini-portrait.jpg',
+            'media' => [
+                [
+                    'file' => 'the-arnolfini-portrait.jpg',
+                    'dcterms:title' => 'The Arnolfini Portrait',
+                    'dcterms:creator' => 'Jan van Eyck',
+                ],
+            ],
         ],
         [
             'id' => 'primavera',
@@ -418,10 +550,16 @@ return [
                 'the-birth-of-venus',
                 'the-garden-of-earthly-delights',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q51586', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q51586',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Primavera',
             'dcterms:creator' => 'Sandro Botticelli',
-            'dcterms:created' => ['@value' => '1482', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1482',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Allegorical composition featuring Venus, the Three Graces, Mercury, and Flora in a mythological garden, symbolizing the coming of spring.',
             'dcterms:subject' => [
                 'Painting',
@@ -436,7 +574,13 @@ return [
                 11.2558,
                 43.7678,
             ],
-            'media' => 'primavera.jpg',
+            'media' => [
+                [
+                    'file' => 'primavera.jpg',
+                    'dcterms:title' => 'Primavera',
+                    'dcterms:creator' => 'Sandro Botticelli',
+                ],
+            ],
         ],
         [
             'id' => 'the-school-of-athens',
@@ -448,10 +592,16 @@ return [
             'relations' => [
                 'sistine-chapel-ceiling',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q186953', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q186953',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The School of Athens',
             'dcterms:creator' => 'Raphael',
-            'dcterms:created' => ['@value' => '1511', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1511',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Fresco in the Vatican\'s Stanza della Segnatura depicting the great philosophers of antiquity gathered in an idealized classical setting.',
             'dcterms:subject' => [
                 'Painting',
@@ -467,7 +617,13 @@ return [
                 12.4534,
                 41.9065,
             ],
-            'media' => 'the-school-of-athens.jpg',
+            'media' => [
+                [
+                    'file' => 'the-school-of-athens.jpg',
+                    'dcterms:title' => 'The School of Athens',
+                    'dcterms:creator' => 'Raphael',
+                ],
+            ],
         ],
         [
             'id' => 'sistine-chapel-ceiling',
@@ -481,10 +637,16 @@ return [
                 'david',
                 'study-for-the-libyan-sibyl',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q844675', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q844675',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Sistine Chapel Ceiling',
             'dcterms:creator' => 'Michelangelo',
-            'dcterms:created' => ['@value' => '1512', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1512',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Monumental fresco program covering the ceiling of the Sistine Chapel, featuring nine scenes from Genesis including the iconic Creation of Adam.',
             'dcterms:subject' => [
                 'Painting',
@@ -500,7 +662,13 @@ return [
                 12.4534,
                 41.9065,
             ],
-            'media' => 'sistine-chapel-ceiling.jpg',
+            'media' => [
+                [
+                    'file' => 'sistine-chapel-ceiling.jpg',
+                    'dcterms:title' => 'Sistine Chapel Ceiling',
+                    'dcterms:creator' => 'Michelangelo',
+                ],
+            ],
         ],
         [
             'id' => 'the-garden-of-earthly-delights',
@@ -512,10 +680,16 @@ return [
             'relations' => [
                 'primavera',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q321303', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q321303',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Garden of Earthly Delights',
             'dcterms:creator' => 'Hieronymus Bosch',
-            'dcterms:created' => ['@value' => '1510', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1510',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Triptych depicting the Garden of Eden, a fantastical world of earthly pleasures, and Hell, filled with bizarre hybrid creatures and moral allegory.',
             'dcterms:subject' => [
                 'Painting',
@@ -530,7 +704,13 @@ return [
                 -3.6922,
                 40.4138,
             ],
-            'media' => 'the-garden-of-earthly-delights.jpg',
+            'media' => [
+                [
+                    'file' => 'the-garden-of-earthly-delights.jpg',
+                    'dcterms:title' => 'The Garden of Earthly Delights',
+                    'dcterms:creator' => 'Hieronymus Bosch',
+                ],
+            ],
         ],
         [
             'id' => 'guernica',
@@ -542,10 +722,16 @@ return [
             'relations' => [
                 'the-persistence-of-memory',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q175036', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q175036',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Guernica',
             'dcterms:creator' => 'Pablo Picasso',
-            'dcterms:created' => ['@value' => '1937', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1937',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Monumental response to the Nazi bombing of the Basque town of Guernica, depicting the suffering of civilians in fragmented Cubist forms.',
             'dcterms:subject' => [
                 'Painting',
@@ -560,7 +746,13 @@ return [
                 -3.6944,
                 40.4082,
             ],
-            'media' => 'guernica.jpg',
+            'media' => [
+                [
+                    'file' => 'guernica.jpg',
+                    'dcterms:title' => 'Guernica',
+                    'dcterms:creator' => 'Pablo Picasso',
+                ],
+            ],
         ],
         [
             'id' => 'a-bar-at-the-folies-bergere',
@@ -573,10 +765,16 @@ return [
                 'las-meninas',
                 'a-sunday-on-la-grande-jatte',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1245354', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1245354',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'A Bar at the Folies-Bergère',
             'dcterms:creator' => 'Édouard Manet',
-            'dcterms:created' => ['@value' => '1882', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1882',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Barmaid behind a marble counter reflected in a mirror that shows the crowded cabaret behind her, playing with the conventions of representation.',
             'dcterms:subject' => [
                 'Painting',
@@ -591,7 +789,13 @@ return [
                 -0.1167,
                 51.5112,
             ],
-            'media' => 'a-bar-at-the-folies-bergere.jpg',
+            'media' => [
+                [
+                    'file' => 'a-bar-at-the-folies-bergere.jpg',
+                    'dcterms:title' => 'A Bar at the Folies-Bergère',
+                    'dcterms:creator' => 'Édouard Manet',
+                ],
+            ],
         ],
         [
             'id' => 'self-portrait-thorn-necklace',
@@ -603,10 +807,16 @@ return [
             'relations' => [
                 'the-two-fridas',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q5880026', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q5880026',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Self-Portrait with Thorn Necklace and Hummingbird',
             'dcterms:creator' => 'Frida Kahlo',
-            'dcterms:created' => ['@value' => '1940', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1940',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Self-portrait in which Kahlo wears a thorn necklace, a black cat, a monkey, and a hummingbird, laden with personal and symbolic meaning.',
             'dcterms:subject' => [
                 'Painting',
@@ -621,7 +831,13 @@ return [
                 -97.7393,
                 30.2849,
             ],
-            'media' => 'self-portrait-thorn-necklace.jpg',
+            'media' => [
+                [
+                    'file' => 'self-portrait-thorn-necklace.jpg',
+                    'dcterms:title' => 'Self-Portrait with Thorn Necklace and Hummingbird',
+                    'dcterms:creator' => 'Frida Kahlo',
+                ],
+            ],
         ],
         [
             'id' => 'american-gothic',
@@ -634,10 +850,16 @@ return [
                 'stone-city-iowa',
                 'cradling-wheat',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q205886', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q205886',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'American Gothic',
             'dcterms:creator' => 'Grant Wood',
-            'dcterms:created' => ['@value' => '1930', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1930',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Depicts a farmer and his daughter posed before a Carpenter Gothic house, now an iconic symbol of rural American identity.',
             'dcterms:subject' => [
                 'Painting',
@@ -652,7 +874,13 @@ return [
                 -87.6237,
                 41.8796,
             ],
-            'media' => 'american-gothic.jpg',
+            'media' => [
+                [
+                    'file' => 'american-gothic.jpg',
+                    'dcterms:title' => 'American Gothic',
+                    'dcterms:creator' => 'Grant Wood',
+                ],
+            ],
         ],
         [
             'id' => 'the-swing',
@@ -664,10 +892,16 @@ return [
             'relations' => [
                 'a-bar-at-the-folies-bergere',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1938596', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1938596',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Swing',
             'dcterms:creator' => 'Jean-Honoré Fragonard',
-            'dcterms:created' => ['@value' => '1767', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1767',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Rococo pastoral depicting a young woman on a swing pushed by a bishop while her admirer watches from the bushes below.',
             'dcterms:subject' => [
                 'Painting',
@@ -682,7 +916,13 @@ return [
                 -0.1531,
                 51.5156,
             ],
-            'media' => 'the-swing.jpg',
+            'media' => [
+                [
+                    'file' => 'the-swing.jpg',
+                    'dcterms:title' => 'The Swing',
+                    'dcterms:creator' => 'Jean-Honoré Fragonard',
+                ],
+            ],
         ],
         [
             'id' => 'venus-de-milo',
@@ -695,10 +935,16 @@ return [
                 'winged-victory-of-samothrace',
                 'laocoon-and-his-sons',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q151952', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q151952',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Venus de Milo',
             'dcterms:creator' => 'Alexandros of Antioch',
-            'dcterms:created' => ['@value' => '-0099', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '-0099',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Marble statue of Aphrodite discovered on the island of Milos in 1820, widely admired as an ideal of feminine beauty.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -713,7 +959,13 @@ return [
                 2.3364,
                 48.8606,
             ],
-            'media' => 'venus-de-milo.jpg',
+            'media' => [
+                [
+                    'file' => 'venus-de-milo.jpg',
+                    'dcterms:title' => 'Venus de Milo',
+                    'dcterms:creator' => 'Alexandros of Antioch',
+                ],
+            ],
         ],
         [
             'id' => 'david',
@@ -726,10 +978,16 @@ return [
                 'sistine-chapel-ceiling',
                 'study-for-the-libyan-sibyl',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q179900', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q179900',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'David',
             'dcterms:creator' => 'Michelangelo',
-            'dcterms:created' => ['@value' => '1504', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1504',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Marble statue of the Biblical David poised before his battle with Goliath, representing the ideal of Renaissance humanist beauty.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -744,7 +1002,13 @@ return [
                 11.2587,
                 43.7769,
             ],
-            'media' => 'david.jpg',
+            'media' => [
+                [
+                    'file' => 'david.jpg',
+                    'dcterms:title' => 'David',
+                    'dcterms:creator' => 'Michelangelo',
+                ],
+            ],
         ],
         [
             'id' => 'the-thinker',
@@ -756,10 +1020,16 @@ return [
             'relations' => [
                 'gates-of-paradise',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q154571', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q154571',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Thinker',
             'dcterms:creator' => 'Auguste Rodin',
-            'dcterms:created' => ['@value' => '1904', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1904',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Monumental bronze figure of a man in deep contemplation, originally conceived as part of The Gates of Hell representing Dante.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -774,7 +1044,13 @@ return [
                 2.3159,
                 48.8554,
             ],
-            'media' => 'the-thinker.jpg',
+            'media' => [
+                [
+                    'file' => 'the-thinker.jpg',
+                    'dcterms:title' => 'The Thinker',
+                    'dcterms:creator' => 'Auguste Rodin',
+                ],
+            ],
         ],
         [
             'id' => 'winged-victory-of-samothrace',
@@ -787,10 +1063,16 @@ return [
                 'venus-de-milo',
                 'laocoon-and-his-sons',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q216402', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q216402',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Winged Victory of Samothrace',
             'dcterms:creator' => 'Unknown',
-            'dcterms:created' => ['@value' => '-0189', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '-0189',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Marble sculpture of Nike, goddess of victory, set on the prow of a ship, conveying dynamic motion and dramatic drapery.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -805,7 +1087,13 @@ return [
                 2.3364,
                 48.8606,
             ],
-            'media' => 'winged-victory-of-samothrace.jpg',
+            'media' => [
+                [
+                    'file' => 'winged-victory-of-samothrace.jpg',
+                    'dcterms:title' => 'Winged Victory of Samothrace',
+                    'dcterms:creator' => 'Unknown',
+                ],
+            ],
         ],
         [
             'id' => 'laocoon-and-his-sons',
@@ -818,10 +1106,16 @@ return [
                 'venus-de-milo',
                 'winged-victory-of-samothrace',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q465762', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q465762',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Laocoön and His Sons',
             'dcterms:creator' => 'Agesander, Athenodoros, and Polydoros of Rhodes',
-            'dcterms:created' => ['@value' => '-0024', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '-0024',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Depicts the Trojan priest Laocoön and his two sons being attacked by sea serpents, celebrated for its expression of agony.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -836,7 +1130,13 @@ return [
                 12.4534,
                 41.9065,
             ],
-            'media' => 'laocoon-and-his-sons.jpg',
+            'media' => [
+                [
+                    'file' => 'laocoon-and-his-sons.jpg',
+                    'dcterms:title' => 'Laocoön and His Sons',
+                    'dcterms:creator' => 'Agesander, Athenodoros, and Polydoros of Rhodes',
+                ],
+            ],
         ],
         [
             'id' => 'the-discobolus',
@@ -848,10 +1148,16 @@ return [
             'relations' => [
                 'venus-de-milo',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q133732', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q133732',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Discobolus (Townley)',
             'dcterms:creator' => 'After Myron',
-            'dcterms:created' => ['@value' => '-0449', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '-0449',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Roman marble copy of a lost Greek bronze depicting a discus thrower at the moment of maximum tension before release.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -866,7 +1172,13 @@ return [
                 -0.1269,
                 51.5194,
             ],
-            'media' => 'the-discobolus.jpg',
+            'media' => [
+                [
+                    'file' => 'the-discobolus.jpg',
+                    'dcterms:title' => 'Discobolus (Townley)',
+                    'dcterms:creator' => 'After Myron',
+                ],
+            ],
         ],
         [
             'id' => 'seated-scribe',
@@ -880,10 +1192,16 @@ return [
                 'mask-of-tutankhamun',
                 'narmer-palette',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q42195386', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q42195386',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Seated Scribe',
             'dcterms:creator' => 'Unknown (Egyptian)',
-            'dcterms:created' => ['@value' => '-2449', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '-2449',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Painted limestone figure of a cross-legged scribe with an alert expression and inlaid rock-crystal eyes, found at Saqqara.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -898,7 +1216,13 @@ return [
                 2.3364,
                 48.8606,
             ],
-            'media' => 'seated-scribe.jpg',
+            'media' => [
+                [
+                    'file' => 'seated-scribe.jpg',
+                    'dcterms:title' => 'Seated Scribe',
+                    'dcterms:creator' => 'Unknown (Egyptian)',
+                ],
+            ],
         ],
         [
             'id' => 'bust-of-nefertiti',
@@ -912,10 +1236,16 @@ return [
                 'mask-of-tutankhamun',
                 'narmer-palette',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q582172', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q582172',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Bust of Nefertiti',
             'dcterms:creator' => 'Thutmose',
-            'dcterms:created' => ['@value' => '-1344', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '-1344',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Painted stucco-coated limestone portrait of the Egyptian queen Nefertiti, discovered in the workshop of the sculptor Thutmose at Amarna.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -930,7 +1260,13 @@ return [
                 13.398,
                 52.5202,
             ],
-            'media' => 'bust-of-nefertiti.jpg',
+            'media' => [
+                [
+                    'file' => 'bust-of-nefertiti.jpg',
+                    'dcterms:title' => 'Bust of Nefertiti',
+                    'dcterms:creator' => 'Thutmose',
+                ],
+            ],
         ],
         [
             'id' => 'ecstasy-of-saint-teresa',
@@ -944,10 +1280,16 @@ return [
                 'judith-slaying-holofernes',
                 'garden-of-love',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1333433', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1333433',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Ecstasy of Saint Teresa',
             'dcterms:creator' => 'Gian Lorenzo Bernini',
-            'dcterms:created' => ['@value' => '1652', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1652',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Marble sculptural group depicting the mystical transverberation of Saint Teresa of Ávila, set within a theatrical marble chapel.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -962,7 +1304,13 @@ return [
                 12.4898,
                 41.905,
             ],
-            'media' => 'ecstasy-of-saint-teresa.jpg',
+            'media' => [
+                [
+                    'file' => 'ecstasy-of-saint-teresa.jpg',
+                    'dcterms:title' => 'Ecstasy of Saint Teresa',
+                    'dcterms:creator' => 'Gian Lorenzo Bernini',
+                ],
+            ],
         ],
         [
             'id' => 'gates-of-paradise',
@@ -974,10 +1322,16 @@ return [
             'relations' => [
                 'the-thinker',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2480856', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2480856',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Gates of Paradise',
             'dcterms:creator' => 'Lorenzo Ghiberti',
-            'dcterms:created' => ['@value' => '1452', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1452',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Gilded bronze doors of the Florence Baptistery featuring ten relief panels depicting scenes from the Old Testament, named by Michelangelo.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -993,7 +1347,13 @@ return [
                 11.2568,
                 43.7732,
             ],
-            'media' => 'gates-of-paradise.jpg',
+            'media' => [
+                [
+                    'file' => 'gates-of-paradise.jpg',
+                    'dcterms:title' => 'Gates of Paradise',
+                    'dcterms:creator' => 'Lorenzo Ghiberti',
+                ],
+            ],
         ],
         [
             'id' => 'vitruvian-man',
@@ -1006,10 +1366,16 @@ return [
                 'mona-lisa',
                 'the-last-supper',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q215486', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q215486',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Vitruvian Man',
             'dcterms:creator' => 'Leonardo da Vinci',
-            'dcterms:created' => ['@value' => '1490', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1490',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Study of the proportions of the human body inscribed in a circle and square, based on the writings of the Roman architect Vitruvius.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -1024,7 +1390,13 @@ return [
                 12.3277,
                 45.4308,
             ],
-            'media' => 'vitruvian-man.jpg',
+            'media' => [
+                [
+                    'file' => 'vitruvian-man.jpg',
+                    'dcterms:title' => 'Vitruvian Man',
+                    'dcterms:creator' => 'Leonardo da Vinci',
+                ],
+            ],
         ],
         [
             'id' => 'the-great-wave-off-kanagawa',
@@ -1036,10 +1408,16 @@ return [
             'relations' => [
                 'rhinoceros',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q252485', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q252485',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Great Wave off Kanagawa',
             'dcterms:creator' => 'Katsushika Hokusai',
-            'dcterms:created' => ['@value' => '1831', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1831',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Woodblock print from the series Thirty-six Views of Mount Fuji, depicting a towering wave threatening fishing boats with Fuji in the background.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -1054,7 +1432,13 @@ return [
                 -73.9632,
                 40.7794,
             ],
-            'media' => 'the-great-wave-off-kanagawa.jpg',
+            'media' => [
+                [
+                    'file' => 'the-great-wave-off-kanagawa.jpg',
+                    'dcterms:title' => 'The Great Wave off Kanagawa',
+                    'dcterms:creator' => 'Katsushika Hokusai',
+                ],
+            ],
         ],
         [
             'id' => 'rhinoceros',
@@ -1068,10 +1452,16 @@ return [
                 'four-horsemen-of-the-apocalypse',
                 'the-great-wave-off-kanagawa',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q748518', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q748518',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Rhinoceros',
             'dcterms:creator' => 'Albrecht Dürer',
-            'dcterms:created' => ['@value' => '1515', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1515',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Woodcut made from a written description and sketch of an Indian rhinoceros brought to Lisbon in 1515, widely reproduced for two centuries.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -1086,7 +1476,13 @@ return [
                 -0.1269,
                 51.5194,
             ],
-            'media' => 'rhinoceros.jpg',
+            'media' => [
+                [
+                    'file' => 'rhinoceros.jpg',
+                    'dcterms:title' => 'Rhinoceros',
+                    'dcterms:creator' => 'Albrecht Dürer',
+                ],
+            ],
         ],
         [
             'id' => 'melencolia-i',
@@ -1099,10 +1495,16 @@ return [
                 'rhinoceros',
                 'four-horsemen-of-the-apocalypse',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1362177', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1362177',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Melencolia I',
             'dcterms:creator' => 'Albrecht Dürer',
-            'dcterms:created' => ['@value' => '1514', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1514',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Engraving depicting a winged figure surrounded by tools of measurement and geometry, symbolising creative genius blocked by contemplation.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -1117,7 +1519,13 @@ return [
                 -77.0199,
                 38.8913,
             ],
-            'media' => 'melencolia-i.jpg',
+            'media' => [
+                [
+                    'file' => 'melencolia-i.jpg',
+                    'dcterms:title' => 'Melencolia I',
+                    'dcterms:creator' => 'Albrecht Dürer',
+                ],
+            ],
         ],
         [
             'id' => 'study-for-the-libyan-sibyl',
@@ -1130,10 +1538,16 @@ return [
                 'david',
                 'sistine-chapel-ceiling',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q29384857', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q29384857',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Study for the Libyan Sibyl',
             'dcterms:creator' => 'Michelangelo',
-            'dcterms:created' => ['@value' => '1511', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1511',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Red chalk study of a male model used to prepare the figure of the Libyan Sibyl for the Sistine Chapel ceiling, showing Michelangelo\'s anatomical method.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -1148,7 +1562,13 @@ return [
                 -73.9632,
                 40.7794,
             ],
-            'media' => 'study-for-the-libyan-sibyl.jpg',
+            'media' => [
+                [
+                    'file' => 'study-for-the-libyan-sibyl.jpg',
+                    'dcterms:title' => 'Study for the Libyan Sibyl',
+                    'dcterms:creator' => 'Michelangelo',
+                ],
+            ],
         ],
         [
             'id' => 'self-portrait-at-the-age-of-34',
@@ -1162,10 +1582,16 @@ return [
                 'self-portrait-two-circles',
                 'girl-reading-a-letter',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3630751', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3630751',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Self-Portrait at the Age of 34',
             'dcterms:creator' => 'Rembrandt van Rijn',
-            'dcterms:created' => ['@value' => '1648', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1648',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Etching self-portrait in which Rembrandt depicts himself leaning on a windowsill, one of the most psychologically penetrating images of the period.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -1180,7 +1606,13 @@ return [
                 4.8852,
                 52.36,
             ],
-            'media' => 'self-portrait-at-the-age-of-34.jpg',
+            'media' => [
+                [
+                    'file' => 'self-portrait-at-the-age-of-34.jpg',
+                    'dcterms:title' => 'Self-Portrait at the Age of 34',
+                    'dcterms:creator' => 'Rembrandt van Rijn',
+                ],
+            ],
         ],
         [
             'id' => 'three-crosses',
@@ -1193,10 +1625,16 @@ return [
                 'self-portrait-at-the-age-of-34',
                 'self-portrait-two-circles',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1218084', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1218084',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Three Crosses',
             'dcterms:creator' => 'Rembrandt van Rijn',
-            'dcterms:created' => ['@value' => '1653', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1653',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Large-format drypoint depicting the Crucifixion bathed in a shaft of divine light, reworked in a later state with dramatic compositional changes.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -1211,7 +1649,13 @@ return [
                 4.8852,
                 52.36,
             ],
-            'media' => 'three-crosses.jpg',
+            'media' => [
+                [
+                    'file' => 'three-crosses.jpg',
+                    'dcterms:title' => 'Three Crosses',
+                    'dcterms:creator' => 'Rembrandt van Rijn',
+                ],
+            ],
         ],
         [
             'id' => 'four-horsemen-of-the-apocalypse',
@@ -1224,10 +1668,16 @@ return [
                 'rhinoceros',
                 'melencolia-i',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q5980742', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q5980742',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Four Horsemen of the Apocalypse',
             'dcterms:creator' => 'Albrecht Dürer',
-            'dcterms:created' => ['@value' => '1498', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1498',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Woodcut from Dürer\'s Apocalypse series depicting Death, Famine, War, and Pestilence riding over the fallen, combining German Gothic intensity with Italian Renaissance form.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -1242,7 +1692,13 @@ return [
                 -0.1269,
                 51.5194,
             ],
-            'media' => 'four-horsemen-of-the-apocalypse.jpg',
+            'media' => [
+                [
+                    'file' => 'four-horsemen-of-the-apocalypse.jpg',
+                    'dcterms:title' => 'Four Horsemen of the Apocalypse',
+                    'dcterms:creator' => 'Albrecht Dürer',
+                ],
+            ],
         ],
         [
             'id' => 'the-sleep-of-reason',
@@ -1254,10 +1710,16 @@ return [
             'relations' => [
                 'frontispiece-to-jerusalem',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q671237', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q671237',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Sleep of Reason Produces Monsters',
             'dcterms:creator' => 'Francisco Goya',
-            'dcterms:created' => ['@value' => '1799', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1799',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Aquatint from Los Caprichos depicting a man slumped at his desk while owls and bats swarm above him, warning against the dangers of irrationality.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -1272,7 +1734,13 @@ return [
                 -0.1269,
                 51.5194,
             ],
-            'media' => 'the-sleep-of-reason.jpg',
+            'media' => [
+                [
+                    'file' => 'the-sleep-of-reason.jpg',
+                    'dcterms:title' => 'The Sleep of Reason Produces Monsters',
+                    'dcterms:creator' => 'Francisco Goya',
+                ],
+            ],
         ],
         [
             'id' => 'frontispiece-to-jerusalem',
@@ -1286,7 +1754,10 @@ return [
             ],
             'dcterms:title' => 'Frontispiece to Jerusalem',
             'dcterms:creator' => 'William Blake',
-            'dcterms:created' => ['@value' => '1804', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1804',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Relief etching hand-colored in watercolor showing Los stepping through a doorway of fire, serving as the entry image to Blake\'s prophetic poem Jerusalem.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -1301,7 +1772,13 @@ return [
                 -0.1269,
                 51.5194,
             ],
-            'media' => 'frontispiece-to-jerusalem.jpg',
+            'media' => [
+                [
+                    'file' => 'frontispiece-to-jerusalem.jpg',
+                    'dcterms:title' => 'Frontispiece to Jerusalem',
+                    'dcterms:creator' => 'William Blake',
+                ],
+            ],
         ],
         [
             'id' => 'book-of-kells',
@@ -1313,10 +1790,16 @@ return [
             'relations' => [
                 'lindisfarne-gospels',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q204221', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q204221',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Book of Kells',
             'dcterms:creator' => 'Columban monks',
-            'dcterms:created' => ['@value' => '0800', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '0800',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Illuminated manuscript Gospel book in Latin, created by Celtic monks around 800 CE and celebrated for its intricate decoration and full-page miniatures.',
             'dcterms:subject' => [
                 'Manuscript',
@@ -1331,7 +1814,13 @@ return [
                 -6.2543,
                 53.344,
             ],
-            'media' => 'book-of-kells.jpg',
+            'media' => [
+                [
+                    'file' => 'book-of-kells.jpg',
+                    'dcterms:title' => 'Book of Kells',
+                    'dcterms:creator' => 'Columban monks',
+                ],
+            ],
         ],
         [
             'id' => 'lindisfarne-gospels',
@@ -1343,10 +1832,16 @@ return [
             'relations' => [
                 'book-of-kells',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q80935', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q80935',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Lindisfarne Gospels',
             'dcterms:creator' => 'Eadfrith of Lindisfarne',
-            'dcterms:created' => ['@value' => '0715', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '0715',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Illuminated manuscript Gospel book produced on the island of Lindisfarne in honour of Saint Cuthbert, a masterpiece of Insular art.',
             'dcterms:subject' => [
                 'Manuscript',
@@ -1361,7 +1856,13 @@ return [
                 -0.1232,
                 51.5298,
             ],
-            'media' => 'lindisfarne-gospels.jpg',
+            'media' => [
+                [
+                    'file' => 'lindisfarne-gospels.jpg',
+                    'dcterms:title' => 'Lindisfarne Gospels',
+                    'dcterms:creator' => 'Eadfrith of Lindisfarne',
+                ],
+            ],
         ],
         [
             'id' => 'tres-riches-heures',
@@ -1375,10 +1876,16 @@ return [
                 'luttrell-psalter',
                 'gutenberg-bible',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q211062', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q211062',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Très Riches Heures du Duc de Berry',
             'dcterms:creator' => 'Limbourg Brothers',
-            'dcterms:created' => ['@value' => '1416', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1416',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Book of hours commissioned by John, Duke of Berry, famous for its calendar miniatures depicting aristocratic life and labors of the months.',
             'dcterms:subject' => [
                 'Manuscript',
@@ -1393,7 +1900,13 @@ return [
                 2.4847,
                 49.1939,
             ],
-            'media' => 'tres-riches-heures.jpg',
+            'media' => [
+                [
+                    'file' => 'tres-riches-heures.jpg',
+                    'dcterms:title' => 'Très Riches Heures du Duc de Berry',
+                    'dcterms:creator' => 'Limbourg Brothers',
+                ],
+            ],
         ],
         [
             'id' => 'gutenberg-bible',
@@ -1405,10 +1918,16 @@ return [
             'relations' => [
                 'tres-riches-heures',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q158075', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q158075',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Gutenberg Bible',
             'dcterms:creator' => 'Johannes Gutenberg',
-            'dcterms:created' => ['@value' => '1455', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1455',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'The first major Western book printed with movable type, marking the beginning of the age of the printed book in Europe.',
             'dcterms:subject' => [
                 'Manuscript',
@@ -1423,7 +1942,13 @@ return [
                 -0.1232,
                 51.5298,
             ],
-            'media' => 'gutenberg-bible.jpg',
+            'media' => [
+                [
+                    'file' => 'gutenberg-bible.jpg',
+                    'dcterms:title' => 'Gutenberg Bible',
+                    'dcterms:creator' => 'Johannes Gutenberg',
+                ],
+            ],
         ],
         [
             'id' => 'divine-comedy-manuscript',
@@ -1435,10 +1960,16 @@ return [
             'relations' => [
                 'tres-riches-heures',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q48813347', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q48813347',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Divine Comedy (Yates Thompson Manuscript)',
             'dcterms:creator' => 'Unknown illuminator',
-            'dcterms:created' => ['@value' => '1444', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1444',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Illuminated manuscript of Dante\'s Divine Comedy with 113 full-page miniatures, one of the finest examples of Italian manuscript illumination.',
             'dcterms:subject' => [
                 'Manuscript',
@@ -1453,7 +1984,13 @@ return [
                 -0.1232,
                 51.5298,
             ],
-            'media' => 'divine-comedy-manuscript.jpg',
+            'media' => [
+                [
+                    'file' => 'divine-comedy-manuscript.jpg',
+                    'dcterms:title' => 'Divine Comedy (Yates Thompson Manuscript)',
+                    'dcterms:creator' => 'Unknown illuminator',
+                ],
+            ],
         ],
         [
             'id' => 'vienna-genesis',
@@ -1466,10 +2003,16 @@ return [
                 'codex-sinaiticus',
                 'rabbula-gospels',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q697831', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q697831',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Vienna Genesis',
             'dcterms:creator' => 'Unknown',
-            'dcterms:created' => ['@value' => '0500', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '0500',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Early Christian illuminated manuscript of the Book of Genesis written on purple-dyed vellum with silver and gold ink, one of the oldest illustrated biblical codices.',
             'dcterms:subject' => [
                 'Manuscript',
@@ -1484,7 +2027,13 @@ return [
                 16.3656,
                 48.2066,
             ],
-            'media' => 'vienna-genesis.jpg',
+            'media' => [
+                [
+                    'file' => 'vienna-genesis.jpg',
+                    'dcterms:title' => 'Vienna Genesis',
+                    'dcterms:creator' => 'Unknown',
+                ],
+            ],
         ],
         [
             'id' => 'codex-sinaiticus',
@@ -1497,10 +2046,16 @@ return [
                 'vienna-genesis',
                 'rabbula-gospels',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q152962', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q152962',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Codex Sinaiticus',
             'dcterms:creator' => 'Unknown',
-            'dcterms:created' => ['@value' => '0350', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '0350',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Fourth-century manuscript of the Christian Bible in Greek, the oldest and most complete manuscript of the New Testament.',
             'dcterms:subject' => [
                 'Manuscript',
@@ -1515,7 +2070,13 @@ return [
                 -0.1232,
                 51.5298,
             ],
-            'media' => 'codex-sinaiticus.jpg',
+            'media' => [
+                [
+                    'file' => 'codex-sinaiticus.jpg',
+                    'dcterms:title' => 'Codex Sinaiticus',
+                    'dcterms:creator' => 'Unknown',
+                ],
+            ],
         ],
         [
             'id' => 'book-of-hours-catherine-of-cleves',
@@ -1532,7 +2093,10 @@ return [
             ],
             'dcterms:title' => 'Book of Hours of Catherine of Cleves',
             'dcterms:creator' => 'Unknown (Utrecht)',
-            'dcterms:created' => ['@value' => '1440', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1440',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Richly illuminated book of hours made for Catherine of Cleves in the northern Netherlands, renowned for its inventive borders teeming with everyday objects.',
             'dcterms:subject' => [
                 'Manuscript',
@@ -1547,7 +2111,13 @@ return [
                 -73.982,
                 40.7491,
             ],
-            'media' => 'book-of-hours-catherine-of-cleves.jpg',
+            'media' => [
+                [
+                    'file' => 'book-of-hours-catherine-of-cleves.jpg',
+                    'dcterms:title' => 'Book of Hours of Catherine of Cleves',
+                    'dcterms:creator' => 'Unknown (Utrecht)',
+                ],
+            ],
         ],
         [
             'id' => 'tres-belles-heures-de-notre-dame',
@@ -1562,10 +2132,16 @@ return [
                 'the-arnolfini-portrait',
                 'tres-riches-heures',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2308135', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2308135',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Très Belles Heures de Notre Dame',
             'dcterms:creator' => 'Jan van Eyck (attributed)',
-            'dcterms:created' => ['@value' => '1410', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1410',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Book of hours begun for the Duke of Berry and completed by several Flemish painters including Jan van Eyck, bridging Gothic and Early Netherlandish styles.',
             'dcterms:subject' => [
                 'Manuscript',
@@ -1580,7 +2156,13 @@ return [
                 2.3476,
                 48.8335,
             ],
-            'media' => 'tres-belles-heures-de-notre-dame.jpg',
+            'media' => [
+                [
+                    'file' => 'tres-belles-heures-de-notre-dame.jpg',
+                    'dcterms:title' => 'Très Belles Heures de Notre Dame',
+                    'dcterms:creator' => 'Jan van Eyck (attributed)',
+                ],
+            ],
         ],
         [
             'id' => 'luttrell-psalter',
@@ -1592,10 +2174,16 @@ return [
             'relations' => [
                 'tres-riches-heures',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q846398', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q846398',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Luttrell Psalter',
             'dcterms:creator' => 'Unknown (East Anglian)',
-            'dcterms:created' => ['@value' => '1335', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1335',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Psalter commissioned by Sir Geoffrey Luttrell, remarkable for its marginal illustrations of medieval rural life, feasts, and fantastical creatures.',
             'dcterms:subject' => [
                 'Manuscript',
@@ -1610,7 +2198,13 @@ return [
                 -0.1232,
                 51.5298,
             ],
-            'media' => 'luttrell-psalter.jpg',
+            'media' => [
+                [
+                    'file' => 'luttrell-psalter.jpg',
+                    'dcterms:title' => 'Luttrell Psalter',
+                    'dcterms:creator' => 'Unknown (East Anglian)',
+                ],
+            ],
         ],
         [
             'id' => 'the-annunciation-fra-angelico',
@@ -1624,10 +2218,16 @@ return [
                 'adoration-of-the-magi-botticelli',
                 'sistine-chapel-ceiling',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q392490', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q392490',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Annunciation',
             'dcterms:creator' => 'Fra Angelico',
-            'dcterms:created' => ['@value' => '1438', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1438',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Fresco cycle in the dormitory corridor of the Convent of San Marco, depicting the Annunciation with an unprecedented sense of architectural clarity and devotional stillness.',
             'dcterms:subject' => [
                 'Painting',
@@ -1643,7 +2243,13 @@ return [
                 11.256,
                 43.7776,
             ],
-            'media' => 'the-annunciation-fra-angelico.jpg',
+            'media' => [
+                [
+                    'file' => 'the-annunciation-fra-angelico.jpg',
+                    'dcterms:title' => 'The Annunciation',
+                    'dcterms:creator' => 'Fra Angelico',
+                ],
+            ],
         ],
         [
             'id' => 'adoration-of-the-magi-botticelli',
@@ -1656,10 +2262,16 @@ return [
                 'the-birth-of-venus',
                 'primavera',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q488825', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q488825',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Adoration of the Magi',
             'dcterms:creator' => 'Sandro Botticelli',
-            'dcterms:created' => ['@value' => '1475', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1475',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Altarpiece commissioned by Gaspare del Lama depicting the Magi as portraits of the Medici family, with Botticelli himself appearing on the far right.',
             'dcterms:subject' => [
                 'Painting',
@@ -1675,7 +2287,13 @@ return [
                 11.2558,
                 43.7678,
             ],
-            'media' => 'adoration-of-the-magi-botticelli.jpg',
+            'media' => [
+                [
+                    'file' => 'adoration-of-the-magi-botticelli.jpg',
+                    'dcterms:title' => 'Adoration of the Magi',
+                    'dcterms:creator' => 'Sandro Botticelli',
+                ],
+            ],
         ],
         [
             'id' => 'baptism-of-christ-piero',
@@ -1688,10 +2306,16 @@ return [
                 'portrait-of-federico',
                 'the-annunciation-fra-angelico',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1059211', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1059211',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Baptism of Christ',
             'dcterms:creator' => 'Piero della Francesca',
-            'dcterms:created' => ['@value' => '1437', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1437',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Altarpiece for the Priory of San Giovanni Battista in Sansepolcro, notable for its crystalline light, geometric calm, and the ethereal figure of Christ in the River Jordan.',
             'dcterms:subject' => [
                 'Painting',
@@ -1706,7 +2330,13 @@ return [
                 -0.1285,
                 51.5089,
             ],
-            'media' => 'baptism-of-christ-piero.jpg',
+            'media' => [
+                [
+                    'file' => 'baptism-of-christ-piero.jpg',
+                    'dcterms:title' => 'The Baptism of Christ',
+                    'dcterms:creator' => 'Piero della Francesca',
+                ],
+            ],
         ],
         [
             'id' => 'transfiguration-raphael',
@@ -1719,10 +2349,16 @@ return [
                 'the-school-of-athens',
                 'sistine-chapel-ceiling',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q18593034', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q18593034',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Transfiguration',
             'dcterms:creator' => 'Raphael',
-            'dcterms:created' => ['@value' => '1520', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1520',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'The last work by Raphael, left unfinished at his death, combining the transfiguration of Christ above with the desperate healing of the possessed boy below.',
             'dcterms:subject' => [
                 'Painting',
@@ -1737,7 +2373,13 @@ return [
                 12.4534,
                 41.9065,
             ],
-            'media' => 'transfiguration-raphael.jpg',
+            'media' => [
+                [
+                    'file' => 'transfiguration-raphael.jpg',
+                    'dcterms:title' => 'The Transfiguration',
+                    'dcterms:creator' => 'Raphael',
+                ],
+            ],
         ],
         [
             'id' => 'portrait-of-federico',
@@ -1749,10 +2391,16 @@ return [
             'relations' => [
                 'baptism-of-christ-piero',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q113549604', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q113549604',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Portrait of Federico da Montefeltro',
             'dcterms:creator' => 'Piero della Francesca',
-            'dcterms:created' => ['@value' => '1472', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1472',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Profile portrait of the Duke of Urbino, presented as a diptych with his wife Battista Sforza; the distinctive hooked profile resulted from an injury that cost him his right eye.',
             'dcterms:subject' => [
                 'Painting',
@@ -1767,7 +2415,13 @@ return [
                 11.2558,
                 43.7678,
             ],
-            'media' => 'portrait-of-federico.jpg',
+            'media' => [
+                [
+                    'file' => 'portrait-of-federico.jpg',
+                    'dcterms:title' => 'Portrait of Federico da Montefeltro',
+                    'dcterms:creator' => 'Piero della Francesca',
+                ],
+            ],
         ],
         [
             'id' => 'self-portrait-at-28',
@@ -1781,10 +2435,16 @@ return [
                 'melencolia-i',
                 'four-horsemen-of-the-apocalypse',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2546309', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2546309',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Self-Portrait at 28',
             'dcterms:creator' => 'Albrecht Dürer',
-            'dcterms:created' => ['@value' => '1500', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1500',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Iconic frontal self-portrait in which Dürer presents himself in a Christ-like pose, asserting the dignity of the artist and the divine gift of creative genius.',
             'dcterms:subject' => [
                 'Painting',
@@ -1799,7 +2459,13 @@ return [
                 11.5699,
                 48.1489,
             ],
-            'media' => 'self-portrait-at-28.jpg',
+            'media' => [
+                [
+                    'file' => 'self-portrait-at-28.jpg',
+                    'dcterms:title' => 'Self-Portrait at 28',
+                    'dcterms:creator' => 'Albrecht Dürer',
+                ],
+            ],
         ],
         [
             'id' => 'hunters-in-the-snow',
@@ -1811,10 +2477,16 @@ return [
             'relations' => [
                 'peasant-wedding',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q500985', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q500985',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Hunters in the Snow',
             'dcterms:creator' => 'Pieter Bruegel the Elder',
-            'dcterms:created' => ['@value' => '1565', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1565',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'One of a cycle of six paintings depicting the months of the year, showing weary hunters returning from a meagre hunt through a frozen Flemish landscape.',
             'dcterms:subject' => [
                 'Painting',
@@ -1830,7 +2502,13 @@ return [
                 16.3611,
                 48.2035,
             ],
-            'media' => 'hunters-in-the-snow.jpg',
+            'media' => [
+                [
+                    'file' => 'hunters-in-the-snow.jpg',
+                    'dcterms:title' => 'The Hunters in the Snow',
+                    'dcterms:creator' => 'Pieter Bruegel the Elder',
+                ],
+            ],
         ],
         [
             'id' => 'peasant-wedding',
@@ -1842,10 +2520,16 @@ return [
             'relations' => [
                 'hunters-in-the-snow',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q21614805', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q21614805',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Peasant Wedding',
             'dcterms:creator' => 'Pieter Bruegel the Elder',
-            'dcterms:created' => ['@value' => '1568', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1568',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Genre scene depicting a rustic Flemish wedding feast with lively figures eating, serving, and playing music, celebrated for its observation of everyday peasant life.',
             'dcterms:subject' => [
                 'Painting',
@@ -1860,7 +2544,13 @@ return [
                 16.3611,
                 48.2035,
             ],
-            'media' => 'peasant-wedding.jpg',
+            'media' => [
+                [
+                    'file' => 'peasant-wedding.jpg',
+                    'dcterms:title' => 'Peasant Wedding',
+                    'dcterms:creator' => 'Pieter Bruegel the Elder',
+                ],
+            ],
         ],
         [
             'id' => 'ghent-altarpiece',
@@ -1872,10 +2562,16 @@ return [
             'relations' => [
                 'the-arnolfini-portrait',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q734834', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q734834',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Ghent Altarpiece',
             'dcterms:creator' => 'Jan van Eyck and Hubert van Eyck',
-            'dcterms:created' => ['@value' => '1432', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1432',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Monumental polyptych altarpiece with twenty-six panels depicting the Adoration of the Mystic Lamb, considered the founding work of early Netherlandish painting.',
             'dcterms:subject' => [
                 'Painting',
@@ -1891,7 +2587,13 @@ return [
                 3.7213,
                 51.053,
             ],
-            'media' => 'ghent-altarpiece.jpg',
+            'media' => [
+                [
+                    'file' => 'ghent-altarpiece.jpg',
+                    'dcterms:title' => 'The Ghent Altarpiece',
+                    'dcterms:creator' => 'Jan van Eyck and Hubert van Eyck',
+                ],
+            ],
         ],
         [
             'id' => 'merode-altarpiece',
@@ -1905,10 +2607,16 @@ return [
                 'the-arnolfini-portrait',
                 'tres-belles-heures-de-notre-dame',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q285392', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q285392',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Mérode Altarpiece',
             'dcterms:creator' => 'Robert Campin',
-            'dcterms:created' => ['@value' => '1427', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1427',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Triptych depicting the Annunciation in a meticulously rendered Flemish domestic interior, flanked by the donors and Saint Joseph at work in his carpenter\'s shop.',
             'dcterms:subject' => [
                 'Painting',
@@ -1924,7 +2632,13 @@ return [
                 -73.9632,
                 40.7794,
             ],
-            'media' => 'merode-altarpiece.jpg',
+            'media' => [
+                [
+                    'file' => 'merode-altarpiece.jpg',
+                    'dcterms:title' => 'The Mérode Altarpiece',
+                    'dcterms:creator' => 'Robert Campin',
+                ],
+            ],
         ],
         [
             'id' => 'calling-of-saint-matthew',
@@ -1938,10 +2652,16 @@ return [
                 'ecstasy-of-saint-teresa',
                 'garden-of-love',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q969377', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q969377',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Calling of Saint Matthew',
             'dcterms:creator' => 'Caravaggio',
-            'dcterms:created' => ['@value' => '1600', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1600',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Depicts the moment Christ calls the tax collector Matthew to become his disciple, using a stark shaft of light to cut through a darkened tavern interior.',
             'dcterms:subject' => [
                 'Painting',
@@ -1956,7 +2676,13 @@ return [
                 12.4726,
                 41.8993,
             ],
-            'media' => 'calling-of-saint-matthew.jpg',
+            'media' => [
+                [
+                    'file' => 'calling-of-saint-matthew.jpg',
+                    'dcterms:title' => 'The Calling of Saint Matthew',
+                    'dcterms:creator' => 'Caravaggio',
+                ],
+            ],
         ],
         [
             'id' => 'judith-slaying-holofernes',
@@ -1969,10 +2695,16 @@ return [
                 'calling-of-saint-matthew',
                 'ecstasy-of-saint-teresa',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2247406', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2247406',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Judith Slaying Holofernes',
             'dcterms:creator' => 'Artemisia Gentileschi',
-            'dcterms:created' => ['@value' => '1620', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1620',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Dramatic depiction of the biblical heroine beheading the Assyrian general Holofernes, painted with a physicality and emotional intensity that set it apart from earlier treatments.',
             'dcterms:subject' => [
                 'Painting',
@@ -1988,7 +2720,13 @@ return [
                 11.2558,
                 43.7678,
             ],
-            'media' => 'judith-slaying-holofernes.jpg',
+            'media' => [
+                [
+                    'file' => 'judith-slaying-holofernes.jpg',
+                    'dcterms:title' => 'Judith Slaying Holofernes',
+                    'dcterms:creator' => 'Artemisia Gentileschi',
+                ],
+            ],
         ],
         [
             'id' => 'garden-of-love',
@@ -2002,10 +2740,16 @@ return [
                 'ecstasy-of-saint-teresa',
                 'the-night-watch',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1195238', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1195238',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Garden of Love',
             'dcterms:creator' => 'Peter Paul Rubens',
-            'dcterms:created' => ['@value' => '1630', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1630',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Allegory of love and courtship set in an Italianate garden, with elegantly dressed couples accompanied by putti and the Three Graces, reflecting Rubens\'s second marriage.',
             'dcterms:subject' => [
                 'Painting',
@@ -2021,7 +2765,13 @@ return [
                 -3.6922,
                 40.4138,
             ],
-            'media' => 'garden-of-love.jpg',
+            'media' => [
+                [
+                    'file' => 'garden-of-love.jpg',
+                    'dcterms:title' => 'The Garden of Love',
+                    'dcterms:creator' => 'Peter Paul Rubens',
+                ],
+            ],
         ],
         [
             'id' => 'self-portrait-two-circles',
@@ -2034,10 +2784,16 @@ return [
                 'the-night-watch',
                 'self-portrait-at-the-age-of-34',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2872725', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2872725',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Self-Portrait with Two Circles',
             'dcterms:creator' => 'Rembrandt van Rijn',
-            'dcterms:created' => ['@value' => '1665', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1665',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Late self-portrait of monumental ambition, showing Rembrandt in working clothes against mysterious circles, widely regarded as the summation of his self-examination.',
             'dcterms:subject' => [
                 'Painting',
@@ -2052,7 +2808,13 @@ return [
                 -0.1678,
                 51.5717,
             ],
-            'media' => 'self-portrait-two-circles.jpg',
+            'media' => [
+                [
+                    'file' => 'self-portrait-two-circles.jpg',
+                    'dcterms:title' => 'Self-Portrait with Two Circles',
+                    'dcterms:creator' => 'Rembrandt van Rijn',
+                ],
+            ],
         ],
         [
             'id' => 'girl-reading-a-letter',
@@ -2064,10 +2826,16 @@ return [
             'relations' => [
                 'girl-with-a-pearl-earring',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q700251', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q700251',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Girl Reading a Letter at an Open Window',
             'dcterms:creator' => 'Johannes Vermeer',
-            'dcterms:created' => ['@value' => '1658', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1658',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A young woman reads a letter by the light of a window, her reflection visible in the glass; one of Vermeer\'s earliest interior scenes and a model of his spatial and chromatic method.',
             'dcterms:subject' => [
                 'Painting',
@@ -2083,7 +2851,13 @@ return [
                 13.7523,
                 51.0533,
             ],
-            'media' => 'girl-reading-a-letter.jpg',
+            'media' => [
+                [
+                    'file' => 'girl-reading-a-letter.jpg',
+                    'dcterms:title' => 'Girl Reading a Letter at an Open Window',
+                    'dcterms:creator' => 'Johannes Vermeer',
+                ],
+            ],
         ],
         [
             'id' => 'embarkation-for-cythera',
@@ -2095,10 +2869,16 @@ return [
             'relations' => [
                 'the-swing',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q531329', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q531329',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Embarkation for Cythera',
             'dcterms:creator' => 'Jean-Antoine Watteau',
-            'dcterms:created' => ['@value' => '1717', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1717',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Inaugral fête galante depicting elegantly dressed couples departing for the island of love, the melancholic lightness of which defined the Rococo aesthetic.',
             'dcterms:subject' => [
                 'Painting',
@@ -2114,7 +2894,13 @@ return [
                 2.3364,
                 48.8606,
             ],
-            'media' => 'embarkation-for-cythera.jpg',
+            'media' => [
+                [
+                    'file' => 'embarkation-for-cythera.jpg',
+                    'dcterms:title' => 'The Embarkation for Cythera',
+                    'dcterms:creator' => 'Jean-Antoine Watteau',
+                ],
+            ],
         ],
         [
             'id' => 'toilet-of-venus',
@@ -2128,10 +2914,16 @@ return [
                 'young-woman-reading',
                 'embarkation-for-cythera',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q18602132', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q18602132',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Toilet of Venus',
             'dcterms:creator' => 'François Boucher',
-            'dcterms:created' => ['@value' => '1751', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1751',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Sensuous mythological scene of Venus at her toilette attended by cupids, epitomising Boucher\'s warm palette and the decorative eroticism favoured by Louis XV\'s court.',
             'dcterms:subject' => [
                 'Painting',
@@ -2146,7 +2938,13 @@ return [
                 -73.9632,
                 40.7794,
             ],
-            'media' => 'toilet-of-venus.jpg',
+            'media' => [
+                [
+                    'file' => 'toilet-of-venus.jpg',
+                    'dcterms:title' => 'The Toilet of Venus',
+                    'dcterms:creator' => 'François Boucher',
+                ],
+            ],
         ],
         [
             'id' => 'young-woman-reading',
@@ -2158,10 +2956,16 @@ return [
             'relations' => [
                 'the-swing',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q19905080', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q19905080',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'A Young Woman Reading',
             'dcterms:creator' => 'Jean-Honoré Fragonard',
-            'dcterms:created' => ['@value' => '1770', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1770',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Intimate scene of a young woman absorbed in a book, painted with rapid, feathery brushwork that anticipates later Impressionist technique.',
             'dcterms:subject' => [
                 'Painting',
@@ -2177,7 +2981,13 @@ return [
                 -77.0199,
                 38.8913,
             ],
-            'media' => 'young-woman-reading.jpg',
+            'media' => [
+                [
+                    'file' => 'young-woman-reading.jpg',
+                    'dcterms:title' => 'A Young Woman Reading',
+                    'dcterms:creator' => 'Jean-Honoré Fragonard',
+                ],
+            ],
         ],
         [
             'id' => 'oath-of-the-horatii',
@@ -2190,10 +3000,16 @@ return [
                 'the-death-of-socrates',
                 'napoleon-crossing-the-alps',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q476458', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q476458',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Oath of the Horatii',
             'dcterms:creator' => 'Jacques-Louis David',
-            'dcterms:created' => ['@value' => '1784', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1784',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Three Roman brothers swear before their father to fight to the death for Rome, embodying civic virtue and self-sacrifice; the defining statement of Neoclassical painting.',
             'dcterms:subject' => [
                 'Painting',
@@ -2209,7 +3025,13 @@ return [
                 2.3364,
                 48.8606,
             ],
-            'media' => 'oath-of-the-horatii.jpg',
+            'media' => [
+                [
+                    'file' => 'oath-of-the-horatii.jpg',
+                    'dcterms:title' => 'The Oath of the Horatii',
+                    'dcterms:creator' => 'Jacques-Louis David',
+                ],
+            ],
         ],
         [
             'id' => 'the-death-of-socrates',
@@ -2221,10 +3043,16 @@ return [
             'relations' => [
                 'oath-of-the-horatii',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1752990', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1752990',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Death of Socrates',
             'dcterms:creator' => 'Jacques-Louis David',
-            'dcterms:created' => ['@value' => '1787', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1787',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Depicts Socrates calmly accepting the hemlock cup while discoursing on immortality, the stoic composure of the philosopher contrasting with the grief of his disciples.',
             'dcterms:subject' => [
                 'Painting',
@@ -2240,7 +3068,13 @@ return [
                 -73.9632,
                 40.7794,
             ],
-            'media' => 'the-death-of-socrates.jpg',
+            'media' => [
+                [
+                    'file' => 'the-death-of-socrates.jpg',
+                    'dcterms:title' => 'The Death of Socrates',
+                    'dcterms:creator' => 'Jacques-Louis David',
+                ],
+            ],
         ],
         [
             'id' => 'napoleon-crossing-the-alps',
@@ -2252,10 +3086,16 @@ return [
             'relations' => [
                 'oath-of-the-horatii',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q59201', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q59201',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Napoleon Crossing the Alps',
             'dcterms:creator' => 'Jacques-Louis David',
-            'dcterms:created' => ['@value' => '1801', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1801',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Heroic equestrian portrait of Napoleon on a rearing horse amid the Great St Bernard Pass, conceived as a propaganda image of imperious leadership.',
             'dcterms:subject' => [
                 'Painting',
@@ -2271,7 +3111,13 @@ return [
                 2.0108,
                 48.87,
             ],
-            'media' => 'napoleon-crossing-the-alps.jpg',
+            'media' => [
+                [
+                    'file' => 'napoleon-crossing-the-alps.jpg',
+                    'dcterms:title' => 'Napoleon Crossing the Alps',
+                    'dcterms:creator' => 'Jacques-Louis David',
+                ],
+            ],
         ],
         [
             'id' => 'la-grande-odalisque',
@@ -2283,10 +3129,16 @@ return [
             'relations' => [
                 'the-turkish-bath',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1978815', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1978815',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'La Grande Odalisque',
             'dcterms:creator' => 'Jean-Auguste-Dominique Ingres',
-            'dcterms:created' => ['@value' => '1814', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1814',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Reclining nude seen from behind, elongated to the point of anatomical impossibility; Ingres combines Neoclassical line with Orientalist fantasy.',
             'dcterms:subject' => [
                 'Painting',
@@ -2302,7 +3154,13 @@ return [
                 2.3364,
                 48.8606,
             ],
-            'media' => 'la-grande-odalisque.jpg',
+            'media' => [
+                [
+                    'file' => 'la-grande-odalisque.jpg',
+                    'dcterms:title' => 'La Grande Odalisque',
+                    'dcterms:creator' => 'Jean-Auguste-Dominique Ingres',
+                ],
+            ],
         ],
         [
             'id' => 'the-turkish-bath',
@@ -2314,10 +3172,16 @@ return [
             'relations' => [
                 'la-grande-odalisque',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2027662', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2027662',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Turkish Bath',
             'dcterms:creator' => 'Jean-Auguste-Dominique Ingres',
-            'dcterms:created' => ['@value' => '1862', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1862',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Circular canvas depicting a harem of female nudes in a bathhouse, compiled over decades from earlier studies and painted when Ingres was eighty-two.',
             'dcterms:subject' => [
                 'Painting',
@@ -2333,7 +3197,13 @@ return [
                 2.3364,
                 48.8606,
             ],
-            'media' => 'the-turkish-bath.jpg',
+            'media' => [
+                [
+                    'file' => 'the-turkish-bath.jpg',
+                    'dcterms:title' => 'The Turkish Bath',
+                    'dcterms:creator' => 'Jean-Auguste-Dominique Ingres',
+                ],
+            ],
         ],
         [
             'id' => 'apotheosis-of-homer',
@@ -2347,10 +3217,16 @@ return [
                 'the-turkish-bath',
                 'oath-of-the-horatii',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q654796', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q654796',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Apotheosis of Homer',
             'dcterms:creator' => 'Jean-Auguste-Dominique Ingres',
-            'dcterms:created' => ['@value' => '1827', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1827',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Allegory in which Homer is crowned by a winged Victory, surrounded by figures representing the greatest poets, artists, and thinkers of antiquity and the Renaissance.',
             'dcterms:subject' => [
                 'Painting',
@@ -2365,7 +3241,13 @@ return [
                 2.3364,
                 48.8606,
             ],
-            'media' => 'apotheosis-of-homer.jpg',
+            'media' => [
+                [
+                    'file' => 'apotheosis-of-homer.jpg',
+                    'dcterms:title' => 'The Apotheosis of Homer',
+                    'dcterms:creator' => 'Jean-Auguste-Dominique Ingres',
+                ],
+            ],
         ],
         [
             'id' => 'marat-assassinated',
@@ -2377,10 +3259,16 @@ return [
             'relations' => [
                 'oath-of-the-horatii',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q636537', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q636537',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Death of Marat',
             'dcterms:creator' => 'Jacques-Louis David',
-            'dcterms:created' => ['@value' => '1793', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1793',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Marat slain in his medicinal bath, his hand still holding the letter from Charlotte Corday; painted days after the event as a secular martyrdom of the Revolution.',
             'dcterms:subject' => [
                 'Painting',
@@ -2396,7 +3284,13 @@ return [
                 3.7503,
                 50.8419,
             ],
-            'media' => 'marat-assassinated.jpg',
+            'media' => [
+                [
+                    'file' => 'marat-assassinated.jpg',
+                    'dcterms:title' => 'The Death of Marat',
+                    'dcterms:creator' => 'Jacques-Louis David',
+                ],
+            ],
         ],
         [
             'id' => 'liberty-leading-the-people',
@@ -2408,10 +3302,16 @@ return [
             'relations' => [
                 'raft-of-the-medusa',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q29530', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q29530',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Liberty Leading the People',
             'dcterms:creator' => 'Eugène Delacroix',
-            'dcterms:created' => ['@value' => '1830', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1830',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Allegorical commemoration of the July Revolution with Liberty as a bare-breasted woman bearing the French tricolour over barricades strewn with fallen combatants.',
             'dcterms:subject' => [
                 'Painting',
@@ -2427,7 +3327,13 @@ return [
                 2.3364,
                 48.8606,
             ],
-            'media' => 'liberty-leading-the-people.jpg',
+            'media' => [
+                [
+                    'file' => 'liberty-leading-the-people.jpg',
+                    'dcterms:title' => 'Liberty Leading the People',
+                    'dcterms:creator' => 'Eugène Delacroix',
+                ],
+            ],
         ],
         [
             'id' => 'raft-of-the-medusa',
@@ -2439,10 +3345,16 @@ return [
             'relations' => [
                 'liberty-leading-the-people',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q212616', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q212616',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Raft of the Medusa',
             'dcterms:creator' => 'Théodore Géricault',
-            'dcterms:created' => ['@value' => '1819', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1819',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Monumental depiction of the survivors of the shipwrecked frigate Méduse on a makeshift raft, painted with journalistic force after interviews with survivors.',
             'dcterms:subject' => [
                 'Painting',
@@ -2458,7 +3370,13 @@ return [
                 2.3364,
                 48.8606,
             ],
-            'media' => 'raft-of-the-medusa.jpg',
+            'media' => [
+                [
+                    'file' => 'raft-of-the-medusa.jpg',
+                    'dcterms:title' => 'The Raft of the Medusa',
+                    'dcterms:creator' => 'Théodore Géricault',
+                ],
+            ],
         ],
         [
             'id' => 'the-hay-wain',
@@ -2473,10 +3391,16 @@ return [
                 'raft-of-the-medusa',
                 'liberty-leading-the-people',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2366825', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2366825',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Hay Wain',
             'dcterms:creator' => 'John Constable',
-            'dcterms:created' => ['@value' => '1821', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1821',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'View of Flatford Mill on the River Stour in Suffolk, showing a hay cart fording the river; celebrated for its naturalistic treatment of clouds, light, and the English countryside.',
             'dcterms:subject' => [
                 'Painting',
@@ -2491,7 +3415,13 @@ return [
                 -0.1285,
                 51.5089,
             ],
-            'media' => 'the-hay-wain.jpg',
+            'media' => [
+                [
+                    'file' => 'the-hay-wain.jpg',
+                    'dcterms:title' => 'The Hay Wain',
+                    'dcterms:creator' => 'John Constable',
+                ],
+            ],
         ],
         [
             'id' => 'wanderer-above-the-sea-of-fog',
@@ -2504,10 +3434,16 @@ return [
                 'the-hay-wain',
                 'the-fighting-temeraire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q311243', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q311243',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Wanderer Above the Sea of Fog',
             'dcterms:creator' => 'Caspar David Friedrich',
-            'dcterms:created' => ['@value' => '1818', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1818',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A solitary figure stands on a rocky precipice above a swirling fog-filled landscape, embodying the Romantic ideal of the sublime and humanity\'s contemplative encounter with nature.',
             'dcterms:subject' => [
                 'Painting',
@@ -2523,7 +3459,13 @@ return [
                 10.0014,
                 53.5547,
             ],
-            'media' => 'wanderer-above-the-sea-of-fog.jpg',
+            'media' => [
+                [
+                    'file' => 'wanderer-above-the-sea-of-fog.jpg',
+                    'dcterms:title' => 'Wanderer Above the Sea of Fog',
+                    'dcterms:creator' => 'Caspar David Friedrich',
+                ],
+            ],
         ],
         [
             'id' => 'the-fighting-temeraire',
@@ -2537,10 +3479,16 @@ return [
                 'wanderer-above-the-sea-of-fog',
                 'raft-of-the-medusa',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q257580', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q257580',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Fighting Temeraire',
             'dcterms:creator' => 'J. M. W. Turner',
-            'dcterms:created' => ['@value' => '1839', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1839',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'The warship Temeraire, veteran of Trafalgar, is towed to the breakers by a steam tug under a fiery sunset sky, mourning the passing of the age of sail.',
             'dcterms:subject' => [
                 'Painting',
@@ -2556,7 +3504,13 @@ return [
                 -0.1285,
                 51.5089,
             ],
-            'media' => 'the-fighting-temeraire.jpg',
+            'media' => [
+                [
+                    'file' => 'the-fighting-temeraire.jpg',
+                    'dcterms:title' => 'The Fighting Temeraire',
+                    'dcterms:creator' => 'J. M. W. Turner',
+                ],
+            ],
         ],
         [
             'id' => 'saturn-devouring-his-son',
@@ -2569,10 +3523,16 @@ return [
                 'the-third-of-may',
                 'the-sleep-of-reason',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1150997', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1150997',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Saturn Devouring His Son',
             'dcterms:creator' => 'Francisco Goya',
-            'dcterms:created' => ['@value' => '1823', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1823',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'One of Goya\'s Black Paintings transferred from the plaster walls of his farmhouse, showing the god Saturn frenzied in the act of devouring a human body.',
             'dcterms:subject' => [
                 'Painting',
@@ -2588,7 +3548,13 @@ return [
                 -3.6922,
                 40.4138,
             ],
-            'media' => 'saturn-devouring-his-son.jpg',
+            'media' => [
+                [
+                    'file' => 'saturn-devouring-his-son.jpg',
+                    'dcterms:title' => 'Saturn Devouring His Son',
+                    'dcterms:creator' => 'Francisco Goya',
+                ],
+            ],
         ],
         [
             'id' => 'burial-at-ornans',
@@ -2602,10 +3568,16 @@ return [
                 'the-angelus',
                 'olympia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q540488', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q540488',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'A Burial at Ornans',
             'dcterms:creator' => 'Gustave Courbet',
-            'dcterms:created' => ['@value' => '1850', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1850',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Monumental depiction of an ordinary provincial funeral, painted on a scale previously reserved for history painting, challenging academic hierarchies.',
             'dcterms:subject' => [
                 'Painting',
@@ -2620,7 +3592,13 @@ return [
                 2.3266,
                 48.86,
             ],
-            'media' => 'burial-at-ornans.jpg',
+            'media' => [
+                [
+                    'file' => 'burial-at-ornans.jpg',
+                    'dcterms:title' => 'A Burial at Ornans',
+                    'dcterms:creator' => 'Gustave Courbet',
+                ],
+            ],
         ],
         [
             'id' => 'the-gleaners',
@@ -2632,10 +3610,16 @@ return [
             'relations' => [
                 'the-angelus',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1368055', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1368055',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Gleaners',
             'dcterms:creator' => 'Jean-François Millet',
-            'dcterms:created' => ['@value' => '1857', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1857',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Three peasant women stoop to gather the leftover grain after the harvest; dignified and monumental in scale, the work caused controversy for its sympathetic portrayal of rural poverty.',
             'dcterms:subject' => [
                 'Painting',
@@ -2651,7 +3635,13 @@ return [
                 2.3266,
                 48.86,
             ],
-            'media' => 'the-gleaners.jpg',
+            'media' => [
+                [
+                    'file' => 'the-gleaners.jpg',
+                    'dcterms:title' => 'The Gleaners',
+                    'dcterms:creator' => 'Jean-François Millet',
+                ],
+            ],
         ],
         [
             'id' => 'the-angelus',
@@ -2663,10 +3653,16 @@ return [
             'relations' => [
                 'the-gleaners',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1319032', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1319032',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Angelus',
             'dcterms:creator' => 'Jean-François Millet',
-            'dcterms:created' => ['@value' => '1859', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1859',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A peasant couple pause at dusk to pray over a potato harvest, the bell of the distant church audible in their devotional stillness.',
             'dcterms:subject' => [
                 'Painting',
@@ -2682,7 +3678,13 @@ return [
                 2.3266,
                 48.86,
             ],
-            'media' => 'the-angelus.jpg',
+            'media' => [
+                [
+                    'file' => 'the-angelus.jpg',
+                    'dcterms:title' => 'The Angelus',
+                    'dcterms:creator' => 'Jean-François Millet',
+                ],
+            ],
         ],
         [
             'id' => 'olympia',
@@ -2694,10 +3696,16 @@ return [
             'relations' => [
                 'a-bar-at-the-folies-bergere',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q737062', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q737062',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Olympia',
             'dcterms:creator' => 'Édouard Manet',
-            'dcterms:created' => ['@value' => '1863', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1863',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A nude courtesan gazes directly at the viewer while a Black maid presents flowers from an admirer; Manet\'s confrontational reworking of Titian\'s Venus caused a scandal at the 1865 Salon.',
             'dcterms:subject' => [
                 'Painting',
@@ -2713,7 +3721,13 @@ return [
                 2.3266,
                 48.86,
             ],
-            'media' => 'olympia.jpg',
+            'media' => [
+                [
+                    'file' => 'olympia.jpg',
+                    'dcterms:title' => 'Olympia',
+                    'dcterms:creator' => 'Édouard Manet',
+                ],
+            ],
         ],
         [
             'id' => 'the-floor-scrapers',
@@ -2727,10 +3741,16 @@ return [
                 'the-gleaners',
                 'the-angelus',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q123856106', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q123856106',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Floor Scrapers',
             'dcterms:creator' => 'Gustave Caillebotte',
-            'dcterms:created' => ['@value' => '1875', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1875',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Three shirtless workers scrape the parquet floor of a Haussmann apartment, elevating an unremarkable domestic labour into a monumental study of male physicality and craft.',
             'dcterms:subject' => [
                 'Painting',
@@ -2746,7 +3766,13 @@ return [
                 2.3266,
                 48.86,
             ],
-            'media' => 'the-floor-scrapers.jpg',
+            'media' => [
+                [
+                    'file' => 'the-floor-scrapers.jpg',
+                    'dcterms:title' => 'The Floor Scrapers',
+                    'dcterms:creator' => 'Gustave Caillebotte',
+                ],
+            ],
         ],
         [
             'id' => 'third-class-carriage',
@@ -2760,10 +3786,16 @@ return [
                 'the-gleaners',
                 'the-angelus',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3228340', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3228340',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Third-Class Carriage',
             'dcterms:creator' => 'Honoré Daumier',
-            'dcterms:created' => ['@value' => '1864', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1864',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Interior of a railway carriage crowded with working-class passengers, observed with sympathy and social acuity; one of Daumier\'s rare large-scale oil paintings.',
             'dcterms:subject' => [
                 'Painting',
@@ -2779,7 +3811,13 @@ return [
                 -73.9632,
                 40.7794,
             ],
-            'media' => 'third-class-carriage.jpg',
+            'media' => [
+                [
+                    'file' => 'third-class-carriage.jpg',
+                    'dcterms:title' => 'The Third-Class Carriage',
+                    'dcterms:creator' => 'Honoré Daumier',
+                ],
+            ],
         ],
         [
             'id' => 'christinas-world',
@@ -2792,10 +3830,16 @@ return [
                 'nighthawks',
                 'snap-the-whip',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2465911', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2465911',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Christina\'s World',
             'dcterms:creator' => 'Andrew Wyeth',
-            'dcterms:created' => ['@value' => '1948', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1948',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A woman crawls through a dry grass field toward a distant farmhouse on the Maine coast; the model was a neighbor with a degenerative muscle condition, lending the image its poignant urgency.',
             'dcterms:subject' => [
                 'Painting',
@@ -2811,7 +3855,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'christinas-world.jpg',
+            'media' => [
+                [
+                    'file' => 'christinas-world.jpg',
+                    'dcterms:title' => 'Christina\'s World',
+                    'dcterms:creator' => 'Andrew Wyeth',
+                ],
+            ],
         ],
         [
             'id' => 'nighthawks',
@@ -2824,10 +3874,16 @@ return [
                 'christinas-world',
                 'snap-the-whip',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q83872', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q83872',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Nighthawks',
             'dcterms:creator' => 'Edward Hopper',
-            'dcterms:created' => ['@value' => '1942', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1942',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'An all-night diner on a deserted city street, seen from outside through a wide glass window; the four figures, isolated in a pool of fluorescent light, embody urban alienation.',
             'dcterms:subject' => [
                 'Painting',
@@ -2843,7 +3899,13 @@ return [
                 -87.6237,
                 41.8796,
             ],
-            'media' => 'nighthawks.jpg',
+            'media' => [
+                [
+                    'file' => 'nighthawks.jpg',
+                    'dcterms:title' => 'Nighthawks',
+                    'dcterms:creator' => 'Edward Hopper',
+                ],
+            ],
         ],
         [
             'id' => 'impression-sunrise',
@@ -2855,10 +3917,16 @@ return [
             'relations' => [
                 'water-lilies',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q328523', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q328523',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Impression, Sunrise',
             'dcterms:creator' => 'Claude Monet',
-            'dcterms:created' => ['@value' => '1872', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1872',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'View of the port of Le Havre at dawn, the orange disc of the sun reflected in the rippling water; the work that inadvertently gave Impressionism its name.',
             'dcterms:subject' => [
                 'Painting',
@@ -2873,7 +3941,13 @@ return [
                 2.2564,
                 48.8623,
             ],
-            'media' => 'impression-sunrise.jpg',
+            'media' => [
+                [
+                    'file' => 'impression-sunrise.jpg',
+                    'dcterms:title' => 'Impression, Sunrise',
+                    'dcterms:creator' => 'Claude Monet',
+                ],
+            ],
         ],
         [
             'id' => 'moulin-de-la-galette',
@@ -2885,10 +3959,16 @@ return [
             'relations' => [
                 'luncheon-of-the-boating-party',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q683274', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q683274',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Dance at the Moulin de la Galette',
             'dcterms:creator' => 'Pierre-Auguste Renoir',
-            'dcterms:created' => ['@value' => '1876', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1876',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Sunlit crowd of Parisians dancing and socialising in the outdoor guinguette of the Moulin de la Galette in Montmartre, painted entirely on location.',
             'dcterms:subject' => [
                 'Painting',
@@ -2904,7 +3984,13 @@ return [
                 2.3266,
                 48.86,
             ],
-            'media' => 'moulin-de-la-galette.jpg',
+            'media' => [
+                [
+                    'file' => 'moulin-de-la-galette.jpg',
+                    'dcterms:title' => 'Dance at the Moulin de la Galette',
+                    'dcterms:creator' => 'Pierre-Auguste Renoir',
+                ],
+            ],
         ],
         [
             'id' => 'the-ballet-class',
@@ -2918,10 +4004,16 @@ return [
                 'little-dancer',
                 'impression-sunrise',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3821820', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3821820',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Ballet Class',
             'dcterms:creator' => 'Edgar Degas',
-            'dcterms:created' => ['@value' => '1874', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1874',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Ballet master Jules Perrot supervises a rehearsal of young dancers observed from above in raking perspective, the result of many preparatory studies made in the wings of the Paris Opéra.',
             'dcterms:subject' => [
                 'Painting',
@@ -2937,7 +4029,13 @@ return [
                 2.3266,
                 48.86,
             ],
-            'media' => 'the-ballet-class.jpg',
+            'media' => [
+                [
+                    'file' => 'the-ballet-class.jpg',
+                    'dcterms:title' => 'The Ballet Class',
+                    'dcterms:creator' => 'Edgar Degas',
+                ],
+            ],
         ],
         [
             'id' => 'luncheon-of-the-boating-party',
@@ -2949,10 +4047,16 @@ return [
             'relations' => [
                 'moulin-de-la-galette',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1167907', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1167907',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Luncheon of the Boating Party',
             'dcterms:creator' => 'Pierre-Auguste Renoir',
-            'dcterms:created' => ['@value' => '1881', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1881',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Friends of Renoir enjoy lunch on the terrace of the Restaurant Fournaise at Chatou, combining figure painting, still life, and landscape in a celebration of bourgeois leisure.',
             'dcterms:subject' => [
                 'Painting',
@@ -2968,7 +4072,13 @@ return [
                 -77.0478,
                 38.9116,
             ],
-            'media' => 'luncheon-of-the-boating-party.jpg',
+            'media' => [
+                [
+                    'file' => 'luncheon-of-the-boating-party.jpg',
+                    'dcterms:title' => 'The Luncheon of the Boating Party',
+                    'dcterms:creator' => 'Pierre-Auguste Renoir',
+                ],
+            ],
         ],
         [
             'id' => 'haystacks',
@@ -2981,10 +4091,16 @@ return [
                 'water-lilies',
                 'impression-sunrise',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q557000', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q557000',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Haystacks',
             'dcterms:creator' => 'Claude Monet',
-            'dcterms:created' => ['@value' => '1890', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1890',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'One of a series of about thirty paintings recording the same subject under different light and atmospheric conditions, a landmark in serial painting.',
             'dcterms:subject' => [
                 'Painting',
@@ -3000,7 +4116,13 @@ return [
                 -87.6237,
                 41.8796,
             ],
-            'media' => 'haystacks.jpg',
+            'media' => [
+                [
+                    'file' => 'haystacks.jpg',
+                    'dcterms:title' => 'Haystacks',
+                    'dcterms:creator' => 'Claude Monet',
+                ],
+            ],
         ],
         [
             'id' => 'at-the-races',
@@ -3013,10 +4135,16 @@ return [
                 'the-ballet-class',
                 'little-dancer',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q20188785', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q20188785',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'At the Races',
             'dcterms:creator' => 'Edgar Degas',
-            'dcterms:created' => ['@value' => '1877', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1877',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Informal scene at a Normandy racecourse with a carriage in the foreground and horses at a distance, cropped in the manner of a snapshot photograph.',
             'dcterms:subject' => [
                 'Painting',
@@ -3032,7 +4160,13 @@ return [
                 2.3266,
                 48.86,
             ],
-            'media' => 'at-the-races.jpg',
+            'media' => [
+                [
+                    'file' => 'at-the-races.jpg',
+                    'dcterms:title' => 'At the Races',
+                    'dcterms:creator' => 'Edgar Degas',
+                ],
+            ],
         ],
         [
             'id' => 'the-cradle',
@@ -3046,10 +4180,16 @@ return [
                 'moulin-de-la-galette',
                 'a-sunday-on-la-grande-jatte',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q5966403', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q5966403',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Cradle',
             'dcterms:creator' => 'Berthe Morisot',
-            'dcterms:created' => ['@value' => '1872', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1872',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Morisot\'s sister Edma gazes tenderly at her infant daughter asleep behind a gauze curtain; an intimate domestic scene rendered with feathery strokes and soft light.',
             'dcterms:subject' => [
                 'Painting',
@@ -3065,7 +4205,13 @@ return [
                 2.3266,
                 48.86,
             ],
-            'media' => 'the-cradle.jpg',
+            'media' => [
+                [
+                    'file' => 'the-cradle.jpg',
+                    'dcterms:title' => 'The Cradle',
+                    'dcterms:creator' => 'Berthe Morisot',
+                ],
+            ],
         ],
         [
             'id' => 'wheatfield-with-crows',
@@ -3077,10 +4223,16 @@ return [
             'relations' => [
                 'the-starry-night',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q634122', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q634122',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Wheatfield with Crows',
             'dcterms:creator' => 'Vincent van Gogh',
-            'dcterms:created' => ['@value' => '1890', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1890',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Turbulent wheatfield beneath a stormy sky traversed by crows, painted in the last weeks of van Gogh\'s life at Auvers-sur-Oise; the violent brushwork and ominous palette convey psychological intensity.',
             'dcterms:subject' => [
                 'Painting',
@@ -3095,7 +4247,13 @@ return [
                 4.8811,
                 52.3584,
             ],
-            'media' => 'wheatfield-with-crows.jpg',
+            'media' => [
+                [
+                    'file' => 'wheatfield-with-crows.jpg',
+                    'dcterms:title' => 'Wheatfield with Crows',
+                    'dcterms:creator' => 'Vincent van Gogh',
+                ],
+            ],
         ],
         [
             'id' => 'the-card-players',
@@ -3107,10 +4265,16 @@ return [
             'relations' => [
                 'mont-sainte-victoire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1165042', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1165042',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Card Players',
             'dcterms:creator' => 'Paul Cézanne',
-            'dcterms:created' => ['@value' => '1894', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1894',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Two peasant men face each other across a table in concentration, one of a series of five versions Cézanne painted at his estate near Aix-en-Provence.',
             'dcterms:subject' => [
                 'Painting',
@@ -3125,7 +4289,13 @@ return [
                 2.3266,
                 48.86,
             ],
-            'media' => 'the-card-players.jpg',
+            'media' => [
+                [
+                    'file' => 'the-card-players.jpg',
+                    'dcterms:title' => 'The Card Players',
+                    'dcterms:creator' => 'Paul Cézanne',
+                ],
+            ],
         ],
         [
             'id' => 'mont-sainte-victoire',
@@ -3137,10 +4307,16 @@ return [
             'relations' => [
                 'the-card-players',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3494409', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3494409',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Mont Sainte-Victoire',
             'dcterms:creator' => 'Paul Cézanne',
-            'dcterms:created' => ['@value' => '1906', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1906',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'One of the final versions in Cézanne\'s decades-long series of the mountain near Aix, built from interlocking planes of colour that anticipate Cubism.',
             'dcterms:subject' => [
                 'Painting',
@@ -3156,7 +4332,13 @@ return [
                 -75.1809,
                 39.9656,
             ],
-            'media' => 'mont-sainte-victoire.jpg',
+            'media' => [
+                [
+                    'file' => 'mont-sainte-victoire.jpg',
+                    'dcterms:title' => 'Mont Sainte-Victoire',
+                    'dcterms:creator' => 'Paul Cézanne',
+                ],
+            ],
         ],
         [
             'id' => 'where-do-we-come-from',
@@ -3170,10 +4352,16 @@ return [
                 'the-card-players',
                 'the-starry-night',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q890678', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q890678',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Where Do We Come From? What Are We? Where Are We Going?',
             'dcterms:creator' => 'Paul Gauguin',
-            'dcterms:created' => ['@value' => '1897', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1897',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Monumental panorama of Tahitian life intended as Gauguin\'s spiritual testament, reading right to left from birth to the approach of death beneath an enigmatic idol.',
             'dcterms:subject' => [
                 'Painting',
@@ -3189,7 +4377,13 @@ return [
                 -71.0942,
                 42.3394,
             ],
-            'media' => 'where-do-we-come-from.jpg',
+            'media' => [
+                [
+                    'file' => 'where-do-we-come-from.jpg',
+                    'dcterms:title' => 'Where Do We Come From? What Are We? Where Are We Going?',
+                    'dcterms:creator' => 'Paul Gauguin',
+                ],
+            ],
         ],
         [
             'id' => 'vision-after-the-sermon',
@@ -3203,10 +4397,16 @@ return [
                 'the-card-players',
                 'the-starry-night',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1764395', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1764395',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Vision After the Sermon',
             'dcterms:creator' => 'Paul Gauguin',
-            'dcterms:created' => ['@value' => '1888', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1888',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Breton women in white bonnets witness Jacob wrestling with the angel, the red ground and flattened forms derived from Japanese prints signalling Gauguin\'s break with Impressionism.',
             'dcterms:subject' => [
                 'Painting',
@@ -3222,7 +4422,13 @@ return [
                 -3.1937,
                 55.9509,
             ],
-            'media' => 'vision-after-the-sermon.jpg',
+            'media' => [
+                [
+                    'file' => 'vision-after-the-sermon.jpg',
+                    'dcterms:title' => 'Vision After the Sermon',
+                    'dcterms:creator' => 'Paul Gauguin',
+                ],
+            ],
         ],
         [
             'id' => 'isle-of-the-dead',
@@ -3236,10 +4442,16 @@ return [
                 'orpheus-moreau',
                 'the-cyclops',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q669994', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q669994',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Isle of the Dead',
             'dcterms:creator' => 'Arnold Böcklin',
-            'dcterms:created' => ['@value' => '1883', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1883',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A white-robed figure stands in a boat approaching a dark rocky island; Böcklin painted five versions of this dreamlike meditation on death and the underworld.',
             'dcterms:subject' => [
                 'Painting',
@@ -3255,7 +4467,13 @@ return [
                 13.3987,
                 52.5197,
             ],
-            'media' => 'isle-of-the-dead.jpg',
+            'media' => [
+                [
+                    'file' => 'isle-of-the-dead.jpg',
+                    'dcterms:title' => 'The Isle of the Dead',
+                    'dcterms:creator' => 'Arnold Böcklin',
+                ],
+            ],
         ],
         [
             'id' => 'salome-moreau',
@@ -3269,10 +4487,16 @@ return [
                 'isle-of-the-dead',
                 'the-cyclops',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q231266', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q231266',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Salomé',
             'dcterms:creator' => 'Gustave Moreau',
-            'dcterms:created' => ['@value' => '1876', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1876',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'The dancing Salomé confronts the severed head of John the Baptist floating in a blaze of light, depicted in Moreau\'s jewelled, encrusted style fusing biblical and Orientalist imagery.',
             'dcterms:subject' => [
                 'Painting',
@@ -3288,7 +4512,13 @@ return [
                 2.3336,
                 48.881,
             ],
-            'media' => 'salome-moreau.jpg',
+            'media' => [
+                [
+                    'file' => 'salome-moreau.jpg',
+                    'dcterms:title' => 'Salomé',
+                    'dcterms:creator' => 'Gustave Moreau',
+                ],
+            ],
         ],
         [
             'id' => 'the-cyclops',
@@ -3302,10 +4532,16 @@ return [
                 'orpheus-moreau',
                 'isle-of-the-dead',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3793426', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3793426',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Cyclops',
             'dcterms:creator' => 'Odilon Redon',
-            'dcterms:created' => ['@value' => '1914', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1914',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'The Cyclops Polyphemus peeps over a hillside at the sleeping nymph Galatea, rendered in Redon\'s late luminous pastels as a dreamlike vision rather than a classical narrative.',
             'dcterms:subject' => [
                 'Painting',
@@ -3321,7 +4557,13 @@ return [
                 5.8286,
                 52.09,
             ],
-            'media' => 'the-cyclops.jpg',
+            'media' => [
+                [
+                    'file' => 'the-cyclops.jpg',
+                    'dcterms:title' => 'The Cyclops',
+                    'dcterms:creator' => 'Odilon Redon',
+                ],
+            ],
         ],
         [
             'id' => 'orpheus-moreau',
@@ -3335,10 +4577,16 @@ return [
                 'isle-of-the-dead',
                 'the-cyclops',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q68557', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q68557',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Orpheus',
             'dcterms:creator' => 'Gustave Moreau',
-            'dcterms:created' => ['@value' => '1865', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1865',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A Thracian girl cradles the severed head and lyre of Orpheus after his dismemberment by the Maenads, painted with an atmosphere of lyrical melancholy.',
             'dcterms:subject' => [
                 'Painting',
@@ -3353,7 +4601,13 @@ return [
                 2.3266,
                 48.86,
             ],
-            'media' => 'orpheus-moreau.jpg',
+            'media' => [
+                [
+                    'file' => 'orpheus-moreau.jpg',
+                    'dcterms:title' => 'Orpheus',
+                    'dcterms:creator' => 'Gustave Moreau',
+                ],
+            ],
         ],
         [
             'id' => 'adele-bloch-bauer',
@@ -3367,10 +4621,16 @@ return [
                 'the-kiss-klimt',
                 'beethoven-frieze',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q354396', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q354396',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Portrait of Adele Bloch-Bauer I',
             'dcterms:creator' => 'Gustav Klimt',
-            'dcterms:created' => ['@value' => '1907', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1907',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Shimmering mosaic of gold leaf and geometric ornament encasing the sitter, combining Byzantine icon technique with Secessionist ornament; restituted from Nazi looting in 2006.',
             'dcterms:subject' => [
                 'Painting',
@@ -3385,7 +4645,13 @@ return [
                 -73.9632,
                 40.783,
             ],
-            'media' => 'adele-bloch-bauer.jpg',
+            'media' => [
+                [
+                    'file' => 'adele-bloch-bauer.jpg',
+                    'dcterms:title' => 'Portrait of Adele Bloch-Bauer I',
+                    'dcterms:creator' => 'Gustav Klimt',
+                ],
+            ],
         ],
         [
             'id' => 'judith-i-klimt',
@@ -3399,10 +4665,16 @@ return [
                 'the-kiss-klimt',
                 'beethoven-frieze',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2324643', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2324643',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Judith I',
             'dcterms:creator' => 'Gustav Klimt',
-            'dcterms:created' => ['@value' => '1901', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1901',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Judith holds the severed head of Holofernes with a half-closed, ambiguous expression; the gilded frame and décolleté merge painting and applied art in the Secessionist manner.',
             'dcterms:subject' => [
                 'Painting',
@@ -3418,7 +4690,13 @@ return [
                 16.3805,
                 48.1906,
             ],
-            'media' => 'judith-i-klimt.jpg',
+            'media' => [
+                [
+                    'file' => 'judith-i-klimt.jpg',
+                    'dcterms:title' => 'Judith I',
+                    'dcterms:creator' => 'Gustav Klimt',
+                ],
+            ],
         ],
         [
             'id' => 'the-wounded-angel',
@@ -3432,10 +4710,16 @@ return [
                 'judith-i-klimt',
                 'adele-bloch-bauer',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q471289', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q471289',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Wounded Angel',
             'dcterms:creator' => 'Hugo Simberg',
-            'dcterms:created' => ['@value' => '1903', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1903',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Two boys carry a wounded angel on a stretcher through a wintry Helsinki landscape; the allegory of innocence and suffering became the most popular painting in Finland.',
             'dcterms:subject' => [
                 'Painting',
@@ -3451,7 +4735,13 @@ return [
                 24.9354,
                 60.1705,
             ],
-            'media' => 'the-wounded-angel.jpg',
+            'media' => [
+                [
+                    'file' => 'the-wounded-angel.jpg',
+                    'dcterms:title' => 'The Wounded Angel',
+                    'dcterms:creator' => 'Hugo Simberg',
+                ],
+            ],
         ],
         [
             'id' => 'the-kiss-klimt',
@@ -3464,10 +4754,16 @@ return [
                 'adele-bloch-bauer',
                 'judith-i-klimt',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q698487', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q698487',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Kiss',
             'dcterms:creator' => 'Gustav Klimt',
-            'dcterms:created' => ['@value' => '1908', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1908',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A couple embraces on a floral precipice, their bodies dissolved into a single mosaic of gold leaf, Byzantine ornament, and sensuous surface; the summation of Viennese Secession style.',
             'dcterms:subject' => [
                 'Painting',
@@ -3482,7 +4778,13 @@ return [
                 16.3805,
                 48.1906,
             ],
-            'media' => 'the-kiss-klimt.jpg',
+            'media' => [
+                [
+                    'file' => 'the-kiss-klimt.jpg',
+                    'dcterms:title' => 'The Kiss',
+                    'dcterms:creator' => 'Gustav Klimt',
+                ],
+            ],
         ],
         [
             'id' => 'beethoven-frieze',
@@ -3494,10 +4796,16 @@ return [
             'relations' => [
                 'the-kiss-klimt',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q684689', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q684689',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Beethoven Frieze',
             'dcterms:creator' => 'Gustav Klimt',
-            'dcterms:created' => ['@value' => '1902', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1902',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Monumental frieze painted for the Secession exhibition alongside Max Klinger\'s Beethoven sculpture, depicting humanity\'s quest for happiness through art and love.',
             'dcterms:subject' => [
                 'Painting',
@@ -3513,7 +4821,13 @@ return [
                 16.3652,
                 48.1993,
             ],
-            'media' => 'beethoven-frieze.jpg',
+            'media' => [
+                [
+                    'file' => 'beethoven-frieze.jpg',
+                    'dcterms:title' => 'Beethoven Frieze',
+                    'dcterms:creator' => 'Gustav Klimt',
+                ],
+            ],
         ],
         [
             'id' => 'job-mucha',
@@ -3529,7 +4843,10 @@ return [
             ],
             'dcterms:title' => 'Job (Cigarette Poster)',
             'dcterms:creator' => 'Alphonse Mucha',
-            'dcterms:created' => ['@value' => '1896', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1896',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Commercial poster for Job cigarette papers featuring a woman with flowing hair and an aureole of smoke, establishing Mucha\'s sinuous Art Nouveau ornamental style.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -3545,7 +4862,13 @@ return [
                 14.426,
                 50.0841,
             ],
-            'media' => 'job-mucha.jpg',
+            'media' => [
+                [
+                    'file' => 'job-mucha.jpg',
+                    'dcterms:title' => 'Job (Cigarette Poster)',
+                    'dcterms:creator' => 'Alphonse Mucha',
+                ],
+            ],
         ],
         [
             'id' => 'gismonda-mucha',
@@ -3558,10 +4881,16 @@ return [
                 'job-mucha',
                 'la-nature-mucha',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q60591741', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q60591741',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Gismonda',
             'dcterms:creator' => 'Alphonse Mucha',
-            'dcterms:created' => ['@value' => '1894', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1894',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Theatrical poster for Sarah Bernhardt\'s production of Gismonda, commissioned overnight and launched Mucha\'s career; notable for its Byzantine arch and naturalistic portrait.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -3577,7 +4906,13 @@ return [
                 -0.1722,
                 51.4966,
             ],
-            'media' => 'gismonda-mucha.jpg',
+            'media' => [
+                [
+                    'file' => 'gismonda-mucha.jpg',
+                    'dcterms:title' => 'Gismonda',
+                    'dcterms:creator' => 'Alphonse Mucha',
+                ],
+            ],
         ],
         [
             'id' => 'la-nature-mucha',
@@ -3590,10 +4925,16 @@ return [
                 'job-mucha',
                 'gismonda-mucha',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q48755437', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q48755437',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'La Nature',
             'dcterms:creator' => 'Alphonse Mucha',
-            'dcterms:created' => ['@value' => '1899', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1899',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Gilded bronze and marble bust of a woman emerging from natural forms, one of Mucha\'s rare sculptures applying his flat graphic style to three dimensions.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -3608,7 +4949,13 @@ return [
                 17.1075,
                 48.1406,
             ],
-            'media' => 'la-nature-mucha.png',
+            'media' => [
+                [
+                    'file' => 'la-nature-mucha.png',
+                    'dcterms:title' => 'La Nature',
+                    'dcterms:creator' => 'Alphonse Mucha',
+                ],
+            ],
         ],
         [
             'id' => 'the-scream',
@@ -3622,10 +4969,16 @@ return [
                 'street-berlin',
                 'composition-vii',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q471379', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q471379',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Scream',
             'dcterms:creator' => 'Edvard Munch',
-            'dcterms:created' => ['@value' => '1893', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1893',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'An anguished figure on a bridge beneath a blood-red sky clutches its head in an attitude of existential terror; the distorted landscape reflects the psychological condition of the subject.',
             'dcterms:subject' => [
                 'Painting',
@@ -3641,7 +4994,13 @@ return [
                 10.7364,
                 59.9107,
             ],
-            'media' => 'the-scream.jpg',
+            'media' => [
+                [
+                    'file' => 'the-scream.jpg',
+                    'dcterms:title' => 'The Scream',
+                    'dcterms:creator' => 'Edvard Munch',
+                ],
+            ],
         ],
         [
             'id' => 'the-dance-of-life',
@@ -3653,10 +5012,16 @@ return [
             'relations' => [
                 'the-scream',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7728820', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q7728820',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Dance of Life',
             'dcterms:creator' => 'Edvard Munch',
-            'dcterms:created' => ['@value' => '1899', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1899',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Munch\'s alter ego dances with a woman in red while figures representing innocence and loss flank them; part of the Frieze of Life cycle exploring love, anxiety, and death.',
             'dcterms:subject' => [
                 'Painting',
@@ -3671,7 +5036,13 @@ return [
                 10.7364,
                 59.9107,
             ],
-            'media' => 'the-dance-of-life.jpg',
+            'media' => [
+                [
+                    'file' => 'the-dance-of-life.jpg',
+                    'dcterms:title' => 'The Dance of Life',
+                    'dcterms:creator' => 'Edvard Munch',
+                ],
+            ],
         ],
         [
             'id' => 'street-berlin',
@@ -3686,10 +5057,16 @@ return [
                 'the-dream-marc',
                 'the-large-blue-horses',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q19883652', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q19883652',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Street, Berlin',
             'dcterms:creator' => 'Ernst Ludwig Kirchner',
-            'dcterms:created' => ['@value' => '1913', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1913',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Two women in furs and feathered hats walk along a Berlin boulevard; the angular forms, acid colours, and compressed perspective evoke the alienation of modern urban life.',
             'dcterms:subject' => [
                 'Painting',
@@ -3704,7 +5081,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'street-berlin.jpg',
+            'media' => [
+                [
+                    'file' => 'street-berlin.jpg',
+                    'dcterms:title' => 'Street, Berlin',
+                    'dcterms:creator' => 'Ernst Ludwig Kirchner',
+                ],
+            ],
         ],
         [
             'id' => 'composition-vii',
@@ -3719,10 +5102,16 @@ return [
                 'the-dream-marc',
                 'reclining-female-nude',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2990634', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2990634',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Composition VII',
             'dcterms:creator' => 'Wassily Kandinsky',
-            'dcterms:created' => ['@value' => '1913', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1913',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'One of Kandinsky\'s largest and most complex works, achieved through over thirty preparatory studies; the abstracted forms and musical colour relationships embody his theory of art as spiritual vibration.',
             'dcterms:subject' => [
                 'Painting',
@@ -3737,7 +5126,13 @@ return [
                 37.6208,
                 55.7415,
             ],
-            'media' => 'composition-vii.jpg',
+            'media' => [
+                [
+                    'file' => 'composition-vii.jpg',
+                    'dcterms:title' => 'Composition VII',
+                    'dcterms:creator' => 'Wassily Kandinsky',
+                ],
+            ],
         ],
         [
             'id' => 'the-large-blue-horses',
@@ -3751,10 +5146,16 @@ return [
                 'street-berlin',
                 'composition-vii',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q15461864', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q15461864',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Large Blue Horses',
             'dcterms:creator' => 'Franz Marc',
-            'dcterms:created' => ['@value' => '1911', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1911',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Three blue horses curve gracefully in a landscape of primary colours, Marc\'s colour symbolism assigning blue to spirituality and masculine discipline.',
             'dcterms:subject' => [
                 'Painting',
@@ -3769,7 +5170,13 @@ return [
                 -93.2903,
                 44.9686,
             ],
-            'media' => 'the-large-blue-horses.jpg',
+            'media' => [
+                [
+                    'file' => 'the-large-blue-horses.jpg',
+                    'dcterms:title' => 'The Large Blue Horses',
+                    'dcterms:creator' => 'Franz Marc',
+                ],
+            ],
         ],
         [
             'id' => 'reclining-female-nude',
@@ -3783,10 +5190,16 @@ return [
                 'the-scream',
                 'street-berlin',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q20196728', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q20196728',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Reclining Female Nude',
             'dcterms:creator' => 'Egon Schiele',
-            'dcterms:created' => ['@value' => '1917', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1917',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Late work by Schiele in which the model\'s body is depicted with angular directness and a tawny, raw palette; the frank erotic charge and absence of idealization typify his approach.',
             'dcterms:subject' => [
                 'Painting',
@@ -3802,7 +5215,13 @@ return [
                 16.3669,
                 48.2044,
             ],
-            'media' => 'reclining-female-nude.jpg',
+            'media' => [
+                [
+                    'file' => 'reclining-female-nude.jpg',
+                    'dcterms:title' => 'Reclining Female Nude',
+                    'dcterms:creator' => 'Egon Schiele',
+                ],
+            ],
         ],
         [
             'id' => 'the-dream-marc',
@@ -3814,10 +5233,16 @@ return [
             'relations' => [
                 'the-large-blue-horses',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q18685517', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q18685517',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Dream',
             'dcterms:creator' => 'Franz Marc',
-            'dcterms:created' => ['@value' => '1912', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1912',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A nude figure sleeps surrounded by animals — a lion, a horse — bathed in deep blues and violets, evoking a primordial harmony between humanity and the animal world.',
             'dcterms:subject' => [
                 'Painting',
@@ -3833,7 +5258,13 @@ return [
                 -3.6937,
                 40.4154,
             ],
-            'media' => 'the-dream-marc.jpg',
+            'media' => [
+                [
+                    'file' => 'the-dream-marc.jpg',
+                    'dcterms:title' => 'The Dream',
+                    'dcterms:creator' => 'Franz Marc',
+                ],
+            ],
         ],
         [
             'id' => 'self-portrait-dix',
@@ -3847,10 +5278,16 @@ return [
                 'composition-vii',
                 'the-scream',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q24953623', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q24953623',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Self-Portrait as Soldier',
             'dcterms:creator' => 'Otto Dix',
-            'dcterms:created' => ['@value' => '1914', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1914',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Early self-portrait in which the young Dix depicts himself as a steely-gazed combatant on the eve of the First World War, anticipating the brutal realism of his later war paintings.',
             'dcterms:subject' => [
                 'Painting',
@@ -3865,7 +5302,13 @@ return [
                 6.7802,
                 51.2238,
             ],
-            'media' => 'self-portrait-dix.jpg',
+            'media' => [
+                [
+                    'file' => 'self-portrait-dix.jpg',
+                    'dcterms:title' => 'Self-Portrait as Soldier',
+                    'dcterms:creator' => 'Otto Dix',
+                ],
+            ],
         ],
         [
             'id' => 'woman-with-the-hat',
@@ -3879,10 +5322,16 @@ return [
                 'open-window-collioure',
                 'la-joie-de-vivre',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1437492', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1437492',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Woman with the Hat',
             'dcterms:creator' => 'Henri Matisse',
-            'dcterms:created' => ['@value' => '1905', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1905',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Portrait of Matisse\'s wife with a large hat, painted with autonomous strokes of unmixed colour at the Salon d\'Automne of 1905 where it provoked the \'Fauve\' label from critics.',
             'dcterms:subject' => [
                 'Painting',
@@ -3897,7 +5346,13 @@ return [
                 -122.4009,
                 37.7857,
             ],
-            'media' => 'woman-with-the-hat.jpg',
+            'media' => [
+                [
+                    'file' => 'woman-with-the-hat.jpg',
+                    'dcterms:title' => 'The Woman with the Hat',
+                    'dcterms:creator' => 'Henri Matisse',
+                ],
+            ],
         ],
         [
             'id' => 'the-dance-matisse',
@@ -3909,10 +5364,16 @@ return [
             'relations' => [
                 'woman-with-the-hat',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q341168', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q341168',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Dance',
             'dcterms:creator' => 'Henri Matisse',
-            'dcterms:created' => ['@value' => '1910', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1910',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Five red figures dance in a ring against a blue sky and green hill, painted for the Moscow collector Shchukin in Matisse\'s most reductive, rhythmically powerful style.',
             'dcterms:subject' => [
                 'Painting',
@@ -3928,7 +5389,13 @@ return [
                 30.3141,
                 59.9398,
             ],
-            'media' => 'the-dance-matisse.jpg',
+            'media' => [
+                [
+                    'file' => 'the-dance-matisse.jpg',
+                    'dcterms:title' => 'The Dance',
+                    'dcterms:creator' => 'Henri Matisse',
+                ],
+            ],
         ],
         [
             'id' => 'open-window-collioure',
@@ -3942,10 +5409,16 @@ return [
                 'the-dance-matisse',
                 'la-joie-de-vivre',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3745698', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3745698',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Open Window, Collioure',
             'dcterms:creator' => 'Henri Matisse',
-            'dcterms:created' => ['@value' => '1905', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1905',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'View through a window to a Mediterranean harbour, the division between interior and exterior dissolved by arbitrary, sun-saturated colour; a key work of the Fauve summer at Collioure.',
             'dcterms:subject' => [
                 'Painting',
@@ -3961,7 +5434,13 @@ return [
                 -77.0199,
                 38.8913,
             ],
-            'media' => 'open-window-collioure.jpg',
+            'media' => [
+                [
+                    'file' => 'open-window-collioure.jpg',
+                    'dcterms:title' => 'Open Window, Collioure',
+                    'dcterms:creator' => 'Henri Matisse',
+                ],
+            ],
         ],
         [
             'id' => 'charing-cross-bridge',
@@ -3975,10 +5454,16 @@ return [
                 'the-dance-matisse',
                 'open-window-collioure',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q20190110', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q20190110',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Charing Cross Bridge, London',
             'dcterms:creator' => 'André Derain',
-            'dcterms:created' => ['@value' => '1906', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1906',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'The Thames bridges painted with flat patches of non-naturalistic colour after Derain studied Turner in London; the work marks a decisive break from Impressionism.',
             'dcterms:subject' => [
                 'Painting',
@@ -3994,7 +5479,13 @@ return [
                 -77.0199,
                 38.8913,
             ],
-            'media' => 'charing-cross-bridge.jpg',
+            'media' => [
+                [
+                    'file' => 'charing-cross-bridge.jpg',
+                    'dcterms:title' => 'Charing Cross Bridge, London',
+                    'dcterms:creator' => 'André Derain',
+                ],
+            ],
         ],
         [
             'id' => 'la-joie-de-vivre',
@@ -4008,10 +5499,16 @@ return [
                 'open-window-collioure',
                 'the-dance-matisse',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2538580', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2538580',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'La Joie de vivre',
             'dcterms:creator' => 'Henri Matisse',
-            'dcterms:created' => ['@value' => '1905', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1905',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Arcadian scene of naked figures reclining, dancing, and embracing in a Mediterranean landscape, a utopian vision of bodily freedom painted in flat, sinuous lines and vivid colour.',
             'dcterms:subject' => [
                 'Painting',
@@ -4027,7 +5524,13 @@ return [
                 -75.1733,
                 39.9616,
             ],
-            'media' => 'la-joie-de-vivre.jpg',
+            'media' => [
+                [
+                    'file' => 'la-joie-de-vivre.jpg',
+                    'dcterms:title' => 'La Joie de vivre',
+                    'dcterms:creator' => 'Henri Matisse',
+                ],
+            ],
         ],
         [
             'id' => 'les-demoiselles-davignon',
@@ -4040,10 +5543,16 @@ return [
                 'guernica',
                 'three-musicians',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q910199', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q910199',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Les Demoiselles d\'Avignon',
             'dcterms:creator' => 'Pablo Picasso',
-            'dcterms:created' => ['@value' => '1907', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1907',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Five nude women in a brothel depicted in a shattered multi-perspectival space, incorporating the influences of Iberian sculpture and African masks; the founding work of Cubism.',
             'dcterms:subject' => [
                 'Painting',
@@ -4059,7 +5568,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'les-demoiselles-davignon.png',
+            'media' => [
+                [
+                    'file' => 'les-demoiselles-davignon.png',
+                    'dcterms:title' => 'Les Demoiselles d\'Avignon',
+                    'dcterms:creator' => 'Pablo Picasso',
+                ],
+            ],
         ],
         [
             'id' => 'three-musicians',
@@ -4072,10 +5587,16 @@ return [
                 'les-demoiselles-davignon',
                 'guernica',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q30332241', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q30332241',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Three Musicians',
             'dcterms:creator' => 'Pablo Picasso',
-            'dcterms:created' => ['@value' => '1921', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1921',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Three masked figures representing Pierrot, Harlequin, and a monk assembled from flat planes of colour in Picasso\'s Synthetic Cubist style; a synthesis of the commedia dell\'arte tradition.',
             'dcterms:subject' => [
                 'Painting',
@@ -4090,7 +5611,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'three-musicians.jpg',
+            'media' => [
+                [
+                    'file' => 'three-musicians.jpg',
+                    'dcterms:title' => 'Three Musicians',
+                    'dcterms:creator' => 'Pablo Picasso',
+                ],
+            ],
         ],
         [
             'id' => 'portrait-vollard',
@@ -4106,10 +5633,16 @@ return [
                 'the-portuguese',
                 'fruit-dish-and-glass',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2842415', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2842415',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Portrait of Ambroise Vollard',
             'dcterms:creator' => 'Pablo Picasso',
-            'dcterms:created' => ['@value' => '1910', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1910',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Analytical Cubist portrait of the Paris dealer, the figure disintegrated into shifting planes of ochre and grey so that recognition depends on prior knowledge of the sitter\'s features.',
             'dcterms:subject' => [
                 'Painting',
@@ -4124,7 +5657,13 @@ return [
                 37.6055,
                 55.745,
             ],
-            'media' => 'portrait-vollard.jpg',
+            'media' => [
+                [
+                    'file' => 'portrait-vollard.jpg',
+                    'dcterms:title' => 'Portrait of Ambroise Vollard',
+                    'dcterms:creator' => 'Pablo Picasso',
+                ],
+            ],
         ],
         [
             'id' => 'the-portuguese',
@@ -4138,10 +5677,16 @@ return [
                 'fruit-dish-and-glass',
                 'les-demoiselles-davignon',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q60313515', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q60313515',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Portuguese',
             'dcterms:creator' => 'Georges Braque',
-            'dcterms:created' => ['@value' => '1911', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1911',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Analytical Cubist study of a musician in a café, the figure fractured into facets of grey and ochre with stencilled letters and numbers integrated as texture, one of Braque\'s most radical works.',
             'dcterms:subject' => [
                 'Painting',
@@ -4156,7 +5701,13 @@ return [
                 7.5969,
                 47.557,
             ],
-            'media' => 'the-portuguese.jpg',
+            'media' => [
+                [
+                    'file' => 'the-portuguese.jpg',
+                    'dcterms:title' => 'The Portuguese',
+                    'dcterms:creator' => 'Georges Braque',
+                ],
+            ],
         ],
         [
             'id' => 'fruit-dish-and-glass',
@@ -4170,10 +5721,16 @@ return [
                 'portrait-vollard',
                 'les-demoiselles-davignon',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q5506360', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q5506360',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Fruit Dish and Glass',
             'dcterms:creator' => 'Georges Braque',
-            'dcterms:created' => ['@value' => '1912', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1912',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Papier collé using wallpaper and newspaper fragments alongside drawn marks to represent a tabletop still life; among the first works to introduce non-art materials into fine art.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -4189,7 +5746,13 @@ return [
                 -72.9296,
                 41.3082,
             ],
-            'media' => 'fruit-dish-and-glass.jpg',
+            'media' => [
+                [
+                    'file' => 'fruit-dish-and-glass.jpg',
+                    'dcterms:title' => 'Fruit Dish and Glass',
+                    'dcterms:creator' => 'Georges Braque',
+                ],
+            ],
         ],
         [
             'id' => 'treachery-of-images',
@@ -4203,10 +5766,16 @@ return [
                 'the-persistence-of-memory',
                 'harlekins-carnival',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1061035', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1061035',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Treachery of Images',
             'dcterms:creator' => 'René Magritte',
-            'dcterms:created' => ['@value' => '1929', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1929',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A pipe depicted with the legend Ceci n\'est pas une pipe — This is not a pipe — challenging the relationship between image, word, and the thing represented.',
             'dcterms:subject' => [
                 'Painting',
@@ -4221,7 +5790,13 @@ return [
                 -118.3593,
                 34.0639,
             ],
-            'media' => 'treachery-of-images.jpg',
+            'media' => [
+                [
+                    'file' => 'treachery-of-images.jpg',
+                    'dcterms:title' => 'The Treachery of Images',
+                    'dcterms:creator' => 'René Magritte',
+                ],
+            ],
         ],
         [
             'id' => 'the-lovers-magritte',
@@ -4233,10 +5808,16 @@ return [
             'relations' => [
                 'treachery-of-images',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q662509', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q662509',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Lovers',
             'dcterms:creator' => 'René Magritte',
-            'dcterms:created' => ['@value' => '1928', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1928',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A man and a woman attempt to kiss but their heads are wrapped in grey cloth, preventing contact; the image meditates on desire, anonymity, and the impossibility of intimacy.',
             'dcterms:subject' => [
                 'Painting',
@@ -4252,7 +5833,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'the-lovers-magritte.jpg',
+            'media' => [
+                [
+                    'file' => 'the-lovers-magritte.jpg',
+                    'dcterms:title' => 'The Lovers',
+                    'dcterms:creator' => 'René Magritte',
+                ],
+            ],
         ],
         [
             'id' => 'harlekins-carnival',
@@ -4266,10 +5853,16 @@ return [
                 'the-persistence-of-memory',
                 'elephant-celebes',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q782079', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q782079',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Harlequin\'s Carnival',
             'dcterms:creator' => 'Joan Miró',
-            'dcterms:created' => ['@value' => '1924', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1924',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A riotous interior inhabited by biomorphic forms — fish, cats, insects, musical notes — the first fully achieved expression of Miró\'s poetic Surrealist vocabulary.',
             'dcterms:subject' => [
                 'Painting',
@@ -4285,7 +5878,13 @@ return [
                 -78.8818,
                 42.9305,
             ],
-            'media' => 'harlekins-carnival.jpg',
+            'media' => [
+                [
+                    'file' => 'harlekins-carnival.jpg',
+                    'dcterms:title' => 'Harlequin\'s Carnival',
+                    'dcterms:creator' => 'Joan Miró',
+                ],
+            ],
         ],
         [
             'id' => 'elephant-celebes',
@@ -4299,10 +5898,16 @@ return [
                 'harlekins-carnival',
                 'the-persistence-of-memory',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1052784', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1052784',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Elephant Celebes',
             'dcterms:creator' => 'Max Ernst',
-            'dcterms:created' => ['@value' => '1921', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1921',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A mechanical elephant-like form with a metal tube for a head dominates a surreal landscape; constructed from collage-derived imagery, it inaugurated Ernst\'s metamorphic machine aesthetic.',
             'dcterms:subject' => [
                 'Painting',
@@ -4318,7 +5923,13 @@ return [
                 -0.0994,
                 51.5076,
             ],
-            'media' => 'elephant-celebes.jpg',
+            'media' => [
+                [
+                    'file' => 'elephant-celebes.jpg',
+                    'dcterms:title' => 'The Elephant Celebes',
+                    'dcterms:creator' => 'Max Ernst',
+                ],
+            ],
         ],
         [
             'id' => 'no-31-pollock',
@@ -4331,10 +5942,16 @@ return [
                 'autumn-rhythm',
                 'full-fathom-five',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q112675413', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q112675413',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'No. 31',
             'dcterms:creator' => 'Jackson Pollock',
-            'dcterms:created' => ['@value' => '1950', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1950',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Monumental drip painting produced by pouring and flicking industrial enamel paint from above onto a canvas laid on the floor, the allover composition recording the physical act of creation.',
             'dcterms:subject' => [
                 'Painting',
@@ -4350,7 +5967,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'no-31-pollock.jpg',
+            'media' => [
+                [
+                    'file' => 'no-31-pollock.jpg',
+                    'dcterms:title' => 'No. 31',
+                    'dcterms:creator' => 'Jackson Pollock',
+                ],
+            ],
         ],
         [
             'id' => 'autumn-rhythm',
@@ -4363,10 +5986,16 @@ return [
                 'no-31-pollock',
                 'full-fathom-five',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2873092', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2873092',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Autumn Rhythm (Number 30)',
             'dcterms:creator' => 'Jackson Pollock',
-            'dcterms:created' => ['@value' => '1950', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1950',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Expansive field of black, white, brown, and grey skeins of paint, one of Pollock\'s largest drip works, conveying the season\'s energy through gestural density and improvised flow.',
             'dcterms:subject' => [
                 'Painting',
@@ -4382,7 +6011,13 @@ return [
                 -73.9632,
                 40.7794,
             ],
-            'media' => 'autumn-rhythm.jpg',
+            'media' => [
+                [
+                    'file' => 'autumn-rhythm.jpg',
+                    'dcterms:title' => 'Autumn Rhythm (Number 30)',
+                    'dcterms:creator' => 'Jackson Pollock',
+                ],
+            ],
         ],
         [
             'id' => 'full-fathom-five',
@@ -4394,10 +6029,16 @@ return [
             'relations' => [
                 'no-31-pollock',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q5508036', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q5508036',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Full Fathom Five',
             'dcterms:creator' => 'Jackson Pollock',
-            'dcterms:created' => ['@value' => '1947', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1947',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Early drip painting incorporating nails, buttons, tacks, and cigarettes into the painted surface, its title from Shakespeare\'s Tempest and its texture evoking the ocean floor.',
             'dcterms:subject' => [
                 'Painting',
@@ -4412,7 +6053,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'full-fathom-five.jpg',
+            'media' => [
+                [
+                    'file' => 'full-fathom-five.jpg',
+                    'dcterms:title' => 'Full Fathom Five',
+                    'dcterms:creator' => 'Jackson Pollock',
+                ],
+            ],
         ],
         [
             'id' => 'woman-i',
@@ -4426,10 +6073,16 @@ return [
                 'autumn-rhythm',
                 'orange-and-yellow',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3569753', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3569753',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Woman I',
             'dcterms:creator' => 'Willem de Kooning',
-            'dcterms:created' => ['@value' => '1952', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1952',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Monumental female figure assembled from slashing brushstrokes in a process of continual revision over two years; the ambivalent image of a goddess and a devouring predator shocked the art world.',
             'dcterms:subject' => [
                 'Painting',
@@ -4445,7 +6098,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'woman-i.jpg',
+            'media' => [
+                [
+                    'file' => 'woman-i.jpg',
+                    'dcterms:title' => 'Woman I',
+                    'dcterms:creator' => 'Willem de Kooning',
+                ],
+            ],
         ],
         [
             'id' => 'orange-and-yellow',
@@ -4459,10 +6118,16 @@ return [
                 'no-31-pollock',
                 'woman-i',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3355073', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3355073',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Orange and Yellow',
             'dcterms:creator' => 'Mark Rothko',
-            'dcterms:created' => ['@value' => '1956', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1956',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Two hovering rectangles of orange and yellow create an immersive, contemplative field; Rothko insisted his colour field paintings were not abstract but deeply humanistic in content.',
             'dcterms:subject' => [
                 'Painting',
@@ -4478,7 +6143,13 @@ return [
                 -78.8818,
                 42.9305,
             ],
-            'media' => 'orange-and-yellow.jpg',
+            'media' => [
+                [
+                    'file' => 'orange-and-yellow.jpg',
+                    'dcterms:title' => 'Orange and Yellow',
+                    'dcterms:creator' => 'Mark Rothko',
+                ],
+            ],
         ],
         [
             'id' => 'no-61-rust-and-blue',
@@ -4490,10 +6161,16 @@ return [
             'relations' => [
                 'orange-and-yellow',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q4540018', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q4540018',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'No. 61 (Rust and Blue)',
             'dcterms:creator' => 'Mark Rothko',
-            'dcterms:created' => ['@value' => '1953', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1953',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Characteristic stacked rectangles of rust and blue floating on a dark ground; the tremulous edges and colour temperature fluctuations create an experience of concentrated inwardness.',
             'dcterms:subject' => [
                 'Painting',
@@ -4509,7 +6186,13 @@ return [
                 -118.2501,
                 34.0535,
             ],
-            'media' => 'no-61-rust-and-blue.jpg',
+            'media' => [
+                [
+                    'file' => 'no-61-rust-and-blue.jpg',
+                    'dcterms:title' => 'No. 61 (Rust and Blue)',
+                    'dcterms:creator' => 'Mark Rothko',
+                ],
+            ],
         ],
         [
             'id' => 'mountains-and-sea',
@@ -4523,10 +6206,16 @@ return [
                 'woman-i',
                 'orange-and-yellow',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q65048093', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q65048093',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Mountains and Sea',
             'dcterms:creator' => 'Helen Frankenthaler',
-            'dcterms:created' => ['@value' => '1952', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1952',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Stained directly into unprimed canvas with thinned paint, producing translucent washes of pink, blue, and green; the soak-stain technique Frankenthaler pioneered here influenced Color Field painting.',
             'dcterms:subject' => [
                 'Painting',
@@ -4542,7 +6231,13 @@ return [
                 -77.0199,
                 38.8913,
             ],
-            'media' => 'mountains-and-sea.jpg',
+            'media' => [
+                [
+                    'file' => 'mountains-and-sea.jpg',
+                    'dcterms:title' => 'Mountains and Sea',
+                    'dcterms:creator' => 'Helen Frankenthaler',
+                ],
+            ],
         ],
         [
             'id' => 'campbells-soup-cans',
@@ -4554,10 +6249,16 @@ return [
             'relations' => [
                 'marilyn-diptych',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2697937', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2697937',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Campbell\'s Soup Cans',
             'dcterms:creator' => 'Andy Warhol',
-            'dcterms:created' => ['@value' => '1962', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1962',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Thirty-two canvases each depicting a variety of Campbell\'s condensed soup, exhibited on shelves as if in a supermarket; the work erased distinctions between commercial and fine art.',
             'dcterms:subject' => [
                 'Painting',
@@ -4572,7 +6273,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'campbells-soup-cans.jpg',
+            'media' => [
+                [
+                    'file' => 'campbells-soup-cans.jpg',
+                    'dcterms:title' => 'Campbell\'s Soup Cans',
+                    'dcterms:creator' => 'Andy Warhol',
+                ],
+            ],
         ],
         [
             'id' => 'marilyn-diptych',
@@ -4584,10 +6291,16 @@ return [
             'relations' => [
                 'campbells-soup-cans',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q573949', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q573949',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Marilyn Diptych',
             'dcterms:creator' => 'Andy Warhol',
-            'dcterms:created' => ['@value' => '1962', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1962',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Fifty silkscreened images of Marilyn Monroe, vivid and black-and-white, made weeks after her death; the repetition and fading explore fame, reproducibility, and mortality.',
             'dcterms:subject' => [
                 'Painting',
@@ -4603,7 +6316,13 @@ return [
                 -0.0994,
                 51.5076,
             ],
-            'media' => 'marilyn-diptych.jpg',
+            'media' => [
+                [
+                    'file' => 'marilyn-diptych.jpg',
+                    'dcterms:title' => 'Marilyn Diptych',
+                    'dcterms:creator' => 'Andy Warhol',
+                ],
+            ],
         ],
         [
             'id' => 'whaam',
@@ -4615,10 +6334,16 @@ return [
             'relations' => [
                 'drowning-girl',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3567592', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3567592',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Whaam!',
             'dcterms:creator' => 'Roy Lichtenstein',
-            'dcterms:created' => ['@value' => '1963', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1963',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Two-panel diptych from a DC war comic enlarged to mural scale, the explosion and fighter-pilot captions rendered in Ben-Day dots; a critique of mass-media violence and pictorial convention.',
             'dcterms:subject' => [
                 'Painting',
@@ -4634,7 +6359,13 @@ return [
                 -0.0994,
                 51.5076,
             ],
-            'media' => 'whaam.jpg',
+            'media' => [
+                [
+                    'file' => 'whaam.jpg',
+                    'dcterms:title' => 'Whaam!',
+                    'dcterms:creator' => 'Roy Lichtenstein',
+                ],
+            ],
         ],
         [
             'id' => 'drowning-girl',
@@ -4646,10 +6377,16 @@ return [
             'relations' => [
                 'whaam',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q5308687', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q5308687',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Drowning Girl',
             'dcterms:creator' => 'Roy Lichtenstein',
-            'dcterms:created' => ['@value' => '1963', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1963',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Weeping woman in a comic-book sea resigns herself to drowning rather than call Brad; the Ben-Day dot enlargement and melodramatic caption expose the emotional codes of mass-print romance.',
             'dcterms:subject' => [
                 'Painting',
@@ -4665,7 +6402,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'drowning-girl.jpg',
+            'media' => [
+                [
+                    'file' => 'drowning-girl.jpg',
+                    'dcterms:title' => 'Drowning Girl',
+                    'dcterms:creator' => 'Roy Lichtenstein',
+                ],
+            ],
         ],
         [
             'id' => 'a-bigger-splash',
@@ -4680,10 +6423,16 @@ return [
                 'whaam',
                 'drowning-girl',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q673984', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q673984',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'A Bigger Splash',
             'dcterms:creator' => 'David Hockney',
-            'dcterms:created' => ['@value' => '1967', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1967',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A plunge into a Californian swimming pool rendered with meticulous flatness; the mechanically perfect diving board and house contrast with the irrational splash, the only spontaneous gesture.',
             'dcterms:subject' => [
                 'Painting',
@@ -4699,7 +6448,13 @@ return [
                 -0.0994,
                 51.5076,
             ],
-            'media' => 'a-bigger-splash.gif',
+            'media' => [
+                [
+                    'file' => 'a-bigger-splash.gif',
+                    'dcterms:title' => 'A Bigger Splash',
+                    'dcterms:creator' => 'David Hockney',
+                ],
+            ],
         ],
         [
             'id' => 'flag-johns',
@@ -4714,10 +6469,16 @@ return [
                 'a-bigger-splash',
                 'just-what-is-it',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q5456612', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q5456612',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Flag',
             'dcterms:creator' => 'Jasper Johns',
-            'dcterms:created' => ['@value' => '1954', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1954',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Encaustic over newspaper collage reproducing the American flag at near life-size; by painting a pre-existing image Johns raised questions about representation, perception, and artistic intention.',
             'dcterms:subject' => [
                 'Painting',
@@ -4732,7 +6493,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'flag-johns.jpg',
+            'media' => [
+                [
+                    'file' => 'flag-johns.jpg',
+                    'dcterms:title' => 'Flag',
+                    'dcterms:creator' => 'Jasper Johns',
+                ],
+            ],
         ],
         [
             'id' => 'just-what-is-it',
@@ -4746,10 +6513,16 @@ return [
                 'flag-johns',
                 'a-bigger-splash',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3190307', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3190307',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Just What Is It That Makes Today\'s Homes So Different, So Appealing?',
             'dcterms:creator' => 'Richard Hamilton',
-            'dcterms:created' => ['@value' => '1956', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1956',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Small collage assembling magazine cut-outs of a muscleman and a pin-up in a modern interior surrounded by consumer goods and pop-culture imagery; a founding text of British Pop Art.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -4765,7 +6538,13 @@ return [
                 9.055,
                 48.5206,
             ],
-            'media' => 'just-what-is-it.jpg',
+            'media' => [
+                [
+                    'file' => 'just-what-is-it.jpg',
+                    'dcterms:title' => 'Just What Is It That Makes Today\'s Homes So Different, So Appealing?',
+                    'dcterms:creator' => 'Richard Hamilton',
+                ],
+            ],
         ],
         [
             'id' => 'ophelia-millais',
@@ -4777,10 +6556,16 @@ return [
             'relations' => [
                 'beata-beatrix',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q15616', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q15616',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Ophelia',
             'dcterms:creator' => 'John Everett Millais',
-            'dcterms:created' => ['@value' => '1851', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1851',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Ophelia floats among flowers in a Surrey stream, drowning as she sings; the model Elizabeth Siddal lay in a bath of water for hours, and every plant and flower was identified by botanists.',
             'dcterms:subject' => [
                 'Painting',
@@ -4796,7 +6581,13 @@ return [
                 -0.1276,
                 51.4912,
             ],
-            'media' => 'ophelia-millais.jpg',
+            'media' => [
+                [
+                    'file' => 'ophelia-millais.jpg',
+                    'dcterms:title' => 'Ophelia',
+                    'dcterms:creator' => 'John Everett Millais',
+                ],
+            ],
         ],
         [
             'id' => 'beata-beatrix',
@@ -4809,10 +6600,16 @@ return [
                 'ophelia-millais',
                 'proserpine',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2712679', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2712679',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Beata Beatrix',
             'dcterms:creator' => 'Dante Gabriel Rossetti',
-            'dcterms:created' => ['@value' => '1864', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1864',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A meditation on the death of Dante\'s Beatrice — and of Rossetti\'s own wife Elizabeth Siddal — the trance-like figure suffused in golden light symbolises the moment of the soul\'s transition.',
             'dcterms:subject' => [
                 'Painting',
@@ -4828,7 +6625,13 @@ return [
                 -0.1276,
                 51.4912,
             ],
-            'media' => 'beata-beatrix.jpg',
+            'media' => [
+                [
+                    'file' => 'beata-beatrix.jpg',
+                    'dcterms:title' => 'Beata Beatrix',
+                    'dcterms:creator' => 'Dante Gabriel Rossetti',
+                ],
+            ],
         ],
         [
             'id' => 'lady-of-shalott',
@@ -4843,10 +6646,16 @@ return [
                 'beata-beatrix',
                 'proserpine',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2091538', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2091538',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Lady of Shalott',
             'dcterms:creator' => 'John William Waterhouse',
-            'dcterms:created' => ['@value' => '1888', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1888',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Tennyson\'s cursed Lady, confined to weaving and mirrors, sets out in a boat toward Camelot; Waterhouse\'s lush, detailed canvas is the best-known Victorian reinterpretation of the Arthurian legend.',
             'dcterms:subject' => [
                 'Painting',
@@ -4862,7 +6671,13 @@ return [
                 -0.1276,
                 51.4912,
             ],
-            'media' => 'lady-of-shalott.jpg',
+            'media' => [
+                [
+                    'file' => 'lady-of-shalott.jpg',
+                    'dcterms:title' => 'The Lady of Shalott',
+                    'dcterms:creator' => 'John William Waterhouse',
+                ],
+            ],
         ],
         [
             'id' => 'proserpine',
@@ -4874,10 +6689,16 @@ return [
             'relations' => [
                 'beata-beatrix',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q977777', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q977777',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Proserpine',
             'dcterms:creator' => 'Dante Gabriel Rossetti',
-            'dcterms:created' => ['@value' => '1874', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1874',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Proserpine holds a pomegranate that seals her fate as queen of the underworld, painted as an allegory of captive beauty; modelled by Jane Morris, with whom Rossetti was in love.',
             'dcterms:subject' => [
                 'Painting',
@@ -4893,7 +6714,13 @@ return [
                 -0.1276,
                 51.4912,
             ],
-            'media' => 'proserpine.jpeg',
+            'media' => [
+                [
+                    'file' => 'proserpine.jpeg',
+                    'dcterms:title' => 'Proserpine',
+                    'dcterms:creator' => 'Dante Gabriel Rossetti',
+                ],
+            ],
         ],
         [
             'id' => 'hylas-and-the-nymphs',
@@ -4905,10 +6732,16 @@ return [
             'relations' => [
                 'lady-of-shalott',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q9295442', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q9295442',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Hylas and the Nymphs',
             'dcterms:creator' => 'John William Waterhouse',
-            'dcterms:created' => ['@value' => '1896', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1896',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'The youth Hylas leans toward the water nymphs who reach up to draw him into their pool; Waterhouse\'s most sensuously painted Pre-Raphaelite mythological subject.',
             'dcterms:subject' => [
                 'Painting',
@@ -4924,7 +6757,13 @@ return [
                 -2.2375,
                 53.4792,
             ],
-            'media' => 'hylas-and-the-nymphs.jpg',
+            'media' => [
+                [
+                    'file' => 'hylas-and-the-nymphs.jpg',
+                    'dcterms:title' => 'Hylas and the Nymphs',
+                    'dcterms:creator' => 'John William Waterhouse',
+                ],
+            ],
         ],
         [
             'id' => 'light-of-the-world',
@@ -4938,10 +6777,16 @@ return [
                 'beata-beatrix',
                 'lady-of-shalott',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1757920', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1757920',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Light of the World',
             'dcterms:creator' => 'William Holman Hunt',
-            'dcterms:created' => ['@value' => '1853', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1853',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Christ holding a lantern knocks at an overgrown door with no outside handle, symbolising the soul that can only be opened from within; one of the most recognised Victorian religious images.',
             'dcterms:subject' => [
                 'Painting',
@@ -4957,7 +6802,13 @@ return [
                 -0.1282,
                 51.5097,
             ],
-            'media' => 'light-of-the-world.jpg',
+            'media' => [
+                [
+                    'file' => 'light-of-the-world.jpg',
+                    'dcterms:title' => 'The Light of the World',
+                    'dcterms:creator' => 'William Holman Hunt',
+                ],
+            ],
         ],
         [
             'id' => 'wilton-diptych',
@@ -4971,10 +6822,16 @@ return [
                 'book-of-hours-catherine-of-cleves',
                 'ognissanti-madonna',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1813497', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1813497',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Wilton Diptych',
             'dcterms:creator' => 'Unknown',
-            'dcterms:created' => ['@value' => '1395', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1395',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Portable diptych showing Richard II of England presented to the Virgin and Child by saints, the vivid lapis blue of the angels\' robes and the gold ground epitomising International Gothic refinement.',
             'dcterms:subject' => [
                 'Painting',
@@ -4990,7 +6847,13 @@ return [
                 -0.1285,
                 51.5089,
             ],
-            'media' => 'wilton-diptych.jpg',
+            'media' => [
+                [
+                    'file' => 'wilton-diptych.jpg',
+                    'dcterms:title' => 'The Wilton Diptych',
+                    'dcterms:creator' => 'Unknown',
+                ],
+            ],
         ],
         [
             'id' => 'ognissanti-madonna',
@@ -5003,10 +6866,16 @@ return [
                 'maesta-duccio',
                 'wilton-diptych',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2016193', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2016193',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Ognissanti Madonna',
             'dcterms:creator' => 'Giotto di Bondone',
-            'dcterms:created' => ['@value' => '1310', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1310',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'The Virgin enthroned as Queen of Heaven amid angels and saints, painted for the Ognissanti church in Florence; a revolutionary step toward three-dimensional space and psychological presence.',
             'dcterms:subject' => [
                 'Painting',
@@ -5022,7 +6891,13 @@ return [
                 11.2558,
                 43.7678,
             ],
-            'media' => 'ognissanti-madonna.jpg',
+            'media' => [
+                [
+                    'file' => 'ognissanti-madonna.jpg',
+                    'dcterms:title' => 'Ognissanti Madonna',
+                    'dcterms:creator' => 'Giotto di Bondone',
+                ],
+            ],
         ],
         [
             'id' => 'maesta-duccio',
@@ -5036,10 +6911,16 @@ return [
                 'wilton-diptych',
                 'divine-comedy-manuscript',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q667202', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q667202',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Maestà',
             'dcterms:creator' => 'Duccio di Buoninsegna',
-            'dcterms:created' => ['@value' => '1308', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1308',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Double-sided altarpiece with the Virgin enthroned on one side and the Passion cycle on the other; the procession of the completed work through Siena\'s streets was a civic celebration.',
             'dcterms:subject' => [
                 'Painting',
@@ -5055,7 +6936,13 @@ return [
                 11.3296,
                 43.3188,
             ],
-            'media' => 'maesta-duccio.jpg',
+            'media' => [
+                [
+                    'file' => 'maesta-duccio.jpg',
+                    'dcterms:title' => 'Maestà',
+                    'dcterms:creator' => 'Duccio di Buoninsegna',
+                ],
+            ],
         ],
         [
             'id' => 'stone-city-iowa',
@@ -5068,10 +6955,16 @@ return [
                 'american-gothic',
                 'cradling-wheat',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q30041900', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q30041900',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Stone City, Iowa',
             'dcterms:creator' => 'Grant Wood',
-            'dcterms:created' => ['@value' => '1930', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1930',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Panoramic view of a rolling Iowa valley with rounded, stylised hills and orderly farms, evoking an idealized agrarian America in Wood\'s characteristic semi-naïve Regionalist style.',
             'dcterms:subject' => [
                 'Painting',
@@ -5086,7 +6979,13 @@ return [
                 -95.9504,
                 41.2602,
             ],
-            'media' => 'stone-city-iowa.jpg',
+            'media' => [
+                [
+                    'file' => 'stone-city-iowa.jpg',
+                    'dcterms:title' => 'Stone City, Iowa',
+                    'dcterms:creator' => 'Grant Wood',
+                ],
+            ],
         ],
         [
             'id' => 'cradling-wheat',
@@ -5099,10 +6998,16 @@ return [
                 'american-gothic',
                 'stone-city-iowa',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q78663009', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q78663009',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Cradling Wheat',
             'dcterms:creator' => 'Thomas Hart Benton',
-            'dcterms:created' => ['@value' => '1938', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1938',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Rhythmic composition of farmhands harvesting wheat in a Missouri field, the muscular bodies and rolling land unified by Benton\'s sinuous, sculptural brushwork.',
             'dcterms:subject' => [
                 'Painting',
@@ -5118,7 +7023,13 @@ return [
                 -90.2958,
                 38.6289,
             ],
-            'media' => 'cradling-wheat.jpg',
+            'media' => [
+                [
+                    'file' => 'cradling-wheat.jpg',
+                    'dcterms:title' => 'Cradling Wheat',
+                    'dcterms:creator' => 'Thomas Hart Benton',
+                ],
+            ],
         ],
         [
             'id' => 'psyche-revived',
@@ -5131,10 +7042,16 @@ return [
                 'perseus-triumphant',
                 'apotheosis-of-homer',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q517408', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q517408',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Psyche Revived by Cupid\'s Kiss',
             'dcterms:creator' => 'Antonio Canova',
-            'dcterms:created' => ['@value' => '1793', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1793',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Marble group in which Cupid raises the swooning Psyche with a kiss, the intertwined figures displaying Canova\'s virtuoso command of texture — feathers, hair, flesh — in cold stone.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -5149,7 +7066,13 @@ return [
                 2.3364,
                 48.8606,
             ],
-            'media' => 'psyche-revived.jpg',
+            'media' => [
+                [
+                    'file' => 'psyche-revived.jpg',
+                    'dcterms:title' => 'Psyche Revived by Cupid\'s Kiss',
+                    'dcterms:creator' => 'Antonio Canova',
+                ],
+            ],
         ],
         [
             'id' => 'perseus-triumphant',
@@ -5161,10 +7084,16 @@ return [
             'relations' => [
                 'laocoon-and-his-sons',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q29383614', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q29383614',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Perseus Triumphant',
             'dcterms:creator' => 'Antonio Canova',
-            'dcterms:created' => ['@value' => '1804', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1804',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Perseus holds the severed head of Medusa at arm\'s length, the body relaxed in a classical contrapposto; acquired by Pope Pius VII to fill the niche vacated by the Laocoön during Napoleonic looting.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -5179,7 +7108,13 @@ return [
                 12.4534,
                 41.9065,
             ],
-            'media' => 'perseus-triumphant.jpg',
+            'media' => [
+                [
+                    'file' => 'perseus-triumphant.jpg',
+                    'dcterms:title' => 'Perseus Triumphant',
+                    'dcterms:creator' => 'Antonio Canova',
+                ],
+            ],
         ],
         [
             'id' => 'dying-gaul',
@@ -5194,10 +7129,16 @@ return [
                 'laocoon-and-his-sons',
                 'boxer-at-rest',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q848790', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q848790',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Dying Gaul',
             'dcterms:creator' => 'Unknown',
-            'dcterms:created' => ['@value' => '-0225', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '-0225',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A wounded Gallic warrior sinks to the ground, his torc and tousled hair identifying his Celtic origin; originally from a monument commissioned by Attalos I of Pergamon to celebrate his victory.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -5212,7 +7153,13 @@ return [
                 12.4829,
                 41.8937,
             ],
-            'media' => 'dying-gaul.jpg',
+            'media' => [
+                [
+                    'file' => 'dying-gaul.jpg',
+                    'dcterms:title' => 'Dying Gaul',
+                    'dcterms:creator' => 'Unknown',
+                ],
+            ],
         ],
         [
             'id' => 'boxer-at-rest',
@@ -5227,10 +7174,16 @@ return [
                 'winged-victory-of-samothrace',
                 'laocoon-and-his-sons',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1398760', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1398760',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Boxer at Rest',
             'dcterms:creator' => 'Unknown',
-            'dcterms:created' => ['@value' => '-0099', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '-0099',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A weary pugilist sits with bruised, bandaged hands resting on his knees, blood still visible on his face; the most psychologically acute portrait of physical suffering to survive from antiquity.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -5246,7 +7199,13 @@ return [
                 12.4979,
                 41.8996,
             ],
-            'media' => 'boxer-at-rest.jpg',
+            'media' => [
+                [
+                    'file' => 'boxer-at-rest.jpg',
+                    'dcterms:title' => 'Boxer at Rest',
+                    'dcterms:creator' => 'Unknown',
+                ],
+            ],
         ],
         [
             'id' => 'doryphoros',
@@ -5260,10 +7219,16 @@ return [
                 'hermes-infant-dionysus',
                 'venus-de-milo',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1136305', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1136305',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Doryphoros (Spear Bearer)',
             'dcterms:creator' => 'After Polykleitos',
-            'dcterms:created' => ['@value' => '-0450', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '-0450',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Roman marble copy of Polykleitos\'s celebrated bronze embodying his Canon of ideal proportions, the weight-shift of contrapposto creating a dynamic yet stable figure of perfect mathematical harmony.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -5279,7 +7244,13 @@ return [
                 14.2519,
                 40.8543,
             ],
-            'media' => 'doryphoros.jpg',
+            'media' => [
+                [
+                    'file' => 'doryphoros.jpg',
+                    'dcterms:title' => 'Doryphoros (Spear Bearer)',
+                    'dcterms:creator' => 'After Polykleitos',
+                ],
+            ],
         ],
         [
             'id' => 'hermes-infant-dionysus',
@@ -5293,10 +7264,16 @@ return [
                 'the-discobolus',
                 'venus-de-milo',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1518432', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1518432',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Hermes and the Infant Dionysus',
             'dcterms:creator' => 'Praxiteles',
-            'dcterms:created' => ['@value' => '-0330', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '-0330',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Hermes pauses to rest while cradling the infant Dionysus, the languid pose and sensuous surface texture exemplifying the fourth-century Greek move toward lyrical, emotionally accessible sculpture.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -5311,7 +7288,13 @@ return [
                 21.6286,
                 37.6375,
             ],
-            'media' => 'hermes-infant-dionysus.jpg',
+            'media' => [
+                [
+                    'file' => 'hermes-infant-dionysus.jpg',
+                    'dcterms:title' => 'Hermes and the Infant Dionysus',
+                    'dcterms:creator' => 'Praxiteles',
+                ],
+            ],
         ],
         [
             'id' => 'mask-of-tutankhamun',
@@ -5325,10 +7308,16 @@ return [
                 'bust-of-nefertiti',
                 'narmer-palette',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q9048095', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q9048095',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Mask of Tutankhamun',
             'dcterms:creator' => 'Unknown',
-            'dcterms:created' => ['@value' => '-1323', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '-1323',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Funerary mask of hammered gold inlaid with lapis lazuli, carnelian, and coloured glass, placed over the mummy\'s head to preserve the pharaoh\'s likeness for eternity.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -5344,7 +7333,13 @@ return [
                 31.233,
                 30.0479,
             ],
-            'media' => 'mask-of-tutankhamun.jpg',
+            'media' => [
+                [
+                    'file' => 'mask-of-tutankhamun.jpg',
+                    'dcterms:title' => 'Mask of Tutankhamun',
+                    'dcterms:creator' => 'Unknown',
+                ],
+            ],
         ],
         [
             'id' => 'narmer-palette',
@@ -5358,10 +7353,16 @@ return [
                 'bust-of-nefertiti',
                 'mask-of-tutankhamun',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q368138', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q368138',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Narmer Palette',
             'dcterms:creator' => 'Unknown',
-            'dcterms:created' => ['@value' => '-3100', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '-3100',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Ceremonial cosmetic palette depicting King Narmer smiting an enemy, one of the earliest examples of hieroglyphics and the canonical Egyptian artistic conventions of combined profile and frontal view.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -5377,7 +7378,13 @@ return [
                 31.233,
                 30.0479,
             ],
-            'media' => 'narmer-palette.jpg',
+            'media' => [
+                [
+                    'file' => 'narmer-palette.jpg',
+                    'dcterms:title' => 'Narmer Palette',
+                    'dcterms:creator' => 'Unknown',
+                ],
+            ],
         ],
         [
             'id' => 'red-fuji',
@@ -5389,10 +7396,16 @@ return [
             'relations' => [
                 'the-great-wave-off-kanagawa',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3565037', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3565037',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Fine Wind, Clear Morning (Red Fuji)',
             'dcterms:creator' => 'Katsushika Hokusai',
-            'dcterms:created' => ['@value' => '1831', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1831',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Mount Fuji emerges from a band of cloud tinted deep scarlet by the morning sun, the most celebrated of Hokusai\'s Thirty-six Views; a model of compositional boldness and atmospheric restraint.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -5407,7 +7420,13 @@ return [
                 -73.9632,
                 40.7794,
             ],
-            'media' => 'red-fuji.jpg',
+            'media' => [
+                [
+                    'file' => 'red-fuji.jpg',
+                    'dcterms:title' => 'Fine Wind, Clear Morning (Red Fuji)',
+                    'dcterms:creator' => 'Katsushika Hokusai',
+                ],
+            ],
         ],
         [
             'id' => 'sudden-shower-shin-ohashi',
@@ -5422,10 +7441,16 @@ return [
                 'the-great-wave-off-kanagawa',
                 'red-fuji',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q5826309', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q5826309',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Sudden Shower over Shin-Ōhashi Bridge',
             'dcterms:creator' => 'Utagawa Hiroshige',
-            'dcterms:created' => ['@value' => '1857', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1857',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Diagonal rain slashes across the bridge while pedestrians rush for cover; from the series One Hundred Famous Views of Edo, it directly influenced van Gogh, who painted a copy.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -5441,7 +7466,13 @@ return [
                 -73.9626,
                 40.6712,
             ],
-            'media' => 'sudden-shower-shin-ohashi.jpg',
+            'media' => [
+                [
+                    'file' => 'sudden-shower-shin-ohashi.jpg',
+                    'dcterms:title' => 'Sudden Shower over Shin-Ōhashi Bridge',
+                    'dcterms:creator' => 'Utagawa Hiroshige',
+                ],
+            ],
         ],
         [
             'id' => 'plum-estate',
@@ -5453,10 +7484,16 @@ return [
             'relations' => [
                 'sudden-shower-shin-ohashi',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q21127606', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q21127606',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Plum Estate, Kameido',
             'dcterms:creator' => 'Utagawa Hiroshige',
-            'dcterms:created' => ['@value' => '1857', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1857',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Old plum trees in blossom are seen through a bold vertical frame, the branches cropped so dramatically that they became a touchstone for Japonisme and Impressionist composition.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -5472,7 +7509,13 @@ return [
                 -73.9626,
                 40.6712,
             ],
-            'media' => 'plum-estate.jpeg',
+            'media' => [
+                [
+                    'file' => 'plum-estate.jpeg',
+                    'dcterms:title' => 'Plum Estate, Kameido',
+                    'dcterms:creator' => 'Utagawa Hiroshige',
+                ],
+            ],
         ],
         [
             'id' => 'cuckoo-and-azalea',
@@ -5489,7 +7532,10 @@ return [
             ],
             'dcterms:title' => 'Cuckoo and Azalea',
             'dcterms:creator' => 'Utagawa Hiroshige',
-            'dcterms:created' => ['@value' => '1833', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1833',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A cuckoo in flight above a spray of red azalea blossoms, from the series A Selection of Birds; the asymmetric placement and restrained palette exemplify haiku-like economy.',
             'dcterms:subject' => [
                 'Works on Paper',
@@ -5505,7 +7551,13 @@ return [
                 -73.9632,
                 40.7794,
             ],
-            'media' => 'cuckoo-and-azalea.jpg',
+            'media' => [
+                [
+                    'file' => 'cuckoo-and-azalea.jpg',
+                    'dcterms:title' => 'Cuckoo and Azalea',
+                    'dcterms:creator' => 'Utagawa Hiroshige',
+                ],
+            ],
         ],
         [
             'id' => 'belles-heures',
@@ -5517,10 +7569,16 @@ return [
             'relations' => [
                 'tres-riches-heures',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1959777', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1959777',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Belles Heures of Jean de Berry',
             'dcterms:creator' => 'Limbourg Brothers',
-            'dcterms:created' => ['@value' => '1408', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1408',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Book of hours made for the Duke of Berry, containing ninety-four full-page miniatures of exceptional detail and colour; the brothers\' finest surviving collaborative manuscript.',
             'dcterms:subject' => [
                 'Manuscript',
@@ -5535,7 +7593,13 @@ return [
                 -73.9632,
                 40.7794,
             ],
-            'media' => 'belles-heures.jpg',
+            'media' => [
+                [
+                    'file' => 'belles-heures.jpg',
+                    'dcterms:title' => 'Belles Heures of Jean de Berry',
+                    'dcterms:creator' => 'Limbourg Brothers',
+                ],
+            ],
         ],
         [
             'id' => 'hours-of-jeanne-devreux',
@@ -5550,10 +7614,16 @@ return [
                 'belles-heures',
                 'windmill-psalter',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1516907', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1516907',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Hours of Jeanne d\'Évreux',
             'dcterms:creator' => 'Jean Pucelle',
-            'dcterms:created' => ['@value' => '1326', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1326',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Pocket-sized book of hours made for the Queen of France, remarkable for its grisaille miniatures and margins teeming with drolleries; a technical tour de force in a format barely larger than a hand.',
             'dcterms:subject' => [
                 'Manuscript',
@@ -5568,7 +7638,13 @@ return [
                 -73.9632,
                 40.7794,
             ],
-            'media' => 'hours-of-jeanne-devreux.jpg',
+            'media' => [
+                [
+                    'file' => 'hours-of-jeanne-devreux.jpg',
+                    'dcterms:title' => 'Hours of Jeanne d\'Évreux',
+                    'dcterms:creator' => 'Jean Pucelle',
+                ],
+            ],
         ],
         [
             'id' => 'windmill-psalter',
@@ -5582,7 +7658,10 @@ return [
             ],
             'dcterms:title' => 'Windmill Psalter',
             'dcterms:creator' => 'Unknown (English)',
-            'dcterms:created' => ['@value' => '1290', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1290',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'English psalter named for its famous initial B containing a windmill, divided between two pages whose facing halves must be read together; a virtuoso demonstration of Gothic illumination.',
             'dcterms:subject' => [
                 'Manuscript',
@@ -5597,7 +7676,13 @@ return [
                 -73.982,
                 40.7491,
             ],
-            'media' => 'windmill-psalter.jpg',
+            'media' => [
+                [
+                    'file' => 'windmill-psalter.jpg',
+                    'dcterms:title' => 'Windmill Psalter',
+                    'dcterms:creator' => 'Unknown (English)',
+                ],
+            ],
         ],
         [
             'id' => 'rabbula-gospels',
@@ -5609,10 +7694,16 @@ return [
             'relations' => [
                 'vienna-genesis',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1246486', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1246486',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Rabbula Gospels',
             'dcterms:creator' => 'Unknown',
-            'dcterms:created' => ['@value' => '0586', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '0586',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Syrian Gospel book written and illuminated at the monastery of Zagba, containing the earliest dated image of the Crucifixion and Resurrection in Christian art.',
             'dcterms:subject' => [
                 'Manuscript',
@@ -5628,7 +7719,13 @@ return [
                 11.2541,
                 43.7734,
             ],
-            'media' => 'rabbula-gospels.jpg',
+            'media' => [
+                [
+                    'file' => 'rabbula-gospels.jpg',
+                    'dcterms:title' => 'Rabbula Gospels',
+                    'dcterms:creator' => 'Unknown',
+                ],
+            ],
         ],
         [
             'id' => 'burial-of-count-of-orgaz',
@@ -5641,10 +7738,16 @@ return [
                 'las-meninas',
                 'portrait-pope-innocent-x',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q94802', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q94802',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Burial of the Count of Orgaz',
             'dcterms:creator' => 'El Greco',
-            'dcterms:created' => ['@value' => '1588', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1588',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Monumental altarpiece showing the miraculous burial of Count Gonzalo Ruíz de Toledo attended by Saints Augustine and Stephen, while above a heavenly host receives his soul — El Greco\'s masterpiece and the height of Spanish Mannerism.',
             'dcterms:subject' => [
                 'Painting',
@@ -5659,7 +7762,13 @@ return [
                 -4.0286,
                 39.8581,
             ],
-            'media' => 'burial-of-count-of-orgaz.jpg',
+            'media' => [
+                [
+                    'file' => 'burial-of-count-of-orgaz.jpg',
+                    'dcterms:title' => 'The Burial of the Count of Orgaz',
+                    'dcterms:creator' => 'El Greco',
+                ],
+            ],
         ],
         [
             'id' => 'venus-of-urbino',
@@ -5672,10 +7781,16 @@ return [
                 'the-birth-of-venus',
                 'la-grande-odalisque',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q727875', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q727875',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Venus of Urbino',
             'dcterms:creator' => 'Titian',
-            'dcterms:created' => ['@value' => '1538', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1538',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Reclining nude on a bed, gazing directly at the viewer with a small dog sleeping at her feet — a landmark of the Venetian Renaissance that set the template for the reclining female nude for centuries.',
             'dcterms:subject' => [
                 'Painting',
@@ -5690,7 +7805,13 @@ return [
                 11.2557,
                 43.7678,
             ],
-            'media' => 'venus-of-urbino.jpg',
+            'media' => [
+                [
+                    'file' => 'venus-of-urbino.jpg',
+                    'dcterms:title' => 'Venus of Urbino',
+                    'dcterms:creator' => 'Titian',
+                ],
+            ],
         ],
         [
             'id' => 'charles-i-at-the-hunt',
@@ -5704,10 +7825,16 @@ return [
                 'the-night-watch',
                 'laughing-cavalier',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3937485', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3937485',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Charles I at the Hunt',
             'dcterms:creator' => 'Anthony van Dyck',
-            'dcterms:created' => ['@value' => '1635', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1635',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Full-length portrait of King Charles I standing beside his horse in a hunting setting, projecting royal authority through studied informality — van Dyck\'s most celebrated image of the English king.',
             'dcterms:subject' => [
                 'Painting',
@@ -5722,7 +7849,13 @@ return [
                 2.3364,
                 48.8606,
             ],
-            'media' => 'charles-i-at-the-hunt.jpg',
+            'media' => [
+                [
+                    'file' => 'charles-i-at-the-hunt.jpg',
+                    'dcterms:title' => 'Charles I at the Hunt',
+                    'dcterms:creator' => 'Anthony van Dyck',
+                ],
+            ],
         ],
         [
             'id' => 'portrait-pope-innocent-x',
@@ -5735,10 +7868,16 @@ return [
                 'las-meninas',
                 'burial-of-count-of-orgaz',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q116286242', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q116286242',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Portrait of Pope Innocent X',
             'dcterms:creator' => 'Diego Velázquez',
-            'dcterms:created' => ['@value' => '1650', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1650',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Unflinching portrait of Pope Innocent X painted during Velázquez\'s second Italian journey, widely considered the finest papal portrait in Western art and a touchstone for Francis Bacon\'s screaming popes.',
             'dcterms:subject' => [
                 'Painting',
@@ -5753,7 +7892,13 @@ return [
                 12.4803,
                 41.8961,
             ],
-            'media' => 'portrait-pope-innocent-x.jpg',
+            'media' => [
+                [
+                    'file' => 'portrait-pope-innocent-x.jpg',
+                    'dcterms:title' => 'Portrait of Pope Innocent X',
+                    'dcterms:creator' => 'Diego Velázquez',
+                ],
+            ],
         ],
         [
             'id' => 'the-third-of-may',
@@ -5766,10 +7911,16 @@ return [
                 'saturn-devouring-his-son',
                 'the-sleep-of-reason',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1091086', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1091086',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Third of May 1808',
             'dcterms:creator' => 'Francisco Goya',
-            'dcterms:created' => ['@value' => '1814', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1814',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Depicting the execution of Madrid civilians by Napoleon\'s troops, the white-shirted figure with outstretched arms established the grammar of modern protest painting and prefigured Picasso\'s Guernica.',
             'dcterms:subject' => [
                 'Painting',
@@ -5784,7 +7935,13 @@ return [
                 -3.6921,
                 40.4138,
             ],
-            'media' => 'the-third-of-may.jpg',
+            'media' => [
+                [
+                    'file' => 'the-third-of-may.jpg',
+                    'dcterms:title' => 'The Third of May 1808',
+                    'dcterms:creator' => 'Francisco Goya',
+                ],
+            ],
         ],
         [
             'id' => 'toulouse-lautrec-moulin-rouge',
@@ -5798,10 +7955,16 @@ return [
                 'the-ballet-class',
                 'at-the-races',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3607521', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3607521',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'At the Moulin Rouge',
             'dcterms:creator' => 'Henri de Toulouse-Lautrec',
-            'dcterms:created' => ['@value' => '1892', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1892',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Interior scene of the Moulin Rouge cabaret populated with recognisable regulars including Lautrec himself, La Goulue, and Jane Avril — a defining document of Montmartre nightlife in the Belle Époque.',
             'dcterms:subject' => [
                 'Painting',
@@ -5816,7 +7979,13 @@ return [
                 -87.6237,
                 41.8796,
             ],
-            'media' => 'toulouse-lautrec-moulin-rouge.jpg',
+            'media' => [
+                [
+                    'file' => 'toulouse-lautrec-moulin-rouge.jpg',
+                    'dcterms:title' => 'At the Moulin Rouge',
+                    'dcterms:creator' => 'Henri de Toulouse-Lautrec',
+                ],
+            ],
         ],
         [
             'id' => 'i-and-the-village',
@@ -5829,10 +7998,16 @@ return [
                 'the-scream',
                 'the-dance-of-life',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2272215', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2272215',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'I and the Village',
             'dcterms:creator' => 'Marc Chagall',
-            'dcterms:created' => ['@value' => '1911', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1911',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Dreamlike composition overlapping a green-faced figure and a cow\'s head with fragmented images of a Russian village, combining Cubist structure with folk memory and Jewish mysticism.',
             'dcterms:subject' => [
                 'Painting',
@@ -5847,7 +8022,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'i-and-the-village.jpg',
+            'media' => [
+                [
+                    'file' => 'i-and-the-village.jpg',
+                    'dcterms:title' => 'I and the Village',
+                    'dcterms:creator' => 'Marc Chagall',
+                ],
+            ],
         ],
         [
             'id' => 'composition-red-blue-yellow',
@@ -5861,10 +8042,16 @@ return [
                 'les-demoiselles-davignon',
                 'the-city-rises',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q19609193', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q19609193',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Composition with Red, Blue and Yellow',
             'dcterms:creator' => 'Piet Mondrian',
-            'dcterms:created' => ['@value' => '1930', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1930',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Grid of black lines dividing the white canvas into rectangles of different sizes, three of which are filled with red, blue, and yellow — the purest expression of Mondrian\'s De Stijl principle of universal harmony through primary elements.',
             'dcterms:subject' => [
                 'Painting',
@@ -5879,7 +8066,13 @@ return [
                 8.548,
                 47.3706,
             ],
-            'media' => 'composition-red-blue-yellow.jpg',
+            'media' => [
+                [
+                    'file' => 'composition-red-blue-yellow.jpg',
+                    'dcterms:title' => 'Composition with Red, Blue and Yellow',
+                    'dcterms:creator' => 'Piet Mondrian',
+                ],
+            ],
         ],
         [
             'id' => 'nude-descending-staircase',
@@ -5893,10 +8086,16 @@ return [
                 'les-demoiselles-davignon',
                 'the-portuguese',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q421716', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q421716',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Nude Descending a Staircase, No. 2',
             'dcterms:creator' => 'Marcel Duchamp',
-            'dcterms:created' => ['@value' => '1912', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1912',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Sequential overlapping forms suggesting a figure in motion adapted from Cubism and chronophotography, scandalising the 1913 Armory Show with its implicit challenge to painting as a static art.',
             'dcterms:subject' => [
                 'Painting',
@@ -5911,7 +8110,13 @@ return [
                 -75.181,
                 39.9656,
             ],
-            'media' => 'nude-descending-staircase.jpg',
+            'media' => [
+                [
+                    'file' => 'nude-descending-staircase.jpg',
+                    'dcterms:title' => 'Nude Descending a Staircase, No. 2',
+                    'dcterms:creator' => 'Marcel Duchamp',
+                ],
+            ],
         ],
         [
             'id' => 'the-city-rises',
@@ -5925,10 +8130,16 @@ return [
                 'les-demoiselles-davignon',
                 'composition-red-blue-yellow',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q587514', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q587514',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The City Rises',
             'dcterms:creator' => 'Umberto Boccioni',
-            'dcterms:created' => ['@value' => '1910', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1910',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Swirling mass of horses, workers, and scaffolding rendered in broken colour and dynamic diagonals, celebrating industrialisation and the Futurist ideal of speed, energy, and collective labour.',
             'dcterms:subject' => [
                 'Painting',
@@ -5943,7 +8154,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'the-city-rises.jpg',
+            'media' => [
+                [
+                    'file' => 'the-city-rises.jpg',
+                    'dcterms:title' => 'The City Rises',
+                    'dcterms:creator' => 'Umberto Boccioni',
+                ],
+            ],
         ],
         [
             'id' => 'the-two-fridas',
@@ -5955,10 +8172,16 @@ return [
             'relations' => [
                 'self-portrait-thorn-necklace',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3232010', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3232010',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Two Fridas',
             'dcterms:creator' => 'Frida Kahlo',
-            'dcterms:created' => ['@value' => '1939', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1939',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Two self-portraits of the artist side by side — one in European dress with an exposed, severed heart and one in Tehuana dress — painted during her divorce from Diego Rivera and read as a meditation on dual cultural identity.',
             'dcterms:subject' => [
                 'Painting',
@@ -5973,7 +8196,13 @@ return [
                 -99.1675,
                 19.4195,
             ],
-            'media' => 'the-two-fridas.jpg',
+            'media' => [
+                [
+                    'file' => 'the-two-fridas.jpg',
+                    'dcterms:title' => 'The Two Fridas',
+                    'dcterms:creator' => 'Frida Kahlo',
+                ],
+            ],
         ],
         [
             'id' => 'madame-x',
@@ -5986,10 +8215,16 @@ return [
                 'olympia',
                 'whistlers-mother',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q411578', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q411578',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Madame X (Madame Pierre Gautreau)',
             'dcterms:creator' => 'John Singer Sargent',
-            'dcterms:created' => ['@value' => '1884', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1884',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Portrait of the American socialite Virginie Amélie Avegno Gautreau in a black décolleté gown with lavender-powdered skin, which caused a scandal at the 1884 Paris Salon for its perceived impropriety.',
             'dcterms:subject' => [
                 'Painting',
@@ -6004,7 +8239,13 @@ return [
                 -73.9632,
                 40.7794,
             ],
-            'media' => 'madame-x.jpeg',
+            'media' => [
+                [
+                    'file' => 'madame-x.jpeg',
+                    'dcterms:title' => 'Madame X (Madame Pierre Gautreau)',
+                    'dcterms:creator' => 'John Singer Sargent',
+                ],
+            ],
         ],
         [
             'id' => 'snap-the-whip',
@@ -6018,10 +8259,16 @@ return [
                 'christinas-world',
                 'whistlers-mother',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q18209719', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q18209719',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Snap the Whip',
             'dcterms:creator' => 'Winslow Homer',
-            'dcterms:created' => ['@value' => '1872', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1872',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'A chain of barefoot schoolboys playing the game of snap-the-whip in front of a one-room schoolhouse, one of the iconic images of post-Civil War American rural childhood.',
             'dcterms:subject' => [
                 'Painting',
@@ -6036,7 +8283,13 @@ return [
                 -73.9632,
                 40.7794,
             ],
-            'media' => 'snap-the-whip.jpg',
+            'media' => [
+                [
+                    'file' => 'snap-the-whip.jpg',
+                    'dcterms:title' => 'Snap the Whip',
+                    'dcterms:creator' => 'Winslow Homer',
+                ],
+            ],
         ],
         [
             'id' => 'the-blue-boy',
@@ -6050,10 +8303,16 @@ return [
                 'toilet-of-venus',
                 'embarkation-for-cythera',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q604761', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q604761',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Blue Boy',
             'dcterms:creator' => 'Thomas Gainsborough',
-            'dcterms:created' => ['@value' => '1770', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1770',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Portrait of a young man in Van Dyck-style blue satin, thought to be Jonathan Buttall — one of the most celebrated British paintings and a deliberate homage to the seventeenth-century portrait tradition.',
             'dcterms:subject' => [
                 'Painting',
@@ -6068,7 +8327,13 @@ return [
                 -118.1134,
                 34.129,
             ],
-            'media' => 'the-blue-boy.jpg',
+            'media' => [
+                [
+                    'file' => 'the-blue-boy.jpg',
+                    'dcterms:title' => 'The Blue Boy',
+                    'dcterms:creator' => 'Thomas Gainsborough',
+                ],
+            ],
         ],
         [
             'id' => 'laughing-cavalier',
@@ -6082,10 +8347,16 @@ return [
                 'girl-with-a-pearl-earring',
                 'charles-i-at-the-hunt',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7746353', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q7746353',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Laughing Cavalier',
             'dcterms:creator' => 'Frans Hals',
-            'dcterms:created' => ['@value' => '1624', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1624',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Three-quarter-length portrait of a self-assured man in an embroidered doublet, named for his amused expression — a virtuoso display of Hals\'s loose, energetic brushwork that influenced Impressionist portrait technique.',
             'dcterms:subject' => [
                 'Painting',
@@ -6100,7 +8371,13 @@ return [
                 -0.1582,
                 51.5152,
             ],
-            'media' => 'laughing-cavalier.jpg',
+            'media' => [
+                [
+                    'file' => 'laughing-cavalier.jpg',
+                    'dcterms:title' => 'The Laughing Cavalier',
+                    'dcterms:creator' => 'Frans Hals',
+                ],
+            ],
         ],
         [
             'id' => 'battle-of-san-romano',
@@ -6114,10 +8391,16 @@ return [
                 'the-birth-of-venus',
                 'sistine-chapel-ceiling',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2265370', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2265370',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Battle of San Romano',
             'dcterms:creator' => 'Paolo Uccello',
-            'dcterms:created' => ['@value' => '1438', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1438',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'One of three panels depicting the 1432 Florentine victory over Siena, famed for its bold experimental perspective — foreshortened lances and fallen soldiers arranged with geometric precision across a shallow stage.',
             'dcterms:subject' => [
                 'Painting',
@@ -6132,7 +8415,13 @@ return [
                 -0.1281,
                 51.5086,
             ],
-            'media' => 'battle-of-san-romano.jpg',
+            'media' => [
+                [
+                    'file' => 'battle-of-san-romano.jpg',
+                    'dcterms:title' => 'The Battle of San Romano',
+                    'dcterms:creator' => 'Paolo Uccello',
+                ],
+            ],
         ],
         [
             'id' => 'whistlers-mother',
@@ -6145,10 +8434,16 @@ return [
                 'madame-x',
                 'snap-the-whip',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q687182', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q687182',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Arrangement in Grey and Black No. 1 (Whistler\'s Mother)',
             'dcterms:creator' => 'James McNeill Whistler',
-            'dcterms:created' => ['@value' => '1871', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1871',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Austere profile portrait of the artist\'s elderly mother seated against a grey wall, exhibited as an exercise in tonal harmony under its formal title rather than as a subject painting.',
             'dcterms:subject' => [
                 'Painting',
@@ -6163,7 +8458,13 @@ return [
                 2.3265,
                 48.86,
             ],
-            'media' => 'whistlers-mother.jpg',
+            'media' => [
+                [
+                    'file' => 'whistlers-mother.jpg',
+                    'dcterms:title' => 'Arrangement in Grey and Black No. 1 (Whistler\'s Mother)',
+                    'dcterms:creator' => 'James McNeill Whistler',
+                ],
+            ],
         ],
         [
             'id' => 'twittering-machine',
@@ -6176,10 +8477,16 @@ return [
                 'composition-vii',
                 'the-dream-marc',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3210239', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3210239',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Twittering Machine (Zwitscher-Maschine)',
             'dcterms:creator' => 'Paul Klee',
-            'dcterms:created' => ['@value' => '1922', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1922',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Four stick-figure birds perched on a crank-operated wire, their open beaks positioned to twitter on cue — an ironic commentary on mechanisation and the commodification of nature, drawn in Klee\'s characteristic mix of line and wash.',
             'dcterms:subject' => [
                 'Drawing',
@@ -6194,7 +8501,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'twittering-machine.jpg',
+            'media' => [
+                [
+                    'file' => 'twittering-machine.jpg',
+                    'dcterms:title' => 'Twittering Machine (Zwitscher-Maschine)',
+                    'dcterms:creator' => 'Paul Klee',
+                ],
+            ],
         ],
         [
             'id' => 'young-hare',
@@ -6207,10 +8520,16 @@ return [
                 'rhinoceros',
                 'melencolia-i',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q699388', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q699388',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Young Hare (Feldhase)',
             'dcterms:creator' => 'Albrecht Dürer',
-            'dcterms:created' => ['@value' => '1502', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1502',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Exquisitely detailed watercolor study of a sitting hare observed from life, capturing the texture of every fur tuft and the reflected light in each eye — a touchstone of Northern Renaissance naturalism.',
             'dcterms:subject' => [
                 'Drawing',
@@ -6225,7 +8544,13 @@ return [
                 16.3655,
                 48.2048,
             ],
-            'media' => 'young-hare.jpg',
+            'media' => [
+                [
+                    'file' => 'young-hare.jpg',
+                    'dcterms:title' => 'Young Hare (Feldhase)',
+                    'dcterms:creator' => 'Albrecht Dürer',
+                ],
+            ],
         ],
         [
             'id' => 'golden-haggadah',
@@ -6239,10 +8564,16 @@ return [
                 'divine-comedy-manuscript',
                 'tres-riches-heures',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q17629688', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q17629688',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Golden Haggadah',
             'dcterms:creator' => 'Unknown (Catalan)',
-            'dcterms:created' => ['@value' => '1320', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1320',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Illuminated Passover Haggadah produced in Catalonia, comprising fourteen full-page miniatures of biblical scenes painted in vivid colour against burnished gold backgrounds — one of the finest examples of medieval Jewish manuscript art.',
             'dcterms:subject' => [
                 'Manuscript',
@@ -6257,7 +8588,13 @@ return [
                 -0.1272,
                 51.5296,
             ],
-            'media' => 'golden-haggadah.png',
+            'media' => [
+                [
+                    'file' => 'golden-haggadah.png',
+                    'dcterms:title' => 'The Golden Haggadah',
+                    'dcterms:creator' => 'Unknown (Catalan)',
+                ],
+            ],
         ],
         [
             'id' => 'the-kiss-rodin',
@@ -6269,10 +8606,16 @@ return [
             'relations' => [
                 'the-thinker',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2418237', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2418237',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'The Kiss',
             'dcterms:creator' => 'Auguste Rodin',
-            'dcterms:created' => ['@value' => '1882', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1882',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Life-size marble group of two lovers locked in an embrace, originally conceived as Paolo and Francesca for The Gates of Hell but removed because the tenderness of the pose seemed inappropriate for the damned.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -6287,7 +8630,13 @@ return [
                 2.3159,
                 48.8554,
             ],
-            'media' => 'the-kiss-rodin.jpg',
+            'media' => [
+                [
+                    'file' => 'the-kiss-rodin.jpg',
+                    'dcterms:title' => 'The Kiss',
+                    'dcterms:creator' => 'Auguste Rodin',
+                ],
+            ],
         ],
         [
             'id' => 'bird-in-space',
@@ -6300,10 +8649,16 @@ return [
                 'walking-man',
                 'the-thinker',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2381632', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2381632',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Bird in Space',
             'dcterms:creator' => 'Constantin Brâncuși',
-            'dcterms:created' => ['@value' => '1928', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1928',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Tall polished bronze column tapering to a blade-like point, evoking flight through pure abstraction rather than representation — a landmark in modern sculpture and the subject of a landmark 1928 US Customs case over whether abstract art was taxable as art.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -6318,7 +8673,13 @@ return [
                 -73.9776,
                 40.7614,
             ],
-            'media' => 'bird-in-space.jpg',
+            'media' => [
+                [
+                    'file' => 'bird-in-space.jpg',
+                    'dcterms:title' => 'Bird in Space',
+                    'dcterms:creator' => 'Constantin Brâncuși',
+                ],
+            ],
         ],
         [
             'id' => 'little-dancer',
@@ -6331,10 +8692,16 @@ return [
                 'the-ballet-class',
                 'at-the-races',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q63860801', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q63860801',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Little Dancer Aged Fourteen',
             'dcterms:creator' => 'Edgar Degas',
-            'dcterms:created' => ['@value' => '1881', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1881',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Figure of a young ballet student modelled in wax with real hair, a silk tutu, and linen slippers — the only sculpture Degas exhibited in his lifetime, shocking critics with its unidealized naturalism.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -6349,7 +8716,13 @@ return [
                 -77.02,
                 38.8913,
             ],
-            'media' => 'little-dancer.jpg',
+            'media' => [
+                [
+                    'file' => 'little-dancer.jpg',
+                    'dcterms:title' => 'Little Dancer Aged Fourteen',
+                    'dcterms:creator' => 'Edgar Degas',
+                ],
+            ],
         ],
         [
             'id' => 'walking-man',
@@ -6362,10 +8735,16 @@ return [
                 'bird-in-space',
                 'the-thinker',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q706964', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q706964',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Walking Man I',
             'dcterms:creator' => 'Alberto Giacometti',
-            'dcterms:created' => ['@value' => '1960', '@type' => 'numeric:timestamp'],
+            'dcterms:created' => [
+                '@value' => '1960',
+                '@type' => 'numeric:timestamp',
+            ],
             'dcterms:description' => 'Emaciated bronze figure striding forward on a broad base — at once ancient and existentially modern, Giacometti\'s signature form embodying isolation and the human condition in the post-war era.',
             'dcterms:subject' => [
                 'Sculpture',
@@ -6380,7 +8759,13 @@ return [
                 7.6,
                 47.5696,
             ],
-            'media' => 'walking-man.jpg',
+            'media' => [
+                [
+                    'file' => 'walking-man.jpg',
+                    'dcterms:title' => 'Walking Man I',
+                    'dcterms:creator' => 'Alberto Giacometti',
+                ],
+            ],
         ],
     ],
 ];

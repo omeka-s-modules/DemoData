@@ -116,7 +116,10 @@ return [
                 'zapotec-civilization',
                 'teotihuacan',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q135364', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q135364',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-96.6,16.2,-93.6,19.2',
             'map_coordinates' => [
                 -95.1,
@@ -131,12 +134,32 @@ return [
                 'Early writing',
                 'Calendar origins',
             ],
-            'dcterms:date' => ['@value' => '-1500', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1100Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1500/-0400', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '50000', '@type' => 'numeric:integer'],
-            'media' => 'olmec-civilization.png',
+            'dcterms:date' => [
+                '@value' => '-1500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1100Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1500/-0400',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '50000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'olmec-civilization.png',
+                    'dcterms:title' => 'Olmec Civilization',
+                ],
+            ],
         ],
         [
             'id' => 'zapotec-civilization',
@@ -150,7 +173,10 @@ return [
                 'teotihuacan',
                 'mixtec-civilization',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q844750', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q844750',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-98.3,15.5,-95.3,18.5',
             'map_coordinates' => [
                 -96.8,
@@ -165,12 +191,32 @@ return [
                 'Writing',
                 'Oaxaca',
             ],
-            'dcterms:date' => ['@value' => '-0700', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1400Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0700/0700', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '30000', '@type' => 'numeric:integer'],
-            'media' => 'zapotec-civilization.png',
+            'dcterms:date' => [
+                '@value' => '-0700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1400Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0700/0700',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '30000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'zapotec-civilization.png',
+                    'dcterms:title' => 'Zapotec Civilization',
+                ],
+            ],
         ],
         [
             'id' => 'teotihuacan',
@@ -186,7 +232,10 @@ return [
                 'zapotec-civilization',
                 'tikal',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q172613', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q172613',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-100.407319,18.092681,-97.192681,21.307319',
             'map_coordinates' => [
                 -98.8,
@@ -201,12 +250,32 @@ return [
                 'Ancient urbanization',
                 'Mexico',
             ],
-            'dcterms:date' => ['@value' => '-0200', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P800Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0200/0600', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'teotihuacan.jpg',
+            'dcterms:date' => [
+                '@value' => '-0200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P800Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0200/0600',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'teotihuacan.jpg',
+                    'dcterms:title' => 'Teotihuacan',
+                ],
+            ],
         ],
         [
             'id' => 'maya-classic-period',
@@ -223,7 +292,10 @@ return [
                 'palenque',
                 'cop-n',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q4964', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q4964',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-91.997636,13.802364,-86.202364,19.597636',
             'map_coordinates' => [
                 -89.1,
@@ -238,12 +310,32 @@ return [
                 'Calendar',
                 'City-states',
             ],
-            'dcterms:date' => ['@value' => '0250', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P650Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0250/0900', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0700', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '325000', '@type' => 'numeric:integer'],
-            'media' => 'maya-classic-period.jpg',
+            'dcterms:date' => [
+                '@value' => '0250',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P650Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0250/0900',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '325000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'maya-classic-period.jpg',
+                    'dcterms:title' => 'Maya Classic Period',
+                ],
+            ],
         ],
         [
             'id' => 'postclassic-maya',
@@ -257,7 +349,10 @@ return [
                 'aztec-triple-alliance',
                 'chich-n-itz',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q112266412', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q112266412',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-90.568556,18.731444,-86.631444,22.668556',
             'map_coordinates' => [
                 -88.6,
@@ -272,12 +367,32 @@ return [
                 'Yucatan',
                 'Continued Maya culture',
             ],
-            'dcterms:date' => ['@value' => '0900', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P797Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0900/1697', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '150000', '@type' => 'numeric:integer'],
-            'media' => 'postclassic-maya.jpg',
+            'dcterms:date' => [
+                '@value' => '0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P797Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0900/1697',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '150000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'postclassic-maya.jpg',
+                    'dcterms:title' => 'Postclassic Maya',
+                ],
+            ],
         ],
         [
             'id' => 'toltec-empire',
@@ -292,7 +407,10 @@ return [
                 'toltec-chichimec-state',
                 'chich-n-itz',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q17523945', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q17523945',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-101.573092,17.626908,-97.026908,22.173092',
             'map_coordinates' => [
                 -99.3,
@@ -307,12 +425,32 @@ return [
                 'Tula',
                 'Pre-Aztec Mexico',
             ],
-            'dcterms:date' => ['@value' => '0800', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P350Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0800/1150', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'toltec-empire.png',
+            'dcterms:date' => [
+                '@value' => '0800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P350Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0800/1150',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'toltec-empire.png',
+                    'dcterms:title' => 'Toltec Empire',
+                ],
+            ],
         ],
         [
             'id' => 'aztec-triple-alliance',
@@ -333,7 +471,10 @@ return [
                 'spanish-empire',
                 'aztec-cultural-legacy',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q794210', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q794210',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-101.373092,17.126908,-96.826908,21.673092',
             'map_coordinates' => [
                 -99.1,
@@ -348,12 +489,32 @@ return [
                 'Aztec religion',
                 'Tribute empire',
             ],
-            'dcterms:date' => ['@value' => '1428', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P93Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1428/1521', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'aztec-triple-alliance.png',
+            'dcterms:date' => [
+                '@value' => '1428',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P93Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1428/1521',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'aztec-triple-alliance.png',
+                    'dcterms:title' => 'Aztec Triple Alliance',
+                ],
+            ],
         ],
         [
             'id' => 'mixtec-civilization',
@@ -366,7 +527,10 @@ return [
                 'zapotec-civilization',
                 'aztec-triple-alliance',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q36363', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q36363',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-99,16,-96,19',
             'map_coordinates' => [
                 -97.5,
@@ -381,12 +545,32 @@ return [
                 'Mixtec codices',
                 'Pre-Columbian manuscript',
             ],
-            'dcterms:date' => ['@value' => '0900', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P621Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0900/1521', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '40000', '@type' => 'numeric:integer'],
-            'media' => 'mixtec-civilization.jpg',
+            'dcterms:date' => [
+                '@value' => '0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P621Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0900/1521',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '40000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'mixtec-civilization.jpg',
+                    'dcterms:title' => 'Mixtec Civilization',
+                ],
+            ],
         ],
         [
             'id' => 'tarascan-state',
@@ -398,7 +582,10 @@ return [
             'relations' => [
                 'aztec-triple-alliance',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2605410', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2605410',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-103.2,18.2,-100.2,21.2',
             'map_coordinates' => [
                 -101.7,
@@ -413,12 +600,32 @@ return [
                 'Aztec resistance',
                 'Metallurgy',
             ],
-            'dcterms:date' => ['@value' => '1350', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P180Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1350/1530', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1470', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '75000', '@type' => 'numeric:integer'],
-            'media' => 'tarascan-state.png',
+            'dcterms:date' => [
+                '@value' => '1350',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P180Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1350/1530',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1470',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '75000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'tarascan-state.png',
+                    'dcterms:title' => 'Tarascan State',
+                ],
+            ],
         ],
         [
             'id' => 'chav-n-civilization',
@@ -436,7 +643,10 @@ return [
                 'norte-chico-civilization',
                 'tiwanaku-civilization',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q17449251', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q17449251',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-79.983958,-12.383958,-74.416042,-6.816042',
             'map_coordinates' => [
                 -77.2,
@@ -451,12 +661,32 @@ return [
                 'Andean iconography',
                 'Jaguar cult',
             ],
-            'dcterms:date' => ['@value' => '-0900', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P700Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0900/-0200', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '300000', '@type' => 'numeric:integer'],
-            'media' => 'chav-n-civilization.jpg',
+            'dcterms:date' => [
+                '@value' => '-0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P700Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0900/-0200',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'chav-n-civilization.jpg',
+                    'dcterms:title' => 'Chavín Civilization',
+                ],
+            ],
         ],
         [
             'id' => 'moche-civilization',
@@ -471,7 +701,10 @@ return [
                 'chim-kingdom',
                 'caral-civilization',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q208188', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q208188',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-80.5,-9.6,-77.5,-6.6',
             'map_coordinates' => [
                 -79,
@@ -486,12 +719,32 @@ return [
                 'Portrait ceramics',
                 'Sipán tombs',
             ],
-            'dcterms:date' => ['@value' => '0100', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P650Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0100/0750', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '30000', '@type' => 'numeric:integer'],
-            'media' => 'moche-civilization.jpg',
+            'dcterms:date' => [
+                '@value' => '0100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P650Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0100/0750',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '30000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'moche-civilization.jpg',
+                    'dcterms:title' => 'Moche Civilization',
+                ],
+            ],
         ],
         [
             'id' => 'tiwanaku-empire',
@@ -507,7 +760,10 @@ return [
                 'tiwanaku-civilization',
                 'huari-tiwanaku-interaction-sphere',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1307407', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1307407',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-72.637111,-20.537111,-64.762889,-12.662889',
             'map_coordinates' => [
                 -68.7,
@@ -522,12 +778,32 @@ return [
                 'Lake Titicaca',
                 'High-altitude civilization',
             ],
-            'dcterms:date' => ['@value' => '0300', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P850Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0300/1150', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '600000', '@type' => 'numeric:integer'],
-            'media' => 'tiwanaku-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '0300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P850Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0300/1150',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '600000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'tiwanaku-empire.jpg',
+                    'dcterms:title' => 'Tiwanaku Empire',
+                ],
+            ],
         ],
         [
             'id' => 'wari-empire',
@@ -544,7 +820,10 @@ return [
                 'nazca-culture',
                 'huari-tiwanaku-interaction-sphere',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q923516', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q923516',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-80.42512,-19.52512,-67.97488,-7.07488',
             'map_coordinates' => [
                 -74.2,
@@ -559,12 +838,32 @@ return [
                 'Road network',
                 'Quipu records',
             ],
-            'dcterms:date' => ['@value' => '0600', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P400Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0600/1000', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1500000', '@type' => 'numeric:integer'],
-            'media' => 'wari-empire.png',
+            'dcterms:date' => [
+                '@value' => '0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P400Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0600/1000',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'wari-empire.png',
+                    'dcterms:title' => 'Wari Empire',
+                ],
+            ],
         ],
         [
             'id' => 'chim-kingdom',
@@ -579,7 +878,10 @@ return [
                 'kingdom-of-cusco',
                 'chimu-inca-war',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q581741', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q581741',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-80.607319,-9.707319,-77.392681,-6.492681',
             'map_coordinates' => [
                 -79,
@@ -594,12 +896,32 @@ return [
                 'Chan Chan',
                 'Metalworking',
             ],
-            'dcterms:date' => ['@value' => '0900', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P570Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0900/1470', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'chim-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P570Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0900/1470',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'chim-kingdom.png',
+                    'dcterms:title' => 'Chimú Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'inca-empire',
@@ -619,7 +941,10 @@ return [
                 'spanish-empire',
                 'viceroyalty-of-peru',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q28573', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q28573',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-79.088149,-20.688149,-64.711851,-6.311851',
             'map_coordinates' => [
                 -71.9,
@@ -634,12 +959,32 @@ return [
                 'Machu Picchu',
                 'Road network',
             ],
-            'dcterms:date' => ['@value' => '1438', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P95Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1438/1533', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000000', '@type' => 'numeric:integer'],
-            'media' => 'inca-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '1438',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P95Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1438/1533',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'inca-empire.jpg',
+                    'dcterms:title' => 'Inca Empire',
+                ],
+            ],
         ],
         [
             'id' => 'nazca-culture',
@@ -652,7 +997,10 @@ return [
                 'chav-n-civilization',
                 'wari-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q210570', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q210570',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-76.6,-16.2,-73.6,-13.2',
             'map_coordinates' => [
                 -75.1,
@@ -667,12 +1015,32 @@ return [
                 'Nazca Lines',
                 'Desert irrigation',
             ],
-            'dcterms:date' => ['@value' => '-0100', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P900Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0100/0800', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '30000', '@type' => 'numeric:integer'],
-            'media' => 'nazca-culture.png',
+            'dcterms:date' => [
+                '@value' => '-0100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P900Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0100/0800',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '30000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'nazca-culture.png',
+                    'dcterms:title' => 'Nazca Culture',
+                ],
+            ],
         ],
         [
             'id' => 'mississippian-culture',
@@ -687,7 +1055,10 @@ return [
                 'hopewell-culture',
                 'iroquois-confederacy',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1052095', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1052095',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-95.182789,33.617211,-85.017211,43.782789',
             'map_coordinates' => [
                 -90.1,
@@ -702,12 +1073,32 @@ return [
                 'Mound builders',
                 'Chiefdoms',
             ],
-            'dcterms:date' => ['@value' => '0800', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P800Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0800/1600', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1100', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'mississippian-culture.jpg',
+            'dcterms:date' => [
+                '@value' => '0800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P800Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0800/1600',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'mississippian-culture.jpg',
+                    'dcterms:title' => 'Mississippian Culture',
+                ],
+            ],
         ],
         [
             'id' => 'ancestral-puebloans',
@@ -720,7 +1111,10 @@ return [
                 'mississippian-culture',
                 'hohokam-culture',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q478805', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q478805',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-109.732626,34.967374,-106.067374,38.632626',
             'map_coordinates' => [
                 -107.9,
@@ -735,12 +1129,32 @@ return [
                 'Chaco Canyon',
                 'Cliff dwellings',
             ],
-            'dcterms:date' => ['@value' => '0700', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P600Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0700/1300', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1100', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '130000', '@type' => 'numeric:integer'],
-            'media' => 'ancestral-puebloans.jpg',
+            'dcterms:date' => [
+                '@value' => '0700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P600Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0700/1300',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '130000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ancestral-puebloans.jpg',
+                    'dcterms:title' => 'Ancestral Puebloans',
+                ],
+            ],
         ],
         [
             'id' => 'hohokam-culture',
@@ -752,7 +1166,10 @@ return [
             'relations' => [
                 'ancestral-puebloans',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1255768', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1255768',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-113.6,31.9,-110.6,34.9',
             'map_coordinates' => [
                 -112.1,
@@ -767,12 +1184,32 @@ return [
                 'Desert irrigation',
                 'Southwest USA',
             ],
-            'dcterms:date' => ['@value' => '0300', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1150Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0300/1450', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '50000', '@type' => 'numeric:integer'],
-            'media' => 'hohokam-culture.png',
+            'dcterms:date' => [
+                '@value' => '0300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1150Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0300/1450',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '50000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'hohokam-culture.png',
+                    'dcterms:title' => 'Hohokam Culture',
+                ],
+            ],
         ],
         [
             'id' => 'hopewell-culture',
@@ -784,7 +1221,10 @@ return [
             'relations' => [
                 'mississippian-culture',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1305793', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1305793',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-87.546185,34.853815,-78.453815,43.946185',
             'map_coordinates' => [
                 -83,
@@ -799,12 +1239,32 @@ return [
                 'Long-distance trade',
                 'Earthworks',
             ],
-            'dcterms:date' => ['@value' => '-0100', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P600Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0100/0500', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '800000', '@type' => 'numeric:integer'],
-            'media' => 'hopewell-culture.jpg',
+            'dcterms:date' => [
+                '@value' => '-0100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P600Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0100/0500',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'hopewell-culture.jpg',
+                    'dcterms:title' => 'Hopewell Culture',
+                ],
+            ],
         ],
         [
             'id' => 'iroquois-confederacy',
@@ -817,7 +1277,10 @@ return [
                 'mississippian-culture',
                 'new-france',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1421590', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1421590',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-78.273092,40.726908,-73.726908,45.273092',
             'map_coordinates' => [
                 -76,
@@ -832,12 +1295,32 @@ return [
                 'Native democracy',
                 'Confederation',
             ],
-            'dcterms:date' => ['@value' => '1450', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P329Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1450/1779', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1700', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'iroquois-confederacy.png',
+            'dcterms:date' => [
+                '@value' => '1450',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P329Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1450/1779',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'iroquois-confederacy.png',
+                    'dcterms:title' => 'Iroquois Confederacy',
+                ],
+            ],
         ],
         [
             'id' => 'tikal',
@@ -852,7 +1335,10 @@ return [
                 'palenque',
                 'cop-n',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q181172', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q181172',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-91.1,15.7,-88.1,18.7',
             'map_coordinates' => [
                 -89.6,
@@ -867,12 +1353,32 @@ return [
                 'Guatemala',
                 'Temple pyramids',
             ],
-            'dcterms:date' => ['@value' => '-0400', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1300Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0400/0900', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0700', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000', '@type' => 'numeric:integer'],
-            'media' => 'tikal.jpg',
+            'dcterms:date' => [
+                '@value' => '-0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1300Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0400/0900',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'tikal.jpg',
+                    'dcterms:title' => 'Tikal',
+                ],
+            ],
         ],
         [
             'id' => 'palenque',
@@ -885,7 +1391,10 @@ return [
                 'maya-classic-period',
                 'tikal',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q24308', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q24308',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-93.5,16,-90.5,19',
             'map_coordinates' => [
                 -92,
@@ -900,12 +1409,32 @@ return [
                 'Mexico',
                 'Pakal tomb',
             ],
-            'dcterms:date' => ['@value' => '0226', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P573Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0226/0799', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0680', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000', '@type' => 'numeric:integer'],
-            'media' => 'palenque.jpg',
+            'dcterms:date' => [
+                '@value' => '0226',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P573Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0226/0799',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0680',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'palenque.jpg',
+                    'dcterms:title' => 'Palenque',
+                ],
+            ],
         ],
         [
             'id' => 'cop-n',
@@ -918,7 +1447,10 @@ return [
                 'maya-classic-period',
                 'tikal',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q214827', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q214827',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-90.6,13.3,-87.6,16.3',
             'map_coordinates' => [
                 -89.1,
@@ -933,12 +1465,32 @@ return [
                 'Honduras',
                 'Hieroglyphic staircase',
             ],
-            'dcterms:date' => ['@value' => '0426', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P394Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0426/0820', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0730', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000', '@type' => 'numeric:integer'],
-            'media' => 'cop-n.jpg',
+            'dcterms:date' => [
+                '@value' => '0426',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P394Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0426/0820',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0730',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'cop-n.jpg',
+                    'dcterms:title' => 'Copán',
+                ],
+            ],
         ],
         [
             'id' => 'caral-civilization',
@@ -952,7 +1504,10 @@ return [
                 'moche-civilization',
                 'norte-chico-civilization',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q153836', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q153836',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-79,-12.4,-76,-9.4',
             'map_coordinates' => [
                 -77.5,
@@ -967,12 +1522,32 @@ return [
                 'Oldest American city',
                 'Pre-Olmec',
             ],
-            'dcterms:date' => ['@value' => '-3000', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1200Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-3000/-1800', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-2500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '10000', '@type' => 'numeric:integer'],
-            'media' => 'caral-civilization.jpg',
+            'dcterms:date' => [
+                '@value' => '-3000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1200Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-3000/-1800',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '10000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'caral-civilization.jpg',
+                    'dcterms:title' => 'Caral Civilization',
+                ],
+            ],
         ],
         [
             'id' => 'norte-chico-civilization',
@@ -985,7 +1560,10 @@ return [
                 'caral-civilization',
                 'chav-n-civilization',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q153836', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q153836',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-79.2,-12.1,-76.2,-9.1',
             'map_coordinates' => [
                 -77.7,
@@ -1000,12 +1578,32 @@ return [
                 'Fishing civilization',
                 'Earliest Americas',
             ],
-            'dcterms:date' => ['@value' => '-3000', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1200Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-3000/-1800', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-2500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '30000', '@type' => 'numeric:integer'],
-            'media' => 'norte-chico-civilization.jpg',
+            'dcterms:date' => [
+                '@value' => '-3000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1200Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-3000/-1800',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '30000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'norte-chico-civilization.jpg',
+                    'dcterms:title' => 'Norte Chico Civilization',
+                ],
+            ],
         ],
         [
             'id' => 'toltec-chichimec-state',
@@ -1018,7 +1616,10 @@ return [
                 'toltec-empire',
                 'aztec-triple-alliance',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q187897', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q187897',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-99.7,17.5,-96.7,20.5',
             'map_coordinates' => [
                 -98.2,
@@ -1033,12 +1634,32 @@ return [
                 'Great Pyramid of Cholula',
                 'Pilgrimage center',
             ],
-            'dcterms:date' => ['@value' => '1174', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P347Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1174/1521', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '50000', '@type' => 'numeric:integer'],
-            'media' => 'toltec-chichimec-state.jpg',
+            'dcterms:date' => [
+                '@value' => '1174',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P347Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1174/1521',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '50000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'toltec-chichimec-state.jpg',
+                    'dcterms:title' => 'Toltec-Chichimec State',
+                ],
+            ],
         ],
         [
             'id' => 'chich-n-itz',
@@ -1051,7 +1672,10 @@ return [
                 'postclassic-maya',
                 'toltec-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q103897305', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q103897305',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-90.1,19.2,-87.1,22.2',
             'map_coordinates' => [
                 -88.6,
@@ -1066,12 +1690,32 @@ return [
                 'Yucatan',
                 'Astronomy',
             ],
-            'dcterms:date' => ['@value' => '0600', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P621Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0600/1221', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000', '@type' => 'numeric:integer'],
-            'media' => 'chich-n-itz.jpg',
+            'dcterms:date' => [
+                '@value' => '0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P621Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0600/1221',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'chich-n-itz.jpg',
+                    'dcterms:title' => 'Chichén Itzá',
+                ],
+            ],
         ],
         [
             'id' => 'tlaxcala-republic',
@@ -1083,7 +1727,10 @@ return [
             'relations' => [
                 'aztec-triple-alliance',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q614072', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q614072',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-99.7,17.8,-96.7,20.8',
             'map_coordinates' => [
                 -98.2,
@@ -1098,12 +1745,32 @@ return [
                 'Anti-Aztec resistance',
                 'Republic',
             ],
-            'dcterms:date' => ['@value' => '1384', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P137Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1384/1521', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '4000', '@type' => 'numeric:integer'],
-            'media' => 'tlaxcala-republic.png',
+            'dcterms:date' => [
+                '@value' => '1384',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P137Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1384/1521',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '4000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'tlaxcala-republic.png',
+                    'dcterms:title' => 'Tlaxcala Republic',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-cusco',
@@ -1116,7 +1783,10 @@ return [
                 'inca-empire',
                 'chim-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2314963', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2314963',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-73.507319,-15.107319,-70.292681,-11.892681',
             'map_coordinates' => [
                 -71.9,
@@ -1131,12 +1801,32 @@ return [
                 'Cusco',
                 'Pre-expansion Inca',
             ],
-            'dcterms:date' => ['@value' => '1197', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P241Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1197/1438', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1350', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-cusco.jpg',
+            'dcterms:date' => [
+                '@value' => '1197',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P241Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1197/1438',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1350',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-cusco.jpg',
+                    'dcterms:title' => 'Kingdom of Cusco',
+                ],
+            ],
         ],
         [
             'id' => 'muisca-confederation',
@@ -1148,7 +1838,10 @@ return [
             'relations' => [
                 'inca-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q5782830', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q5782830',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-74.9,4,-71.9,7',
             'map_coordinates' => [
                 -73.4,
@@ -1163,12 +1856,32 @@ return [
                 'El Dorado',
                 'Gold',
             ],
-            'dcterms:date' => ['@value' => '0600', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P937Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0600/1537', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '25000', '@type' => 'numeric:integer'],
-            'media' => 'muisca-confederation.png',
+            'dcterms:date' => [
+                '@value' => '0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P937Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0600/1537',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '25000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'muisca-confederation.png',
+                    'dcterms:title' => 'Muisca Confederation',
+                ],
+            ],
         ],
         [
             'id' => 'ta-no-chiefdoms',
@@ -1180,7 +1893,10 @@ return [
             'relations' => [
                 'aztec-triple-alliance',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q210623', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q210623',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-71.5,17.5,-68.5,20.5',
             'map_coordinates' => [
                 -70,
@@ -1195,12 +1911,32 @@ return [
                 'Chiefdoms',
                 'Columbus',
             ],
-            'dcterms:date' => ['@value' => '1200', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P350Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1200/1550', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '80000', '@type' => 'numeric:integer'],
-            'media' => 'ta-no-chiefdoms.jpg',
+            'dcterms:date' => [
+                '@value' => '1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P350Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1200/1550',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '80000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ta-no-chiefdoms.jpg',
+                    'dcterms:title' => 'Taíno Chiefdoms',
+                ],
+            ],
         ],
         [
             'id' => 'tiwanaku-civilization',
@@ -1213,7 +1949,10 @@ return [
                 'chav-n-civilization',
                 'tiwanaku-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q61750', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q61750',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-70.2,-18,-67.2,-15',
             'map_coordinates' => [
                 -68.7,
@@ -1228,12 +1967,32 @@ return [
                 'Lake Titicaca',
                 'Formative period',
             ],
-            'dcterms:date' => ['@value' => '-1500', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P700Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1500/-0800', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '10000', '@type' => 'numeric:integer'],
-            'media' => 'tiwanaku-civilization.png',
+            'dcterms:date' => [
+                '@value' => '-1500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P700Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1500/-0800',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '10000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'tiwanaku-civilization.png',
+                    'dcterms:title' => 'Tiwanaku Civilization',
+                ],
+            ],
         ],
         [
             'id' => 'huari-tiwanaku-interaction-sphere',
@@ -1261,12 +2020,32 @@ return [
                 'Middle Horizon',
                 'Pan-Andean influence',
             ],
-            'dcterms:date' => ['@value' => '0500', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P500Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0500/1000', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0750', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000000', '@type' => 'numeric:integer'],
-            'media' => 'huari-tiwanaku-interaction-sphere.png',
+            'dcterms:date' => [
+                '@value' => '0500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P500Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0500/1000',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'huari-tiwanaku-interaction-sphere.png',
+                    'dcterms:title' => 'Huari-Tiwanaku Interaction Sphere',
+                ],
+            ],
         ],
         [
             'id' => 'chimu-inca-war',
@@ -1293,12 +2072,32 @@ return [
                 'Inca expansion',
                 'Chimú absorption',
             ],
-            'dcterms:date' => ['@value' => '1460', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P30Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1460/1490', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1470', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '50000', '@type' => 'numeric:integer'],
-            'media' => 'chimu-inca-war.png',
+            'dcterms:date' => [
+                '@value' => '1460',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P30Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1460/1490',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1470',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '50000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'chimu-inca-war.png',
+                    'dcterms:title' => 'Chimu-Inca War',
+                ],
+            ],
         ],
         [
             'id' => 'elamite-kingdom',
@@ -1311,7 +2110,10 @@ return [
                 'neo-assyrian-empire',
                 'achaemenid-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q35470', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q35470',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '46.085362,28.685362,52.514638,35.114638',
             'map_coordinates' => [
                 49.3,
@@ -1326,12 +2128,32 @@ return [
                 'Susa',
                 'Mesopotamian rival',
             ],
-            'dcterms:date' => ['@value' => '-2700', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P2161Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2700/-0539', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1250', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '400000', '@type' => 'numeric:integer'],
-            'media' => 'elamite-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '-2700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P2161Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2700/-0539',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1250',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'elamite-kingdom.png',
+                    'dcterms:title' => 'Elamite Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'median-empire',
@@ -1344,7 +2166,10 @@ return [
                 'neo-assyrian-empire',
                 'achaemenid-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q20437507', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q20437507',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '42.894867,27.194867,59.905133,44.205133',
             'map_coordinates' => [
                 51.4,
@@ -1359,12 +2184,32 @@ return [
                 'Destruction of Nineveh',
                 'Pre-Achaemenid',
             ],
-            'dcterms:date' => ['@value' => '-0678', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P128Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0678/-0550', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0620', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2800000', '@type' => 'numeric:integer'],
-            'media' => 'median-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '-0678',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P128Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0678/-0550',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0620',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'median-empire.jpg',
+                    'dcterms:title' => 'Median Empire',
+                ],
+            ],
         ],
         [
             'id' => 'achaemenid-empire',
@@ -1384,7 +2229,10 @@ return [
                 'scythian-confederation',
                 'empire-of-alexander-the-great',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q389688', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q389688',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '40.979803,17.979803,64.820197,41.820197',
             'map_coordinates' => [
                 52.9,
@@ -1399,12 +2247,32 @@ return [
                 'Zoroastrianism',
                 'Satrapy system',
             ],
-            'dcterms:date' => ['@value' => '-0550', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P220Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0550/-0330', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '5500000', '@type' => 'numeric:integer'],
-            'media' => 'achaemenid-empire.png',
+            'dcterms:date' => [
+                '@value' => '-0550',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P220Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0550/-0330',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '5500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'achaemenid-empire.png',
+                    'dcterms:title' => 'Achaemenid Empire',
+                ],
+            ],
         ],
         [
             'id' => 'parthian-empire',
@@ -1420,7 +2288,10 @@ return [
                 'western-han-dynasty',
                 'roman-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1986139', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1986139',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '50.090972,27.790972,69.109028,46.809028',
             'map_coordinates' => [
                 59.6,
@@ -1435,12 +2306,32 @@ return [
                 'Roman rival',
                 'Mounted archers',
             ],
-            'dcterms:date' => ['@value' => '-0247', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P471Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0247/0224', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0050', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3500000', '@type' => 'numeric:integer'],
-            'media' => 'parthian-empire.png',
+            'dcterms:date' => [
+                '@value' => '-0247',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P471Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0247/0224',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0050',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'parthian-empire.png',
+                    'dcterms:title' => 'Parthian Empire',
+                ],
+            ],
         ],
         [
             'id' => 'sasanian-empire',
@@ -1456,7 +2347,10 @@ return [
                 'palmyrene-empire',
                 'ghassanid-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q83891', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q83891',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '44.190972,22.890972,63.209028,41.909028',
             'map_coordinates' => [
                 53.7,
@@ -1471,12 +2365,32 @@ return [
                 'Byzantine rival',
                 'Ctesiphon',
             ],
-            'dcterms:date' => ['@value' => '0224', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P427Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0224/0651', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0550', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3500000', '@type' => 'numeric:integer'],
-            'media' => 'sasanian-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '0224',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P427Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0224/0651',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0550',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'sasanian-empire.jpg',
+                    'dcterms:title' => 'Sasanian Empire',
+                ],
+            ],
         ],
         [
             'id' => 'greco-bactrian-kingdom',
@@ -1491,7 +2405,10 @@ return [
                 'achaemenid-empire',
                 'maurya-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q488880', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q488880',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '61.817211,31.717211,71.982789,41.882789',
             'map_coordinates' => [
                 66.9,
@@ -1506,12 +2423,32 @@ return [
                 'Bactria',
                 'Silk Road',
             ],
-            'dcterms:date' => ['@value' => '-0256', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P131Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0256/-0125', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'greco-bactrian-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '-0256',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P131Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0256/-0125',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'greco-bactrian-kingdom.png',
+                    'dcterms:title' => 'Greco-Bactrian Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'scythian-confederation',
@@ -1524,7 +2461,10 @@ return [
                 'achaemenid-empire',
                 'sarmatian-confederation',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q131802', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q131802',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '46.963405,39.963405,63.036595,56.036595',
             'map_coordinates' => [
                 55,
@@ -1539,12 +2479,32 @@ return [
                 'Animal art',
                 'Iranian peoples',
             ],
-            'dcterms:date' => ['@value' => '-0700', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P500Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0700/-0200', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2500000', '@type' => 'numeric:integer'],
-            'media' => 'scythian-confederation.jpg',
+            'dcterms:date' => [
+                '@value' => '-0700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P500Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0700/-0200',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'scythian-confederation.jpg',
+                    'dcterms:title' => 'Scythian Confederation',
+                ],
+            ],
         ],
         [
             'id' => 'sarmatian-confederation',
@@ -1557,7 +2517,10 @@ return [
                 'scythian-confederation',
                 'hunnic-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q12150674', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q12150674',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '40.811851,42.811851,55.188149,57.188149',
             'map_coordinates' => [
                 48,
@@ -1572,12 +2535,32 @@ return [
                 'Cataphract cavalry',
                 'Iranian peoples',
             ],
-            'dcterms:date' => ['@value' => '-0500', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P875Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0500/0375', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000000', '@type' => 'numeric:integer'],
-            'media' => 'sarmatian-confederation.jpg',
+            'dcterms:date' => [
+                '@value' => '-0500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P875Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0500/0375',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'sarmatian-confederation.jpg',
+                    'dcterms:title' => 'Sarmatian Confederation',
+                ],
+            ],
         ],
         [
             'id' => 'hunnic-empire',
@@ -1591,7 +2574,10 @@ return [
                 'western-roman-empire',
                 'visigothic-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q10295972', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q10295972',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '23.834422,36.834422,44.165578,57.165578',
             'map_coordinates' => [
                 34,
@@ -1606,12 +2592,32 @@ return [
                 'Migration period',
                 'Nomadic empire',
             ],
-            'dcterms:date' => ['@value' => '0370', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P99Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0370/0469', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0440', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '4000000', '@type' => 'numeric:integer'],
-            'media' => 'hunnic-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '0370',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P99Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0370/0469',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0440',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '4000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'hunnic-empire.jpg',
+                    'dcterms:title' => 'Hunnic Empire',
+                ],
+            ],
         ],
         [
             'id' => 'rashidun-caliphate',
@@ -1626,7 +2632,10 @@ return [
                 'umayyad-caliphate',
                 'ghassanid-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q12490507', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q12490507',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '33.841448,11.841448,59.558552,37.558552',
             'map_coordinates' => [
                 46.7,
@@ -1641,12 +2650,32 @@ return [
                 'Caliphate',
                 'Islamic expansion',
             ],
-            'dcterms:date' => ['@value' => '0632', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P29Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0632/0661', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0655', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '6400000', '@type' => 'numeric:integer'],
-            'media' => 'rashidun-caliphate.png',
+            'dcterms:date' => [
+                '@value' => '0632',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P29Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0632/0661',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0655',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '6400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'rashidun-caliphate.png',
+                    'dcterms:title' => 'Rashidun Caliphate',
+                ],
+            ],
         ],
         [
             'id' => 'umayyad-caliphate',
@@ -1662,7 +2691,10 @@ return [
                 'umayyad-caliphate-of-c-rdoba',
                 'fatimid-caliphate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q8575586', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q8575586',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '19.365843,16.565843,53.234157,50.434157',
             'map_coordinates' => [
                 36.3,
@@ -1677,12 +2709,32 @@ return [
                 'Damascus',
                 'Arabization',
             ],
-            'dcterms:date' => ['@value' => '0661', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P89Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0661/0750', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0715', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '11100000', '@type' => 'numeric:integer'],
-            'media' => 'umayyad-caliphate.png',
+            'dcterms:date' => [
+                '@value' => '0661',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P89Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0661/0750',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0715',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '11100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'umayyad-caliphate.png',
+                    'dcterms:title' => 'Umayyad Caliphate',
+                ],
+            ],
         ],
         [
             'id' => 'abbasid-caliphate',
@@ -1703,7 +2755,10 @@ return [
                 'ismaili-nizari-state',
                 'tang-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q12536', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q12536',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '33.872367,22.772367,54.927633,43.827633',
             'map_coordinates' => [
                 44.4,
@@ -1718,12 +2773,32 @@ return [
                 'Baghdad',
                 'House of Wisdom',
             ],
-            'dcterms:date' => ['@value' => '0750', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P508Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0750/1258', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0850', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '4290000', '@type' => 'numeric:integer'],
-            'media' => 'abbasid-caliphate.png',
+            'dcterms:date' => [
+                '@value' => '0750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P508Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0750/1258',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0850',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '4290000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'abbasid-caliphate.png',
+                    'dcterms:title' => 'Abbasid Caliphate',
+                ],
+            ],
         ],
         [
             'id' => 'buyid-dynasty',
@@ -1737,7 +2812,10 @@ return [
                 'seljuk-sultanate',
                 'ziyarid-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q103895310', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q103895310',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '45.453815,27.453815,54.546185,36.546185',
             'map_coordinates' => [
                 50,
@@ -1752,12 +2830,32 @@ return [
                 'Ibn Sina',
                 'Islamic scholarship',
             ],
-            'dcterms:date' => ['@value' => '0934', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P128Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0934/1062', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0980', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '800000', '@type' => 'numeric:integer'],
-            'media' => 'buyid-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '0934',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P128Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0934/1062',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0980',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'buyid-dynasty.png',
+                    'dcterms:title' => 'Buyid Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'samanid-empire',
@@ -1772,7 +2870,10 @@ return [
                 'qarakhanid-khanate',
                 'ziyarid-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q12150341', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q12150341',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '58.244322,30.944322,75.555678,48.255678',
             'map_coordinates' => [
                 66.9,
@@ -1787,12 +2888,32 @@ return [
                 'Bukhara',
                 'Islamic scholarship',
             ],
-            'dcterms:date' => ['@value' => '0819', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P180Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0819/0999', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0920', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2900000', '@type' => 'numeric:integer'],
-            'media' => 'samanid-empire.gif',
+            'dcterms:date' => [
+                '@value' => '0819',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P180Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0819/0999',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0920',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2900000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'samanid-empire.gif',
+                    'dcterms:title' => 'Samanid Empire',
+                ],
+            ],
         ],
         [
             'id' => 'ghaznavid-empire',
@@ -1806,7 +2927,10 @@ return [
                 'seljuk-sultanate',
                 'ghurid-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q249578', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q249578',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '59.0278,24.1278,77.7722,42.8722',
             'map_coordinates' => [
                 68.4,
@@ -1821,12 +2945,32 @@ return [
                 'Mahmud of Ghazni',
                 'Islamic raids into India',
             ],
-            'dcterms:date' => ['@value' => '0977', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P209Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0977/1186', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1030', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3400000', '@type' => 'numeric:integer'],
-            'media' => 'ghaznavid-empire.png',
+            'dcterms:date' => [
+                '@value' => '0977',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P209Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0977/1186',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1030',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ghaznavid-empire.png',
+                    'dcterms:title' => 'Ghaznavid Empire',
+                ],
+            ],
         ],
         [
             'id' => 'seljuk-sultanate',
@@ -1846,7 +2990,10 @@ return [
                 'ismaili-nizari-state',
                 'crusader-states',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q167100', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q167100',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '48.362296,27.862296,68.437704,47.937704',
             'map_coordinates' => [
                 58.4,
@@ -1861,12 +3008,32 @@ return [
                 'Omar Khayyam',
                 'Crusades',
             ],
-            'dcterms:date' => ['@value' => '1037', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P157Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1037/1194', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1090', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3900000', '@type' => 'numeric:integer'],
-            'media' => 'seljuk-sultanate.png',
+            'dcterms:date' => [
+                '@value' => '1037',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P157Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1037/1194',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1090',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3900000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'seljuk-sultanate.png',
+                    'dcterms:title' => 'Seljuk Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'khwarazmian-empire',
@@ -1881,7 +3048,10 @@ return [
                 'ilkhanate',
                 'kara-khanid-khanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q63134381', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q63134381',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '52.891569,33.791569,68.308431,49.208431',
             'map_coordinates' => [
                 60.6,
@@ -1896,12 +3066,32 @@ return [
                 'Trade routes',
                 'Medieval Islam',
             ],
-            'dcterms:date' => ['@value' => '1077', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P154Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1077/1231', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1215', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2300000', '@type' => 'numeric:integer'],
-            'media' => 'khwarazmian-empire.png',
+            'dcterms:date' => [
+                '@value' => '1077',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P154Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1077/1231',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1215',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'khwarazmian-empire.png',
+                    'dcterms:title' => 'Khwarazmian Empire',
+                ],
+            ],
         ],
         [
             'id' => 'ilkhanate',
@@ -1918,7 +3108,10 @@ return [
                 'khwarazmian-empire',
                 'mamluk-sultanate-of-egypt',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q178084', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q178084',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '41.557221,25.857221,61.242779,45.542779',
             'map_coordinates' => [
                 51.4,
@@ -1933,12 +3126,32 @@ return [
                 'Islam',
                 'Persian miniature art',
             ],
-            'dcterms:date' => ['@value' => '1256', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P79Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1256/1335', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1290', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3750000', '@type' => 'numeric:integer'],
-            'media' => 'ilkhanate.jpg',
+            'dcterms:date' => [
+                '@value' => '1256',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P79Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1256/1335',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1290',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3750000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ilkhanate.jpg',
+                    'dcterms:title' => 'Ilkhanate',
+                ],
+            ],
         ],
         [
             'id' => 'timurid-empire',
@@ -1955,7 +3168,10 @@ return [
                 'chagatai-khanate',
                 'golden-horde',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q484195', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q484195',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '56.238252,29.038252,77.561748,50.361748',
             'map_coordinates' => [
                 66.9,
@@ -1970,12 +3186,32 @@ return [
                 'Persian art',
                 'Turkic empire',
             ],
-            'dcterms:date' => ['@value' => '1370', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P137Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1370/1507', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '4400000', '@type' => 'numeric:integer'],
-            'media' => 'timurid-empire.png',
+            'dcterms:date' => [
+                '@value' => '1370',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P137Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1370/1507',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '4400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'timurid-empire.png',
+                    'dcterms:title' => 'Timurid Empire',
+                ],
+            ],
         ],
         [
             'id' => 'safavid-empire',
@@ -1991,7 +3227,10 @@ return [
                 'mughal-india-under-akbar',
                 'safavid-persia-early-modern',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q18234383', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q18234383',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '45.044322,23.744322,62.355678,41.055678',
             'map_coordinates' => [
                 53.7,
@@ -2006,12 +3245,32 @@ return [
                 'Isfahan',
                 'Ottoman rivalry',
             ],
-            'dcterms:date' => ['@value' => '1501', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P235Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1501/1736', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2900000', '@type' => 'numeric:integer'],
-            'media' => 'safavid-empire.png',
+            'dcterms:date' => [
+                '@value' => '1501',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P235Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1501/1736',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2900000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'safavid-empire.png',
+                    'dcterms:title' => 'Safavid Empire',
+                ],
+            ],
         ],
         [
             'id' => 'afsharid-empire',
@@ -2026,7 +3285,10 @@ return [
                 'zand-dynasty',
                 'qajar-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q63149558', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q63149558',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '52.411851,29.111851,66.788149,43.488149',
             'map_coordinates' => [
                 59.6,
@@ -2041,12 +3303,32 @@ return [
                 'Mughal invasion',
                 'Military empire',
             ],
-            'dcterms:date' => ['@value' => '1736', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P60Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1736/1796', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1740', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000000', '@type' => 'numeric:integer'],
-            'media' => 'afsharid-empire.png',
+            'dcterms:date' => [
+                '@value' => '1736',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P60Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1736/1796',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1740',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'afsharid-empire.png',
+                    'dcterms:title' => 'Afsharid Empire',
+                ],
+            ],
         ],
         [
             'id' => 'zand-dynasty',
@@ -2059,7 +3341,10 @@ return [
                 'afsharid-empire',
                 'qajar-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2284836', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2284836',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '47.417211,24.517211,57.582789,34.682789',
             'map_coordinates' => [
                 52.5,
@@ -2074,12 +3359,32 @@ return [
                 'Post-Afsharid Iran',
                 'Persian culture',
             ],
-            'dcterms:date' => ['@value' => '1750', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P44Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1750/1794', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1765', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'zand-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '1750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P44Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1750/1794',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1765',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'zand-dynasty.png',
+                    'dcterms:title' => 'Zand Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'ghurid-sultanate',
@@ -2092,7 +3397,10 @@ return [
                 'ghaznavid-empire',
                 'delhi-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q103924831', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q103924831',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '57.111851,27.211851,71.488149,41.588149',
             'map_coordinates' => [
                 64.3,
@@ -2107,12 +3415,32 @@ return [
                 'Conquest of India',
                 'Medieval sultanate',
             ],
-            'dcterms:date' => ['@value' => '1148', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P67Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1148/1215', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000000', '@type' => 'numeric:integer'],
-            'media' => 'ghurid-sultanate.png',
+            'dcterms:date' => [
+                '@value' => '1148',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P67Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1148/1215',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ghurid-sultanate.png',
+                    'dcterms:title' => 'Ghurid Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'qarakhanid-khanate',
@@ -2126,7 +3454,10 @@ return [
                 'seljuk-sultanate',
                 'kara-khanid-khanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q494354', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q494354',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '66.57488,34.27488,79.02512,46.72512',
             'map_coordinates' => [
                 72.8,
@@ -2141,12 +3472,32 @@ return [
                 'Turkic literature',
                 'Silk Road',
             ],
-            'dcterms:date' => ['@value' => '0840', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P372Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0840/1212', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1500000', '@type' => 'numeric:integer'],
-            'media' => 'qarakhanid-khanate.jpg',
+            'dcterms:date' => [
+                '@value' => '0840',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P372Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0840/1212',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'qarakhanid-khanate.jpg',
+                    'dcterms:title' => 'Qarakhanid Khanate',
+                ],
+            ],
         ],
         [
             'id' => 'chagatai-khanate',
@@ -2159,7 +3510,10 @@ return [
                 'mongol-empire',
                 'timurid-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q487829', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q487829',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '65.490972,32.490972,84.509028,51.509028',
             'map_coordinates' => [
                 75,
@@ -2174,12 +3528,32 @@ return [
                 'Islam',
                 'Turco-Mongol culture',
             ],
-            'dcterms:date' => ['@value' => '1226', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P121Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1226/1347', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1280', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3500000', '@type' => 'numeric:integer'],
-            'media' => 'chagatai-khanate.png',
+            'dcterms:date' => [
+                '@value' => '1226',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P121Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1226/1347',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1280',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'chagatai-khanate.png',
+                    'dcterms:title' => 'Chagatai Khanate',
+                ],
+            ],
         ],
         [
             'id' => 'golden-horde',
@@ -2193,7 +3567,10 @@ return [
                 'timurid-empire',
                 'principality-of-moscow',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q79965', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q79965',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '32.04976,36.04976,56.95024,60.95024',
             'map_coordinates' => [
                 44.5,
@@ -2208,12 +3585,32 @@ return [
                 'Islam',
                 'Steppe empire',
             ],
-            'dcterms:date' => ['@value' => '1242', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P260Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1242/1502', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '6000000', '@type' => 'numeric:integer'],
-            'media' => 'golden-horde.jpg',
+            'dcterms:date' => [
+                '@value' => '1242',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P260Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1242/1502',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '6000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'golden-horde.jpg',
+                    'dcterms:title' => 'Golden Horde',
+                ],
+            ],
         ],
         [
             'id' => 'umayyad-caliphate-of-c-rdoba',
@@ -2227,7 +3624,10 @@ return [
                 'abbasid-caliphate',
                 'kingdom-of-le-n',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q171740', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q171740',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-8.209639,34.490361,-1.390361,41.309639',
             'map_coordinates' => [
                 -4.8,
@@ -2242,12 +3642,32 @@ return [
                 'Córdoba',
                 'Islamic Spain',
             ],
-            'dcterms:date' => ['@value' => '0756', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P275Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0756/1031', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0950', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '450000', '@type' => 'numeric:integer'],
-            'media' => 'umayyad-caliphate-of-c-rdoba.png',
+            'dcterms:date' => [
+                '@value' => '0756',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P275Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0756/1031',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0950',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '450000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'umayyad-caliphate-of-c-rdoba.png',
+                    'dcterms:title' => 'Umayyad Caliphate of Córdoba',
+                ],
+            ],
         ],
         [
             'id' => 'fatimid-caliphate',
@@ -2261,7 +3681,10 @@ return [
                 'umayyad-caliphate',
                 'ayyubid-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q160307', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q160307',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '20.908137,19.808137,41.491863,40.391863',
             'map_coordinates' => [
                 31.2,
@@ -2276,12 +3699,32 @@ return [
                 'Al-Azhar',
                 'Ismaili Islam',
             ],
-            'dcterms:date' => ['@value' => '0909', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P262Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0909/1171', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '4100000', '@type' => 'numeric:integer'],
-            'media' => 'fatimid-caliphate.jpg',
+            'dcterms:date' => [
+                '@value' => '0909',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P262Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0909/1171',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '4100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'fatimid-caliphate.jpg',
+                    'dcterms:title' => 'Fatimid Caliphate',
+                ],
+            ],
         ],
         [
             'id' => 'ayyubid-sultanate',
@@ -2296,7 +3739,10 @@ return [
                 'crusader-states',
                 'kingdom-of-jerusalem',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q180114', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q180114',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '29.111851,26.311851,43.488149,40.688149',
             'map_coordinates' => [
                 36.3,
@@ -2311,12 +3757,32 @@ return [
                 'Saladin',
                 'Medieval Syria',
             ],
-            'dcterms:date' => ['@value' => '1171', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P89Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1171/1260', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000000', '@type' => 'numeric:integer'],
-            'media' => 'ayyubid-sultanate.png',
+            'dcterms:date' => [
+                '@value' => '1171',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P89Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1171/1260',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ayyubid-sultanate.png',
+                    'dcterms:title' => 'Ayyubid Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'mamluk-sultanate-of-egypt',
@@ -2332,7 +3798,10 @@ return [
                 'crusader-states',
                 'mali-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q282428', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q282428',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '24.97488,23.87488,37.42512,36.32512',
             'map_coordinates' => [
                 31.2,
@@ -2347,12 +3816,32 @@ return [
                 'Mongol defeat',
                 'Cairo',
             ],
-            'dcterms:date' => ['@value' => '1250', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P267Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1250/1517', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1500000', '@type' => 'numeric:integer'],
-            'media' => 'mamluk-sultanate-of-egypt.jpg',
+            'dcterms:date' => [
+                '@value' => '1250',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P267Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1250/1517',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'mamluk-sultanate-of-egypt.jpg',
+                    'dcterms:title' => 'Mamluk Sultanate of Egypt',
+                ],
+            ],
         ],
         [
             'id' => 'georgian-kingdom',
@@ -2365,7 +3854,10 @@ return [
                 'byzantine-empire',
                 'seljuk-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q154667', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q154667',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '40.862889,37.762889,48.737111,45.637111',
             'map_coordinates' => [
                 44.8,
@@ -2380,12 +3872,32 @@ return [
                 'Caucasus',
                 'Medieval kingdom',
             ],
-            'dcterms:date' => ['@value' => '1008', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P482Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1008/1490', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '600000', '@type' => 'numeric:integer'],
-            'media' => 'georgian-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '1008',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P482Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1008/1490',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '600000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'georgian-kingdom.png',
+                    'dcterms:title' => 'Georgian Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'palmyrene-empire',
@@ -2398,7 +3910,10 @@ return [
                 'roman-empire',
                 'sasanian-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q877875', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q877875',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '32.285963,28.585963,44.314037,40.614037',
             'map_coordinates' => [
                 38.3,
@@ -2413,12 +3928,32 @@ return [
                 'Roman Empire crisis',
                 'Syria',
             ],
-            'dcterms:date' => ['@value' => '0260', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P13Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0260/0273', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0270', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1400000', '@type' => 'numeric:integer'],
-            'media' => 'palmyrene-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '0260',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P13Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0260/0273',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0270',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'palmyrene-empire.jpg',
+                    'dcterms:title' => 'Palmyrene Empire',
+                ],
+            ],
         ],
         [
             'id' => 'ghassanid-kingdom',
@@ -2432,7 +3967,10 @@ return [
                 'sasanian-empire',
                 'rashidun-caliphate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q733668', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q733668',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '34.392681,30.392681,37.607319,33.607319',
             'map_coordinates' => [
                 36,
@@ -2447,12 +3985,32 @@ return [
                 'Byzantine client',
                 'Pre-Islamic Arabs',
             ],
-            'dcterms:date' => ['@value' => '0220', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P418Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0220/0638', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0550', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'ghassanid-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '0220',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P418Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0220/0638',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0550',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ghassanid-kingdom.png',
+                    'dcterms:title' => 'Ghassanid Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'kara-khanid-khanate',
@@ -2465,7 +4023,10 @@ return [
                 'qarakhanid-khanate',
                 'khwarazmian-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q494354', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q494354',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '67.917211,34.917211,78.082789,45.082789',
             'map_coordinates' => [
                 73,
@@ -2480,12 +4041,32 @@ return [
                 'Transoxiana',
                 'Islam',
             ],
-            'dcterms:date' => ['@value' => '1040', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P172Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1040/1212', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1100', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'kara-khanid-khanate.jpg',
+            'dcterms:date' => [
+                '@value' => '1040',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P172Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1040/1212',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kara-khanid-khanate.jpg',
+                    'dcterms:title' => 'Kara-Khanid Khanate',
+                ],
+            ],
         ],
         [
             'id' => 'ziyarid-dynasty',
@@ -2498,7 +4079,10 @@ return [
                 'samanid-empire',
                 'buyid-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q207044', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q207044',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '52.126908,34.526908,56.673092,39.073092',
             'map_coordinates' => [
                 54.4,
@@ -2513,12 +4097,32 @@ return [
                 'Persian literature',
                 'Post-Abbasid Iran',
             ],
-            'dcterms:date' => ['@value' => '0928', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P115Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0928/1043', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0970', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'ziyarid-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '0928',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P115Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0928/1043',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0970',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ziyarid-dynasty.png',
+                    'dcterms:title' => 'Ziyarid Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'ismaili-nizari-state',
@@ -2531,7 +4135,10 @@ return [
                 'seljuk-sultanate',
                 'abbasid-caliphate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q6563843', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q6563843',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '48.892681,34.892681,52.107319,38.107319',
             'map_coordinates' => [
                 50.5,
@@ -2546,12 +4153,32 @@ return [
                 'Assassins',
                 'Medieval Iran',
             ],
-            'dcterms:date' => ['@value' => '1090', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P166Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1090/1256', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1150', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'ismaili-nizari-state.jpg',
+            'dcterms:date' => [
+                '@value' => '1090',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P166Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1090/1256',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1150',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ismaili-nizari-state.jpg',
+                    'dcterms:title' => 'Ismaili Nizari State',
+                ],
+            ],
         ],
         [
             'id' => 'qajar-dynasty',
@@ -2564,7 +4191,10 @@ return [
                 'zand-dynasty',
                 'afsharid-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q189326', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q189326',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '44.970724,29.270724,57.829276,42.129276',
             'map_coordinates' => [
                 51.4,
@@ -2579,12 +4209,32 @@ return [
                 'Tehran',
                 'Colonialism',
             ],
-            'dcterms:date' => ['@value' => '1789', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P136Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1789/1925', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1850', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1600000', '@type' => 'numeric:integer'],
-            'media' => 'qajar-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '1789',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P136Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1789/1925',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1850',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1600000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'qajar-dynasty.png',
+                    'dcterms:title' => 'Qajar Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'ottoman-empire',
@@ -2606,7 +4256,10 @@ return [
                 'albanian-league-of-lezh',
                 'kingdom-of-bosnia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q12560', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q12560',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '17.409458,29.409458,40.590542,52.590542',
             'map_coordinates' => [
                 29,
@@ -2621,12 +4274,32 @@ return [
                 'Suleiman the Magnificent',
                 'Constantinople',
             ],
-            'dcterms:date' => ['@value' => '1299', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P623Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1299/1922', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1560', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '5200000', '@type' => 'numeric:integer'],
-            'media' => 'ottoman-empire.png',
+            'dcterms:date' => [
+                '@value' => '1299',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P623Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1299/1922',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1560',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '5200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ottoman-empire.png',
+                    'dcterms:title' => 'Ottoman Empire',
+                ],
+            ],
         ],
         [
             'id' => 'spanish-empire',
@@ -2649,7 +4322,10 @@ return [
                 'aztec-cultural-legacy',
                 'viceroyalty-of-peru',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q80702', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q80702',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-26.430924,17.669076,19.030924,63.130924',
             'map_coordinates' => [
                 -3.7,
@@ -2664,12 +4340,32 @@ return [
                 'American silver',
                 'Colonialism',
             ],
-            'dcterms:date' => ['@value' => '1492', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P406Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1492/1898', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '20000000', '@type' => 'numeric:integer'],
-            'media' => 'spanish-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '1492',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P406Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1492/1898',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '20000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'spanish-empire.jpg',
+                    'dcterms:title' => 'Spanish Empire',
+                ],
+            ],
         ],
         [
             'id' => 'portuguese-empire',
@@ -2687,7 +4383,10 @@ return [
                 'kingdom-of-kongo-early-modern',
                 'imamate-of-muscat',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q200464', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q200464',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-25.491502,22.308498,7.291502,55.091502',
             'map_coordinates' => [
                 -9.1,
@@ -2702,12 +4401,32 @@ return [
                 'Spice trade',
                 'Estado da India',
             ],
-            'dcterms:date' => ['@value' => '1415', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P584Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1415/1999', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1580', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '10400000', '@type' => 'numeric:integer'],
-            'media' => 'portuguese-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '1415',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P584Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1415/1999',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1580',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '10400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'portuguese-empire.jpg',
+                    'dcterms:title' => 'Portuguese Empire',
+                ],
+            ],
         ],
         [
             'id' => 'habsburg-austria',
@@ -2723,7 +4442,10 @@ return [
                 'kingdom-of-prussia',
                 'thirty-years-war-states',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q66504140', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q66504140',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '12.177918,43.977918,20.622082,52.422082',
             'map_coordinates' => [
                 16.4,
@@ -2738,12 +4460,32 @@ return [
                 'Catholic empire',
                 'Central Europe',
             ],
-            'dcterms:date' => ['@value' => '1526', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P392Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1526/1918', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1700', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '690000', '@type' => 'numeric:integer'],
-            'media' => 'habsburg-austria.jpg',
+            'dcterms:date' => [
+                '@value' => '1526',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P392Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1526/1918',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '690000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'habsburg-austria.jpg',
+                    'dcterms:title' => 'Habsburg Austria',
+                ],
+            ],
         ],
         [
             'id' => 'dutch-republic',
@@ -2760,7 +4502,10 @@ return [
                 'republic-of-the-seven-united-netherlands',
                 'commonwealth-of-england',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q170072', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q170072',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-1.727146,45.772854,11.527146,59.027146',
             'map_coordinates' => [
                 4.9,
@@ -2775,12 +4520,32 @@ return [
                 'VOC',
                 'Dutch Golden Age',
             ],
-            'dcterms:date' => ['@value' => '1581', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P214Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1581/1795', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1650', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1700000', '@type' => 'numeric:integer'],
-            'media' => 'dutch-republic.png',
+            'dcterms:date' => [
+                '@value' => '1581',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P214Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1581/1795',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1650',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1700000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'dutch-republic.png',
+                    'dcterms:title' => 'Dutch Republic',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-sweden-early-modern',
@@ -2796,7 +4561,10 @@ return [
                 'thirty-years-war-states',
                 'kingdom-of-denmark-norway',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q34', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q34',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '13.278043,54.478043,22.921957,64.121957',
             'map_coordinates' => [
                 18.1,
@@ -2811,12 +4579,32 @@ return [
                 'Baltic empire',
                 'Military revolution',
             ],
-            'dcterms:date' => ['@value' => '1611', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P110Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1611/1721', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1660', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '900000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-sweden-early-modern.png',
+            'dcterms:date' => [
+                '@value' => '1611',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P110Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1611/1721',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1660',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '900000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-sweden-early-modern.png',
+                    'dcterms:title' => 'Kingdom of Sweden (Early Modern)',
+                ],
+            ],
         ],
         [
             'id' => 'polish-lithuanian-commonwealth',
@@ -2831,7 +4619,10 @@ return [
                 'russian-empire',
                 'tsardom-of-russia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q172107', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q172107',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '15.917211,47.117211,26.082789,57.282789',
             'map_coordinates' => [
                 21,
@@ -2846,12 +4637,32 @@ return [
                 'Elected monarchy',
                 'Liberum veto',
             ],
-            'dcterms:date' => ['@value' => '1569', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P226Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1569/1795', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1620', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'polish-lithuanian-commonwealth.jpg',
+            'dcterms:date' => [
+                '@value' => '1569',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P226Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1569/1795',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1620',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'polish-lithuanian-commonwealth.jpg',
+                    'dcterms:title' => 'Polish-Lithuanian Commonwealth',
+                ],
+            ],
         ],
         [
             'id' => 'russian-empire',
@@ -2871,7 +4682,10 @@ return [
                 'qing-dynasty-early-modern',
                 'qing-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q34266', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q34266',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '13.330015,31.430015,61.869985,79.969985',
             'map_coordinates' => [
                 37.6,
@@ -2886,12 +4700,32 @@ return [
                 'Westernization',
                 'Land empire',
             ],
-            'dcterms:date' => ['@value' => '1721', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P196Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1721/1917', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1866', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '22800000', '@type' => 'numeric:integer'],
-            'media' => 'russian-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '1721',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P196Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1721/1917',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1866',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '22800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'russian-empire.jpg',
+                    'dcterms:title' => 'Russian Empire',
+                ],
+            ],
         ],
         [
             'id' => 'french-empire-napoleon',
@@ -2908,7 +4742,10 @@ return [
                 'haitian-revolution-state',
                 'new-france',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q71084', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q71084',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-5.065661,41.534339,9.665661,56.265661',
             'map_coordinates' => [
                 2.3,
@@ -2923,12 +4760,32 @@ return [
                 'Napoleonic Code',
                 'Revolutionary wars',
             ],
-            'dcterms:date' => ['@value' => '1804', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P11Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1804/1815', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1812', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2100000', '@type' => 'numeric:integer'],
-            'media' => 'french-empire-napoleon.png',
+            'dcterms:date' => [
+                '@value' => '1804',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P11Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1804/1815',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1812',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'french-empire-napoleon.png',
+                    'dcterms:title' => 'French Empire (Napoleon)',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-prussia',
@@ -2943,7 +4800,10 @@ return [
                 'russian-empire',
                 'electorate-of-saxony',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q27306', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q27306',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '10.392981,49.492981,16.407019,55.507019',
             'map_coordinates' => [
                 13.4,
@@ -2958,12 +4818,32 @@ return [
                 'Military state',
                 'Enlightened absolutism',
             ],
-            'dcterms:date' => ['@value' => '1701', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P217Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1701/1918', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1780', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '350000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-prussia.png',
+            'dcterms:date' => [
+                '@value' => '1701',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P217Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1701/1918',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1780',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '350000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-prussia.png',
+                    'dcterms:title' => 'Kingdom of Prussia',
+                ],
+            ],
         ],
         [
             'id' => 'dutch-east-india-company',
@@ -2978,7 +4858,10 @@ return [
                 'malacca-sultanate',
                 'british-east-india-company',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q159766', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q159766',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '99.611851,-13.388149,113.988149,0.988149',
             'map_coordinates' => [
                 106.8,
@@ -2993,12 +4876,32 @@ return [
                 'Capitalism',
                 'Colonial trade',
             ],
-            'dcterms:date' => ['@value' => '1602', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P197Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1602/1799', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1660', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000000', '@type' => 'numeric:integer'],
-            'media' => 'dutch-east-india-company.jpg',
+            'dcterms:date' => [
+                '@value' => '1602',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P197Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1602/1799',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1660',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'dutch-east-india-company.jpg',
+                    'dcterms:title' => 'Dutch East India Company',
+                ],
+            ],
         ],
         [
             'id' => 'british-east-india-company',
@@ -3016,7 +4919,10 @@ return [
                 'kingdom-of-mysore',
                 'sikh-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q83164', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q83164',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '78.234422,12.434422,98.565578,32.765578',
             'map_coordinates' => [
                 88.4,
@@ -3031,12 +4937,32 @@ return [
                 'India',
                 'Corporate empire',
             ],
-            'dcterms:date' => ['@value' => '1600', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P258Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1600/1858', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '4000000', '@type' => 'numeric:integer'],
-            'media' => 'british-east-india-company.jpg',
+            'dcterms:date' => [
+                '@value' => '1600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P258Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1600/1858',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '4000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'british-east-india-company.jpg',
+                    'dcterms:title' => 'British East India Company',
+                ],
+            ],
         ],
         [
             'id' => 'tsardom-of-russia',
@@ -3050,7 +4976,10 @@ return [
                 'russian-empire',
                 'polish-lithuanian-commonwealth',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q186096', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q186096',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '24.345708,42.445708,50.854292,68.954292',
             'map_coordinates' => [
                 37.6,
@@ -3065,12 +4994,32 @@ return [
                 'Siberian expansion',
                 'Orthodox Tsardom',
             ],
-            'dcterms:date' => ['@value' => '1547', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P174Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1547/1721', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1650', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '6800000', '@type' => 'numeric:integer'],
-            'media' => 'tsardom-of-russia.png',
+            'dcterms:date' => [
+                '@value' => '1547',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P174Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1547/1721',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1650',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '6800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'tsardom-of-russia.png',
+                    'dcterms:title' => 'Tsardom of Russia',
+                ],
+            ],
         ],
         [
             'id' => 'thirty-years-war-states',
@@ -3098,12 +5047,32 @@ return [
                 'Peace of Westphalia',
                 'Sovereignty',
             ],
-            'dcterms:date' => ['@value' => '1618', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P30Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1618/1648', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1630', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '500000', '@type' => 'numeric:integer'],
-            'media' => 'thirty-years-war-states.jpg',
+            'dcterms:date' => [
+                '@value' => '1618',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P30Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1618/1648',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1630',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'thirty-years-war-states.jpg',
+                    'dcterms:title' => 'Thirty Years War States',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-denmark-norway',
@@ -3116,7 +5085,10 @@ return [
                 'kingdom-of-denmark',
                 'kingdom-of-sweden-early-modern',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q62651', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q62651',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '8.053815,51.153815,17.146185,60.246185',
             'map_coordinates' => [
                 12.6,
@@ -3131,12 +5103,32 @@ return [
                 'Norway',
                 'Protestant kingdom',
             ],
-            'dcterms:date' => ['@value' => '1536', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P278Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1536/1814', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1650', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '800000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-denmark-norway.jpg',
+            'dcterms:date' => [
+                '@value' => '1536',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P278Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1536/1814',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1650',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-denmark-norway.jpg',
+                    'dcterms:title' => 'Kingdom of Denmark-Norway',
+                ],
+            ],
         ],
         [
             'id' => 'electorate-of-saxony',
@@ -3149,7 +5141,10 @@ return [
                 'holy-roman-empire',
                 'kingdom-of-prussia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q156199', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q156199',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '12.2,49.6,15.2,52.6',
             'map_coordinates' => [
                 13.7,
@@ -3164,12 +5159,32 @@ return [
                 'Luther',
                 'Baroque culture',
             ],
-            'dcterms:date' => ['@value' => '1356', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P450Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1356/1806', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1650', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '40000', '@type' => 'numeric:integer'],
-            'media' => 'electorate-of-saxony.png',
+            'dcterms:date' => [
+                '@value' => '1356',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P450Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1356/1806',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1650',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '40000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'electorate-of-saxony.png',
+                    'dcterms:title' => 'Electorate of Saxony',
+                ],
+            ],
         ],
         [
             'id' => 'republic-of-the-seven-united-netherlands',
@@ -3182,7 +5197,10 @@ return [
                 'dutch-republic',
                 'spanish-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q170072', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q170072',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '3.4,50.9,6.4,53.9',
             'map_coordinates' => [
                 4.9,
@@ -3197,12 +5215,32 @@ return [
                 'Religious tolerance',
                 'Spinoza',
             ],
-            'dcterms:date' => ['@value' => '1588', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P207Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1588/1795', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1650', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '50000', '@type' => 'numeric:integer'],
-            'media' => 'republic-of-the-seven-united-netherlands.png',
+            'dcterms:date' => [
+                '@value' => '1588',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P207Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1588/1795',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1650',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '50000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'republic-of-the-seven-united-netherlands.png',
+                    'dcterms:title' => 'Republic of the Seven United Netherlands',
+                ],
+            ],
         ],
         [
             'id' => 'commonwealth-of-england',
@@ -3215,7 +5253,10 @@ return [
                 'kingdom-of-england',
                 'dutch-republic',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q330362', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q330362',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-2.929977,48.670023,2.729977,54.329977',
             'map_coordinates' => [
                 -0.1,
@@ -3230,12 +5271,32 @@ return [
                 'Cromwell',
                 'English Civil War',
             ],
-            'dcterms:date' => ['@value' => '1649', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P11Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1649/1660', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1653', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '310000', '@type' => 'numeric:integer'],
-            'media' => 'commonwealth-of-england.png',
+            'dcterms:date' => [
+                '@value' => '1649',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P11Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1649/1660',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1653',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '310000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'commonwealth-of-england.png',
+                    'dcterms:title' => 'Commonwealth of England',
+                ],
+            ],
         ],
         [
             'id' => 'mughal-india-under-akbar',
@@ -3249,7 +5310,10 @@ return [
                 'safavid-empire',
                 'safavid-persia-early-modern',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q8597', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q8597',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '67.834422,17.034422,88.165578,37.365578',
             'map_coordinates' => [
                 78,
@@ -3264,12 +5328,32 @@ return [
                 'Religious pluralism',
                 'Mughal golden age',
             ],
-            'dcterms:date' => ['@value' => '1556', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P49Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1556/1605', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1590', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '4000000', '@type' => 'numeric:integer'],
-            'media' => 'mughal-india-under-akbar.jpg',
+            'dcterms:date' => [
+                '@value' => '1556',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P49Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1556/1605',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1590',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '4000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'mughal-india-under-akbar.jpg',
+                    'dcterms:title' => 'Mughal India under Akbar',
+                ],
+            ],
         ],
         [
             'id' => 'qing-dynasty-early-modern',
@@ -3283,7 +5367,10 @@ return [
                 'russian-empire',
                 'mongol-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q409962', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q409962',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '98.003393,21.503393,134.796607,58.296607',
             'map_coordinates' => [
                 116.4,
@@ -3298,12 +5385,32 @@ return [
                 'Chinese expansion',
                 'Qing golden age',
             ],
-            'dcterms:date' => ['@value' => '1644', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P196Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1644/1840', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1750', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '13100000', '@type' => 'numeric:integer'],
-            'media' => 'qing-dynasty-early-modern.png',
+            'dcterms:date' => [
+                '@value' => '1644',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P196Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1644/1840',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '13100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'qing-dynasty-early-modern.png',
+                    'dcterms:title' => 'Qing Dynasty (Early Modern)',
+                ],
+            ],
         ],
         [
             'id' => 'tokugawa-shogunate',
@@ -3317,7 +5424,10 @@ return [
                 'spanish-empire',
                 'joseon-dynasty-early-modern',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q205662', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q205662',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '136.566758,32.566758,142.833242,38.833242',
             'map_coordinates' => [
                 139.7,
@@ -3332,12 +5442,32 @@ return [
                 'Edo culture',
                 'Japanese art',
             ],
-            'dcterms:date' => ['@value' => '1603', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P265Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1603/1868', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1700', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '380000', '@type' => 'numeric:integer'],
-            'media' => 'tokugawa-shogunate.png',
+            'dcterms:date' => [
+                '@value' => '1603',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P265Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1603/1868',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '380000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'tokugawa-shogunate.png',
+                    'dcterms:title' => 'Tokugawa Shogunate',
+                ],
+            ],
         ],
         [
             'id' => 'joseon-dynasty-early-modern',
@@ -3350,7 +5480,10 @@ return [
                 'joseon-dynasty',
                 'tokugawa-shogunate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q28179', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q28179',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '124.515961,35.215961,129.284039,39.984039',
             'map_coordinates' => [
                 126.9,
@@ -3365,12 +5498,32 @@ return [
                 'Turtle ships',
                 'Confucianism',
             ],
-            'dcterms:date' => ['@value' => '1550', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P347Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1550/1897', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1700', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '220000', '@type' => 'numeric:integer'],
-            'media' => 'joseon-dynasty-early-modern.jpg',
+            'dcterms:date' => [
+                '@value' => '1550',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P347Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1550/1897',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '220000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'joseon-dynasty-early-modern.jpg',
+                    'dcterms:title' => 'Joseon Dynasty (Early Modern)',
+                ],
+            ],
         ],
         [
             'id' => 'safavid-persia-early-modern',
@@ -3384,7 +5537,10 @@ return [
                 'ottoman-empire',
                 'mughal-india-under-akbar',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q18234383', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q18234383',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '43.663405,24.663405,59.736595,40.736595',
             'map_coordinates' => [
                 51.7,
@@ -3399,12 +5555,32 @@ return [
                 'Shah Abbas',
                 'Shia art',
             ],
-            'dcterms:date' => ['@value' => '1588', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P41Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1588/1629', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1610', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2500000', '@type' => 'numeric:integer'],
-            'media' => 'safavid-persia-early-modern.jpg',
+            'dcterms:date' => [
+                '@value' => '1588',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P41Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1588/1629',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1610',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'safavid-persia-early-modern.jpg',
+                    'dcterms:title' => 'Safavid Persia (Early Modern)',
+                ],
+            ],
         ],
         [
             'id' => 'songhai-after-askia',
@@ -3417,7 +5593,10 @@ return [
                 'songhai-empire',
                 'mali-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q202687', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q202687',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-6.014037,10.285963,6.014037,22.314037',
             'map_coordinates' => [
                 0,
@@ -3432,12 +5611,32 @@ return [
                 'Moroccan invasion',
                 'Gunpowder revolution',
             ],
-            'dcterms:date' => ['@value' => '1528', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P63Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1528/1591', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1560', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1400000', '@type' => 'numeric:integer'],
-            'media' => 'songhai-after-askia.jpg',
+            'dcterms:date' => [
+                '@value' => '1528',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P63Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1528/1591',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1560',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'songhai-after-askia.jpg',
+                    'dcterms:title' => 'Songhai After Askia',
+                ],
+            ],
         ],
         [
             'id' => 'vijayanagara-under-krishnadevaraya',
@@ -3450,7 +5649,10 @@ return [
                 'vijayanagara-empire',
                 'portuguese-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q121235', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q121235',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '72.905925,11.705925,80.094075,18.894075',
             'map_coordinates' => [
                 76.5,
@@ -3465,12 +5667,32 @@ return [
                 'Telugu literature',
                 'South Indian golden age',
             ],
-            'dcterms:date' => ['@value' => '1509', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P20Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1509/1529', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1520', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '500000', '@type' => 'numeric:integer'],
-            'media' => 'vijayanagara-under-krishnadevaraya.jpg',
+            'dcterms:date' => [
+                '@value' => '1509',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P20Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1509/1529',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1520',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'vijayanagara-under-krishnadevaraya.jpg',
+                    'dcterms:title' => 'Vijayanagara Under Krishnadevaraya',
+                ],
+            ],
         ],
         [
             'id' => 'maratha-empire-under-peshwas',
@@ -3486,7 +5708,10 @@ return [
                 'mughal-decline-period',
                 'afghan-durrani-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q83618', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q83618',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '65.863405,10.463405,81.936595,26.536595',
             'map_coordinates' => [
                 73.9,
@@ -3501,12 +5726,32 @@ return [
                 'Maratha expansion',
                 'Pre-British India',
             ],
-            'dcterms:date' => ['@value' => '1713', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P105Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1713/1818', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1760', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2500000', '@type' => 'numeric:integer'],
-            'media' => 'maratha-empire-under-peshwas.jpg',
+            'dcterms:date' => [
+                '@value' => '1713',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P105Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1713/1818',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1760',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'maratha-empire-under-peshwas.jpg',
+                    'dcterms:title' => 'Maratha Empire Under Peshwas',
+                ],
+            ],
         ],
         [
             'id' => 'sokoto-caliphate',
@@ -3519,7 +5764,10 @@ return [
                 'hausa-city-states',
                 'kanem-bornu-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q600524', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q600524',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '1.985362,9.885362,8.414638,16.314638',
             'map_coordinates' => [
                 5.2,
@@ -3534,12 +5782,32 @@ return [
                 'West Africa',
                 'Usman dan Fodio',
             ],
-            'dcterms:date' => ['@value' => '1804', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P99Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1804/1903', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1840', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '400000', '@type' => 'numeric:integer'],
-            'media' => 'sokoto-caliphate.png',
+            'dcterms:date' => [
+                '@value' => '1804',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P99Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1804/1903',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1840',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'sokoto-caliphate.png',
+                    'dcterms:title' => 'Sokoto Caliphate',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-kongo-early-modern',
@@ -3552,7 +5820,10 @@ return [
                 'kingdom-of-kongo',
                 'portuguese-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q796583', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q796583',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '11.758605,-8.541395,16.841395,-3.458605',
             'map_coordinates' => [
                 14.3,
@@ -3567,12 +5838,32 @@ return [
                 'Atlantic slave trade',
                 'Kimpa Vita',
             ],
-            'dcterms:date' => ['@value' => '1568', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P150Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1568/1718', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1650', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '250000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-kongo-early-modern.jpg',
+            'dcterms:date' => [
+                '@value' => '1568',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P150Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1568/1718',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1650',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '250000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-kongo-early-modern.jpg',
+                    'dcterms:title' => 'Kingdom of Kongo (Early Modern)',
+                ],
+            ],
         ],
         [
             'id' => 'dahomey-kingdom-early-modern',
@@ -3585,7 +5876,10 @@ return [
                 'dahomey-kingdom',
                 'oyo-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q468814', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q468814',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '0.7,5.7,3.7,8.7',
             'map_coordinates' => [
                 2.2,
@@ -3600,12 +5894,32 @@ return [
                 'West Africa',
                 'Female warriors',
             ],
-            'dcterms:date' => ['@value' => '1708', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P186Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1708/1894', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1840', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '52000', '@type' => 'numeric:integer'],
-            'media' => 'dahomey-kingdom-early-modern.jpg',
+            'dcterms:date' => [
+                '@value' => '1708',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P186Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1708/1894',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1840',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '52000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'dahomey-kingdom-early-modern.jpg',
+                    'dcterms:title' => 'Dahomey Kingdom (Early Modern)',
+                ],
+            ],
         ],
         [
             'id' => 'mughal-decline-period',
@@ -3619,7 +5933,10 @@ return [
                 'british-east-india-company',
                 'maratha-empire-under-peshwas',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q125292294', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q125292294',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '72.117211,23.517211,82.282789,33.682789',
             'map_coordinates' => [
                 77.2,
@@ -3634,12 +5951,32 @@ return [
                 'Mughal fragmentation',
                 'Pre-British India',
             ],
-            'dcterms:date' => ['@value' => '1707', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P150Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1707/1857', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1740', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'mughal-decline-period.jpg',
+            'dcterms:date' => [
+                '@value' => '1707',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P150Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1707/1857',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1740',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'mughal-decline-period.jpg',
+                    'dcterms:title' => 'Mughal Decline Period',
+                ],
+            ],
         ],
         [
             'id' => 'omani-empire',
@@ -3654,7 +5991,10 @@ return [
                 'imamate-of-muscat',
                 'zanzibar-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q22684779', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q22684779',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '29.685963,-12.214037,41.714037,-0.185963',
             'map_coordinates' => [
                 35.7,
@@ -3669,12 +6009,32 @@ return [
                 'Indian Ocean trade',
                 'Zanzibar',
             ],
-            'dcterms:date' => ['@value' => '1696', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P160Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1696/1856', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1830', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1400000', '@type' => 'numeric:integer'],
-            'media' => 'omani-empire.png',
+            'dcterms:date' => [
+                '@value' => '1696',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P160Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1696/1856',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1830',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'omani-empire.png',
+                    'dcterms:title' => 'Omani Empire',
+                ],
+            ],
         ],
         [
             'id' => 'confederation-of-the-rhine',
@@ -3687,7 +6047,10 @@ return [
                 'holy-roman-empire',
                 'french-empire-napoleon',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q154741', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q154741',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '5.492981,46.992981,11.507019,53.007019',
             'map_coordinates' => [
                 8.5,
@@ -3702,12 +6065,32 @@ return [
                 'German nationalism',
                 'End of Holy Roman Empire',
             ],
-            'dcterms:date' => ['@value' => '1806', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P7Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1806/1813', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1810', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '350000', '@type' => 'numeric:integer'],
-            'media' => 'confederation-of-the-rhine.jpg',
+            'dcterms:date' => [
+                '@value' => '1806',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P7Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1806/1813',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1810',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '350000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'confederation-of-the-rhine.jpg',
+                    'dcterms:title' => 'Confederation of the Rhine',
+                ],
+            ],
         ],
         [
             'id' => 'haitian-revolution-state',
@@ -3720,7 +6103,10 @@ return [
                 'french-empire-napoleon',
                 'spanish-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q689128', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q689128',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-73.8,17.4,-70.8,20.4',
             'map_coordinates' => [
                 -72.3,
@@ -3735,12 +6121,32 @@ return [
                 'Abolition',
                 'Caribbean independence',
             ],
-            'dcterms:date' => ['@value' => '1791', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P29Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1791/1820', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1804', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '27750', '@type' => 'numeric:integer'],
-            'media' => 'haitian-revolution-state.jpg',
+            'dcterms:date' => [
+                '@value' => '1791',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P29Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1791/1820',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1804',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '27750',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'haitian-revolution-state.jpg',
+                    'dcterms:title' => 'Haitian Revolution State',
+                ],
+            ],
         ],
         [
             'id' => 'imamate-of-muscat',
@@ -3753,7 +6159,10 @@ return [
                 'omani-empire',
                 'portuguese-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1752110', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1752110',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '55.816042,20.816042,61.383958,26.383958',
             'map_coordinates' => [
                 58.6,
@@ -3768,12 +6177,32 @@ return [
                 'Indian Ocean',
                 'Islam',
             ],
-            'dcterms:date' => ['@value' => '1648', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P48Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1648/1696', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1670', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '300000', '@type' => 'numeric:integer'],
-            'media' => 'imamate-of-muscat.png',
+            'dcterms:date' => [
+                '@value' => '1648',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P48Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1648/1696',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1670',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'imamate-of-muscat.png',
+                    'dcterms:title' => 'Imamate of Muscat',
+                ],
+            ],
         ],
         [
             'id' => 'aztec-cultural-legacy',
@@ -3786,7 +6215,10 @@ return [
                 'aztec-triple-alliance',
                 'spanish-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q12542', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q12542',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-101.373092,17.126908,-96.826908,21.673092',
             'map_coordinates' => [
                 -99.1,
@@ -3801,12 +6233,32 @@ return [
                 'Nahuatl',
                 'Cultural continuity',
             ],
-            'dcterms:date' => ['@value' => '1521', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P289Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1521/1810', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1700', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'aztec-cultural-legacy.jpg',
+            'dcterms:date' => [
+                '@value' => '1521',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P289Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1521/1810',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'aztec-cultural-legacy.jpg',
+                    'dcterms:title' => 'Aztec Cultural Legacy',
+                ],
+            ],
         ],
         [
             'id' => 'viceroyalty-of-peru',
@@ -3819,7 +6271,10 @@ return [
                 'spanish-empire',
                 'inca-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q211435', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q211435',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-85.803649,-20.903649,-68.196351,-3.296351',
             'map_coordinates' => [
                 -77,
@@ -3834,12 +6289,32 @@ return [
                 'Spanish colonialism',
                 'Lima',
             ],
-            'dcterms:date' => ['@value' => '1542', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P282Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1542/1824', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1650', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3000000', '@type' => 'numeric:integer'],
-            'media' => 'viceroyalty-of-peru.png',
+            'dcterms:date' => [
+                '@value' => '1542',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P282Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1542/1824',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1650',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'viceroyalty-of-peru.png',
+                    'dcterms:title' => 'Viceroyalty of Peru',
+                ],
+            ],
         ],
         [
             'id' => 'new-france',
@@ -3852,7 +6327,10 @@ return [
                 'french-empire-napoleon',
                 'iroquois-confederacy',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q170604', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q170604',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-81.861748,36.138252,-60.538252,57.461748',
             'map_coordinates' => [
                 -71.2,
@@ -3867,12 +6345,32 @@ return [
                 'French colonialism',
                 'Indigenous alliances',
             ],
-            'dcterms:date' => ['@value' => '1534', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P229Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1534/1763', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1700', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '4400000', '@type' => 'numeric:integer'],
-            'media' => 'new-france.png',
+            'dcterms:date' => [
+                '@value' => '1534',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P229Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1534/1763',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '4400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'new-france.png',
+                    'dcterms:title' => 'New France',
+                ],
+            ],
         ],
         [
             'id' => 'bengal-sultanate',
@@ -3885,7 +6383,10 @@ return [
                 'delhi-sultanate',
                 'mughal-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q42583', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q42583',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '87.392981,20.692981,93.407019,26.707019',
             'map_coordinates' => [
                 90.4,
@@ -3900,12 +6401,32 @@ return [
                 'Muslin trade',
                 'Indo-Islamic culture',
             ],
-            'dcterms:date' => ['@value' => '1352', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P224Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1352/1576', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1450', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '350000', '@type' => 'numeric:integer'],
-            'media' => 'bengal-sultanate.png',
+            'dcterms:date' => [
+                '@value' => '1352',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P224Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1352/1576',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1450',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '350000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'bengal-sultanate.png',
+                    'dcterms:title' => 'Bengal Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'bijapur-sultanate',
@@ -3920,7 +6441,10 @@ return [
                 'mughal-empire',
                 'golconda-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q83821', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q83821',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '73.426908,14.526908,77.973092,19.073092',
             'map_coordinates' => [
                 75.7,
@@ -3935,12 +6459,32 @@ return [
                 'Gol Gumbaz',
                 'Indo-Islamic architecture',
             ],
-            'dcterms:date' => ['@value' => '1490', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P196Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1490/1686', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1580', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'bijapur-sultanate.png',
+            'dcterms:date' => [
+                '@value' => '1490',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P196Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1490/1686',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1580',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'bijapur-sultanate.png',
+                    'dcterms:title' => 'Bijapur Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'golconda-sultanate',
@@ -3954,7 +6498,10 @@ return [
                 'mughal-empire',
                 'bijapur-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q19805959', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q19805959',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '76.126908,15.126908,80.673092,19.673092',
             'map_coordinates' => [
                 78.4,
@@ -3969,12 +6516,32 @@ return [
                 'Diamonds',
                 'Hyderabad',
             ],
-            'dcterms:date' => ['@value' => '1518', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P169Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1518/1687', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1620', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'golconda-sultanate.jpg',
+            'dcterms:date' => [
+                '@value' => '1518',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P169Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1518/1687',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1620',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'golconda-sultanate.jpg',
+                    'dcterms:title' => 'Golconda Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'sikh-khalsa-confederacy',
@@ -3988,7 +6555,10 @@ return [
                 'afghan-durrani-empire',
                 'sikh-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2578028', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2578028',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '72.626908,29.326908,77.173092,33.873092',
             'map_coordinates' => [
                 74.9,
@@ -4003,12 +6573,32 @@ return [
                 'Punjab',
                 'Khalsa brotherhood',
             ],
-            'dcterms:date' => ['@value' => '1716', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P85Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1716/1801', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1770', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'sikh-khalsa-confederacy.jpg',
+            'dcterms:date' => [
+                '@value' => '1716',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P85Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1716/1801',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1770',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'sikh-khalsa-confederacy.jpg',
+                    'dcterms:title' => 'Sikh Khalsa Confederacy',
+                ],
+            ],
         ],
         [
             'id' => 'afghan-durrani-empire',
@@ -4023,7 +6613,10 @@ return [
                 'maratha-empire-under-peshwas',
                 'sikh-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q467627', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q467627',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '55.534422,21.434422,75.865578,41.765578',
             'map_coordinates' => [
                 65.7,
@@ -4038,12 +6631,32 @@ return [
                 'Battle of Panipat',
                 'Central Asian power',
             ],
-            'dcterms:date' => ['@value' => '1747', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P76Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1747/1823', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1770', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '4000000', '@type' => 'numeric:integer'],
-            'media' => 'afghan-durrani-empire.png',
+            'dcterms:date' => [
+                '@value' => '1747',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P76Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1747/1823',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1770',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '4000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'afghan-durrani-empire.png',
+                    'dcterms:title' => 'Afghan Durrani Empire',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-mysore',
@@ -4057,7 +6670,10 @@ return [
                 'british-east-india-company',
                 'maratha-confederacy',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q266923', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q266923',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '74.426908,10.026908,78.973092,14.573092',
             'map_coordinates' => [
                 76.7,
@@ -4072,12 +6688,32 @@ return [
                 'Rocket warfare',
                 'Anti-colonial resistance',
             ],
-            'dcterms:date' => ['@value' => '1399', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P400Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1399/1799', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1780', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-mysore.png',
+            'dcterms:date' => [
+                '@value' => '1399',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P400Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1399/1799',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1780',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-mysore.png',
+                    'dcterms:title' => 'Kingdom of Mysore',
+                ],
+            ],
         ],
         [
             'id' => 'zanzibar-sultanate',
@@ -4090,7 +6726,10 @@ return [
                 'omani-empire',
                 'swahili-city-states',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q157904', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q157904',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '36.558905,-8.841095,41.841095,-3.558905',
             'map_coordinates' => [
                 39.2,
@@ -4105,12 +6744,32 @@ return [
                 'Slave trade',
                 'Shortest war',
             ],
-            'dcterms:date' => ['@value' => '1856', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P108Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1856/1964', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1870', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '270000', '@type' => 'numeric:integer'],
-            'media' => 'zanzibar-sultanate.png',
+            'dcterms:date' => [
+                '@value' => '1856',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P108Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1856/1964',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1870',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '270000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'zanzibar-sultanate.png',
+                    'dcterms:title' => 'Zanzibar Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'sikh-empire',
@@ -4124,7 +6783,10 @@ return [
                 'afghan-durrani-empire',
                 'british-east-india-company',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q83572', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q83572',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '69.569126,26.269126,80.230874,36.930874',
             'map_coordinates' => [
                 74.9,
@@ -4139,12 +6801,32 @@ return [
                 'Ranjit Singh',
                 'Punjab Empire',
             ],
-            'dcterms:date' => ['@value' => '1799', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P50Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1799/1849', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1820', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1100000', '@type' => 'numeric:integer'],
-            'media' => 'sikh-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '1799',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P50Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1799/1849',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1820',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'sikh-empire.jpg',
+                    'dcterms:title' => 'Sikh Empire',
+                ],
+            ],
         ],
         [
             'id' => 'xia-dynasty',
@@ -4156,7 +6838,10 @@ return [
             'relations' => [
                 'shang-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q169705', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q169705',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '109.425925,31.085925,116.614075,38.274075',
             'map_coordinates' => [
                 113.02,
@@ -4170,12 +6855,32 @@ return [
                 'China',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-2100', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P500Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2100/-1600', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '500000', '@type' => 'numeric:integer'],
-            'media' => 'xia-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '-2100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P500Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2100/-1600',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'xia-dynasty.png',
+                    'dcterms:title' => 'Xia Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'shang-dynasty',
@@ -4188,7 +6893,10 @@ return [
                 'xia-dynasty',
                 'western-zhou-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q128938', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q128938',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '109.217211,31.007211,119.382789,41.172789',
             'map_coordinates' => [
                 114.3,
@@ -4203,12 +6911,32 @@ return [
                 'Bronze Age',
                 'Writing',
             ],
-            'dcterms:date' => ['@value' => '-1600', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P554Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1600/-1046', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'shang-dynasty.jpg',
+            'dcterms:date' => [
+                '@value' => '-1600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P554Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1600/-1046',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'shang-dynasty.jpg',
+                    'dcterms:title' => 'Shang Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'western-zhou-dynasty',
@@ -4221,7 +6949,10 @@ return [
                 'shang-dynasty',
                 'spring-and-autumn-period',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1069609', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1069609',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '101.741851,27.081851,116.118149,41.458149',
             'map_coordinates' => [
                 108.93,
@@ -4236,12 +6967,32 @@ return [
                 'Bronze Age',
                 'Confucianism',
             ],
-            'dcterms:date' => ['@value' => '-1046', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P275Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1046/-0771', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0900', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000000', '@type' => 'numeric:integer'],
-            'media' => 'western-zhou-dynasty.jpg',
+            'dcterms:date' => [
+                '@value' => '-1046',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P275Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1046/-0771',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'western-zhou-dynasty.jpg',
+                    'dcterms:title' => 'Western Zhou Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'spring-and-autumn-period',
@@ -4256,7 +7007,10 @@ return [
                 'kingdom-of-chu',
                 'kingdom-of-qi',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q11871241', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q11871241',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '104.413405,26.643405,120.486595,42.716595',
             'map_coordinates' => [
                 112.45,
@@ -4271,12 +7025,32 @@ return [
                 'Iron Age',
                 'Philosophy',
             ],
-            'dcterms:date' => ['@value' => '-0771', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P295Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0771/-0476', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2500000', '@type' => 'numeric:integer'],
-            'media' => 'spring-and-autumn-period.jpg',
+            'dcterms:date' => [
+                '@value' => '-0771',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P295Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0771/-0476',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'spring-and-autumn-period.jpg',
+                    'dcterms:title' => 'Spring and Autumn Period',
+                ],
+            ],
         ],
         [
             'id' => 'warring-states-period',
@@ -4294,7 +7068,10 @@ return [
                 'kingdom-of-wei',
                 'kingdom-of-zhao',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1199672', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1199672',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '103.646351,25.876351,121.253649,43.483649',
             'map_coordinates' => [
                 112.45,
@@ -4309,12 +7086,32 @@ return [
                 'Iron Age',
                 'Philosophy',
             ],
-            'dcterms:date' => ['@value' => '-0475', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P254Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0475/-0221', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0350', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3000000', '@type' => 'numeric:integer'],
-            'media' => 'warring-states-period.gif',
+            'dcterms:date' => [
+                '@value' => '-0475',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P254Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0475/-0221',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0350',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'warring-states-period.gif',
+                    'dcterms:title' => 'Warring States Period',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-chu',
@@ -4328,7 +7125,10 @@ return [
                 'qin-dynasty',
                 'spring-and-autumn-period',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q504759', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q504759',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '105.95488,24.10488,118.40512,36.55512',
             'map_coordinates' => [
                 112.18,
@@ -4342,12 +7142,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-1030', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P807Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1030/-0223', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1500000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-chu.jpg',
+            'dcterms:date' => [
+                '@value' => '-1030',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P807Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1030/-0223',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-chu.jpg',
+                    'dcterms:title' => 'Kingdom of Chu',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-qi',
@@ -4361,7 +7181,10 @@ return [
                 'warring-states-period',
                 'qin-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q837855', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q837855',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '114.236042,33.896042,119.803958,39.463958',
             'map_coordinates' => [
                 117.02,
@@ -4376,12 +7199,32 @@ return [
                 'Iron Age',
                 'Philosophy',
             ],
-            'dcterms:date' => ['@value' => '-1046', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P825Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1046/-0221', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0350', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '300000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-qi.jpg',
+            'dcterms:date' => [
+                '@value' => '-1046',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P825Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1046/-0221',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0350',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-qi.jpg',
+                    'dcterms:title' => 'Kingdom of Qi',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-qin',
@@ -4394,7 +7237,10 @@ return [
                 'warring-states-period',
                 'qin-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q34756', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q34756',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '104.383815,29.723815,113.476185,38.816185',
             'map_coordinates' => [
                 108.93,
@@ -4408,12 +7254,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0900', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P679Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0900/-0221', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '800000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-qin.jpg',
+            'dcterms:date' => [
+                '@value' => '-0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P679Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0900/-0221',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-qin.jpg',
+                    'dcterms:title' => 'Kingdom of Qin',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-wei',
@@ -4427,7 +7293,10 @@ return [
                 'kingdom-of-zhao',
                 'qin-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q912052', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q912052',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '111.115362,31.575362,117.544638,38.004638',
             'map_coordinates' => [
                 114.33,
@@ -4441,12 +7310,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0403', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P178Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0403/-0225', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0340', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '400000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-wei.jpg',
+            'dcterms:date' => [
+                '@value' => '-0403',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P178Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0403/-0225',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0340',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-wei.jpg',
+                    'dcterms:title' => 'Kingdom of Wei',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-zhao',
@@ -4460,7 +7349,10 @@ return [
                 'kingdom-of-wei',
                 'xiongnu-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q6412682', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q6412682',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '111.130361,33.190361,117.949639,40.009639',
             'map_coordinates' => [
                 114.54,
@@ -4474,12 +7366,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0403', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P175Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0403/-0228', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '450000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-zhao.jpg',
+            'dcterms:date' => [
+                '@value' => '-0403',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P175Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0403/-0228',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '450000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-zhao.jpg',
+                    'dcterms:title' => 'Kingdom of Zhao',
+                ],
+            ],
         ],
         [
             'id' => 'qin-dynasty',
@@ -4497,7 +7409,10 @@ return [
                 'kingdom-of-wei',
                 'nanyue-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7183', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q7183',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '99.420972,24.760972,118.439028,43.779028',
             'map_coordinates' => [
                 108.93,
@@ -4512,12 +7427,32 @@ return [
                 'Iron Age',
                 'Military expansion',
             ],
-            'dcterms:date' => ['@value' => '-0221', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P15Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0221/-0206', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0221', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3500000', '@type' => 'numeric:integer'],
-            'media' => 'qin-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '-0221',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P15Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0221/-0206',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0221',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'qin-dynasty.png',
+                    'dcterms:title' => 'Qin Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'western-han-dynasty',
@@ -4534,7 +7469,10 @@ return [
                 'gojoseon',
                 'nanyue-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1072949', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1072949',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '96.47976,21.81976,121.38024,46.72024',
             'map_coordinates' => [
                 108.93,
@@ -4549,12 +7487,32 @@ return [
                 'Iron Age',
                 'Silk Road',
             ],
-            'dcterms:date' => ['@value' => '-0206', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P215Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0206/0009', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0100', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '6000000', '@type' => 'numeric:integer'],
-            'media' => 'western-han-dynasty.jpg',
+            'dcterms:date' => [
+                '@value' => '-0206',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P215Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0206/0009',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '6000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'western-han-dynasty.jpg',
+                    'dcterms:title' => 'Western Han Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'xin-dynasty',
@@ -4567,7 +7525,10 @@ return [
                 'western-han-dynasty',
                 'eastern-han-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q504769', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q504769',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '97.564538,22.904538,120.295462,45.635462',
             'map_coordinates' => [
                 108.93,
@@ -4581,12 +7542,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0009', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P14Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0009/0023', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0015', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '5000000', '@type' => 'numeric:integer'],
-            'media' => 'xin-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '0009',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P14Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0009/0023',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0015',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '5000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'xin-dynasty.png',
+                    'dcterms:title' => 'Xin Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'eastern-han-dynasty',
@@ -4601,7 +7582,10 @@ return [
                 'shu-han',
                 'eastern-wu',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1147037', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1147037',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '99.99976,22.22976,124.90024,47.13024',
             'map_coordinates' => [
                 112.45,
@@ -4615,12 +7599,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0025', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P195Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0025/0220', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0100', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '6000000', '@type' => 'numeric:integer'],
-            'media' => 'eastern-han-dynasty.jpg',
+            'dcterms:date' => [
+                '@value' => '0025',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P195Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0025/0220',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '6000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'eastern-han-dynasty.jpg',
+                    'dcterms:title' => 'Eastern Han Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'cao-wei',
@@ -4635,7 +7639,10 @@ return [
                 'eastern-wu',
                 'western-jin-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q320930', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q320930',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '103.794322,26.024322,121.105678,43.335678',
             'map_coordinates' => [
                 112.45,
@@ -4649,12 +7656,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0220', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P45Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0220/0265', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0240', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2900000', '@type' => 'numeric:integer'],
-            'media' => 'cao-wei.jpg',
+            'dcterms:date' => [
+                '@value' => '0220',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P45Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0220/0265',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0240',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2900000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'cao-wei.jpg',
+                    'dcterms:title' => 'Cao Wei',
+                ],
+            ],
         ],
         [
             'id' => 'shu-han',
@@ -4667,7 +7694,10 @@ return [
                 'eastern-han-dynasty',
                 'cao-wei',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q320925', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q320925',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '98.987211,25.487211,109.152789,35.652789',
             'map_coordinates' => [
                 104.07,
@@ -4681,12 +7711,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0221', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P42Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0221/0263', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0240', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'shu-han.jpg',
+            'dcterms:date' => [
+                '@value' => '0221',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P42Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0221/0263',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0240',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'shu-han.jpg',
+                    'dcterms:title' => 'Shu Han',
+                ],
+            ],
         ],
         [
             'id' => 'eastern-wu',
@@ -4700,7 +7750,10 @@ return [
                 'cao-wei',
                 'eastern-jin-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q274488', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q274488',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '112.775963,26.045963,124.804037,38.074037',
             'map_coordinates' => [
                 118.79,
@@ -4715,12 +7768,32 @@ return [
                 'Iron Age',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '0229', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P51Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0229/0280', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0250', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1400000', '@type' => 'numeric:integer'],
-            'media' => 'eastern-wu.jpg',
+            'dcterms:date' => [
+                '@value' => '0229',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P51Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0229/0280',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0250',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'eastern-wu.jpg',
+                    'dcterms:title' => 'Eastern Wu',
+                ],
+            ],
         ],
         [
             'id' => 'western-jin-dynasty',
@@ -4734,7 +7807,10 @@ return [
                 'eastern-jin-dynasty',
                 'sixteen-kingdoms',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1145470', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1145470',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '100.638666,22.868666,124.261334,46.491334',
             'map_coordinates' => [
                 112.45,
@@ -4748,12 +7824,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0265', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P51Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0265/0316', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0280', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '5400000', '@type' => 'numeric:integer'],
-            'media' => 'western-jin-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '0265',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P51Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0265/0316',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0280',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '5400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'western-jin-dynasty.png',
+                    'dcterms:title' => 'Western Jin Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'eastern-jin-dynasty',
@@ -4770,7 +7866,10 @@ return [
                 'liu-song-dynasty',
                 'former-qin',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q306928', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q306928',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '112.56488,25.83488,125.01512,38.28512',
             'map_coordinates' => [
                 118.79,
@@ -4784,12 +7883,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0317', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P103Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0317/0420', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0360', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1500000', '@type' => 'numeric:integer'],
-            'media' => 'eastern-jin-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '0317',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P103Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0317/0420',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0360',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'eastern-jin-dynasty.png',
+                    'dcterms:title' => 'Eastern Jin Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'sixteen-kingdoms',
@@ -4805,7 +7924,10 @@ return [
                 'eastern-jin-dynasty',
                 'former-qin',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q683551', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q683551',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '102.70488,28.04488,115.15512,40.49512',
             'map_coordinates' => [
                 108.93,
@@ -4819,12 +7941,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0304', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P135Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0304/0439', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0360', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1500000', '@type' => 'numeric:integer'],
-            'media' => 'sixteen-kingdoms.png',
+            'dcterms:date' => [
+                '@value' => '0304',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P135Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0304/0439',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0360',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'sixteen-kingdoms.png',
+                    'dcterms:title' => 'Sixteen Kingdoms',
+                ],
+            ],
         ],
         [
             'id' => 'northern-wei-dynasty',
@@ -4844,7 +7986,10 @@ return [
                 'western-wei',
                 'tuyuhun',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q875305', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q875305',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '103.134422,29.944422,123.465578,50.275578',
             'map_coordinates' => [
                 113.3,
@@ -4859,12 +8004,32 @@ return [
                 'Iron Age',
                 'Buddhism',
             ],
-            'dcterms:date' => ['@value' => '0386', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P148Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0386/0534', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0470', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '4000000', '@type' => 'numeric:integer'],
-            'media' => 'northern-wei-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '0386',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P148Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0386/0534',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0470',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '4000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'northern-wei-dynasty.png',
+                    'dcterms:title' => 'Northern Wei Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'northern-zhou-dynasty',
@@ -4879,7 +8044,10 @@ return [
                 'sui-dynasty',
                 'western-wei',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q551067', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q551067',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '100.424867,25.764867,117.435133,42.775133',
             'map_coordinates' => [
                 108.93,
@@ -4893,12 +8061,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0557', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P24Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0557/0581', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0570', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2800000', '@type' => 'numeric:integer'],
-            'media' => 'northern-zhou-dynasty.jpg',
+            'dcterms:date' => [
+                '@value' => '0557',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P24Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0557/0581',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0570',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'northern-zhou-dynasty.jpg',
+                    'dcterms:title' => 'Northern Zhou Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'sui-dynasty',
@@ -4912,7 +8100,10 @@ return [
                 'tang-dynasty',
                 'chen-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7405', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q7405',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '98.028632,23.368632,119.831368,45.171368',
             'map_coordinates' => [
                 108.93,
@@ -4926,12 +8117,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0581', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P37Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0581/0618', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '4600000', '@type' => 'numeric:integer'],
-            'media' => 'sui-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '0581',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P37Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0581/0618',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '4600000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'sui-dynasty.png',
+                    'dcterms:title' => 'Sui Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'tang-dynasty',
@@ -4955,7 +8166,10 @@ return [
                 'tuyuhun',
                 'srivijaya-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1104597', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1104597',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '97.118666,22.458666,120.741334,46.081334',
             'map_coordinates' => [
                 108.93,
@@ -4971,12 +8185,32 @@ return [
                 'Silk Road',
                 'Buddhism',
             ],
-            'dcterms:date' => ['@value' => '0618', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P289Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0618/0907', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0750', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '5400000', '@type' => 'numeric:integer'],
-            'media' => 'tang-dynasty.jpg',
+            'dcterms:date' => [
+                '@value' => '0618',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P289Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0618/0907',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '5400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'tang-dynasty.jpg',
+                    'dcterms:title' => 'Tang Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'five-dynasties-and-ten-kingdoms',
@@ -4989,7 +8223,10 @@ return [
                 'tang-dynasty',
                 'northern-song-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q97650998', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q97650998',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '109.247211,29.707211,119.412789,39.872789',
             'map_coordinates' => [
                 114.33,
@@ -5003,12 +8240,32 @@ return [
                 'China',
                 'Medieval',
             ],
-            'dcterms:date' => ['@value' => '0907', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P53Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0907/0960', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0930', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'five-dynasties-and-ten-kingdoms.png',
+            'dcterms:date' => [
+                '@value' => '0907',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P53Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0907/0960',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0930',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'five-dynasties-and-ten-kingdoms.png',
+                    'dcterms:title' => 'Five Dynasties and Ten Kingdoms',
+                ],
+            ],
         ],
         [
             'id' => 'northern-song-dynasty',
@@ -5024,7 +8281,10 @@ return [
                 'jin-dynasty-jurchen',
                 'western-xia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q319460', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q319460',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '106.964339,27.424339,121.695661,42.155661',
             'map_coordinates' => [
                 114.33,
@@ -5039,12 +8299,32 @@ return [
                 'Medieval',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '0960', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P167Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0960/1127', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1050', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2100000', '@type' => 'numeric:integer'],
-            'media' => 'northern-song-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '0960',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P167Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0960/1127',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1050',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'northern-song-dynasty.png',
+                    'dcterms:title' => 'Northern Song Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'southern-song-dynasty',
@@ -5058,7 +8338,10 @@ return [
                 'jin-dynasty-jurchen',
                 'yuan-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q112162644', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q112162644',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '113.340723,23.430723,126.979277,37.069277',
             'map_coordinates' => [
                 120.16,
@@ -5074,12 +8357,32 @@ return [
                 'Trade',
                 'Confucianism',
             ],
-            'dcterms:date' => ['@value' => '1127', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P152Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1127/1279', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1800000', '@type' => 'numeric:integer'],
-            'media' => 'southern-song-dynasty.jpg',
+            'dcterms:date' => [
+                '@value' => '1127',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P152Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1127/1279',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'southern-song-dynasty.jpg',
+                    'dcterms:title' => 'Southern Song Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'liao-dynasty',
@@ -5094,7 +8397,10 @@ return [
                 'jin-dynasty-jurchen',
                 'western-xia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q4958', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q4958',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '107.864167,32.284167,130.135833,54.555833',
             'map_coordinates' => [
                 119,
@@ -5108,12 +8414,32 @@ return [
                 'China',
                 'Medieval',
             ],
-            'dcterms:date' => ['@value' => '0907', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P218Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0907/1125', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '4800000', '@type' => 'numeric:integer'],
-            'media' => 'liao-dynasty.jpg',
+            'dcterms:date' => [
+                '@value' => '0907',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P218Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0907/1125',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '4800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'liao-dynasty.jpg',
+                    'dcterms:title' => 'Liao Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'jin-dynasty-jurchen',
@@ -5129,7 +8455,10 @@ return [
                 'southern-song-dynasty',
                 'mongol-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q5066', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q5066',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '107.0278,30.7178,125.7722,49.4622',
             'map_coordinates' => [
                 116.4,
@@ -5143,12 +8472,32 @@ return [
                 'China',
                 'Medieval',
             ],
-            'dcterms:date' => ['@value' => '1115', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P119Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1115/1234', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1150', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3400000', '@type' => 'numeric:integer'],
-            'media' => 'jin-dynasty-jurchen.png',
+            'dcterms:date' => [
+                '@value' => '1115',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P119Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1115/1234',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1150',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'jin-dynasty-jurchen.png',
+                    'dcterms:title' => 'Jin Dynasty (Jurchen)',
+                ],
+            ],
         ],
         [
             'id' => 'yuan-dynasty',
@@ -5164,7 +8513,10 @@ return [
                 'mongol-empire',
                 'dali-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7313', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q7313',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '105.607776,29.127776,127.172224,50.692224',
             'map_coordinates' => [
                 116.39,
@@ -5179,12 +8531,32 @@ return [
                 'Medieval',
                 'Silk Road',
             ],
-            'dcterms:date' => ['@value' => '1271', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P97Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1271/1368', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '4500000', '@type' => 'numeric:integer'],
-            'media' => 'yuan-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '1271',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P97Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1271/1368',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '4500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'yuan-dynasty.png',
+                    'dcterms:title' => 'Yuan Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'ming-dynasty',
@@ -5199,7 +8571,10 @@ return [
                 'kingdom-of-ryukyu',
                 'later-jin-manchu',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q6864635', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q6864635',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '106.880972,30.400972,125.899028,49.419028',
             'map_coordinates' => [
                 116.39,
@@ -5214,12 +8589,32 @@ return [
                 'Early modern',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '1368', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P276Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1368/1644', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3500000', '@type' => 'numeric:integer'],
-            'media' => 'ming-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '1368',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P276Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1368/1644',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ming-dynasty.png',
+                    'dcterms:title' => 'Ming Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'qing-dynasty',
@@ -5234,7 +8629,10 @@ return [
                 'qing-dynasty-early-modern',
                 'later-jin-manchu',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q409962', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q409962',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '97.993393,21.513393,134.786607,58.306607',
             'map_coordinates' => [
                 116.39,
@@ -5248,12 +8646,32 @@ return [
                 'China',
                 'Early modern',
             ],
-            'dcterms:date' => ['@value' => '1644', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P268Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1644/1912', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1790', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '13100000', '@type' => 'numeric:integer'],
-            'media' => 'qing-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '1644',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P268Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1644/1912',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1790',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '13100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'qing-dynasty.png',
+                    'dcterms:title' => 'Qing Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'xiongnu-empire',
@@ -5267,7 +8685,10 @@ return [
                 'kingdom-of-zhao',
                 'xianbei-confederation',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q188836', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q188836',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '98.196351,38.696351,115.803649,56.303649',
             'map_coordinates' => [
                 107,
@@ -5282,12 +8703,32 @@ return [
                 'Steppe',
                 'Nomadic',
             ],
-            'dcterms:date' => ['@value' => '-0209', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P300Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0209/0091', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0174', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3000000', '@type' => 'numeric:integer'],
-            'media' => 'xiongnu-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '-0209',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P300Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0209/0091',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0174',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'xiongnu-empire.jpg',
+                    'dcterms:title' => 'Xiongnu Empire',
+                ],
+            ],
         ],
         [
             'id' => 'xianbei-confederation',
@@ -5302,7 +8743,10 @@ return [
                 'northern-wei-dynasty',
                 'rouran-khaganate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q861054', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q861054',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '103.634538,35.634538,126.365462,58.365462',
             'map_coordinates' => [
                 115,
@@ -5317,12 +8761,32 @@ return [
                 'Steppe',
                 'Nomadic',
             ],
-            'dcterms:date' => ['@value' => '0093', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P141Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0093/0234', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0150', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '5000000', '@type' => 'numeric:integer'],
-            'media' => 'xianbei-confederation.png',
+            'dcterms:date' => [
+                '@value' => '0093',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P141Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0093/0234',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0150',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '5000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'xianbei-confederation.png',
+                    'dcterms:title' => 'Xianbei Confederation',
+                ],
+            ],
         ],
         [
             'id' => 'rouran-khaganate',
@@ -5336,7 +8800,10 @@ return [
                 'xianbei-confederation',
                 'g-kt-rk-khaganate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q155361', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q155361',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '96.196351,39.196351,113.803649,56.803649',
             'map_coordinates' => [
                 105,
@@ -5351,12 +8818,32 @@ return [
                 'Steppe',
                 'Nomadic',
             ],
-            'dcterms:date' => ['@value' => '0330', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P225Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0330/0555', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0440', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3000000', '@type' => 'numeric:integer'],
-            'media' => 'rouran-khaganate.png',
+            'dcterms:date' => [
+                '@value' => '0330',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P225Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0330/0555',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0440',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'rouran-khaganate.png',
+                    'dcterms:title' => 'Rouran Khaganate',
+                ],
+            ],
         ],
         [
             'id' => 'northern-qi',
@@ -5370,7 +8857,10 @@ return [
                 'northern-zhou-dynasty',
                 'eastern-wei',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1143524', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1143524',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '108.39488,30.10488,120.84512,42.55512',
             'map_coordinates' => [
                 114.62,
@@ -5385,12 +8875,32 @@ return [
                 'Iron Age',
                 'Buddhism',
             ],
-            'dcterms:date' => ['@value' => '0550', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P27Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0550/0577', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0560', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1500000', '@type' => 'numeric:integer'],
-            'media' => 'northern-qi.png',
+            'dcterms:date' => [
+                '@value' => '0550',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P27Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0550/0577',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0560',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'northern-qi.png',
+                    'dcterms:title' => 'Northern Qi',
+                ],
+            ],
         ],
         [
             'id' => 'gojoseon',
@@ -5403,7 +8913,10 @@ return [
                 'western-han-dynasty',
                 'goguryeo',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q28405', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q28405',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '122.966042,36.236042,128.533958,41.803958',
             'map_coordinates' => [
                 125.75,
@@ -5417,12 +8930,32 @@ return [
                 'Korea',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-2333', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P2225Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2333/-0108', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '300000', '@type' => 'numeric:integer'],
-            'media' => 'gojoseon.jpg',
+            'dcterms:date' => [
+                '@value' => '-2333',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P2225Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2333/-0108',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'gojoseon.jpg',
+                    'dcterms:title' => 'Gojoseon',
+                ],
+            ],
         ],
         [
             'id' => 'yayoi-period',
@@ -5434,7 +8967,10 @@ return [
             'relations' => [
                 'kofun-period',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q152621', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q152621',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '127.276758,30.456758,133.543242,36.723242',
             'map_coordinates' => [
                 130.41,
@@ -5448,12 +8984,32 @@ return [
                 'Japan',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-0300', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P600Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0300/0300', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0100', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '380000', '@type' => 'numeric:integer'],
-            'media' => 'yayoi-period.jpg',
+            'dcterms:date' => [
+                '@value' => '-0300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P600Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0300/0300',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '380000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'yayoi-period.jpg',
+                    'dcterms:title' => 'Yayoi Period',
+                ],
+            ],
         ],
         [
             'id' => 'kofun-period',
@@ -5466,7 +9022,10 @@ return [
                 'yayoi-period',
                 'asuka-period',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1141225', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1141225',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '132.666758,31.556758,138.933242,37.823242',
             'map_coordinates' => [
                 135.8,
@@ -5480,12 +9039,32 @@ return [
                 'Japan',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0250', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P288Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0250/0538', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '380000', '@type' => 'numeric:integer'],
-            'media' => 'kofun-period.jpg',
+            'dcterms:date' => [
+                '@value' => '0250',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P288Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0250/0538',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '380000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kofun-period.jpg',
+                    'dcterms:title' => 'Kofun Period',
+                ],
+            ],
         ],
         [
             'id' => 'asuka-period',
@@ -5499,7 +9078,10 @@ return [
                 'baekje',
                 'nara-period',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q152628', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q152628',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '132.696758,31.356758,138.963242,37.623242',
             'map_coordinates' => [
                 135.83,
@@ -5514,12 +9096,32 @@ return [
                 'Medieval',
                 'Buddhism',
             ],
-            'dcterms:date' => ['@value' => '0538', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P172Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0538/0710', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0645', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '380000', '@type' => 'numeric:integer'],
-            'media' => 'asuka-period.jpg',
+            'dcterms:date' => [
+                '@value' => '0538',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P172Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0538/0710',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0645',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '380000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'asuka-period.jpg',
+                    'dcterms:title' => 'Asuka Period',
+                ],
+            ],
         ],
         [
             'id' => 'nara-period',
@@ -5533,7 +9135,10 @@ return [
                 'tang-dynasty',
                 'heian-period',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q36179', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q36179',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '132.696758,31.556758,138.963242,37.823242',
             'map_coordinates' => [
                 135.83,
@@ -5548,12 +9153,32 @@ return [
                 'Medieval',
                 'Buddhism',
             ],
-            'dcterms:date' => ['@value' => '0710', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P84Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0710/0794', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0750', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '380000', '@type' => 'numeric:integer'],
-            'media' => 'nara-period.jpg',
+            'dcterms:date' => [
+                '@value' => '0710',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P84Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0710/0794',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '380000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'nara-period.jpg',
+                    'dcterms:title' => 'Nara Period',
+                ],
+            ],
         ],
         [
             'id' => 'heian-period',
@@ -5566,7 +9191,10 @@ return [
                 'nara-period',
                 'kamakura-shogunate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q405806', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q405806',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '132.636758,31.876758,138.903242,38.143242',
             'map_coordinates' => [
                 135.77,
@@ -5580,12 +9208,32 @@ return [
                 'Japan',
                 'Medieval',
             ],
-            'dcterms:date' => ['@value' => '0794', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P391Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0794/1185', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '380000', '@type' => 'numeric:integer'],
-            'media' => 'heian-period.jpg',
+            'dcterms:date' => [
+                '@value' => '0794',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P391Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0794/1185',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '380000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'heian-period.jpg',
+                    'dcterms:title' => 'Heian Period',
+                ],
+            ],
         ],
         [
             'id' => 'kamakura-shogunate',
@@ -5599,7 +9247,10 @@ return [
                 'mongol-empire',
                 'muromachi-shogunate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q200267', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q200267',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '136.416758,32.186758,142.683242,38.453242',
             'map_coordinates' => [
                 139.55,
@@ -5614,12 +9265,32 @@ return [
                 'Medieval',
                 'Buddhism',
             ],
-            'dcterms:date' => ['@value' => '1185', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P148Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1185/1333', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1250', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '380000', '@type' => 'numeric:integer'],
-            'media' => 'kamakura-shogunate.jpg',
+            'dcterms:date' => [
+                '@value' => '1185',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P148Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1185/1333',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1250',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '380000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kamakura-shogunate.jpg',
+                    'dcterms:title' => 'Kamakura Shogunate',
+                ],
+            ],
         ],
         [
             'id' => 'muromachi-shogunate',
@@ -5632,7 +9303,10 @@ return [
                 'kamakura-shogunate',
                 'sengoku-period',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q361738', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q361738',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '132.636758,31.886758,138.903242,38.153242',
             'map_coordinates' => [
                 135.77,
@@ -5647,12 +9321,32 @@ return [
                 'Medieval',
                 'Buddhism',
             ],
-            'dcterms:date' => ['@value' => '1336', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P237Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1336/1573', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1450', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '380000', '@type' => 'numeric:integer'],
-            'media' => 'muromachi-shogunate.png',
+            'dcterms:date' => [
+                '@value' => '1336',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P237Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1336/1573',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1450',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '380000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'muromachi-shogunate.png',
+                    'dcterms:title' => 'Muromachi Shogunate',
+                ],
+            ],
         ],
         [
             'id' => 'sengoku-period',
@@ -5665,7 +9359,10 @@ return [
                 'muromachi-shogunate',
                 'azuchi-momoyama-period',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q204023', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q204023',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '132.636758,31.876758,138.903242,38.143242',
             'map_coordinates' => [
                 135.77,
@@ -5679,12 +9376,32 @@ return [
                 'Japan',
                 'Early modern',
             ],
-            'dcterms:date' => ['@value' => '1467', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P148Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1467/1615', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1560', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '380000', '@type' => 'numeric:integer'],
-            'media' => 'sengoku-period.png',
+            'dcterms:date' => [
+                '@value' => '1467',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P148Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1467/1615',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1560',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '380000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'sengoku-period.png',
+                    'dcterms:title' => 'Sengoku Period',
+                ],
+            ],
         ],
         [
             'id' => 'azuchi-momoyama-period',
@@ -5698,7 +9415,10 @@ return [
                 'edo-period',
                 'joseon-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q319531', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q319531',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '132.966758,31.996758,139.233242,38.263242',
             'map_coordinates' => [
                 136.1,
@@ -5712,12 +9432,32 @@ return [
                 'Japan',
                 'Early modern',
             ],
-            'dcterms:date' => ['@value' => '1568', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P35Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1568/1603', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1590', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '380000', '@type' => 'numeric:integer'],
-            'media' => 'azuchi-momoyama-period.png',
+            'dcterms:date' => [
+                '@value' => '1568',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P35Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1568/1603',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1590',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '380000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'azuchi-momoyama-period.png',
+                    'dcterms:title' => 'Azuchi-Momoyama Period',
+                ],
+            ],
         ],
         [
             'id' => 'edo-period',
@@ -5731,7 +9471,10 @@ return [
                 'kingdom-of-ryukyu',
                 'tokugawa-shogunate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1490', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1490',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '136.556758,32.556758,142.823242,38.823242',
             'map_coordinates' => [
                 139.69,
@@ -5745,12 +9488,32 @@ return [
                 'Japan',
                 'Early modern',
             ],
-            'dcterms:date' => ['@value' => '1603', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P265Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1603/1868', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1700', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '380000', '@type' => 'numeric:integer'],
-            'media' => 'edo-period.jpg',
+            'dcterms:date' => [
+                '@value' => '1603',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P265Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1603/1868',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '380000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'edo-period.jpg',
+                    'dcterms:title' => 'Edo Period',
+                ],
+            ],
         ],
         [
             'id' => 'gaya-confederacy',
@@ -5764,7 +9527,10 @@ return [
                 'baekje',
                 'silla',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q28084', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q28084',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '127.39,33.73,130.39,36.73',
             'map_coordinates' => [
                 128.89,
@@ -5778,12 +9544,32 @@ return [
                 'Korea',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0001', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P561Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0001/0562', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '50000', '@type' => 'numeric:integer'],
-            'media' => 'gaya-confederacy.jpg',
+            'dcterms:date' => [
+                '@value' => '0001',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P561Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0001/0562',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '50000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'gaya-confederacy.jpg',
+                    'dcterms:title' => 'Gaya Confederacy',
+                ],
+            ],
         ],
         [
             'id' => 'goguryeo',
@@ -5799,7 +9585,10 @@ return [
                 'balhae-kingdom',
                 'gaya-confederacy',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q28370', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q28370',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '121.497434,34.767434,130.002566,43.272566',
             'map_coordinates' => [
                 125.75,
@@ -5813,12 +9602,32 @@ return [
                 'Korea',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0037', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P705Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0037/0668', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '700000', '@type' => 'numeric:integer'],
-            'media' => 'goguryeo.jpg',
+            'dcterms:date' => [
+                '@value' => '-0037',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P705Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0037/0668',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '700000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'goguryeo.jpg',
+                    'dcterms:title' => 'Goguryeo',
+                ],
+            ],
         ],
         [
             'id' => 'baekje',
@@ -5833,7 +9642,10 @@ return [
                 'asuka-period',
                 'gaya-confederacy',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q28428', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q28428',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '125.512681,34.832681,128.727319,38.047319',
             'map_coordinates' => [
                 127.12,
@@ -5848,12 +9660,32 @@ return [
                 'Iron Age',
                 'Buddhism',
             ],
-            'dcterms:date' => ['@value' => '-0018', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P678Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0018/0660', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'baekje.jpg',
+            'dcterms:date' => [
+                '@value' => '-0018',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P678Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0018/0660',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'baekje.jpg',
+                    'dcterms:title' => 'Baekje',
+                ],
+            ],
         ],
         [
             'id' => 'silla',
@@ -5868,7 +9700,10 @@ return [
                 'gaya-confederacy',
                 'unified-silla',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q10843', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q10843',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '127.602681,34.232681,130.817319,37.447319',
             'map_coordinates' => [
                 129.21,
@@ -5882,12 +9717,32 @@ return [
                 'Korea',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0057', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P725Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0057/0668', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'silla.jpg',
+            'dcterms:date' => [
+                '@value' => '-0057',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P725Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0057/0668',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'silla.jpg',
+                    'dcterms:title' => 'Silla',
+                ],
+            ],
         ],
         [
             'id' => 'unified-silla',
@@ -5901,7 +9756,10 @@ return [
                 'goryeo',
                 'later-three-kingdoms-of-korea',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q715257', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q715257',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '126.936908,33.566908,131.483092,38.113092',
             'map_coordinates' => [
                 129.21,
@@ -5916,12 +9774,32 @@ return [
                 'Medieval',
                 'Buddhism',
             ],
-            'dcterms:date' => ['@value' => '0668', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P267Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0668/0935', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0780', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'unified-silla.png',
+            'dcterms:date' => [
+                '@value' => '0668',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P267Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0668/0935',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0780',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'unified-silla.png',
+                    'dcterms:title' => 'Unified Silla',
+                ],
+            ],
         ],
         [
             'id' => 'goryeo',
@@ -5936,7 +9814,10 @@ return [
                 'joseon-dynasty',
                 'balhae-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q28208', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q28208',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '123.860441,35.280441,129.239559,40.659559',
             'map_coordinates' => [
                 126.55,
@@ -5951,12 +9832,32 @@ return [
                 'Medieval',
                 'Buddhism',
             ],
-            'dcterms:date' => ['@value' => '0918', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P474Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0918/1392', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1100', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '280000', '@type' => 'numeric:integer'],
-            'media' => 'goryeo.jpg',
+            'dcterms:date' => [
+                '@value' => '0918',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P474Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0918/1392',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '280000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'goryeo.jpg',
+                    'dcterms:title' => 'Goryeo',
+                ],
+            ],
         ],
         [
             'id' => 'joseon-dynasty',
@@ -5970,7 +9871,10 @@ return [
                 'azuchi-momoyama-period',
                 'joseon-dynasty-early-modern',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q28179', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q28179',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '124.585961,35.185961,129.354039,39.954039',
             'map_coordinates' => [
                 126.97,
@@ -5985,12 +9889,32 @@ return [
                 'Early modern',
                 'Confucianism',
             ],
-            'dcterms:date' => ['@value' => '1392', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P505Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1392/1897', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '220000', '@type' => 'numeric:integer'],
-            'media' => 'joseon-dynasty.jpg',
+            'dcterms:date' => [
+                '@value' => '1392',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P505Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1392/1897',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '220000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'joseon-dynasty.jpg',
+                    'dcterms:title' => 'Joseon Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'g-kt-rk-khaganate',
@@ -6004,7 +9928,10 @@ return [
                 'tang-dynasty',
                 'second-turkic-khaganate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q15146034', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q15146034',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '90.54976,35.04976,115.45024,59.95024',
             'map_coordinates' => [
                 103,
@@ -6019,12 +9946,32 @@ return [
                 'Steppe',
                 'Nomadic',
             ],
-            'dcterms:date' => ['@value' => '0552', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P78Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0552/0630', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0580', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '6000000', '@type' => 'numeric:integer'],
-            'media' => 'g-kt-rk-khaganate.png',
+            'dcterms:date' => [
+                '@value' => '0552',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P78Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0552/0630',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0580',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '6000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'g-kt-rk-khaganate.png',
+                    'dcterms:title' => 'Göktürk Khaganate',
+                ],
+            ],
         ],
         [
             'id' => 'second-turkic-khaganate',
@@ -6038,7 +9985,10 @@ return [
                 'tang-dynasty',
                 'uyghur-khaganate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q4833446', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q4833446',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '94.696351,38.696351,112.303649,56.303649',
             'map_coordinates' => [
                 103.5,
@@ -6053,12 +10003,32 @@ return [
                 'Steppe',
                 'Nomadic',
             ],
-            'dcterms:date' => ['@value' => '0682', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P62Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0682/0744', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0710', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3000000', '@type' => 'numeric:integer'],
-            'media' => 'second-turkic-khaganate.png',
+            'dcterms:date' => [
+                '@value' => '0682',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P62Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0682/0744',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0710',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'second-turkic-khaganate.png',
+                    'dcterms:title' => 'Second Turkic Khaganate',
+                ],
+            ],
         ],
         [
             'id' => 'uyghur-khaganate',
@@ -6071,7 +10041,10 @@ return [
                 'second-turkic-khaganate',
                 'tang-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q831218', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q831218',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '93.996351,38.996351,111.603649,56.603649',
             'map_coordinates' => [
                 102.8,
@@ -6086,12 +10059,32 @@ return [
                 'Steppe',
                 'Nomadic',
             ],
-            'dcterms:date' => ['@value' => '0744', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P96Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0744/0840', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0790', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3000000', '@type' => 'numeric:integer'],
-            'media' => 'uyghur-khaganate.png',
+            'dcterms:date' => [
+                '@value' => '0744',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P96Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0744/0840',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0790',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'uyghur-khaganate.png',
+                    'dcterms:title' => 'Uyghur Khaganate',
+                ],
+            ],
         ],
         [
             'id' => 'mongol-empire',
@@ -6115,7 +10108,10 @@ return [
                 'western-xia',
                 'mongol-invasion-of-europe',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q12557', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q12557',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '77.899521,22.299521,127.700479,72.100479',
             'map_coordinates' => [
                 102.8,
@@ -6130,12 +10126,32 @@ return [
                 'Steppe',
                 'Nomadic',
             ],
-            'dcterms:date' => ['@value' => '1206', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P162Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1206/1368', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1270', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '24000000', '@type' => 'numeric:integer'],
-            'media' => 'mongol-empire.png',
+            'dcterms:date' => [
+                '@value' => '1206',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P162Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1206/1368',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1270',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '24000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'mongol-empire.png',
+                    'dcterms:title' => 'Mongol Empire',
+                ],
+            ],
         ],
         [
             'id' => 'balhae-kingdom',
@@ -6149,7 +10165,10 @@ return [
                 'tang-dynasty',
                 'goryeo',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q28322', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q28322',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '125.875925,40.785925,133.064075,47.974075',
             'map_coordinates' => [
                 129.47,
@@ -6163,12 +10182,32 @@ return [
                 'Manchuria',
                 'Medieval',
             ],
-            'dcterms:date' => ['@value' => '0698', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P228Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0698/0926', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '500000', '@type' => 'numeric:integer'],
-            'media' => 'balhae-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '0698',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P228Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0698/0926',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'balhae-kingdom.jpg',
+                    'dcterms:title' => 'Balhae Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'western-xia',
@@ -6182,7 +10221,10 @@ return [
                 'liao-dynasty',
                 'mongol-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7427', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q7427',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '101.723815,33.923815,110.816185,43.016185',
             'map_coordinates' => [
                 106.27,
@@ -6197,12 +10239,32 @@ return [
                 'Medieval',
                 'Silk Road',
             ],
-            'dcterms:date' => ['@value' => '1038', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P189Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1038/1227', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1100', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '800000', '@type' => 'numeric:integer'],
-            'media' => 'western-xia.png',
+            'dcterms:date' => [
+                '@value' => '1038',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P189Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1038/1227',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'western-xia.png',
+                    'dcterms:title' => 'Western Xia',
+                ],
+            ],
         ],
         [
             'id' => 'tibetan-empire',
@@ -6216,7 +10278,10 @@ return [
                 'nanzhao-kingdom',
                 'tuyuhun',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2431480', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2431480',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '80.327776,18.867776,101.892224,40.432224',
             'map_coordinates' => [
                 91.11,
@@ -6231,12 +10296,32 @@ return [
                 'Medieval',
                 'Buddhism',
             ],
-            'dcterms:date' => ['@value' => '0618', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P259Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0618/0877', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0750', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '4500000', '@type' => 'numeric:integer'],
-            'media' => 'tibetan-empire.png',
+            'dcterms:date' => [
+                '@value' => '0618',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P259Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0618/0877',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '4500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'tibetan-empire.png',
+                    'dcterms:title' => 'Tibetan Empire',
+                ],
+            ],
         ],
         [
             'id' => 'nanzhao-kingdom',
@@ -6250,7 +10335,10 @@ return [
                 'tibetan-empire',
                 'dali-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1045322', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1045322',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '97.486042,22.816042,103.053958,28.383958',
             'map_coordinates' => [
                 100.27,
@@ -6265,12 +10353,32 @@ return [
                 'Medieval',
                 'Buddhism',
             ],
-            'dcterms:date' => ['@value' => '0738', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P199Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0738/0937', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0850', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '300000', '@type' => 'numeric:integer'],
-            'media' => 'nanzhao-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '0738',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P199Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0738/0937',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0850',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'nanzhao-kingdom.png',
+                    'dcterms:title' => 'Nanzhao Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'dali-kingdom',
@@ -6283,7 +10391,10 @@ return [
                 'nanzhao-kingdom',
                 'yuan-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q26472', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q26472',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '97.728605,23.058605,102.811395,28.141395',
             'map_coordinates' => [
                 100.27,
@@ -6298,12 +10409,32 @@ return [
                 'Medieval',
                 'Buddhism',
             ],
-            'dcterms:date' => ['@value' => '0937', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P316Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0937/1253', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1100', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '250000', '@type' => 'numeric:integer'],
-            'media' => 'dali-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '0937',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P316Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0937/1253',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '250000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'dali-kingdom.png',
+                    'dcterms:title' => 'Dali Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'liu-song-dynasty',
@@ -6316,7 +10447,10 @@ return [
                 'eastern-jin-dynasty',
                 'southern-qi-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q49697', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q49697',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '113.222084,26.492084,124.357916,37.627916',
             'map_coordinates' => [
                 118.79,
@@ -6330,12 +10464,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0420', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P59Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0420/0479', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0440', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1200000', '@type' => 'numeric:integer'],
-            'media' => 'liu-song-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '0420',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P59Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0420/0479',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0440',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'liu-song-dynasty.png',
+                    'dcterms:title' => 'Liu Song Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'southern-qi-dynasty',
@@ -6348,7 +10502,10 @@ return [
                 'liu-song-dynasty',
                 'liang-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q62456', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q62456',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '113.707211,26.977211,123.872789,37.142789',
             'map_coordinates' => [
                 118.79,
@@ -6362,12 +10519,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0479', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P23Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0479/0502', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0490', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'southern-qi-dynasty.jpg',
+            'dcterms:date' => [
+                '@value' => '0479',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P23Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0479/0502',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0490',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'southern-qi-dynasty.jpg',
+                    'dcterms:title' => 'Southern Qi Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'liang-dynasty',
@@ -6380,7 +10557,10 @@ return [
                 'southern-qi-dynasty',
                 'chen-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q59312', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q59312',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '113.459126,26.729126,124.120874,37.390874',
             'map_coordinates' => [
                 118.79,
@@ -6395,12 +10575,32 @@ return [
                 'Iron Age',
                 'Buddhism',
             ],
-            'dcterms:date' => ['@value' => '0502', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P55Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0502/0557', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0530', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1100000', '@type' => 'numeric:integer'],
-            'media' => 'liang-dynasty.jpg',
+            'dcterms:date' => [
+                '@value' => '0502',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P55Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0502/0557',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0530',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'liang-dynasty.jpg',
+                    'dcterms:title' => 'Liang Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'chen-dynasty',
@@ -6413,7 +10613,10 @@ return [
                 'liang-dynasty',
                 'sui-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q246357', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q246357',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '114.537434,27.807434,123.042566,36.312566',
             'map_coordinates' => [
                 118.79,
@@ -6427,12 +10630,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0557', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P32Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0557/0589', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0570', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '700000', '@type' => 'numeric:integer'],
-            'media' => 'chen-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '0557',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P32Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0557/0589',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0570',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '700000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'chen-dynasty.png',
+                    'dcterms:title' => 'Chen Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'eastern-wei',
@@ -6445,7 +10668,10 @@ return [
                 'northern-wei-dynasty',
                 'northern-qi',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q307069', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q307069',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '107.431851,29.141851,121.808149,43.518149',
             'map_coordinates' => [
                 114.62,
@@ -6459,12 +10685,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0534', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P16Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0534/0550', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0540', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000000', '@type' => 'numeric:integer'],
-            'media' => 'eastern-wei.png',
+            'dcterms:date' => [
+                '@value' => '0534',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P16Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0534/0550',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0540',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'eastern-wei.png',
+                    'dcterms:title' => 'Eastern Wei',
+                ],
+            ],
         ],
         [
             'id' => 'western-wei',
@@ -6477,7 +10723,10 @@ return [
                 'northern-wei-dynasty',
                 'northern-zhou-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1143164', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1143164',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '102.70488,28.04488,115.15512,40.49512',
             'map_coordinates' => [
                 108.93,
@@ -6491,12 +10740,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0535', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P22Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0535/0557', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0545', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1500000', '@type' => 'numeric:integer'],
-            'media' => 'western-wei.jpg',
+            'dcterms:date' => [
+                '@value' => '0535',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P22Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0535/0557',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0545',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'western-wei.jpg',
+                    'dcterms:title' => 'Western Wei',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-ryukyu',
@@ -6509,7 +10778,10 @@ return [
                 'ming-dynasty',
                 'edo-period',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q28025', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q28025',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '126.22,24.72,129.22,27.72',
             'map_coordinates' => [
                 127.72,
@@ -6524,12 +10796,32 @@ return [
                 'Early modern',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '1429', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P450Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1429/1879', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3500', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-ryukyu.jpg',
+            'dcterms:date' => [
+                '@value' => '1429',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P450Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1429/1879',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3500',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-ryukyu.jpg',
+                    'dcterms:title' => 'Kingdom of Ryukyu',
+                ],
+            ],
         ],
         [
             'id' => 'later-jin-manchu',
@@ -6542,7 +10834,10 @@ return [
                 'ming-dynasty',
                 'qing-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1473567', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1473567',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '117.20488,35.57488,129.65512,48.02512',
             'map_coordinates' => [
                 123.43,
@@ -6556,12 +10851,32 @@ return [
                 'Manchuria',
                 'Early modern',
             ],
-            'dcterms:date' => ['@value' => '1616', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P20Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1616/1636', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1630', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1500000', '@type' => 'numeric:integer'],
-            'media' => 'later-jin-manchu.png',
+            'dcterms:date' => [
+                '@value' => '1616',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P20Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1616/1636',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1630',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'later-jin-manchu.png',
+                    'dcterms:title' => 'Later Jin (Manchu)',
+                ],
+            ],
         ],
         [
             'id' => 'nanyue-kingdom',
@@ -6574,7 +10889,10 @@ return [
                 'qin-dynasty',
                 'western-han-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q700805', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q700805',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '110.045362,19.915362,116.474638,26.344638',
             'map_coordinates' => [
                 113.26,
@@ -6588,12 +10906,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0204', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P93Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0204/-0111', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0180', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '400000', '@type' => 'numeric:integer'],
-            'media' => 'nanyue-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '-0204',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P93Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0204/-0111',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0180',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'nanyue-kingdom.png',
+                    'dcterms:title' => 'Nanyue Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'tuyuhun',
@@ -6607,7 +10945,10 @@ return [
                 'tang-dynasty',
                 'tibetan-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1196201', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1196201',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '97.832889,32.682889,105.707111,40.557111',
             'map_coordinates' => [
                 101.77,
@@ -6622,12 +10963,32 @@ return [
                 'Medieval',
                 'Silk Road',
             ],
-            'dcterms:date' => ['@value' => '0285', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P385Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0285/0670', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '600000', '@type' => 'numeric:integer'],
-            'media' => 'tuyuhun.jpg',
+            'dcterms:date' => [
+                '@value' => '0285',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P385Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0285/0670',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '600000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'tuyuhun.jpg',
+                    'dcterms:title' => 'Tuyuhun',
+                ],
+            ],
         ],
         [
             'id' => 'later-three-kingdoms-of-korea',
@@ -6640,7 +11001,10 @@ return [
                 'unified-silla',
                 'goryeo',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q698268', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q698268',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '124.276908,35.696908,128.823092,40.243092',
             'map_coordinates' => [
                 126.55,
@@ -6654,12 +11018,32 @@ return [
                 'Korea',
                 'Medieval',
             ],
-            'dcterms:date' => ['@value' => '0892', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P44Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0892/0936', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0918', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'later-three-kingdoms-of-korea.png',
+            'dcterms:date' => [
+                '@value' => '0892',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P44Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0892/0936',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0918',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'later-three-kingdoms-of-korea.png',
+                    'dcterms:title' => 'Later Three Kingdoms of Korea',
+                ],
+            ],
         ],
         [
             'id' => 'former-qin',
@@ -6672,7 +11056,10 @@ return [
                 'sixteen-kingdoms',
                 'eastern-jin-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1471995', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1471995',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '100.126351,25.466351,117.733649,43.073649',
             'map_coordinates' => [
                 108.93,
@@ -6686,12 +11073,32 @@ return [
                 'China',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '0351', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P43Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0351/0394', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0375', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3000000', '@type' => 'numeric:integer'],
-            'media' => 'former-qin.png',
+            'dcterms:date' => [
+                '@value' => '0351',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P43Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0351/0394',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0375',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'former-qin.png',
+                    'dcterms:title' => 'Former Qin',
+                ],
+            ],
         ],
         [
             'id' => 'visigothic-kingdom',
@@ -6706,7 +11113,10 @@ return [
                 'hunnic-empire',
                 'kingdom-of-le-n',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q126936', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q126936',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-8.521957,35.578043,1.121957,45.221957',
             'map_coordinates' => [
                 -3.7,
@@ -6721,12 +11131,32 @@ return [
                 'Arianism',
                 'Post-Roman West',
             ],
-            'dcterms:date' => ['@value' => '0418', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P293Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0418/0711', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '900000', '@type' => 'numeric:integer'],
-            'media' => 'visigothic-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '0418',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P293Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0418/0711',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '900000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'visigothic-kingdom.png',
+                    'dcterms:title' => 'Visigothic Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'ostrogothic-kingdom',
@@ -6739,7 +11169,10 @@ return [
                 'western-roman-empire',
                 'byzantine-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q583038', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q583038',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '8.098176,37.498176,16.901824,46.301824',
             'map_coordinates' => [
                 12.5,
@@ -6754,12 +11187,32 @@ return [
                 'Roman continuity',
                 'Post-Roman West',
             ],
-            'dcterms:date' => ['@value' => '0493', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P60Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0493/0553', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0520', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '750000', '@type' => 'numeric:integer'],
-            'media' => 'ostrogothic-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '0493',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P60Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0493/0553',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0520',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '750000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ostrogothic-kingdom.png',
+                    'dcterms:title' => 'Ostrogothic Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'frankish-kingdom',
@@ -6773,7 +11226,10 @@ return [
                 'western-roman-empire',
                 'umayyad-caliphate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q146246', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q146246',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-2.521957,44.578043,7.121957,54.221957',
             'map_coordinates' => [
                 2.3,
@@ -6788,12 +11244,32 @@ return [
                 'Catholicism',
                 'Merovingians',
             ],
-            'dcterms:date' => ['@value' => '0481', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P270Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0481/0751', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0620', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '900000', '@type' => 'numeric:integer'],
-            'media' => 'frankish-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '0481',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P270Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0481/0751',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0620',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '900000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'frankish-kingdom.png',
+                    'dcterms:title' => 'Frankish Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'carolingian-empire',
@@ -6810,7 +11286,10 @@ return [
                 'viking-age-scandinavia',
                 'papal-states',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q31929', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q31929',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '0.769126,45.469126,11.430874,56.130874',
             'map_coordinates' => [
                 6.1,
@@ -6825,12 +11304,32 @@ return [
                 'Charlemagne',
                 'Church and state',
             ],
-            'dcterms:date' => ['@value' => '0751', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P137Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0751/0888', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1100000', '@type' => 'numeric:integer'],
-            'media' => 'carolingian-empire.png',
+            'dcterms:date' => [
+                '@value' => '0751',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P137Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0751/0888',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'carolingian-empire.png',
+                    'dcterms:title' => 'Carolingian Empire',
+                ],
+            ],
         ],
         [
             'id' => 'holy-roman-empire',
@@ -6863,7 +11362,10 @@ return [
                 'bohemian-hussite-movement',
                 'duchy-of-savoy',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q12548', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q12548',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '6.778043,43.378043,16.421957,53.021957',
             'map_coordinates' => [
                 11.6,
@@ -6878,12 +11380,32 @@ return [
                 'Medieval constitution',
                 'Elective monarchy',
             ],
-            'dcterms:date' => ['@value' => '0962', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P844Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0962/1806', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1050', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '900000', '@type' => 'numeric:integer'],
-            'media' => 'holy-roman-empire.png',
+            'dcterms:date' => [
+                '@value' => '0962',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P844Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0962/1806',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1050',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '900000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'holy-roman-empire.png',
+                    'dcterms:title' => 'Holy Roman Empire',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-france',
@@ -6905,7 +11427,10 @@ return [
                 'kingdom-of-navarre-france',
                 'angevin-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q70972', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q70972',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-1.469497,45.130503,6.069497,52.669497',
             'map_coordinates' => [
                 2.3,
@@ -6920,12 +11445,32 @@ return [
                 'Feudal monarchy',
                 'Medieval kingship',
             ],
-            'dcterms:date' => ['@value' => '0987', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P805Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0987/1792', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1270', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '550000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-france.jpg',
+            'dcterms:date' => [
+                '@value' => '0987',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P805Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0987/1792',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1270',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '550000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-france.jpg',
+                    'dcterms:title' => 'Kingdom of France',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-england',
@@ -6945,7 +11490,10 @@ return [
                 'hundred-years-war-france-england',
                 'angevin-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q179876', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q179876',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-2.068556,49.531444,1.868556,53.468556',
             'map_coordinates' => [
                 -0.1,
@@ -6960,12 +11508,32 @@ return [
                 'Parliament',
                 'Constitutional monarchy',
             ],
-            'dcterms:date' => ['@value' => '0927', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P780Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0927/1707', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '150000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-england.png',
+            'dcterms:date' => [
+                '@value' => '0927',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P780Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0927/1707',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '150000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-england.png',
+                    'dcterms:title' => 'Kingdom of England',
+                ],
+            ],
         ],
         [
             'id' => 'viking-age-scandinavia',
@@ -6984,7 +11552,10 @@ return [
                 'duchy-of-normandy',
                 'novgorod-republic',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q213649', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q213649',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '5.617211,54.817211,15.782789,64.982789',
             'map_coordinates' => [
                 10.7,
@@ -6999,12 +11570,32 @@ return [
                 'Norse mythology',
                 'Settlements',
             ],
-            'dcterms:date' => ['@value' => '0793', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P273Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0793/1066', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'viking-age-scandinavia.jpg',
+            'dcterms:date' => [
+                '@value' => '0793',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P273Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0793/1066',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'viking-age-scandinavia.jpg',
+                    'dcterms:title' => 'Viking Age Scandinavia',
+                ],
+            ],
         ],
         [
             'id' => 'kievan-rus',
@@ -7024,7 +11615,10 @@ return [
                 'principality-of-moscow',
                 'novgorod-republic',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1108445', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1108445',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '24.594333,44.594333,36.405667,56.405667',
             'map_coordinates' => [
                 30.5,
@@ -7039,12 +11633,32 @@ return [
                 'Slavic civilization',
                 'Medieval Russia',
             ],
-            'dcterms:date' => ['@value' => '0882', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P358Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0882/1240', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1050', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1350000', '@type' => 'numeric:integer'],
-            'media' => 'kievan-rus.png',
+            'dcterms:date' => [
+                '@value' => '0882',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P358Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0882/1240',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1050',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1350000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kievan-rus.png',
+                    'dcterms:title' => 'Kievan Rus',
+                ],
+            ],
         ],
         [
             'id' => 'papal-states',
@@ -7061,7 +11675,10 @@ return [
                 'kingdom-of-naples',
                 'papal-avignon-period',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q170174', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q170174',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '11,40.4,14,43.4',
             'map_coordinates' => [
                 12.5,
@@ -7076,12 +11693,32 @@ return [
                 'Church-state conflict',
                 'Medieval religion',
             ],
-            'dcterms:date' => ['@value' => '0754', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1116Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0754/1870', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1100', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '44000', '@type' => 'numeric:integer'],
-            'media' => 'papal-states.jpg',
+            'dcterms:date' => [
+                '@value' => '0754',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1116Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0754/1870',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '44000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'papal-states.jpg',
+                    'dcterms:title' => 'Papal States',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-hungary',
@@ -7099,7 +11736,10 @@ return [
                 'mongol-invasion-of-europe',
                 'kingdom-of-bosnia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q171150', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q171150',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '16.22474,44.62474,21.97526,50.37526',
             'map_coordinates' => [
                 19.1,
@@ -7114,12 +11754,32 @@ return [
                 'Magyar settlement',
                 'Constitutional monarchy',
             ],
-            'dcterms:date' => ['@value' => '1000', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P918Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1000/1918', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '320000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-hungary.png',
+            'dcterms:date' => [
+                '@value' => '1000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P918Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1000/1918',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '320000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-hungary.png',
+                    'dcterms:title' => 'Kingdom of Hungary',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-poland',
@@ -7139,7 +11799,10 @@ return [
                 'mongol-invasion-of-europe',
                 'teutonic-prussia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q400952', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q400952',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '15.669126,46.869126,26.330874,57.530874',
             'map_coordinates' => [
                 21,
@@ -7154,12 +11817,32 @@ return [
                 'Constitutional republic',
                 'Medieval kingship',
             ],
-            'dcterms:date' => ['@value' => '1025', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P770Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1025/1795', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1100000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-poland.png',
+            'dcterms:date' => [
+                '@value' => '1025',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P770Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1025/1795',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-poland.png',
+                    'dcterms:title' => 'Kingdom of Poland',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-bohemia',
@@ -7173,7 +11856,10 @@ return [
                 'kingdom-of-hungary',
                 'bohemian-hussite-movement',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q42585', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q42585',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '12.567374,48.267374,16.232626,51.932626',
             'map_coordinates' => [
                 14.4,
@@ -7188,12 +11874,32 @@ return [
                 'Prague',
                 'Medieval university',
             ],
-            'dcterms:date' => ['@value' => '1198', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P720Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1198/1918', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1350', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '130000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-bohemia.png',
+            'dcterms:date' => [
+                '@value' => '1198',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P720Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1198/1918',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1350',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '130000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-bohemia.png',
+                    'dcterms:title' => 'Kingdom of Bohemia',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-denmark',
@@ -7210,7 +11916,10 @@ return [
                 'kingdom-of-norway',
                 'waldemar-iv-denmark',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q756617', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q756617',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '11.075163,54.175163,14.124837,57.224837',
             'map_coordinates' => [
                 12.6,
@@ -7225,12 +11934,32 @@ return [
                 'Kalmar Union',
                 'Baltic trade',
             ],
-            'dcterms:date' => ['@value' => '0936', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P587Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0936/1523', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '90000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-denmark.jpg',
+            'dcterms:date' => [
+                '@value' => '0936',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P587Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0936/1523',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '90000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-denmark.jpg',
+                    'dcterms:title' => 'Kingdom of Denmark',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-sweden',
@@ -7246,7 +11975,10 @@ return [
                 'grand-principality-of-finland',
                 'livonian-confederation',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2460755', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2460755',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '14.690361,55.890361,21.509639,62.709639',
             'map_coordinates' => [
                 18.1,
@@ -7261,12 +11993,32 @@ return [
                 'Kalmar Union',
                 'Protestant Reformation',
             ],
-            'dcterms:date' => ['@value' => '0970', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P553Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0970/1523', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '450000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-sweden.png',
+            'dcterms:date' => [
+                '@value' => '0970',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P553Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0970/1523',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '450000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-sweden.png',
+                    'dcterms:title' => 'Kingdom of Sweden',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-norway',
@@ -7280,7 +12032,10 @@ return [
                 'kingdom-of-denmark',
                 'kingdom-of-scotland',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2196956', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2196956',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '7.546212,56.746212,13.853788,63.053788',
             'map_coordinates' => [
                 10.7,
@@ -7295,12 +12050,32 @@ return [
                 'Vinland',
                 'Atlantic exploration',
             ],
-            'dcterms:date' => ['@value' => '0872', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P525Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0872/1397', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '385000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-norway.png',
+            'dcterms:date' => [
+                '@value' => '0872',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P525Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0872/1397',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '385000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-norway.png',
+                    'dcterms:title' => 'Kingdom of Norway',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-le-n',
@@ -7314,7 +12089,10 @@ return [
                 'umayyad-caliphate-of-c-rdoba',
                 'kingdom-of-castile',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q175276', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q175276',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-8.141395,40.058605,-3.058605,45.141395',
             'map_coordinates' => [
                 -5.6,
@@ -7329,12 +12107,32 @@ return [
                 'El Cid',
                 'Christian kingdoms',
             ],
-            'dcterms:date' => ['@value' => '0910', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P320Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0910/1230', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1100', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '250000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-le-n.gif',
+            'dcterms:date' => [
+                '@value' => '0910',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P320Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0910/1230',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '250000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-le-n.gif',
+                    'dcterms:title' => 'Kingdom of León',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-castile',
@@ -7350,7 +12148,10 @@ return [
                 'kingdom-of-portugal',
                 'kingdom-of-navarre',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q179293', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q179293',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-7.637111,36.462889,0.237111,44.337111',
             'map_coordinates' => [
                 -3.7,
@@ -7365,12 +12166,32 @@ return [
                 'Columbus',
                 'Inquisition',
             ],
-            'dcterms:date' => ['@value' => '1230', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P286Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1230/1516', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '600000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-castile.png',
+            'dcterms:date' => [
+                '@value' => '1230',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P286Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1230/1516',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '600000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-castile.png',
+                    'dcterms:title' => 'Kingdom of Castile',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-aragon',
@@ -7384,7 +12205,10 @@ return [
                 'holy-roman-empire',
                 'crown-of-aragon-sicily',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q199442', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q199442',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-4.309639,38.290361,2.509639,45.109639',
             'map_coordinates' => [
                 -0.9,
@@ -7399,12 +12223,32 @@ return [
                 'Maritime trade',
                 'Parliamentary tradition',
             ],
-            'dcterms:date' => ['@value' => '1035', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P481Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1035/1516', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1350', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '450000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-aragon.png',
+            'dcterms:date' => [
+                '@value' => '1035',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P481Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1035/1516',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1350',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '450000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-aragon.png',
+                    'dcterms:title' => 'Kingdom of Aragon',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-portugal',
@@ -7418,7 +12262,10 @@ return [
                 'malacca-sultanate',
                 'portuguese-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q45670', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q45670',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-16.465661,31.334339,-1.734339,46.065661',
             'map_coordinates' => [
                 -9.1,
@@ -7433,12 +12280,32 @@ return [
                 'Age of Discovery',
                 'Henry the Navigator',
             ],
-            'dcterms:date' => ['@value' => '1139', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P771Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1139/1910', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2100000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-portugal.png',
+            'dcterms:date' => [
+                '@value' => '1139',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P771Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1139/1910',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-portugal.png',
+                    'dcterms:title' => 'Kingdom of Portugal',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-scotland',
@@ -7451,7 +12318,10 @@ return [
                 'kingdom-of-england',
                 'kingdom-of-norway',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q230791', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q230791',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-4.7,54.4,-1.7,57.4',
             'map_coordinates' => [
                 -3.2,
@@ -7466,12 +12336,32 @@ return [
                 'Robert the Bruce',
                 'Sovereignty',
             ],
-            'dcterms:date' => ['@value' => '0843', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P864Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0843/1707', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '78800', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-scotland.jpg',
+            'dcterms:date' => [
+                '@value' => '0843',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P864Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0843/1707',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '78800',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-scotland.jpg',
+                    'dcterms:title' => 'Kingdom of Scotland',
+                ],
+            ],
         ],
         [
             'id' => 'duchy-of-burgundy',
@@ -7485,7 +12375,10 @@ return [
                 'holy-roman-empire',
                 'swiss-confederation',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q4712', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q4712',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '1.992981,44.292981,8.007019,50.307019',
             'map_coordinates' => [
                 5,
@@ -7500,12 +12393,32 @@ return [
                 'Burgundian court',
                 'Late medieval culture',
             ],
-            'dcterms:date' => ['@value' => '1032', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P445Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1032/1477', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1430', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '350000', '@type' => 'numeric:integer'],
-            'media' => 'duchy-of-burgundy.png',
+            'dcterms:date' => [
+                '@value' => '1032',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P445Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1032/1477',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1430',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '350000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'duchy-of-burgundy.png',
+                    'dcterms:title' => 'Duchy of Burgundy',
+                ],
+            ],
         ],
         [
             'id' => 'republic-of-venice',
@@ -7523,7 +12436,10 @@ return [
                 'latin-empire-of-constantinople',
                 'duchy-of-milan',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q4948', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q4948',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '9.516042,42.616042,15.083958,48.183958',
             'map_coordinates' => [
                 12.3,
@@ -7538,12 +12454,32 @@ return [
                 'Mediterranean trade',
                 'Oligarchic constitution',
             ],
-            'dcterms:date' => ['@value' => '0697', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1100Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0697/1797', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '300000', '@type' => 'numeric:integer'],
-            'media' => 'republic-of-venice.png',
+            'dcterms:date' => [
+                '@value' => '0697',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1100Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0697/1797',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'republic-of-venice.png',
+                    'dcterms:title' => 'Republic of Venice',
+                ],
+            ],
         ],
         [
             'id' => 'republic-of-genoa',
@@ -7557,7 +12493,10 @@ return [
                 'byzantine-empire',
                 'black-death-period',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q174306', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q174306',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '7.292681,42.792681,10.507319,46.007319',
             'map_coordinates' => [
                 8.9,
@@ -7572,12 +12511,32 @@ return [
                 'Black Death',
                 'Medieval finance',
             ],
-            'dcterms:date' => ['@value' => '1100', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P705Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1100/1805', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'republic-of-genoa.png',
+            'dcterms:date' => [
+                '@value' => '1100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P705Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1100/1805',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'republic-of-genoa.png',
+                    'dcterms:title' => 'Republic of Genoa',
+                ],
+            ],
         ],
         [
             'id' => 'hanseatic-league',
@@ -7592,7 +12551,10 @@ return [
                 'novgorod-republic',
                 'waldemar-iv-denmark',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q42908', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q42908',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '7.726908,51.326908,12.273092,55.873092',
             'map_coordinates' => [
                 10,
@@ -7607,12 +12569,32 @@ return [
                 'Baltic',
                 'Medieval commerce',
             ],
-            'dcterms:date' => ['@value' => '1241', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P428Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1241/1669', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'hanseatic-league.jpg',
+            'dcterms:date' => [
+                '@value' => '1241',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P428Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1241/1669',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'hanseatic-league.jpg',
+                    'dcterms:title' => 'Hanseatic League',
+                ],
+            ],
         ],
         [
             'id' => 'duchy-of-lithuania',
@@ -7627,7 +12609,10 @@ return [
                 'polish-lithuanian-commonwealth',
                 'teutonic-order-state',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3270263', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3270263',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '20.398336,49.798336,30.201664,59.601664',
             'map_coordinates' => [
                 25.3,
@@ -7642,12 +12627,32 @@ return [
                 'Medieval expansion',
                 'Poland-Lithuania',
             ],
-            'dcterms:date' => ['@value' => '1236', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P333Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1236/1569', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1430', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '930000', '@type' => 'numeric:integer'],
-            'media' => 'duchy-of-lithuania.png',
+            'dcterms:date' => [
+                '@value' => '1236',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P333Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1236/1569',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1430',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '930000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'duchy-of-lithuania.png',
+                    'dcterms:title' => 'Duchy of Lithuania',
+                ],
+            ],
         ],
         [
             'id' => 'teutonic-order-state',
@@ -7663,7 +12668,10 @@ return [
                 'teutonic-prussia',
                 'livonian-confederation',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q156020', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q156020',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '16.008276,51.808276,21.191724,56.991724',
             'map_coordinates' => [
                 18.6,
@@ -7678,12 +12686,32 @@ return [
                 'Baltic Crusade',
                 'Military monasticism',
             ],
-            'dcterms:date' => ['@value' => '1230', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P295Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1230/1525', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '260000', '@type' => 'numeric:integer'],
-            'media' => 'teutonic-order-state.png',
+            'dcterms:date' => [
+                '@value' => '1230',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P295Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1230/1525',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '260000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'teutonic-order-state.png',
+                    'dcterms:title' => 'Teutonic Order State',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-croatia',
@@ -7696,7 +12724,10 @@ return [
                 'byzantine-empire',
                 'kingdom-of-hungary',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q396928', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q396928',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '15.892681,43.192681,19.107319,46.407319',
             'map_coordinates' => [
                 17.5,
@@ -7711,12 +12742,32 @@ return [
                 'Adriatic',
                 'South Slavs',
             ],
-            'dcterms:date' => ['@value' => '0925', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P177Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0925/1102', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0970', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-croatia.png',
+            'dcterms:date' => [
+                '@value' => '0925',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P177Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0925/1102',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0970',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-croatia.png',
+                    'dcterms:title' => 'Kingdom of Croatia',
+                ],
+            ],
         ],
         [
             'id' => 'serbian-empire',
@@ -7732,7 +12783,10 @@ return [
                 'second-bulgarian-empire',
                 'kingdom-of-bosnia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1406298', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1406298',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '17.078043,38.478043,26.721957,48.121957',
             'map_coordinates' => [
                 21.9,
@@ -7747,12 +12801,32 @@ return [
                 'Balkans',
                 'Medieval empire',
             ],
-            'dcterms:date' => ['@value' => '1217', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P154Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1217/1371', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1350', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '900000', '@type' => 'numeric:integer'],
-            'media' => 'serbian-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '1217',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P154Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1217/1371',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1350',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '900000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'serbian-empire.jpg',
+                    'dcterms:title' => 'Serbian Empire',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-bulgaria',
@@ -7768,7 +12842,10 @@ return [
                 'second-bulgarian-empire',
                 'kingdom-of-wallachia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q147909', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q147909',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '21.905925,39.105925,29.094075,46.294075',
             'map_coordinates' => [
                 25.5,
@@ -7783,12 +12860,32 @@ return [
                 'Orthodox Christianity',
                 'Balkans',
             ],
-            'dcterms:date' => ['@value' => '0681', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P715Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0681/1396', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0900', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '500000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-bulgaria.png',
+            'dcterms:date' => [
+                '@value' => '0681',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P715Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0681/1396',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-bulgaria.png',
+                    'dcterms:title' => 'Kingdom of Bulgaria',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-sicily',
@@ -7804,7 +12901,10 @@ return [
                 'crown-of-aragon-sicily',
                 'kingdom-of-naples',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q188586', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q188586',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '12.5,36,15.5,39',
             'map_coordinates' => [
                 14,
@@ -7819,12 +12919,32 @@ return [
                 'Multicultural court',
                 'Medieval cartography',
             ],
-            'dcterms:date' => ['@value' => '1130', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P686Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1130/1816', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '50000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-sicily.png',
+            'dcterms:date' => [
+                '@value' => '1130',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P686Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1130/1816',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '50000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-sicily.png',
+                    'dcterms:title' => 'Kingdom of Sicily',
+                ],
+            ],
         ],
         [
             'id' => 'republic-of-florence',
@@ -7838,7 +12958,10 @@ return [
                 'republic-of-venice',
                 'duchy-of-milan',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q148540', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q148540',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '9.7,42.3,12.7,45.3',
             'map_coordinates' => [
                 11.2,
@@ -7853,12 +12976,32 @@ return [
                 'Banking',
                 'Medici patronage',
             ],
-            'dcterms:date' => ['@value' => '1115', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P417Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1115/1532', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1450', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '20000', '@type' => 'numeric:integer'],
-            'media' => 'republic-of-florence.png',
+            'dcterms:date' => [
+                '@value' => '1115',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P417Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1115/1532',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1450',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '20000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'republic-of-florence.png',
+                    'dcterms:title' => 'Republic of Florence',
+                ],
+            ],
         ],
         [
             'id' => 'crusader-states',
@@ -7875,7 +13018,10 @@ return [
                 'latin-empire-of-constantinople',
                 'kingdom-of-jerusalem',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q190967', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q190967',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '33.592681,30.192681,36.807319,33.407319',
             'map_coordinates' => [
                 35.2,
@@ -7890,12 +13036,32 @@ return [
                 'Military orders',
                 'Latin East',
             ],
-            'dcterms:date' => ['@value' => '1098', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P193Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1098/1291', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1150', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'crusader-states.png',
+            'dcterms:date' => [
+                '@value' => '1098',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P193Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1098/1291',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1150',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'crusader-states.png',
+                    'dcterms:title' => 'Crusader States',
+                ],
+            ],
         ],
         [
             'id' => 'duchy-of-normandy',
@@ -7909,7 +13075,10 @@ return [
                 'kingdom-of-france',
                 'kingdom-of-england',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q842091', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q842091',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-1.207319,47.592681,2.007319,50.807319',
             'map_coordinates' => [
                 0.4,
@@ -7924,12 +13093,32 @@ return [
                 'Norman conquest',
                 'William the Conqueror',
             ],
-            'dcterms:date' => ['@value' => '0911', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P293Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0911/1204', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1080', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'duchy-of-normandy.png',
+            'dcterms:date' => [
+                '@value' => '0911',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P293Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0911/1204',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1080',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'duchy-of-normandy.png',
+                    'dcterms:title' => 'Duchy of Normandy',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-navarre',
@@ -7943,7 +13132,10 @@ return [
                 'kingdom-of-france',
                 'kingdom-of-navarre-france',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q200262', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q200262',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-3.1,41.3,-0.1,44.3',
             'map_coordinates' => [
                 -1.6,
@@ -7958,12 +13150,32 @@ return [
                 'Pyrenees',
                 'Iberian Peninsula',
             ],
-            'dcterms:date' => ['@value' => '0824', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P796Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0824/1620', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '20000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-navarre.png',
+            'dcterms:date' => [
+                '@value' => '0824',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P796Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0824/1620',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '20000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-navarre.png',
+                    'dcterms:title' => 'Kingdom of Navarre',
+                ],
+            ],
         ],
         [
             'id' => 'second-bulgarian-empire',
@@ -7977,7 +13189,10 @@ return [
                 'byzantine-empire',
                 'serbian-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q420759', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q420759',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '23.326908,40.826908,27.873092,45.373092',
             'map_coordinates' => [
                 25.6,
@@ -7992,12 +13207,32 @@ return [
                 'Orthodox Christianity',
                 'Post-Crusade',
             ],
-            'dcterms:date' => ['@value' => '1185', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P211Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1185/1396', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1230', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'second-bulgarian-empire.png',
+            'dcterms:date' => [
+                '@value' => '1185',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P211Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1185/1396',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1230',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'second-bulgarian-empire.png',
+                    'dcterms:title' => 'Second Bulgarian Empire',
+                ],
+            ],
         ],
         [
             'id' => 'latin-empire-of-constantinople',
@@ -8014,7 +13249,10 @@ return [
                 'principality-of-achaea',
                 'duchy-of-athens',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q178897', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q178897',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '26.626908,38.726908,31.173092,43.273092',
             'map_coordinates' => [
                 28.9,
@@ -8029,12 +13267,32 @@ return [
                 'Crusades',
                 'Byzantine successor',
             ],
-            'dcterms:date' => ['@value' => '1204', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P57Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1204/1261', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1210', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'latin-empire-of-constantinople.png',
+            'dcterms:date' => [
+                '@value' => '1204',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P57Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1204/1261',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1210',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'latin-empire-of-constantinople.png',
+                    'dcterms:title' => 'Latin Empire of Constantinople',
+                ],
+            ],
         ],
         [
             'id' => 'empire-of-nicaea',
@@ -8049,7 +13307,10 @@ return [
                 'despotate-of-epirus',
                 'trebizond-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q181254', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q181254',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '28.092681,38.792681,31.307319,42.007319',
             'map_coordinates' => [
                 29.7,
@@ -8064,12 +13325,32 @@ return [
                 'Orthodox Christianity',
                 'Byzantine restoration',
             ],
-            'dcterms:date' => ['@value' => '1204', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P57Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1204/1261', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1250', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'empire-of-nicaea.png',
+            'dcterms:date' => [
+                '@value' => '1204',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P57Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1204/1261',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1250',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'empire-of-nicaea.png',
+                    'dcterms:title' => 'Empire of Nicaea',
+                ],
+            ],
         ],
         [
             'id' => 'despotate-of-epirus',
@@ -8082,7 +13363,10 @@ return [
                 'byzantine-empire',
                 'empire-of-nicaea',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q187684', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q187684',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '19,38.2,22,41.2',
             'map_coordinates' => [
                 20.5,
@@ -8097,12 +13381,32 @@ return [
                 'Orthodox Christianity',
                 'Balkans',
             ],
-            'dcterms:date' => ['@value' => '1205', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P274Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1205/1479', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1230', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '70000', '@type' => 'numeric:integer'],
-            'media' => 'despotate-of-epirus.png',
+            'dcterms:date' => [
+                '@value' => '1205',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P274Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1205/1479',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1230',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '70000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'despotate-of-epirus.png',
+                    'dcterms:title' => 'Despotate of Epirus',
+                ],
+            ],
         ],
         [
             'id' => 'principality-of-achaea',
@@ -8116,7 +13420,10 @@ return [
                 'byzantine-empire',
                 'duchy-of-athens',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q332005', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q332005',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '20.5,36,23.5,39',
             'map_coordinates' => [
                 22,
@@ -8131,12 +13438,32 @@ return [
                 'Frankish feudalism',
                 'Post-Crusade',
             ],
-            'dcterms:date' => ['@value' => '1205', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P227Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1205/1432', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1250', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '20000', '@type' => 'numeric:integer'],
-            'media' => 'principality-of-achaea.jpg',
+            'dcterms:date' => [
+                '@value' => '1205',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P227Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1205/1432',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1250',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '20000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'principality-of-achaea.jpg',
+                    'dcterms:title' => 'Principality of Achaea',
+                ],
+            ],
         ],
         [
             'id' => 'duchy-of-athens',
@@ -8149,7 +13476,10 @@ return [
                 'latin-empire-of-constantinople',
                 'principality-of-achaea',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q334714', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q334714',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '22.2,36.4,25.2,39.4',
             'map_coordinates' => [
                 23.7,
@@ -8164,12 +13494,32 @@ return [
                 'Parthenon',
                 'Athens',
             ],
-            'dcterms:date' => ['@value' => '1205', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P253Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1205/1458', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '15000', '@type' => 'numeric:integer'],
-            'media' => 'duchy-of-athens.png',
+            'dcterms:date' => [
+                '@value' => '1205',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P253Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1205/1458',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '15000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'duchy-of-athens.png',
+                    'dcterms:title' => 'Duchy of Athens',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-galicia-volhynia',
@@ -8182,7 +13532,10 @@ return [
                 'kievan-rus',
                 'kingdom-of-poland',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q239502', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q239502',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '21.726908,47.526908,26.273092,52.073092',
             'map_coordinates' => [
                 24,
@@ -8197,12 +13550,32 @@ return [
                 'Post-Kievan Rus',
                 'Medieval East Europe',
             ],
-            'dcterms:date' => ['@value' => '1199', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P150Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1199/1349', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1250', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-galicia-volhynia.png',
+            'dcterms:date' => [
+                '@value' => '1199',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P150Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1199/1349',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1250',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-galicia-volhynia.png',
+                    'dcterms:title' => 'Kingdom of Galicia-Volhynia',
+                ],
+            ],
         ],
         [
             'id' => 'principality-of-moscow',
@@ -8218,7 +13591,10 @@ return [
                 'tsardom-of-russia',
                 'pskov-republic',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q170770', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q170770',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '29.094867,47.194867,46.105133,64.205133',
             'map_coordinates' => [
                 37.6,
@@ -8233,12 +13609,32 @@ return [
                 'Mongol liberation',
                 'Orthodox Christianity',
             ],
-            'dcterms:date' => ['@value' => '1263', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P284Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1263/1547', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1480', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2800000', '@type' => 'numeric:integer'],
-            'media' => 'principality-of-moscow.png',
+            'dcterms:date' => [
+                '@value' => '1263',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P284Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1263/1547',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1480',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'principality-of-moscow.png',
+                    'dcterms:title' => 'Principality of Moscow',
+                ],
+            ],
         ],
         [
             'id' => 'trebizond-empire',
@@ -8251,7 +13647,10 @@ return [
                 'byzantine-empire',
                 'empire-of-nicaea',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q178913', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q178913',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '38.2,39.5,41.2,42.5',
             'map_coordinates' => [
                 39.7,
@@ -8266,12 +13665,32 @@ return [
                 'Black Sea trade',
                 'Silk Road',
             ],
-            'dcterms:date' => ['@value' => '1204', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P257Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1204/1461', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '50000', '@type' => 'numeric:integer'],
-            'media' => 'trebizond-empire.png',
+            'dcterms:date' => [
+                '@value' => '1204',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P257Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1204/1461',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '50000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'trebizond-empire.png',
+                    'dcterms:title' => 'Trebizond Empire',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-wallachia',
@@ -8285,7 +13704,10 @@ return [
                 'ottoman-empire',
                 'principality-of-moldavia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q6412678', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q6412678',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '24.6,42.9,27.6,45.9',
             'map_coordinates' => [
                 26.1,
@@ -8300,12 +13722,32 @@ return [
                 'Ottoman resistance',
                 'Balkans',
             ],
-            'dcterms:date' => ['@value' => '1330', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P529Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1330/1859', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1460', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '77700', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-wallachia.jpg',
+            'dcterms:date' => [
+                '@value' => '1330',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P529Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1330/1859',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1460',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '77700',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-wallachia.jpg',
+                    'dcterms:title' => 'Kingdom of Wallachia',
+                ],
+            ],
         ],
         [
             'id' => 'principality-of-moldavia',
@@ -8318,7 +13760,10 @@ return [
                 'kingdom-of-poland',
                 'kingdom-of-wallachia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q10957559', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q10957559',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '27.366715,45.466715,30.433285,48.533285',
             'map_coordinates' => [
                 28.9,
@@ -8333,12 +13778,32 @@ return [
                 'Ottoman resistance',
                 'Orthodox monasteries',
             ],
-            'dcterms:date' => ['@value' => '1346', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P513Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1346/1859', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1490', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '91000', '@type' => 'numeric:integer'],
-            'media' => 'principality-of-moldavia.png',
+            'dcterms:date' => [
+                '@value' => '1346',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P513Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1346/1859',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1490',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '91000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'principality-of-moldavia.png',
+                    'dcterms:title' => 'Principality of Moldavia',
+                ],
+            ],
         ],
         [
             'id' => 'mongol-invasion-of-europe',
@@ -8352,7 +13817,10 @@ return [
                 'kingdom-of-hungary',
                 'kingdom-of-poland',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q852171', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q852171',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '16.405925,45.405925,23.594075,52.594075',
             'map_coordinates' => [
                 20,
@@ -8367,12 +13835,32 @@ return [
                 'Poland',
                 'Medieval crisis',
             ],
-            'dcterms:date' => ['@value' => '1241', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1241/1242', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1241', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '500000', '@type' => 'numeric:integer'],
-            'media' => 'mongol-invasion-of-europe.jpg',
+            'dcterms:date' => [
+                '@value' => '1241',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1241/1242',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1241',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'mongol-invasion-of-europe.jpg',
+                    'dcterms:title' => 'Mongol Invasion of Europe',
+                ],
+            ],
         ],
         [
             'id' => 'black-death-period',
@@ -8385,7 +13873,10 @@ return [
                 'republic-of-genoa',
                 'holy-roman-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q42005', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q42005',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-1.365462,33.634538,21.365462,56.365462',
             'map_coordinates' => [
                 10,
@@ -8400,12 +13891,32 @@ return [
                 'Demographic collapse',
                 'Medieval crisis',
             ],
-            'dcterms:date' => ['@value' => '1347', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P4Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1347/1351', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1349', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '5000000', '@type' => 'numeric:integer'],
-            'media' => 'black-death-period.jpg',
+            'dcterms:date' => [
+                '@value' => '1347',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P4Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1347/1351',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1349',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '5000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'black-death-period.jpg',
+                    'dcterms:title' => 'Black Death Period',
+                ],
+            ],
         ],
         [
             'id' => 'hundred-years-war-france-england',
@@ -8418,7 +13929,10 @@ return [
                 'kingdom-of-france',
                 'kingdom-of-england',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q12551', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q12551',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-2.594075,43.405925,4.594075,50.594075',
             'map_coordinates' => [
                 1,
@@ -8433,12 +13947,32 @@ return [
                 'Joan of Arc',
                 'Medieval warfare',
             ],
-            'dcterms:date' => ['@value' => '1337', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P116Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1337/1453', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1430', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '500000', '@type' => 'numeric:integer'],
-            'media' => 'hundred-years-war-france-england.png',
+            'dcterms:date' => [
+                '@value' => '1337',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P116Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1337/1453',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1430',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'hundred-years-war-france-england.png',
+                    'dcterms:title' => 'Hundred Years War France-England',
+                ],
+            ],
         ],
         [
             'id' => 'swiss-confederation',
@@ -8451,7 +13985,10 @@ return [
                 'holy-roman-empire',
                 'duchy-of-burgundy',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7658859', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q7658859',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '6.7,45.4,9.7,48.4',
             'map_coordinates' => [
                 8.2,
@@ -8466,12 +14003,32 @@ return [
                 'Mercenary infantry',
                 'Independence',
             ],
-            'dcterms:date' => ['@value' => '1291', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P507Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1291/1798', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '40000', '@type' => 'numeric:integer'],
-            'media' => 'swiss-confederation.jpg',
+            'dcterms:date' => [
+                '@value' => '1291',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P507Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1291/1798',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '40000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'swiss-confederation.jpg',
+                    'dcterms:title' => 'Swiss Confederation',
+                ],
+            ],
         ],
         [
             'id' => 'crown-of-aragon-sicily',
@@ -8484,7 +14041,10 @@ return [
                 'kingdom-of-aragon',
                 'kingdom-of-sicily',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q204920', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q204920',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '12.5,36.1,15.5,39.1',
             'map_coordinates' => [
                 14,
@@ -8499,12 +14059,32 @@ return [
                 'Sicily',
                 'Mediterranean power',
             ],
-            'dcterms:date' => ['@value' => '1282', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P127Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1282/1409', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1350', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '25000', '@type' => 'numeric:integer'],
-            'media' => 'crown-of-aragon-sicily.png',
+            'dcterms:date' => [
+                '@value' => '1282',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P127Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1282/1409',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1350',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '25000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'crown-of-aragon-sicily.png',
+                    'dcterms:title' => 'Crown of Aragon Sicily',
+                ],
+            ],
         ],
         [
             'id' => 'grand-principality-of-finland',
@@ -8517,7 +14097,10 @@ return [
                 'kingdom-of-sweden',
                 'teutonic-order-state',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q62633', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q62633',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '22.78016,58.98016,28.61984,64.81984',
             'map_coordinates' => [
                 25.7,
@@ -8532,12 +14115,32 @@ return [
                 'Swedish rule',
                 'Northern Europe',
             ],
-            'dcterms:date' => ['@value' => '1249', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P560Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1249/1809', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '330000', '@type' => 'numeric:integer'],
-            'media' => 'grand-principality-of-finland.png',
+            'dcterms:date' => [
+                '@value' => '1249',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P560Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1249/1809',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '330000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'grand-principality-of-finland.png',
+                    'dcterms:title' => 'Grand Principality of Finland',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-naples',
@@ -8551,7 +14154,10 @@ return [
                 'papal-states',
                 'albanian-league-of-lezh',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q173065', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q173065',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '12.8,39.3,15.8,42.3',
             'map_coordinates' => [
                 14.3,
@@ -8566,12 +14172,32 @@ return [
                 'Angevin rule',
                 'Spanish rule',
             ],
-            'dcterms:date' => ['@value' => '1282', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P534Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1282/1816', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '60000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-naples.png',
+            'dcterms:date' => [
+                '@value' => '1282',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P534Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1282/1816',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '60000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-naples.png',
+                    'dcterms:title' => 'Kingdom of Naples',
+                ],
+            ],
         ],
         [
             'id' => 'duchy-of-milan',
@@ -8586,7 +14212,10 @@ return [
                 'holy-roman-empire',
                 'duchy-of-savoy',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q153529', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q153529',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '7.7,44,10.7,47',
             'map_coordinates' => [
                 9.2,
@@ -8601,12 +14230,32 @@ return [
                 'Leonardo da Vinci',
                 'Northern Italy',
             ],
-            'dcterms:date' => ['@value' => '1395', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P140Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1395/1535', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1450', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '17000', '@type' => 'numeric:integer'],
-            'media' => 'duchy-of-milan.png',
+            'dcterms:date' => [
+                '@value' => '1395',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P140Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1395/1535',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1450',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '17000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'duchy-of-milan.png',
+                    'dcterms:title' => 'Duchy of Milan',
+                ],
+            ],
         ],
         [
             'id' => 'papal-avignon-period',
@@ -8619,7 +14268,10 @@ return [
                 'papal-states',
                 'kingdom-of-france',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q202558', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q202558',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '3.3,42.4,6.3,45.4',
             'map_coordinates' => [
                 4.8,
@@ -8634,12 +14286,32 @@ return [
                 'Church crisis',
                 'Late medieval religion',
             ],
-            'dcterms:date' => ['@value' => '1309', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P68Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1309/1377', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1340', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '20000', '@type' => 'numeric:integer'],
-            'media' => 'papal-avignon-period.jpg',
+            'dcterms:date' => [
+                '@value' => '1309',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P68Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1309/1377',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1340',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '20000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'papal-avignon-period.jpg',
+                    'dcterms:title' => 'Papal Avignon Period',
+                ],
+            ],
         ],
         [
             'id' => 'bohemian-hussite-movement',
@@ -8652,7 +14324,10 @@ return [
                 'kingdom-of-bohemia',
                 'holy-roman-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q131372', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q131372',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '12.9,48.6,15.9,51.6',
             'map_coordinates' => [
                 14.4,
@@ -8667,12 +14342,32 @@ return [
                 'Hussite wars',
                 'Pre-Reformation',
             ],
-            'dcterms:date' => ['@value' => '1419', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P17Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1419/1436', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1427', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '80000', '@type' => 'numeric:integer'],
-            'media' => 'bohemian-hussite-movement.jpg',
+            'dcterms:date' => [
+                '@value' => '1419',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P17Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1419/1436',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1427',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '80000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'bohemian-hussite-movement.jpg',
+                    'dcterms:title' => 'Bohemian Hussite Movement',
+                ],
+            ],
         ],
         [
             'id' => 'teutonic-prussia',
@@ -8685,7 +14380,10 @@ return [
                 'teutonic-order-state',
                 'kingdom-of-poland',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q28802174', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q28802174',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '19,53.2,22,56.2',
             'map_coordinates' => [
                 20.5,
@@ -8700,12 +14398,32 @@ return [
                 'First Protestant state',
                 'Secularization',
             ],
-            'dcterms:date' => ['@value' => '1525', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P93Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1525/1618', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1570', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '60000', '@type' => 'numeric:integer'],
-            'media' => 'teutonic-prussia.png',
+            'dcterms:date' => [
+                '@value' => '1525',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P93Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1525/1618',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1570',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '60000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'teutonic-prussia.png',
+                    'dcterms:title' => 'Teutonic Prussia',
+                ],
+            ],
         ],
         [
             'id' => 'livonian-confederation',
@@ -8718,7 +14436,10 @@ return [
                 'teutonic-order-state',
                 'kingdom-of-sweden',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q33698', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q33698',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '23.392681,55.392681,26.607319,58.607319',
             'map_coordinates' => [
                 25,
@@ -8733,12 +14454,32 @@ return [
                 'Baltic conversion',
                 'Medieval confederation',
             ],
-            'dcterms:date' => ['@value' => '1228', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P333Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1228/1561', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'livonian-confederation.png',
+            'dcterms:date' => [
+                '@value' => '1228',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P333Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1228/1561',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'livonian-confederation.png',
+                    'dcterms:title' => 'Livonian Confederation',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-navarre-france',
@@ -8751,7 +14492,10 @@ return [
                 'kingdom-of-navarre',
                 'kingdom-of-france',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q200262', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q200262',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-1.365251,45.234749,5.965251,52.565251',
             'map_coordinates' => [
                 2.3,
@@ -8766,12 +14510,32 @@ return [
                 'Edict of Nantes',
                 'Huguenots',
             ],
-            'dcterms:date' => ['@value' => '1589', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P21Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1589/1610', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1598', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '520000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-navarre-france.png',
+            'dcterms:date' => [
+                '@value' => '1589',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P21Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1589/1610',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1598',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '520000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-navarre-france.png',
+                    'dcterms:title' => 'Kingdom of Navarre-France',
+                ],
+            ],
         ],
         [
             'id' => 'novgorod-republic',
@@ -8786,7 +14550,10 @@ return [
                 'viking-age-scandinavia',
                 'pskov-republic',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q151536', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q151536',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '29.026908,56.226908,33.573092,60.773092',
             'map_coordinates' => [
                 31.3,
@@ -8801,12 +14568,32 @@ return [
                 'Hanseatic trade',
                 'Veche democracy',
             ],
-            'dcterms:date' => ['@value' => '1136', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P342Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1136/1478', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1350', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'novgorod-republic.png',
+            'dcterms:date' => [
+                '@value' => '1136',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P342Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1136/1478',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1350',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'novgorod-republic.png',
+                    'dcterms:title' => 'Novgorod Republic',
+                ],
+            ],
         ],
         [
             'id' => 'pskov-republic',
@@ -8819,7 +14606,10 @@ return [
                 'novgorod-republic',
                 'principality-of-moscow',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q317078', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q317078',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '26.8,56.3,29.8,59.3',
             'map_coordinates' => [
                 28.3,
@@ -8834,12 +14624,32 @@ return [
                 'Icon painting',
                 'Veche democracy',
             ],
-            'dcterms:date' => ['@value' => '1348', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P162Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1348/1510', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1420', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '25000', '@type' => 'numeric:integer'],
-            'media' => 'pskov-republic.png',
+            'dcterms:date' => [
+                '@value' => '1348',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P162Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1348/1510',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1420',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '25000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'pskov-republic.png',
+                    'dcterms:title' => 'Pskov Republic',
+                ],
+            ],
         ],
         [
             'id' => 'albanian-league-of-lezh',
@@ -8852,7 +14662,10 @@ return [
                 'ottoman-empire',
                 'kingdom-of-naples',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q669241', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q669241',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '18.1,40.3,21.1,43.3',
             'map_coordinates' => [
                 19.6,
@@ -8867,12 +14680,32 @@ return [
                 'Ottoman resistance',
                 'Balkans',
             ],
-            'dcterms:date' => ['@value' => '1444', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P35Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1444/1479', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1455', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '30000', '@type' => 'numeric:integer'],
-            'media' => 'albanian-league-of-lezh.png',
+            'dcterms:date' => [
+                '@value' => '1444',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P35Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1444/1479',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1455',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '30000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'albanian-league-of-lezh.png',
+                    'dcterms:title' => 'Albanian League of Lezhë',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-bosnia',
@@ -8886,7 +14719,10 @@ return [
                 'kingdom-of-hungary',
                 'ottoman-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2980623', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2980623',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '16,42.3,19,45.3',
             'map_coordinates' => [
                 17.5,
@@ -8901,12 +14737,32 @@ return [
                 'Stećci',
                 'Balkans',
             ],
-            'dcterms:date' => ['@value' => '1377', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P86Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1377/1463', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1440', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '70000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-bosnia.png',
+            'dcterms:date' => [
+                '@value' => '1377',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P86Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1377/1463',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1440',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '70000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-bosnia.png',
+                    'dcterms:title' => 'Kingdom of Bosnia',
+                ],
+            ],
         ],
         [
             'id' => 'duchy-of-savoy',
@@ -8919,7 +14775,10 @@ return [
                 'duchy-of-milan',
                 'holy-roman-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q426025', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q426025',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '6.2,43.6,9.2,46.6',
             'map_coordinates' => [
                 7.7,
@@ -8934,12 +14793,32 @@ return [
                 'House of Savoy',
                 'Strategic crossroads',
             ],
-            'dcterms:date' => ['@value' => '1416', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P445Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1416/1861', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1700', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '60000', '@type' => 'numeric:integer'],
-            'media' => 'duchy-of-savoy.png',
+            'dcterms:date' => [
+                '@value' => '1416',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P445Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1416/1861',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '60000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'duchy-of-savoy.png',
+                    'dcterms:title' => 'Duchy of Savoy',
+                ],
+            ],
         ],
         [
             'id' => 'angevin-empire',
@@ -8952,7 +14831,10 @@ return [
                 'kingdom-of-england',
                 'kingdom-of-france',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q538677', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q538677',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-3.437111,43.562889,4.437111,51.437111',
             'map_coordinates' => [
                 0.5,
@@ -8967,12 +14849,32 @@ return [
                 'Plantagenet dynasty',
                 'Thomas Becket',
             ],
-            'dcterms:date' => ['@value' => '1154', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P60Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1154/1214', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1180', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '600000', '@type' => 'numeric:integer'],
-            'media' => 'angevin-empire.png',
+            'dcterms:date' => [
+                '@value' => '1154',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P60Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1154/1214',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1180',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '600000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'angevin-empire.png',
+                    'dcterms:title' => 'Angevin Empire',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-jerusalem',
@@ -8986,7 +14888,10 @@ return [
                 'ayyubid-sultanate',
                 'byzantine-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q55502', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q55502',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '33.7,30.3,36.7,33.3',
             'map_coordinates' => [
                 35.2,
@@ -9001,12 +14906,32 @@ return [
                 'Feudal law',
                 'Military orders',
             ],
-            'dcterms:date' => ['@value' => '1099', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P192Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1099/1291', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1150', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '45000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-jerusalem.jpg',
+            'dcterms:date' => [
+                '@value' => '1099',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P192Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1099/1291',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1150',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '45000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-jerusalem.jpg',
+                    'dcterms:title' => 'Kingdom of Jerusalem',
+                ],
+            ],
         ],
         [
             'id' => 'waldemar-iv-denmark',
@@ -9019,7 +14944,10 @@ return [
                 'kingdom-of-denmark',
                 'hanseatic-league',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q216630', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q216630',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '9.592981,52.692981,15.607019,58.707019',
             'map_coordinates' => [
                 12.6,
@@ -9034,12 +14962,32 @@ return [
                 'Hanseatic League',
                 'Medieval Scandinavia',
             ],
-            'dcterms:date' => ['@value' => '1340', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P35Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1340/1375', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1360', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '350000', '@type' => 'numeric:integer'],
-            'media' => 'waldemar-iv-denmark.jpg',
+            'dcterms:date' => [
+                '@value' => '1340',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P35Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1340/1375',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1360',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '350000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'waldemar-iv-denmark.jpg',
+                    'dcterms:title' => 'Waldemar IV Denmark',
+                ],
+            ],
         ],
         [
             'id' => 'minoan-civilization',
@@ -9051,7 +14999,10 @@ return [
             'relations' => [
                 'mycenaean-greece',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q134178', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q134178',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '23.645163,33.665163,26.694837,36.714837',
             'map_coordinates' => [
                 25.17,
@@ -9066,12 +15017,32 @@ return [
                 'Aegean',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '-2700', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1600Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2700/-1100', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1700', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '90000', '@type' => 'numeric:integer'],
-            'media' => 'minoan-civilization.png',
+            'dcterms:date' => [
+                '@value' => '-2700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1600Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2700/-1100',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '90000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'minoan-civilization.png',
+                    'dcterms:title' => 'Minoan Civilization',
+                ],
+            ],
         ],
         [
             'id' => 'mycenaean-greece',
@@ -9084,7 +15055,10 @@ return [
                 'minoan-civilization',
                 'hittite-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q181264', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q181264',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '21.142681,36.112681,24.357319,39.327319',
             'map_coordinates' => [
                 22.75,
@@ -9098,12 +15072,32 @@ return [
                 'Bronze Age',
                 'Aegean',
             ],
-            'dcterms:date' => ['@value' => '-1600', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P500Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1600/-1100', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'mycenaean-greece.jpg',
+            'dcterms:date' => [
+                '@value' => '-1600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P500Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1600/-1100',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'mycenaean-greece.jpg',
+                    'dcterms:title' => 'Mycenaean Greece',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-macedon',
@@ -9124,7 +15118,10 @@ return [
                 'illyrian-kingdom',
                 'league-of-corinth',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q83958', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q83958',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '19.826908,38.376908,24.373092,42.923092',
             'map_coordinates' => [
                 22.1,
@@ -9138,12 +15135,32 @@ return [
                 'Greece',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0800', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P632Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0800/-0168', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0350', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-macedon.jpg',
+            'dcterms:date' => [
+                '@value' => '-0800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P632Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0800/-0168',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0350',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-macedon.jpg',
+                    'dcterms:title' => 'Kingdom of Macedon',
+                ],
+            ],
         ],
         [
             'id' => 'athens',
@@ -9164,7 +15181,10 @@ return [
                 'thessalian-league',
                 'league-of-corinth',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1524', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1524',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '22.23,36.47,25.23,39.47',
             'map_coordinates' => [
                 23.73,
@@ -9180,12 +15200,32 @@ return [
                 'Democracy',
                 'Philosophy',
             ],
-            'dcterms:date' => ['@value' => '-0507', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P185Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0507/-0322', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0450', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2600', '@type' => 'numeric:integer'],
-            'media' => 'athens.jpg',
+            'dcterms:date' => [
+                '@value' => '-0507',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P185Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0507/-0322',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0450',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2600',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'athens.jpg',
+                    'dcterms:title' => 'Athens',
+                ],
+            ],
         ],
         [
             'id' => 'sparta',
@@ -9203,7 +15243,10 @@ return [
                 'achaean-league',
                 'league-of-corinth',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q5690', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q5690',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '20.93,35.57,23.93,38.57',
             'map_coordinates' => [
                 22.43,
@@ -9218,12 +15261,32 @@ return [
                 'Iron Age',
                 'Military',
             ],
-            'dcterms:date' => ['@value' => '-0650', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P288Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0650/-0362', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0404', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '8400', '@type' => 'numeric:integer'],
-            'media' => 'sparta.jpg',
+            'dcterms:date' => [
+                '@value' => '-0650',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P288Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0650/-0362',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0404',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '8400',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'sparta.jpg',
+                    'dcterms:title' => 'Sparta',
+                ],
+            ],
         ],
         [
             'id' => 'corinth',
@@ -9237,7 +15300,10 @@ return [
                 'peloponnesian-league',
                 'roman-republic',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q103011', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q103011',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '21.43,36.44,24.43,39.44',
             'map_coordinates' => [
                 22.93,
@@ -9252,12 +15318,32 @@ return [
                 'Iron Age',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '-0900', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P754Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0900/-0146', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0550', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '900', '@type' => 'numeric:integer'],
-            'media' => 'corinth.jpg',
+            'dcterms:date' => [
+                '@value' => '-0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P754Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0900/-0146',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0550',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '900',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'corinth.jpg',
+                    'dcterms:title' => 'Corinth',
+                ],
+            ],
         ],
         [
             'id' => 'thebes',
@@ -9271,7 +15357,10 @@ return [
                 'sparta',
                 'kingdom-of-macedon',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q5760', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q5760',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '21.82,36.82,24.82,39.82',
             'map_coordinates' => [
                 23.32,
@@ -9285,12 +15374,32 @@ return [
                 'Greece',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0600', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P265Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0600/-0335', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0371', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2500', '@type' => 'numeric:integer'],
-            'media' => 'thebes.jpg',
+            'dcterms:date' => [
+                '@value' => '-0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P265Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0600/-0335',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0371',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2500',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'thebes.jpg',
+                    'dcterms:title' => 'Thebes',
+                ],
+            ],
         ],
         [
             'id' => 'syracuse',
@@ -9304,7 +15413,10 @@ return [
                 'magna-graecia',
                 'acragas',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q13670', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q13670',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '13.79,35.56,16.79,38.56',
             'map_coordinates' => [
                 15.29,
@@ -9318,12 +15430,32 @@ return [
                 'Sicily',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0734', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P522Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0734/-0212', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '5000', '@type' => 'numeric:integer'],
-            'media' => 'syracuse.jpg',
+            'dcterms:date' => [
+                '@value' => '-0734',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P522Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0734/-0212',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '5000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'syracuse.jpg',
+                    'dcterms:title' => 'Syracuse',
+                ],
+            ],
         ],
         [
             'id' => 'miletus',
@@ -9336,7 +15468,10 @@ return [
                 'delian-league',
                 'kingdom-of-bithynia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q169460', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q169460',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '25.78,36,28.78,39',
             'map_coordinates' => [
                 27.28,
@@ -9351,12 +15486,32 @@ return [
                 'Iron Age',
                 'Philosophy',
             ],
-            'dcterms:date' => ['@value' => '-0700', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P366Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0700/-0334', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0550', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000', '@type' => 'numeric:integer'],
-            'media' => 'miletus.jpg',
+            'dcterms:date' => [
+                '@value' => '-0700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P366Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0700/-0334',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0550',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'miletus.jpg',
+                    'dcterms:title' => 'Miletus',
+                ],
+            ],
         ],
         [
             'id' => 'argos',
@@ -9369,7 +15524,10 @@ return [
                 'sparta',
                 'achaean-league',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q218956', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q218956',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '21.22,36.13,24.22,39.13',
             'map_coordinates' => [
                 22.72,
@@ -9383,12 +15541,32 @@ return [
                 'Greece',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0800', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P654Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0800/-0146', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1400', '@type' => 'numeric:integer'],
-            'media' => 'argos.png',
+            'dcterms:date' => [
+                '@value' => '-0800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P654Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0800/-0146',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1400',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'argos.png',
+                    'dcterms:title' => 'Argos',
+                ],
+            ],
         ],
         [
             'id' => 'rhodes',
@@ -9401,7 +15579,10 @@ return [
                 'delian-league',
                 'kingdom-of-pergamon',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q22254', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q22254',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '26.72,34.94,29.72,37.94',
             'map_coordinates' => [
                 28.22,
@@ -9416,12 +15597,32 @@ return [
                 'Iron Age',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '-0408', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P365Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0408/-0043', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1400', '@type' => 'numeric:integer'],
-            'media' => 'rhodes.jpg',
+            'dcterms:date' => [
+                '@value' => '-0408',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P365Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0408/-0043',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1400',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'rhodes.jpg',
+                    'dcterms:title' => 'Rhodes',
+                ],
+            ],
         ],
         [
             'id' => 'massalia',
@@ -9433,7 +15634,10 @@ return [
             'relations' => [
                 'roman-republic',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q449855', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q449855',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '3.87,41.8,6.87,44.8',
             'map_coordinates' => [
                 5.37,
@@ -9448,12 +15652,32 @@ return [
                 'Iron Age',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '-0600', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P649Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0600/0049', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1500', '@type' => 'numeric:integer'],
-            'media' => 'massalia.jpg',
+            'dcterms:date' => [
+                '@value' => '-0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P649Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0600/0049',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1500',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'massalia.jpg',
+                    'dcterms:title' => 'Massalia',
+                ],
+            ],
         ],
         [
             'id' => 'acragas',
@@ -9467,7 +15691,10 @@ return [
                 'carthage',
                 'magna-graecia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q238903', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q238903',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '12.09,35.79,15.09,38.79',
             'map_coordinates' => [
                 13.59,
@@ -9481,12 +15708,32 @@ return [
                 'Sicily',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0580', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P370Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0580/-0210', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0480', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000', '@type' => 'numeric:integer'],
-            'media' => 'acragas.jpg',
+            'dcterms:date' => [
+                '@value' => '-0580',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P370Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0580/-0210',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0480',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'acragas.jpg',
+                    'dcterms:title' => 'Acragas',
+                ],
+            ],
         ],
         [
             'id' => 'cyrene',
@@ -9499,7 +15746,10 @@ return [
                 'ptolemaic-kingdom',
                 'numidia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q44112', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q44112',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '20.36,31.32,23.36,34.32',
             'map_coordinates' => [
                 21.86,
@@ -9514,12 +15764,32 @@ return [
                 'Iron Age',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '-0631', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P557Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0631/-0074', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '20000', '@type' => 'numeric:integer'],
-            'media' => 'cyrene.jpg',
+            'dcterms:date' => [
+                '@value' => '-0631',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P557Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0631/-0074',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '20000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'cyrene.jpg',
+                    'dcterms:title' => 'Cyrene',
+                ],
+            ],
         ],
         [
             'id' => 'delian-league',
@@ -9535,7 +15805,10 @@ return [
                 'miletus',
                 'rhodes',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q193235', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q193235',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '20.515362,34.755362,26.944638,41.184638',
             'map_coordinates' => [
                 23.73,
@@ -9549,12 +15822,32 @@ return [
                 'Greece',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0478', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P74Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0478/-0404', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0450', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '400000', '@type' => 'numeric:integer'],
-            'media' => 'delian-league.png',
+            'dcterms:date' => [
+                '@value' => '-0478',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P74Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0478/-0404',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0450',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'delian-league.png',
+                    'dcterms:title' => 'Delian League',
+                ],
+            ],
         ],
         [
             'id' => 'achaean-league',
@@ -9569,7 +15862,10 @@ return [
                 'roman-republic',
                 'aetolian-league',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q244796', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q244796',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '20.55,36.54,23.55,39.54',
             'map_coordinates' => [
                 22.05,
@@ -9583,12 +15879,32 @@ return [
                 'Greece',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0280', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P134Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0280/-0146', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '35000', '@type' => 'numeric:integer'],
-            'media' => 'achaean-league.png',
+            'dcterms:date' => [
+                '@value' => '-0280',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P134Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0280/-0146',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '35000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'achaean-league.png',
+                    'dcterms:title' => 'Achaean League',
+                ],
+            ],
         ],
         [
             'id' => 'aetolian-league',
@@ -9602,7 +15918,10 @@ return [
                 'antigonid-macedonia',
                 'acarnanian-confederation',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q245273', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q245273',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '19.97,37.08,22.97,40.08',
             'map_coordinates' => [
                 21.47,
@@ -9616,12 +15935,32 @@ return [
                 'Greece',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0370', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P181Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0370/-0189', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0250', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '25000', '@type' => 'numeric:integer'],
-            'media' => 'aetolian-league.jpg',
+            'dcterms:date' => [
+                '@value' => '-0370',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P181Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0370/-0189',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0250',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '25000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'aetolian-league.jpg',
+                    'dcterms:title' => 'Aetolian League',
+                ],
+            ],
         ],
         [
             'id' => 'peloponnesian-league',
@@ -9636,7 +15975,10 @@ return [
                 'corinth',
                 'delian-league',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q208742', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q208742',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '20.822681,35.462681,24.037319,38.677319',
             'map_coordinates' => [
                 22.43,
@@ -9650,12 +15992,32 @@ return [
                 'Greece',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0550', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P212Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0550/-0338', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'peloponnesian-league.png',
+            'dcterms:date' => [
+                '@value' => '-0550',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P212Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0550/-0338',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'peloponnesian-league.png',
+                    'dcterms:title' => 'Peloponnesian League',
+                ],
+            ],
         ],
         [
             'id' => 'empire-of-alexander-the-great',
@@ -9672,7 +16034,10 @@ return [
                 'achaemenid-empire',
                 'league-of-corinth',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q13405524', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q13405524',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '32.608666,20.728666,56.231334,44.351334',
             'map_coordinates' => [
                 44.42,
@@ -9686,12 +16051,32 @@ return [
                 'Greece',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0336', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P13Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0336/-0323', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0323', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '5400000', '@type' => 'numeric:integer'],
-            'media' => 'empire-of-alexander-the-great.jpg',
+            'dcterms:date' => [
+                '@value' => '-0336',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P13Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0336/-0323',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0323',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '5400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'empire-of-alexander-the-great.jpg',
+                    'dcterms:title' => 'Empire of Alexander the Great',
+                ],
+            ],
         ],
         [
             'id' => 'seleucid-empire',
@@ -9714,7 +16099,10 @@ return [
                 'kingdom-of-armenia',
                 'maurya-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q93180', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q93180',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '27.356351,27.396351,44.963649,45.003649',
             'map_coordinates' => [
                 36.16,
@@ -9728,12 +16116,32 @@ return [
                 'Hellenistic',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0312', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P249Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0312/-0063', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0281', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3000000', '@type' => 'numeric:integer'],
-            'media' => 'seleucid-empire.png',
+            'dcterms:date' => [
+                '@value' => '-0312',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P249Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0312/-0063',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0281',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'seleucid-empire.png',
+                    'dcterms:title' => 'Seleucid Empire',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-pergamon',
@@ -9749,7 +16157,10 @@ return [
                 'lycian-league',
                 'galatia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2022162', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2022162',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '25.68,37.62,28.68,40.62',
             'map_coordinates' => [
                 27.18,
@@ -9763,12 +16174,32 @@ return [
                 'Anatolia',
                 'Hellenistic',
             ],
-            'dcterms:date' => ['@value' => '-0282', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P149Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0282/-0133', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '70000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-pergamon.png',
+            'dcterms:date' => [
+                '@value' => '-0282',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P149Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0282/-0133',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '70000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-pergamon.png',
+                    'dcterms:title' => 'Kingdom of Pergamon',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-pontus',
@@ -9784,7 +16215,10 @@ return [
                 'kingdom-of-cappadocia',
                 'kingdom-of-armenia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7380487', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q7380487',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '34.34,39.15,37.34,42.15',
             'map_coordinates' => [
                 35.84,
@@ -9798,12 +16232,32 @@ return [
                 'Anatolia',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0302', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P239Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0302/-0063', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0090', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '80000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-pontus.png',
+            'dcterms:date' => [
+                '@value' => '-0302',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P239Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0302/-0063',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0090',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '80000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-pontus.png',
+                    'dcterms:title' => 'Kingdom of Pontus',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-epirus',
@@ -9817,7 +16271,10 @@ return [
                 'roman-republic',
                 'acarnanian-confederation',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q11266977', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q11266977',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '19.35,38.16,22.35,41.16',
             'map_coordinates' => [
                 20.85,
@@ -9831,12 +16288,32 @@ return [
                 'Greece',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0330', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P163Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0330/-0167', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0279', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '35000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-epirus.png',
+            'dcterms:date' => [
+                '@value' => '-0330',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P163Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0330/-0167',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0279',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '35000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-epirus.png',
+                    'dcterms:title' => 'Kingdom of Epirus',
+                ],
+            ],
         ],
         [
             'id' => 'antigonid-macedonia',
@@ -9851,7 +16328,10 @@ return [
                 'aetolian-league',
                 'roman-republic',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q237325', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q237325',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '19.316042,37.866042,24.883958,43.433958',
             'map_coordinates' => [
                 22.1,
@@ -9865,12 +16345,32 @@ return [
                 'Greece',
                 'Hellenistic',
             ],
-            'dcterms:date' => ['@value' => '-0306', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P138Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0306/-0168', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0250', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '300000', '@type' => 'numeric:integer'],
-            'media' => 'antigonid-macedonia.jpg',
+            'dcterms:date' => [
+                '@value' => '-0306',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P138Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0306/-0168',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0250',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'antigonid-macedonia.jpg',
+                    'dcterms:title' => 'Antigonid Macedonia',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-the-bosporus',
@@ -9883,7 +16383,10 @@ return [
                 'athens',
                 'roman-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q321371', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q321371',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '34.97,43.86,37.97,46.86',
             'map_coordinates' => [
                 36.47,
@@ -9898,12 +16401,32 @@ return [
                 'Iron Age',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '-0438', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P808Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0438/0370', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '50000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-the-bosporus.jpg',
+            'dcterms:date' => [
+                '@value' => '-0438',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P808Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0438/0370',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '50000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-the-bosporus.jpg',
+                    'dcterms:title' => 'Kingdom of the Bosporus',
+                ],
+            ],
         ],
         [
             'id' => 'roman-kingdom',
@@ -9917,7 +16440,10 @@ return [
                 'etruscan-civilization',
                 'latin-league',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q201038', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q201038',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '10.99,40.4,13.99,43.4',
             'map_coordinates' => [
                 12.49,
@@ -9931,12 +16457,32 @@ return [
                 'Italy',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0753', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P244Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0753/-0509', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000', '@type' => 'numeric:integer'],
-            'media' => 'roman-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '-0753',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P244Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0753/-0509',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'roman-kingdom.jpg',
+                    'dcterms:title' => 'Roman Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'roman-republic',
@@ -9965,7 +16511,10 @@ return [
                 'kingdom-of-cappadocia',
                 'kingdom-of-armenia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q17167', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q17167',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '5.301851,34.711851,19.678149,49.088149',
             'map_coordinates' => [
                 12.49,
@@ -9980,12 +16529,32 @@ return [
                 'Iron Age',
                 'Military expansion',
             ],
-            'dcterms:date' => ['@value' => '-0509', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P482Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0509/-0027', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0146', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000000', '@type' => 'numeric:integer'],
-            'media' => 'roman-republic.png',
+            'dcterms:date' => [
+                '@value' => '-0509',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P482Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0509/-0027',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0146',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'roman-republic.png',
+                    'dcterms:title' => 'Roman Republic',
+                ],
+            ],
         ],
         [
             'id' => 'roman-empire',
@@ -10007,7 +16576,10 @@ return [
                 'dacia',
                 'ptolemaic-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2277', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2277',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '1.124538,30.534538,23.855462,53.265462',
             'map_coordinates' => [
                 12.49,
@@ -10021,12 +16593,32 @@ return [
                 'Italy',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0027', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P503Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0027/0476', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0117', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '5000000', '@type' => 'numeric:integer'],
-            'media' => 'roman-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '-0027',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P503Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0027/0476',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0117',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '5000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'roman-empire.jpg',
+                    'dcterms:title' => 'Roman Empire',
+                ],
+            ],
         ],
         [
             'id' => 'western-roman-empire',
@@ -10043,7 +16635,10 @@ return [
                 'ostrogothic-kingdom',
                 'frankish-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q42834', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q42834',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '4.691851,37.231851,19.068149,51.608149',
             'map_coordinates' => [
                 11.88,
@@ -10057,12 +16652,32 @@ return [
                 'Italy',
                 'Late Antiquity',
             ],
-            'dcterms:date' => ['@value' => '0395', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P81Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0395/0476', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000000', '@type' => 'numeric:integer'],
-            'media' => 'western-roman-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '0395',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P81Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0395/0476',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'western-roman-empire.jpg',
+                    'dcterms:title' => 'Western Roman Empire',
+                ],
+            ],
         ],
         [
             'id' => 'byzantine-empire',
@@ -10098,7 +16713,10 @@ return [
                 'kingdom-of-jerusalem',
                 'aksum-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q12544', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q12544',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '19.460972,31.500972,38.479028,50.519028',
             'map_coordinates' => [
                 28.97,
@@ -10113,12 +16731,32 @@ return [
                 'Late Antiquity',
                 'Christianity',
             ],
-            'dcterms:date' => ['@value' => '0330', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1123Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0330/1453', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0555', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3500000', '@type' => 'numeric:integer'],
-            'media' => 'byzantine-empire.gif',
+            'dcterms:date' => [
+                '@value' => '0330',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1123Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0330/1453',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0555',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'byzantine-empire.gif',
+                    'dcterms:title' => 'Byzantine Empire',
+                ],
+            ],
         ],
         [
             'id' => 'carthage',
@@ -10134,7 +16772,10 @@ return [
                 'acragas',
                 'magna-graecia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q6343', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q6343',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '5.237211,31.767211,15.402789,41.932789',
             'map_coordinates' => [
                 10.32,
@@ -10150,12 +16791,32 @@ return [
                 'Trade',
                 'Seafaring',
             ],
-            'dcterms:date' => ['@value' => '-0814', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P668Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0814/-0146', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0264', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'carthage.jpg',
+            'dcterms:date' => [
+                '@value' => '-0814',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P668Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0814/-0146',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0264',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'carthage.jpg',
+                    'dcterms:title' => 'Carthage',
+                ],
+            ],
         ],
         [
             'id' => 'etruscan-civilization',
@@ -10168,7 +16829,10 @@ return [
                 'roman-kingdom',
                 'magna-graecia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q35726', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q35726',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '10.142681,40.652681,13.357319,43.867319',
             'map_coordinates' => [
                 11.75,
@@ -10182,12 +16846,32 @@ return [
                 'Italy',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0900', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P636Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0900/-0264', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'etruscan-civilization.png',
+            'dcterms:date' => [
+                '@value' => '-0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P636Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0900/-0264',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'etruscan-civilization.png',
+                    'dcterms:title' => 'Etruscan Civilization',
+                ],
+            ],
         ],
         [
             'id' => 'magna-graecia',
@@ -10203,7 +16887,10 @@ return [
                 'syracuse',
                 'acragas',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q184313', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q184313',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '14.846908,36.806908,19.393092,41.353092',
             'map_coordinates' => [
                 17.12,
@@ -10218,12 +16905,32 @@ return [
                 'Iron Age',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '-0750', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P486Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0750/-0264', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'magna-graecia.png',
+            'dcterms:date' => [
+                '@value' => '-0750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P486Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0750/-0264',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'magna-graecia.png',
+                    'dcterms:title' => 'Magna Graecia',
+                ],
+            ],
         ],
         [
             'id' => 'samnite-confederation',
@@ -10237,7 +16944,10 @@ return [
                 'latin-league',
                 'magna-graecia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2454677', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2454677',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '13,39.85,16,42.85',
             'map_coordinates' => [
                 14.5,
@@ -10251,12 +16961,32 @@ return [
                 'Italy',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0600', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P310Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0600/-0290', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '25000', '@type' => 'numeric:integer'],
-            'media' => 'samnite-confederation.jpg',
+            'dcterms:date' => [
+                '@value' => '-0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P310Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0600/-0290',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '25000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'samnite-confederation.jpg',
+                    'dcterms:title' => 'Samnite Confederation',
+                ],
+            ],
         ],
         [
             'id' => 'latin-league',
@@ -10270,7 +17000,10 @@ return [
                 'roman-republic',
                 'samnite-confederation',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q874283', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q874283',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '11.23,40.22,14.23,43.22',
             'map_coordinates' => [
                 12.73,
@@ -10284,12 +17017,32 @@ return [
                 'Italy',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0490', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P152Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0490/-0338', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '15000', '@type' => 'numeric:integer'],
-            'media' => 'latin-league.png',
+            'dcterms:date' => [
+                '@value' => '-0490',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P152Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0490/-0338',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '15000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'latin-league.png',
+                    'dcterms:title' => 'Latin League',
+                ],
+            ],
         ],
         [
             'id' => 'numidia',
@@ -10304,7 +17057,10 @@ return [
                 'cyrene',
                 'kingdom-of-mauretania',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1184302', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1184302',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '2.682889,32.422889,10.557111,40.297111',
             'map_coordinates' => [
                 6.62,
@@ -10318,12 +17074,32 @@ return [
                 'North Africa',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0202', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P156Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0202/-0046', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0150', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '600000', '@type' => 'numeric:integer'],
-            'media' => 'numidia.jpg',
+            'dcterms:date' => [
+                '@value' => '-0202',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P156Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0202/-0046',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0150',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '600000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'numidia.jpg',
+                    'dcterms:title' => 'Numidia',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-mauretania',
@@ -10336,7 +17112,10 @@ return [
                 'numidia',
                 'roman-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q31723', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q31723',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-0.583958,33.816042,4.983958,39.383958',
             'map_coordinates' => [
                 2.2,
@@ -10350,12 +17129,32 @@ return [
                 'North Africa',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0025', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P69Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0025/0044', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0010', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '300000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-mauretania.jpg',
+            'dcterms:date' => [
+                '@value' => '-0025',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P69Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0025/0044',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0010',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-mauretania.jpg',
+                    'dcterms:title' => 'Kingdom of Mauretania',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-thrace',
@@ -10368,7 +17167,10 @@ return [
                 'kingdom-of-macedon',
                 'roman-republic',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q870517', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q870517',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '23.361444,40.231444,27.298556,44.168556',
             'map_coordinates' => [
                 25.33,
@@ -10383,12 +17185,32 @@ return [
                 'Iron Age',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '-0479', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P433Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0479/-0046', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0380', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '150000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-thrace.jpg',
+            'dcterms:date' => [
+                '@value' => '-0479',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P433Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0479/-0046',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0380',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '150000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-thrace.jpg',
+                    'dcterms:title' => 'Kingdom of Thrace',
+                ],
+            ],
         ],
         [
             'id' => 'lycian-league',
@@ -10401,7 +17223,10 @@ return [
                 'kingdom-of-pergamon',
                 'roman-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1485014', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1485014',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '27.62,34.83,30.62,37.83',
             'map_coordinates' => [
                 29.12,
@@ -10415,12 +17240,32 @@ return [
                 'Anatolia',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0200', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P243Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0200/0043', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0050', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '10000', '@type' => 'numeric:integer'],
-            'media' => 'lycian-league.png',
+            'dcterms:date' => [
+                '@value' => '-0200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P243Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0200/0043',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0050',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '10000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'lycian-league.png',
+                    'dcterms:title' => 'Lycian League',
+                ],
+            ],
         ],
         [
             'id' => 'illyrian-kingdom',
@@ -10433,7 +17278,10 @@ return [
                 'kingdom-of-macedon',
                 'roman-republic',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q35976', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q35976',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '17.902681,40.462681,21.117319,43.677319',
             'map_coordinates' => [
                 19.51,
@@ -10447,12 +17295,32 @@ return [
                 'Balkans',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0400', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P232Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0400/-0168', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0250', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'illyrian-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '-0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P232Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0400/-0168',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0250',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'illyrian-kingdom.png',
+                    'dcterms:title' => 'Illyrian Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-bithynia',
@@ -10467,7 +17335,10 @@ return [
                 'roman-republic',
                 'miletus',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3762571', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3762571',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '28.42,39.26,31.42,42.26',
             'map_coordinates' => [
                 29.92,
@@ -10481,12 +17352,32 @@ return [
                 'Anatolia',
                 'Hellenistic',
             ],
-            'dcterms:date' => ['@value' => '-0435', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P361Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0435/-0074', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '35000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-bithynia.png',
+            'dcterms:date' => [
+                '@value' => '-0435',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P361Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0435/-0074',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '35000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-bithynia.png',
+                    'dcterms:title' => 'Kingdom of Bithynia',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-cappadocia',
@@ -10500,7 +17391,10 @@ return [
                 'kingdom-of-pontus',
                 'roman-republic',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q29654286', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q29654286',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '33.872681,37.122681,37.087319,40.337319',
             'map_coordinates' => [
                 35.48,
@@ -10514,12 +17408,32 @@ return [
                 'Anatolia',
                 'Hellenistic',
             ],
-            'dcterms:date' => ['@value' => '-0330', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P313Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0330/-0017', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-cappadocia.jpg',
+            'dcterms:date' => [
+                '@value' => '-0330',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P313Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0330/-0017',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-cappadocia.jpg',
+                    'dcterms:title' => 'Kingdom of Cappadocia',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-commagene',
@@ -10532,7 +17446,10 @@ return [
                 'seleucid-empire',
                 'roman-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q332137', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q332137',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '37.24,36.48,40.24,39.48',
             'map_coordinates' => [
                 38.74,
@@ -10546,12 +17463,32 @@ return [
                 'Anatolia',
                 'Hellenistic',
             ],
-            'dcterms:date' => ['@value' => '-0163', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P235Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0163/0072', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0050', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '10000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-commagene.jpg',
+            'dcterms:date' => [
+                '@value' => '-0163',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P235Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0163/0072',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0050',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '10000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-commagene.jpg',
+                    'dcterms:title' => 'Kingdom of Commagene',
+                ],
+            ],
         ],
         [
             'id' => 'galatia',
@@ -10564,7 +17501,10 @@ return [
                 'seleucid-empire',
                 'kingdom-of-pergamon',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q26847', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q26847',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '31.35,38.42,34.35,41.42',
             'map_coordinates' => [
                 32.85,
@@ -10579,12 +17519,32 @@ return [
                 'Iron Age',
                 'Celtic',
             ],
-            'dcterms:date' => ['@value' => '-0279', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P254Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0279/-0025', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '50000', '@type' => 'numeric:integer'],
-            'media' => 'galatia.png',
+            'dcterms:date' => [
+                '@value' => '-0279',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P254Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0279/-0025',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '50000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'galatia.png',
+                    'dcterms:title' => 'Galatia',
+                ],
+            ],
         ],
         [
             'id' => 'dacia',
@@ -10596,7 +17556,10 @@ return [
             'relations' => [
                 'roman-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q27460', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q27460',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '21.371444,43.661444,25.308556,47.598556',
             'map_coordinates' => [
                 23.34,
@@ -10610,12 +17573,32 @@ return [
                 'Balkans',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0082', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P188Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0082/0106', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0085', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '150000', '@type' => 'numeric:integer'],
-            'media' => 'dacia.jpg',
+            'dcterms:date' => [
+                '@value' => '-0082',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P188Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0082/0106',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0085',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '150000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'dacia.jpg',
+                    'dcterms:title' => 'Dacia',
+                ],
+            ],
         ],
         [
             'id' => 'chalcidian-league',
@@ -10628,7 +17611,10 @@ return [
                 'kingdom-of-macedon',
                 'athens',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2042616', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2042616',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '21.85,38.78,24.85,41.78',
             'map_coordinates' => [
                 23.35,
@@ -10642,12 +17628,32 @@ return [
                 'Greece',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0432', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P84Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0432/-0348', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '20000', '@type' => 'numeric:integer'],
-            'media' => 'chalcidian-league.jpg',
+            'dcterms:date' => [
+                '@value' => '-0432',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P84Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0432/-0348',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '20000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'chalcidian-league.jpg',
+                    'dcterms:title' => 'Chalcidian League',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-armenia',
@@ -10661,7 +17667,10 @@ return [
                 'kingdom-of-pontus',
                 'roman-republic',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q208404', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q208404',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '41.305362,36.865362,47.734638,43.294638',
             'map_coordinates' => [
                 44.52,
@@ -10675,12 +17684,32 @@ return [
                 'Anatolia',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0190', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P618Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0190/0428', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0080', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '400000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-armenia.png',
+            'dcterms:date' => [
+                '@value' => '-0190',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P618Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0190/0428',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0080',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-armenia.png',
+                    'dcterms:title' => 'Kingdom of Armenia',
+                ],
+            ],
         ],
         [
             'id' => 'thessalian-league',
@@ -10693,7 +17722,10 @@ return [
                 'kingdom-of-macedon',
                 'athens',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2992813', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2992813',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '20.91,38.14,23.91,41.14',
             'map_coordinates' => [
                 22.41,
@@ -10707,12 +17739,32 @@ return [
                 'Greece',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0650', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P454Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0650/-0196', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '14000', '@type' => 'numeric:integer'],
-            'media' => 'thessalian-league.jpg',
+            'dcterms:date' => [
+                '@value' => '-0650',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P454Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0650/-0196',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '14000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'thessalian-league.jpg',
+                    'dcterms:title' => 'Thessalian League',
+                ],
+            ],
         ],
         [
             'id' => 'league-of-corinth',
@@ -10727,7 +17779,10 @@ return [
                 'sparta',
                 'empire-of-alexander-the-great',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q332337', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q332337',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '17.362084,32.372084,28.497916,43.507916',
             'map_coordinates' => [
                 22.93,
@@ -10741,12 +17796,32 @@ return [
                 'Greece',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0338', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P15Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0338/-0323', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0335', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1200000', '@type' => 'numeric:integer'],
-            'media' => 'league-of-corinth.jpg',
+            'dcterms:date' => [
+                '@value' => '-0338',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P15Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0338/-0323',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0335',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'league-of-corinth.jpg',
+                    'dcterms:title' => 'League of Corinth',
+                ],
+            ],
         ],
         [
             'id' => 'acarnanian-confederation',
@@ -10759,7 +17834,10 @@ return [
                 'aetolian-league',
                 'kingdom-of-epirus',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q24915809', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q24915809',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '19.88,37.29,22.88,40.29',
             'map_coordinates' => [
                 21.38,
@@ -10773,12 +17851,32 @@ return [
                 'Greece',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0400', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P369Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0400/-0031', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0280', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '10000', '@type' => 'numeric:integer'],
-            'media' => 'acarnanian-confederation.jpg',
+            'dcterms:date' => [
+                '@value' => '-0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P369Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0400/-0031',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0280',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '10000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'acarnanian-confederation.jpg',
+                    'dcterms:title' => 'Acarnanian Confederation',
+                ],
+            ],
         ],
         [
             'id' => 'early-dynastic-sumer',
@@ -10795,7 +17893,10 @@ return [
                 'nippur',
                 'dilmun',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q716742', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q716742',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '44.5,29.5,47.5,32.5',
             'map_coordinates' => [
                 46,
@@ -10810,12 +17911,32 @@ return [
                 'Bronze Age',
                 'City-states',
             ],
-            'dcterms:date' => ['@value' => '-3100', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P750Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-3100/-2350', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-2600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '65000', '@type' => 'numeric:integer'],
-            'media' => 'early-dynastic-sumer.jpg',
+            'dcterms:date' => [
+                '@value' => '-3100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P750Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-3100/-2350',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '65000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'early-dynastic-sumer.jpg',
+                    'dcterms:title' => 'Early Dynastic Sumer',
+                ],
+            ],
         ],
         [
             'id' => 'akkadian-empire',
@@ -10831,7 +17952,10 @@ return [
                 'lagash',
                 'old-elamite-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q4461035', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q4461035',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '39.853815,28.553815,48.946185,37.646185',
             'map_coordinates' => [
                 44.4,
@@ -10845,12 +17969,32 @@ return [
                 'Mesopotamia',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-2334', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P180Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2334/-2154', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-2250', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '800000', '@type' => 'numeric:integer'],
-            'media' => 'akkadian-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '-2334',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P180Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2334/-2154',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2250',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'akkadian-empire.jpg',
+                    'dcterms:title' => 'Akkadian Empire',
+                ],
+            ],
         ],
         [
             'id' => 'third-dynasty-of-ur',
@@ -10870,7 +18014,10 @@ return [
                 'eshnunna',
                 'dilmun',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q723587', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q723587',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '43.558605,28.418605,48.641395,33.501395',
             'map_coordinates' => [
                 46.1,
@@ -10884,12 +18031,32 @@ return [
                 'Mesopotamia',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-2112', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P108Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2112/-2004', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-2050', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '250000', '@type' => 'numeric:integer'],
-            'media' => 'third-dynasty-of-ur.png',
+            'dcterms:date' => [
+                '@value' => '-2112',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P108Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2112/-2004',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2050',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '250000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'third-dynasty-of-ur.png',
+                    'dcterms:title' => 'Third Dynasty of Ur',
+                ],
+            ],
         ],
         [
             'id' => 'gutian-kingdom',
@@ -10902,7 +18069,10 @@ return [
                 'akkadian-empire',
                 'third-dynasty-of-ur',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1846086', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1846086',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '43.392681,32.892681,46.607319,36.107319',
             'map_coordinates' => [
                 45,
@@ -10916,12 +18086,32 @@ return [
                 'Mesopotamia',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-2150', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P100Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2150/-2050', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-2100', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'gutian-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '-2150',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P100Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2150/-2050',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'gutian-kingdom.jpg',
+                    'dcterms:title' => 'Gutian Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'old-babylonian-empire',
@@ -10937,7 +18127,10 @@ return [
                 'eshnunna',
                 'mari',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q733897', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q733897',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '39.873815,27.993815,48.966185,37.086185',
             'map_coordinates' => [
                 44.42,
@@ -10952,12 +18145,32 @@ return [
                 'Bronze Age',
                 'Law',
             ],
-            'dcterms:date' => ['@value' => '-1894', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P299Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1894/-1595', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1750', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '800000', '@type' => 'numeric:integer'],
-            'media' => 'old-babylonian-empire.png',
+            'dcterms:date' => [
+                '@value' => '-1894',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P299Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1894/-1595',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'old-babylonian-empire.png',
+                    'dcterms:title' => 'Old Babylonian Empire',
+                ],
+            ],
         ],
         [
             'id' => 'kassite-babylon',
@@ -10970,7 +18183,10 @@ return [
                 'old-babylonian-empire',
                 'middle-assyrian-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q16630263', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q16630263',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '41.205362,29.325362,47.634638,35.754638',
             'map_coordinates' => [
                 44.42,
@@ -10984,12 +18200,32 @@ return [
                 'Mesopotamia',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-1595', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P440Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1595/-1155', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '400000', '@type' => 'numeric:integer'],
-            'media' => 'kassite-babylon.jpg',
+            'dcterms:date' => [
+                '@value' => '-1595',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P440Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1595/-1155',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kassite-babylon.jpg',
+                    'dcterms:title' => 'Kassite Babylon',
+                ],
+            ],
         ],
         [
             'id' => 'middle-assyrian-empire',
@@ -11005,7 +18241,10 @@ return [
                 'old-assyrian-period',
                 'city-of-ashur',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q12642600', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q12642600',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '39.535925,32.745925,46.724075,39.934075',
             'map_coordinates' => [
                 43.13,
@@ -11019,12 +18258,32 @@ return [
                 'Mesopotamia',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-1363', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P451Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1363/-0912', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '500000', '@type' => 'numeric:integer'],
-            'media' => 'middle-assyrian-empire.png',
+            'dcterms:date' => [
+                '@value' => '-1363',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P451Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1363/-0912',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'middle-assyrian-empire.png',
+                    'dcterms:title' => 'Middle Assyrian Empire',
+                ],
+            ],
         ],
         [
             'id' => 'neo-assyrian-empire',
@@ -11045,7 +18304,10 @@ return [
                 'kingdom-of-bit-adini',
                 'neo-hittite-kingdoms',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q10914393', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q10914393',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '37.145963,30.345963,49.174037,42.374037',
             'map_coordinates' => [
                 43.16,
@@ -11060,12 +18322,32 @@ return [
                 'Iron Age',
                 'Military expansion',
             ],
-            'dcterms:date' => ['@value' => '-0912', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P303Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0912/-0609', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0671', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1400000', '@type' => 'numeric:integer'],
-            'media' => 'neo-assyrian-empire.png',
+            'dcterms:date' => [
+                '@value' => '-0912',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P303Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0912/-0609',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0671',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'neo-assyrian-empire.png',
+                    'dcterms:title' => 'Neo-Assyrian Empire',
+                ],
+            ],
         ],
         [
             'id' => 'neo-babylonian-empire',
@@ -11080,7 +18362,10 @@ return [
                 'achaemenid-empire',
                 'neo-elamite-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q624887', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q624887',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '39.337211,27.457211,49.502789,37.622789',
             'map_coordinates' => [
                 44.42,
@@ -11094,12 +18379,32 @@ return [
                 'Mesopotamia',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0626', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P87Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0626/-0539', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'neo-babylonian-empire.png',
+            'dcterms:date' => [
+                '@value' => '-0626',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P87Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0626/-0539',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'neo-babylonian-empire.png',
+                    'dcterms:title' => 'Neo-Babylonian Empire',
+                ],
+            ],
         ],
         [
             'id' => 'lagash',
@@ -11112,7 +18417,10 @@ return [
                 'early-dynastic-sumer',
                 'akkadian-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q207330', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q207330',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '44.97,29.91,47.97,32.91',
             'map_coordinates' => [
                 46.47,
@@ -11126,12 +18434,32 @@ return [
                 'Mesopotamia',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-2900', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P550Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2900/-2350', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-2450', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '5000', '@type' => 'numeric:integer'],
-            'media' => 'lagash.jpg',
+            'dcterms:date' => [
+                '@value' => '-2900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P550Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2900/-2350',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2450',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '5000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'lagash.jpg',
+                    'dcterms:title' => 'Lagash',
+                ],
+            ],
         ],
         [
             'id' => 'ur',
@@ -11144,7 +18472,10 @@ return [
                 'early-dynastic-sumer',
                 'third-dynasty-of-ur',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q5699', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q5699',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '44.6,29.46,47.6,32.46',
             'map_coordinates' => [
                 46.1,
@@ -11158,12 +18489,32 @@ return [
                 'Mesopotamia',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-2900', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P896Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2900/-2004', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-2050', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '5000', '@type' => 'numeric:integer'],
-            'media' => 'ur.jpg',
+            'dcterms:date' => [
+                '@value' => '-2900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P896Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2900/-2004',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2050',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '5000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ur.jpg',
+                    'dcterms:title' => 'Ur',
+                ],
+            ],
         ],
         [
             'id' => 'uruk',
@@ -11175,7 +18526,10 @@ return [
             'relations' => [
                 'early-dynastic-sumer',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q168518', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q168518',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '44.14,29.82,47.14,32.82',
             'map_coordinates' => [
                 45.64,
@@ -11190,12 +18544,32 @@ return [
                 'Bronze Age',
                 'Writing',
             ],
-            'dcterms:date' => ['@value' => '-4000', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P2000Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-4000/-2000', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-3200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '6000', '@type' => 'numeric:integer'],
-            'media' => 'uruk.jpg',
+            'dcterms:date' => [
+                '@value' => '-4000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P2000Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-4000/-2000',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-3200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '6000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'uruk.jpg',
+                    'dcterms:title' => 'Uruk',
+                ],
+            ],
         ],
         [
             'id' => 'nippur',
@@ -11207,7 +18581,10 @@ return [
             'relations' => [
                 'early-dynastic-sumer',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q188395', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q188395',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '43.73,30.62,46.73,33.62',
             'map_coordinates' => [
                 45.23,
@@ -11222,12 +18599,32 @@ return [
                 'Bronze Age',
                 'Religion',
             ],
-            'dcterms:date' => ['@value' => '-3000', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1280Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-3000/-1720', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-2500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3000', '@type' => 'numeric:integer'],
-            'media' => 'nippur.jpg',
+            'dcterms:date' => [
+                '@value' => '-3000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1280Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-3000/-1720',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'nippur.jpg',
+                    'dcterms:title' => 'Nippur',
+                ],
+            ],
         ],
         [
             'id' => 'mari',
@@ -11241,7 +18638,10 @@ return [
                 'kingdom-of-yamhad',
                 'old-babylonian-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q244762', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q244762',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '39.39,33.05,42.39,36.05',
             'map_coordinates' => [
                 40.89,
@@ -11256,12 +18656,32 @@ return [
                 'Bronze Age',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '-2900', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1140Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2900/-1760', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '80000', '@type' => 'numeric:integer'],
-            'media' => 'mari.jpg',
+            'dcterms:date' => [
+                '@value' => '-2900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1140Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2900/-1760',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '80000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'mari.jpg',
+                    'dcterms:title' => 'Mari',
+                ],
+            ],
         ],
         [
             'id' => 'ebla',
@@ -11275,7 +18695,10 @@ return [
                 'kingdom-of-yamhad',
                 'ugarit',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q5743', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q5743',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '35.3,34.3,38.3,37.3',
             'map_coordinates' => [
                 36.8,
@@ -11290,12 +18713,32 @@ return [
                 'Bronze Age',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '-3000', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1400Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-3000/-1600', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-2300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '50000', '@type' => 'numeric:integer'],
-            'media' => 'ebla.jpg',
+            'dcterms:date' => [
+                '@value' => '-3000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1400Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-3000/-1600',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '50000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ebla.jpg',
+                    'dcterms:title' => 'Ebla',
+                ],
+            ],
         ],
         [
             'id' => 'mitanni',
@@ -11309,7 +18752,10 @@ return [
                 'middle-assyrian-empire',
                 'hurrian-states',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q178665', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q178665',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '35.453815,31.953815,44.546185,41.046185',
             'map_coordinates' => [
                 40,
@@ -11324,12 +18770,32 @@ return [
                 'Bronze Age',
                 'Chariot warfare',
             ],
-            'dcterms:date' => ['@value' => '-1600', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P340Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1600/-1260', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1450', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '800000', '@type' => 'numeric:integer'],
-            'media' => 'mitanni.png',
+            'dcterms:date' => [
+                '@value' => '-1600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P340Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1600/-1260',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1450',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'mitanni.png',
+                    'dcterms:title' => 'Mitanni',
+                ],
+            ],
         ],
         [
             'id' => 'hittite-empire',
@@ -11348,7 +18814,10 @@ return [
                 '19th-dynasty-of-egypt',
                 'kingdom-of-yamhad',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q5406', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q5406',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '29.042084,34.452084,40.177916,45.587916',
             'map_coordinates' => [
                 34.61,
@@ -11363,12 +18832,32 @@ return [
                 'Bronze Age',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-1650', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P472Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1650/-1178', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1274', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1200000', '@type' => 'numeric:integer'],
-            'media' => 'hittite-empire.png',
+            'dcterms:date' => [
+                '@value' => '-1650',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P472Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1650/-1178',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1274',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'hittite-empire.png',
+                    'dcterms:title' => 'Hittite Empire',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-urartu',
@@ -11380,7 +18869,10 @@ return [
             'relations' => [
                 'neo-assyrian-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q185068', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q185068',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '41.096908,36.186908,45.643092,40.733092',
             'map_coordinates' => [
                 43.37,
@@ -11394,12 +18886,32 @@ return [
                 'Anatolia',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0860', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P270Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0860/-0590', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0750', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-urartu.png',
+            'dcterms:date' => [
+                '@value' => '-0860',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P270Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0860/-0590',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-urartu.png',
+                    'dcterms:title' => 'Kingdom of Urartu',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-lydia',
@@ -11411,7 +18923,10 @@ return [
             'relations' => [
                 'phrygian-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q620765', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q620765',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '25.446042,35.676042,31.013958,41.243958',
             'map_coordinates' => [
                 28.23,
@@ -11427,12 +18942,32 @@ return [
                 'Trade',
                 'Coinage',
             ],
-            'dcterms:date' => ['@value' => '-0685', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P138Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0685/-0547', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '300000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-lydia.png',
+            'dcterms:date' => [
+                '@value' => '-0685',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P138Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0685/-0547',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-lydia.png',
+                    'dcterms:title' => 'Kingdom of Lydia',
+                ],
+            ],
         ],
         [
             'id' => 'phrygian-kingdom',
@@ -11446,7 +18981,10 @@ return [
                 'kingdom-of-lydia',
                 'neo-hittite-kingdoms',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q36751', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q36751',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '29.716908,37.376908,34.263092,41.923092',
             'map_coordinates' => [
                 31.99,
@@ -11460,12 +18998,32 @@ return [
                 'Anatolia',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-1200', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P510Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1200/-0690', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0900', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'phrygian-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '-1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P510Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1200/-0690',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'phrygian-kingdom.jpg',
+                    'dcterms:title' => 'Phrygian Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'phoenicia',
@@ -11479,7 +19037,10 @@ return [
                 'canaan',
                 'kingdom-of-aram-damascus',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q41642', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q41642',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '33.87,32.06,36.87,35.06',
             'map_coordinates' => [
                 35.37,
@@ -11495,12 +19056,32 @@ return [
                 'Trade',
                 'Seafaring',
             ],
-            'dcterms:date' => ['@value' => '-1200', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P868Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1200/-0332', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0900', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '40000', '@type' => 'numeric:integer'],
-            'media' => 'phoenicia.jpg',
+            'dcterms:date' => [
+                '@value' => '-1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P868Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1200/-0332',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '40000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'phoenicia.jpg',
+                    'dcterms:title' => 'Phoenicia',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-israel',
@@ -11514,7 +19095,10 @@ return [
                 'kingdom-of-aram-damascus',
                 'canaan',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q230407', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q230407',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '33.7,30.77,36.7,33.77',
             'map_coordinates' => [
                 35.2,
@@ -11529,12 +19113,32 @@ return [
                 'Iron Age',
                 'Religion',
             ],
-            'dcterms:date' => ['@value' => '-1020', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P298Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1020/-0722', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0950', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '27000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-israel.jpg',
+            'dcterms:date' => [
+                '@value' => '-1020',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P298Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1020/-0722',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0950',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '27000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-israel.jpg',
+                    'dcterms:title' => 'Kingdom of Israel',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-judah',
@@ -11548,7 +19152,10 @@ return [
                 'neo-babylonian-empire',
                 'nabataean-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q48685', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q48685',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '33.73,30.27,36.73,33.27',
             'map_coordinates' => [
                 35.23,
@@ -11563,12 +19170,32 @@ return [
                 'Iron Age',
                 'Religion',
             ],
-            'dcterms:date' => ['@value' => '-0930', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P344Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0930/-0586', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '15000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-judah.jpg',
+            'dcterms:date' => [
+                '@value' => '-0930',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P344Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0930/-0586',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '15000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-judah.jpg',
+                    'dcterms:title' => 'Kingdom of Judah',
+                ],
+            ],
         ],
         [
             'id' => 'ugarit',
@@ -11583,7 +19210,10 @@ return [
                 'hittite-empire',
                 'canaan',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q191369', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q191369',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '34.28,34.1,37.28,37.1',
             'map_coordinates' => [
                 35.78,
@@ -11599,12 +19229,32 @@ return [
                 'Trade',
                 'Writing',
             ],
-            'dcterms:date' => ['@value' => '-1450', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P265Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1450/-1185', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '10000', '@type' => 'numeric:integer'],
-            'media' => 'ugarit.jpg',
+            'dcterms:date' => [
+                '@value' => '-1450',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P265Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1450/-1185',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '10000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ugarit.jpg',
+                    'dcterms:title' => 'Ugarit',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-aram-damascus',
@@ -11618,7 +19268,10 @@ return [
                 'neo-assyrian-empire',
                 'phoenicia',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q625649', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q625649',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '34.79,32.01,37.79,35.01',
             'map_coordinates' => [
                 36.29,
@@ -11632,12 +19285,32 @@ return [
                 'Levant',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0900', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P168Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0900/-0732', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0840', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '40000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-aram-damascus.jpg',
+            'dcterms:date' => [
+                '@value' => '-0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P168Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0900/-0732',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0840',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '40000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-aram-damascus.jpg',
+                    'dcterms:title' => 'Kingdom of Aram-Damascus',
+                ],
+            ],
         ],
         [
             'id' => 'early-dynastic-egypt',
@@ -11649,7 +19322,10 @@ return [
             'relations' => [
                 'egyptian-old-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q187979', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q187979',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '29.75,28.34,32.75,31.34',
             'map_coordinates' => [
                 31.25,
@@ -11664,12 +19340,32 @@ return [
                 'Bronze Age',
                 'Hieroglyphs',
             ],
-            'dcterms:date' => ['@value' => '-3100', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P414Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-3100/-2686', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-2900', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '50000', '@type' => 'numeric:integer'],
-            'media' => 'early-dynastic-egypt.jpg',
+            'dcterms:date' => [
+                '@value' => '-3100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P414Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-3100/-2686',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '50000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'early-dynastic-egypt.jpg',
+                    'dcterms:title' => 'Early Dynastic Egypt',
+                ],
+            ],
         ],
         [
             'id' => 'egyptian-old-kingdom',
@@ -11682,7 +19378,10 @@ return [
                 'early-dynastic-egypt',
                 'egyptian-middle-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q177819', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q177819',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '26.047211,24.887211,36.212789,35.052789',
             'map_coordinates' => [
                 31.13,
@@ -11697,12 +19396,32 @@ return [
                 'Bronze Age',
                 'Pyramids',
             ],
-            'dcterms:date' => ['@value' => '-2686', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P505Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2686/-2181', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-2500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'egyptian-old-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '-2686',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P505Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2686/-2181',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'egyptian-old-kingdom.jpg',
+                    'dcterms:title' => 'Egyptian Old Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'egyptian-middle-kingdom',
@@ -11715,7 +19434,10 @@ return [
                 'egyptian-old-kingdom',
                 'egyptian-new-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q191324', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q191324',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '27.072084,20.152084,38.207916,31.287916',
             'map_coordinates' => [
                 32.64,
@@ -11729,12 +19451,32 @@ return [
                 'Egypt',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-2055', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P405Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2055/-1650', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1900', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1200000', '@type' => 'numeric:integer'],
-            'media' => 'egyptian-middle-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '-2055',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P405Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2055/-1650',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'egyptian-middle-kingdom.jpg',
+                    'dcterms:title' => 'Egyptian Middle Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'egyptian-new-kingdom',
@@ -11749,7 +19491,10 @@ return [
                 'third-intermediate-period-of-egypt',
                 'hittite-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q180568', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q180568',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '25.451851,18.531851,39.828149,32.908149',
             'map_coordinates' => [
                 32.64,
@@ -11764,12 +19509,32 @@ return [
                 'Bronze Age',
                 'Empire',
             ],
-            'dcterms:date' => ['@value' => '-1550', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P480Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1550/-1070', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1350', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000000', '@type' => 'numeric:integer'],
-            'media' => 'egyptian-new-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '-1550',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P480Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1550/-1070',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1350',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'egyptian-new-kingdom.jpg',
+                    'dcterms:title' => 'Egyptian New Kingdom',
+                ],
+            ],
         ],
         [
             'id' => '18th-dynasty-of-egypt',
@@ -11782,7 +19547,10 @@ return [
                 'egyptian-new-kingdom',
                 '19th-dynasty-of-egypt',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q146055', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q146055',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '26.41488,19.49488,38.86512,31.94512',
             'map_coordinates' => [
                 32.64,
@@ -11796,12 +19564,32 @@ return [
                 'Egypt',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-1550', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P258Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1550/-1292', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1380', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1500000', '@type' => 'numeric:integer'],
-            'media' => '18th-dynasty-of-egypt.jpg',
+            'dcterms:date' => [
+                '@value' => '-1550',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P258Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1550/-1292',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1380',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => '18th-dynasty-of-egypt.jpg',
+                    'dcterms:title' => '18th Dynasty of Egypt',
+                ],
+            ],
         ],
         [
             'id' => '19th-dynasty-of-egypt',
@@ -11815,7 +19603,10 @@ return [
                 'third-intermediate-period-of-egypt',
                 'hittite-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q157956', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q157956',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '27.072084,20.152084,38.207916,31.287916',
             'map_coordinates' => [
                 32.64,
@@ -11829,12 +19620,32 @@ return [
                 'Egypt',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-1292', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P103Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1292/-1189', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1250', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1200000', '@type' => 'numeric:integer'],
-            'media' => '19th-dynasty-of-egypt.jpg',
+            'dcterms:date' => [
+                '@value' => '-1292',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P103Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1292/-1189',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1250',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => '19th-dynasty-of-egypt.jpg',
+                    'dcterms:title' => '19th Dynasty of Egypt',
+                ],
+            ],
         ],
         [
             'id' => 'third-intermediate-period-of-egypt',
@@ -11849,7 +19660,10 @@ return [
                 '25th-dynasty-of-egypt',
                 '19th-dynasty-of-egypt',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q212728', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q212728',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '27.162889,27.032889,35.037111,34.907111',
             'map_coordinates' => [
                 31.1,
@@ -11863,12 +19677,32 @@ return [
                 'Egypt',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-1070', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P406Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1070/-0664', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0900', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '600000', '@type' => 'numeric:integer'],
-            'media' => 'third-intermediate-period-of-egypt.png',
+            'dcterms:date' => [
+                '@value' => '-1070',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P406Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1070/-0664',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '600000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'third-intermediate-period-of-egypt.png',
+                    'dcterms:title' => 'Third Intermediate Period of Egypt',
+                ],
+            ],
         ],
         [
             'id' => 'late-period-of-ancient-egypt',
@@ -11881,7 +19715,10 @@ return [
                 'third-intermediate-period-of-egypt',
                 'ptolemaic-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q621917', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q621917',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '25.717211,21.737211,35.882789,31.902789',
             'map_coordinates' => [
                 30.8,
@@ -11895,12 +19732,32 @@ return [
                 'Egypt',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0664', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P332Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0664/-0332', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'late-period-of-ancient-egypt.png',
+            'dcterms:date' => [
+                '@value' => '-0664',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P332Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0664/-0332',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'late-period-of-ancient-egypt.png',
+                    'dcterms:title' => 'Late Period of Ancient Egypt',
+                ],
+            ],
         ],
         [
             'id' => 'ptolemaic-kingdom',
@@ -11916,7 +19773,10 @@ return [
                 'cyrene',
                 'empire-of-alexander-the-great',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2320005', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2320005',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '23.090723,24.370723,36.729277,38.009277',
             'map_coordinates' => [
                 29.91,
@@ -11931,12 +19791,32 @@ return [
                 'Hellenistic',
                 'Alexandria',
             ],
-            'dcterms:date' => ['@value' => '-0305', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P275Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0305/-0030', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0250', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1800000', '@type' => 'numeric:integer'],
-            'media' => 'ptolemaic-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '-0305',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P275Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0305/-0030',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0250',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ptolemaic-kingdom.jpg',
+                    'dcterms:title' => 'Ptolemaic Kingdom',
+                ],
+            ],
         ],
         [
             'id' => '25th-dynasty-of-egypt',
@@ -11950,7 +19830,10 @@ return [
                 'kingdom-of-kush',
                 'neo-assyrian-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q737648', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q737648',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '25.59488,12.30488,38.04512,24.75512',
             'map_coordinates' => [
                 31.82,
@@ -11965,12 +19848,32 @@ return [
                 'Iron Age',
                 'Nubia',
             ],
-            'dcterms:date' => ['@value' => '-0747', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P91Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0747/-0656', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0710', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1500000', '@type' => 'numeric:integer'],
-            'media' => '25th-dynasty-of-egypt.jpg',
+            'dcterms:date' => [
+                '@value' => '-0747',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P91Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0747/-0656',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0710',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => '25th-dynasty-of-egypt.jpg',
+                    'dcterms:title' => '25th Dynasty of Egypt',
+                ],
+            ],
         ],
         [
             'id' => 'old-elamite-kingdom',
@@ -11984,7 +19887,10 @@ return [
                 'third-dynasty-of-ur',
                 'neo-elamite-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q29297301', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q29297301',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '45.456042,29.406042,51.023958,34.973958',
             'map_coordinates' => [
                 48.24,
@@ -11998,12 +19904,32 @@ return [
                 'Iran',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-2700', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1200Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2700/-1500', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-2100', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '300000', '@type' => 'numeric:integer'],
-            'media' => 'old-elamite-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '-2700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1200Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2700/-1500',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'old-elamite-kingdom.png',
+                    'dcterms:title' => 'Old Elamite Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'neo-elamite-kingdom',
@@ -12017,7 +19943,10 @@ return [
                 'neo-assyrian-empire',
                 'neo-babylonian-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q131936319', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q131936319',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '45.966908,29.916908,50.513092,34.463092',
             'map_coordinates' => [
                 48.24,
@@ -12031,12 +19960,32 @@ return [
                 'Iran',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-1100', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P561Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1100/-0539', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'neo-elamite-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '-1100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P561Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1100/-0539',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'neo-elamite-kingdom.jpg',
+                    'dcterms:title' => 'Neo-Elamite Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-kush',
@@ -12051,7 +20000,10 @@ return [
                 'ethiopian-empire',
                 'funj-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q241790', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q241790',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '27.447211,10.467211,37.612789,20.632789',
             'map_coordinates' => [
                 32.53,
@@ -12066,12 +20018,32 @@ return [
                 'Iron Age',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '-1070', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1420Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1070/0350', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0750', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-kush.jpg',
+            'dcterms:date' => [
+                '@value' => '-1070',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1420Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1070/0350',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-kush.jpg',
+                    'dcterms:title' => 'Kingdom of Kush',
+                ],
+            ],
         ],
         [
             'id' => 'nabataean-kingdom',
@@ -12083,7 +20055,10 @@ return [
             'relations' => [
                 'kingdom-of-judah',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q36178', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q36178',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '33.055961,27.945961,37.824039,32.714039',
             'map_coordinates' => [
                 35.44,
@@ -12098,12 +20073,32 @@ return [
                 'Iron Age',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '-0168', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P274Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0168/0106', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0050', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '220000', '@type' => 'numeric:integer'],
-            'media' => 'nabataean-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '-0168',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P274Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0168/0106',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0050',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '220000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'nabataean-kingdom.jpg',
+                    'dcterms:title' => 'Nabataean Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'old-assyrian-period',
@@ -12116,7 +20111,10 @@ return [
                 'middle-assyrian-empire',
                 'city-of-ashur',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q7083403', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q7083403',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '41.652681,33.852681,44.867319,37.067319',
             'map_coordinates' => [
                 43.26,
@@ -12131,12 +20129,32 @@ return [
                 'Bronze Age',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '-2025', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P662Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2025/-1363', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'old-assyrian-period.jpg',
+            'dcterms:date' => [
+                '@value' => '-2025',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P662Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2025/-1363',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'old-assyrian-period.jpg',
+                    'dcterms:title' => 'Old Assyrian Period',
+                ],
+            ],
         ],
         [
             'id' => 'hurrian-states',
@@ -12148,7 +20166,10 @@ return [
             'relations' => [
                 'mitanni',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q190394', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q190394',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '37.216042,34.216042,42.783958,39.783958',
             'map_coordinates' => [
                 40,
@@ -12162,12 +20183,32 @@ return [
                 'Mesopotamia',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-2300', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1100Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2300/-1200', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '300000', '@type' => 'numeric:integer'],
-            'media' => 'hurrian-states.jpg',
+            'dcterms:date' => [
+                '@value' => '-2300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1100Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2300/-1200',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'hurrian-states.jpg',
+                    'dcterms:title' => 'Hurrian States',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-yamhad',
@@ -12181,7 +20222,10 @@ return [
                 'ebla',
                 'hittite-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q617218', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q617218',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '34.886908,33.926908,39.433092,38.473092',
             'map_coordinates' => [
                 37.16,
@@ -12195,12 +20239,32 @@ return [
                 'Levant',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-1800', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P200Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1800/-1600', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1750', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-yamhad.png',
+            'dcterms:date' => [
+                '@value' => '-1800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P200Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1800/-1600',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-yamhad.png',
+                    'dcterms:title' => 'Kingdom of Yamhad',
+                ],
+            ],
         ],
         [
             'id' => 'eshnunna',
@@ -12214,7 +20278,10 @@ return [
                 'old-babylonian-empire',
                 'isin',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q375685', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q375685',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '43.43,32.27,46.43,35.27',
             'map_coordinates' => [
                 44.93,
@@ -12229,12 +20296,32 @@ return [
                 'Bronze Age',
                 'Law',
             ],
-            'dcterms:date' => ['@value' => '-2025', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P263Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2025/-1762', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1900', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '30000', '@type' => 'numeric:integer'],
-            'media' => 'eshnunna.jpg',
+            'dcterms:date' => [
+                '@value' => '-2025',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P263Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2025/-1762',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '30000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'eshnunna.jpg',
+                    'dcterms:title' => 'Eshnunna',
+                ],
+            ],
         ],
         [
             'id' => 'larsa',
@@ -12248,7 +20335,10 @@ return [
                 'isin',
                 'old-babylonian-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q244746', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q244746',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '44.35,29.72,47.35,32.72',
             'map_coordinates' => [
                 45.85,
@@ -12262,12 +20352,32 @@ return [
                 'Mesopotamia',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-2025', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P262Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2025/-1763', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1850', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '30000', '@type' => 'numeric:integer'],
-            'media' => 'larsa.png',
+            'dcterms:date' => [
+                '@value' => '-2025',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P262Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2025/-1763',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1850',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '30000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'larsa.png',
+                    'dcterms:title' => 'Larsa',
+                ],
+            ],
         ],
         [
             'id' => 'isin',
@@ -12281,7 +20391,10 @@ return [
                 'larsa',
                 'eshnunna',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q501259', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q501259',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '43.78,30.39,46.78,33.39',
             'map_coordinates' => [
                 45.28,
@@ -12295,12 +20408,32 @@ return [
                 'Mesopotamia',
                 'Bronze Age',
             ],
-            'dcterms:date' => ['@value' => '-2017', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P223Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2017/-1794', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1900', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '40000', '@type' => 'numeric:integer'],
-            'media' => 'isin.jpg',
+            'dcterms:date' => [
+                '@value' => '-2017',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P223Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2017/-1794',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '40000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'isin.jpg',
+                    'dcterms:title' => 'Isin',
+                ],
+            ],
         ],
         [
             'id' => 'city-of-ashur',
@@ -12313,7 +20446,10 @@ return [
                 'old-assyrian-period',
                 'middle-assyrian-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q200200', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q200200',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '41.76,33.96,44.76,36.96',
             'map_coordinates' => [
                 43.26,
@@ -12328,12 +20464,32 @@ return [
                 'Bronze Age',
                 'Religion',
             ],
-            'dcterms:date' => ['@value' => '-2600', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1986Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-2600/-0614', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-2300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '10000', '@type' => 'numeric:integer'],
-            'media' => 'city-of-ashur.jpg',
+            'dcterms:date' => [
+                '@value' => '-2600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1986Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-2600/-0614',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '10000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'city-of-ashur.jpg',
+                    'dcterms:title' => 'City of Ashur',
+                ],
+            ],
         ],
         [
             'id' => 'dilmun',
@@ -12346,7 +20502,10 @@ return [
                 'early-dynastic-sumer',
                 'third-dynasty-of-ur',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q112302', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q112302',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '49,24.5,52,27.5',
             'map_coordinates' => [
                 50.5,
@@ -12361,12 +20520,32 @@ return [
                 'Bronze Age',
                 'Trade',
             ],
-            'dcterms:date' => ['@value' => '-3000', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P2200Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-3000/-0800', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-2000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '50000', '@type' => 'numeric:integer'],
-            'media' => 'dilmun.png',
+            'dcterms:date' => [
+                '@value' => '-3000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P2200Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-3000/-0800',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '50000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'dilmun.png',
+                    'dcterms:title' => 'Dilmun',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-bit-adini',
@@ -12379,7 +20558,10 @@ return [
                 'neo-assyrian-empire',
                 'neo-hittite-kingdoms',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q878717', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q878717',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '36.77,35.33,39.77,38.33',
             'map_coordinates' => [
                 38.27,
@@ -12393,12 +20575,32 @@ return [
                 'Levant',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-0900', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P45Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0900/-0855', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0875', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '20000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-bit-adini.jpg',
+            'dcterms:date' => [
+                '@value' => '-0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P45Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0900/-0855',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0875',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '20000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-bit-adini.jpg',
+                    'dcterms:title' => 'Kingdom of Bit Adini',
+                ],
+            ],
         ],
         [
             'id' => 'neo-hittite-kingdoms',
@@ -12413,7 +20615,10 @@ return [
                 'kingdom-of-bit-adini',
                 'phrygian-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q770281', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q770281',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '35.031444,35.031444,38.968556,38.968556',
             'map_coordinates' => [
                 37,
@@ -12427,12 +20632,32 @@ return [
                 'Anatolia',
                 'Iron Age',
             ],
-            'dcterms:date' => ['@value' => '-1180', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P472Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1180/-0708', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0900', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '150000', '@type' => 'numeric:integer'],
-            'media' => 'neo-hittite-kingdoms.jpg',
+            'dcterms:date' => [
+                '@value' => '-1180',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P472Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1180/-0708',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '150000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'neo-hittite-kingdoms.jpg',
+                    'dcterms:title' => 'Neo-Hittite Kingdoms',
+                ],
+            ],
         ],
         [
             'id' => 'canaan',
@@ -12446,7 +20671,10 @@ return [
                 'kingdom-of-israel',
                 'ugarit',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q163329', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q163329',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '33.5,30,36.5,33',
             'map_coordinates' => [
                 35,
@@ -12461,12 +20689,32 @@ return [
                 'Bronze Age',
                 'Religion',
             ],
-            'dcterms:date' => ['@value' => '-3300', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P2100Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-3300/-1200', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-2000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '50000', '@type' => 'numeric:integer'],
-            'media' => 'canaan.jpg',
+            'dcterms:date' => [
+                '@value' => '-3300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P2100Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-3300/-1200',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '50000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'canaan.jpg',
+                    'dcterms:title' => 'Canaan',
+                ],
+            ],
         ],
         [
             'id' => 'vedic-period',
@@ -12479,7 +20727,10 @@ return [
                 'maurya-empire',
                 'mahajanapadas',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q36858', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q36858',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '70.77488,22.77488,83.22512,35.22512',
             'map_coordinates' => [
                 77,
@@ -12494,12 +20745,32 @@ return [
                 'Vedic religion',
                 'Indo-Aryan migration',
             ],
-            'dcterms:date' => ['@value' => '-1500', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1000Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-1500/-0500', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-1000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1500000', '@type' => 'numeric:integer'],
-            'media' => 'vedic-period.png',
+            'dcterms:date' => [
+                '@value' => '-1500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1000Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-1500/-0500',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-1000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'vedic-period.png',
+                    'dcterms:title' => 'Vedic Period',
+                ],
+            ],
         ],
         [
             'id' => 'mahajanapadas',
@@ -12513,7 +20784,10 @@ return [
                 'maurya-empire',
                 'nanda-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q846025', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q846025',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '77.453815,20.453815,86.546185,29.546185',
             'map_coordinates' => [
                 82,
@@ -12528,12 +20802,32 @@ return [
                 'Jainism',
                 'Early Indian states',
             ],
-            'dcterms:date' => ['@value' => '-0600', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P280Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0600/-0320', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '800000', '@type' => 'numeric:integer'],
-            'media' => 'mahajanapadas.png',
+            'dcterms:date' => [
+                '@value' => '-0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P280Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0600/-0320',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'mahajanapadas.png',
+                    'dcterms:title' => 'Mahajanapadas',
+                ],
+            ],
         ],
         [
             'id' => 'nanda-empire',
@@ -12546,7 +20840,10 @@ return [
                 'mahajanapadas',
                 'maurya-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q949268', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q949268',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '80.017211,20.517211,90.182789,30.682789',
             'map_coordinates' => [
                 85.1,
@@ -12561,12 +20858,32 @@ return [
                 'Pre-Maurya India',
                 'Ancient empire',
             ],
-            'dcterms:date' => ['@value' => '-0345', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P24Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0345/-0321', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0330', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'nanda-empire.gif',
+            'dcterms:date' => [
+                '@value' => '-0345',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P24Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0345/-0321',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0330',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'nanda-empire.gif',
+                    'dcterms:title' => 'Nanda Empire',
+                ],
+            ],
         ],
         [
             'id' => 'maurya-empire',
@@ -12586,7 +20903,10 @@ return [
                 'gupta-empire',
                 'anuradhapura-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q10578661', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q10578661',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '73.734538,14.234538,96.465462,36.965462',
             'map_coordinates' => [
                 85.1,
@@ -12601,12 +20921,32 @@ return [
                 'Pataliputra',
                 'Pan-Indian empire',
             ],
-            'dcterms:date' => ['@value' => '-0321', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P136Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0321/-0185', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0265', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '5000000', '@type' => 'numeric:integer'],
-            'media' => 'maurya-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '-0321',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P136Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0321/-0185',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0265',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '5000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'maurya-empire.jpg',
+                    'dcterms:title' => 'Maurya Empire',
+                ],
+            ],
         ],
         [
             'id' => 'shunga-empire',
@@ -12619,7 +20959,10 @@ return [
                 'maurya-empire',
                 'satavahana-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q651377', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q651377',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '72.811851,17.611851,87.188149,31.988149',
             'map_coordinates' => [
                 80,
@@ -12634,12 +20977,32 @@ return [
                 'Sanchi',
                 'Post-Maurya India',
             ],
-            'dcterms:date' => ['@value' => '-0185', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P112Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0185/-0073', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-0150', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000000', '@type' => 'numeric:integer'],
-            'media' => 'shunga-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '-0185',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P112Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0185/-0073',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0150',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'shunga-empire.jpg',
+                    'dcterms:title' => 'Shunga Empire',
+                ],
+            ],
         ],
         [
             'id' => 'satavahana-empire',
@@ -12652,7 +21015,10 @@ return [
                 'shunga-empire',
                 'kushan-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q103965487', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q103965487',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '73.417211,11.917211,83.582789,22.082789',
             'map_coordinates' => [
                 78.5,
@@ -12667,12 +21033,32 @@ return [
                 'Buddhism',
                 'Roman trade',
             ],
-            'dcterms:date' => ['@value' => '-0230', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P450Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0230/0220', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0100', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'satavahana-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '-0230',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P450Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0230/0220',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'satavahana-empire.jpg',
+                    'dcterms:title' => 'Satavahana Empire',
+                ],
+            ],
         ],
         [
             'id' => 'kushan-empire',
@@ -12687,7 +21073,10 @@ return [
                 'parthian-empire',
                 'greco-bactrian-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q25979', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q25979',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '60.396351,25.696351,78.003649,43.303649',
             'map_coordinates' => [
                 69.2,
@@ -12702,12 +21091,32 @@ return [
                 'Greco-Buddhist art',
                 'Buddhism',
             ],
-            'dcterms:date' => ['@value' => '0030', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P345Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0030/0375', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0150', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3000000', '@type' => 'numeric:integer'],
-            'media' => 'kushan-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '0030',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P345Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0030/0375',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0150',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kushan-empire.jpg',
+                    'dcterms:title' => 'Kushan Empire',
+                ],
+            ],
         ],
         [
             'id' => 'gupta-empire',
@@ -12721,7 +21130,10 @@ return [
                 'maurya-empire',
                 'harsha-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q11774', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q11774',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '72.290972,15.890972,91.309028,34.909028',
             'map_coordinates' => [
                 81.8,
@@ -12736,12 +21148,32 @@ return [
                 'Mathematics',
                 'Hinduism',
             ],
-            'dcterms:date' => ['@value' => '0320', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P230Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0320/0550', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3500000', '@type' => 'numeric:integer'],
-            'media' => 'gupta-empire.png',
+            'dcterms:date' => [
+                '@value' => '0320',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P230Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0320/0550',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'gupta-empire.png',
+                    'dcterms:title' => 'Gupta Empire',
+                ],
+            ],
         ],
         [
             'id' => 'harsha-empire',
@@ -12754,7 +21186,10 @@ return [
                 'gupta-empire',
                 'pala-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q216895', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q216895',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '71.072854,23.372854,84.327146,36.627146',
             'map_coordinates' => [
                 77.7,
@@ -12769,12 +21204,32 @@ return [
                 'Xuanzang',
                 'Kannuaj',
             ],
-            'dcterms:date' => ['@value' => '0606', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P41Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0606/0647', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0630', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1700000', '@type' => 'numeric:integer'],
-            'media' => 'harsha-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '0606',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P41Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0606/0647',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0630',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1700000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'harsha-empire.jpg',
+                    'dcterms:title' => 'Harsha Empire',
+                ],
+            ],
         ],
         [
             'id' => 'pallava-kingdom',
@@ -12788,7 +21243,10 @@ return [
                 'chalukya-kingdom',
                 'chera-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q15104320', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q15104320',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '76.305925,9.305925,83.494075,16.494075',
             'map_coordinates' => [
                 79.9,
@@ -12803,12 +21261,32 @@ return [
                 'Tamil culture',
                 'Hinduism',
             ],
-            'dcterms:date' => ['@value' => '0275', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P622Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0275/0897', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0680', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '500000', '@type' => 'numeric:integer'],
-            'media' => 'pallava-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '0275',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P622Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0275/0897',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0680',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'pallava-kingdom.jpg',
+                    'dcterms:title' => 'Pallava Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'chalukya-kingdom',
@@ -12822,7 +21300,10 @@ return [
                 'rashtrakuta-kingdom',
                 'western-chalukya-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1395011', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1395011',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '71.162889,11.462889,79.037111,19.337111',
             'map_coordinates' => [
                 75.1,
@@ -12837,12 +21318,32 @@ return [
                 'Badami',
                 'Hinduism',
             ],
-            'dcterms:date' => ['@value' => '0543', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P210Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0543/0753', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0640', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '600000', '@type' => 'numeric:integer'],
-            'media' => 'chalukya-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '0543',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P210Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0543/0753',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0640',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '600000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'chalukya-kingdom.jpg',
+                    'dcterms:title' => 'Chalukya Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'rashtrakuta-kingdom',
@@ -12856,7 +21357,10 @@ return [
                 'chola-kingdom',
                 'western-chalukya-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q103963211', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q103963211',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '72.547434,13.047434,81.052566,21.552566',
             'map_coordinates' => [
                 76.8,
@@ -12871,12 +21375,32 @@ return [
                 'Jainism',
                 'Sanskrit literature',
             ],
-            'dcterms:date' => ['@value' => '0753', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P229Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0753/0982', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0850', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '700000', '@type' => 'numeric:integer'],
-            'media' => 'rashtrakuta-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '0753',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P229Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0753/0982',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0850',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '700000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'rashtrakuta-kingdom.jpg',
+                    'dcterms:title' => 'Rashtrakuta Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'pala-empire',
@@ -12889,7 +21413,10 @@ return [
                 'harsha-empire',
                 'sena-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q668412', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q668412',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '82.504729,19.004729,94.095271,30.595271',
             'map_coordinates' => [
                 88.3,
@@ -12904,12 +21431,32 @@ return [
                 'Bengal',
                 'Tantric Buddhism',
             ],
-            'dcterms:date' => ['@value' => '0750', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P411Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0750/1161', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0850', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1300000', '@type' => 'numeric:integer'],
-            'media' => 'pala-empire.png',
+            'dcterms:date' => [
+                '@value' => '0750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P411Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0750/1161',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0850',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'pala-empire.png',
+                    'dcterms:title' => 'Pala Empire',
+                ],
+            ],
         ],
         [
             'id' => 'chola-kingdom',
@@ -12927,7 +21474,10 @@ return [
                 'srivijaya-empire',
                 'chera-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q81375', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q81375',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '69.456086,1.156086,88.743914,20.443914',
             'map_coordinates' => [
                 79.1,
@@ -12942,12 +21492,32 @@ return [
                 'Dravidian temples',
                 'Overseas expansion',
             ],
-            'dcterms:date' => ['@value' => '-0300', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1579Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0300/1279', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3600000', '@type' => 'numeric:integer'],
-            'media' => 'chola-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '-0300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1579Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0300/1279',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3600000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'chola-kingdom.jpg',
+                    'dcterms:title' => 'Chola Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'sena-kingdom',
@@ -12959,7 +21529,10 @@ return [
             'relations' => [
                 'pala-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q24861892', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q24861892',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '88.126908,21.426908,92.673092,25.973092',
             'map_coordinates' => [
                 90.4,
@@ -12974,12 +21547,32 @@ return [
                 'Sanskrit poetry',
                 'Post-Pala India',
             ],
-            'dcterms:date' => ['@value' => '1070', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P160Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1070/1230', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1150', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'sena-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '1070',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P160Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1070/1230',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1150',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'sena-kingdom.jpg',
+                    'dcterms:title' => 'Sena Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'vijayanagara-empire',
@@ -13000,7 +21593,10 @@ return [
                 'hoysala-empire',
                 'kakatiya-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q167639', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q167639',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '72.905925,11.705925,80.094075,18.894075',
             'map_coordinates' => [
                 76.5,
@@ -13015,12 +21611,32 @@ return [
                 'Deccan',
                 'Medieval India',
             ],
-            'dcterms:date' => ['@value' => '1336', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P310Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1336/1646', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '500000', '@type' => 'numeric:integer'],
-            'media' => 'vijayanagara-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '1336',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P310Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1336/1646',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'vijayanagara-empire.jpg',
+                    'dcterms:title' => 'Vijayanagara Empire',
+                ],
+            ],
         ],
         [
             'id' => 'delhi-sultanate',
@@ -13036,7 +21652,10 @@ return [
                 'bengal-sultanate',
                 'bahmani-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q229411', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q229411',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '68.107631,19.507631,86.292369,37.692369',
             'map_coordinates' => [
                 77.2,
@@ -13051,12 +21670,32 @@ return [
                 'Mongol resistance',
                 'Medieval India',
             ],
-            'dcterms:date' => ['@value' => '1206', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P320Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1206/1526', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1320', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3200000', '@type' => 'numeric:integer'],
-            'media' => 'delhi-sultanate.png',
+            'dcterms:date' => [
+                '@value' => '1206',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P320Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1206/1526',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1320',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'delhi-sultanate.png',
+                    'dcterms:title' => 'Delhi Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'mughal-empire',
@@ -13081,7 +21720,10 @@ return [
                 'sikh-khalsa-confederacy',
                 'afghan-durrani-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q33296', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q33296',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '67.034422,18.434422,87.365578,38.765578',
             'map_coordinates' => [
                 77.2,
@@ -13096,12 +21738,32 @@ return [
                 'Akbar',
                 'Mughal art',
             ],
-            'dcterms:date' => ['@value' => '1526', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P331Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1526/1857', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1700', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '4000000', '@type' => 'numeric:integer'],
-            'media' => 'mughal-empire.png',
+            'dcterms:date' => [
+                '@value' => '1526',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P331Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1526/1857',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '4000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'mughal-empire.png',
+                    'dcterms:title' => 'Mughal Empire',
+                ],
+            ],
         ],
         [
             'id' => 'maratha-confederacy',
@@ -13117,7 +21779,10 @@ return [
                 'maratha-empire-under-peshwas',
                 'kingdom-of-mysore',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q18456815', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q18456815',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '65.863405,10.463405,81.936595,26.536595',
             'map_coordinates' => [
                 73.9,
@@ -13132,12 +21797,32 @@ return [
                 'Deccan',
                 'Colonial India',
             ],
-            'dcterms:date' => ['@value' => '1674', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P144Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1674/1818', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1760', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2500000', '@type' => 'numeric:integer'],
-            'media' => 'maratha-confederacy.jpg',
+            'dcterms:date' => [
+                '@value' => '1674',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P144Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1674/1818',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1760',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'maratha-confederacy.jpg',
+                    'dcterms:title' => 'Maratha Confederacy',
+                ],
+            ],
         ],
         [
             'id' => 'bahmani-sultanate',
@@ -13152,7 +21837,10 @@ return [
                 'bijapur-sultanate',
                 'golconda-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q374521', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q374521',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '73.205925,13.705925,80.394075,20.894075',
             'map_coordinates' => [
                 76.8,
@@ -13167,12 +21855,32 @@ return [
                 'Persian culture',
                 'Medieval India',
             ],
-            'dcterms:date' => ['@value' => '1347', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P180Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1347/1527', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1420', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '500000', '@type' => 'numeric:integer'],
-            'media' => 'bahmani-sultanate.png',
+            'dcterms:date' => [
+                '@value' => '1347',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P180Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1347/1527',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1420',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'bahmani-sultanate.png',
+                    'dcterms:title' => 'Bahmani Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'anuradhapura-kingdom',
@@ -13186,7 +21894,10 @@ return [
                 'chola-kingdom',
                 'polonnaruwa-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1965597', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1965597',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '78.9,6.8,81.9,9.8',
             'map_coordinates' => [
                 80.4,
@@ -13201,12 +21912,32 @@ return [
                 'Anuradhapura',
                 'Ancient Ceylon',
             ],
-            'dcterms:date' => ['@value' => '-0377', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1394Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0377/1017', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '65610', '@type' => 'numeric:integer'],
-            'media' => 'anuradhapura-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '-0377',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1394Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0377/1017',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '65610',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'anuradhapura-kingdom.jpg',
+                    'dcterms:title' => 'Anuradhapura Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'polonnaruwa-kingdom',
@@ -13221,7 +21952,10 @@ return [
                 'kandy-kingdom',
                 'kotte-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q394443', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q394443',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '79.5,6.4,82.5,9.4',
             'map_coordinates' => [
                 81,
@@ -13236,12 +21970,32 @@ return [
                 'Irrigation',
                 'Medieval Ceylon',
             ],
-            'dcterms:date' => ['@value' => '1017', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P238Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1017/1255', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1150', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '65610', '@type' => 'numeric:integer'],
-            'media' => 'polonnaruwa-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '1017',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P238Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1017/1255',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1150',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '65610',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'polonnaruwa-kingdom.png',
+                    'dcterms:title' => 'Polonnaruwa Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'kandy-kingdom',
@@ -13254,7 +22008,10 @@ return [
                 'polonnaruwa-kingdom',
                 'kotte-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q203197', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q203197',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '79.1,5.8,82.1,8.8',
             'map_coordinates' => [
                 80.6,
@@ -13269,12 +22026,32 @@ return [
                 'Temple of the Tooth',
                 'Colonial resistance',
             ],
-            'dcterms:date' => ['@value' => '1469', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P346Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1469/1815', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1650', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '15000', '@type' => 'numeric:integer'],
-            'media' => 'kandy-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '1469',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P346Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1469/1815',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1650',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '15000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kandy-kingdom.jpg',
+                    'dcterms:title' => 'Kandy Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'funan-kingdom',
@@ -13287,7 +22064,10 @@ return [
                 'chenla-kingdom',
                 'khmer-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1208909', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1208909',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '101.362889,6.862889,109.237111,14.737111',
             'map_coordinates' => [
                 105.3,
@@ -13302,12 +22082,32 @@ return [
                 'Indianization',
                 'Maritime trade',
             ],
-            'dcterms:date' => ['@value' => '0050', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P580Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0050/0630', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '600000', '@type' => 'numeric:integer'],
-            'media' => 'funan-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '0050',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P580Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0050/0630',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '600000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'funan-kingdom.png',
+                    'dcterms:title' => 'Funan Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'chenla-kingdom',
@@ -13320,7 +22120,10 @@ return [
                 'funan-kingdom',
                 'khmer-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1057118', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1057118',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '100.305925,9.805925,107.494075,16.994075',
             'map_coordinates' => [
                 103.9,
@@ -13335,12 +22138,32 @@ return [
                 'Cambodia',
                 'Pre-Angkor',
             ],
-            'dcterms:date' => ['@value' => '0550', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P252Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0550/0802', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0700', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '500000', '@type' => 'numeric:integer'],
-            'media' => 'chenla-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '0550',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P252Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0550/0802',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'chenla-kingdom.png',
+                    'dcterms:title' => 'Chenla Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'khmer-empire',
@@ -13360,7 +22183,10 @@ return [
                 'srivijaya-empire',
                 'dai-viet-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q201705', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q201705',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '98.817211,8.317211,108.982789,18.482789',
             'map_coordinates' => [
                 103.9,
@@ -13375,12 +22201,32 @@ return [
                 'Hinduism',
                 'Buddhism',
             ],
-            'dcterms:date' => ['@value' => '0802', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P629Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0802/1431', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1150', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'khmer-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '0802',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P629Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0802/1431',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1150',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'khmer-empire.jpg',
+                    'dcterms:title' => 'Khmer Empire',
+                ],
+            ],
         ],
         [
             'id' => 'champa-kingdom',
@@ -13395,7 +22241,10 @@ return [
                 'dai-viet-kingdom',
                 'l-dynasty-vietnam',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q167027', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q167027',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '106.026908,13.626908,110.573092,18.173092',
             'map_coordinates' => [
                 108.3,
@@ -13410,12 +22259,32 @@ return [
                 'Cham towers',
                 'Maritime culture',
             ],
-            'dcterms:date' => ['@value' => '0192', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1640Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0192/1832', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0850', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'champa-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '0192',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1640Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0192/1832',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0850',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'champa-kingdom.jpg',
+                    'dcterms:title' => 'Champa Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'pagan-kingdom',
@@ -13432,7 +22301,10 @@ return [
                 'mon-hanthawaddy-kingdom',
                 'taungoo-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q29317', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q29317',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '91.490361,17.790361,98.309639,24.609639',
             'map_coordinates' => [
                 94.9,
@@ -13447,12 +22319,32 @@ return [
                 'Temples',
                 'Anawrahta',
             ],
-            'dcterms:date' => ['@value' => '0849', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P448Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0849/1297', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1100', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '450000', '@type' => 'numeric:integer'],
-            'media' => 'pagan-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '0849',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P448Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0849/1297',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '450000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'pagan-kingdom.jpg',
+                    'dcterms:title' => 'Pagan Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'ava-kingdom',
@@ -13466,7 +22358,10 @@ return [
                 'toungoo-empire',
                 'mon-hanthawaddy-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2500952', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2500952',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '93.216042,19.116042,98.783958,24.683958',
             'map_coordinates' => [
                 96,
@@ -13481,12 +22376,32 @@ return [
                 'Burmese literature',
                 'Medieval Myanmar',
             ],
-            'dcterms:date' => ['@value' => '1364', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P191Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1364/1555', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1450', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '300000', '@type' => 'numeric:integer'],
-            'media' => 'ava-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '1364',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P191Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1364/1555',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1450',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ava-kingdom.png',
+                    'dcterms:title' => 'Ava Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'toungoo-empire',
@@ -13502,7 +22417,10 @@ return [
                 'mon-hanthawaddy-kingdom',
                 'taungoo-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1193412', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1193412',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '90.27488,12.67488,102.72512,25.12512',
             'map_coordinates' => [
                 96.5,
@@ -13517,12 +22435,32 @@ return [
                 'Bayinnaung',
                 'Early modern empire',
             ],
-            'dcterms:date' => ['@value' => '1510', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P242Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1510/1752', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1580', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1500000', '@type' => 'numeric:integer'],
-            'media' => 'toungoo-empire.png',
+            'dcterms:date' => [
+                '@value' => '1510',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P242Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1510/1752',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1580',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'toungoo-empire.png',
+                    'dcterms:title' => 'Toungoo Empire',
+                ],
+            ],
         ],
         [
             'id' => 'dvaravati-kingdom',
@@ -13536,7 +22474,10 @@ return [
                 'sukhothai-kingdom',
                 'pyu-city-states',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1268307', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1268307',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '98.226908,11.726908,102.773092,16.273092',
             'map_coordinates' => [
                 100.5,
@@ -13551,12 +22492,32 @@ return [
                 'Buddhism',
                 'Indianization',
             ],
-            'dcterms:date' => ['@value' => '0550', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P450Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0550/1000', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0750', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'dvaravati-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '0550',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P450Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0550/1000',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'dvaravati-kingdom.png',
+                    'dcterms:title' => 'Dvaravati Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'sukhothai-kingdom',
@@ -13570,7 +22531,10 @@ return [
                 'ayutthaya-kingdom',
                 'lan-na-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q863279', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q863279',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '97.526908,14.726908,102.073092,19.273092',
             'map_coordinates' => [
                 99.8,
@@ -13585,12 +22549,32 @@ return [
                 'Thai script',
                 'Classical Thai art',
             ],
-            'dcterms:date' => ['@value' => '1238', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P200Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1238/1438', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'sukhothai-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '1238',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P200Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1238/1438',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'sukhothai-kingdom.jpg',
+                    'dcterms:title' => 'Sukhothai Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'ayutthaya-kingdom',
@@ -13607,7 +22591,10 @@ return [
                 'bamar-konbaung-dynasty',
                 'lan-na-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q841364', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q841364',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '95.517211,9.317211,105.682789,19.482789',
             'map_coordinates' => [
                 100.6,
@@ -13622,12 +22609,32 @@ return [
                 'Maritime trade',
                 'Early modern Asia',
             ],
-            'dcterms:date' => ['@value' => '1351', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P416Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1351/1767', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'ayutthaya-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '1351',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P416Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1351/1767',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ayutthaya-kingdom.png',
+                    'dcterms:title' => 'Ayutthaya Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'lan-xang-kingdom',
@@ -13640,7 +22647,10 @@ return [
                 'ayutthaya-kingdom',
                 'khmer-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q853477', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q853477',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '99.385362,14.785362,105.814638,21.214638',
             'map_coordinates' => [
                 102.6,
@@ -13655,12 +22665,32 @@ return [
                 'Vientiane',
                 'Mainland Southeast Asia',
             ],
-            'dcterms:date' => ['@value' => '1353', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P354Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1353/1707', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1560', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '400000', '@type' => 'numeric:integer'],
-            'media' => 'lan-xang-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '1353',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P354Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1353/1707',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1560',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'lan-xang-kingdom.png',
+                    'dcterms:title' => 'Lan Xang Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'srivijaya-empire',
@@ -13677,7 +22707,10 @@ return [
                 'sailendra-dynasty',
                 'malacca-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q234197', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q234197',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '97.511851,-10.088149,111.888149,4.288149',
             'map_coordinates' => [
                 104.7,
@@ -13692,12 +22725,32 @@ return [
                 'Buddhism',
                 'Strait of Malacca',
             ],
-            'dcterms:date' => ['@value' => '0650', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P725Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0650/1375', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0900', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '2000000', '@type' => 'numeric:integer'],
-            'media' => 'srivijaya-empire.png',
+            'dcterms:date' => [
+                '@value' => '0650',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P725Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0650/1375',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '2000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'srivijaya-empire.png',
+                    'dcterms:title' => 'Srivijaya Empire',
+                ],
+            ],
         ],
         [
             'id' => 'sailendra-dynasty',
@@ -13712,7 +22765,10 @@ return [
                 'singhasari-kingdom',
                 'mataram-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1148477', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1148477',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '106.605925,-11.194075,113.794075,-4.005925',
             'map_coordinates' => [
                 110.2,
@@ -13727,12 +22783,32 @@ return [
                 'Borobudur',
                 'Mahayana Buddhism',
             ],
-            'dcterms:date' => ['@value' => '0750', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P150Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0750/0900', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0820', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '500000', '@type' => 'numeric:integer'],
-            'media' => 'sailendra-dynasty.jpg',
+            'dcterms:date' => [
+                '@value' => '0750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P150Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0750/0900',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0820',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'sailendra-dynasty.jpg',
+                    'dcterms:title' => 'Sailendra Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'majapahit-empire',
@@ -13751,7 +22827,10 @@ return [
                 'sulu-sultanate',
                 'aceh-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q49326', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q49326',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '103.596351,-16.503649,121.203649,1.103649',
             'map_coordinates' => [
                 112.4,
@@ -13766,12 +22845,32 @@ return [
                 'Buddhism',
                 'Maritime empire',
             ],
-            'dcterms:date' => ['@value' => '1293', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P234Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1293/1527', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1365', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '3000000', '@type' => 'numeric:integer'],
-            'media' => 'majapahit-empire.png',
+            'dcterms:date' => [
+                '@value' => '1293',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P234Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1293/1527',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1365',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'majapahit-empire.png',
+                    'dcterms:title' => 'Majapahit Empire',
+                ],
+            ],
         ],
         [
             'id' => 'malacca-sultanate',
@@ -13791,7 +22890,10 @@ return [
                 'aceh-sultanate',
                 'swahili-city-states',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q61089', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q61089',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '99.926908,-0.073092,104.473092,4.473092',
             'map_coordinates' => [
                 102.2,
@@ -13806,12 +22908,32 @@ return [
                 'Maritime trade',
                 'Strait of Malacca',
             ],
-            'dcterms:date' => ['@value' => '1400', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P111Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1400/1511', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1460', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'malacca-sultanate.png',
+            'dcterms:date' => [
+                '@value' => '1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P111Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1400/1511',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1460',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'malacca-sultanate.png',
+                    'dcterms:title' => 'Malacca Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'dai-viet-kingdom',
@@ -13826,7 +22948,10 @@ return [
                 'i-c-vi-t',
                 'l-dynasty-vietnam',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q430309', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q430309',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '102.88016,18.08016,108.71984,23.91984',
             'map_coordinates' => [
                 105.8,
@@ -13841,12 +22966,32 @@ return [
                 'Buddhism',
                 'Mongol resistance',
             ],
-            'dcterms:date' => ['@value' => '0939', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P865Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0939/1804', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '330000', '@type' => 'numeric:integer'],
-            'media' => 'dai-viet-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '0939',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P865Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0939/1804',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '330000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'dai-viet-kingdom.png',
+                    'dcterms:title' => 'Dai Viet Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'i-c-vi-t',
@@ -13858,7 +23003,10 @@ return [
             'relations' => [
                 'dai-viet-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q10841085', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q10841085',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '103.931444,18.431444,107.868556,22.368556',
             'map_coordinates' => [
                 105.9,
@@ -13873,12 +23021,32 @@ return [
                 'Hoa Lu',
                 'Đinh dynasty',
             ],
-            'dcterms:date' => ['@value' => '0968', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P86Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0968/1054', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1010', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '150000', '@type' => 'numeric:integer'],
-            'media' => 'i-c-vi-t.jpg',
+            'dcterms:date' => [
+                '@value' => '0968',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P86Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0968/1054',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1010',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '150000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'i-c-vi-t.jpg',
+                    'dcterms:title' => 'Đại Cồ Việt',
+                ],
+            ],
         ],
         [
             'id' => 'singhasari-kingdom',
@@ -13891,7 +23059,10 @@ return [
                 'majapahit-empire',
                 'sailendra-dynasty',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2060657', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2060657',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '109.592981,-10.907019,115.607019,-4.892981',
             'map_coordinates' => [
                 112.6,
@@ -13906,12 +23077,32 @@ return [
                 'Mongol resistance',
                 'Pre-Majapahit',
             ],
-            'dcterms:date' => ['@value' => '1222', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P70Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1222/1292', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1275', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '350000', '@type' => 'numeric:integer'],
-            'media' => 'singhasari-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '1222',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P70Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1222/1292',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1275',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '350000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'singhasari-kingdom.jpg',
+                    'dcterms:title' => 'Singhasari Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'mataram-kingdom',
@@ -13924,7 +23115,10 @@ return [
                 'sailendra-dynasty',
                 'majapahit-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q402580', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q402580',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '108.126908,-10.073092,112.673092,-5.526908',
             'map_coordinates' => [
                 110.4,
@@ -13939,12 +23133,32 @@ return [
                 'Borobudur',
                 'Hinduism',
             ],
-            'dcterms:date' => ['@value' => '0716', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P300Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0716/1016', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0860', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'mataram-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '0716',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P300Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0716/1016',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0860',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'mataram-kingdom.png',
+                    'dcterms:title' => 'Mataram Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'sulu-sultanate',
@@ -13958,7 +23172,10 @@ return [
                 'majapahit-empire',
                 'sultanate-of-brunei',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q352027', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q352027',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '119.23927,4.23927,122.76073,7.76073',
             'map_coordinates' => [
                 121,
@@ -13973,12 +23190,32 @@ return [
                 'Maritime trade',
                 'Sultanate',
             ],
-            'dcterms:date' => ['@value' => '1405', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P510Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1405/1915', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1700', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '120000', '@type' => 'numeric:integer'],
-            'media' => 'sulu-sultanate.jpg',
+            'dcterms:date' => [
+                '@value' => '1405',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P510Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1405/1915',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '120000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'sulu-sultanate.jpg',
+                    'dcterms:title' => 'Sulu Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'sultanate-of-brunei',
@@ -13991,7 +23228,10 @@ return [
                 'malacca-sultanate',
                 'sulu-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q887803', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q887803',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '112.726908,2.626908,117.273092,7.173092',
             'map_coordinates' => [
                 115,
@@ -14006,12 +23246,32 @@ return [
                 'Maritime empire',
                 'Sultanate',
             ],
-            'dcterms:date' => ['@value' => '1368', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P520Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1368/1888', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'sultanate-of-brunei.png',
+            'dcterms:date' => [
+                '@value' => '1368',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P520Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1368/1888',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'sultanate-of-brunei.png',
+                    'dcterms:title' => 'Sultanate of Brunei',
+                ],
+            ],
         ],
         [
             'id' => 'aceh-sultanate',
@@ -14024,7 +23284,10 @@ return [
                 'malacca-sultanate',
                 'majapahit-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1061057', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1061057',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '92.758605,2.958605,97.841395,8.041395',
             'map_coordinates' => [
                 95.3,
@@ -14039,12 +23302,32 @@ return [
                 'Pepper trade',
                 'Colonial resistance',
             ],
-            'dcterms:date' => ['@value' => '1496', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P407Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1496/1903', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '250000', '@type' => 'numeric:integer'],
-            'media' => 'aceh-sultanate.png',
+            'dcterms:date' => [
+                '@value' => '1496',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P407Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1496/1903',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '250000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'aceh-sultanate.png',
+                    'dcterms:title' => 'Aceh Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'bamar-konbaung-dynasty',
@@ -14057,7 +23340,10 @@ return [
                 'toungoo-empire',
                 'ayutthaya-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1062422', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1062422',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '90.917211,16.817211,101.082789,26.982789',
             'map_coordinates' => [
                 96,
@@ -14072,12 +23358,32 @@ return [
                 'British colonialism',
                 'Early modern Asia',
             ],
-            'dcterms:date' => ['@value' => '1752', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P133Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1752/1885', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'bamar-konbaung-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '1752',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P133Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1752/1885',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'bamar-konbaung-dynasty.png',
+                    'dcterms:title' => 'Bamar Konbaung Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'western-chalukya-empire',
@@ -14092,7 +23398,10 @@ return [
                 'hoysala-empire',
                 'kakatiya-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q14624218', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q14624218',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '71.153815,11.353815,80.246185,20.446185',
             'map_coordinates' => [
                 75.7,
@@ -14107,12 +23416,32 @@ return [
                 'Veerashaiva',
                 'Medieval India',
             ],
-            'dcterms:date' => ['@value' => '0975', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P214Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0975/1189', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1080', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '800000', '@type' => 'numeric:integer'],
-            'media' => 'western-chalukya-empire.png',
+            'dcterms:date' => [
+                '@value' => '0975',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P214Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0975/1189',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1080',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'western-chalukya-empire.png',
+                    'dcterms:title' => 'Western Chalukya Empire',
+                ],
+            ],
         ],
         [
             'id' => 'hoysala-empire',
@@ -14125,7 +23454,10 @@ return [
                 'western-chalukya-empire',
                 'vijayanagara-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q466581', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q466581',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '73.092981,9.292981,79.107019,15.307019',
             'map_coordinates' => [
                 76.1,
@@ -14140,12 +23472,32 @@ return [
                 'Hinduism',
                 'Jainism',
             ],
-            'dcterms:date' => ['@value' => '1026', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P317Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1026/1343', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '350000', '@type' => 'numeric:integer'],
-            'media' => 'hoysala-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '1026',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P317Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1026/1343',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '350000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'hoysala-empire.jpg',
+                    'dcterms:title' => 'Hoysala Empire',
+                ],
+            ],
         ],
         [
             'id' => 'kakatiya-kingdom',
@@ -14158,7 +23510,10 @@ return [
                 'western-chalukya-empire',
                 'vijayanagara-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2086556', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2086556',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '76.385362,14.685362,82.814638,21.114638',
             'map_coordinates' => [
                 79.6,
@@ -14173,12 +23528,32 @@ return [
                 'Warangal',
                 'Hinduism',
             ],
-            'dcterms:date' => ['@value' => '1083', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P240Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1083/1323', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1250', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '400000', '@type' => 'numeric:integer'],
-            'media' => 'kakatiya-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '1083',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P240Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1083/1323',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1250',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kakatiya-kingdom.png',
+                    'dcterms:title' => 'Kakatiya Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'kotte-kingdom',
@@ -14191,7 +23566,10 @@ return [
                 'polonnaruwa-kingdom',
                 'kandy-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q41963', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q41963',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '78.4,5.4,81.4,8.4',
             'map_coordinates' => [
                 79.9,
@@ -14206,12 +23584,32 @@ return [
                 'Portuguese contact',
                 'Medieval Ceylon',
             ],
-            'dcterms:date' => ['@value' => '1412', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P185Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1412/1597', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1480', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '30000', '@type' => 'numeric:integer'],
-            'media' => 'kotte-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '1412',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P185Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1412/1597',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1480',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '30000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kotte-kingdom.png',
+                    'dcterms:title' => 'Kotte Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'pyu-city-states',
@@ -14224,7 +23622,10 @@ return [
                 'pagan-kingdom',
                 'dvaravati-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1627675', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1627675',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '93.426908,17.426908,97.973092,21.973092',
             'map_coordinates' => [
                 95.7,
@@ -14239,12 +23640,32 @@ return [
                 'Early urbanism',
                 'Overland trade',
             ],
-            'dcterms:date' => ['@value' => '-0200', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1100Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0200/0900', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'pyu-city-states.png',
+            'dcterms:date' => [
+                '@value' => '-0200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1100Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0200/0900',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'pyu-city-states.png',
+                    'dcterms:title' => 'Pyu City-States',
+                ],
+            ],
         ],
         [
             'id' => 'mon-hanthawaddy-kingdom',
@@ -14258,7 +23679,10 @@ return [
                 'ava-kingdom',
                 'toungoo-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1572529', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1572529',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '94.531444,15.331444,98.468556,19.268556',
             'map_coordinates' => [
                 96.5,
@@ -14273,12 +23697,32 @@ return [
                 'Theravada Buddhism',
                 'Pegu',
             ],
-            'dcterms:date' => ['@value' => '1287', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P252Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1287/1539', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '150000', '@type' => 'numeric:integer'],
-            'media' => 'mon-hanthawaddy-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '1287',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P252Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1287/1539',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '150000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'mon-hanthawaddy-kingdom.jpg',
+                    'dcterms:title' => 'Mon Hanthawaddy Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'taungoo-dynasty',
@@ -14291,7 +23735,10 @@ return [
                 'pagan-kingdom',
                 'toungoo-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q519718', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q519718',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '95,17.4,98,20.4',
             'map_coordinates' => [
                 96.5,
@@ -14306,12 +23753,32 @@ return [
                 'Pre-Toungoo',
                 'Medieval Myanmar',
             ],
-            'dcterms:date' => ['@value' => '1287', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P223Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1287/1510', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '80000', '@type' => 'numeric:integer'],
-            'media' => 'taungoo-dynasty.png',
+            'dcterms:date' => [
+                '@value' => '1287',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P223Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1287/1510',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '80000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'taungoo-dynasty.png',
+                    'dcterms:title' => 'Taungoo Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'l-dynasty-vietnam',
@@ -14324,7 +23791,10 @@ return [
                 'dai-viet-kingdom',
                 'champa-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q878276', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q878276',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '102.970023,17.170023,108.629977,22.829977',
             'map_coordinates' => [
                 105.8,
@@ -14339,12 +23809,32 @@ return [
                 'Buddhism',
                 'Post-Ming independence',
             ],
-            'dcterms:date' => ['@value' => '1428', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P360Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1428/1788', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1480', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '310000', '@type' => 'numeric:integer'],
-            'media' => 'l-dynasty-vietnam.png',
+            'dcterms:date' => [
+                '@value' => '1428',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P360Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1428/1788',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1480',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '310000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'l-dynasty-vietnam.png',
+                    'dcterms:title' => 'Lê Dynasty Vietnam',
+                ],
+            ],
         ],
         [
             'id' => 'lan-na-kingdom',
@@ -14357,7 +23847,10 @@ return [
                 'sukhothai-kingdom',
                 'ayutthaya-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1059707', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1059707',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '97.031444,16.831444,100.968556,20.768556',
             'map_coordinates' => [
                 99,
@@ -14372,12 +23865,32 @@ return [
                 'Chiang Mai',
                 'Lanna culture',
             ],
-            'dcterms:date' => ['@value' => '1292', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P483Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1292/1775', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1450', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '150000', '@type' => 'numeric:integer'],
-            'media' => 'lan-na-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '1292',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P483Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1292/1775',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1450',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '150000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'lan-na-kingdom.png',
+                    'dcterms:title' => 'Lan Na Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'chera-kingdom',
@@ -14390,7 +23903,10 @@ return [
                 'chola-kingdom',
                 'pallava-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q877155', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q877155',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '74.592681,8.892681,77.807319,12.107319',
             'map_coordinates' => [
                 76.2,
@@ -14405,12 +23921,32 @@ return [
                 'Spice trade',
                 'Roman trade',
             ],
-            'dcterms:date' => ['@value' => '-0300', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1402Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-0300/1102', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0950', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'chera-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '-0300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1402Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0300/1102',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0950',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'chera-kingdom.jpg',
+                    'dcterms:title' => 'Chera Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'aksum-empire',
@@ -14425,7 +23961,10 @@ return [
                 'zagwe-dynasty',
                 'adal-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q139377', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q139377',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '33.017269,8.417269,44.382731,19.782731',
             'map_coordinates' => [
                 38.7,
@@ -14440,12 +23979,32 @@ return [
                 'Red Sea trade',
                 'Ancient empire',
             ],
-            'dcterms:date' => ['@value' => '0100', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P840Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0100/0940', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '0400', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1250000', '@type' => 'numeric:integer'],
-            'media' => 'aksum-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '0100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P840Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0100/0940',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '0400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1250000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'aksum-empire.jpg',
+                    'dcterms:title' => 'Aksum Empire',
+                ],
+            ],
         ],
         [
             'id' => 'zagwe-dynasty',
@@ -14458,7 +24017,10 @@ return [
                 'aksum-empire',
                 'ethiopian-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q140446', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q140446',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '35.785362,8.785362,42.214638,15.214638',
             'map_coordinates' => [
                 39,
@@ -14473,12 +24035,32 @@ return [
                 'Lalibela',
                 'Rock-hewn churches',
             ],
-            'dcterms:date' => ['@value' => '0900', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P370Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0900/1270', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1150', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '400000', '@type' => 'numeric:integer'],
-            'media' => 'zagwe-dynasty.jpg',
+            'dcterms:date' => [
+                '@value' => '0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P370Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0900/1270',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1150',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'zagwe-dynasty.jpg',
+                    'dcterms:title' => 'Zagwe Dynasty',
+                ],
+            ],
         ],
         [
             'id' => 'ethiopian-empire',
@@ -14493,7 +24075,10 @@ return [
                 'adal-sultanate',
                 'funj-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q207521', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q207521',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '33.081506,3.381506,44.318494,14.618494',
             'map_coordinates' => [
                 38.7,
@@ -14508,12 +24093,32 @@ return [
                 'Solomonic dynasty',
                 'Anti-colonialism',
             ],
-            'dcterms:date' => ['@value' => '1270', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P704Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1270/1974', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1550', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1221900', '@type' => 'numeric:integer'],
-            'media' => 'ethiopian-empire.png',
+            'dcterms:date' => [
+                '@value' => '1270',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P704Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1270/1974',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1550',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1221900',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ethiopian-empire.png',
+                    'dcterms:title' => 'Ethiopian Empire',
+                ],
+            ],
         ],
         [
             'id' => 'ghana-empire',
@@ -14526,7 +24131,10 @@ return [
                 'mali-empire',
                 'kanem-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q206789', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q206789',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-14.546185,10.453815,-5.453815,19.546185',
             'map_coordinates' => [
                 -10,
@@ -14541,12 +24149,32 @@ return [
                 'Trans-Saharan trade',
                 'Sahel',
             ],
-            'dcterms:date' => ['@value' => '0300', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P935Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0300/1235', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '800000', '@type' => 'numeric:integer'],
-            'media' => 'ghana-empire.png',
+            'dcterms:date' => [
+                '@value' => '0300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P935Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0300/1235',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '800000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ghana-empire.png',
+                    'dcterms:title' => 'Ghana Empire',
+                ],
+            ],
         ],
         [
             'id' => 'mali-empire',
@@ -14563,7 +24191,10 @@ return [
                 'kingdom-of-benin',
                 'mossi-kingdoms',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q184536', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q184536',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-13.659954,6.340046,-2.340046,17.659954',
             'map_coordinates' => [
                 -8,
@@ -14578,12 +24209,32 @@ return [
                 'Mansa Musa',
                 'Timbuktu',
             ],
-            'dcterms:date' => ['@value' => '1235', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P365Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1235/1600', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1337', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1240000', '@type' => 'numeric:integer'],
-            'media' => 'mali-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '1235',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P365Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1235/1600',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1337',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1240000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'mali-empire.jpg',
+                    'dcterms:title' => 'Mali Empire',
+                ],
+            ],
         ],
         [
             'id' => 'songhai-empire',
@@ -14600,7 +24251,10 @@ return [
                 'oyo-empire',
                 'mossi-kingdoms',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q202687', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q202687',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-6.014037,9.685963,6.014037,21.714037',
             'map_coordinates' => [
                 0,
@@ -14615,12 +24269,32 @@ return [
                 'Timbuktu',
                 'Manuscripts',
             ],
-            'dcterms:date' => ['@value' => '1464', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P127Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1464/1591', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1520', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1400000', '@type' => 'numeric:integer'],
-            'media' => 'songhai-empire.png',
+            'dcterms:date' => [
+                '@value' => '1464',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P127Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1464/1591',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1520',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'songhai-empire.png',
+                    'dcterms:title' => 'Songhai Empire',
+                ],
+            ],
         ],
         [
             'id' => 'kanem-bornu-empire',
@@ -14636,7 +24310,10 @@ return [
                 'darfur-sultanate',
                 'kanem-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1139762', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1139762',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '10.447434,9.047434,18.952566,17.552566',
             'map_coordinates' => [
                 14.7,
@@ -14651,12 +24328,32 @@ return [
                 'Trans-Saharan trade',
                 'Longevity',
             ],
-            'dcterms:date' => ['@value' => '0700', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1200Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0700/1900', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '700000', '@type' => 'numeric:integer'],
-            'media' => 'kanem-bornu-empire.png',
+            'dcterms:date' => [
+                '@value' => '0700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1200Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0700/1900',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '700000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kanem-bornu-empire.png',
+                    'dcterms:title' => 'Kanem-Bornu Empire',
+                ],
+            ],
         ],
         [
             'id' => 'hausa-city-states',
@@ -14670,7 +24367,10 @@ return [
                 'kanem-bornu-empire',
                 'sokoto-caliphate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q56475', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q56475',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '5.716042,9.216042,11.283958,14.783958',
             'map_coordinates' => [
                 8.5,
@@ -14685,12 +24385,32 @@ return [
                 'Kano',
                 'Trans-Saharan trade',
             ],
-            'dcterms:date' => ['@value' => '1000', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P804Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1000/1804', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '300000', '@type' => 'numeric:integer'],
-            'media' => 'hausa-city-states.png',
+            'dcterms:date' => [
+                '@value' => '1000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P804Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1000/1804',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'hausa-city-states.png',
+                    'dcterms:title' => 'Hausa City-States',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-zimbabwe',
@@ -14705,7 +24425,10 @@ return [
                 'kilwa-sultanate',
                 'rozvi-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q596092', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q596092',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '26.078043,-25.121957,35.721957,-15.478043',
             'map_coordinates' => [
                 30.9,
@@ -14720,12 +24443,32 @@ return [
                 'Great Zimbabwe',
                 'Shona people',
             ],
-            'dcterms:date' => ['@value' => '1220', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P200Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1220/1420', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1350', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '900000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-zimbabwe.png',
+            'dcterms:date' => [
+                '@value' => '1220',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P200Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1220/1420',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1350',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '900000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-zimbabwe.png',
+                    'dcterms:title' => 'Kingdom of Zimbabwe',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-mutapa',
@@ -14738,7 +24481,10 @@ return [
                 'kingdom-of-zimbabwe',
                 'rozvi-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q854468', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q854468',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '26.598176,-20.901824,35.401824,-12.098176',
             'map_coordinates' => [
                 31,
@@ -14753,12 +24499,32 @@ return [
                 'Portuguese contact',
                 'Shona people',
             ],
-            'dcterms:date' => ['@value' => '1430', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P330Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1430/1760', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '750000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-mutapa.jpg',
+            'dcterms:date' => [
+                '@value' => '1430',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P330Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1430/1760',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '750000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-mutapa.jpg',
+                    'dcterms:title' => 'Kingdom of Mutapa',
+                ],
+            ],
         ],
         [
             'id' => 'swahili-city-states',
@@ -14775,7 +24541,10 @@ return [
                 'kilwa-sultanate',
                 'ajuran-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2739014', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2739014',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '38.092681,-9.607319,41.307319,-6.392681',
             'map_coordinates' => [
                 39.7,
@@ -14790,12 +24559,32 @@ return [
                 'Indian Ocean trade',
                 'Swahili culture',
             ],
-            'dcterms:date' => ['@value' => '0800', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P700Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0800/1500', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'swahili-city-states.jpg',
+            'dcterms:date' => [
+                '@value' => '0800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P700Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0800/1500',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'swahili-city-states.jpg',
+                    'dcterms:title' => 'Swahili City-States',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-kongo',
@@ -14812,7 +24601,10 @@ return [
                 'kingdom-of-kuba',
                 'lunda-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q796583', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q796583',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '11.516042,-8.783958,17.083958,-3.216042',
             'map_coordinates' => [
                 14.3,
@@ -14827,12 +24619,32 @@ return [
                 'Atlantic slave trade',
                 'Portuguese contact',
             ],
-            'dcterms:date' => ['@value' => '1390', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P524Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1390/1914', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '300000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-kongo.jpg',
+            'dcterms:date' => [
+                '@value' => '1390',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P524Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1390/1914',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-kongo.jpg',
+                    'dcterms:title' => 'Kingdom of Kongo',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-benin',
@@ -14848,7 +24660,10 @@ return [
                 'ife-kingdom',
                 'kingdom-of-nri',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q171203', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q171203',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '3.631444,4.331444,7.568556,8.268556',
             'map_coordinates' => [
                 5.6,
@@ -14863,12 +24678,32 @@ return [
                 'West Africa',
                 'Yoruba culture',
             ],
-            'dcterms:date' => ['@value' => '1180', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P717Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1180/1897', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '150000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-benin.jpg',
+            'dcterms:date' => [
+                '@value' => '1180',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P717Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1180/1897',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '150000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-benin.jpg',
+                    'dcterms:title' => 'Kingdom of Benin',
+                ],
+            ],
         ],
         [
             'id' => 'oyo-empire',
@@ -14885,7 +24720,10 @@ return [
                 'dahomey-kingdom',
                 'ife-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q849623', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q849623',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '2.031444,6.031444,5.968556,9.968556',
             'map_coordinates' => [
                 4,
@@ -14900,12 +24738,32 @@ return [
                 'Cavalry',
                 'Atlantic slave trade',
             ],
-            'dcterms:date' => ['@value' => '1400', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P436Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1400/1836', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1750', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '150000', '@type' => 'numeric:integer'],
-            'media' => 'oyo-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '1400',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P436Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1400/1836',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '150000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'oyo-empire.jpg',
+                    'dcterms:title' => 'Oyo Empire',
+                ],
+            ],
         ],
         [
             'id' => 'ashanti-empire',
@@ -14919,7 +24777,10 @@ return [
                 'oyo-empire',
                 'dahomey-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q722071', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q722071',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-4.141395,4.158605,0.941395,9.241395',
             'map_coordinates' => [
                 -1.6,
@@ -14934,12 +24795,32 @@ return [
                 'Gold trade',
                 'Anti-colonialism',
             ],
-            'dcterms:date' => ['@value' => '1670', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P232Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1670/1902', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1820', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '250000', '@type' => 'numeric:integer'],
-            'media' => 'ashanti-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '1670',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P232Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1670/1902',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1820',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '250000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ashanti-empire.jpg',
+                    'dcterms:title' => 'Ashanti Empire',
+                ],
+            ],
         ],
         [
             'id' => 'dahomey-kingdom',
@@ -14953,7 +24834,10 @@ return [
                 'ashanti-empire',
                 'dahomey-kingdom-early-modern',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q468814', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q468814',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '0.7,5.7,3.7,8.7',
             'map_coordinates' => [
                 2.2,
@@ -14968,12 +24852,32 @@ return [
                 'Atlantic slave trade',
                 'West Africa',
             ],
-            'dcterms:date' => ['@value' => '1600', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P304Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1600/1904', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '50000', '@type' => 'numeric:integer'],
-            'media' => 'dahomey-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '1600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P304Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1600/1904',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '50000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'dahomey-kingdom.png',
+                    'dcterms:title' => 'Dahomey Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'zulu-kingdom',
@@ -14985,7 +24889,10 @@ return [
             'relations' => [
                 'kingdom-of-kongo',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q729768', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q729768',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '27.916042,-31.083958,33.483958,-25.516042',
             'map_coordinates' => [
                 30.7,
@@ -15000,12 +24907,32 @@ return [
                 'Military innovation',
                 'Anti-colonialism',
             ],
-            'dcterms:date' => ['@value' => '1816', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P81Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1816/1897', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1870', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '300000', '@type' => 'numeric:integer'],
-            'media' => 'zulu-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '1816',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P81Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1816/1897',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1870',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '300000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'zulu-kingdom.jpg',
+                    'dcterms:title' => 'Zulu Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-buganda',
@@ -15018,7 +24945,10 @@ return [
                 'kingdom-of-kongo',
                 'bunyoro-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q473748', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q473748',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '31.1,-1.2,34.1,1.8',
             'map_coordinates' => [
                 32.6,
@@ -15033,12 +24963,32 @@ return [
                 'Lake Victoria',
                 'Bantu kingdoms',
             ],
-            'dcterms:date' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P594Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1300/1894', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '62000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-buganda.jpg',
+            'dcterms:date' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P594Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1300/1894',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '62000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-buganda.jpg',
+                    'dcterms:title' => 'Kingdom of Buganda',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-luba',
@@ -15052,7 +25002,10 @@ return [
                 'kingdom-of-kuba',
                 'lunda-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1768252', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1768252',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '23.785362,-11.214638,30.214638,-4.785362',
             'map_coordinates' => [
                 27,
@@ -15067,12 +25020,32 @@ return [
                 'Memory devices',
                 'Bantu kingdoms',
             ],
-            'dcterms:date' => ['@value' => '1585', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P304Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1585/1889', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '400000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-luba.jpg',
+            'dcterms:date' => [
+                '@value' => '1585',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P304Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1585/1889',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '400000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-luba.jpg',
+                    'dcterms:title' => 'Kingdom of Luba',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-kuba',
@@ -15085,7 +25058,10 @@ return [
                 'kingdom-of-luba',
                 'kingdom-of-kongo',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q209327', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q209327',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '21,-6.5,24,-3.5',
             'map_coordinates' => [
                 22.5,
@@ -15100,12 +25076,32 @@ return [
                 'Textiles',
                 'Bantu kingdoms',
             ],
-            'dcterms:date' => ['@value' => '1625', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P275Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1625/1900', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '80000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-kuba.jpg',
+            'dcterms:date' => [
+                '@value' => '1625',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P275Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1625/1900',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '80000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-kuba.jpg',
+                    'dcterms:title' => 'Kingdom of Kuba',
+                ],
+            ],
         ],
         [
             'id' => 'adal-sultanate',
@@ -15119,7 +25115,10 @@ return [
                 'aksum-empire',
                 'ajuran-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2365048', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2365048',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '38.605925,6.005925,45.794075,13.194075',
             'map_coordinates' => [
                 42.2,
@@ -15134,12 +25133,32 @@ return [
                 'Ethiopian conflict',
                 'Horn of Africa',
             ],
-            'dcterms:date' => ['@value' => '1415', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P144Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1415/1559', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1540', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '500000', '@type' => 'numeric:integer'],
-            'media' => 'adal-sultanate.png',
+            'dcterms:date' => [
+                '@value' => '1415',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P144Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1415/1559',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1540',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'adal-sultanate.png',
+                    'dcterms:title' => 'Adal Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'ife-kingdom',
@@ -15153,7 +25172,10 @@ return [
                 'oyo-empire',
                 'kingdom-of-nri',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q33606', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q33606',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '3.1,6,6.1,9',
             'map_coordinates' => [
                 4.6,
@@ -15168,12 +25190,32 @@ return [
                 'Naturalistic sculpture',
                 'West Africa',
             ],
-            'dcterms:date' => ['@value' => '0700', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P600Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0700/1300', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1000', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '50000', '@type' => 'numeric:integer'],
-            'media' => 'ife-kingdom.jpg',
+            'dcterms:date' => [
+                '@value' => '0700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P600Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0700/1300',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1000',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '50000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ife-kingdom.jpg',
+                    'dcterms:title' => 'Ife Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'mossi-kingdoms',
@@ -15186,7 +25228,10 @@ return [
                 'songhai-empire',
                 'mali-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q862522', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q862522',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '-3.773092,10.126908,0.773092,14.673092',
             'map_coordinates' => [
                 -1.5,
@@ -15201,12 +25246,32 @@ return [
                 'Cavalry',
                 'Traditional religion',
             ],
-            'dcterms:date' => ['@value' => '1170', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P727Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1170/1897', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '200000', '@type' => 'numeric:integer'],
-            'media' => 'mossi-kingdoms.png',
+            'dcterms:date' => [
+                '@value' => '1170',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P727Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1170/1897',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'mossi-kingdoms.png',
+                    'dcterms:title' => 'Mossi Kingdoms',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-nri',
@@ -15219,7 +25284,10 @@ return [
                 'kingdom-of-benin',
                 'ife-kingdom',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q145749', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q145749',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '5.4,4.5,8.4,7.5',
             'map_coordinates' => [
                 6.9,
@@ -15234,12 +25302,32 @@ return [
                 'Priestly kingship',
                 'West Africa',
             ],
-            'dcterms:date' => ['@value' => '0900', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P1011Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0900/1911', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '30000', '@type' => 'numeric:integer'],
-            'media' => 'kingdom-of-nri.jpg',
+            'dcterms:date' => [
+                '@value' => '0900',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P1011Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0900/1911',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '30000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-nri.jpg',
+                    'dcterms:title' => 'Kingdom of Nri',
+                ],
+            ],
         ],
         [
             'id' => 'funj-sultanate',
@@ -15253,7 +25341,10 @@ return [
                 'ethiopian-empire',
                 'darfur-sultanate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1475713', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1475713',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '29.462889,10.562889,37.337111,18.437111',
             'map_coordinates' => [
                 33.4,
@@ -15268,12 +25359,32 @@ return [
                 'Nile Valley',
                 'Sufism',
             ],
-            'dcterms:date' => ['@value' => '1504', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P317Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1504/1821', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1650', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '600000', '@type' => 'numeric:integer'],
-            'media' => 'funj-sultanate.png',
+            'dcterms:date' => [
+                '@value' => '1504',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P317Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1504/1821',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1650',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '600000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'funj-sultanate.png',
+                    'dcterms:title' => 'Funj Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'darfur-sultanate',
@@ -15286,7 +25397,10 @@ return [
                 'funj-sultanate',
                 'kanem-bornu-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q46733', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q46733',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '21.442048,9.442048,28.557952,16.557952',
             'map_coordinates' => [
                 25,
@@ -15301,12 +25415,32 @@ return [
                 'Trans-Saharan trade',
                 'Darfur',
             ],
-            'dcterms:date' => ['@value' => '1603', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P313Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1603/1916', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '490000', '@type' => 'numeric:integer'],
-            'media' => 'darfur-sultanate.png',
+            'dcterms:date' => [
+                '@value' => '1603',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P313Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1603/1916',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '490000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'darfur-sultanate.png',
+                    'dcterms:title' => 'Darfur Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'kilwa-sultanate',
@@ -15320,7 +25454,10 @@ return [
                 'kingdom-of-zimbabwe',
                 'omani-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q3107156', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3107156',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '38,-10.4,41,-7.4',
             'map_coordinates' => [
                 39.5,
@@ -15335,12 +25472,32 @@ return [
                 'Indian Ocean trade',
                 'Swahili culture',
             ],
-            'dcterms:date' => ['@value' => '0960', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P545Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0960/1505', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1300', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '30000', '@type' => 'numeric:integer'],
-            'media' => 'kilwa-sultanate.jpg',
+            'dcterms:date' => [
+                '@value' => '0960',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P545Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0960/1505',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '30000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kilwa-sultanate.jpg',
+                    'dcterms:title' => 'Kilwa Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'ajuran-sultanate',
@@ -15353,7 +25510,10 @@ return [
                 'adal-sultanate',
                 'swahili-city-states',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q862532', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q862532',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '40.917211,-0.082789,51.082789,10.082789',
             'map_coordinates' => [
                 46,
@@ -15368,12 +25528,32 @@ return [
                 'Hydraulic engineering',
                 'Indian Ocean trade',
             ],
-            'dcterms:date' => ['@value' => '1200', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P500Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1200/1700', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1500', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1000000', '@type' => 'numeric:integer'],
-            'media' => 'ajuran-sultanate.png',
+            'dcterms:date' => [
+                '@value' => '1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P500Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1200/1700',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'ajuran-sultanate.png',
+                    'dcterms:title' => 'Ajuran Sultanate',
+                ],
+            ],
         ],
         [
             'id' => 'rozvi-empire',
@@ -15386,7 +25566,10 @@ return [
                 'kingdom-of-mutapa',
                 'kingdom-of-zimbabwe',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q986822', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q986822',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '27.458605,-21.541395,32.541395,-16.458605',
             'map_coordinates' => [
                 30,
@@ -15401,12 +25584,32 @@ return [
                 'Anti-colonialism',
                 'Shona people',
             ],
-            'dcterms:date' => ['@value' => '1684', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P150Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1684/1834', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1750', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '250000', '@type' => 'numeric:integer'],
-            'media' => 'rozvi-empire.png',
+            'dcterms:date' => [
+                '@value' => '1684',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P150Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1684/1834',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1750',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '250000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'rozvi-empire.png',
+                    'dcterms:title' => 'Rozvi Empire',
+                ],
+            ],
         ],
         [
             'id' => 'lunda-empire',
@@ -15419,7 +25622,10 @@ return [
                 'kingdom-of-luba',
                 'kingdom-of-kongo',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q33607', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q33607',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '17.747434,-14.252566,26.252566,-5.747434',
             'map_coordinates' => [
                 22,
@@ -15434,12 +25640,32 @@ return [
                 'Multiethnic empire',
                 'Central Africa',
             ],
-            'dcterms:date' => ['@value' => '1665', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P222Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1665/1887', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '700000', '@type' => 'numeric:integer'],
-            'media' => 'lunda-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '1665',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P222Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1665/1887',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '700000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'lunda-empire.jpg',
+                    'dcterms:title' => 'Lunda Empire',
+                ],
+            ],
         ],
         [
             'id' => 'bunyoro-kingdom',
@@ -15451,7 +25677,10 @@ return [
             'relations' => [
                 'kingdom-of-buganda',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q889897', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q889897',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '29.892681,-0.107319,33.107319,3.107319',
             'map_coordinates' => [
                 31.5,
@@ -15466,12 +25695,32 @@ return [
                 'Iron production',
                 'Bantu kingdoms',
             ],
-            'dcterms:date' => ['@value' => '1350', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P549Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '1350/1899', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1650', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '100000', '@type' => 'numeric:integer'],
-            'media' => 'bunyoro-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '1350',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P549Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1350/1899',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1650',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '100000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'bunyoro-kingdom.png',
+                    'dcterms:title' => 'Bunyoro Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'kanem-empire',
@@ -15484,7 +25733,10 @@ return [
                 'kanem-bornu-empire',
                 'ghana-empire',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q1537016', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1537016',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '11.062889,10.062889,18.937111,17.937111',
             'map_coordinates' => [
                 15,
@@ -15499,12 +25751,32 @@ return [
                 'Early Sahel states',
                 'Trans-Saharan trade',
             ],
-            'dcterms:date' => ['@value' => '0700', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P680Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0700/1380', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '1200', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '600000', '@type' => 'numeric:integer'],
-            'media' => 'kanem-empire.jpg',
+            'dcterms:date' => [
+                '@value' => '0700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P680Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0700/1380',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '600000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kanem-empire.jpg',
+                    'dcterms:title' => 'Kanem Empire',
+                ],
+            ],
         ],
         [
             'id' => 'lydian-kingdom',
@@ -15519,7 +25791,10 @@ return [
                 'neo-babylonian-empire',
                 'neo-hittite-kingdoms',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q620765', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q620765',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '26.0,37.0,38.0,42.0',
             'map_coordinates' => [
                 32,
@@ -15534,12 +25809,32 @@ return [
                 'Trade',
                 'Achaemenid conquest',
             ],
-            'dcterms:date' => ['@value' => '-700', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P154Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '-700/-546', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '-600', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '150000', '@type' => 'numeric:integer'],
-            'media' => 'lydian-kingdom.png',
+            'dcterms:date' => [
+                '@value' => '-700',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P154Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-700/-546',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '150000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'lydian-kingdom.png',
+                    'dcterms:title' => 'Lydian Kingdom',
+                ],
+            ],
         ],
         [
             'id' => 'avar-khaganate',
@@ -15554,7 +25849,10 @@ return [
                 'hunnic-empire',
                 'khazar-khaganate',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q28411', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q28411',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '14.0,44.0,24.0,50.0',
             'map_coordinates' => [
                 19,
@@ -15569,12 +25867,32 @@ return [
                 'Byzantine relations',
                 'Frankish wars',
             ],
-            'dcterms:date' => ['@value' => '567', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P255Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0567/0822', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '630', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '700000', '@type' => 'numeric:integer'],
-            'media' => 'avar-khaganate.png',
+            'dcterms:date' => [
+                '@value' => '567',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P255Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0567/0822',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '630',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '700000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'avar-khaganate.png',
+                    'dcterms:title' => 'Avar Khaganate',
+                ],
+            ],
         ],
         [
             'id' => 'khazar-khaganate',
@@ -15590,7 +25908,10 @@ return [
                 'abbasid-caliphate',
                 'kievan-rus',
             ],
-            'dcterms:identifier' => ['@value' => 'https://www.wikidata.org/entity/Q2090473', '@type' => 'uri'],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2090473',
+                '@type' => 'uri',
+            ],
             'map_bounds' => '35.0,43.0,55.0,52.0',
             'map_coordinates' => [
                 48,
@@ -15605,12 +25926,32 @@ return [
                 'Silk Road',
                 'Byzantine allies',
             ],
-            'dcterms:date' => ['@value' => '650', '@type' => 'numeric:timestamp'],
-            'dcterms:extent' => ['@value' => 'P319Y', '@type' => 'numeric:duration'],
-            'dcterms:temporal' => ['@value' => '0650/0969', '@type' => 'numeric:interval'],
-            'demo-data:peakDate' => ['@value' => '800', '@type' => 'numeric:timestamp'],
-            'demo-data:area' => ['@value' => '1200000', '@type' => 'numeric:integer'],
-            'media' => 'khazar-khaganate.png',
+            'dcterms:date' => [
+                '@value' => '650',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P319Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '0650/0969',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '800',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1200000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'khazar-khaganate.png',
+                    'dcterms:title' => 'Khazar Khaganate',
+                ],
+            ],
         ],
     ],
 ];

@@ -8,8 +8,7 @@ $csrfValue = $csrf->getValue();
 
 <div id="demo-data-datasets">
 <?php foreach ($datasets as $dataset): ?>
-<div class="demo-data-item">
-    <div class="demo-data-dataset">
+<div class="demo-data-dataset">
         <div class="demo-data-dataset-header">
             <h2><?php echo $this->escapeHtml($dataset['label']); ?></h2>
             <?php if ($dataset['pending_action']): ?>
@@ -33,38 +32,42 @@ $csrfValue = $csrf->getValue();
             <?php endif; ?>
         </div>
 
-        <p><?php echo $this->escapeHtml($dataset['description']); ?></p>
+        <p class="demo-data-description"><?php echo $this->escapeHtml($dataset['description']); ?></p>
 
-        <p class="demo-data-meta">
-            <?php echo sprintf(
-                $this->translate('%d items &middot; %d item sets &middot; media included'),
-                $dataset['item_count'],
-                $dataset['set_count']
-            ); ?>
-        </p>
+        <?php $stats = [
+            sprintf($this->translate('%d items'), $dataset['item_count']),
+            sprintf($this->translate('%d media (%s)'), $dataset['media_count'], $dataset['media_size']),
+            sprintf($this->translate('%d item sets'), $dataset['set_count']),
+        ]; ?>
+        <p class="demo-data-meta"><?php echo implode(' &middot; ', $stats); ?></p>
 
+        <?php if ($dataset['main_item_set_id'] || $dataset['view_job_id']): ?>
+        <?php $links = []; ?>
         <?php if ($dataset['main_item_set_id']): ?>
-        <p><?php echo $this->hyperlink(
-            $this->translate('Browse items'),
+        <?php $links[] = $this->hyperlink(
+            $this->translate('Items'),
             $this->url('admin/default', ['controller' => 'item', 'action' => 'browse'], ['query' => ['item_set_id' => $dataset['main_item_set_id']]]),
             ['aria-label' => sprintf($this->translate('Browse items in %s'), $dataset['label'])]
-        ); ?> &middot; <?php echo $this->hyperlink(
-            $this->translate('Browse item sets'),
+        ); ?>
+        <?php $links[] = $this->hyperlink(
+            $this->translate('Item sets'),
             $this->url('admin/default', ['controller' => 'item-set', 'action' => 'browse'], ['query' => ['id' => $dataset['item_set_ids']]]),
             ['aria-label' => sprintf($this->translate('Browse item sets in %s'), $dataset['label'])]
-        ); ?></p>
+        ); ?>
         <?php endif; ?>
-
         <?php if ($dataset['view_job_id']): ?>
-        <p><?php echo $this->hyperlink(
-            $this->translate('View job'),
+        <?php $links[] = $this->hyperlink(
+            $this->translate('Job'),
             $this->url('admin/id', ['controller' => 'job', 'action' => 'show', 'id' => $dataset['view_job_id']]),
-            ['aria-label' => sprintf($this->translate('View job for %s'), $dataset['label']), 'target' => '_blank']
-        ); ?> &middot; <?php echo $this->hyperlink(
-            $this->translate('View log'),
+            ['aria-label' => sprintf($this->translate('View job for %s'), $dataset['label'])]
+        ); ?>
+        <?php $links[] = $this->hyperlink(
+            $this->translate('Log'),
             $this->url('admin/id', ['controller' => 'job', 'action' => 'log', 'id' => $dataset['view_job_id']]),
-            ['aria-label' => sprintf($this->translate('View log for %s'), $dataset['label']), 'target' => '_blank']
-        ); ?></p>
+            ['aria-label' => sprintf($this->translate('View log for %s'), $dataset['label'])]
+        ); ?>
+        <?php endif; ?>
+        <p class="demo-data-meta"><?php echo implode(' &middot; ', $links); ?></p>
         <?php endif; ?>
 
         <?php if (!$dataset['pending_action']): ?>
@@ -85,7 +88,6 @@ $csrfValue = $csrf->getValue();
             <?php endif; ?>
         </div>
         <?php endif; ?>
-    </div>
 </div>
 <?php endforeach; ?>
 </div>

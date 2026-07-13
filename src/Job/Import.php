@@ -171,7 +171,8 @@ class Import extends AbstractDemoDataJob
 
     private function buildItemPayload(array $item): array
     {
-        $payload = ['o:is_public' => true];
+        // Explicit empty array prevents Omeka from auto-assigning to sites where assignNewItems=true.
+        $payload = ['o:is_public' => true, 'o:site' => []];
 
         if ($this->templateId) {
             $payload['o:resource_template'] = ['o:id' => $this->templateId];

@@ -143,7 +143,7 @@ class RightsBuilder
         }
 
         // Phase 3: Fetch extmetadata and build rights map
-        $rightsMap = []; // id => rights string
+        $rightsMap = []; // id => ['license' => ..., 'contributor' => ...]
         foreach ($filenameMap as $id => $filename) {
             $meta = $this->fetchExtmetadata($filename);
             if ($meta === null) {
@@ -156,7 +156,8 @@ class RightsBuilder
                 continue;
             }
             $rightsMap[$id] = $rights;
-            echo "  $id: '$rights' (via '$filename')\n";
+            $summary = $rights['license'] . ($rights['contributor'] !== null ? " | contributor: {$rights['contributor']}" : '');
+            echo "  $id: '$summary' (via '$filename')\n";
         }
 
         echo "\nResolved: " . count($rightsMap) . " / $pending\n";
@@ -266,13 +267,20 @@ class RightsBuilder
         return $title ? substr($title, 5) : null; // strip "File:" prefix
     }
 
-    private function injectRights(mixed $media, string $rights): mixed
+    private function injectRights(mixed $media, array $rights): mixed
     {
         if (is_string($media)) {
-            return ['file' => $media, 'dcterms:rights' => $rights];
+            $entry = ['file' => $media, 'dcterms:rights' => $rights['license']];
+            if ($rights['contributor'] !== null) {
+                $entry['dcterms:contributor'] = $rights['contributor'];
+            }
+            return $entry;
         }
         if (is_array($media) && isset($media['file'])) {
-            $media['dcterms:rights'] = $rights;
+            $media['dcterms:rights'] = $rights['license'];
+            if ($rights['contributor'] !== null) {
+                $media['dcterms:contributor'] = $rights['contributor'];
+            }
             return $media;
         }
         // Sequential array of dicts (multi-file) — inject into each entry
@@ -280,7 +288,10 @@ class RightsBuilder
             if (is_string($entry)) {
                 $entry = ['file' => $entry];
             }
-            $entry['dcterms:rights'] = $rights;
+            $entry['dcterms:rights'] = $rights['license'];
+            if ($rights['contributor'] !== null) {
+                $entry['dcterms:contributor'] = $rights['contributor'];
+            }
             return $entry;
         }, $media);
     }
@@ -371,7 +382,7 @@ class RightsBuilder
         return $page['imageinfo'][0]['extmetadata'] ?? null;
     }
 
-    private function formatRights(?array $meta): ?string
+    private function formatRights(?array $meta): ?array
     {
         if (!$meta) {
             return null;
@@ -382,7 +393,7 @@ class RightsBuilder
         }
         $artist = html_entity_decode(strip_tags($meta['Artist']['value'] ?? ''), ENT_QUOTES | ENT_HTML5, 'UTF-8');
         $artist = trim(preg_replace('/\s+/', ' ', $artist));
-        return $artist !== '' ? "$license | $artist" : $license;
+        return ['license' => $license, 'contributor' => $artist !== '' ? $artist : null];
     }
 
     private function commonsGet(string $url): ?array

@@ -137,6 +137,7 @@ return [
                 [
                     'file' => 'hatshepsut.png',
                     'dcterms:title' => 'Hatshepsut',
+                    'dcterms:rights' => 'CC BY-SA 2.5 | Keith Schengili-Roberts',
                 ],
             ],
         ],
@@ -200,6 +201,7 @@ return [
                 [
                     'file' => 'cleopatra-vii.jpg',
                     'dcterms:title' => 'Cleopatra VII',
+                    'dcterms:rights' => 'Public domain | Louis le Grand',
                 ],
             ],
         ],
@@ -256,6 +258,7 @@ return [
                 [
                     'file' => 'hypatia.jpg',
                     'dcterms:title' => 'Hypatia',
+                    'dcterms:rights' => 'Public domain | Elbert Hubbard (June 19, 1856 – May 7, 1915)',
                 ],
             ],
         ],
@@ -314,6 +317,7 @@ return [
                 [
                     'file' => 'wu-zetian.png',
                     'dcterms:title' => 'Wu Zetian',
+                    'dcterms:rights' => 'Public domain | Likely to be Zhang Xuan (张萱)',
                 ],
             ],
         ],
@@ -373,6 +377,7 @@ return [
                 [
                     'file' => 'murasaki-shikibu.png',
                     'dcterms:title' => 'Murasaki Shikibu',
+                    'dcterms:rights' => 'Public domain | Tosa Mitsuoki (1617 - 1691)',
                 ],
             ],
         ],
@@ -420,12 +425,6 @@ return [
             'map_coordinates' => [
                 60.3587,
                 41.38,
-            ],
-            'media' => [
-                [
-                    'file' => 'al-khwarizmi.jpg',
-                    'dcterms:title' => 'Al-Khwarizmi',
-                ],
             ],
         ],
         [
@@ -489,6 +488,7 @@ return [
                 [
                     'file' => 'ibn-al-haytham.jpg',
                     'dcterms:title' => 'Ibn al-Haytham',
+                    'dcterms:rights' => 'CC BY-SA 4.0 | Michel Bakni',
                 ],
             ],
         ],
@@ -552,6 +552,7 @@ return [
                 [
                     'file' => 'ibn-sina.jpg',
                     'dcterms:title' => 'Ibn Sina',
+                    'dcterms:rights' => 'Public domain | Adam Jones from Kelowna, BC, Canada',
                 ],
             ],
         ],
@@ -616,6 +617,7 @@ return [
                 [
                     'file' => 'hildegard-of-bingen.jpg',
                     'dcterms:title' => 'Hildegard of Bingen',
+                    'dcterms:rights' => 'Public domain | Unknown authorUnknown author',
                 ],
             ],
         ],
@@ -677,6 +679,7 @@ return [
                 [
                     'file' => 'nasir-al-din-al-tusi.jpg',
                     'dcterms:title' => 'Nasir al-Din al-Tusi',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -739,6 +742,7 @@ return [
                 [
                     'file' => 'rumi.jpg',
                     'dcterms:title' => 'Rumi',
+                    'dcterms:rights' => 'Public domain | Unknown authorUnknown author',
                 ],
             ],
         ],
@@ -795,6 +799,7 @@ return [
                 [
                     'file' => 'sundiata-keita.jpg',
                     'dcterms:title' => 'Sundiata Keita',
+                    'dcterms:rights' => 'Public domain | Unknown authorUnknown author',
                 ],
             ],
         ],
@@ -850,6 +855,7 @@ return [
                 [
                     'file' => 'christine-de-pizan.jpg',
                     'dcterms:title' => 'Christine de Pizan',
+                    'dcterms:rights' => 'Public domain | photography The British Library Board, Harley 4431, f.259v',
                 ],
             ],
         ],
@@ -910,6 +916,7 @@ return [
                 [
                     'file' => 'ibn-battuta.jpg',
                     'dcterms:title' => 'Ibn Battuta',
+                    'dcterms:rights' => 'CC BY-SA 4.0 | Ideophagous',
                 ],
             ],
         ],
@@ -970,6 +977,7 @@ return [
                 [
                     'file' => 'mansa-musa.jpg',
                     'dcterms:title' => 'Mansa Musa',
+                    'dcterms:rights' => 'Public domain | Cresques Abraham',
                 ],
             ],
         ],
@@ -1030,6 +1038,7 @@ return [
                 [
                     'file' => 'zheng-he.jpg',
                     'dcterms:title' => 'Zheng He',
+                    'dcterms:rights' => 'CC BY-SA 4.0 | Marcin Konsek',
                 ],
             ],
         ],
@@ -1081,6 +1090,7 @@ return [
                 [
                     'file' => 'pachacuti.jpg',
                     'dcterms:title' => 'Pachacuti',
+                    'dcterms:rights' => 'CC BY-SA 4.0 | FUEJXJDK',
                 ],
             ],
         ],
@@ -1139,6 +1149,7 @@ return [
                 [
                     'file' => 'queen-nzinga.png',
                     'dcterms:title' => 'Queen Nzinga',
+                    'dcterms:rights' => 'Public domain | Achille Devéria',
                 ],
             ],
         ],
@@ -1199,6 +1210,7 @@ return [
                 [
                     'file' => 'copernicus.jpg',
                     'dcterms:title' => 'Nicolaus Copernicus',
+                    'dcterms:rights' => 'Public domain | Unknown authorUnknown author',
                 ],
             ],
         ],
@@ -1255,6 +1267,7 @@ return [
                 [
                     'file' => 'sor-juana.jpg',
                     'dcterms:title' => 'Sor Juana Inés de la Cruz',
+                    'dcterms:rights' => 'Public domain | Fray Miguel de Herrera',
                 ],
             ],
         ],
@@ -1311,6 +1324,7 @@ return [
                 [
                     'file' => 'galileo.jpg',
                     'dcterms:title' => 'Galileo Galilei',
+                    'dcterms:rights' => 'Public domain | Justus Sustermans',
                 ],
             ],
         ],
@@ -1362,6 +1376,7 @@ return [
                 [
                     'file' => 'isaac-newton.jpg',
                     'dcterms:title' => 'Isaac Newton',
+                    'dcterms:rights' => 'Public domain | James Thronill after Sir Godfrey Kneller',
                 ],
             ],
         ],
@@ -1411,6 +1426,7 @@ return [
                 [
                     'file' => 'mary-wollstonecraft.jpg',
                     'dcterms:title' => 'Mary Wollstonecraft',
+                    'dcterms:rights' => 'Public domain | John Opie',
                 ],
             ],
         ],
@@ -1462,6 +1478,7 @@ return [
                 [
                     'file' => 'ada-lovelace.png',
                     'dcterms:title' => 'Ada Lovelace',
+                    'dcterms:rights' => 'Public domain | Antoine Claudet',
                 ],
             ],
         ],
@@ -1512,6 +1529,7 @@ return [
                 [
                     'file' => 'charles-darwin.jpg',
                     'dcterms:title' => 'Charles Darwin',
+                    'dcterms:rights' => 'Public domain | Herbert Rose Barraud',
                 ],
             ],
         ],
@@ -1567,6 +1585,7 @@ return [
                 [
                     'file' => 'frederick-douglass.jpg',
                     'dcterms:title' => 'Frederick Douglass',
+                    'dcterms:rights' => 'Public domain | Engraved by J.C. Buttre from a daguerreotype.',
                 ],
             ],
         ],
@@ -1621,6 +1640,7 @@ return [
                 [
                     'file' => 'harriet-tubman.jpg',
                     'dcterms:title' => 'Harriet Tubman',
+                    'dcterms:rights' => 'Public domain | Horatio Seymour Squyer',
                 ],
             ],
         ],
@@ -1674,6 +1694,7 @@ return [
                 [
                     'file' => 'enheduanna.jpg',
                     'dcterms:title' => 'Enheduanna',
+                    'dcterms:rights' => 'CC0 | Mefman00',
                 ],
             ],
         ],
@@ -1737,6 +1758,7 @@ return [
                 [
                     'file' => 'sappho.jpg',
                     'dcterms:title' => 'Sappho',
+                    'dcterms:rights' => 'Public domain | Marie-Lan Nguyen',
                 ],
             ],
         ],
@@ -1802,6 +1824,7 @@ return [
                 [
                     'file' => 'confucius.jpg',
                     'dcterms:title' => 'Confucius',
+                    'dcterms:rights' => 'Public domain | Anonymous Chinese painter of the Western Han period',
                 ],
             ],
         ],
@@ -1862,6 +1885,7 @@ return [
                 [
                     'file' => 'archimedes.jpg',
                     'dcterms:title' => 'Archimedes',
+                    'dcterms:rights' => 'Public domain | Domenico Fetti',
                 ],
             ],
         ],
@@ -1925,6 +1949,7 @@ return [
                 [
                     'file' => 'ashoka.jpg',
                     'dcterms:title' => 'Ashoka',
+                    'dcterms:rights' => 'CC BY 2.0 | Photo Dharma from Sadao, Thailand',
                 ],
             ],
         ],
@@ -1984,6 +2009,7 @@ return [
                 [
                     'file' => 'zhang-heng.jpg',
                     'dcterms:title' => 'Zhang Heng',
+                    'dcterms:rights' => 'CC BY-SA 4.0 | Windmemories',
                 ],
             ],
         ],
@@ -2041,6 +2067,7 @@ return [
                 [
                     'file' => 'zenobia.jpg',
                     'dcterms:title' => 'Zenobia',
+                    'dcterms:rights' => 'Public domain | Sir Edward Poynter (1878)',
                 ],
             ],
         ],
@@ -2095,12 +2122,6 @@ return [
             'map_coordinates' => [
                 28.9784,
                 41.0082,
-            ],
-            'media' => [
-                [
-                    'file' => 'theodora.jpg',
-                    'dcterms:title' => 'Theodora',
-                ],
             ],
         ],
         [
@@ -2157,6 +2178,7 @@ return [
                 [
                     'file' => 'fatima-al-fihri.jpg',
                     'dcterms:title' => 'Fatima al-Fihri',
+                    'dcterms:rights' => 'CC BY-SA 4.0 | Anass Sedrati',
                 ],
             ],
         ],
@@ -2219,6 +2241,7 @@ return [
                 [
                     'file' => 'razia-sultana.jpg',
                     'dcterms:title' => 'Razia Sultana',
+                    'dcterms:rights' => 'Public domain | Unknown authorUnknown author',
                 ],
             ],
         ],
@@ -2276,6 +2299,7 @@ return [
                 [
                     'file' => 'mirabai.jpg',
                     'dcterms:title' => 'Mirabai',
+                    'dcterms:rights' => 'CC BY 3.0 | Onef9day',
                 ],
             ],
         ],
@@ -2333,6 +2357,7 @@ return [
                 [
                     'file' => 'suleiman-the-magnificent.jpg',
                     'dcterms:title' => 'Suleiman the Magnificent',
+                    'dcterms:rights' => 'Public domain | Suleymanname, 1558',
                 ],
             ],
         ],
@@ -2396,6 +2421,7 @@ return [
                 [
                     'file' => 'akbar.jpg',
                     'dcterms:title' => 'Akbar',
+                    'dcterms:rights' => 'Public domain | 1605 artist',
                 ],
             ],
         ],
@@ -2452,6 +2478,7 @@ return [
                 [
                     'file' => 'yi-sun-sin.jpg',
                     'dcterms:title' => 'Yi Sun-sin',
+                    'dcterms:rights' => 'KOGL Type 1 | Unknown, War Memorial of Korea',
                 ],
             ],
         ],
@@ -2508,6 +2535,7 @@ return [
                 [
                     'file' => 'toussaint-louverture.jpg',
                     'dcterms:title' => 'Toussaint Louverture',
+                    'dcterms:rights' => 'Public domain | Unknown authorUnknown author',
                 ],
             ],
         ],
@@ -2565,6 +2593,7 @@ return [
                 [
                     'file' => 'tecumseh.jpg',
                     'dcterms:title' => 'Tecumseh',
+                    'dcterms:rights' => 'Public domain | attributed to Owen Staples (1866–1949), based on the engraving published by Benson John Lossing[1]',
                 ],
             ],
         ],
@@ -2623,6 +2652,7 @@ return [
                 [
                     'file' => 'sojourner-truth.jpg',
                     'dcterms:title' => 'Sojourner Truth',
+                    'dcterms:rights' => 'Public domain | Sojourner Truth',
                 ],
             ],
         ],
@@ -2672,12 +2702,6 @@ return [
             'map_coordinates' => [
                 -1.6083,
                 6.6885,
-            ],
-            'media' => [
-                [
-                    'file' => 'yaa-asantewaa.jpg',
-                    'dcterms:title' => 'Yaa Asantewaa',
-                ],
             ],
         ],
         [
@@ -2738,6 +2762,7 @@ return [
                 [
                     'file' => 'nikola-tesla.jpeg',
                     'dcterms:title' => 'Nikola Tesla',
+                    'dcterms:rights' => 'Public domain | Napoleon Sarony',
                 ],
             ],
         ],
@@ -2791,6 +2816,7 @@ return [
                 [
                     'file' => 'ida-b-wells.jpg',
                     'dcterms:title' => 'Ida B. Wells',
+                    'dcterms:rights' => 'Public domain | Adam Cuerden',
                 ],
             ],
         ],
@@ -2848,6 +2874,7 @@ return [
                 [
                     'file' => 'marie-curie.jpg',
                     'dcterms:title' => 'Marie Curie',
+                    'dcterms:rights' => 'Public domain | Benjamin Couprie',
                 ],
             ],
         ],
@@ -2900,6 +2927,7 @@ return [
                 [
                     'file' => 'web-du-bois.jpg',
                     'dcterms:title' => 'W. E. B. Du Bois',
+                    'dcterms:rights' => 'CC0 | James E. Purdy / Adam Cuerden',
                 ],
             ],
         ],
@@ -2958,6 +2986,7 @@ return [
                 [
                     'file' => 'srinivasa-ramanujan.jpg',
                     'dcterms:title' => 'Srinivasa Ramanujan',
+                    'dcterms:rights' => 'Public domain | Konrad Jacobs',
                 ],
             ],
         ],
@@ -3015,6 +3044,7 @@ return [
                 [
                     'file' => 'aspasia.jpg',
                     'dcterms:title' => 'Aspasia',
+                    'dcterms:rights' => 'CC BY 3.0 | Daigaz',
                 ],
             ],
         ],
@@ -3075,6 +3105,7 @@ return [
                 [
                     'file' => 'nagarjuna.jpg',
                     'dcterms:title' => 'Nāgārjuna',
+                    'dcterms:rights' => 'Copyrighted free use',
                 ],
             ],
         ],
@@ -3129,6 +3160,7 @@ return [
                 [
                     'file' => 'hannibal.jpg',
                     'dcterms:title' => 'Hannibal Barca',
+                    'dcterms:rights' => 'Public domain | Fratelli Alinari',
                 ],
             ],
         ],
@@ -3180,6 +3212,7 @@ return [
                 [
                     'file' => 'boudicca.jpg',
                     'dcterms:title' => 'Boudicca',
+                    'dcterms:rights' => 'Public domain | Charles Hamilton Smith',
                 ],
             ],
         ],
@@ -3233,6 +3266,7 @@ return [
                 [
                     'file' => 'trung-trac.jpg',
                     'dcterms:title' => 'Trưng Trắc',
+                    'dcterms:rights' => 'Public domain | own photo',
                 ],
             ],
         ],
@@ -3294,6 +3328,7 @@ return [
                 [
                     'file' => 'omar-khayyam.jpg',
                     'dcterms:title' => 'Omar Khayyam',
+                    'dcterms:rights' => 'CC BY-SA 3.0 | The original uploader was Atilin at French Wikipedia.',
                 ],
             ],
         ],
@@ -3347,6 +3382,7 @@ return [
                 [
                     'file' => 'al-idrisi.jpg',
                     'dcterms:title' => 'Al-Idrisi',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -3405,6 +3441,7 @@ return [
                 [
                     'file' => 'ibn-khaldun.jpg',
                     'dcterms:title' => 'Ibn Khaldun',
+                    'dcterms:rights' => 'CC BY-SA 4.0 | Reda Kerbush',
                 ],
             ],
         ],
@@ -3460,6 +3497,7 @@ return [
                 [
                     'file' => 'afonso-i-kongo.png',
                     'dcterms:title' => 'Afonso I of Kongo',
+                    'dcterms:rights' => 'CC BY 3.0 | Samhanin',
                 ],
             ],
         ],
@@ -3513,6 +3551,7 @@ return [
                 [
                     'file' => 'las-casas.jpg',
                     'dcterms:title' => 'Bartolomé de las Casas',
+                    'dcterms:rights' => 'Public domain | anonymous / Unidentified painter',
                 ],
             ],
         ],
@@ -3570,6 +3609,7 @@ return [
                 [
                     'file' => 'elizabeth-i.jpg',
                     'dcterms:title' => 'Elizabeth I',
+                    'dcterms:rights' => 'Public domain | Unidentified painter',
                 ],
             ],
         ],
@@ -3624,6 +3664,7 @@ return [
                 [
                     'file' => 'kepler.jpg',
                     'dcterms:title' => 'Johannes Kepler',
+                    'dcterms:rights' => 'Public domain | Hans von Aachen',
                 ],
             ],
         ],
@@ -3682,6 +3723,7 @@ return [
                 [
                     'file' => 'ching-shih.jpg',
                     'dcterms:title' => 'Ching Shih',
+                    'dcterms:rights' => 'Public domain | Unknown authorUnknown author',
                 ],
             ],
         ],
@@ -3738,6 +3780,7 @@ return [
                 [
                     'file' => 'olaudah-equiano.png',
                     'dcterms:title' => 'Olaudah Equiano',
+                    'dcterms:rights' => 'Public domain | Unknown authorUnknown author',
                 ],
             ],
         ],
@@ -3789,6 +3832,7 @@ return [
                 [
                     'file' => 'simon-bolivar.jpg',
                     'dcterms:title' => 'Simón Bolívar',
+                    'dcterms:rights' => 'Public domain | Ricardo Acevedo Bernal',
                 ],
             ],
         ],
@@ -3847,6 +3891,7 @@ return [
                 [
                     'file' => 'sacagawea.jpg',
                     'dcterms:title' => 'Sacagawea',
+                    'dcterms:rights' => 'Public domain | Edgar Samuel Paxson',
                 ],
             ],
         ],
@@ -3908,6 +3953,7 @@ return [
                 [
                     'file' => 'cixi.png',
                     'dcterms:title' => 'Empress Dowager Cixi',
+                    'dcterms:rights' => 'Public domain | John Yu Shuinling',
                 ],
             ],
         ],
@@ -3959,6 +4005,7 @@ return [
                 [
                     'file' => 'mary-seacole.jpg',
                     'dcterms:title' => 'Mary Seacole',
+                    'dcterms:rights' => 'Public domain | Albert Charles Challen',
                 ],
             ],
         ],
@@ -4014,6 +4061,7 @@ return [
                 [
                     'file' => 'lakshmibai.jpg',
                     'dcterms:title' => 'Lakshmibai',
+                    'dcterms:rights' => 'Public domain | AnonymousUnknown author',
                 ],
             ],
         ],
@@ -4075,6 +4123,7 @@ return [
                 [
                     'file' => 'rabindranath-tagore.jpg',
                     'dcterms:title' => 'Rabindranath Tagore',
+                    'dcterms:rights' => 'Public domain | Generalstabens litografiska anstalt',
                 ],
             ],
         ],
@@ -4128,6 +4177,7 @@ return [
                 [
                     'file' => 'lise-meitner.jpg',
                     'dcterms:title' => 'Lise Meitner',
+                    'dcterms:rights' => 'Public domain | Smithsonian Institution',
                 ],
             ],
         ],
@@ -4183,6 +4233,7 @@ return [
                 [
                     'file' => 'emmy-noether.jpg',
                     'dcterms:title' => 'Emmy Noether',
+                    'dcterms:rights' => 'CC BY-SA 2.0 de | Konrad Jacobs, Erlangen',
                 ],
             ],
         ],
@@ -4246,6 +4297,7 @@ return [
                 [
                     'file' => 'mahatma-gandhi.jpg',
                     'dcterms:title' => 'Mahatma Gandhi',
+                    'dcterms:rights' => 'Public domain | Elliott & Fry',
                 ],
             ],
         ],
@@ -4299,6 +4351,7 @@ return [
                 [
                     'file' => 'alan-turing.jpg',
                     'dcterms:title' => 'Alan Turing',
+                    'dcterms:rights' => 'Public domain | Elliott & Fry',
                 ],
             ],
         ],
@@ -4357,6 +4410,7 @@ return [
                 [
                     'file' => 'imhotep.jpg',
                     'dcterms:title' => 'Imhotep',
+                    'dcterms:rights' => 'CC BY-SA 3.0 fr | Rama',
                 ],
             ],
         ],
@@ -4418,6 +4472,7 @@ return [
                 [
                     'file' => 'sargon-of-akkad.jpg',
                     'dcterms:title' => 'Sargon of Akkad',
+                    'dcterms:rights' => 'Public domain | Unknown authorUnknown author',
                 ],
             ],
         ],
@@ -4475,6 +4530,7 @@ return [
                 [
                     'file' => 'himiko.jpg',
                     'dcterms:title' => 'Himiko',
+                    'dcterms:rights' => 'CC BY-SA 4.0 | Naokijp',
                 ],
             ],
         ],
@@ -4533,6 +4589,7 @@ return [
                 [
                     'file' => 'li-bai.png',
                     'dcterms:title' => 'Li Bai',
+                    'dcterms:rights' => 'Public domain | Unknown authorUnknown author ',
                 ],
             ],
         ],
@@ -4594,6 +4651,7 @@ return [
                 [
                     'file' => 'averroes.jpg',
                     'dcterms:title' => 'Averroes',
+                    'dcterms:rights' => 'CC BY 3.0 | Saleemzohaib',
                 ],
             ],
         ],
@@ -4652,6 +4710,7 @@ return [
                 [
                     'file' => 'maimonides.jpg',
                     'dcterms:title' => 'Maimonides',
+                    'dcterms:rights' => 'Public domain | Blaisio Ugolino',
                 ],
             ],
         ],
@@ -4712,6 +4771,7 @@ return [
                 [
                     'file' => 'tamar-of-georgia.jpg',
                     'dcterms:title' => 'Tamar of Georgia',
+                    'dcterms:rights' => 'Public domain | 13th century painter',
                 ],
             ],
         ],
@@ -4767,6 +4827,7 @@ return [
                 [
                     'file' => 'khutulun.jpeg',
                     'dcterms:title' => 'Khutulun',
+                    'dcterms:rights' => 'Public domain | Maître de la Mazarine',
                 ],
             ],
         ],
@@ -4827,6 +4888,7 @@ return [
                 [
                     'file' => 'amina-of-zaria.jpg',
                     'dcterms:title' => 'Amina of Zaria',
+                    'dcterms:rights' => 'CC BY-SA 4.0 | Solasly',
                 ],
             ],
         ],
@@ -4884,6 +4946,7 @@ return [
                 [
                     'file' => 'tokugawa-ieyasu.jpg',
                     'dcterms:title' => 'Tokugawa Ieyasu',
+                    'dcterms:rights' => 'Public domain | Kanō Tan\'yū',
                 ],
             ],
         ],
@@ -4937,6 +5000,7 @@ return [
                 [
                     'file' => 'john-locke.png',
                     'dcterms:title' => 'John Locke',
+                    'dcterms:rights' => 'Public domain | Godfrey Kneller',
                 ],
             ],
         ],
@@ -4993,6 +5057,7 @@ return [
                 [
                     'file' => 'leibniz.jpg',
                     'dcterms:title' => 'Gottfried Wilhelm Leibniz',
+                    'dcterms:rights' => 'Public domain | Christoph Bernhard Francke',
                 ],
             ],
         ],
@@ -5048,6 +5113,7 @@ return [
                 [
                     'file' => 'nanny-of-the-maroons.jpg',
                     'dcterms:title' => 'Nanny of the Maroons',
+                    'dcterms:rights' => 'CC0 | Jamaica1962',
                 ],
             ],
         ],
@@ -5099,6 +5165,7 @@ return [
                 [
                     'file' => 'voltaire.jpg',
                     'dcterms:title' => 'Voltaire',
+                    'dcterms:rights' => 'CC0 | Nicolas de Largillière',
                 ],
             ],
         ],
@@ -5159,6 +5226,7 @@ return [
                 [
                     'file' => 'cao-xueqin.jpg',
                     'dcterms:title' => 'Cao Xueqin',
+                    'dcterms:rights' => 'CC BY-SA 3.0 | User:Yongxinge',
                 ],
             ],
         ],
@@ -5214,6 +5282,7 @@ return [
                 [
                     'file' => 'kamehameha-i.jpg',
                     'dcterms:title' => 'Kamehameha I',
+                    'dcterms:rights' => 'Public domain | Louis Choris',
                 ],
             ],
         ],
@@ -5272,6 +5341,7 @@ return [
                 [
                     'file' => 'sequoyah.jpg',
                     'dcterms:title' => 'Sequoyah',
+                    'dcterms:rights' => 'Public domain | Lithographer: Lehman and Duval (George Lehman (d.1870); Peter S. Duval) Painter: Henry Inman (1801-20-28 - 1846-01-17); copy after a painting by Charles Bird King (1785 - 1862) which was lost in a fire in the Smithsonian in 1865.',
                 ],
             ],
         ],
@@ -5329,6 +5399,7 @@ return [
                 [
                     'file' => 'shaka.jpg',
                     'dcterms:title' => 'Shaka',
+                    'dcterms:rights' => 'Public domain | James King',
                 ],
             ],
         ],
@@ -5380,6 +5451,7 @@ return [
                 [
                     'file' => 'mary-shelley.jpg',
                     'dcterms:title' => 'Mary Shelley',
+                    'dcterms:rights' => 'Public domain | Richard Rothwell',
                 ],
             ],
         ],
@@ -5430,6 +5502,7 @@ return [
                 [
                     'file' => 'mary-anning.jpg',
                     'dcterms:title' => 'Mary Anning',
+                    'dcterms:rights' => 'Public domain | Credited to \'Mr. Grey\' in Crispin Tickell\'s book \'Mary Anning of Lyme Regis\' (1996)',
                 ],
             ],
         ],
@@ -5481,6 +5554,7 @@ return [
                 [
                     'file' => 'george-eliot.jpg',
                     'dcterms:title' => 'George Eliot',
+                    'dcterms:rights' => 'Public domain | replica by François D’Albert Durade (1804–1886)',
                 ],
             ],
         ],
@@ -5536,6 +5610,7 @@ return [
                 [
                     'file' => 'florence-nightingale.jpg',
                     'dcterms:title' => 'Florence Nightingale',
+                    'dcterms:rights' => 'Public domain | Henry Hering (1814-1893)',
                 ],
             ],
         ],
@@ -5591,6 +5666,7 @@ return [
                 [
                     'file' => 'sitting-bull.jpg',
                     'dcterms:title' => 'Sitting Bull',
+                    'dcterms:rights' => 'Public domain | David Francis Barry',
                 ],
             ],
         ],
@@ -5642,6 +5718,7 @@ return [
                 [
                     'file' => 'james-clerk-maxwell.jpg',
                     'dcterms:title' => 'James Clerk Maxwell',
+                    'dcterms:rights' => 'Public domain | Unknown authorUnknown author',
                 ],
             ],
         ],
@@ -5695,12 +5772,6 @@ return [
                 118.7969,
                 32.0603,
             ],
-            'media' => [
-                [
-                    'file' => 'wang-zhenyi.jpg',
-                    'dcterms:title' => 'Wang Zhenyi',
-                ],
-            ],
         ],
         [
             'id' => 'rosalind-franklin',
@@ -5752,6 +5823,7 @@ return [
                 [
                     'file' => 'rosalind-franklin.jpg',
                     'dcterms:title' => 'Rosalind Franklin',
+                    'dcterms:rights' => 'CC BY-SA 4.0 | MRC Laboratory of Molecular Biology',
                 ],
             ],
         ],

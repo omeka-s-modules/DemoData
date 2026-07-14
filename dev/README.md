@@ -9,6 +9,7 @@ Build tools for the DemoData module. None of these files are shipped with the mo
 | `build-identifiers.php` | Looks up Wikidata entity URIs and injects them as `dcterms:identifier` values |
 | `build-labels.php` | Fetches native-script Wikidata labels and injects them as language-tagged `dcterms:title` values |
 | `build-media.php` | Fetches and downloads media files for a dataset from Wikidata/Wikimedia Commons |
+| `build-rights.php` | Fetches license and attribution from Wikimedia Commons and injects `dcterms:rights` into media entries |
 | `config.php` | Local config — Wikimedia API credentials (**gitignored**) |
 | `config.php.dist` | Template for `config.php` |
 | `strategies/` | Per-dataset overrides for `build-identifiers.php` and `build-media.php` |
@@ -73,6 +74,38 @@ php dev/build-media.php <dataset> --dry-run # report URLs only, no writes
 ```
 
 Re-running is safe — only items with no `media` key or a missing file are processed.
+
+---
+
+## build-rights.php
+
+Fetches license and attribution information from Wikimedia Commons for each media
+entry that does not already have `dcterms:rights`, and injects it into the dataset
+PHP file.
+
+For items with a Wikidata QID, images are located via a SPARQL `wdt:P18` lookup.
+For items where P18 returns no result, the script falls back to a Commons filename
+search by title and creator, and also checks `commons_file_overrides` in the
+dataset strategy file.
+
+Requires items to have a Wikidata QID in `dcterms:identifier` or a
+`commons_file_overrides` entry in the strategy file. Documents is not supported
+(no QIDs and no strategy overrides).
+
+```
+php dev/build-rights.php <dataset>           # fetch and inject
+php dev/build-rights.php <dataset> --dry-run # report only, no writes
+```
+
+Re-running is safe — media entries that already have `dcterms:rights` are skipped.
+
+Combines the Commons `LicenseShortName` with the `Artist` field (HTML stripped). Examples:
+
+```
+Public domain
+CC BY-SA 4.0
+CC BY-SA 4.0 | Photo by Jane Smith
+```
 
 ---
 
@@ -205,11 +238,16 @@ inactive.
 Three forms are valid for the `media` key:
 
 ```php
-// 1. Bare string — single file, no properties (what build-media.php injects)
+// 1. Bare string — single file, no properties
 'media' => 'my-item.jpg',
 
 // 2. Single file with properties
-'media' => ['file' => 'my-item.jpg', 'dcterms:title' => 'My Item', 'dcterms:creator' => 'Artist'],
+'media' => [
+    'file'            => 'my-item.jpg',
+    'dcterms:title'   => 'My Item',
+    'dcterms:creator' => 'Artist',
+    'dcterms:rights'  => 'Public domain',
+],
 
 // 3. Multiple files with properties
 'media' => [
@@ -249,6 +287,13 @@ php dev/build-media.php my-dataset
 ```
 
 Create `dev/strategies/my-dataset.php` for any items either script cannot match correctly.
+
+### 6. Fetch rights
+
+```
+php dev/build-rights.php my-dataset --dry-run
+php dev/build-rights.php my-dataset
+```
 
 ---
 

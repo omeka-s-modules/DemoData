@@ -150,8 +150,8 @@ class MediaBuilder
         $downloaded = $failed = 0;
         $mediaMap = [];
 
-        foreach ($urlMap as $id => $url) {
-            $filename = $this->downloadImage($url, $id);
+        foreach ($urlMap as $id => $entry) {
+            $filename = $this->downloadImage($entry['url'], $id);
             if ($filename) {
                 $mediaMap[$id] = $filename;
                 $downloaded++;

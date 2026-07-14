@@ -86,6 +86,7 @@ return [
                 [
                     'file' => 'lincoln-brayman-1854.tif',
                     'dcterms:title' => 'Abraham Lincoln Letter to Mr. Brayman, September 23, 1854',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -117,6 +118,7 @@ return [
                 [
                     'file' => 'einstein-brunauer-may-1943.tif',
                     'dcterms:title' => 'Albert Einstein Letter to Lt. Stephen Brunauer, U.S. Navy Bureau of Ordnance, May 17, 1943',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -148,6 +150,7 @@ return [
                 [
                     'file' => 'leverett-fragment-1653.tif',
                     'dcterms:title' => 'John Leverett Letter Fragment, 1653',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -179,6 +182,7 @@ return [
                 [
                     'file' => 'burnett-letter-1726.tif',
                     'dcterms:title' => 'William Burnett Letter, May 24, 1726',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -210,6 +214,7 @@ return [
                 [
                     'file' => 'hopkins-hollenberg-1776.tif',
                     'dcterms:title' => 'Dan Hopkins Letter to Sam Hollenberg, August 22, 1776',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -241,6 +246,7 @@ return [
                 [
                     'file' => 'sullivan-jackson-1802.tif',
                     'dcterms:title' => 'James Sullivan Letter to Andrew Jackson, March 16, 1802',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -272,6 +278,7 @@ return [
                 [
                     'file' => 'davis-cist-1837.tif',
                     'dcterms:title' => 'John Davis Letter to Louis Cist, September 3, 1837',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -303,6 +310,7 @@ return [
                 [
                     'file' => 'morton-hamlin-1850.tif',
                     'dcterms:title' => 'Marcus Morton Letter to Hannibal Hamlin, March 16, 1850',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -334,6 +342,7 @@ return [
                 [
                     'file' => 'ware-letter-1840.tif',
                     'dcterms:title' => 'Reverend Henry Ware Letter, November 10, 1840',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -364,6 +373,7 @@ return [
                 [
                     'file' => 'schnitzler-diary-1917.tif',
                     'dcterms:title' => 'Arthur Schnitzler\'s Diary, 14 May 1917',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -395,6 +405,7 @@ return [
                 [
                     'file' => 'fersen-diary-1770.jpg',
                     'dcterms:title' => 'First Page of Axel von Fersen the Younger\'s Diary, 1770',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -427,6 +438,7 @@ return [
                 [
                     'file' => 'chopin-impressions-1894.jpg',
                     'dcterms:title' => 'Kate Chopin\'s Manuscript Book "Impressions," 1894–1895 (page 87)',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -458,6 +470,7 @@ return [
                 [
                     'file' => 'browne-diary-1855.jpg',
                     'dcterms:title' => 'Diary of Harriet Louisa Browne, 13 September 1855',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -489,6 +502,7 @@ return [
                 [
                     'file' => 'michinaga-diary-1010.jpg',
                     'dcterms:title' => 'Midō Kanpaku-ki (御堂関白記): Diary of Fujiwara no Michinaga',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -522,6 +536,7 @@ return [
                 [
                     'file' => 'zimmermann-telegram-1917.jpg',
                     'dcterms:title' => 'Zimmermann Telegram as Received by the German Ambassador to Mexico',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -554,6 +569,7 @@ return [
                 [
                     'file' => 'cia-nie-11-3-71.pdf',
                     'dcterms:title' => 'Memo to Holders of NIE 11-3-71, Soviet Strategic Defenses',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -586,6 +602,7 @@ return [
                 [
                     'file' => 'cia-nie-11-10-63.jpg',
                     'dcterms:title' => 'Memo to Holders of NIE 11-10-63, Soviet Capabilities and Intentions with Respect to Chemical Warfare',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -620,6 +637,7 @@ return [
                 [
                     'file' => 'clinton-yeltsin-memcon-1993.pdf',
                     'dcterms:title' => 'Memorandum of Conversation between President Clinton and President Yeltsin',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -652,6 +670,7 @@ return [
                 [
                     'file' => 'fdr-manhattan-project-1942.jpg',
                     'dcterms:title' => 'FDR Approves the Creation of the Manhattan Project, 17 June 1942',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -683,22 +702,27 @@ return [
                 [
                     'file' => 'emancipation-proclamation-1862-1.jpg',
                     'dcterms:title' => 'Page 1',
+                    'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'emancipation-proclamation-1862-2.jpg',
                     'dcterms:title' => 'Page 2',
+                    'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'emancipation-proclamation-1862-3.jpg',
                     'dcterms:title' => 'Page 3',
+                    'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'emancipation-proclamation-1862-4.jpg',
                     'dcterms:title' => 'Page 4',
+                    'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'emancipation-proclamation-1862-5.jpg',
                     'dcterms:title' => 'Page 5',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -730,14 +754,17 @@ return [
                 [
                     'file' => 'gettysburg-address-bliss-1864-1.jpg',
                     'dcterms:title' => 'Page 1',
+                    'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'gettysburg-address-bliss-1864-2.jpg',
                     'dcterms:title' => 'Page 2',
+                    'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'gettysburg-address-bliss-1864-3.jpg',
                     'dcterms:title' => 'Page 3',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -770,6 +797,7 @@ return [
                 [
                     'file' => 'honolulu-star-bulletin-1941.jpg',
                     'dcterms:title' => 'Honolulu Star-Bulletin, December 7, 1941 (Extra Edition) — "WAR!"',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -801,6 +829,7 @@ return [
                 [
                     'file' => 'nytimes-armistice-1918.jpg',
                     'dcterms:title' => 'New York Times, November 11, 1918 — Armistice Day Front Page',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -833,6 +862,7 @@ return [
                 [
                     'file' => 'aachener-nachrichten-1945.jpg',
                     'dcterms:title' => 'Aachener Nachrichten, May 8, 1945 — German Surrender (VE Day)',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -863,6 +893,7 @@ return [
                 [
                     'file' => 'nytimes-titanic-1912.jpg',
                     'dcterms:title' => 'New York Times, April 16, 1912 — Titanic Sinking Front Page',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -895,6 +926,7 @@ return [
                 [
                     'file' => 'berliner-borsen-zeitung-1914.png',
                     'dcterms:title' => 'Berliner Börsen-Zeitung No. 355, August 1, 1914 — World War I Outbreak',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -927,6 +959,7 @@ return [
                 [
                     'file' => 'pentagon-papers-vi-c-1.pdf',
                     'dcterms:title' => 'Pentagon Papers, Part VI-C-1',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -960,6 +993,7 @@ return [
                 [
                     'file' => 'project-solarium-task-force-c.jpg',
                     'dcterms:title' => 'Report to the National Security Council by Project Solarium Task Force C, Part 7 of 9',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -992,6 +1026,7 @@ return [
                 [
                     'file' => 'nuremberg-tribunal-ruling-1946.pdf',
                     'dcterms:title' => 'International Military Tribunal, Nuremberg – Germany, Ruling of the Tribunal',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1025,6 +1060,7 @@ return [
                 [
                     'file' => 'japanese-fo-doc-2748.jpg',
                     'dcterms:title' => 'Typewritten File of Japanese Foreign Office Documents Relating to Dutch-Japanese Commercial and Diplomatic Negotiations, 1940–1941 (Part 1)',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1057,6 +1093,7 @@ return [
                 [
                     'file' => 'dalembert-frederick-letters.tif',
                     'dcterms:title' => 'Three Months at the Court of Frederick the Great: Unpublished Letters',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1089,6 +1126,7 @@ return [
                 [
                     'file' => 'boufflers-senegal-diary.tif',
                     'dcterms:title' => 'Unpublished Journal of the Second Stay in Senegal, 1786–1787',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1120,6 +1158,7 @@ return [
                 [
                     'file' => 'stendhal-journal-1810.tif',
                     'dcterms:title' => 'Journal, 1810–1811',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1151,6 +1190,7 @@ return [
                 [
                     'file' => 'renan-seminary-letters.tif',
                     'dcterms:title' => 'Seminary Letters, 1838–1846',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1182,6 +1222,7 @@ return [
                 [
                     'file' => 'napoleon-josephine-1796.jpg',
                     'dcterms:title' => 'Napoleon Bonaparte Letter to Joséphine, April 3, 1796',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1213,6 +1254,7 @@ return [
                 [
                     'file' => 'abigail-adams-remember-ladies-1776.jpg',
                     'dcterms:title' => 'Abigail Adams Letter to John Adams ("Remember the Ladies"), March 31, 1776',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1245,6 +1287,7 @@ return [
                 [
                     'file' => 'galileo-jupiter-1610.jpg',
                     'dcterms:title' => 'Galileo Galilei, Manuscript Observations of Jupiter and its Satellites, January 7, 1610',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1276,18 +1319,22 @@ return [
                 [
                     'file' => 'mary-queen-scots-1587-1.jpg',
                     'dcterms:title' => 'Page 1',
+                    'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'mary-queen-scots-1587-2.jpg',
                     'dcterms:title' => 'Page 2',
+                    'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'mary-queen-scots-1587-3.jpg',
                     'dcterms:title' => 'Page 3',
+                    'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'mary-queen-scots-1587-4.jpg',
                     'dcterms:title' => 'Page 4',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1319,6 +1366,7 @@ return [
                 [
                     'file' => 'darwin-gray-1857.jpg',
                     'dcterms:title' => 'Charles Darwin Letter to Asa Gray, September 5, 1857',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1350,6 +1398,7 @@ return [
                 [
                     'file' => 'mozart-leopold-1777.jpg',
                     'dcterms:title' => 'Wolfgang Amadeus Mozart Birthday Letter to Leopold Mozart, November 8, 1777',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1382,6 +1431,7 @@ return [
                 [
                     'file' => 'nightingale-herbert-1855.jpg',
                     'dcterms:title' => 'Florence Nightingale Letter, July 5, 1856',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1413,6 +1463,7 @@ return [
                 [
                     'file' => 'chopin-kumelski-1831.jpg',
                     'dcterms:title' => 'Frédéric Chopin Letter to Norbert Alfonse Kumelski, November 18, 1831',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1444,6 +1495,7 @@ return [
                 [
                     'file' => 'bolivar-santander-1826.jpg',
                     'dcterms:title' => 'Simón Bolívar Letter to Francisco de Paula Santander, 1826',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1475,6 +1527,7 @@ return [
                 [
                     'file' => 'pepys-diary-1660.jpg',
                     'dcterms:title' => 'Samuel Pepys Diary, January 1, 1660',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1506,6 +1559,7 @@ return [
                 [
                     'file' => 'clark-journal-1805.jpg',
                     'dcterms:title' => 'William Clark Voorhis Journal No. 1, Page 1, April 1805',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1537,6 +1591,7 @@ return [
                 [
                     'file' => 'victoria-journal-1840.jpg',
                     'dcterms:title' => 'Queen Victoria\'s Journal, February 10, 1840 (Wedding Day)',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1568,6 +1623,7 @@ return [
                 [
                     'file' => 'tolstoy-diary-1851.jpg',
                     'dcterms:title' => 'Leo Tolstoy Diary, 1851',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1599,6 +1655,7 @@ return [
                 [
                     'file' => 'darwin-notebook-b-1837.png',
                     'dcterms:title' => 'Charles Darwin Notebook B: Transmutation of Species, 1837–1838',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1630,6 +1687,7 @@ return [
                 [
                     'file' => 'bronte-letter-1847.jpg',
                     'dcterms:title' => 'Charlotte Brontë Letter to Ellen Nussey, c. April 1847',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -1661,18 +1719,22 @@ return [
                 [
                     'file' => 'leonardo-notebook-1490s-1.jpg',
                     'dcterms:title' => 'Page 1',
+                    'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'leonardo-notebook-1490s-2.jpg',
                     'dcterms:title' => 'Page 2',
+                    'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'leonardo-notebook-1490s-3.jpg',
                     'dcterms:title' => 'Page 3',
+                    'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'leonardo-notebook-1490s-4.jpg',
                     'dcterms:title' => 'Page 4',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],

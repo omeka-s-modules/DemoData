@@ -1157,14 +1157,7 @@ return [
                 15,
                 -9,
             ],
-            'media' => [
-                [
-                    'file' => 'queen-nzinga.png',
-                    'dcterms:title' => 'Queen Nzinga',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Achille Devéria',
-                ],
-            ],
+            'media' => [],
         ],
         [
             'id' => 'copernicus',
@@ -2869,7 +2862,7 @@ return [
                 'srinivasa-ramanujan',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q6762812',
+                '@value' => 'https://www.wikidata.org/entity/Q7186',
                 '@type' => 'uri',
             ],
             'dcterms:title' => 'Marie Curie',
@@ -2911,7 +2904,6 @@ return [
                     'file' => 'marie-curie.jpg',
                     'dcterms:title' => 'Marie Curie',
                     'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Benjamin Couprie',
                 ],
             ],
         ],
@@ -3327,7 +3319,7 @@ return [
                 'rumi',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q1815018',
+                '@value' => 'https://www.wikidata.org/entity/Q35900',
                 '@type' => 'uri',
             ],
             'dcterms:title' => [
@@ -3389,7 +3381,7 @@ return [
                 'nasir-al-din-al-tusi',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q101914845',
+                '@value' => 'https://www.wikidata.org/entity/Q173441',
                 '@type' => 'uri',
             ],
             'dcterms:title' => 'Al-Idrisi',
@@ -4072,7 +4064,7 @@ return [
                 'yaa-asantewaa',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q130234684',
+                '@value' => 'https://www.wikidata.org/entity/Q181878',
                 '@type' => 'uri',
             ],
             'dcterms:title' => 'Lakshmibai',
@@ -4112,7 +4104,8 @@ return [
                 [
                     'file' => 'lakshmibai.jpg',
                     'dcterms:title' => 'Lakshmibai',
-                    'dcterms:rights' => 'Public domain',
+                    'dcterms:rights' => 'CC BY 2.0',
+                    'dcterms:contributor' => 'the lost gallery',
                 ],
             ],
         ],
@@ -4583,14 +4576,7 @@ return [
                 130.5,
                 33.5,
             ],
-            'media' => [
-                [
-                    'file' => 'himiko.jpg',
-                    'dcterms:title' => 'Himiko',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Naokijp',
-                ],
-            ],
+            'media' => [],
         ],
         [
             'id' => 'li-bai',
@@ -5428,7 +5414,7 @@ return [
                 'queen-nzinga',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q451624',
+                '@value' => 'https://www.wikidata.org/entity/Q27695',
                 '@type' => 'uri',
             ],
             'dcterms:title' => [

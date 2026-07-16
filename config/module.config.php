@@ -35,7 +35,7 @@ return [
                 'description' => 'Historical figures spanning science, literature, philosophy, exploration, and political leadership across cultures and centuries.',
                 'item_count' => 100,
                 'set_count' => 5,
-                'media_count' => 96,
+                'media_count' => 94,
                 'media_size' => '14 MB',
             ],
         ],

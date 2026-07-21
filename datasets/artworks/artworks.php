@@ -1794,6 +1794,10 @@ return [
             'relations' => [
                 'the-sleep-of-reason',
             ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q6185194',
+                '@type' => 'uri',
+            ],
             'dcterms:title' => 'Frontispiece to Jerusalem',
             'dcterms:creator' => 'William Blake',
             'dcterms:created' => [
@@ -2145,9 +2149,22 @@ return [
             'dcterms:medium' => 'Vellum',
             'dcterms:publisher' => 'Morgan Library, New York',
             'demo-data:movement' => 'Gothic',
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2195552',
+                '@type' => 'uri',
+            ],
             'map_coordinates' => [
                 -73.982,
                 40.7491,
+            ],
+            'media' => [
+                [
+                    'file' => 'book-of-hours-catherine-of-cleves.jpg',
+                    'dcterms:title' => 'Book of Hours of Catherine of Cleves',
+                    'dcterms:creator' => 'Unknown (Utrecht)',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Meester van Catharina van Kleef',
+                ],
             ],
         ],
         [
@@ -2625,6 +2642,7 @@ return [
                     'dcterms:title' => 'The Ghent Altarpiece',
                     'dcterms:creator' => 'Jan van Eyck and Hubert van Eyck',
                     'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Jan van Eyck / Presumably Hubert van Eyck',
                 ],
             ],
         ],
@@ -4947,7 +4965,7 @@ return [
             ],
         ],
         [
-            'id' => 'job-mucha',
+            'id' => 'medee-mucha',
             'class' => 'demo-data:Painting',
             'sets' => [
                 'main',
@@ -4958,26 +4976,39 @@ return [
                 'la-nature-mucha',
                 'the-kiss-klimt',
             ],
-            'dcterms:title' => 'Job (Cigarette Poster)',
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q4287637',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Médée',
             'dcterms:creator' => 'Alphonse Mucha',
             'dcterms:created' => [
-                '@value' => '1896',
+                '@value' => '1898',
                 '@type' => 'numeric:timestamp',
             ],
-            'dcterms:description' => 'Commercial poster for Job cigarette papers featuring a woman with flowing hair and an aureole of smoke, establishing Mucha\'s sinuous Art Nouveau ornamental style.',
+            'dcterms:description' => 'Theatrical poster for Sarah Bernhardt\'s 1898 production of Médée, depicting the sorceress brandishing a dagger against a golden ornamental backdrop — one of Mucha\'s most dramatic Art Nouveau compositions.',
             'dcterms:subject' => [
                 'Works on Paper',
                 'Art Nouveau',
                 'Czech',
                 'Poster',
-                'Commercial art',
+                'Theatre',
             ],
             'dcterms:medium' => 'Colour lithograph',
-            'dcterms:publisher' => 'Mucha Museum, Prague',
+            'dcterms:publisher' => 'Museum of Modern Art, New York',
             'demo-data:movement' => 'Art Nouveau',
             'map_coordinates' => [
-                14.426,
-                50.0841,
+                -73.9772,
+                40.7614,
+            ],
+            'media' => [
+                [
+                    'file' => 'medee-mucha.jpg',
+                    'dcterms:title' => 'Médée',
+                    'dcterms:creator' => 'Alphonse Mucha',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Alphonse Mucha',
+                ],
             ],
         ],
         [
@@ -4988,7 +5019,7 @@ return [
                 'paintings',
             ],
             'relations' => [
-                'job-mucha',
+                'medee-mucha',
                 'la-nature-mucha',
             ],
             'dcterms:identifier' => [
@@ -5034,7 +5065,7 @@ return [
                 'paintings',
             ],
             'relations' => [
-                'job-mucha',
+                'medee-mucha',
                 'gismonda-mucha',
             ],
             'dcterms:identifier' => [
@@ -6390,6 +6421,14 @@ return [
                 -0.0994,
                 51.5076,
             ],
+            'media' => [
+                [
+                    'file' => 'whaam.jpg',
+                    'dcterms:title' => 'Whaam!',
+                    'dcterms:rights' => 'CC0',
+                    'dcterms:contributor' => 'Eric Koch for Anefo',
+                ],
+            ],
         ],
         [
             'id' => 'drowning-girl',
@@ -7463,7 +7502,7 @@ return [
             ],
             'relations' => [
                 'plum-estate',
-                'cuckoo-and-azalea',
+                'fireworks-at-ryogoku',
                 'the-great-wave-off-kanagawa',
                 'red-fuji',
             ],
@@ -7548,7 +7587,7 @@ return [
             ],
         ],
         [
-            'id' => 'cuckoo-and-azalea',
+            'id' => 'fireworks-at-ryogoku',
             'class' => 'demo-data:WorkOnPaper',
             'sets' => [
                 'main',
@@ -7560,19 +7599,23 @@ return [
                 'the-great-wave-off-kanagawa',
                 'red-fuji',
             ],
-            'dcterms:title' => 'Cuckoo and Azalea',
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q19938878',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Fireworks at Ryogoku',
             'dcterms:creator' => 'Utagawa Hiroshige',
             'dcterms:created' => [
-                '@value' => '1833',
+                '@value' => '1858',
                 '@type' => 'numeric:timestamp',
             ],
-            'dcterms:description' => 'A cuckoo in flight above a spray of red azalea blossoms, from the series A Selection of Birds; the asymmetric placement and restrained palette exemplify haiku-like economy.',
+            'dcterms:description' => 'Plate 98 from One Hundred Famous Views of Edo, depicting summer fireworks bursting over the Sumida River at night, with silhouetted spectators below — a masterwork of atmospheric lighting in the woodblock medium.',
             'dcterms:subject' => [
                 'Works on Paper',
                 'Ukiyo-e',
                 'Japanese',
-                'Botanical',
-                'Bird',
+                'Landscape',
+                'Night scene',
             ],
             'dcterms:medium' => 'Woodblock print',
             'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
@@ -7580,6 +7623,15 @@ return [
             'map_coordinates' => [
                 -73.9632,
                 40.7794,
+            ],
+            'media' => [
+                [
+                    'file' => 'fireworks-at-ryogoku.jpg',
+                    'dcterms:title' => 'Fireworks at Ryogoku',
+                    'dcterms:creator' => 'Utagawa Hiroshige',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Utagawa Hiroshige (Ando), Japanese, 1797-1858',
+                ],
             ],
         ],
         [
@@ -7637,7 +7689,7 @@ return [
                 'book-of-hours-catherine-of-cleves',
                 'tres-riches-heures',
                 'belles-heures',
-                'windmill-psalter',
+                'lindisfarne-gospels',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q1516907',
@@ -7674,7 +7726,7 @@ return [
             ],
         ],
         [
-            'id' => 'windmill-psalter',
+            'id' => 'lindisfarne-gospels',
             'class' => 'demo-data:Manuscript',
             'sets' => [
                 'main',
@@ -7682,26 +7734,40 @@ return [
             ],
             'relations' => [
                 'luttrell-psalter',
+                'hours-of-jeanne-devreux',
             ],
-            'dcterms:title' => 'Windmill Psalter',
-            'dcterms:creator' => 'Unknown (English)',
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q80935',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Lindisfarne Gospels',
+            'dcterms:creator' => 'Eadfrith of Lindisfarne (attributed)',
             'dcterms:created' => [
-                '@value' => '1290',
+                '@value' => '715',
                 '@type' => 'numeric:timestamp',
             ],
-            'dcterms:description' => 'English psalter named for its famous initial B containing a windmill, divided between two pages whose facing halves must be read together; a virtuoso demonstration of Gothic illumination.',
+            'dcterms:description' => 'Created around 715 AD by the monk Eadfrith on the holy island of Lindisfarne, this illuminated gospel book combines intricate Insular knotwork, zoomorphic interlace, and Mediterranean influences into one of the supreme achievements of early medieval art.',
             'dcterms:subject' => [
                 'Manuscript',
-                'Gothic',
+                'Insular',
                 'English',
-                'Psalter',
+                'Gospels',
             ],
-            'dcterms:medium' => 'Vellum',
-            'dcterms:publisher' => 'Morgan Library, New York',
-            'demo-data:movement' => 'Gothic',
+            'dcterms:medium' => 'Parchment',
+            'dcterms:publisher' => 'British Library, London',
+            'demo-data:movement' => 'Insular',
             'map_coordinates' => [
-                -73.982,
-                40.7491,
+                -0.1232,
+                51.5298,
+            ],
+            'media' => [
+                [
+                    'file' => 'lindisfarne-gospels.jpg',
+                    'dcterms:title' => 'Lindisfarne Gospels',
+                    'dcterms:creator' => 'Eadfrith of Lindisfarne',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Eadfrith of Lindisfarne (presumed)',
+                ],
             ],
         ],
         [
@@ -8789,6 +8855,14 @@ return [
             'map_coordinates' => [
                 7.6,
                 47.5696,
+            ],
+            'media' => [
+                [
+                    'file' => 'walking-man.jpg',
+                    'dcterms:title' => 'Walking Man I',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Swiss National Bank (SNB)',
+                ],
             ],
         ],
     ],

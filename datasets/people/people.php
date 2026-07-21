@@ -431,6 +431,13 @@ return [
                 60.3587,
                 41.38,
             ],
+            'media' => [
+                [
+                    'file' => 'al-khwarizmi.jpg',
+                    'dcterms:title' => 'Al-Khwarizmi',
+                    'dcterms:rights' => 'Public domain',
+                ],
+            ],
         ],
         [
             'id' => 'ibn-al-haytham',
@@ -553,14 +560,6 @@ return [
             'map_coordinates' => [
                 64.4214,
                 39.7747,
-            ],
-            'media' => [
-                [
-                    'file' => 'ibn-sina.jpg',
-                    'dcterms:title' => 'Ibn Sina',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Adam Jones from Kelowna, BC, Canada',
-                ],
             ],
         ],
         [
@@ -750,6 +749,7 @@ return [
                     'file' => 'rumi.jpg',
                     'dcterms:title' => 'Rumi',
                     'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Hossein Behzad',
                 ],
             ],
         ],
@@ -801,13 +801,6 @@ return [
             'map_coordinates' => [
                 -9.5,
                 11.8,
-            ],
-            'media' => [
-                [
-                    'file' => 'sundiata-keita.jpg',
-                    'dcterms:title' => 'Sundiata Keita',
-                    'dcterms:rights' => 'Public domain',
-                ],
             ],
         ],
         [
@@ -1097,14 +1090,6 @@ return [
                 -71.9675,
                 -13.5319,
             ],
-            'media' => [
-                [
-                    'file' => 'pachacuti.jpg',
-                    'dcterms:title' => 'Pachacuti',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'FUEJXJDK',
-                ],
-            ],
         ],
         [
             'id' => 'queen-nzinga',
@@ -1157,7 +1142,14 @@ return [
                 15,
                 -9,
             ],
-            'media' => [],
+            'media' => [
+                [
+                    'file' => 'queen-nzinga.jpg',
+                    'dcterms:title' => 'Queen Nzinga',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Achille Devéria',
+                ],
+            ],
         ],
         [
             'id' => 'copernicus',
@@ -1841,6 +1833,7 @@ return [
                     'file' => 'confucius.jpg',
                     'dcterms:title' => 'Confucius',
                     'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Anonymous Chinese painter of the Western Han period',
                 ],
             ],
         ],
@@ -2023,14 +2016,6 @@ return [
                 112.5292,
                 33,
             ],
-            'media' => [
-                [
-                    'file' => 'zhang-heng.jpg',
-                    'dcterms:title' => 'Zhang Heng',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Windmemories',
-                ],
-            ],
         ],
         [
             'id' => 'zenobia',
@@ -2081,14 +2066,6 @@ return [
             'map_coordinates' => [
                 38.2669,
                 34.5503,
-            ],
-            'media' => [
-                [
-                    'file' => 'zenobia.jpg',
-                    'dcterms:title' => 'Zenobia',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Sir Edward Poynter (1878)',
-                ],
             ],
         ],
         [
@@ -2315,14 +2292,6 @@ return [
             'map_coordinates' => [
                 72.8397,
                 26,
-            ],
-            'media' => [
-                [
-                    'file' => 'mirabai.jpg',
-                    'dcterms:title' => 'Mirabai',
-                    'dcterms:rights' => 'CC BY 3.0',
-                    'dcterms:contributor' => 'Onef9day',
-                ],
             ],
         ],
         [
@@ -2730,6 +2699,14 @@ return [
                 -1.6083,
                 6.6885,
             ],
+            'media' => [
+                [
+                    'file' => 'yaa-asantewaa.jpg',
+                    'dcterms:title' => 'Yaa Asantewaa',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Noahalorwu',
+                ],
+            ],
         ],
         [
             'id' => 'nikola-tesla',
@@ -3133,13 +3110,6 @@ return [
                 78,
                 20,
             ],
-            'media' => [
-                [
-                    'file' => 'nagarjuna.jpg',
-                    'dcterms:title' => 'Nāgārjuna',
-                    'dcterms:rights' => 'Copyrighted free use',
-                ],
-            ],
         ],
         [
             'id' => 'hannibal',
@@ -3241,14 +3211,6 @@ return [
                 0.9,
                 52.6,
             ],
-            'media' => [
-                [
-                    'file' => 'boudicca.jpg',
-                    'dcterms:title' => 'Boudicca',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Charles Hamilton Smith',
-                ],
-            ],
         ],
         [
             'id' => 'trung-trac',
@@ -3295,14 +3257,6 @@ return [
             'map_coordinates' => [
                 105.7167,
                 21.2,
-            ],
-            'media' => [
-                [
-                    'file' => 'trung-trac.jpg',
-                    'dcterms:title' => 'Trưng Trắc',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'own photo',
-                ],
             ],
         ],
         [
@@ -3419,6 +3373,7 @@ return [
                     'file' => 'al-idrisi.jpg',
                     'dcterms:title' => 'Al-Idrisi',
                     'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Marek',
                 ],
             ],
         ],
@@ -3585,13 +3540,6 @@ return [
                 -5.9845,
                 37.3891,
             ],
-            'media' => [
-                [
-                    'file' => 'las-casas.jpg',
-                    'dcterms:title' => 'Bartolomé de las Casas',
-                    'dcterms:rights' => 'Public domain',
-                ],
-            ],
         ],
         [
             'id' => 'elizabeth-i',
@@ -3642,13 +3590,6 @@ return [
             'map_coordinates' => [
                 -0.0098,
                 51.4822,
-            ],
-            'media' => [
-                [
-                    'file' => 'elizabeth-i.jpg',
-                    'dcterms:title' => 'Elizabeth I',
-                    'dcterms:rights' => 'Public domain',
-                ],
             ],
         ],
         [
@@ -4576,7 +4517,6 @@ return [
                 130.5,
                 33.5,
             ],
-            'media' => [],
         ],
         [
             'id' => 'li-bai',
@@ -4750,14 +4690,6 @@ return [
             'map_coordinates' => [
                 -4.7794,
                 37.8882,
-            ],
-            'media' => [
-                [
-                    'file' => 'maimonides.jpg',
-                    'dcterms:title' => 'Maimonides',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Blaisio Ugolino',
-                ],
             ],
         ],
         [

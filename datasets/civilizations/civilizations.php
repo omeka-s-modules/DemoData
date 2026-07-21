@@ -216,8 +216,8 @@ return [
                 [
                     'file' => 'zapotec-civilization.png',
                     'dcterms:title' => 'Zapotec Civilization',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Eric Polk',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Yavidaxiu',
                 ],
             ],
         ],
@@ -335,13 +335,6 @@ return [
                 '@value' => '325000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'maya-classic-period.jpg',
-                    'dcterms:title' => 'Maya Classic Period',
-                    'dcterms:rights' => 'Public domain',
-                ],
-            ],
         ],
         [
             'id' => 'postclassic-maya',
@@ -392,14 +385,6 @@ return [
             'demo-data:area' => [
                 '@value' => '150000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'postclassic-maya.jpg',
-                    'dcterms:title' => 'Postclassic Maya',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Simon Burchell',
-                ],
             ],
         ],
         [
@@ -452,14 +437,6 @@ return [
             'demo-data:area' => [
                 '@value' => '200000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'toltec-empire.png',
-                    'dcterms:title' => 'Toltec Empire',
-                    'dcterms:rights' => 'CC BY 4.0',
-                    'dcterms:contributor' => 'Miguel Angel Omaña Rojas',
-                ],
             ],
         ],
         [
@@ -523,8 +500,8 @@ return [
                 [
                     'file' => 'aztec-triple-alliance.png',
                     'dcterms:title' => 'Aztec Triple Alliance',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Jerónimo de Valderrama',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'File:Provincias tributarias de la Triple Alianza (s. XVI).svg : Yavidaxiu File:Mexico (orthographic projection).svg : Ssolbergj Derivative work : Keepscases',
                 ],
             ],
         ],
@@ -630,8 +607,8 @@ return [
                 [
                     'file' => 'tarascan-state.png',
                     'dcterms:title' => 'Tarascan State',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Eric Polk',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Maunus',
                 ],
             ],
         ],
@@ -751,10 +728,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'moche-civilization.jpg',
+                    'file' => 'moche-civilization.png',
                     'dcterms:title' => 'Moche Civilization',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Bernard Gagnon',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'QQuantum',
                 ],
             ],
         ],
@@ -770,7 +747,7 @@ return [
                 'wari-empire',
                 'inca-empire',
                 'tiwanaku-civilization',
-                'huari-tiwanaku-interaction-sphere',
+                'chavin-culture',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q1307407',
@@ -832,7 +809,7 @@ return [
                 'moche-civilization',
                 'chav-n-civilization',
                 'nazca-culture',
-                'huari-tiwanaku-interaction-sphere',
+                'chavin-culture',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q923516',
@@ -877,7 +854,7 @@ return [
                     'file' => 'wari-empire.png',
                     'dcterms:title' => 'Wari Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'qQuantum',
+                    'dcterms:contributor' => 'QQuantum',
                 ],
             ],
         ],
@@ -892,7 +869,6 @@ return [
                 'moche-civilization',
                 'inca-empire',
                 'kingdom-of-cusco',
-                'chimu-inca-war',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q581741',
@@ -954,8 +930,7 @@ return [
                 'tiwanaku-empire',
                 'kingdom-of-cusco',
                 'muisca-confederation',
-                'huari-tiwanaku-interaction-sphere',
-                'chimu-inca-war',
+                'chavin-culture',
                 'spanish-empire',
                 'viceroyalty-of-peru',
             ],
@@ -1229,14 +1204,6 @@ return [
                 '@value' => '50000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'hohokam-culture.png',
-                    'dcterms:title' => 'Hohokam Culture',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Yuchitown derivative work: Tceditwiki',
-                ],
-            ],
         ],
         [
             'id' => 'hopewell-culture',
@@ -1460,14 +1427,6 @@ return [
             'demo-data:area' => [
                 '@value' => '1000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'palenque.jpg',
-                    'dcterms:title' => 'Palenque',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Carlos Valenzuela',
-                ],
             ],
         ],
         [
@@ -1752,14 +1711,6 @@ return [
                 '@value' => '1000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'chich-n-itz.jpg',
-                    'dcterms:title' => 'Chichén Itzá',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Daniel Schwen',
-                ],
-            ],
         ],
         [
             'id' => 'tlaxcala-republic',
@@ -1811,10 +1762,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'tlaxcala-republic.png',
+                    'file' => 'tlaxcala-republic.jpg',
                     'dcterms:title' => 'Tlaxcala Republic',
                     'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Heraldry',
+                    'dcterms:contributor' => 'Alfredo Chavero',
                 ],
             ],
         ],
@@ -2041,111 +1992,122 @@ return [
             ],
         ],
         [
-            'id' => 'huari-tiwanaku-interaction-sphere',
+            'id' => 'chavin-culture',
             'class' => 'demo-data:CulturalPeriod',
             'sets' => [
                 'main',
                 'americas',
             ],
             'relations' => [
+                'moche-civilization',
+                'nazca-culture',
                 'wari-empire',
-                'tiwanaku-empire',
-                'inca-empire',
             ],
-            'map_bounds' => '-80.188149,-20.188149,-65.811851,-5.811851',
-            'map_coordinates' => [
-                -73,
-                -13,
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q13341477',
+                '@type' => 'uri',
             ],
-            'dcterms:title' => 'Huari-Tiwanaku Interaction Sphere',
-            'dcterms:description' => 'The Wari-Tiwanaku Interaction Sphere describes the overlapping spheres of influence of the Wari and Tiwanaku polities that together covered virtually all of the Andean region during the Middle Horizon period, spreading a shared religious iconography and administrative techniques that the Inca later synthesized.',
+            'dcterms:title' => 'Chavín Culture',
+            'dcterms:description' => 'One of the earliest complex civilizations in the Americas, the Chavín culture flourished in the Andean highlands of present-day Peru and established a pan-Andean religious and artistic tradition centered on the site of Chavín de Huántar that influenced all later Andean civilizations.',
             'dcterms:subject' => [
                 'Americas',
                 'Andes',
                 'Peru',
-                'Middle Horizon',
-                'Pan-Andean influence',
+                'Pre-Columbian',
+                'Formative period',
             ],
             'dcterms:date' => [
-                '@value' => '0500',
+                '@value' => '-0900',
                 '@type' => 'numeric:timestamp',
             ],
             'dcterms:extent' => [
-                '@value' => 'P500Y',
+                '@value' => 'P800Y',
                 '@type' => 'numeric:duration',
             ],
             'dcterms:temporal' => [
-                '@value' => '0500/1000',
+                '@value' => '-1300/-0500',
                 '@type' => 'numeric:interval',
             ],
             'demo-data:peakDate' => [
-                '@value' => '0750',
+                '@value' => '-0900',
                 '@type' => 'numeric:timestamp',
             ],
             'demo-data:area' => [
-                '@value' => '2000000',
+                '@value' => '200000',
                 '@type' => 'numeric:integer',
+            ],
+            'map_bounds' => '-80.0,-15.0,-74.0,-6.0',
+            'map_coordinates' => [
+                -77.18,
+                -9.59,
             ],
             'media' => [
                 [
-                    'file' => 'huari-tiwanaku-interaction-sphere.png',
-                    'dcterms:title' => 'Huari-Tiwanaku Interaction Sphere',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'QQuantum',
+                    'file' => 'chavin-culture.jpg',
+                    'dcterms:title' => 'Chavín Culture',
+                    'dcterms:creator' => 'Unknown',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Sharon odb',
                 ],
             ],
         ],
         [
-            'id' => 'chimu-inca-war',
-            'class' => 'demo-data:CulturalPeriod',
+            'id' => 'kingdom-of-kush',
+            'class' => 'demo-data:Civilization',
             'sets' => [
                 'main',
-                'americas',
+                'ancient',
             ],
             'relations' => [
-                'chim-kingdom',
-                'inca-empire',
+                'egyptian-new-kingdom',
+                'third-intermediate-period-of-egypt',
+                'late-period-of-ancient-egypt',
             ],
-            'map_bounds' => '-80.5,-9.6,-77.5,-6.6',
-            'map_coordinates' => [
-                -79,
-                -8.1,
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q241790',
+                '@type' => 'uri',
             ],
-            'dcterms:title' => 'Chimu-Inca War',
-            'dcterms:description' => 'The Chimú-Inca War marked the final conquest of the Chimú Kingdom by the Inca under Topa Inca Yupanqui, representing the absorption of the most sophisticated north coast civilization into the growing Inca Empire. The Chimú artisans were relocated to Cusco, profoundly influencing Inca metalworking and textile traditions.',
+            'dcterms:title' => 'Kingdom of Kush',
+            'dcterms:description' => 'A powerful Nubian kingdom centered at Napata and later Meroë in present-day Sudan, the Kingdom of Kush rivalled and periodically ruled Egypt, producing distinctive pyramid tombs, a written script, and iron-smelting technology that shaped sub-Saharan Africa.',
             'dcterms:subject' => [
-                'Americas',
-                'Andes',
-                'Peru',
-                'Inca expansion',
-                'Chimú absorption',
+                'Africa',
+                'Nubia',
+                'Sudan',
+                'Ancient',
+                'Nile Valley',
             ],
             'dcterms:date' => [
-                '@value' => '1460',
+                '@value' => '-1070',
                 '@type' => 'numeric:timestamp',
             ],
             'dcterms:extent' => [
-                '@value' => 'P30Y',
+                '@value' => 'P1420Y',
                 '@type' => 'numeric:duration',
             ],
             'dcterms:temporal' => [
-                '@value' => '1460/1490',
+                '@value' => '-1070/0350',
                 '@type' => 'numeric:interval',
             ],
             'demo-data:peakDate' => [
-                '@value' => '1470',
+                '@value' => '-0700',
                 '@type' => 'numeric:timestamp',
             ],
             'demo-data:area' => [
-                '@value' => '50000',
+                '@value' => '1000000',
                 '@type' => 'numeric:integer',
+            ],
+            'map_bounds' => '24.0,10.0,38.0,24.0',
+            'map_coordinates' => [
+                33.83,
+                17.18,
             ],
             'media' => [
                 [
-                    'file' => 'chimu-inca-war.png',
-                    'dcterms:title' => 'Chimu-Inca War',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'QQuantum',
+                    'file' => 'kingdom-of-kush.jpg',
+                    'dcterms:title' => 'Kingdom of Kush',
+                    'dcterms:creator' => 'Unknown',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'User Udimu on de.wikipedia',
                 ],
             ],
         ],
@@ -2203,6 +2165,7 @@ return [
                     'file' => 'elamite-kingdom.png',
                     'dcterms:title' => 'Elamite Kingdom',
                     'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Ramessos',
                 ],
             ],
         ],
@@ -2257,10 +2220,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'median-empire.jpg',
+                    'file' => 'median-empire.png',
                     'dcterms:title' => 'Median Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Nsho Officials',
+                    'dcterms:rights' => 'CC BY 4.0',
+                    'dcterms:contributor' => 'Cattette',
                 ],
             ],
         ],
@@ -2324,8 +2287,8 @@ return [
                 [
                     'file' => 'achaemenid-empire.png',
                     'dcterms:title' => 'Achaemenid Empire',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Anton Gutsunaev, Uirauna, Ivan Humphrey',
+                    'dcterms:rights' => 'CC BY 4.0',
+                    'dcterms:contributor' => 'Cattette',
                 ],
             ],
         ],
@@ -2385,8 +2348,8 @@ return [
                 [
                     'file' => 'parthian-empire.png',
                     'dcterms:title' => 'Parthian Empire',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'HistoryKnowledge1925',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Keeby101',
                 ],
             ],
         ],
@@ -2444,10 +2407,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'sasanian-empire.jpg',
+                    'file' => 'sasanian-empire.png',
                     'dcterms:title' => 'Sasanian Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Mostafameraji',
+                    'dcterms:rights' => 'CC BY 4.0',
+                    'dcterms:contributor' => 'Original file by Ro4444, edited by me',
                 ],
             ],
         ],
@@ -2506,7 +2469,8 @@ return [
                 [
                     'file' => 'greco-bactrian-kingdom.png',
                     'dcterms:title' => 'Greco-Bactrian Kingdom',
-                    'dcterms:rights' => 'CC0',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Ali Zifan',
                 ],
             ],
         ],
@@ -2913,14 +2877,6 @@ return [
                 '@value' => '800000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'buyid-dynasty.png',
-                    'dcterms:title' => 'Buyid Dynasty',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Turkish Uzbek Editör',
-                ],
-            ],
         ],
         [
             'id' => 'samanid-empire',
@@ -2977,8 +2933,8 @@ return [
                 [
                     'file' => 'samanid-empire.gif',
                     'dcterms:title' => 'Samanid Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Iranica',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Arab League at English Wikipedia 15:54, 23 June 2008 (UTC',
                 ],
             ],
         ],
@@ -3036,8 +2992,8 @@ return [
                 [
                     'file' => 'ghaznavid-empire.png',
                     'dcterms:title' => 'Ghaznavid Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Map created from DEMIS Mapserver, which are public domain. Koba-chan. Ghaznavid Empire 975 - 1187 (AD).PNG: Arab League Khwarezmian Empire 1190 - 1220 (AD).svg: Rcsprinter123 derivative work: Rowanwindwhistler Reference: [1] *Ktrinko',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Arab League',
                 ],
             ],
         ],
@@ -3097,14 +3053,6 @@ return [
                 '@value' => '3900000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'seljuk-sultanate.png',
-                    'dcterms:title' => 'Seljuk Sultanate',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Demis MAP server',
-                ],
-            ],
         ],
         [
             'id' => 'khwarazmian-empire',
@@ -3161,8 +3109,8 @@ return [
                 [
                     'file' => 'khwarazmian-empire.png',
                     'dcterms:title' => 'Khwarazmian Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Türk-Genci8',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Rcsprinter123',
                 ],
             ],
         ],
@@ -3285,8 +3233,8 @@ return [
                 [
                     'file' => 'timurid-empire.png',
                     'dcterms:title' => 'Timurid Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Petar Milošević',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Gabagool',
                 ],
             ],
         ],
@@ -3346,8 +3294,8 @@ return [
                 [
                     'file' => 'safavid-empire.png',
                     'dcterms:title' => 'Safavid Empire',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Original: Arab League at English Wikipedia Derivative: باسم',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'HistoryofIran',
                 ],
             ],
         ],
@@ -3406,8 +3354,8 @@ return [
                 [
                     'file' => 'afsharid-empire.png',
                     'dcterms:title' => 'Afsharid Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Wario2',
+                    'dcterms:rights' => 'CC BY 1.0',
+                    'dcterms:contributor' => 'Originally by User:GabagooGabagool, heavily edited by HistoryofIran',
                 ],
             ],
         ],
@@ -3460,14 +3408,6 @@ return [
                 '@value' => '1000000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'zand-dynasty.png',
-                    'dcterms:title' => 'Zand Dynasty',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Bassem Fleifel',
-                ],
-            ],
         ],
         [
             'id' => 'ghurid-sultanate',
@@ -3517,14 +3457,6 @@ return [
             'demo-data:area' => [
                 '@value' => '2000000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'ghurid-sultanate.png',
-                    'dcterms:title' => 'Ghurid Sultanate',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'naturalearthdata.com, offered to the Public Domain per Terms of Use',
-                ],
             ],
         ],
         [
@@ -3579,10 +3511,9 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'qarakhanid-khanate.jpg',
+                    'file' => 'qarakhanid-khanate.png',
                     'dcterms:title' => 'Qarakhanid Khanate',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Petar Milošević',
+                    'dcterms:rights' => 'CC BY 3.0',
                 ],
             ],
         ],
@@ -3639,8 +3570,8 @@ return [
                 [
                     'file' => 'chagatai-khanate.png',
                     'dcterms:title' => 'Chagatai Khanate',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => '296cherry',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Gabagool',
                 ],
             ],
         ],
@@ -3757,8 +3688,8 @@ return [
                 [
                     'file' => 'umayyad-caliphate-of-c-rdoba.png',
                     'dcterms:title' => 'Umayyad Caliphate of Córdoba',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Khondort',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Tyk',
                 ],
             ],
         ],
@@ -3876,8 +3807,8 @@ return [
                 [
                     'file' => 'ayyubid-sultanate.png',
                     'dcterms:title' => 'Ayyubid Sultanate',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'AS Mapping',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Gabagool',
                 ],
             ],
         ],
@@ -3996,7 +3927,7 @@ return [
                     'file' => 'georgian-kingdom.png',
                     'dcterms:title' => 'Georgian Kingdom',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'SkyleAndria',
+                    'dcterms:contributor' => 'Lazicum',
                 ],
             ],
         ],
@@ -4048,14 +3979,6 @@ return [
             'demo-data:area' => [
                 '@value' => '1400000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'palmyrene-empire.jpg',
-                    'dcterms:title' => 'Palmyrene Empire',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Bassem Fleifel',
-                ],
             ],
         ],
         [
@@ -4168,10 +4091,9 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kara-khanid-khanate.jpg',
+                    'file' => 'kara-khanid-khanate.png',
                     'dcterms:title' => 'Kara-Khanid Khanate',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Petar Milošević',
+                    'dcterms:rights' => 'CC BY 3.0',
                 ],
             ],
         ],
@@ -4228,8 +4150,8 @@ return [
                 [
                     'file' => 'ziyarid-dynasty.png',
                     'dcterms:title' => 'Ziyarid Dynasty',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Mohammad92122004',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Arab_Hafez (talk) (Uploads)',
                 ],
             ],
         ],
@@ -4331,14 +4253,6 @@ return [
             'demo-data:area' => [
                 '@value' => '1600000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'qajar-dynasty.png',
-                    'dcterms:title' => 'Qajar Dynasty',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Mostafameraji',
-                ],
             ],
         ],
         [
@@ -4472,7 +4386,7 @@ return [
                     'file' => 'spanish-empire.jpg',
                     'dcterms:title' => 'Spanish Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Nagihuin',
+                    'dcterms:contributor' => 'JavierNF96',
                 ],
             ],
         ],
@@ -4551,7 +4465,7 @@ return [
                 'ottoman-empire',
                 'spanish-empire',
                 'kingdom-of-prussia',
-                'thirty-years-war-states',
+                'polish-lithuanian-commonwealth',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q66504140',
@@ -4645,6 +4559,14 @@ return [
                 '@value' => '1700000',
                 '@type' => 'numeric:integer',
             ],
+            'media' => [
+                [
+                    'file' => 'dutch-republic.png',
+                    'dcterms:title' => 'Dutch Republic',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'TRAJAN 117  This W3C-unspecified vector image was created with Inkscape .',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-sweden-early-modern',
@@ -4657,7 +4579,7 @@ return [
                 'kingdom-of-sweden',
                 'holy-roman-empire',
                 'russian-empire',
-                'thirty-years-war-states',
+                'polish-lithuanian-commonwealth',
                 'kingdom-of-denmark-norway',
             ],
             'dcterms:identifier' => [
@@ -4949,8 +4871,8 @@ return [
                 [
                     'file' => 'kingdom-of-prussia.png',
                     'dcterms:title' => 'Kingdom of Prussia',
-                    'dcterms:rights' => 'CC BY 4.0',
-                    'dcterms:contributor' => 'Historyhiker Blank map of Europe.svg: maix¿? derivative work: Alphathon',
+                    'dcterms:rights' => 'CC BY-SA 2.5',
+                    'dcterms:contributor' => 'User:52 Pickup',
                 ],
             ],
         ],
@@ -5131,62 +5053,69 @@ return [
                 [
                     'file' => 'tsardom-of-russia.png',
                     'dcterms:title' => 'Tsardom of Russia',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'RealGM-Ball',
+                    'dcterms:rights' => 'GFDL',
+                    'dcterms:contributor' => 'Rus1500-1900.PNG: Mixx321 RussianEmpire1700.png: Gabagool RussianEmpire1600.png: Gabagool derivative work: Dbachmann (talk)',
                 ],
             ],
         ],
         [
-            'id' => 'thirty-years-war-states',
-            'class' => 'demo-data:CulturalPeriod',
+            'id' => 'polish-lithuanian-commonwealth',
+            'class' => 'demo-data:Civilization',
             'sets' => [
                 'main',
                 'early-modern',
             ],
             'relations' => [
-                'holy-roman-empire',
-                'kingdom-of-sweden-early-modern',
+                'tsardom-of-russia',
                 'habsburg-austria',
+                'kingdom-of-sweden-early-modern',
+                'teutonic-order-state',
             ],
-            'map_bounds' => '7.405925,46.405925,14.594075,53.594075',
-            'map_coordinates' => [
-                11,
-                50,
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q172107',
+                '@type' => 'uri',
             ],
-            'dcterms:title' => 'Thirty Years War States',
-            'dcterms:description' => 'The Thirty Years\' War devastated Central Europe, killing an estimated 25–40% of the German population through battle, famine, and plague. The Peace of Westphalia (1648) that ended it established the modern concept of state sovereignty and religious tolerance, creating the international system that prevails to this day.',
+            'dcterms:title' => 'Polish-Lithuanian Commonwealth',
+            'dcterms:description' => 'A bi-federated union of the Crown of Poland and the Grand Duchy of Lithuania that became one of the largest and most populous states in early modern Europe, notable for its elective monarchy, noble democracy, and remarkable religious tolerance during an age of European sectarian conflict.',
             'dcterms:subject' => [
                 'Europe',
-                'Germany',
-                'Religious war',
-                'Peace of Westphalia',
-                'Sovereignty',
+                'Poland',
+                'Lithuania',
+                'Early modern',
+                'Noble republic',
             ],
             'dcterms:date' => [
-                '@value' => '1618',
+                '@value' => '1569',
                 '@type' => 'numeric:timestamp',
             ],
             'dcterms:extent' => [
-                '@value' => 'P30Y',
+                '@value' => 'P226Y',
                 '@type' => 'numeric:duration',
             ],
             'dcterms:temporal' => [
-                '@value' => '1618/1648',
+                '@value' => '1569/1795',
                 '@type' => 'numeric:interval',
             ],
             'demo-data:peakDate' => [
-                '@value' => '1630',
+                '@value' => '1618',
                 '@type' => 'numeric:timestamp',
             ],
             'demo-data:area' => [
-                '@value' => '500000',
+                '@value' => '1000000',
                 '@type' => 'numeric:integer',
+            ],
+            'map_bounds' => '14.0,48.0,34.0,57.0',
+            'map_coordinates' => [
+                19.93,
+                50.05,
             ],
             'media' => [
                 [
-                    'file' => 'thirty-years-war-states.jpg',
-                    'dcterms:title' => 'Thirty Years War States',
+                    'file' => 'polish-lithuanian-commonwealth.jpg',
+                    'dcterms:title' => 'Polish-Lithuanian Commonwealth',
+                    'dcterms:creator' => 'Unknown',
                     'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Jan Matejko',
                 ],
             ],
         ],
@@ -5238,6 +5167,14 @@ return [
             'demo-data:area' => [
                 '@value' => '800000',
                 '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-denmark-norway.png',
+                    'dcterms:title' => 'Kingdom of Denmark-Norway',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'User:Derfel73 User:cthuljew User:Kasper_Holl',
+                ],
             ],
         ],
         [
@@ -5293,8 +5230,8 @@ return [
                 [
                     'file' => 'electorate-of-saxony.png',
                     'dcterms:title' => 'Electorate of Saxony',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Tim Ocean',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Europe_1789.svg: *Blank_map_of_Europe.svg: maix¿? derivative work: Alphathon derivative work: Alphathon',
                 ],
             ],
         ],
@@ -5346,6 +5283,14 @@ return [
             'demo-data:area' => [
                 '@value' => '50000',
                 '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'republic-of-the-seven-united-netherlands.png',
+                    'dcterms:title' => 'Republic of the Seven United Netherlands',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'TRAJAN 117  This W3C-unspecified vector image was created with Inkscape .',
+                ],
             ],
         ],
         [
@@ -5558,14 +5503,6 @@ return [
                 '@value' => '380000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'tokugawa-shogunate.png',
-                    'dcterms:title' => 'Tokugawa Shogunate',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => ' This vector image was created with Inkscape by TRAJAN 117, and then manually replaced.',
-                ],
-            ],
         ],
         [
             'id' => 'joseon-dynasty-early-modern',
@@ -5677,10 +5614,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'safavid-persia-early-modern.jpg',
+                    'file' => 'safavid-persia-early-modern.png',
                     'dcterms:title' => 'Safavid Persia (Early Modern)',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Guillaume Delisle',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'HistoryofIran',
                 ],
             ],
         ],
@@ -5732,6 +5669,14 @@ return [
             'demo-data:area' => [
                 '@value' => '1400000',
                 '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'songhai-after-askia.png',
+                    'dcterms:title' => 'Songhai After Askia',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'No machine-readable author provided. Roke~commonswiki assumed (based on copyright claims).',
+                ],
             ],
         ],
         [
@@ -5849,7 +5794,6 @@ return [
                     'file' => 'maratha-empire-under-peshwas.jpg',
                     'dcterms:title' => 'Maratha Empire Under Peshwas',
                     'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Thomas Daniell',
                 ],
             ],
         ],
@@ -5960,6 +5904,14 @@ return [
                 '@value' => '250000',
                 '@type' => 'numeric:integer',
             ],
+            'media' => [
+                [
+                    'file' => 'kingdom-of-kongo-early-modern.jpg',
+                    'dcterms:title' => 'Kingdom of Kongo (Early Modern)',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Gerard Mercator',
+                ],
+            ],
         ],
         [
             'id' => 'dahomey-kingdom-early-modern',
@@ -6009,6 +5961,14 @@ return [
             'demo-data:area' => [
                 '@value' => '52000',
                 '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'dahomey-kingdom-early-modern.png',
+                    'dcterms:title' => 'Dahomey Kingdom (Early Modern)',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Pymouss',
+                ],
             ],
         ],
         [
@@ -6118,7 +6078,7 @@ return [
                     'file' => 'omani-empire.png',
                     'dcterms:title' => 'Omani Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Abdurrahman AbdulMoneim & RETF',
+                    'dcterms:contributor' => 'MWahaiibii',
                 ],
             ],
         ],
@@ -6287,14 +6247,6 @@ return [
                 '@value' => '300000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'imamate-of-muscat.png',
-                    'dcterms:title' => 'Imamate of Muscat',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Bassem Fleifel',
-                ],
-            ],
         ],
         [
             'id' => 'aztec-cultural-legacy',
@@ -6407,8 +6359,8 @@ return [
                 [
                     'file' => 'viceroyalty-of-peru.png',
                     'dcterms:title' => 'Viceroyalty of Peru',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'History\'s greatest Flag maps',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'MilenioscuroDerivative work:Janitoalevic',
                 ],
             ],
         ],
@@ -6460,6 +6412,14 @@ return [
             'demo-data:area' => [
                 '@value' => '4400000',
                 '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'new-france.png',
+                    'dcterms:title' => 'New France',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Gd21091993',
+                ],
             ],
         ],
         [
@@ -6575,7 +6535,8 @@ return [
                 [
                     'file' => 'bijapur-sultanate.png',
                     'dcterms:title' => 'Bijapur Sultanate',
-                    'dcterms:rights' => 'Public domain',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Mlpkr',
                 ],
             ],
         ],
@@ -6690,10 +6651,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'sikh-khalsa-confederacy.jpg',
+                    'file' => 'sikh-khalsa-confederacy.png',
                     'dcterms:title' => 'Sikh Khalsa Confederacy',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Jaipur State officials and scribes of Maharaja Sawai Pratap Singh',
+                    'dcterms:rights' => 'CC BY 4.0',
+                    'dcterms:contributor' => 'Borders by Rawn3012 using Gimp',
                 ],
             ],
         ],
@@ -6752,8 +6713,8 @@ return [
                 [
                     'file' => 'afghan-durrani-empire.png',
                     'dcterms:title' => 'Afghan Durrani Empire',
-                    'dcterms:rights' => 'CC BY 4.0',
-                    'dcterms:contributor' => 'Noorullah21',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Arab Hafez and edited by me.',
                 ],
             ],
         ],
@@ -6811,7 +6772,8 @@ return [
                 [
                     'file' => 'kingdom-of-mysore.png',
                     'dcterms:title' => 'Kingdom of Mysore',
-                    'dcterms:rights' => 'Public domain',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs.',
                 ],
             ],
         ],
@@ -6869,7 +6831,7 @@ return [
                     'file' => 'zanzibar-sultanate.png',
                     'dcterms:title' => 'Zanzibar Sultanate',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'AbdurRahman&Retf',
+                    'dcterms:contributor' => 'Spice Islands Tanzania-fr.svg: Mysid (talk · contribs) derivative work: Rowanwindwhistler (talk)',
                 ],
             ],
         ],
@@ -6928,7 +6890,7 @@ return [
                     'file' => 'sikh-empire.jpg',
                     'dcterms:title' => 'Sikh Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Qadir Baksh',
+                    'dcterms:contributor' => 'Jangvijay',
                 ],
             ],
         ],
@@ -7041,8 +7003,7 @@ return [
                 [
                     'file' => 'shang-dynasty.jpg',
                     'dcterms:title' => 'Shang Dynasty',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Mary Harrsch',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
                 ],
             ],
         ],
@@ -7155,14 +7116,6 @@ return [
                 '@value' => '2500000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'spring-and-autumn-period.jpg',
-                    'dcterms:title' => 'Spring and Autumn Period',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Windmemories',
-                ],
-            ],
         ],
         [
             'id' => 'warring-states-period',
@@ -7217,14 +7170,6 @@ return [
             'demo-data:area' => [
                 '@value' => '3000000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'warring-states-period.gif',
-                    'dcterms:title' => 'Warring States Period',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'China_Warring_States_Period.jpg: English Wikipedia, original upload 7 November 2004 by Yeu Ninje derivative work: Bility (talk)',
-                ],
             ],
         ],
         [
@@ -7396,8 +7341,8 @@ return [
                 [
                     'file' => 'kingdom-of-qin.jpg',
                     'dcterms:title' => 'Kingdom of Qin',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Gary Todd from Xinzheng, China',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Philg88',
                 ],
             ],
         ],
@@ -7507,14 +7452,6 @@ return [
             'demo-data:area' => [
                 '@value' => '450000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'kingdom-of-zhao.jpg',
-                    'dcterms:title' => 'Kingdom of Zhao',
-                    'dcterms:rights' => 'CC BY 3.0',
-                    'dcterms:contributor' => 'Scott Semans',
-                ],
             ],
         ],
         [
@@ -7694,7 +7631,8 @@ return [
                 [
                     'file' => 'xin-dynasty.png',
                     'dcterms:title' => 'Xin Dynasty',
-                    'dcterms:rights' => 'Public domain',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => '玖巧仔',
                 ],
             ],
         ],
@@ -7753,7 +7691,7 @@ return [
                     'file' => 'eastern-han-dynasty.jpg',
                     'dcterms:title' => 'Eastern Han Dynasty',
                     'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Daderot',
+                    'dcterms:contributor' => 'User:Sarazyn',
                 ],
             ],
         ],
@@ -7811,8 +7749,8 @@ return [
                 [
                     'file' => 'cao-wei.jpg',
                     'dcterms:title' => 'Cao Wei',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Gary Todd',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Yu Ninjie',
                 ],
             ],
         ],
@@ -7863,6 +7801,14 @@ return [
             'demo-data:area' => [
                 '@value' => '1000000',
                 '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'shu-han.jpg',
+                    'dcterms:title' => 'Shu Han',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Yu Ninjie',
+                ],
             ],
         ],
         [
@@ -7919,8 +7865,8 @@ return [
                 [
                     'file' => 'eastern-wu.jpg',
                     'dcterms:title' => 'Eastern Wu',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Gary Todd',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Yu Ninjie',
                 ],
             ],
         ],
@@ -7977,8 +7923,8 @@ return [
                 [
                     'file' => 'western-jin-dynasty.png',
                     'dcterms:title' => 'Western Jin Dynasty',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'naturalearthdata.com, offered to the Public Domain per Terms of Use',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Ian Kiu',
                 ],
             ],
         ],
@@ -8038,8 +7984,8 @@ return [
                 [
                     'file' => 'eastern-jin-dynasty.png',
                     'dcterms:title' => 'Eastern Jin Dynasty',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Mary Harrsch',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Ian Kiu',
                 ],
             ],
         ],
@@ -8098,8 +8044,8 @@ return [
                 [
                     'file' => 'sixteen-kingdoms.png',
                     'dcterms:title' => 'Sixteen Kingdoms',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'User6054',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'SY',
                 ],
             ],
         ],
@@ -8161,10 +8107,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'northern-wei-dynasty.png',
+                    'file' => 'northern-wei-dynasty.jpg',
                     'dcterms:title' => 'Northern Wei Dynasty',
-                    'dcterms:rights' => 'CC BY 3.0',
-                    'dcterms:contributor' => 'Talessman',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'SS',
                 ],
             ],
         ],
@@ -8220,10 +8166,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'northern-zhou-dynasty.jpg',
+                    'file' => 'northern-zhou-dynasty.png',
                     'dcterms:title' => 'Northern Zhou Dynasty',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Mary Harrsch',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'The original uploader was 俊武 at Japanese Wikipedia.',
                 ],
             ],
         ],
@@ -8280,8 +8226,8 @@ return [
                 [
                     'file' => 'sui-dynasty.png',
                     'dcterms:title' => 'Sui Dynasty',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Gary Todd',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Yug',
                 ],
             ],
         ],
@@ -8403,14 +8349,6 @@ return [
                 '@value' => '1000000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'five-dynasties-and-ten-kingdoms.png',
-                    'dcterms:title' => 'Five Dynasties and Ten Kingdoms',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Albert Herrmann & Georg Westermann',
-                ],
-            ],
         ],
         [
             'id' => 'northern-song-dynasty',
@@ -8464,14 +8402,6 @@ return [
                 '@value' => '2100000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'northern-song-dynasty.png',
-                    'dcterms:title' => 'Northern Song Dynasty',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'derivative work: Augusta 89',
-                ],
-            ],
         ],
         [
             'id' => 'southern-song-dynasty',
@@ -8523,13 +8453,6 @@ return [
             'demo-data:area' => [
                 '@value' => '1800000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'southern-song-dynasty.jpg',
-                    'dcterms:title' => 'Southern Song Dynasty',
-                    'dcterms:rights' => 'Public domain',
-                ],
             ],
         ],
         [
@@ -8645,8 +8568,8 @@ return [
                 [
                     'file' => 'jin-dynasty-jurchen.png',
                     'dcterms:title' => 'Jin Dynasty (Jurchen)',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Gary Lee Todd, Ph.D., Professor of History, Sias International University, Xinzheng, Henan, China.',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Ian Kiu',
                 ],
             ],
         ],
@@ -8762,13 +8685,6 @@ return [
                 '@value' => '3500000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'ming-dynasty.png',
-                    'dcterms:title' => 'Ming Dynasty',
-                    'dcterms:rights' => 'Public domain',
-                ],
-            ],
         ],
         [
             'id' => 'qing-dynasty',
@@ -8819,14 +8735,6 @@ return [
             'demo-data:area' => [
                 '@value' => '13100000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'qing-dynasty.png',
-                    'dcterms:title' => 'Qing Dynasty',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Daniel222potato',
-                ],
             ],
         ],
         [
@@ -8944,6 +8852,7 @@ return [
                     'file' => 'xianbei-confederation.png',
                     'dcterms:title' => 'Xianbei Confederation',
                     'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Unknown tomb painter',
                 ],
             ],
         ],
@@ -9001,8 +8910,8 @@ return [
                 [
                     'file' => 'rouran-khaganate.png',
                     'dcterms:title' => 'Rouran Khaganate',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Flag Creator',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Gabagool',
                 ],
             ],
         ],
@@ -9060,8 +8969,8 @@ return [
                 [
                     'file' => 'northern-qi.png',
                     'dcterms:title' => 'Northern Qi',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Gary Todd',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'East-Hem_565ad.jpg: Thomas Lessman (Contact!) derivative work: Sven Manguard',
                 ],
             ],
         ],
@@ -9133,7 +9042,7 @@ return [
                 'kofun-period',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q152621',
+                '@value' => 'https://www.wikidata.org/entity/Q207858',
                 '@type' => 'uri',
             ],
             'map_bounds' => '127.276758,30.456758,133.543242,36.723242',
@@ -9248,7 +9157,7 @@ return [
                 'nara-period',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q152628',
+                '@value' => 'https://www.wikidata.org/entity/Q210688',
                 '@type' => 'uri',
             ],
             'map_bounds' => '132.696758,31.356758,138.963242,37.623242',
@@ -9344,14 +9253,6 @@ return [
                 '@value' => '380000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'nara-period.jpg',
-                    'dcterms:title' => 'Nara Period',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Ihimutefu',
-                ],
-            ],
         ],
         [
             'id' => 'heian-period',
@@ -9400,14 +9301,6 @@ return [
             'demo-data:area' => [
                 '@value' => '380000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'heian-period.jpg',
-                    'dcterms:title' => 'Heian Period',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Artanisen',
-                ],
             ],
         ],
         [
@@ -9518,14 +9411,6 @@ return [
                 '@value' => '380000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'muromachi-shogunate.png',
-                    'dcterms:title' => 'Muromachi Shogunate',
-                    'dcterms:rights' => 'CC BY 3.0',
-                    'dcterms:contributor' => 'Rage against',
-                ],
-            ],
         ],
         [
             'id' => 'sengoku-period',
@@ -9574,14 +9459,6 @@ return [
             'demo-data:area' => [
                 '@value' => '380000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'sengoku-period.png',
-                    'dcterms:title' => 'Sengoku Period',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Alvin Lee',
-                ],
             ],
         ],
         [
@@ -9633,14 +9510,6 @@ return [
                 '@value' => '380000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'azuchi-momoyama-period.png',
-                    'dcterms:title' => 'Azuchi-Momoyama Period',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Alan J. Roxx',
-                ],
-            ],
         ],
         [
             'id' => 'edo-period',
@@ -9655,7 +9524,7 @@ return [
                 'tokugawa-shogunate',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q1490',
+                '@value' => 'https://www.wikidata.org/entity/Q184963',
                 '@type' => 'uri',
             ],
             'map_bounds' => '136.556758,32.556758,142.823242,38.823242',
@@ -9991,8 +9860,8 @@ return [
                 [
                     'file' => 'unified-silla.png',
                     'dcterms:title' => 'Unified Silla',
-                    'dcterms:rights' => 'KOGL Type 1',
-                    'dcterms:contributor' => 'National Museum of Korea',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Samhanin',
                 ],
             ],
         ],
@@ -10169,8 +10038,8 @@ return [
                 [
                     'file' => 'g-kt-rk-khaganate.png',
                     'dcterms:title' => 'Göktürk Khaganate',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Bilal Selim Filiz',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'User:Greenvert',
                 ],
             ],
         ],
@@ -10223,14 +10092,6 @@ return [
             'demo-data:area' => [
                 '@value' => '3000000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'second-turkic-khaganate.png',
-                    'dcterms:title' => 'Second Turkic Khaganate',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Türk-Genci8',
-                ],
             ],
         ],
         [
@@ -10287,7 +10148,7 @@ return [
                     'file' => 'uyghur-khaganate.png',
                     'dcterms:title' => 'Uyghur Khaganate',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Flag Creator',
+                    'dcterms:contributor' => 'Ktrinko',
                 ],
             ],
         ],
@@ -10355,7 +10216,8 @@ return [
                 [
                     'file' => 'mongol-empire.png',
                     'dcterms:title' => 'Mongol Empire',
-                    'dcterms:rights' => 'Public domain',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Ali Zifan',
                 ],
             ],
         ],
@@ -10471,8 +10333,8 @@ return [
                 [
                     'file' => 'western-xia.png',
                     'dcterms:title' => 'Western Xia',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Hiroooooo',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Douglasfrankfort',
                 ],
             ],
         ],
@@ -10530,8 +10392,8 @@ return [
                 [
                     'file' => 'tibetan-empire.png',
                     'dcterms:title' => 'Tibetan Empire',
-                    'dcterms:rights' => 'CC BY 3.0',
-                    'dcterms:contributor' => 'Javierfv1212',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Assaf tal4',
                 ],
             ],
         ],
@@ -10704,8 +10566,8 @@ return [
                 [
                     'file' => 'liu-song-dynasty.png',
                     'dcterms:title' => 'Liu Song Dynasty',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Gohyuloong',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => '俊武 at Japanese Wikipedia',
                 ],
             ],
         ],
@@ -10872,14 +10734,6 @@ return [
                 '@value' => '700000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'chen-dynasty.png',
-                    'dcterms:title' => 'Chen Dynasty',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'naturalearthdata.com, offered to the Public Domain per Terms of Use',
-                ],
-            ],
         ],
         [
             'id' => 'eastern-wei',
@@ -10933,8 +10787,8 @@ return [
                 [
                     'file' => 'eastern-wei.png',
                     'dcterms:title' => 'Eastern Wei',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'SS',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'The original uploader was 俊武 at Japanese Wikipedia.',
                 ],
             ],
         ],
@@ -10985,14 +10839,6 @@ return [
             'demo-data:area' => [
                 '@value' => '1500000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'western-wei.jpg',
-                    'dcterms:title' => 'Western Wei',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'SS',
-                ],
             ],
         ],
         [
@@ -11101,14 +10947,6 @@ return [
                 '@value' => '1500000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'later-jin-manchu.png',
-                    'dcterms:title' => 'Later Jin (Manchu)',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Opcnmcnm',
-                ],
-            ],
         ],
         [
             'id' => 'nanyue-kingdom',
@@ -11122,7 +10960,7 @@ return [
                 'western-han-dynasty',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q700805',
+                '@value' => 'https://www.wikidata.org/entity/Q827040',
                 '@type' => 'uri',
             ],
             'map_bounds' => '110.045362,19.915362,116.474638,26.344638',
@@ -11162,8 +11000,8 @@ return [
                 [
                     'file' => 'nanyue-kingdom.png',
                     'dcterms:title' => 'Nanyue Kingdom',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Jnzl\'s Public Domain Photos',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'People\'s_Republic_of_China_(orthographic_projection).svg: Ssolbergj (talk) derivative work: 长夜无风 (talk)、玖巧仔 (talk)',
                 ],
             ],
         ],
@@ -11221,8 +11059,8 @@ return [
                 [
                     'file' => 'tuyuhun.jpg',
                     'dcterms:title' => 'Tuyuhun',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Drawing: 顧德謙,Gu Deqian (10th century CE) Photography: National Palace Museum, Taiwan',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'No machine-readable author provided. Ale flashero assumed (based on copyright claims).',
                 ],
             ],
         ],
@@ -11273,13 +11111,6 @@ return [
             'demo-data:area' => [
                 '@value' => '200000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'later-three-kingdoms-of-korea.png',
-                    'dcterms:title' => 'Later Three Kingdoms of Korea',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                ],
             ],
         ],
         [
@@ -11334,8 +11165,8 @@ return [
                 [
                     'file' => 'former-qin.png',
                     'dcterms:title' => 'Former Qin',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Huangchenhai',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Ian Kiu',
                 ],
             ],
         ],
@@ -11452,8 +11283,7 @@ return [
                 [
                     'file' => 'ostrogothic-kingdom.png',
                     'dcterms:title' => 'Ostrogothic Kingdom',
-                    'dcterms:rights' => 'CC BY 4.0',
-                    'dcterms:contributor' => 'Shuaaa2',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],
@@ -11512,7 +11342,7 @@ return [
                     'file' => 'frankish-kingdom.png',
                     'dcterms:title' => 'Frankish Kingdom',
                     'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Giacomo Raibolini',
+                    'dcterms:contributor' => 'Map Gaul divisions 481-fr.svg: Romain0 derivative work: Furfur (talk)',
                 ],
             ],
         ],
@@ -11591,7 +11421,7 @@ return [
                 'habsburg-austria',
                 'kingdom-of-sweden-early-modern',
                 'kingdom-of-prussia',
-                'thirty-years-war-states',
+                'polish-lithuanian-commonwealth',
                 'electorate-of-saxony',
                 'confederation-of-the-rhine',
                 'kingdom-of-france',
@@ -11651,8 +11481,8 @@ return [
                 [
                     'file' => 'holy-roman-empire.png',
                     'dcterms:title' => 'Holy Roman Empire',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Jost de Negker',
+                    'dcterms:rights' => 'CC BY 2.5',
+                    'dcterms:contributor' => 'ziegelbrenner',
                 ],
             ],
         ],
@@ -11784,7 +11614,7 @@ return [
                     'file' => 'kingdom-of-england.png',
                     'dcterms:title' => 'Kingdom of England',
                     'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'National Museum of American History',
+                    'dcterms:contributor' => 'Gav235 (talk)',
                 ],
             ],
         ],
@@ -11912,8 +11742,8 @@ return [
                 [
                     'file' => 'kievan-rus.png',
                     'dcterms:title' => 'Kievan Rus',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Türk-Genci8',
+                    'dcterms:rights' => 'CC BY-SA 2.5',
+                    'dcterms:contributor' => 'Koryakov Yuri',
                 ],
             ],
         ],
@@ -12098,14 +11928,6 @@ return [
                 '@value' => '1100000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'kingdom-of-poland.png',
-                    'dcterms:title' => 'Kingdom of Poland',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Gustav Droysen',
-                ],
-            ],
         ],
         [
             'id' => 'kingdom-of-bohemia',
@@ -12161,8 +11983,8 @@ return [
                 [
                     'file' => 'kingdom-of-bohemia.png',
                     'dcterms:title' => 'Kingdom of Bohemia',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'National Museum of American History',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Sir Iain This W3C-unspecified vector image was created with Inkscape .',
                 ],
             ],
         ],
@@ -12280,14 +12102,6 @@ return [
                 '@value' => '450000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'kingdom-of-sweden.png',
-                    'dcterms:title' => 'Kingdom of Sweden',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'W.carter',
-                ],
-            ],
         ],
         [
             'id' => 'kingdom-of-norway',
@@ -12343,8 +12157,8 @@ return [
                 [
                     'file' => 'kingdom-of-norway.png',
                     'dcterms:title' => 'Kingdom of Norway',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Gordon Leggett',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'OnWikiNo',
                 ],
             ],
         ],
@@ -12463,8 +12277,8 @@ return [
                 [
                     'file' => 'kingdom-of-castile.png',
                     'dcterms:title' => 'Kingdom of Castile',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Proof02',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Elryck',
                 ],
             ],
         ],
@@ -12522,7 +12336,8 @@ return [
                 [
                     'file' => 'kingdom-of-aragon.png',
                     'dcterms:title' => 'Kingdom of Aragon',
-                    'dcterms:rights' => 'Public domain',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Ecelan',
                 ],
             ],
         ],
@@ -12580,8 +12395,8 @@ return [
                 [
                     'file' => 'kingdom-of-portugal.png',
                     'dcterms:title' => 'Kingdom of Portugal',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Portugal1908',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Luis wiki at English Wikipedia',
                 ],
             ],
         ],
@@ -12698,7 +12513,7 @@ return [
                     'file' => 'duchy-of-burgundy.png',
                     'dcterms:title' => 'Duchy of Burgundy',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Szabolcsiandris',
+                    'dcterms:contributor' => 'Marco Zanoli (sidonius 12:09, 2 May 2008 (UTC))',
                 ],
             ],
         ],
@@ -12760,8 +12575,8 @@ return [
                 [
                     'file' => 'republic-of-venice.png',
                     'dcterms:title' => 'Republic of Venice',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Didier Descouens',
+                    'dcterms:rights' => 'CC BY-SA 2.5',
+                    'dcterms:contributor' => 'Maximilian Dörrbecker (Chumwa)',
                 ],
             ],
         ],
@@ -12819,8 +12634,8 @@ return [
                 [
                     'file' => 'republic-of-genoa.png',
                     'dcterms:title' => 'Republic of Genoa',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Paolo Interdonato',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Aldan-2',
                 ],
             ],
         ],
@@ -12935,14 +12750,6 @@ return [
                 '@value' => '930000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'duchy-of-lithuania.png',
-                    'dcterms:title' => 'Duchy of Lithuania',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Knutux',
-                ],
-            ],
         ],
         [
             'id' => 'teutonic-order-state',
@@ -13000,8 +12807,8 @@ return [
                 [
                     'file' => 'teutonic-order-state.png',
                     'dcterms:title' => 'Teutonic Order State',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'S. Bollmann',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Gabagool',
                 ],
             ],
         ],
@@ -13053,14 +12860,6 @@ return [
             'demo-data:area' => [
                 '@value' => '100000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'kingdom-of-croatia.png',
-                    'dcterms:title' => 'Kingdom of Croatia',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Pudelek (Marcin Szala)',
-                ],
             ],
         ],
         [
@@ -13117,10 +12916,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'serbian-empire.jpg',
+                    'file' => 'serbian-empire.png',
                     'dcterms:title' => 'Serbian Empire',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Kikirikimikid',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Tobias1984',
                 ],
             ],
         ],
@@ -13180,8 +12979,8 @@ return [
                 [
                     'file' => 'kingdom-of-bulgaria.png',
                     'dcterms:title' => 'Kingdom of Bulgaria',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Lupus in Saxonia',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'TRAJAN 117  This W3C-unspecified vector image was created with Inkscape .',
                 ],
             ],
         ],
@@ -13242,7 +13041,7 @@ return [
                     'file' => 'kingdom-of-sicily.png',
                     'dcterms:title' => 'Kingdom of Sicily',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'OttavianoUrsu',
+                    'dcterms:contributor' => 'Blank map of Europe.svg: maix¿? derivative work: Alphathon',
                 ],
             ],
         ],
@@ -13300,8 +13099,8 @@ return [
                 [
                     'file' => 'republic-of-florence.png',
                     'dcterms:title' => 'Republic of Florence',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Gianni Careddu',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Gabagool',
                 ],
             ],
         ],
@@ -13417,6 +13216,14 @@ return [
                 '@value' => '100000',
                 '@type' => 'numeric:integer',
             ],
+            'media' => [
+                [
+                    'file' => 'duchy-of-normandy.png',
+                    'dcterms:title' => 'Duchy of Normandy',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Augusta 89',
+                ],
+            ],
         ],
         [
             'id' => 'kingdom-of-navarre',
@@ -13472,8 +13279,8 @@ return [
                 [
                     'file' => 'kingdom-of-navarre.png',
                     'dcterms:title' => 'Kingdom of Navarre',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Asqueladd',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Fuxius',
                 ],
             ],
         ],
@@ -13594,7 +13401,7 @@ return [
                     'file' => 'latin-empire-of-constantinople.png',
                     'dcterms:title' => 'Latin Empire of Constantinople',
                     'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Cplakidas',
+                    'dcterms:contributor' => 'Varana',
                 ],
             ],
         ],
@@ -13653,8 +13460,8 @@ return [
                 [
                     'file' => 'empire-of-nicaea.png',
                     'dcterms:title' => 'Empire of Nicaea',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'NeimWiki',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'LatinEmpire',
                 ],
             ],
         ],
@@ -13711,8 +13518,8 @@ return [
                 [
                     'file' => 'despotate-of-epirus.png',
                     'dcterms:title' => 'Despotate of Epirus',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Vikarna',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Byzantium1204.svg: Odejea derivative work: Akeosnhaoe',
                 ],
             ],
         ],
@@ -13828,7 +13635,8 @@ return [
                 [
                     'file' => 'duchy-of-athens.png',
                     'dcterms:title' => 'Duchy of Athens',
-                    'dcterms:rights' => 'CC0',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Cplakidas',
                 ],
             ],
         ],
@@ -14004,8 +13812,8 @@ return [
                 [
                     'file' => 'trebizond-empire.png',
                     'dcterms:title' => 'Trebizond Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Samhanin',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Gabagool',
                 ],
             ],
         ],
@@ -14058,14 +13866,6 @@ return [
             'demo-data:area' => [
                 '@value' => '77700',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'kingdom-of-wallachia.jpg',
-                    'dcterms:title' => 'Kingdom of Wallachia',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'James Frankcom (talk)',
-                ],
             ],
         ],
         [
@@ -14121,7 +13921,8 @@ return [
                 [
                     'file' => 'principality-of-moldavia.png',
                     'dcterms:title' => 'Principality of Moldavia',
-                    'dcterms:rights' => 'Public domain',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'ArdadN',
                 ],
             ],
         ],
@@ -14349,14 +14150,6 @@ return [
                 '@value' => '40000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'swiss-confederation.jpg',
-                    'dcterms:title' => 'Swiss Confederation',
-                    'dcterms:rights' => 'Attribution-Swisstopo',
-                    'dcterms:contributor' => 'Federal Office of Topography',
-                ],
-            ],
         ],
         [
             'id' => 'crown-of-aragon-sicily',
@@ -14411,8 +14204,8 @@ return [
                 [
                     'file' => 'crown-of-aragon-sicily.png',
                     'dcterms:title' => 'Crown of Aragon Sicily',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Heralder',
+                    'dcterms:rights' => 'CC0',
+                    'dcterms:contributor' => 'Nagihuin',
                 ],
             ],
         ],
@@ -14528,8 +14321,8 @@ return [
                 [
                     'file' => 'kingdom-of-naples.png',
                     'dcterms:title' => 'Kingdom of Naples',
-                    'dcterms:rights' => 'CC BY 3.0',
-                    'dcterms:contributor' => 'MapMaster',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Cattette',
                 ],
             ],
         ],
@@ -14588,8 +14381,8 @@ return [
                 [
                     'file' => 'duchy-of-milan.png',
                     'dcterms:title' => 'Duchy of Milan',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'F l a n k e r',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => '-kayac- at Italian Wikipedia',
                 ],
             ],
         ],
@@ -14757,14 +14550,6 @@ return [
                 '@value' => '60000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'teutonic-prussia.png',
-                    'dcterms:title' => 'Teutonic Prussia',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'S. Bollmann',
-                ],
-            ],
         ],
         [
             'id' => 'livonian-confederation',
@@ -14814,14 +14599,6 @@ return [
             'demo-data:area' => [
                 '@value' => '100000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'livonian-confederation.png',
-                    'dcterms:title' => 'Livonian Confederation',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Collective',
-                ],
             ],
         ],
         [
@@ -14877,8 +14654,8 @@ return [
                 [
                     'file' => 'kingdom-of-navarre-france.png',
                     'dcterms:title' => 'Kingdom of Navarre-France',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Arms_of_the_Kingdom_of_France_(Ancien).svg: Sodacan Coat_of_Arms_of_France_&_Navarre.svg: Sodacan derivative work: Sodacan (talk)',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Fuxius',
                 ],
             ],
         ],
@@ -14937,8 +14714,8 @@ return [
                 [
                     'file' => 'novgorod-republic.png',
                     'dcterms:title' => 'Novgorod Republic',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Goran tek-en, following request by and knowledge from Veverve',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Gabagool',
                 ],
             ],
         ],
@@ -14990,14 +14767,6 @@ return [
             'demo-data:area' => [
                 '@value' => '25000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'pskov-republic.png',
-                    'dcterms:title' => 'Pskov Republic',
-                    'dcterms:rights' => 'CC BY-SA 2.5',
-                    'dcterms:contributor' => 'Koryakov Yuri',
-                ],
             ],
         ],
         [
@@ -15108,13 +14877,6 @@ return [
                 '@value' => '70000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'kingdom-of-bosnia.png',
-                    'dcterms:title' => 'Kingdom of Bosnia',
-                    'dcterms:rights' => 'Public domain',
-                ],
-            ],
         ],
         [
             'id' => 'duchy-of-savoy',
@@ -15169,8 +14931,8 @@ return [
                 [
                     'file' => 'duchy-of-savoy.png',
                     'dcterms:title' => 'Duchy of Savoy',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Facquis',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Gabagool',
                 ],
             ],
         ],
@@ -15228,7 +14990,7 @@ return [
                     'file' => 'angevin-empire.png',
                     'dcterms:title' => 'Angevin Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Amitchell125',
+                    'dcterms:contributor' => 'Blank map of Europe.svg: maix derivative work: Alphathon',
                 ],
             ],
         ],
@@ -15284,10 +15046,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-jerusalem.jpg',
+                    'file' => 'kingdom-of-jerusalem.png',
                     'dcterms:title' => 'Kingdom of Jerusalem',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Ilya Yakubovich',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'MapMaster',
                 ],
             ],
         ],
@@ -15345,6 +15107,7 @@ return [
                     'file' => 'waldemar-iv-denmark.jpg',
                     'dcterms:title' => 'Waldemar IV Denmark',
                     'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Unknown contemporary 14th-century artist',
                 ],
             ],
         ],
@@ -15453,14 +15216,6 @@ return [
                 '@value' => '100000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'mycenaean-greece.jpg',
-                    'dcterms:title' => 'Mycenaean Greece',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Mary Harrsch',
-                ],
-            ],
         ],
         [
             'id' => 'kingdom-of-macedon',
@@ -15520,10 +15275,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-macedon.jpg',
+                    'file' => 'kingdom-of-macedon.png',
                     'dcterms:title' => 'Kingdom of Macedon',
                     'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Silfiriel',
+                    'dcterms:contributor' => 'Map_Macedonia_336_BC-es.svg: Marsyas (French original); Kordas (Spanish translation) derivative work: MinisterForBadTimes (talk)',
                 ],
             ],
         ],
@@ -16053,14 +15808,6 @@ return [
                 '@value' => '1500',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'massalia.jpg',
-                    'dcterms:title' => 'Massalia',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Benh LIEU SONG',
-                ],
-            ],
         ],
         [
             'id' => 'acragas',
@@ -16292,8 +16039,8 @@ return [
                 [
                     'file' => 'achaean-league.png',
                     'dcterms:title' => 'Achaean League',
-                    'dcterms:rights' => 'CC BY 4.0',
-                    'dcterms:contributor' => 'MrsColdArrow',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'La Liga aquea en 150 aC.jpg: Augusto de Cartagena Fulvio314',
                 ],
             ],
         ],
@@ -16346,13 +16093,6 @@ return [
                 '@value' => '25000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'aetolian-league.jpg',
-                    'dcterms:title' => 'Aetolian League',
-                    'dcterms:rights' => 'CC0',
-                ],
-            ],
         ],
         [
             'id' => 'peloponnesian-league',
@@ -16403,14 +16143,6 @@ return [
             'demo-data:area' => [
                 '@value' => '100000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'peloponnesian-league.png',
-                    'dcterms:title' => 'Peloponnesian League',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'T8612',
-                ],
             ],
         ],
         [
@@ -16470,7 +16202,6 @@ return [
                     'file' => 'empire-of-alexander-the-great.jpg',
                     'dcterms:title' => 'Empire of Alexander the Great',
                     'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Silfiriel',
                 ],
             ],
         ],
@@ -16536,8 +16267,8 @@ return [
                 [
                     'file' => 'seleucid-empire.png',
                     'dcterms:title' => 'Seleucid Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Avantiputra7',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Gabagool',
                 ],
             ],
         ],
@@ -16591,14 +16322,6 @@ return [
             'demo-data:area' => [
                 '@value' => '70000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'kingdom-of-pergamon.png',
-                    'dcterms:title' => 'Kingdom of Pergamon',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Ennomus',
-                ],
             ],
         ],
         [
@@ -16656,8 +16379,8 @@ return [
                 [
                     'file' => 'kingdom-of-pontus.png',
                     'dcterms:title' => 'Kingdom of Pontus',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Joyfulmapper',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Javierfv1212 (talk)',
                 ],
             ],
         ],
@@ -16710,14 +16433,6 @@ return [
                 '@value' => '35000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'kingdom-of-epirus.png',
-                    'dcterms:title' => 'Kingdom of Epirus',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'MaryroseB54',
-                ],
-            ],
         ],
         [
             'id' => 'antigonid-macedonia',
@@ -16768,14 +16483,6 @@ return [
             'demo-data:area' => [
                 '@value' => '300000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'antigonid-macedonia.jpg',
-                    'dcterms:title' => 'Antigonid Macedonia',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Silfiriel',
-                ],
             ],
         ],
         [
@@ -16829,9 +16536,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-the-bosporus.jpg',
+                    'file' => 'kingdom-of-the-bosporus.png',
                     'dcterms:title' => 'Kingdom of the Bosporus',
-                    'dcterms:rights' => 'CC0',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Sémhur',
                 ],
             ],
         ],
@@ -16962,8 +16670,8 @@ return [
                 [
                     'file' => 'roman-republic.png',
                     'dcterms:title' => 'Roman Republic',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Goran_tek-en',
+                    'dcterms:rights' => 'CC BY-SA 2.5',
+                    'dcterms:contributor' => 'Alvaro qc by the original work of Husar de la Princesa',
                 ],
             ],
         ],
@@ -17087,10 +16795,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'western-roman-empire.jpg',
+                    'file' => 'western-roman-empire.png',
                     'dcterms:title' => 'Western Roman Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Dragovit',
+                    'dcterms:contributor' => 'Shuaaa2',
                 ],
             ],
         ],
@@ -17165,14 +16873,6 @@ return [
             'demo-data:area' => [
                 '@value' => '3500000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'byzantine-empire.gif',
-                    'dcterms:title' => 'Byzantine Empire',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Original: Various – Derivative work: Roke~commonswiki',
-                ],
             ],
         ],
         [
@@ -17350,8 +17050,8 @@ return [
                 [
                     'file' => 'magna-graecia.png',
                     'dcterms:title' => 'Magna Graecia',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Vikarna',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Future Perfect at Sunrise (original English SVG); Bibi Saint-Pol (French translation)',
                 ],
             ],
         ],
@@ -17403,14 +17103,6 @@ return [
             'demo-data:area' => [
                 '@value' => '25000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'samnite-confederation.jpg',
-                    'dcterms:title' => 'Samnite Confederation',
-                    'dcterms:rights' => 'CC BY-SA 2.5',
-                    'dcterms:contributor' => 'CNG',
-                ],
             ],
         ],
         [
@@ -17466,8 +17158,8 @@ return [
                 [
                     'file' => 'latin-league.png',
                     'dcterms:title' => 'Latin League',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Surely Shirly',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Cassius Ahenobarbus',
                 ],
             ],
         ],
@@ -17523,10 +17215,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'numidia.jpg',
+                    'file' => 'numidia.png',
                     'dcterms:title' => 'Numidia',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'بلهواري محمد فيصل',
+                    'dcterms:contributor' => 'Goran_tek-en',
                 ],
             ],
         ],
@@ -17577,14 +17269,6 @@ return [
             'demo-data:area' => [
                 '@value' => '300000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'kingdom-of-mauretania.jpg',
-                    'dcterms:title' => 'Kingdom of Mauretania',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Arienne King',
-                ],
             ],
         ],
         [
@@ -17638,10 +17322,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-thrace.jpg',
+                    'file' => 'kingdom-of-thrace.png',
                     'dcterms:title' => 'Kingdom of Thrace',
-                    'dcterms:rights' => 'CC BY 3.0',
-                    'dcterms:contributor' => 'Ceator: Riccardo Arisio',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Kandi',
                 ],
             ],
         ],
@@ -17693,14 +17377,6 @@ return [
                 '@value' => '10000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'lycian-league.png',
-                    'dcterms:title' => 'Lycian League',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Vikarna',
-                ],
-            ],
         ],
         [
             'id' => 'illyrian-kingdom',
@@ -17749,14 +17425,6 @@ return [
             'demo-data:area' => [
                 '@value' => '100000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'illyrian-kingdom.png',
-                    'dcterms:title' => 'Illyrian Kingdom',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Hyllir',
-                ],
             ],
         ],
         [
@@ -17866,14 +17534,6 @@ return [
             'demo-data:area' => [
                 '@value' => '100000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'kingdom-of-cappadocia.jpg',
-                    'dcterms:title' => 'Kingdom of Cappadocia',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Benh LIEU SONG (Flickr)',
-                ],
             ],
         ],
         [
@@ -18098,8 +17758,8 @@ return [
                 [
                     'file' => 'chalcidian-league.jpg',
                     'dcterms:title' => 'Chalcidian League',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'ArchaiOptix',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Drawing by Marsyas',
                 ],
             ],
         ],
@@ -18156,8 +17816,8 @@ return [
                 [
                     'file' => 'kingdom-of-armenia.png',
                     'dcterms:title' => 'Kingdom of Armenia',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Diego Delso',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Nareklm (talk · contribs)',
                 ],
             ],
         ],
@@ -18208,14 +17868,6 @@ return [
             'demo-data:area' => [
                 '@value' => '14000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'thessalian-league.jpg',
-                    'dcterms:title' => 'Thessalian League',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'ArchaiOptix',
-                ],
             ],
         ],
         [
@@ -18268,14 +17920,6 @@ return [
                 '@value' => '1200000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'league-of-corinth.jpg',
-                    'dcterms:title' => 'League of Corinth',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Corinthe (Corinthie ; atelier monétaire). Atelier monétaire',
-                ],
-            ],
         ],
         [
             'id' => 'acarnanian-confederation',
@@ -18324,14 +17968,6 @@ return [
             'demo-data:area' => [
                 '@value' => '10000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'acarnanian-confederation.jpg',
-                    'dcterms:title' => 'Acarnanian Confederation',
-                    'dcterms:rights' => 'CC BY-SA 2.5',
-                    'dcterms:contributor' => 'CNG[1]',
-                ],
             ],
         ],
         [
@@ -18449,10 +18085,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'akkadian-empire.jpg',
+                    'file' => 'akkadian-empire.png',
                     'dcterms:title' => 'Akkadian Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Türk-Genci8',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Middle_East_topographic_map-blank.svg: Sémhur (talk) derivative work: Zunkir (talk)',
                 ],
             ],
         ],
@@ -18515,8 +18151,8 @@ return [
                 [
                     'file' => 'third-dynasty-of-ur.png',
                     'dcterms:title' => 'Third Dynasty of Ur',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Zunkir',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Middle_East_topographic_map-blank.svg: Sémhur (talk) derivative work: Zunkir (talk)',
                 ],
             ],
         ],
@@ -18633,8 +18269,8 @@ return [
                 [
                     'file' => 'old-babylonian-empire.png',
                     'dcterms:title' => 'Old Babylonian Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Uoaei1',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Sémhur, Zunkir, rowanwindwhistler',
                 ],
             ],
         ],
@@ -18685,14 +18321,6 @@ return [
             'demo-data:area' => [
                 '@value' => '400000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'kassite-babylon.jpg',
-                    'dcterms:title' => 'Kassite Babylon',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Marie-Lan Nguyen',
-                ],
             ],
         ],
         [
@@ -18745,14 +18373,6 @@ return [
             'demo-data:area' => [
                 '@value' => '500000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'middle-assyrian-empire.png',
-                    'dcterms:title' => 'Middle Assyrian Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'IchthyovenatorSémhur (base map)',
-                ],
             ],
         ],
         [
@@ -18816,8 +18436,8 @@ return [
                 [
                     'file' => 'neo-assyrian-empire.png',
                     'dcterms:title' => 'Neo-Assyrian Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Puffoco',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Ningyou',
                 ],
             ],
         ],
@@ -19281,7 +18901,7 @@ return [
                     'file' => 'mitanni.png',
                     'dcterms:title' => 'Mitanni',
                     'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Sémhur, Zunkir, rowanwindwhistler',
+                    'dcterms:contributor' => 'Near_East_topographic_map-blank.svg: Sémhur derivative work: Zunkir (talk)',
                 ],
             ],
         ],
@@ -19400,8 +19020,8 @@ return [
                 [
                     'file' => 'kingdom-of-urartu.png',
                     'dcterms:title' => 'Kingdom of Urartu',
-                    'dcterms:rights' => 'CC BY 4.0',
-                    'dcterms:contributor' => 'Knslmn',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'EvgenyGenkin',
                 ],
             ],
         ],
@@ -19458,8 +19078,8 @@ return [
                 [
                     'file' => 'kingdom-of-lydia.png',
                     'dcterms:title' => 'Kingdom of Lydia',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Ennomus',
+                    'dcterms:rights' => 'CC BY 4.0',
+                    'dcterms:contributor' => 'Cattette',
                 ],
             ],
         ],
@@ -19511,14 +19131,6 @@ return [
             'demo-data:area' => [
                 '@value' => '200000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'phrygian-kingdom.jpg',
-                    'dcterms:title' => 'Phrygian Kingdom',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'BabelStone',
-                ],
             ],
         ],
         [
@@ -19574,10 +19186,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'phoenicia.jpg',
+                    'file' => 'phoenicia.png',
                     'dcterms:title' => 'Phoenicia',
-                    'dcterms:rights' => 'Attribution',
-                    'dcterms:contributor' => 'Giovanni Dall\'Orto',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Phoenicia_map-en.svg: Kordas, based on Alvaro\'s work derivative work: nikve',
                 ],
             ],
         ],
@@ -19633,10 +19245,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-israel.jpg',
+                    'file' => 'kingdom-of-israel.png',
                     'dcterms:title' => 'Kingdom of Israel',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Zhomron',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Oldtidens_Israel_&_Judea.svg: FinnWikiNo derivative work: Richardprins (talk)',
                 ],
             ],
         ],
@@ -19692,10 +19304,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-judah.jpg',
+                    'file' => 'kingdom-of-judah.png',
                     'dcterms:title' => 'Kingdom of Judah',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Zhomron',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Oldtidens_Israel_&_Judea.svg: FinnWikiNo derivative work: Richardprins (talk)',
                 ],
             ],
         ],
@@ -19811,10 +19423,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-aram-damascus.jpg',
+                    'file' => 'kingdom-of-aram-damascus.png',
                     'dcterms:title' => 'Kingdom of Aram-Damascus',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'George Adam Smith',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Richardprins (talk · contribs)',
                 ],
             ],
         ],
@@ -19926,10 +19538,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'egyptian-old-kingdom.jpg',
+                    'file' => 'egyptian-old-kingdom.png',
                     'dcterms:title' => 'Egyptian Old Kingdom',
-                    'dcterms:rights' => 'CC BY 2.0',
-                    'dcterms:contributor' => 'Richard Mortel',
+                    'dcterms:rights' => 'CC BY 4.0',
+                    'dcterms:contributor' => 'Cattette',
                 ],
             ],
         ],
@@ -19983,10 +19595,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'egyptian-middle-kingdom.jpg',
+                    'file' => 'egyptian-middle-kingdom.png',
                     'dcterms:title' => 'Egyptian Middle Kingdom',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Didier Descouens',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Gert7',
                 ],
             ],
         ],
@@ -20043,10 +19655,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'egyptian-new-kingdom.jpg',
+                    'file' => 'egyptian-new-kingdom.png',
                     'dcterms:title' => 'Egyptian New Kingdom',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Викидим',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'ArdadN at English Wikipedia',
                 ],
             ],
         ],
@@ -20098,14 +19710,6 @@ return [
                 '@value' => '1500000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => '18th-dynasty-of-egypt.jpg',
-                    'dcterms:title' => '18th Dynasty of Egypt',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Mary Harrsch',
-                ],
-            ],
         ],
         [
             'id' => '19th-dynasty-of-egypt',
@@ -20155,14 +19759,6 @@ return [
             'demo-data:area' => [
                 '@value' => '1200000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => '19th-dynasty-of-egypt.jpg',
-                    'dcterms:title' => '19th Dynasty of Egypt',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Mary Harrsch',
-                ],
             ],
         ],
         [
@@ -20220,7 +19816,7 @@ return [
                     'file' => 'third-intermediate-period-of-egypt.png',
                     'dcterms:title' => 'Third Intermediate Period of Egypt',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'SpeakingArch',
+                    'dcterms:contributor' => 'Jeff Dahl',
                 ],
             ],
         ],
@@ -20276,8 +19872,8 @@ return [
                 [
                     'file' => 'late-period-of-ancient-egypt.png',
                     'dcterms:title' => 'Late Period of Ancient Egypt',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Jeff Dahl',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'ChrisO',
                 ],
             ],
         ],
@@ -20337,8 +19933,8 @@ return [
                 [
                     'file' => 'ptolemaic-kingdom.jpg',
                     'dcterms:title' => 'Ptolemaic Kingdom',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Amphipolis',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Thomas Lessman (Contact!)',
                 ],
             ],
         ],
@@ -20392,14 +19988,6 @@ return [
                 '@value' => '1500000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => '25th-dynasty-of-egypt.jpg',
-                    'dcterms:title' => '25th Dynasty of Egypt',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'SpeakingArch',
-                ],
-            ],
         ],
         [
             'id' => 'old-elamite-kingdom',
@@ -20449,14 +20037,6 @@ return [
             'demo-data:area' => [
                 '@value' => '300000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'old-elamite-kingdom.png',
-                    'dcterms:title' => 'Old Elamite Kingdom',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Enyavar',
-                ],
             ],
         ],
         [
@@ -20674,14 +20254,6 @@ return [
             'demo-data:area' => [
                 '@value' => '100000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'old-assyrian-period.jpg',
-                    'dcterms:title' => 'Old Assyrian Period',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'User:Zunkir',
-                ],
             ],
         ],
         [
@@ -21072,14 +20644,6 @@ return [
                 '@value' => '50000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'dilmun.png',
-                    'dcterms:title' => 'Dilmun',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'पाटलिपुत्र',
-                ],
-            ],
         ],
         [
             'id' => 'kingdom-of-bit-adini',
@@ -21179,14 +20743,6 @@ return [
             'demo-data:area' => [
                 '@value' => '150000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'neo-hittite-kingdoms.jpg',
-                    'dcterms:title' => 'Neo-Hittite Kingdoms',
-                    'dcterms:rights' => 'CC BY-SA 2.0',
-                    'dcterms:contributor' => 'Carole Raddato from FRANKFURT, Germany',
-                ],
             ],
         ],
         [
@@ -21297,14 +20853,6 @@ return [
                 '@value' => '1500000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'vedic-period.png',
-                    'dcterms:title' => 'Vedic Period',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Avantiputra7',
-                ],
-            ],
         ],
         [
             'id' => 'mahajanapadas',
@@ -21360,8 +20908,8 @@ return [
                 [
                     'file' => 'mahajanapadas.png',
                     'dcterms:title' => 'Mahajanapadas',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Sumita Roy Dutta',
+                    'dcterms:rights' => 'CC BY 2.5',
+                    'dcterms:contributor' => 'No machine-readable author provided. Kmusser assumed (based on copyright claims).',
                 ],
             ],
         ],
@@ -21413,14 +20961,6 @@ return [
             'demo-data:area' => [
                 '@value' => '1000000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'nanda-empire.gif',
-                    'dcterms:title' => 'Nanda Empire',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Avantiputra7',
-                ],
             ],
         ],
         [
@@ -21479,14 +21019,6 @@ return [
                 '@value' => '5000000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'maurya-empire.jpg',
-                    'dcterms:title' => 'Maurya Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Magadhahistorian',
-                ],
-            ],
         ],
         [
             'id' => 'shunga-empire',
@@ -21541,8 +21073,8 @@ return [
                 [
                     'file' => 'shunga-empire.jpg',
                     'dcterms:title' => 'Shunga Empire',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Levakpitam',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Windy City Dude',
                 ],
             ],
         ],
@@ -21594,14 +21126,6 @@ return [
             'demo-data:area' => [
                 '@value' => '1000000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'satavahana-empire.jpg',
-                    'dcterms:title' => 'Satavahana Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Pls I dank memer',
-                ],
             ],
         ],
         [
@@ -21659,7 +21183,8 @@ return [
                 [
                     'file' => 'kushan-empire.jpg',
                     'dcterms:title' => 'Kushan Empire',
-                    'dcterms:rights' => 'CC0',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'PHGCOM',
                 ],
             ],
         ],
@@ -21717,8 +21242,8 @@ return [
                 [
                     'file' => 'gupta-empire.png',
                     'dcterms:title' => 'Gupta Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Shivlee',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Arab Hafez at English Wikipedia. Later version(s) were uploaded by Beao at English Wikipedia.',
                 ],
             ],
         ],
@@ -21832,10 +21357,9 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'pallava-kingdom.jpg',
+                    'file' => 'pallava-kingdom.png',
                     'dcterms:title' => 'Pallava Kingdom',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'PratibhaSahoo',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
                 ],
             ],
         ],
@@ -21948,14 +21472,6 @@ return [
                 '@value' => '700000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'rashtrakuta-kingdom.jpg',
-                    'dcterms:title' => 'Rashtrakuta Kingdom',
-                    'dcterms:rights' => 'CC BY 4.0',
-                    'dcterms:contributor' => 'TeenX808',
-                ],
-            ],
         ],
         [
             'id' => 'pala-empire',
@@ -22010,8 +21526,8 @@ return [
                 [
                     'file' => 'pala-empire.png',
                     'dcterms:title' => 'Pala Empire',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Ktrinko, पाटलिपुत्र (talk)',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Jayantanth',
                 ],
             ],
         ],
@@ -22126,14 +21642,6 @@ return [
                 '@value' => '200000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'sena-kingdom.jpg',
-                    'dcterms:title' => 'Sena Kingdom',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Sevenryder',
-                ],
-            ],
         ],
         [
             'id' => 'vijayanagara-empire',
@@ -22194,10 +21702,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'vijayanagara-empire.jpg',
+                    'file' => 'vijayanagara-empire.png',
                     'dcterms:title' => 'Vijayanagara Empire',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Avantiputra7',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Mlpkr',
                 ],
             ],
         ],
@@ -22257,8 +21765,8 @@ return [
                 [
                     'file' => 'delhi-sultanate.png',
                     'dcterms:title' => 'Delhi Sultanate',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'naturalearthdata.com, offered to the Public Domain per Terms of Use',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Javierfv1212',
                 ],
             ],
         ],
@@ -22384,14 +21892,6 @@ return [
                 '@value' => '2500000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'maratha-confederacy.jpg',
-                    'dcterms:title' => 'Maratha Confederacy',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'PadFoot2008',
-                ],
-            ],
         ],
         [
             'id' => 'bahmani-sultanate',
@@ -22448,8 +21948,8 @@ return [
                 [
                     'file' => 'bahmani-sultanate.png',
                     'dcterms:title' => 'Bahmani Sultanate',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Map created from DEMIS Mapserver, which are public domain. Koba-chan. Reference: [1] Borders by Noorullah21',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Mlpkr',
                 ],
             ],
         ],
@@ -22502,14 +22002,6 @@ return [
             'demo-data:area' => [
                 '@value' => '65610',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'anuradhapura-kingdom.jpg',
-                    'dcterms:title' => 'Anuradhapura Kingdom',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Yixopeh377',
-                ],
             ],
         ],
         [
@@ -22679,14 +22171,6 @@ return [
                 '@value' => '600000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'funan-kingdom.png',
-                    'dcterms:title' => 'Funan Kingdom',
-                    'dcterms:rights' => 'CC BY 3.0',
-                    'dcterms:contributor' => 'KnightxxArrow',
-                ],
-            ],
         ],
         [
             'id' => 'chenla-kingdom',
@@ -22741,8 +22225,8 @@ return [
                 [
                     'file' => 'chenla-kingdom.png',
                     'dcterms:title' => 'Chenla Kingdom',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Dmitry Makeev',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Interchange88',
                 ],
             ],
         ],
@@ -22804,10 +22288,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'khmer-empire.jpg',
+                    'file' => 'khmer-empire.png',
                     'dcterms:title' => 'Khmer Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Pnn2013',
+                    'dcterms:rights' => 'CC0',
+                    'dcterms:contributor' => 'Jembezmamy',
                 ],
             ],
         ],
@@ -22825,7 +22309,7 @@ return [
                 'l-dynasty-vietnam',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q167027',
+                '@value' => 'https://www.wikidata.org/entity/Q216786',
                 '@type' => 'uri',
             ],
             'map_bounds' => '106.026908,13.626908,110.573092,18.173092',
@@ -22866,8 +22350,8 @@ return [
                 [
                     'file' => 'champa-kingdom.jpg',
                     'dcterms:title' => 'Champa Kingdom',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Francisco Manuel Blanco (O.S.A.)',
+                    'dcterms:rights' => 'CC BY 2.0',
+                    'dcterms:contributor' => 'Jean-Pierre Dalbéra from Paris, France',
                 ],
             ],
         ],
@@ -22987,7 +22471,7 @@ return [
                 [
                     'file' => 'ava-kingdom.png',
                     'dcterms:title' => 'Ava Kingdom',
-                    'dcterms:rights' => 'CC0',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
                     'dcterms:contributor' => 'Hybernator',
                 ],
             ],
@@ -23107,8 +22591,8 @@ return [
                 [
                     'file' => 'dvaravati-kingdom.png',
                     'dcterms:title' => 'Dvaravati Kingdom',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Thomson Walt',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Heinrich Damm (User:Hdamm, Hdamm at de.wikipedia.org)',
                 ],
             ],
         ],
@@ -23228,8 +22712,8 @@ return [
                 [
                     'file' => 'ayutthaya-kingdom.png',
                     'dcterms:title' => 'Ayutthaya Kingdom',
-                    'dcterms:rights' => 'CC BY 4.0',
-                    'dcterms:contributor' => 'Sirrypusar',
+                    'dcterms:rights' => 'CC0',
+                    'dcterms:contributor' => 'Javierfv1212',
                 ],
             ],
         ],
@@ -23286,8 +22770,8 @@ return [
                 [
                     'file' => 'lan-xang-kingdom.png',
                     'dcterms:title' => 'Lan Xang Kingdom',
-                    'dcterms:rights' => 'CC BY 3.0',
-                    'dcterms:contributor' => 'Interchange',
+                    'dcterms:rights' => 'CC0',
+                    'dcterms:contributor' => 'Javierfv1212',
                 ],
             ],
         ],
@@ -23344,14 +22828,6 @@ return [
                 '@value' => '2000000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'srivijaya-empire.png',
-                    'dcterms:title' => 'Srivijaya Empire',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Gunawan Kartapranata',
-                ],
-            ],
         ],
         [
             'id' => 'sailendra-dynasty',
@@ -23403,14 +22879,6 @@ return [
             'demo-data:area' => [
                 '@value' => '500000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'sailendra-dynasty.jpg',
-                    'dcterms:title' => 'Sailendra Dynasty',
-                    'dcterms:rights' => 'CC BY 2.0',
-                    'dcterms:contributor' => 'DANIEL JULIE from Paris, France',
-                ],
             ],
         ],
         [
@@ -23472,8 +22940,8 @@ return [
                 [
                     'file' => 'majapahit-empire.png',
                     'dcterms:title' => 'Majapahit Empire',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Inayubhagya',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Gunawan Kartapranata translator: Manlleus (ca)',
                 ],
             ],
         ],
@@ -23598,7 +23066,7 @@ return [
                     'file' => 'dai-viet-kingdom.png',
                     'dcterms:title' => 'Dai Viet Kingdom',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'DRVietnam5576',
+                    'dcterms:contributor' => 'A',
                 ],
             ],
         ],
@@ -23649,14 +23117,6 @@ return [
             'demo-data:area' => [
                 '@value' => '150000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'i-c-vi-t.jpg',
-                    'dcterms:title' => 'Đại Cồ Việt',
-                    'dcterms:rights' => 'CC BY 2.0',
-                    'dcterms:contributor' => 'Richard Mortel from Riyadh, Saudi Arabia',
-                ],
             ],
         ],
         [
@@ -23710,10 +23170,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'singhasari-kingdom.jpg',
+                    'file' => 'singhasari-kingdom.png',
                     'dcterms:title' => 'Singhasari Kingdom',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Anton nuryana',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Gunawan Kartapranata',
                 ],
             ],
         ],
@@ -23770,8 +23230,8 @@ return [
                 [
                     'file' => 'mataram-kingdom.png',
                     'dcterms:title' => 'Mataram Kingdom',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Flag Creator',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Gunawan Kartapranata, Syzyszune',
                 ],
             ],
         ],
@@ -23824,14 +23284,6 @@ return [
             'demo-data:area' => [
                 '@value' => '120000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'sulu-sultanate.png',
-                    'dcterms:title' => 'Sulu Sultanate',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Delirium333',
-                ],
             ],
         ],
         [
@@ -23887,8 +23339,8 @@ return [
                 [
                     'file' => 'sultanate-of-brunei.png',
                     'dcterms:title' => 'Sultanate of Brunei',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Syazwi Irfan',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Night Lantern',
                 ],
             ],
         ],
@@ -23945,8 +23397,8 @@ return [
                 [
                     'file' => 'aceh-sultanate.png',
                     'dcterms:title' => 'Aceh Sultanate',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Rachmat04',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Gunawan Kartapranata',
                 ],
             ],
         ],
@@ -23998,14 +23450,6 @@ return [
             'demo-data:area' => [
                 '@value' => '1000000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'bamar-konbaung-dynasty.png',
-                    'dcterms:title' => 'Bamar Konbaung Dynasty',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Banklive',
-                ],
             ],
         ],
         [
@@ -24063,8 +23507,8 @@ return [
                 [
                     'file' => 'western-chalukya-empire.png',
                     'dcterms:title' => 'Western Chalukya Empire',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'B. R. Gopal',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Mlpkr',
                 ],
             ],
         ],
@@ -24119,7 +23563,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'hoysala-empire.jpg',
+                    'file' => 'hoysala-empire.png',
                     'dcterms:title' => 'Hoysala Empire',
                     'dcterms:rights' => 'CC BY-SA 2.5',
                     'dcterms:contributor' => 'Nicholas (Nichalp)',
@@ -24174,14 +23618,6 @@ return [
             'demo-data:area' => [
                 '@value' => '400000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'kakatiya-kingdom.png',
-                    'dcterms:title' => 'Kakatiya Kingdom',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Historyfiles.mapping',
-                ],
             ],
         ],
         [
@@ -24352,10 +23788,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'mon-hanthawaddy-kingdom.jpg',
+                    'file' => 'mon-hanthawaddy-kingdom.png',
                     'dcterms:title' => 'Mon Hanthawaddy Kingdom',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Bellin, Jacques Nicolas, 1703-1772',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Hybernator',
                 ],
             ],
         ],
@@ -24412,8 +23848,8 @@ return [
                 [
                     'file' => 'taungoo-dynasty.png',
                     'dcterms:title' => 'Taungoo Dynasty',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'https://www.flickr.com/photos/193550014@N07/with/51352177412/ Kreuzecharmeur',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Soewinhan',
                 ],
             ],
         ],
@@ -24528,8 +23964,8 @@ return [
                 [
                     'file' => 'lan-na-kingdom.png',
                     'dcterms:title' => 'Lan Na Kingdom',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Tanakorn Srichaisuphakit',
+                    'dcterms:rights' => 'CC0',
+                    'dcterms:contributor' => 'Javierfv1212',
                 ],
             ],
         ],
@@ -24584,10 +24020,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'chera-kingdom.jpg',
+                    'file' => 'chera-kingdom.png',
                     'dcterms:title' => 'Chera Kingdom',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Adapted from the maps by Y. Subbarayalu for Rajan Gurukkal',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'User:Connormah, cmglee',
                 ],
             ],
         ],
@@ -24764,8 +24200,8 @@ return [
                 [
                     'file' => 'ethiopian-empire.png',
                     'dcterms:title' => 'Ethiopian Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Pnn2013',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Africa_(orthographic_projection).svg: Martin23230 Menelik_II_conquests_map.svg: *Conquêtes_de_Menelik_II.png: Vob08 000_Etiopia_harta.PNG: CIA World Factbook and User:Hipi Zhdripi Africa 1909, Edward Hertslet (Horn of Africa, detail).jpg: Sir Edward Hertslet derivative work: Pethrus (talk) derivative work: Pethrus (talk)',
                 ],
             ],
         ],
@@ -24823,7 +24259,7 @@ return [
                     'file' => 'ghana-empire.png',
                     'dcterms:title' => 'Ghana Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Amitchell125',
+                    'dcterms:contributor' => 'Ghana reich karte.png: Luxo Africa location map.svg: Sting derivative work: Rowanwindwhistler (talk)',
                 ],
             ],
         ],
@@ -24947,7 +24383,7 @@ return [
                     'file' => 'songhai-empire.png',
                     'dcterms:title' => 'Songhai Empire',
                     'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'KarnRedsun',
+                    'dcterms:contributor' => 'No machine-readable author provided. Roke~commonswiki assumed (based on copyright claims).',
                 ],
             ],
         ],
@@ -25007,8 +24443,8 @@ return [
                 [
                     'file' => 'kanem-bornu-empire.png',
                     'dcterms:title' => 'Kanem-Bornu Empire',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => '2012hamza',
+                    'dcterms:rights' => 'CC0',
+                    'dcterms:contributor' => 'Megartonius',
                 ],
             ],
         ],
@@ -25122,14 +24558,6 @@ return [
                 '@value' => '900000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'kingdom-of-zimbabwe.png',
-                    'dcterms:title' => 'Kingdom of Zimbabwe',
-                    'dcterms:rights' => 'CC BY 3.0',
-                    'dcterms:contributor' => 'Samhanin',
-                ],
-            ],
         ],
         [
             'id' => 'kingdom-of-mutapa',
@@ -25185,7 +24613,7 @@ return [
                     'file' => 'kingdom-of-mutapa.jpg',
                     'dcterms:title' => 'Kingdom of Mutapa',
                     'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Theodor de Bry, Israel de Bry, and Johann Theodor de Bry',
+                    'dcterms:contributor' => 'Willem Blaeu',
                 ],
             ],
         ],
@@ -25308,8 +24736,8 @@ return [
                 [
                     'file' => 'kingdom-of-kongo.jpg',
                     'dcterms:title' => 'Kingdom of Kongo',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'MiddleOfAfrica',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Gerard Mercator',
                 ],
             ],
         ],
@@ -25547,8 +24975,8 @@ return [
                 [
                     'file' => 'dahomey-kingdom.png',
                     'dcterms:title' => 'Dahomey Kingdom',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Szabolcsiandris',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Pymouss',
                 ],
             ],
         ],
@@ -25717,14 +25145,6 @@ return [
                 '@value' => '400000',
                 '@type' => 'numeric:integer',
             ],
-            'media' => [
-                [
-                    'file' => 'kingdom-of-luba.jpg',
-                    'dcterms:title' => 'Kingdom of Luba',
-                    'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Algovia',
-                ],
-            ],
         ],
         [
             'id' => 'kingdom-of-kuba',
@@ -25774,13 +25194,6 @@ return [
             'demo-data:area' => [
                 '@value' => '80000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'kingdom-of-kuba.jpg',
-                    'dcterms:title' => 'Kingdom of Kuba',
-                    'dcterms:rights' => 'CC BY 3.0',
-                ],
             ],
         ],
         [
@@ -25955,7 +25368,7 @@ return [
                     'file' => 'mossi-kingdoms.png',
                     'dcterms:title' => 'Mossi Kingdoms',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Bougnat87',
+                    'dcterms:contributor' => 'WestAfrica1530.png: Gabagool (talk · contribs) WestAfrica1625-es.svg: Rowanwindwhistler (talk · contribs) derivative work: Rowanwindwhistler (talk)',
                 ],
             ],
         ],
@@ -26071,8 +25484,8 @@ return [
                 [
                     'file' => 'funj-sultanate.png',
                     'dcterms:title' => 'Funj Sultanate',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Funj Sultanate 1700.png: LeGabrie derivative work: rowanwindwhistler (talk)',
+                    'dcterms:rights' => 'CC BY 3.0',
+                    'dcterms:contributor' => 'Gabagool',
                 ],
             ],
         ],
@@ -26188,8 +25601,8 @@ return [
                 [
                     'file' => 'kilwa-sultanate.jpg',
                     'dcterms:title' => 'Kilwa Sultanate',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'AbdurRahman AbdulMoneim',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'George McCall Theal',
                 ],
             ],
         ],
@@ -26246,8 +25659,8 @@ return [
                 [
                     'file' => 'ajuran-sultanate.png',
                     'dcterms:title' => 'Ajuran Sultanate',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Saxaaf',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Runehelmet',
                 ],
             ],
         ],
@@ -26299,14 +25712,6 @@ return [
             'demo-data:area' => [
                 '@value' => '250000',
                 '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'rozvi-empire.png',
-                    'dcterms:title' => 'Rozvi Empire',
-                    'dcterms:rights' => 'CC0',
-                    'dcterms:contributor' => 'Mert Acartabak',
-                ],
             ],
         ],
         [
@@ -26360,7 +25765,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'lunda-empire.jpg',
+                    'file' => 'lunda-empire.png',
                     'dcterms:title' => 'Lunda Empire',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Library of Congress',
@@ -26417,10 +25822,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'bunyoro-kingdom.jpg',
+                    'file' => 'bunyoro-kingdom.png',
                     'dcterms:title' => 'Bunyoro Kingdom',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'B722N',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'No machine-readable author provided. Kirk979 assumed (based on copyright claims).',
                 ],
             ],
         ],
@@ -26537,8 +25942,8 @@ return [
                 [
                     'file' => 'lydian-kingdom.png',
                     'dcterms:title' => 'Lydian Kingdom',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Ennomus',
+                    'dcterms:rights' => 'CC BY 4.0',
+                    'dcterms:contributor' => 'Cattette',
                 ],
             ],
         ],
@@ -26598,7 +26003,7 @@ return [
                     'file' => 'avar-khaganate.png',
                     'dcterms:title' => 'Avar Khaganate',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Bilal Selim Filiz',
+                    'dcterms:contributor' => 'Wario2',
                 ],
             ],
         ],
@@ -26656,10 +26061,9 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'khazar-khaganate.png',
+                    'file' => 'khazar-khaganate.jpg',
                     'dcterms:title' => 'Khazar Khaganate',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Türk-Genci8',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
                 ],
             ],
         ],

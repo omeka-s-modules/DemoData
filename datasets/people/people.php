@@ -2384,7 +2384,7 @@ return [
             'dcterms:description' => 'Third Mughal emperor who consolidated and expanded the empire across most of the Indian subcontinent. Himself illiterate, he patronized scholarship in multiple languages and religions, held interfaith dialogues at his court, abolished the jizya tax on non-Muslims, and married a Rajput princess as part of a deliberate policy of religious inclusion.',
             'dcterms:subject' => [
                 'Rulership',
-                'Religious Tolerance',
+                'Religious tolerance',
                 'Governance',
                 'Military',
             ],
@@ -4779,7 +4779,7 @@ return [
             'dcterms:description' => 'Mongol princess and military commander, niece of Kublai Khan, who served alongside her father Kaidu in battle and reportedly captured enemies herself. She vowed to marry only the man who could defeat her in wrestling, amassed thousands of horses from failed challengers, and remained undefeated. Her story, recorded by Marco Polo, inspired centuries of legend in Europe and Asia.',
             'dcterms:subject' => [
                 'Military',
-                'Athletics',
+                'Athletic',
                 'Rulership',
             ],
             'demo-data:nationality' => 'Mongolian',
@@ -5365,7 +5365,7 @@ return [
             'dcterms:subject' => [
                 'Military',
                 'Rulership',
-                'Military Innovation',
+                'Military innovation',
             ],
             'demo-data:nationality' => 'Zulu',
             'dcterms:language' => 'Zulu',

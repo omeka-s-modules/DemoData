@@ -311,9 +311,9 @@ return [
             'dcterms:subject' => [
                 'Americas',
                 'Mesoamerica',
-                'Hieroglyphics',
+                'Hieroglyphs',
                 'Calendar',
-                'City-states',
+                'City-state',
             ],
             'dcterms:date' => [
                 '@value' => '0250',
@@ -3476,7 +3476,7 @@ return [
             'dcterms:subject' => [
                 'Central Asia',
                 'Mongol successor',
-                'Russian subjugation',
+                'Rus principalities',
                 'Islam',
                 'Steppe empire',
             ],
@@ -5818,7 +5818,7 @@ return [
                 7.2,
             ],
             'dcterms:title' => 'Dahomey Kingdom (Early Modern)',
-            'dcterms:description' => 'The early modern Kingdom of Dahomey became notorious as the "slave-raiding state of West Africa," conducting annual raids to capture neighbors for sale to European slavers at Ouidah. Its unique female military corps (Agojie) defended the kingdom while male soldiers conducted raids, creating a distinctive gendered military hierarchy.',
+            'dcterms:description' => 'The early modern Kingdom of Dahomey, centered at Abomey, became a major supplier in the Atlantic slave trade, conducting raids to capture and sell neighbors to European slavers at Ouidah. Its all-female military corps, the Agojie, defended the royal palace while contributing to the raids that gave Dahomey both its regional power and its deep entanglement in the slave trade.',
             'dcterms:subject' => [
                 'Europe',
                 'Benin',
@@ -6049,7 +6049,7 @@ return [
             'dcterms:subject' => [
                 'Europe',
                 'Haiti',
-                'Slave revolution',
+                'Revolt of the enslaved',
                 'Abolition',
                 'Caribbean independence',
             ],
@@ -14522,7 +14522,7 @@ return [
             'dcterms:description' => 'The Livonian Confederation was a loose federation of ecclesiastical and knightly estates controlling modern Latvia and Estonia, created by the Livonian Brothers of the Sword who converted the Baltic peoples to Christianity. Its collapse in the Livonian War triggered a long conflict between Russia, Sweden, Poland, and Denmark for control of the eastern Baltic.',
             'dcterms:subject' => [
                 'Europe',
-                'Baltics',
+                'Baltic',
                 'Teutonic crusade',
                 'Baltic conversion',
                 'Medieval confederation',
@@ -17948,7 +17948,7 @@ return [
                 'Cultural period',
                 'Mesopotamia',
                 'Bronze Age',
-                'City-states',
+                'City-state',
             ],
             'dcterms:date' => [
                 '@value' => '-3100',
@@ -24365,7 +24365,7 @@ return [
                 'West Africa',
                 'Islam',
                 'Timbuktu',
-                'Manuscripts',
+                'Manuscript',
             ],
             'dcterms:date' => [
                 '@value' => '1464',
@@ -24956,7 +24956,7 @@ return [
             'dcterms:subject' => [
                 'Sub-Saharan Africa',
                 'Benin',
-                'Women warriors',
+                'Female warriors',
                 'Atlantic slave trade',
                 'West Africa',
             ],

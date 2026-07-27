@@ -1863,50 +1863,6 @@ return [
             ],
         ],
         [
-            'id' => 'lindisfarne-gospels',
-            'class' => 'demo-data:Manuscript',
-            'sets' => [
-                'main',
-                'manuscripts',
-            ],
-            'relations' => [
-                'book-of-kells',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q80935',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Lindisfarne Gospels',
-            'dcterms:creator' => 'Eadfrith of Lindisfarne',
-            'dcterms:created' => [
-                '@value' => '0715',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Illuminated manuscript Gospel book produced on the island of Lindisfarne in honour of Saint Cuthbert, a masterpiece of Insular art.',
-            'dcterms:subject' => [
-                'Manuscript',
-                'Insular',
-                'Anglo-Saxon',
-                'Gospel book',
-            ],
-            'dcterms:medium' => 'Vellum',
-            'dcterms:publisher' => 'British Library, London',
-            'demo-data:movement' => 'Insular',
-            'map_coordinates' => [
-                -0.1232,
-                51.5298,
-            ],
-            'media' => [
-                [
-                    'file' => 'lindisfarne-gospels.jpg',
-                    'dcterms:title' => 'Lindisfarne Gospels',
-                    'dcterms:creator' => 'Eadfrith of Lindisfarne',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Eadfrith of Lindisfarne (presumed)',
-                ],
-            ],
-        ],
-        [
             'id' => 'tres-riches-heures',
             'class' => 'demo-data:Manuscript',
             'sets' => [
@@ -1917,6 +1873,7 @@ return [
                 'divine-comedy-manuscript',
                 'luttrell-psalter',
                 'gutenberg-bible',
+                'codex-manesse',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q211062',
@@ -2223,6 +2180,7 @@ return [
             ],
             'relations' => [
                 'tres-riches-heures',
+                'codex-manesse',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q846398',
@@ -7733,6 +7691,7 @@ return [
                 'manuscripts',
             ],
             'relations' => [
+                'book-of-kells',
                 'luttrell-psalter',
                 'hours-of-jeanne-devreux',
             ],
@@ -7767,6 +7726,48 @@ return [
                     'dcterms:creator' => 'Eadfrith of Lindisfarne',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Eadfrith of Lindisfarne (presumed)',
+                ],
+            ],
+        ],
+        [
+            'id' => 'codex-manesse',
+            'class' => 'demo-data:Manuscript',
+            'sets' => [
+                'main',
+                'manuscripts',
+            ],
+            'relations' => [
+                'luttrell-psalter',
+                'tres-riches-heures',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q165353',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Codex Manesse',
+            'dcterms:created' => [
+                '@value' => '1304',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'The Codex Manesse is the largest and most richly illuminated medieval song manuscript in the German language, compiled in early 14th-century Zurich to preserve the works of over 140 minnesingers. Its 137 full-page miniatures — each depicting a poet in an idealized courtly scene — are among the most vivid portrayals of medieval knightly culture in existence.',
+            'dcterms:subject' => [
+                'Manuscript',
+                'Medieval',
+                'German',
+                'Poetry',
+            ],
+            'dcterms:medium' => 'Parchment',
+            'dcterms:publisher' => 'Heidelberg University Library, Heidelberg',
+            'demo-data:movement' => 'Gothic',
+            'map_coordinates' => [
+                8.54,
+                47.38,
+            ],
+            'media' => [
+                [
+                    'file' => 'codex-manesse.jpg',
+                    'dcterms:title' => 'Codex Manesse',
+                    'dcterms:rights' => 'Public domain',
                 ],
             ],
         ],

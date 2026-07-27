@@ -613,69 +613,6 @@ return [
             ],
         ],
         [
-            'id' => 'chav-n-civilization',
-            'class' => 'demo-data:CulturalPeriod',
-            'sets' => [
-                'main',
-                'americas',
-            ],
-            'relations' => [
-                'wari-empire',
-                'tiwanaku-empire',
-                'moche-civilization',
-                'nazca-culture',
-                'caral-civilization',
-                'norte-chico-civilization',
-                'tiwanaku-civilization',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q17449251',
-                '@type' => 'uri',
-            ],
-            'map_bounds' => '-79.983958,-12.383958,-74.416042,-6.816042',
-            'map_coordinates' => [
-                -77.2,
-                -9.6,
-            ],
-            'dcterms:title' => 'Chavín Civilization',
-            'dcterms:description' => 'The Chavín Civilization in the Andean highlands is considered the first major complex society of South America, whose iconography — combining jaguar, eagle, and human features — spread across the Andes and became foundational to all subsequent Andean artistic and religious traditions.',
-            'dcterms:subject' => [
-                'Americas',
-                'Andes',
-                'Peru',
-                'Andean iconography',
-                'Jaguar cult',
-            ],
-            'dcterms:date' => [
-                '@value' => '-0900',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:extent' => [
-                '@value' => 'P700Y',
-                '@type' => 'numeric:duration',
-            ],
-            'dcterms:temporal' => [
-                '@value' => '-0900/-0200',
-                '@type' => 'numeric:interval',
-            ],
-            'demo-data:peakDate' => [
-                '@value' => '-0500',
-                '@type' => 'numeric:timestamp',
-            ],
-            'demo-data:area' => [
-                '@value' => '300000',
-                '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'chav-n-civilization.jpg',
-                    'dcterms:title' => 'Chavín Civilization',
-                    'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Dtarazona',
-                ],
-            ],
-        ],
-        [
             'id' => 'moche-civilization',
             'class' => 'demo-data:CulturalPeriod',
             'sets' => [
@@ -683,7 +620,7 @@ return [
                 'americas',
             ],
             'relations' => [
-                'chav-n-civilization',
+                'chavin-culture',
                 'wari-empire',
                 'chim-kingdom',
                 'caral-civilization',
@@ -743,11 +680,10 @@ return [
                 'americas',
             ],
             'relations' => [
-                'chav-n-civilization',
+                'chavin-culture',
                 'wari-empire',
                 'inca-empire',
                 'tiwanaku-civilization',
-                'chavin-culture',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q1307407',
@@ -807,9 +743,8 @@ return [
                 'tiwanaku-empire',
                 'inca-empire',
                 'moche-civilization',
-                'chav-n-civilization',
-                'nazca-culture',
                 'chavin-culture',
+                'nazca-culture',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q923516',
@@ -989,7 +924,7 @@ return [
                 'americas',
             ],
             'relations' => [
-                'chav-n-civilization',
+                'chavin-culture',
                 'wari-empire',
             ],
             'dcterms:identifier' => [
@@ -1495,7 +1430,7 @@ return [
                 'americas',
             ],
             'relations' => [
-                'chav-n-civilization',
+                'chavin-culture',
                 'moche-civilization',
                 'norte-chico-civilization',
             ],
@@ -1555,7 +1490,7 @@ return [
             ],
             'relations' => [
                 'caral-civilization',
-                'chav-n-civilization',
+                'chavin-culture',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q153836',
@@ -1941,7 +1876,7 @@ return [
                 'americas',
             ],
             'relations' => [
-                'chav-n-civilization',
+                'chavin-culture',
                 'tiwanaku-empire',
             ],
             'dcterms:identifier' => [
@@ -2048,66 +1983,6 @@ return [
                     'dcterms:creator' => 'Unknown',
                     'dcterms:rights' => 'CC BY-SA 3.0',
                     'dcterms:contributor' => 'Sharon odb',
-                ],
-            ],
-        ],
-        [
-            'id' => 'kingdom-of-kush',
-            'class' => 'demo-data:Civilization',
-            'sets' => [
-                'main',
-                'ancient',
-            ],
-            'relations' => [
-                'egyptian-new-kingdom',
-                'third-intermediate-period-of-egypt',
-                'late-period-of-ancient-egypt',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q241790',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Kingdom of Kush',
-            'dcterms:description' => 'A powerful Nubian kingdom centered at Napata and later Meroë in present-day Sudan, the Kingdom of Kush rivalled and periodically ruled Egypt, producing distinctive pyramid tombs, a written script, and iron-smelting technology that shaped sub-Saharan Africa.',
-            'dcterms:subject' => [
-                'Africa',
-                'Nubia',
-                'Sudan',
-                'Ancient',
-                'Nile Valley',
-            ],
-            'dcterms:date' => [
-                '@value' => '-1070',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:extent' => [
-                '@value' => 'P1420Y',
-                '@type' => 'numeric:duration',
-            ],
-            'dcterms:temporal' => [
-                '@value' => '-1070/0350',
-                '@type' => 'numeric:interval',
-            ],
-            'demo-data:peakDate' => [
-                '@value' => '-0700',
-                '@type' => 'numeric:timestamp',
-            ],
-            'demo-data:area' => [
-                '@value' => '1000000',
-                '@type' => 'numeric:integer',
-            ],
-            'map_bounds' => '24.0,10.0,38.0,24.0',
-            'map_coordinates' => [
-                33.83,
-                17.18,
-            ],
-            'media' => [
-                [
-                    'file' => 'kingdom-of-kush.jpg',
-                    'dcterms:title' => 'Kingdom of Kush',
-                    'dcterms:creator' => 'Unknown',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'User Udimu on de.wikipedia',
                 ],
             ],
         ],
@@ -3645,6 +3520,7 @@ return [
                 'umayyad-caliphate',
                 'abbasid-caliphate',
                 'kingdom-of-le-n',
+                'almoravid-dynasty',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q171740',
@@ -3694,6 +3570,128 @@ return [
             ],
         ],
         [
+            'id' => 'almoravid-dynasty',
+            'class' => 'demo-data:Dynasty',
+            'sets' => [
+                'main',
+                'central-west-asia',
+            ],
+            'relations' => [
+                'ghana-empire',
+                'umayyad-caliphate-of-c-rdoba',
+                'almohad-caliphate',
+                'kingdom-of-castile',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q75613',
+                '@type' => 'uri',
+            ],
+            'map_bounds' => '-18.0,16.0,2.0,42.0',
+            'map_coordinates' => [
+                -8,
+                32,
+            ],
+            'dcterms:title' => 'Almoravid Dynasty',
+            'dcterms:description' => 'The Almoravid Dynasty was a Berber-Muslim empire that emerged from the western Sahara to unify Morocco, conquer the weakened taifa kingdoms of Iberia, and halt the Christian Reconquista — temporarily reversing the fragmentation of al-Andalus. Its rigorist reform of Sunni practice in turn inspired the Almohad movement that would displace it.',
+            'dcterms:subject' => [
+                'North Africa',
+                'Iberia',
+                'Islam',
+                'Berber',
+                'Medieval',
+            ],
+            'dcterms:date' => [
+                '@value' => '1040',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P107Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1040/1147',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1100',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '3000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'almoravid-dynasty.png',
+                    'dcterms:title' => 'Almoravid Dynasty',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'Flaspec',
+                ],
+            ],
+        ],
+        [
+            'id' => 'almohad-caliphate',
+            'class' => 'demo-data:Empire',
+            'sets' => [
+                'main',
+                'central-west-asia',
+            ],
+            'relations' => [
+                'almoravid-dynasty',
+                'fatimid-caliphate',
+                'umayyad-caliphate-of-c-rdoba',
+                'mali-empire',
+                'kingdom-of-castile',
+                'kingdom-of-portugal',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q199688',
+                '@type' => 'uri',
+            ],
+            'map_bounds' => '-10.0,18.0,14.0,44.0',
+            'map_coordinates' => [
+                2,
+                32,
+            ],
+            'dcterms:title' => 'Almohad Caliphate',
+            'dcterms:description' => 'The Almohad Caliphate was a Berber-Muslim empire that unified North Africa and Andalusia under a reformist Islamic theology, producing some of the medieval world\'s most influential scholars — including Ibn Rushd (Averroes) and Maimonides — before internal rebellions and Christian advances fragmented it into successor dynasties across the Maghreb and Iberia.',
+            'dcterms:subject' => [
+                'North Africa',
+                'Iberia',
+                'Islam',
+                'Berber',
+                'Medieval',
+            ],
+            'dcterms:date' => [
+                '@value' => '1121',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P148Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '1121/1269',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '1200',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '5000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'almohad-caliphate.png',
+                    'dcterms:title' => 'Almohad Caliphate',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Omar-Toons',
+                ],
+            ],
+        ],
+        [
             'id' => 'fatimid-caliphate',
             'class' => 'demo-data:Empire',
             'sets' => [
@@ -3704,6 +3702,7 @@ return [
                 'abbasid-caliphate',
                 'umayyad-caliphate',
                 'ayyubid-sultanate',
+                'almohad-caliphate',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q160307',
@@ -4630,66 +4629,6 @@ return [
             ],
         ],
         [
-            'id' => 'polish-lithuanian-commonwealth',
-            'class' => 'demo-data:Confederation',
-            'sets' => [
-                'main',
-                'early-modern',
-            ],
-            'relations' => [
-                'kingdom-of-poland',
-                'duchy-of-lithuania',
-                'russian-empire',
-                'tsardom-of-russia',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q172107',
-                '@type' => 'uri',
-            ],
-            'map_bounds' => '15.917211,47.117211,26.082789,57.282789',
-            'map_coordinates' => [
-                21,
-                52.2,
-            ],
-            'dcterms:title' => 'Polish-Lithuanian Commonwealth',
-            'dcterms:description' => 'The Polish-Lithuanian Commonwealth was the largest state in Europe for much of the 17th century, remarkable for its elected monarchy (the Serenissima Res Publica), religious tolerance (Warsaw Confederation, 1573 — the first European act of religious freedom), and the infamous liberum veto that eventually paralyzed its government.',
-            'dcterms:subject' => [
-                'Europe',
-                'Poland',
-                'Religious tolerance',
-                'Elected monarchy',
-                'Liberum veto',
-            ],
-            'dcterms:date' => [
-                '@value' => '1569',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:extent' => [
-                '@value' => 'P226Y',
-                '@type' => 'numeric:duration',
-            ],
-            'dcterms:temporal' => [
-                '@value' => '1569/1795',
-                '@type' => 'numeric:interval',
-            ],
-            'demo-data:peakDate' => [
-                '@value' => '1620',
-                '@type' => 'numeric:timestamp',
-            ],
-            'demo-data:area' => [
-                '@value' => '1000000',
-                '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'polish-lithuanian-commonwealth.jpg',
-                    'dcterms:title' => 'Polish-Lithuanian Commonwealth',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Jan Matejko',
-                ],
-            ],
-        ],
-        [
             'id' => 'russian-empire',
             'class' => 'demo-data:Empire',
             'sets' => [
@@ -5070,6 +5009,9 @@ return [
                 'habsburg-austria',
                 'kingdom-of-sweden-early-modern',
                 'teutonic-order-state',
+                'kingdom-of-poland',
+                'duchy-of-lithuania',
+                'russian-empire',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q172107',
@@ -5463,7 +5405,7 @@ return [
             'relations' => [
                 'edo-period',
                 'spanish-empire',
-                'joseon-dynasty-early-modern',
+                'joseon-dynasty',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q205662',
@@ -5502,64 +5444,6 @@ return [
             'demo-data:area' => [
                 '@value' => '380000',
                 '@type' => 'numeric:integer',
-            ],
-        ],
-        [
-            'id' => 'joseon-dynasty-early-modern',
-            'class' => 'demo-data:Dynasty',
-            'sets' => [
-                'main',
-                'early-modern',
-            ],
-            'relations' => [
-                'joseon-dynasty',
-                'tokugawa-shogunate',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q28179',
-                '@type' => 'uri',
-            ],
-            'map_bounds' => '124.515961,35.215961,129.284039,39.984039',
-            'map_coordinates' => [
-                126.9,
-                37.6,
-            ],
-            'dcterms:title' => 'Joseon Dynasty (Early Modern)',
-            'dcterms:description' => 'The late Joseon period saw Korea devastated by the Japanese invasions of 1592–1598 (Imjin War) where Admiral Yi Sun-sin\'s turtle ships deployed the world\'s first iron-clad warships to defeat a larger Japanese fleet. Korea subsequently rebuilt under Neo-Confucian principles and produced remarkable achievements in science and printing technology.',
-            'dcterms:subject' => [
-                'Europe',
-                'Korea',
-                'Yi Sun-sin',
-                'Turtle ships',
-                'Confucianism',
-            ],
-            'dcterms:date' => [
-                '@value' => '1550',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:extent' => [
-                '@value' => 'P347Y',
-                '@type' => 'numeric:duration',
-            ],
-            'dcterms:temporal' => [
-                '@value' => '1550/1897',
-                '@type' => 'numeric:interval',
-            ],
-            'demo-data:peakDate' => [
-                '@value' => '1700',
-                '@type' => 'numeric:timestamp',
-            ],
-            'demo-data:area' => [
-                '@value' => '220000',
-                '@type' => 'numeric:integer',
-            ],
-            'media' => [
-                [
-                    'file' => 'joseon-dynasty-early-modern.jpg',
-                    'dcterms:title' => 'Joseon Dynasty (Early Modern)',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Frank G. Carpenter',
-                ],
             ],
         ],
         [
@@ -7017,6 +6901,7 @@ return [
             'relations' => [
                 'shang-dynasty',
                 'spring-and-autumn-period',
+                'eastern-zhou-dynasty',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q1069609',
@@ -7066,6 +6951,66 @@ return [
             ],
         ],
         [
+            'id' => 'eastern-zhou-dynasty',
+            'class' => 'demo-data:Dynasty',
+            'sets' => [
+                'main',
+                'east-asian-dynasties-periods',
+            ],
+            'relations' => [
+                'western-zhou-dynasty',
+                'spring-and-autumn-period',
+                'warring-states-period',
+                'kingdom-of-qin',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q307066',
+                '@type' => 'uri',
+            ],
+            'map_bounds' => '104.0,26.0,121.0,43.0',
+            'map_coordinates' => [
+                112.45,
+                34.68,
+            ],
+            'dcterms:title' => 'Eastern Zhou Dynasty',
+            'dcterms:description' => 'The Eastern Zhou Dynasty marks the long twilight of Zhou royal authority after the sack of the western capital in 771 BCE, as the Zhou kings retained ritual prestige but lost effective political power to rising feudal lords. The dynasty encompasses two transformative sub-periods — the Spring and Autumn Period of competing hegemons and the Warring States Period of total interstate warfare — and produced the Hundred Schools of Thought, including Confucianism, Taoism, and Legalism, that would define Chinese civilization for millennia.',
+            'dcterms:subject' => [
+                'East Asia',
+                'Dynasty',
+                'China',
+                'Iron Age',
+                'Confucianism',
+            ],
+            'dcterms:date' => [
+                '@value' => '-0770',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P514Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-0770/-0256',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-0600',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1000000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'eastern-zhou-dynasty.png',
+                    'dcterms:title' => 'Eastern Zhou Dynasty',
+                    'dcterms:rights' => 'CC BY-SA 4.0',
+                    'dcterms:contributor' => 'SY',
+                ],
+            ],
+        ],
+        [
             'id' => 'spring-and-autumn-period',
             'class' => 'demo-data:CulturalPeriod',
             'sets' => [
@@ -7077,6 +7022,7 @@ return [
                 'warring-states-period',
                 'kingdom-of-chu',
                 'kingdom-of-qi',
+                'eastern-zhou-dynasty',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q11871241',
@@ -7132,6 +7078,7 @@ return [
                 'kingdom-of-qin',
                 'kingdom-of-wei',
                 'kingdom-of-zhao',
+                'eastern-zhou-dynasty',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q1199672',
@@ -8254,7 +8201,7 @@ return [
                 'srivijaya-empire',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q1104597',
+                '@value' => 'https://www.wikidata.org/entity/Q9683',
                 '@type' => 'uri',
             ],
             'map_bounds' => '97.118666,22.458666,120.741334,46.081334',
@@ -8294,10 +8241,10 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'tang-dynasty.jpg',
+                    'file' => 'tang-dynasty.png',
                     'dcterms:title' => 'Tang Dynasty',
                     'dcterms:rights' => 'CC BY-SA 3.0',
-                    'dcterms:contributor' => 'Paul Louis',
+                    'dcterms:contributor' => 'Ian Kiu',
                 ],
             ],
         ],
@@ -9083,7 +9030,7 @@ return [
                     'file' => 'yayoi-period.jpg',
                     'dcterms:title' => 'Yayoi Period',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => 'Prel1h',
+                    'dcterms:contributor' => 'Saigen Jiro',
                 ],
             ],
         ],
@@ -9761,7 +9708,7 @@ return [
                 'unified-silla',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q10843',
+                '@value' => 'https://www.wikidata.org/entity/Q28456',
                 '@type' => 'uri',
             ],
             'map_bounds' => '127.602681,34.232681,130.817319,37.447319',
@@ -9801,8 +9748,8 @@ return [
                 [
                     'file' => 'silla.jpg',
                     'dcterms:title' => 'Silla',
-                    'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'CRESPO-AZORIN',
+                    'dcterms:rights' => 'KOGL Type 1',
+                    'dcterms:contributor' => 'Government of South Korea',
                 ],
             ],
         ],
@@ -9921,7 +9868,6 @@ return [
                     'file' => 'goryeo.jpg',
                     'dcterms:title' => 'Goryeo',
                     'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => '작가 미상',
                 ],
             ],
         ],
@@ -9935,7 +9881,6 @@ return [
             'relations' => [
                 'goryeo',
                 'azuchi-momoyama-period',
-                'joseon-dynasty-early-modern',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q28179',
@@ -12234,6 +12179,7 @@ return [
                 'spanish-empire',
                 'kingdom-of-portugal',
                 'kingdom-of-navarre',
+                'almohad-caliphate',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q179293',
@@ -12352,6 +12298,7 @@ return [
                 'kingdom-of-castile',
                 'malacca-sultanate',
                 'portuguese-empire',
+                'almohad-caliphate',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q45670',
@@ -20101,6 +20048,9 @@ return [
                 'aksum-empire',
                 'ethiopian-empire',
                 'funj-sultanate',
+                'egyptian-new-kingdom',
+                'third-intermediate-period-of-egypt',
+                'late-period-of-ancient-egypt',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q241790',
@@ -20805,6 +20755,62 @@ return [
             ],
         ],
         [
+            'id' => 'indus-valley-civilization',
+            'class' => 'demo-data:CulturalPeriod',
+            'sets' => [
+                'main',
+                'south-southeast-asia',
+            ],
+            'relations' => [
+                'vedic-period',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q42534',
+                '@type' => 'uri',
+            ],
+            'map_bounds' => '63.0,21.0,79.0,37.0',
+            'map_coordinates' => [
+                71,
+                29,
+            ],
+            'dcterms:title' => 'Indus Valley Civilization',
+            'dcterms:description' => 'The Indus Valley Civilization was one of the world\'s earliest urban societies, flourishing across the floodplains of the Indus River in modern Pakistan and northwest India. Its cities of Harappa and Mohenjo-daro featured grid-planned streets, advanced drainage systems, and standardized weights and measures reflecting a level of civic organization unmatched in the ancient world; its undeciphered script remains one of archaeology\'s enduring mysteries.',
+            'dcterms:subject' => [
+                'South Asia',
+                'Bronze Age',
+                'Harappan',
+                'Urban civilization',
+            ],
+            'dcterms:date' => [
+                '@value' => '-3300',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:extent' => [
+                '@value' => 'P2000Y',
+                '@type' => 'numeric:duration',
+            ],
+            'dcterms:temporal' => [
+                '@value' => '-3300/-1300',
+                '@type' => 'numeric:interval',
+            ],
+            'demo-data:peakDate' => [
+                '@value' => '-2500',
+                '@type' => 'numeric:timestamp',
+            ],
+            'demo-data:area' => [
+                '@value' => '1500000',
+                '@type' => 'numeric:integer',
+            ],
+            'media' => [
+                [
+                    'file' => 'indus-valley-civilization.jpg',
+                    'dcterms:title' => 'Indus Valley Civilization',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'Joe Ravi',
+                ],
+            ],
+        ],
+        [
             'id' => 'vedic-period',
             'class' => 'demo-data:CulturalPeriod',
             'sets' => [
@@ -20814,6 +20820,7 @@ return [
             'relations' => [
                 'maurya-empire',
                 'mahajanapadas',
+                'indus-valley-civilization',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q36858',
@@ -24215,6 +24222,7 @@ return [
             'relations' => [
                 'mali-empire',
                 'kanem-empire',
+                'almoravid-dynasty',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q206789',
@@ -24277,6 +24285,7 @@ return [
                 'songhai-after-askia',
                 'kingdom-of-benin',
                 'mossi-kingdoms',
+                'almohad-caliphate',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q184536',

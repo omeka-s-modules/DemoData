@@ -19,7 +19,7 @@ return [
                 'description' => 'Historical civilizations, empires, dynasties, and cultural periods from across the ancient, medieval, and early modern world.',
                 'item_count' => 450,
                 'set_count' => 10,
-                'media_count' => 352,
+                'media_count' => 354,
                 'media_size' => '74 MB',
             ],
             'documents' => [
@@ -27,8 +27,8 @@ return [
                 'description' => 'Historical handwritten and typed documents including letters, diaries, newspapers, and official records.',
                 'item_count' => 50,
                 'set_count' => 6,
-                'media_count' => 62,
-                'media_size' => '174 MB',
+                'media_count' => 67,
+                'media_size' => '286 MB',
             ],
             'people' => [
                 'label' => 'People',
@@ -36,7 +36,7 @@ return [
                 'item_count' => 100,
                 'set_count' => 5,
                 'media_count' => 85,
-                'media_size' => '13 MB',
+                'media_size' => '12 MB',
             ],
         ],
     ],

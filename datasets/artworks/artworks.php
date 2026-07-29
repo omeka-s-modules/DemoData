@@ -108,6 +108,7 @@ return [
             'media' => [
                 [
                     'file' => 'mona-lisa.jpg',
+                    'o:alt_text' => 'Oil painting depicting a woman with long dark hair and enigmatic smile, wearing dark robes against a distant landscape background.',
                     'dcterms:title' => 'Mona Lisa',
                     'dcterms:creator' => 'Leonardo da Vinci',
                     'dcterms:rights' => 'Public domain',
@@ -153,6 +154,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-last-supper.jpg',
+                    'o:alt_text' => 'Tempera and oil mural depicting Jesus Christ at a long table with twelve apostles during their final meal together.',
                     'dcterms:title' => 'The Last Supper',
                     'dcterms:creator' => 'Leonardo da Vinci',
                     'dcterms:rights' => 'Public domain',
@@ -197,6 +199,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-starry-night.jpg',
+                    'o:alt_text' => 'Oil painting depicting a swirling night sky with stars and crescent moon above a village with a prominent cypress tree.',
                     'dcterms:title' => 'The Starry Night',
                     'dcterms:creator' => 'Vincent van Gogh',
                     'dcterms:rights' => 'Public domain',
@@ -242,6 +245,7 @@ return [
             'media' => [
                 [
                     'file' => 'girl-with-a-pearl-earring.jpg',
+                    'o:alt_text' => 'Oil painting depicting a young woman in profile wearing a blue and gold turban and a large pearl earring against a dark background.',
                     'dcterms:title' => 'Girl with a Pearl Earring',
                     'dcterms:creator' => 'Johannes Vermeer',
                     'dcterms:rights' => 'Public domain',
@@ -286,6 +290,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-birth-of-venus.jpg',
+                    'o:alt_text' => 'Tempera painting depicting Venus emerging from a giant seashell while angels and attendants welcome her to shore.',
                     'dcterms:title' => 'The Birth of Venus',
                     'dcterms:creator' => 'Sandro Botticelli',
                     'dcterms:rights' => 'Public domain',
@@ -330,6 +335,7 @@ return [
             'media' => [
                 [
                     'file' => 'las-meninas.jpg',
+                    'o:alt_text' => 'Oil painting depicting a Spanish royal court scene with a young princess in a white dress surrounded by attendants, nobility, and a dog in an interior studio setting.',
                     'dcterms:title' => 'Las Meninas',
                     'dcterms:creator' => 'Diego Velázquez',
                     'dcterms:rights' => 'Public domain',
@@ -375,6 +381,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-night-watch.jpg',
+                    'o:alt_text' => 'Oil painting depicting a Dutch militia group assembling with muskets and pikes in a shadowy, dramatic baroque composition.',
                     'dcterms:title' => 'The Night Watch',
                     'dcterms:creator' => 'Rembrandt van Rijn',
                     'dcterms:rights' => 'Public domain',
@@ -455,6 +462,7 @@ return [
             'media' => [
                 [
                     'file' => 'a-sunday-on-la-grande-jatte.jpg',
+                    'o:alt_text' => 'Oil painting depicting a leisurely Sunday afternoon scene with Parisians relaxing in a park by the water, rendered in pointillist technique.',
                     'dcterms:title' => 'A Sunday on La Grande Jatte',
                     'dcterms:creator' => 'Georges Seurat',
                     'dcterms:rights' => 'Public domain',
@@ -500,6 +508,7 @@ return [
             'media' => [
                 [
                     'file' => 'water-lilies.jpg',
+                    'o:alt_text' => 'Oil painting depicting floating water lilies and lily pads in a pond with reflections of weeping willow trees and aquatic vegetation.',
                     'dcterms:title' => 'Water Lilies',
                     'dcterms:creator' => 'Claude Monet',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -545,6 +554,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-arnolfini-portrait.jpg',
+                    'o:alt_text' => 'Oil painting depicting a man in dark robes and hat and a woman in green dress with white headdress standing in an interior room.',
                     'dcterms:title' => 'The Arnolfini Portrait',
                     'dcterms:creator' => 'Jan van Eyck',
                     'dcterms:rights' => 'Public domain',
@@ -590,6 +600,7 @@ return [
             'media' => [
                 [
                     'file' => 'primavera.jpg',
+                    'o:alt_text' => 'Tempera painting depicting numerous figures in classical dress dancing and interacting among flowering trees against a dark starry background.',
                     'dcterms:title' => 'Primavera',
                     'dcterms:creator' => 'Sandro Botticelli',
                     'dcterms:rights' => 'Public domain',
@@ -635,6 +646,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-school-of-athens.jpg',
+                    'o:alt_text' => 'Fresco depicting numerous robed figures gathered in a classical columned hall, with central philosophers engaged in discussion beneath barrel-vaulted architecture.',
                     'dcterms:title' => 'The School of Athens',
                     'dcterms:creator' => 'Raphael',
                     'dcterms:rights' => 'Public domain',
@@ -682,6 +694,7 @@ return [
             'media' => [
                 [
                     'file' => 'sistine-chapel-ceiling.jpg',
+                    'o:alt_text' => 'Fresco depicting biblical scenes and figures arranged in geometric panels across the chapel\'s barrel-vaulted ceiling.',
                     'dcterms:title' => 'Sistine Chapel Ceiling',
                     'dcterms:creator' => 'Michelangelo',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -726,6 +739,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-garden-of-earthly-delights.jpg',
+                    'o:alt_text' => 'Oil painting depicting a fantastical triptych with nude figures, imaginative creatures, and surreal landscapes representing paradise, earthly pleasures, and hell.',
                     'dcterms:title' => 'The Garden of Earthly Delights',
                     'dcterms:creator' => 'Hieronymus Bosch',
                     'dcterms:rights' => 'Public domain',
@@ -770,6 +784,7 @@ return [
             'media' => [
                 [
                     'file' => 'guernica.jpg',
+                    'o:alt_text' => 'Oil painting depicting cubist figures and animals in monochromatic tones expressing anguish and chaos amid fragmentation and distortion.',
                     'dcterms:title' => 'Guernica',
                     'dcterms:creator' => 'Pablo Picasso',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -815,6 +830,7 @@ return [
             'media' => [
                 [
                     'file' => 'a-bar-at-the-folies-bergere.jpg',
+                    'o:alt_text' => 'Oil painting depicting a barmaid at a counter with bottles and fruit, facing the viewer in a crowded cabaret setting.',
                     'dcterms:title' => 'A Bar at the Folies-Bergère',
                     'dcterms:creator' => 'Édouard Manet',
                     'dcterms:rights' => 'CC BY 2.0',
@@ -966,6 +982,7 @@ return [
             'media' => [
                 [
                     'file' => 'venus-de-milo.jpg',
+                    'o:alt_text' => 'Marble sculpture of a partially draped female nude figure with missing arms, displaying classical Greek idealized proportions and serene expression.',
                     'dcterms:title' => 'Venus de Milo',
                     'dcterms:creator' => 'Alexandros of Antioch',
                     'dcterms:rights' => 'CC0',
@@ -1011,6 +1028,7 @@ return [
             'media' => [
                 [
                     'file' => 'david.jpg',
+                    'o:alt_text' => 'Marble sculpture of a nude male figure standing contrapposto in a classical pose within an arched alcove.',
                     'dcterms:title' => 'David',
                     'dcterms:creator' => 'Michelangelo',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -1055,6 +1073,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-thinker.jpg',
+                    'o:alt_text' => 'Photograph depicting bronze sculpture of seated male figure in contemplative pose within formal garden with topiary and golden-domed building.',
                     'dcterms:title' => 'The Thinker',
                     'dcterms:creator' => 'Auguste Rodin',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -1100,6 +1119,7 @@ return [
             'media' => [
                 [
                     'file' => 'winged-victory-of-samothrace.jpg',
+                    'o:alt_text' => 'Marble sculpture of a winged female figure in flowing robes standing upon a ship\'s prow, depicting Nike, the Greek goddess of victory.',
                     'dcterms:title' => 'Winged Victory of Samothrace',
                     'dcterms:creator' => 'Unknown',
                     'dcterms:rights' => 'CC0',
@@ -1145,6 +1165,7 @@ return [
             'media' => [
                 [
                     'file' => 'laocoon-and-his-sons.jpg',
+                    'o:alt_text' => 'Marble sculpture depicting a bearded man and two youths struggling against coiled serpents in a dramatic classical composition.',
                     'dcterms:title' => 'Laocoön and His Sons',
                     'dcterms:creator' => 'Agesander, Athenodoros, and Polydoros of Rhodes',
                     'dcterms:rights' => 'CC0',
@@ -1189,6 +1210,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-discobolus.jpg',
+                    'o:alt_text' => 'Marble sculpture of a nude male athlete in a dynamic twisted pose, holding a discus above his head, mounted on a circular base.',
                     'dcterms:title' => 'Discobolus (Townley)',
                     'dcterms:creator' => 'After Myron',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -1235,6 +1257,7 @@ return [
             'media' => [
                 [
                     'file' => 'seated-scribe.jpg',
+                    'o:alt_text' => 'Illuminated manuscript page depicting a profile view of a seated figure wearing an ornate patterned robe and white headdress, holding a stylus or writing implement.',
                     'dcterms:title' => 'Seated Scribe',
                     'dcterms:creator' => 'Unknown (Egyptian)',
                     'dcterms:rights' => 'CC0',
@@ -1281,6 +1304,7 @@ return [
             'media' => [
                 [
                     'file' => 'bust-of-nefertiti.jpg',
+                    'o:alt_text' => 'Painted limestone bust depicting an ancient Egyptian woman with an elongated crown, serene expression, and detailed collar ornamentation.',
                     'dcterms:title' => 'Bust of Nefertiti',
                     'dcterms:creator' => 'Thutmose',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -1327,6 +1351,7 @@ return [
             'media' => [
                 [
                     'file' => 'ecstasy-of-saint-teresa.jpg',
+                    'o:alt_text' => 'Marble sculpture depicting Saint Teresa in ecstatic repose as a smiling angel prepares to pierce her heart with a golden arrow.',
                     'dcterms:title' => 'Ecstasy of Saint Teresa',
                     'dcterms:creator' => 'Gian Lorenzo Bernini',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -1372,6 +1397,7 @@ return [
             'media' => [
                 [
                     'file' => 'gates-of-paradise.jpg',
+                    'o:alt_text' => 'Gilded bronze doors depicting three standing figures in classical robes within ornate architectural framing above a dark entrance.',
                     'dcterms:title' => 'Gates of Paradise',
                     'dcterms:creator' => 'Lorenzo Ghiberti',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -1417,6 +1443,7 @@ return [
             'media' => [
                 [
                     'file' => 'vitruvian-man.jpg',
+                    'o:alt_text' => 'Ink drawing depicting a nude male figure with outstretched limbs inscribed within geometric shapes and surrounded by handwritten notes.',
                     'dcterms:title' => 'Vitruvian Man',
                     'dcterms:creator' => 'Leonardo da Vinci',
                     'dcterms:rights' => 'Public domain',
@@ -1461,6 +1488,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-great-wave-off-kanagawa.jpg',
+                    'o:alt_text' => 'Woodblock print depicting a large wave with white foam crashing in the foreground, with Mount Fuji visible in the distant background.',
                     'dcterms:title' => 'The Great Wave off Kanagawa',
                     'dcterms:creator' => 'Katsushika Hokusai',
                     'dcterms:rights' => 'Public domain',
@@ -1507,6 +1535,7 @@ return [
             'media' => [
                 [
                     'file' => 'rhinoceros.jpg',
+                    'o:alt_text' => 'Woodcut depicting a rhinoceros with distinctive armor-like plated skin standing in a grassy landscape with dark foliage.',
                     'dcterms:title' => 'Rhinoceros',
                     'dcterms:creator' => 'Albrecht Dürer',
                     'dcterms:rights' => 'CC0',
@@ -1552,6 +1581,7 @@ return [
             'media' => [
                 [
                     'file' => 'melencolia-i.jpg',
+                    'o:alt_text' => 'Engraving depicting a winged female figure surrounded by scientific instruments, architectural elements, and symbolic objects in a cluttered interior space.',
                     'dcterms:title' => 'Melencolia I',
                     'dcterms:creator' => 'Albrecht Dürer',
                     'dcterms:rights' => 'Public domain',
@@ -1597,6 +1627,7 @@ return [
             'media' => [
                 [
                     'file' => 'study-for-the-libyan-sibyl.jpg',
+                    'o:alt_text' => 'Red chalk drawing depicting anatomical studies of a male torso, facial profiles, and limbs rendered with classical Renaissance technique.',
                     'dcterms:title' => 'Study for the Libyan Sibyl',
                     'dcterms:creator' => 'Michelangelo',
                     'dcterms:rights' => 'CC0',
@@ -1643,6 +1674,7 @@ return [
             'media' => [
                 [
                     'file' => 'self-portrait-at-the-age-of-34.jpg',
+                    'o:alt_text' => 'Etching depicting a bearded man in a dark coat and feathered hat gazing toward the viewer in a three-quarter pose.',
                     'dcterms:title' => 'Self-Portrait at the Age of 34',
                     'dcterms:creator' => 'Rembrandt van Rijn',
                     'dcterms:rights' => 'Public domain',
@@ -1688,6 +1720,7 @@ return [
             'media' => [
                 [
                     'file' => 'three-crosses.jpg',
+                    'o:alt_text' => 'Drypoint depicting the crucifixion scene with Christ on the central cross surrounded by crowds of figures in dramatic chiaroscuro lighting.',
                     'dcterms:title' => 'Three Crosses',
                     'dcterms:creator' => 'Rembrandt van Rijn',
                     'dcterms:rights' => 'Public domain',
@@ -1733,6 +1766,7 @@ return [
             'media' => [
                 [
                     'file' => 'four-horsemen-of-the-apocalypse.jpg',
+                    'o:alt_text' => 'Woodcut depicting four armored horsemen riding dramatically across a chaotic landscape filled with fallen figures and destruction.',
                     'dcterms:title' => 'Four Horsemen of the Apocalypse',
                     'dcterms:creator' => 'Albrecht Dürer',
                     'dcterms:rights' => 'CC0',
@@ -1777,6 +1811,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-sleep-of-reason.jpg',
+                    'o:alt_text' => 'Etching and aquatint depicting a sleeping figure surrounded by owls and winged creatures emerging from darkness above.',
                     'dcterms:title' => 'The Sleep of Reason Produces Monsters',
                     'dcterms:creator' => 'Francisco Goya',
                     'dcterms:rights' => 'Public domain',
@@ -1856,6 +1891,7 @@ return [
             'media' => [
                 [
                     'file' => 'book-of-kells.jpg',
+                    'o:alt_text' => 'Illuminated manuscript page showing intricate Celtic geometric patterns, circular medallions, and ornamental crosses in red, gold, and black ink on vellum.',
                     'dcterms:title' => 'Book of Kells',
                     'dcterms:creator' => 'Columban monks',
                     'dcterms:rights' => 'Public domain',
@@ -1902,6 +1938,7 @@ return [
             'media' => [
                 [
                     'file' => 'tres-riches-heures.jpg',
+                    'o:alt_text' => 'Illuminated manuscript page depicting a nude male figure with zodiac symbols and allegorical representations arranged in an ornate oval frame.',
                     'dcterms:title' => 'Très Riches Heures du Duc de Berry',
                     'dcterms:creator' => 'Limbourg Brothers',
                     'dcterms:rights' => 'Public domain',
@@ -1946,6 +1983,7 @@ return [
             'media' => [
                 [
                     'file' => 'gutenberg-bible.jpg',
+                    'o:alt_text' => 'Photograph of an open Gutenberg Bible displaying two pages of printed text on vellum, displayed in a museum case.',
                     'dcterms:title' => 'Gutenberg Bible',
                     'dcterms:creator' => 'Johannes Gutenberg',
                     'dcterms:rights' => 'CC BY-SA 2.0',
@@ -2026,6 +2064,7 @@ return [
             'media' => [
                 [
                     'file' => 'vienna-genesis.jpg',
+                    'o:alt_text' => 'Illuminated manuscript page on purple vellum showing Greek text above a scene of figures in robes gathered in two groups.',
                     'dcterms:title' => 'Vienna Genesis',
                     'dcterms:creator' => 'Unknown',
                     'dcterms:rights' => 'Public domain',
@@ -2071,6 +2110,7 @@ return [
             'media' => [
                 [
                     'file' => 'codex-sinaiticus.jpg',
+                    'o:alt_text' => 'Parchment page from Codex Sinaiticus displaying ancient Greek biblical text in four columns of dense, continuous script.',
                     'dcterms:title' => 'Codex Sinaiticus',
                     'dcterms:creator' => 'Unknown',
                     'dcterms:rights' => 'Public domain',
@@ -2117,6 +2157,7 @@ return [
             'media' => [
                 [
                     'file' => 'book-of-hours-catherine-of-cleves.jpg',
+                    'o:alt_text' => 'Illuminated manuscript pages featuring a gold-leafed Virgin and Child on the left, with ornate decorative borders and heraldic crests throughout both pages.',
                     'dcterms:title' => 'Book of Hours of Catherine of Cleves',
                     'dcterms:creator' => 'Unknown (Utrecht)',
                     'dcterms:rights' => 'Public domain',
@@ -2164,6 +2205,7 @@ return [
             'media' => [
                 [
                     'file' => 'tres-belles-heures-de-notre-dame.jpg',
+                    'o:alt_text' => 'Illuminated manuscript page depicting a birth scene in a red-draped interior with Latin text and a landscape below, surrounded by decorative ivy leaf borders.',
                     'dcterms:title' => 'Très Belles Heures de Notre Dame',
                     'dcterms:creator' => 'Jan van Eyck (attributed)',
                     'dcterms:rights' => 'Public domain',
@@ -2209,6 +2251,7 @@ return [
             'media' => [
                 [
                     'file' => 'luttrell-psalter.jpg',
+                    'o:alt_text' => 'Illuminated manuscript page featuring Latin text with decorated borders and an illustration of figures in medieval dress conversing below.',
                     'dcterms:title' => 'Luttrell Psalter',
                     'dcterms:creator' => 'Unknown (East Anglian)',
                     'dcterms:rights' => 'Public domain',
@@ -2292,6 +2335,7 @@ return [
             'media' => [
                 [
                     'file' => 'adoration-of-the-magi-botticelli.jpg',
+                    'o:alt_text' => 'Tempera painting depicting the Magi presenting gifts to the infant Jesus surrounded by crowds in a classical architectural setting.',
                     'dcterms:title' => 'Adoration of the Magi',
                     'dcterms:creator' => 'Sandro Botticelli',
                     'dcterms:rights' => 'Public domain',
@@ -2337,6 +2381,7 @@ return [
             'media' => [
                 [
                     'file' => 'baptism-of-christ-piero.jpg',
+                    'o:alt_text' => 'Tempera painting depicting Christ being baptized by John the Baptist, surrounded by angels and witnesses in a Renaissance landscape.',
                     'dcterms:title' => 'The Baptism of Christ',
                     'dcterms:creator' => 'Piero della Francesca',
                     'dcterms:rights' => 'Public domain',
@@ -2417,6 +2462,7 @@ return [
             'media' => [
                 [
                     'file' => 'portrait-of-federico.jpg',
+                    'o:alt_text' => 'Tempera painting depicting a profile portrait of a man in red clothing and cap against a landscape background.',
                     'dcterms:title' => 'Portrait of Federico da Montefeltro',
                     'dcterms:creator' => 'Piero della Francesca',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -2463,6 +2509,7 @@ return [
             'media' => [
                 [
                     'file' => 'self-portrait-at-28.jpg',
+                    'o:alt_text' => 'Oil painting depicting a bearded man with long wavy hair wearing a rust-brown fur-lined robe, gazing directly forward.',
                     'dcterms:title' => 'Self-Portrait at 28',
                     'dcterms:creator' => 'Albrecht Dürer',
                     'dcterms:rights' => 'Public domain',
@@ -2508,6 +2555,7 @@ return [
             'media' => [
                 [
                     'file' => 'hunters-in-the-snow.jpg',
+                    'o:alt_text' => 'Oil painting depicting hunters returning through snowy landscape with villagers ice skating and engaging in winter activities in a sprawling valley settlement.',
                     'dcterms:title' => 'The Hunters in the Snow',
                     'dcterms:creator' => 'Pieter Bruegel the Elder',
                     'dcterms:rights' => 'Public domain',
@@ -2552,6 +2600,7 @@ return [
             'media' => [
                 [
                     'file' => 'peasant-wedding.jpg',
+                    'o:alt_text' => 'Oil painting depicting a crowded village celebration with peasants feasting and dancing outside rustic cottages beneath a dramatic sky.',
                     'dcterms:title' => 'Peasant Wedding',
                     'dcterms:creator' => 'Pieter Bruegel the Elder',
                     'dcterms:rights' => 'Public domain',
@@ -2597,6 +2646,7 @@ return [
             'media' => [
                 [
                     'file' => 'ghent-altarpiece.jpg',
+                    'o:alt_text' => 'Oil painting depicting an elaborate multi-paneled altarpiece with religious figures in the upper section and a crowded procession scene below.',
                     'dcterms:title' => 'The Ghent Altarpiece',
                     'dcterms:creator' => 'Jan van Eyck and Hubert van Eyck',
                     'dcterms:rights' => 'Public domain',
@@ -2644,6 +2694,7 @@ return [
             'media' => [
                 [
                     'file' => 'merode-altarpiece.jpg',
+                    'o:alt_text' => 'Oil painting depicting a triptych showing the Annunciation in the center with donor figures on the left and Saint Joseph\'s workshop on the right.',
                     'dcterms:title' => 'The Mérode Altarpiece',
                     'dcterms:creator' => 'Robert Campin',
                     'dcterms:rights' => 'Public domain',
@@ -2690,6 +2741,7 @@ return [
             'media' => [
                 [
                     'file' => 'calling-of-saint-matthew.jpg',
+                    'o:alt_text' => 'Oil painting depicting Christ gesturing toward Matthew in a dimly lit tavern scene with divine light streaming through a window.',
                     'dcterms:title' => 'The Calling of Saint Matthew',
                     'dcterms:creator' => 'Caravaggio',
                     'dcterms:rights' => 'CC0',
@@ -2736,6 +2788,7 @@ return [
             'media' => [
                 [
                     'file' => 'judith-slaying-holofernes.jpg',
+                    'o:alt_text' => 'Oil painting depicting Judith and her attendant beheading the Assyrian general Holofernes on a bed against a dark background.',
                     'dcterms:title' => 'Judith Slaying Holofernes',
                     'dcterms:creator' => 'Artemisia Gentileschi',
                     'dcterms:rights' => 'Public domain',
@@ -2783,6 +2836,7 @@ return [
             'media' => [
                 [
                     'file' => 'garden-of-love.jpg',
+                    'o:alt_text' => 'Oil painting depicting an elaborate courtyard scene with numerous elegantly dressed figures gathered for an aristocratic celebration amid classical architecture.',
                     'dcterms:title' => 'The Garden of Love',
                     'dcterms:creator' => 'Peter Paul Rubens',
                     'dcterms:rights' => 'Public domain',
@@ -2828,6 +2882,7 @@ return [
             'media' => [
                 [
                     'file' => 'self-portrait-two-circles.jpg',
+                    'o:alt_text' => 'Oil painting depicting an elderly man with curly hair and white headwrap holding a palette and brush, wearing dark robes with red undergarment.',
                     'dcterms:title' => 'Self-Portrait with Two Circles',
                     'dcterms:creator' => 'Rembrandt van Rijn',
                     'dcterms:rights' => 'Public domain',
@@ -2873,6 +2928,7 @@ return [
             'media' => [
                 [
                     'file' => 'girl-reading-a-letter.jpg',
+                    'o:alt_text' => 'Oil painting depicting a young woman in 17th-century dress reading a letter by an open window with draped curtains.',
                     'dcterms:title' => 'Girl Reading a Letter at an Open Window',
                     'dcterms:creator' => 'Johannes Vermeer',
                     'dcterms:rights' => 'Public domain',
@@ -2918,6 +2974,7 @@ return [
             'media' => [
                 [
                     'file' => 'embarkation-for-cythera.jpg',
+                    'o:alt_text' => 'Oil painting depicting elegantly dressed figures gathering in a lush landscape by a shore, preparing to embark on boats.',
                     'dcterms:title' => 'The Embarkation for Cythera',
                     'dcterms:creator' => 'Jean-Antoine Watteau',
                     'dcterms:rights' => 'Public domain',
@@ -2964,6 +3021,7 @@ return [
             'media' => [
                 [
                     'file' => 'toilet-of-venus.jpg',
+                    'o:alt_text' => 'Oil painting depicting Venus attended by cherubs and a nymph at her toilet, surrounded by luxurious fabrics and golden vessels.',
                     'dcterms:title' => 'The Toilet of Venus',
                     'dcterms:creator' => 'François Boucher',
                     'dcterms:rights' => 'Public domain',
@@ -3009,6 +3067,7 @@ return [
             'media' => [
                 [
                     'file' => 'young-woman-reading.jpg',
+                    'o:alt_text' => 'Oil painting depicting a young woman in yellow dress seated indoors, reading a letter while a framed landscape hangs on the wall behind her.',
                     'dcterms:title' => 'A Young Woman Reading',
                     'dcterms:creator' => 'Jean-Honoré Fragonard',
                     'dcterms:rights' => 'CC0',
@@ -3055,6 +3114,7 @@ return [
             'media' => [
                 [
                     'file' => 'oath-of-the-horatii.jpg',
+                    'o:alt_text' => 'Oil painting depicting three armed men raising swords in oath while women mourn in the background within a classical columned hall.',
                     'dcterms:title' => 'The Oath of the Horatii',
                     'dcterms:creator' => 'Jacques-Louis David',
                     'dcterms:rights' => 'Public domain',
@@ -3100,6 +3160,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-death-of-socrates.jpg',
+                    'o:alt_text' => 'Oil painting depicting Socrates surrounded by mourning disciples as he prepares to drink hemlock poison in ancient Athens.',
                     'dcterms:title' => 'The Death of Socrates',
                     'dcterms:creator' => 'Jacques-Louis David',
                     'dcterms:rights' => 'CC0',
@@ -3145,6 +3206,7 @@ return [
             'media' => [
                 [
                     'file' => 'napoleon-crossing-the-alps.jpg',
+                    'o:alt_text' => 'Oil painting depicting Napoleon Bonaparte on a rearing horse, pointing forward while wearing a gold cape and bicorne hat against a mountainous landscape.',
                     'dcterms:title' => 'Napoleon Crossing the Alps',
                     'dcterms:creator' => 'Jacques-Louis David',
                     'dcterms:rights' => 'Public domain',
@@ -3190,6 +3252,7 @@ return [
             'media' => [
                 [
                     'file' => 'la-grande-odalisque.jpg',
+                    'o:alt_text' => 'Oil painting depicting a reclining nude woman in exotic dress against blue drapery and golden fabrics in a Orientalist interior setting.',
                     'dcterms:title' => 'La Grande Odalisque',
                     'dcterms:creator' => 'Jean-Auguste-Dominique Ingres',
                     'dcterms:rights' => 'Public domain',
@@ -3235,6 +3298,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-turkish-bath.jpg',
+                    'o:alt_text' => 'Oil painting depicting numerous nude and partially clothed women in an opulent Turkish bath interior with rich furnishings and decorative details.',
                     'dcterms:title' => 'The Turkish Bath',
                     'dcterms:creator' => 'Jean-Auguste-Dominique Ingres',
                     'dcterms:rights' => 'Public domain',
@@ -3281,6 +3345,7 @@ return [
             'media' => [
                 [
                     'file' => 'apotheosis-of-homer.jpg',
+                    'o:alt_text' => 'Oil painting depicting Homer\'s apotheosis as a robed figure elevated among classical architectural structures and gathered crowds of ancient Greek figures.',
                     'dcterms:title' => 'The Apotheosis of Homer',
                     'dcterms:creator' => 'Jean-Auguste-Dominique Ingres',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -3326,6 +3391,7 @@ return [
             'media' => [
                 [
                     'file' => 'marat-assassinated.jpg',
+                    'o:alt_text' => 'Oil painting depicting the deceased Jean-Paul Marat slumped in a bathtub, holding a document, with a wooden block beside him.',
                     'dcterms:title' => 'The Death of Marat',
                     'dcterms:creator' => 'Jacques-Louis David',
                     'dcterms:rights' => 'Public domain',
@@ -3371,6 +3437,7 @@ return [
             'media' => [
                 [
                     'file' => 'liberty-leading-the-people.jpg',
+                    'o:alt_text' => 'Oil painting depicting Liberty as a bare-breasted woman holding a flag, leading armed revolutionaries over fallen bodies and barricades.',
                     'dcterms:title' => 'Liberty Leading the People',
                     'dcterms:creator' => 'Eugène Delacroix',
                     'dcterms:rights' => 'Public domain',
@@ -3416,6 +3483,7 @@ return [
             'media' => [
                 [
                     'file' => 'raft-of-the-medusa.jpg',
+                    'o:alt_text' => 'Oil painting depicting shipwreck survivors crowded on a wooden raft, desperately signaling a distant ship on turbulent seas.',
                     'dcterms:title' => 'The Raft of the Medusa',
                     'dcterms:creator' => 'Théodore Géricault',
                     'dcterms:rights' => 'Public domain',
@@ -3463,6 +3531,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-hay-wain.jpg',
+                    'o:alt_text' => 'Oil painting depicting a hay wagon crossing a shallow river beside a cottage under a dramatic cloudy sky.',
                     'dcterms:title' => 'The Hay Wain',
                     'dcterms:creator' => 'John Constable',
                     'dcterms:rights' => 'Public domain',
@@ -3509,6 +3578,7 @@ return [
             'media' => [
                 [
                     'file' => 'wanderer-above-the-sea-of-fog.jpg',
+                    'o:alt_text' => 'Oil painting depicting a solitary figure in dark clothing standing on a rocky outcrop, gazing over a misty mountainous landscape.',
                     'dcterms:title' => 'Wanderer Above the Sea of Fog',
                     'dcterms:creator' => 'Caspar David Friedrich',
                     'dcterms:rights' => 'Public domain',
@@ -3556,6 +3626,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-fighting-temeraire.jpg',
+                    'o:alt_text' => 'Oil painting depicting a majestic sailing ship being towed by a steam tugboat at sunset over calm golden waters.',
                     'dcterms:title' => 'The Fighting Temeraire',
                     'dcterms:creator' => 'J. M. W. Turner',
                     'dcterms:rights' => 'Public domain',
@@ -3602,6 +3673,7 @@ return [
             'media' => [
                 [
                     'file' => 'saturn-devouring-his-son.jpg',
+                    'o:alt_text' => 'Oil painting depicting a grotesque figure with wild hair consuming a small human body against a dark background.',
                     'dcterms:title' => 'Saturn Devouring His Son',
                     'dcterms:creator' => 'Francisco Goya',
                     'dcterms:rights' => 'Public domain',
@@ -3648,6 +3720,7 @@ return [
             'media' => [
                 [
                     'file' => 'burial-at-ornans.jpg',
+                    'o:alt_text' => 'Oil painting depicting a large funeral procession gathered around an open grave with a cross, clergy, and mourners in 19th-century dress.',
                     'dcterms:title' => 'A Burial at Ornans',
                     'dcterms:creator' => 'Gustave Courbet',
                     'dcterms:rights' => 'Public domain',
@@ -3693,6 +3766,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-gleaners.jpg',
+                    'o:alt_text' => 'Oil painting depicting three peasant women gleaning grain in a harvested field under a hazy sky.',
                     'dcterms:title' => 'The Gleaners',
                     'dcterms:creator' => 'Jean-François Millet',
                     'dcterms:rights' => 'Public domain',
@@ -3774,6 +3848,7 @@ return [
             'media' => [
                 [
                     'file' => 'olympia.jpg',
+                    'o:alt_text' => 'Oil painting depicting a reclining nude woman on a bed with an attendant holding flowers, a black cat, and classical drapery.',
                     'dcterms:title' => 'Olympia',
                     'dcterms:creator' => 'Édouard Manet',
                     'dcterms:rights' => 'Public domain',
@@ -3821,6 +3896,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-floor-scrapers.jpg',
+                    'o:alt_text' => 'Oil painting depicting three shirtless laborers scraping and refinishing a wooden floor in an interior space.',
                     'dcterms:title' => 'The Floor Scrapers',
                     'dcterms:creator' => 'Gustave Caillebotte',
                     'dcterms:rights' => 'Public domain',
@@ -3868,6 +3944,7 @@ return [
             'media' => [
                 [
                     'file' => 'third-class-carriage.jpg',
+                    'o:alt_text' => 'Oil painting depicting crowded passengers in a third-class railway carriage, with figures in period dress seated and standing in dim lighting.',
                     'dcterms:title' => 'The Third-Class Carriage',
                     'dcterms:creator' => 'Honoré Daumier',
                     'dcterms:rights' => 'Public domain',
@@ -3951,6 +4028,7 @@ return [
             'media' => [
                 [
                     'file' => 'nighthawks.jpg',
+                    'o:alt_text' => 'Oil painting depicting a late-night diner scene with isolated figures illuminated by green neon light on an empty urban street.',
                     'dcterms:title' => 'Nighthawks',
                     'dcterms:creator' => 'Edward Hopper',
                     'dcterms:rights' => 'Public domain',
@@ -3995,6 +4073,7 @@ return [
             'media' => [
                 [
                     'file' => 'impression-sunrise.jpg',
+                    'o:alt_text' => 'Oil painting depicting a misty harbor at sunrise with a glowing red sun reflected in the water and industrial smokestacks in the background.',
                     'dcterms:title' => 'Impression, Sunrise',
                     'dcterms:creator' => 'Claude Monet',
                     'dcterms:rights' => 'Public domain',
@@ -4040,6 +4119,7 @@ return [
             'media' => [
                 [
                     'file' => 'moulin-de-la-galette.jpg',
+                    'o:alt_text' => 'Oil painting depicting a lively outdoor gathering of elegantly dressed Parisians dancing and socializing beneath trees at a sunlit garden venue.',
                     'dcterms:title' => 'Dance at the Moulin de la Galette',
                     'dcterms:creator' => 'Pierre-Auguste Renoir',
                     'dcterms:rights' => 'Public domain',
@@ -4087,6 +4167,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-ballet-class.jpg',
+                    'o:alt_text' => 'Oil painting depicting young ballet dancers in white tutus during a training class in an elegant studio with classical columns.',
                     'dcterms:title' => 'The Ballet Class',
                     'dcterms:creator' => 'Edgar Degas',
                     'dcterms:rights' => 'Public domain',
@@ -4132,6 +4213,7 @@ return [
             'media' => [
                 [
                     'file' => 'luncheon-of-the-boating-party.jpg',
+                    'o:alt_text' => 'Oil painting depicting a festive outdoor lunch gathering where well-dressed Parisians socialize, dine, and drink wine on a sunny terrace.',
                     'dcterms:title' => 'The Luncheon of the Boating Party',
                     'dcterms:creator' => 'Pierre-Auguste Renoir',
                     'dcterms:rights' => 'Public domain',
@@ -4178,6 +4260,7 @@ return [
             'media' => [
                 [
                     'file' => 'haystacks.jpg',
+                    'o:alt_text' => 'Oil painting depicting two large haystacks in a sunlit field with mountains and trees in the hazy background.',
                     'dcterms:title' => 'Haystacks',
                     'dcterms:creator' => 'Claude Monet',
                     'dcterms:rights' => 'Public domain',
@@ -4224,6 +4307,7 @@ return [
             'media' => [
                 [
                     'file' => 'at-the-races.jpg',
+                    'o:alt_text' => 'Oil painting depicting jockeys on horseback in colorful silks riding across a green pastoral landscape.',
                     'dcterms:title' => 'At the Races',
                     'dcterms:creator' => 'Edgar Degas',
                     'dcterms:rights' => 'Public domain',
@@ -4271,6 +4355,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-cradle.jpg',
+                    'o:alt_text' => 'Oil painting depicting a woman in dark clothing gazing at an infant sleeping in an ornate white cradle.',
                     'dcterms:title' => 'The Cradle',
                     'dcterms:creator' => 'Berthe Morisot',
                     'dcterms:rights' => 'Public domain',
@@ -4315,6 +4400,7 @@ return [
             'media' => [
                 [
                     'file' => 'wheatfield-with-crows.jpg',
+                    'o:alt_text' => 'Oil painting depicting a vast golden wheat field under a turbulent blue sky with black crows flying overhead.',
                     'dcterms:title' => 'Wheatfield with Crows',
                     'dcterms:creator' => 'Vincent van Gogh',
                     'dcterms:rights' => 'Public domain',
@@ -4359,6 +4445,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-card-players.jpg',
+                    'o:alt_text' => 'Oil painting depicting two men in hats seated at a table playing cards in an interior setting.',
                     'dcterms:title' => 'The Card Players',
                     'dcterms:creator' => 'Paul Cézanne',
                     'dcterms:rights' => 'Public domain',
@@ -4404,6 +4491,7 @@ return [
             'media' => [
                 [
                     'file' => 'mont-sainte-victoire.jpg',
+                    'o:alt_text' => 'Oil painting depicting a mountainous landscape with Mont Sainte-Victoire rising prominently above a patchwork of green and ochre fields below.',
                     'dcterms:title' => 'Mont Sainte-Victoire',
                     'dcterms:creator' => 'Paul Cézanne',
                     'dcterms:rights' => 'Public domain',
@@ -4451,6 +4539,7 @@ return [
             'media' => [
                 [
                     'file' => 'where-do-we-come-from.jpg',
+                    'o:alt_text' => 'Oil painting depicting multiple figures in various poses across a tropical landscape, rendered in warm earth tones and blues.',
                     'dcterms:title' => 'Where Do We Come From? What Are We? Where Are We Going?',
                     'dcterms:creator' => 'Paul Gauguin',
                     'dcterms:rights' => 'Public domain',
@@ -4498,6 +4587,7 @@ return [
             'media' => [
                 [
                     'file' => 'vision-after-the-sermon.jpg',
+                    'o:alt_text' => 'Oil painting depicting Breton women in white bonnets witnessing a vision of Jacob wrestling an angel against a vibrant red background.',
                     'dcterms:title' => 'Vision After the Sermon',
                     'dcterms:creator' => 'Paul Gauguin',
                     'dcterms:rights' => 'Public domain',
@@ -4545,6 +4635,7 @@ return [
             'media' => [
                 [
                     'file' => 'isle-of-the-dead.jpg',
+                    'o:alt_text' => 'Oil painting depicting a lone boatman approaching a misty island fortress surrounded by tall cypress trees and steep rocky cliffs.',
                     'dcterms:title' => 'The Isle of the Dead',
                     'dcterms:creator' => 'Arnold Böcklin',
                     'dcterms:rights' => 'Public domain',
@@ -4592,6 +4683,7 @@ return [
             'media' => [
                 [
                     'file' => 'salome-moreau.jpg',
+                    'o:alt_text' => 'Oil painting depicting Salomé in an ornate temple interior, presenting the head of John the Baptist on a platter to a kneeling figure.',
                     'dcterms:title' => 'Salomé',
                     'dcterms:creator' => 'Gustave Moreau',
                     'dcterms:rights' => 'Public domain',
@@ -4639,6 +4731,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-cyclops.jpg',
+                    'o:alt_text' => 'Oil painting depicting a massive cyclops with a single eye looming over a colorful, flowered landscape with tiny figures below.',
                     'dcterms:title' => 'The Cyclops',
                     'dcterms:creator' => 'Odilon Redon',
                     'dcterms:rights' => 'Public domain',
@@ -4685,6 +4778,7 @@ return [
             'media' => [
                 [
                     'file' => 'orpheus-moreau.jpg',
+                    'o:alt_text' => 'Oil painting depicting a grieving woman cradling the head of the dead musician Orpheus beside ancient ruins in a desolate landscape.',
                     'dcterms:title' => 'Orpheus',
                     'dcterms:creator' => 'Gustave Moreau',
                     'dcterms:rights' => 'Public domain',
@@ -4731,6 +4825,7 @@ return [
             'media' => [
                 [
                     'file' => 'adele-bloch-bauer.jpg',
+                    'o:alt_text' => 'Oil painting depicting an elegant woman in an ornate gold dress against a shimmering golden background with decorative geometric patterns.',
                     'dcterms:title' => 'Portrait of Adele Bloch-Bauer I',
                     'dcterms:creator' => 'Gustav Klimt',
                     'dcterms:rights' => 'Public domain',
@@ -4778,6 +4873,7 @@ return [
             'media' => [
                 [
                     'file' => 'judith-i-klimt.jpg',
+                    'o:alt_text' => 'Oil painting depicting a woman with dark hair wearing an ornate gold-decorated blue garment against a decorative gold background.',
                     'dcterms:title' => 'Judith I',
                     'dcterms:creator' => 'Gustav Klimt',
                     'dcterms:rights' => 'Public domain',
@@ -4825,6 +4921,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-wounded-angel.jpg',
+                    'o:alt_text' => 'Oil painting depicting two boys carrying a wounded angel with a broken wing through a barren landscape.',
                     'dcterms:title' => 'The Wounded Angel',
                     'dcterms:creator' => 'Hugo Simberg',
                     'dcterms:rights' => 'Public domain',
@@ -4870,6 +4967,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-kiss-klimt.jpg',
+                    'o:alt_text' => 'Oil and gold leaf painting depicting an embracing couple in ornate golden robes against a shimmering gold background.',
                     'dcterms:title' => 'The Kiss',
                     'dcterms:creator' => 'Gustav Klimt',
                     'dcterms:rights' => 'Public domain',
@@ -4915,6 +5013,7 @@ return [
             'media' => [
                 [
                     'file' => 'beethoven-frieze.jpg',
+                    'o:alt_text' => 'Casein painting depicting stylized golden figures and ornamental patterns in Art Nouveau style, featuring mythological and allegorical imagery.',
                     'dcterms:title' => 'Beethoven Frieze',
                     'dcterms:creator' => 'Gustav Klimt',
                     'dcterms:rights' => 'Public domain',
@@ -4962,6 +5061,7 @@ return [
             'media' => [
                 [
                     'file' => 'medee-mucha.jpg',
+                    'o:alt_text' => 'Colour lithograph depicting a dramatic Art Nouveau poster of a dark-robed figure with an elaborate headdress holding a dagger above a fallen body.',
                     'dcterms:title' => 'Médée',
                     'dcterms:creator' => 'Alphonse Mucha',
                     'dcterms:rights' => 'Public domain',
@@ -5008,6 +5108,7 @@ return [
             'media' => [
                 [
                     'file' => 'gismonda-mucha.jpg',
+                    'o:alt_text' => 'Colour lithograph depicting an Art Nouveau poster of an elegant woman in ornate gold robes holding a palm frond, titled "Gismonda."',
                     'dcterms:title' => 'Gismonda',
                     'dcterms:creator' => 'Alphonse Mucha',
                     'dcterms:rights' => 'Public domain',
@@ -5053,6 +5154,7 @@ return [
             'media' => [
                 [
                     'file' => 'la-nature-mucha.png',
+                    'o:alt_text' => 'Gilt bronze and marble sculpture depicting a woman\'s bust with flowing hair, crowned headdress, and turquoise earrings, titled "La Nature" by Alphonse Mucha.',
                     'dcterms:title' => 'La Nature',
                     'dcterms:creator' => 'Alphonse Mucha',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -5100,6 +5202,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-scream.jpg',
+                    'o:alt_text' => 'Tempera and casein painting depicting an anguished figure with hands to face on a swirling bridge beneath turbulent orange and blue skies.',
                     'dcterms:title' => 'The Scream',
                     'dcterms:creator' => 'Edvard Munch',
                     'dcterms:rights' => 'Public domain',
@@ -5144,6 +5247,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-dance-of-life.jpg',
+                    'o:alt_text' => 'Oil painting depicting figures dancing and celebrating on a beach at night under a moon, with swirling water and wooden poles.',
                     'dcterms:title' => 'The Dance of Life',
                     'dcterms:creator' => 'Edvard Munch',
                     'dcterms:rights' => 'Public domain',
@@ -5191,6 +5295,7 @@ return [
             'media' => [
                 [
                     'file' => 'street-berlin.jpg',
+                    'o:alt_text' => 'Oil painting depicting stylized figures in dark coats and hats walking on a Berlin street with bold purple and teal backgrounds.',
                     'dcterms:title' => 'Street, Berlin',
                     'dcterms:creator' => 'Ernst Ludwig Kirchner',
                     'dcterms:rights' => 'Public domain',
@@ -5238,6 +5343,7 @@ return [
             'media' => [
                 [
                     'file' => 'composition-vii.jpg',
+                    'o:alt_text' => 'Oil painting depicting vibrant abstract composition with dynamic geometric shapes, bold colors, and energetic brushstrokes across canvas.',
                     'dcterms:title' => 'Composition VII',
                     'dcterms:creator' => 'Wassily Kandinsky',
                     'dcterms:rights' => 'Public domain',
@@ -5284,6 +5390,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-large-blue-horses.jpg',
+                    'o:alt_text' => 'Oil painting depicting three large blue horses with curved forms against a colorful landscape with white birch trees and vibrant red, orange, and yellow hills.',
                     'dcterms:title' => 'The Large Blue Horses',
                     'dcterms:creator' => 'Franz Marc',
                     'dcterms:rights' => 'Public domain',
@@ -5331,6 +5438,7 @@ return [
             'media' => [
                 [
                     'file' => 'reclining-female-nude.jpg',
+                    'o:alt_text' => 'Oil painting depicting a nude female figure reclining on rocky terrain beneath a dramatic stormy sky.',
                     'dcterms:title' => 'Reclining Female Nude',
                     'dcterms:creator' => 'Egon Schiele',
                     'dcterms:rights' => 'Public domain',
@@ -5376,6 +5484,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-dream-marc.jpg',
+                    'o:alt_text' => 'Oil painting depicting abstracted animals including a horse and cow among geometric shapes and vibrant colors in expressionist style.',
                     'dcterms:title' => 'The Dream',
                     'dcterms:creator' => 'Franz Marc',
                     'dcterms:rights' => 'Public domain',
@@ -5459,6 +5568,7 @@ return [
             'media' => [
                 [
                     'file' => 'woman-with-the-hat.jpg',
+                    'o:alt_text' => 'Oil painting depicting a woman wearing an elaborate hat with feathers and ornaments, rendered in vivid, non-naturalistic colors.',
                     'dcterms:title' => 'The Woman with the Hat',
                     'dcterms:creator' => 'Henri Matisse',
                     'dcterms:rights' => 'Public domain',
@@ -5542,6 +5652,7 @@ return [
             'media' => [
                 [
                     'file' => 'open-window-collioure.jpg',
+                    'o:alt_text' => 'Oil painting depicting an open window with vibrant red shutters framing a coastal harbor view with sailboats and colorful flowers below.',
                     'dcterms:title' => 'Open Window, Collioure',
                     'dcterms:creator' => 'Henri Matisse',
                     'dcterms:rights' => 'Public domain',
@@ -5589,6 +5700,7 @@ return [
             'media' => [
                 [
                     'file' => 'charing-cross-bridge.jpg',
+                    'o:alt_text' => 'Oil painting depicting Charing Cross Bridge spanning the Thames River in London with boats and architectural landmarks along the skyline.',
                     'dcterms:title' => 'Charing Cross Bridge, London',
                     'dcterms:creator' => 'André Derain',
                     'dcterms:rights' => 'Public domain',
@@ -5636,6 +5748,7 @@ return [
             'media' => [
                 [
                     'file' => 'la-joie-de-vivre.jpg',
+                    'o:alt_text' => 'Oil painting depicting nude figures in a vibrant garden landscape with dancing, reclining, and playing figures amid trees and colorful natural forms.',
                     'dcterms:title' => 'La Joie de vivre',
                     'dcterms:creator' => 'Henri Matisse',
                     'dcterms:rights' => 'Public domain',
@@ -5757,6 +5870,7 @@ return [
             'media' => [
                 [
                     'file' => 'portrait-vollard.jpg',
+                    'o:alt_text' => 'Oil painting depicting a bearded man in a dark green jacket seated indoors with a landscape painting visible on the wall behind him.',
                     'dcterms:title' => 'Portrait of Ambroise Vollard',
                     'dcterms:creator' => 'Pablo Picasso',
                     'dcterms:rights' => 'Public domain',
@@ -5878,6 +5992,7 @@ return [
             'media' => [
                 [
                     'file' => 'treachery-of-images.jpg',
+                    'o:alt_text' => 'Oil painting depicting a brown pipe with French text below reading "Ceci n\'est pas une pipe" on a beige background.',
                     'dcterms:title' => 'The Treachery of Images',
                     'dcterms:creator' => 'René Magritte',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -5896,7 +6011,7 @@ return [
                 'treachery-of-images',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q662509',
+                '@value' => 'https://www.wikidata.org/entity/Q3230453',
                 '@type' => 'uri',
             ],
             'dcterms:title' => 'The Lovers',
@@ -5923,6 +6038,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-lovers-magritte.jpg',
+                    'o:alt_text' => 'Oil painting depicting two figures in formal attire kissing with their heads wrapped in white cloth, set against a teal and coral background.',
                     'dcterms:title' => 'The Lovers',
                     'dcterms:creator' => 'René Magritte',
                     'dcterms:rights' => 'Public domain',
@@ -6301,6 +6417,7 @@ return [
             'media' => [
                 [
                     'file' => 'campbells-soup-cans.jpg',
+                    'o:alt_text' => 'Synthetic polymer painting depicting a grid of 32 identical red and white Campbell\'s soup cans arranged in four rows of eight.',
                     'dcterms:title' => 'Campbell\'s Soup Cans',
                     'dcterms:creator' => 'Andy Warhol',
                     'dcterms:rights' => 'Public domain',
@@ -6382,6 +6499,7 @@ return [
             'media' => [
                 [
                     'file' => 'whaam.jpg',
+                    'o:alt_text' => 'Acrylic and oil painting depicting a comic book-style aerial dogfight scene with bold lines and vibrant colors.',
                     'dcterms:title' => 'Whaam!',
                     'dcterms:rights' => 'CC0',
                     'dcterms:contributor' => 'Eric Koch for Anefo',
@@ -6577,6 +6695,7 @@ return [
             'media' => [
                 [
                     'file' => 'ophelia-millais.jpg',
+                    'o:alt_text' => 'Oil painting depicting a young woman in a floral dress floating in a stream surrounded by lush vegetation and flowers.',
                     'dcterms:title' => 'Ophelia',
                     'dcterms:creator' => 'John Everett Millais',
                     'dcterms:rights' => 'Public domain',
@@ -6623,6 +6742,7 @@ return [
             'media' => [
                 [
                     'file' => 'beata-beatrix.jpg',
+                    'o:alt_text' => 'Oil painting depicting a woman in a green dress gazing upward, holding a poppy flower, with ethereal figures in the background.',
                     'dcterms:title' => 'Beata Beatrix',
                     'dcterms:creator' => 'Dante Gabriel Rossetti',
                     'dcterms:rights' => 'Public domain',
@@ -6671,6 +6791,7 @@ return [
             'media' => [
                 [
                     'file' => 'lady-of-shalott.jpg',
+                    'o:alt_text' => 'Oil painting depicting a woman in white robes reclining in a dark gondola on a river surrounded by lush forest scenery.',
                     'dcterms:title' => 'The Lady of Shalott',
                     'dcterms:creator' => 'John William Waterhouse',
                     'dcterms:rights' => 'Public domain',
@@ -6716,6 +6837,7 @@ return [
             'media' => [
                 [
                     'file' => 'proserpine.jpeg',
+                    'o:alt_text' => 'Oil painting depicting a woman with long red hair in a green draped gown, holding a pomegranate and ivy branch.',
                     'dcterms:title' => 'Proserpine',
                     'dcterms:creator' => 'Dante Gabriel Rossetti',
                     'dcterms:rights' => 'Public domain',
@@ -6761,6 +6883,7 @@ return [
             'media' => [
                 [
                     'file' => 'hylas-and-the-nymphs.jpg',
+                    'o:alt_text' => 'Oil painting depicting a young man surrounded by nude water nymphs in a lush, moonlit forest pond setting.',
                     'dcterms:title' => 'Hylas and the Nymphs',
                     'dcterms:creator' => 'John William Waterhouse',
                     'dcterms:rights' => 'Public domain',
@@ -6808,6 +6931,7 @@ return [
             'media' => [
                 [
                     'file' => 'light-of-the-world.jpg',
+                    'o:alt_text' => 'Oil painting depicting a bearded, haloed figure in green robes holding a lantern and knocking on a wooden door in a forest setting.',
                     'dcterms:title' => 'The Light of the World',
                     'dcterms:creator' => 'William Holman Hunt',
                     'dcterms:rights' => 'Public domain',
@@ -6855,6 +6979,7 @@ return [
             'media' => [
                 [
                     'file' => 'wilton-diptych.jpg',
+                    'o:alt_text' => 'Egg tempera and gold panel diptych depicting King Richard II presented to the Virgin Mary and Christ Child by saints, circa 1395.',
                     'dcterms:title' => 'The Wilton Diptych',
                     'dcterms:creator' => 'Unknown',
                     'dcterms:rights' => 'Public domain',
@@ -6900,6 +7025,7 @@ return [
             'media' => [
                 [
                     'file' => 'ognissanti-madonna.jpg',
+                    'o:alt_text' => 'Tempera and gold panel painting depicting Madonna and Child enthroned, surrounded by kneeling angels and saints in Gothic architectural frame.',
                     'dcterms:title' => 'Ognissanti Madonna',
                     'dcterms:creator' => 'Giotto di Bondone',
                     'dcterms:rights' => 'Public domain',
@@ -6947,6 +7073,7 @@ return [
             'media' => [
                 [
                     'file' => 'maesta-duccio.jpg',
+                    'o:alt_text' => 'Tempera and gold panel painting depicting the Virgin Mary enthroned with Christ Child surrounded by saints and angels in hierarchical Gothic arrangement.',
                     'dcterms:title' => 'Maestà',
                     'dcterms:creator' => 'Duccio di Buoninsegna',
                     'dcterms:rights' => 'Public domain',
@@ -6992,6 +7119,7 @@ return [
             'media' => [
                 [
                     'file' => 'stone-city-iowa.jpg',
+                    'o:alt_text' => 'Oil painting depicting a rolling Iowa landscape with farmland, buildings, a river, and stylized hills in warm earth tones and greens.',
                     'dcterms:title' => 'Stone City, Iowa',
                     'dcterms:creator' => 'Grant Wood',
                     'dcterms:rights' => 'Public domain',
@@ -7074,6 +7202,7 @@ return [
             'media' => [
                 [
                     'file' => 'psyche-revived.jpg',
+                    'o:alt_text' => 'Marble sculpture depicting a reclining woman with wings being embraced by a cherub in a neoclassical style.',
                     'dcterms:title' => 'Psyche Revived by Cupid\'s Kiss',
                     'dcterms:creator' => 'Antonio Canova',
                     'dcterms:rights' => 'CC BY 4.0',
@@ -7118,6 +7247,7 @@ return [
             'media' => [
                 [
                     'file' => 'perseus-triumphant.jpg',
+                    'o:alt_text' => 'Marble sculpture of a nude male figure holding a sword and severed head, displayed in a classical interior space.',
                     'dcterms:title' => 'Perseus Triumphant',
                     'dcterms:creator' => 'Antonio Canova',
                     'dcterms:rights' => 'CC0',
@@ -7165,6 +7295,7 @@ return [
             'media' => [
                 [
                     'file' => 'dying-gaul.jpg',
+                    'o:alt_text' => 'Marble sculpture of a wounded, reclining male figure in classical style, positioned on an oval base against a dark background.',
                     'dcterms:title' => 'Dying Gaul',
                     'dcterms:creator' => 'Unknown',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -7213,6 +7344,7 @@ return [
             'media' => [
                 [
                     'file' => 'boxer-at-rest.jpg',
+                    'o:alt_text' => 'Bronze sculpture depicting a muscular, bearded male figure seated in a resting position, his body marked with injuries.',
                     'dcterms:title' => 'Boxer at Rest',
                     'dcterms:creator' => 'Unknown',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -7260,6 +7392,7 @@ return [
             'media' => [
                 [
                     'file' => 'doryphoros.jpg',
+                    'o:alt_text' => 'Marble sculpture of a nude male figure standing in contrapposto pose, exemplifying classical Greek ideals of human proportion and form.',
                     'dcterms:title' => 'Doryphoros (Spear Bearer)',
                     'dcterms:creator' => 'After Polykleitos',
                     'dcterms:rights' => 'CC BY 4.0',
@@ -7306,6 +7439,7 @@ return [
             'media' => [
                 [
                     'file' => 'hermes-infant-dionysus.jpg',
+                    'o:alt_text' => 'Marble sculpture of a nude male figure standing beside a draped female figure holding an infant child.',
                     'dcterms:title' => 'Hermes and the Infant Dionysus',
                     'dcterms:creator' => 'Praxiteles',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -7353,6 +7487,7 @@ return [
             'media' => [
                 [
                     'file' => 'mask-of-tutankhamun.jpg',
+                    'o:alt_text' => 'Gold mask depicting Tutankhamun\'s face with striped nemes headdress, inlaid with lapis lazuli and carnelian.',
                     'dcterms:title' => 'Mask of Tutankhamun',
                     'dcterms:creator' => 'Unknown',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -7400,6 +7535,7 @@ return [
             'media' => [
                 [
                     'file' => 'narmer-palette.jpg',
+                    'o:alt_text' => 'Greywacke palette depicting ancient Egyptian pharaoh Narmer with hieroglyphic scenes of ritual and conquest on both sides.',
                     'dcterms:title' => 'Narmer Palette',
                     'dcterms:creator' => 'Unknown',
                     'dcterms:rights' => 'Public domain',
@@ -7444,6 +7580,7 @@ return [
             'media' => [
                 [
                     'file' => 'red-fuji.jpg',
+                    'o:alt_text' => 'Woodblock print depicting Mount Fuji with snow-capped peak against blue sky with white clouds and green forested foothills.',
                     'dcterms:title' => 'Fine Wind, Clear Morning (Red Fuji)',
                     'dcterms:creator' => 'Katsushika Hokusai',
                     'dcterms:rights' => 'Public domain',
@@ -7492,6 +7629,7 @@ return [
             'media' => [
                 [
                     'file' => 'sudden-shower-shin-ohashi.jpg',
+                    'o:alt_text' => 'Woodblock print depicting people crossing a wooden bridge during a sudden rainstorm with diagonal rain lines and a boat below.',
                     'dcterms:title' => 'Sudden Shower over Shin-Ōhashi Bridge',
                     'dcterms:creator' => 'Utagawa Hiroshige',
                     'dcterms:rights' => 'Public domain',
@@ -7537,6 +7675,7 @@ return [
             'media' => [
                 [
                     'file' => 'plum-estate.jpeg',
+                    'o:alt_text' => 'Woodblock print depicting a nighttime scene of plum blossoms hanging from dark branches above a moonlit pond with silhouetted figures below.',
                     'dcterms:title' => 'Plum Estate, Kameido',
                     'dcterms:creator' => 'Utagawa Hiroshige',
                     'dcterms:rights' => 'Public domain',
@@ -7585,6 +7724,7 @@ return [
             'media' => [
                 [
                     'file' => 'fireworks-at-ryogoku.jpg',
+                    'o:alt_text' => 'Woodblock print depicting a nighttime riverside scene with fireworks bursting above tall poles and numerous boats gathered below.',
                     'dcterms:title' => 'Fireworks at Ryogoku',
                     'dcterms:creator' => 'Utagawa Hiroshige',
                     'dcterms:rights' => 'Public domain',
@@ -7629,6 +7769,7 @@ return [
             'media' => [
                 [
                     'file' => 'belles-heures.jpg',
+                    'o:alt_text' => 'Illuminated manuscript page depicting the Annunciation, with an angel and Mary in an architectural interior surrounded by ornate floral borders.',
                     'dcterms:title' => 'Belles Heures of Jean de Berry',
                     'dcterms:creator' => 'Limbourg Brothers',
                     'dcterms:rights' => 'Public domain',
@@ -7676,6 +7817,7 @@ return [
             'media' => [
                 [
                     'file' => 'hours-of-jeanne-devreux.jpg',
+                    'o:alt_text' => 'Illuminated manuscript page depicting a fortified castle tower with Gothic architecture and Latin text in decorative script with ornamental margins.',
                     'dcterms:title' => 'Hours of Jeanne d\'Évreux',
                     'dcterms:creator' => 'Jean Pucelle',
                     'dcterms:rights' => 'CC0',
@@ -7722,6 +7864,7 @@ return [
             'media' => [
                 [
                     'file' => 'lindisfarne-gospels.jpg',
+                    'o:alt_text' => 'Illuminated manuscript page featuring ornate Celtic knotwork, decorative initials, and Latin text in dark ink on aged parchment.',
                     'dcterms:title' => 'Lindisfarne Gospels',
                     'dcterms:creator' => 'Eadfrith of Lindisfarne',
                     'dcterms:rights' => 'Public domain',
@@ -7766,6 +7909,7 @@ return [
             'media' => [
                 [
                     'file' => 'codex-manesse.jpg',
+                    'o:alt_text' => 'Illuminated manuscript page from Codex Manesse featuring two columns of Middle High German text with decorated initials and marginal illustrations on aged parchment.',
                     'dcterms:title' => 'Codex Manesse',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -7809,6 +7953,7 @@ return [
             'media' => [
                 [
                     'file' => 'rabbula-gospels.jpg',
+                    'o:alt_text' => 'Illuminated manuscript pages depicting ornate architectural frames with religious figures and decorative arches, featuring medieval calligraphy and iconography.',
                     'dcterms:title' => 'Rabbula Gospels',
                     'dcterms:creator' => 'Unknown',
                     'dcterms:rights' => 'Public domain',
@@ -7853,6 +7998,7 @@ return [
             'media' => [
                 [
                     'file' => 'burial-of-count-of-orgaz.jpg',
+                    'o:alt_text' => 'Oil painting depicting a heavenly vision above a funeral procession, with saints and angels floating above mourners gathered around a deceased nobleman\'s burial.',
                     'dcterms:title' => 'The Burial of the Count of Orgaz',
                     'dcterms:creator' => 'El Greco',
                     'dcterms:rights' => 'Public domain',
@@ -7898,6 +8044,7 @@ return [
             'media' => [
                 [
                     'file' => 'venus-of-urbino.jpg',
+                    'o:alt_text' => 'Oil painting depicting a reclining nude woman on a bed with attendants in the background of an interior chamber.',
                     'dcterms:title' => 'Venus of Urbino',
                     'dcterms:creator' => 'Titian',
                     'dcterms:rights' => 'Public domain',
@@ -7944,6 +8091,7 @@ return [
             'media' => [
                 [
                     'file' => 'charles-i-at-the-hunt.jpg',
+                    'o:alt_text' => 'Oil painting depicting King Charles I in hunting attire standing with attendants and horses beneath tall trees in a landscape setting.',
                     'dcterms:title' => 'Charles I at the Hunt',
                     'dcterms:creator' => 'Anthony van Dyck',
                     'dcterms:rights' => 'Public domain',
@@ -7989,6 +8137,7 @@ return [
             'media' => [
                 [
                     'file' => 'portrait-pope-innocent-x.jpg',
+                    'o:alt_text' => 'Oil painting depicting Pope Innocent X seated in ornate chair wearing red vestments and white robes against damask backdrop.',
                     'dcterms:title' => 'Portrait of Pope Innocent X',
                     'dcterms:creator' => 'Diego Velázquez',
                     'dcterms:rights' => 'Public domain',
@@ -8034,6 +8183,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-third-of-may.jpg',
+                    'o:alt_text' => 'Oil painting depicting a nighttime execution scene with a firing squad shooting a central figure in white surrounded by soldiers and civilians.',
                     'dcterms:title' => 'The Third of May 1808',
                     'dcterms:creator' => 'Francisco Goya',
                     'dcterms:rights' => 'Public domain',
@@ -8080,6 +8230,7 @@ return [
             'media' => [
                 [
                     'file' => 'toulouse-lautrec-moulin-rouge.jpg',
+                    'o:alt_text' => 'Oil painting depicting elegantly dressed patrons socializing at an indoor cabaret venue with warm amber and purple tones.',
                     'dcterms:title' => 'At the Moulin Rouge',
                     'dcterms:creator' => 'Henri de Toulouse-Lautrec',
                     'dcterms:rights' => 'Public domain',
@@ -8125,6 +8276,7 @@ return [
             'media' => [
                 [
                     'file' => 'i-and-the-village.jpg',
+                    'o:alt_text' => 'Oil painting depicting a white goat\'s face merged with a green profile and red village scene with small figures and buildings.',
                     'dcterms:title' => 'I and the Village',
                     'dcterms:creator' => 'Marc Chagall',
                     'dcterms:rights' => 'Public domain',
@@ -8171,6 +8323,7 @@ return [
             'media' => [
                 [
                     'file' => 'composition-red-blue-yellow.jpg',
+                    'o:alt_text' => 'Oil painting depicting geometric composition of red, blue, and yellow rectangles separated by black lines on white background.',
                     'dcterms:title' => 'Composition with Red, Blue and Yellow',
                     'dcterms:creator' => 'Piet Mondrian',
                     'dcterms:rights' => 'Public domain',
@@ -8254,6 +8407,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-city-rises.jpg',
+                    'o:alt_text' => 'Oil painting depicting a dynamic urban construction scene with swirling horses, workers, and buildings rendered in bold, energetic brushstrokes.',
                     'dcterms:title' => 'The City Rises',
                     'dcterms:creator' => 'Umberto Boccioni',
                     'dcterms:rights' => 'Public domain',
@@ -8371,6 +8525,7 @@ return [
             'media' => [
                 [
                     'file' => 'snap-the-whip.jpg',
+                    'o:alt_text' => 'Oil painting depicting a group of children playing snap the whip in a rural meadow near a red schoolhouse with forested mountains behind.',
                     'dcterms:title' => 'Snap the Whip',
                     'dcterms:creator' => 'Winslow Homer',
                     'dcterms:rights' => 'Public domain',
@@ -8417,6 +8572,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-blue-boy.jpg',
+                    'o:alt_text' => 'Oil painting depicting a young boy in an aristocratic blue silk suit standing against a muted landscape background.',
                     'dcterms:title' => 'The Blue Boy',
                     'dcterms:creator' => 'Thomas Gainsborough',
                     'dcterms:rights' => 'Public domain',
@@ -8500,6 +8656,7 @@ return [
             'media' => [
                 [
                     'file' => 'battle-of-san-romano.jpg',
+                    'o:alt_text' => 'Tempera painting depicting a chaotic medieval battle scene with armored soldiers, horses, and weapons scattered across a crowded composition.',
                     'dcterms:title' => 'The Battle of San Romano',
                     'dcterms:creator' => 'Paolo Uccello',
                     'dcterms:rights' => 'CC0',
@@ -8545,6 +8702,7 @@ return [
             'media' => [
                 [
                     'file' => 'whistlers-mother.jpg',
+                    'o:alt_text' => 'Oil painting depicting an elderly woman in black dress and white bonnet seated in profile against a grey wall with minimal furnishings.',
                     'dcterms:title' => 'Arrangement in Grey and Black No. 1 (Whistler\'s Mother)',
                     'dcterms:creator' => 'James McNeill Whistler',
                     'dcterms:rights' => 'Public domain',
@@ -8590,6 +8748,7 @@ return [
             'media' => [
                 [
                     'file' => 'twittering-machine.jpg',
+                    'o:alt_text' => 'Watercolor and ink drawing depicting four stylized bird figures perched on a mechanical contraption with geometric forms and cranking handle.',
                     'dcterms:title' => 'Twittering Machine (Zwitscher-Maschine)',
                     'dcterms:creator' => 'Paul Klee',
                     'dcterms:rights' => 'Public domain',
@@ -8635,6 +8794,7 @@ return [
             'media' => [
                 [
                     'file' => 'young-hare.jpg',
+                    'o:alt_text' => 'Watercolor and gouache painting depicting a detailed study of a young hare shown in profile against a pale background.',
                     'dcterms:title' => 'Young Hare (Feldhase)',
                     'dcterms:creator' => 'Albrecht Dürer',
                     'dcterms:rights' => 'Public domain',
@@ -8681,6 +8841,7 @@ return [
             'media' => [
                 [
                     'file' => 'golden-haggadah.png',
+                    'o:alt_text' => 'Illuminated manuscript page featuring ornate decorative borders in gold and blue framing Hebrew text on vellum.',
                     'dcterms:title' => 'The Golden Haggadah',
                     'dcterms:creator' => 'Unknown (Catalan)',
                     'dcterms:rights' => 'Public domain',
@@ -8725,6 +8886,7 @@ return [
             'media' => [
                 [
                     'file' => 'the-kiss-rodin.jpg',
+                    'o:alt_text' => 'Marble sculpture depicting two nude figures in an intimate embrace, kissing while seated close together.',
                     'dcterms:title' => 'The Kiss',
                     'dcterms:creator' => 'Auguste Rodin',
                     'dcterms:rights' => 'Public domain',
@@ -8770,6 +8932,7 @@ return [
             'media' => [
                 [
                     'file' => 'bird-in-space.jpg',
+                    'o:alt_text' => 'Bronze sculpture depicting a highly abstracted, elongated golden form with a pointed top mounted on a dark rectangular base.',
                     'dcterms:title' => 'Bird in Space',
                     'dcterms:creator' => 'Constantin Brâncuși',
                     'dcterms:rights' => 'Public domain',
@@ -8815,6 +8978,7 @@ return [
             'media' => [
                 [
                     'file' => 'little-dancer.jpg',
+                    'o:alt_text' => 'Bronze sculpture depicting a young female dancer in a corset and tutu with horsehair skirt, standing upright with hands behind her back.',
                     'dcterms:title' => 'Little Dancer Aged Fourteen',
                     'dcterms:creator' => 'Edgar Degas',
                     'dcterms:rights' => 'CC0',
@@ -8860,6 +9024,7 @@ return [
             'media' => [
                 [
                     'file' => 'walking-man.jpg',
+                    'o:alt_text' => 'Bronze sculpture depicting an elongated, thin male figure in a striding pose against a textured background.',
                     'dcterms:title' => 'Walking Man I',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Swiss National Bank (SNB)',

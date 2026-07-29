@@ -214,7 +214,12 @@ class Import extends AbstractDemoDataJob
                     'ingest_url' => sprintf('%s%s/media/%s', $this->mediaBaseUrl, $this->dataset, $file),
                 ];
                 foreach ($entry as $key => $value) {
-                    if (str_contains($key, ':')) {
+                    if (!str_contains($key, ':')) {
+                        continue;
+                    }
+                    if (str_starts_with($key, 'o:')) {
+                        $mediaEntry[$key] = $value;
+                    } else {
                         $mediaEntry[$key] = $this->buildValues($value);
                     }
                 }

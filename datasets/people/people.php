@@ -136,6 +136,7 @@ return [
             'media' => [
                 [
                     'file' => 'hatshepsut.png',
+                    'o:alt_text' => 'Stone bust of Hatshepsut wearing traditional Egyptian headdress and uraeus, photographed against light background.',
                     'dcterms:title' => 'Hatshepsut',
                     'dcterms:rights' => 'CC BY-SA 2.5',
                     'dcterms:contributor' => 'Keith Schengili-Roberts',
@@ -201,6 +202,7 @@ return [
             'media' => [
                 [
                     'file' => 'cleopatra-vii.jpg',
+                    'o:alt_text' => 'Marble bust of Cleopatra VII, depicting the Ptolemaic ruler in profile with curled hair and serene expression.',
                     'dcterms:title' => 'Cleopatra VII',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Louis le Grand',
@@ -259,6 +261,7 @@ return [
             'media' => [
                 [
                     'file' => 'hypatia.jpg',
+                    'o:alt_text' => 'Pencil sketch of Hypatia in profile, showing her with upswept wavy hair and classical features, attributed to Elbert Hubbard.',
                     'dcterms:title' => 'Hypatia',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Elbert Hubbard (June 19, 1856 – May 7, 1915)',
@@ -319,6 +322,7 @@ return [
             'media' => [
                 [
                     'file' => 'wu-zetian.png',
+                    'o:alt_text' => 'Manuscript illustration of Wu Zetian attributed to Zhang Xuan, depicting the empress in elaborate robes surrounded by attendants.',
                     'dcterms:title' => 'Wu Zetian',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Likely to be Zhang Xuan (张萱)',
@@ -380,6 +384,7 @@ return [
             'media' => [
                 [
                     'file' => 'murasaki-shikibu.png',
+                    'o:alt_text' => 'Japanese painting of Murasaki Shikibu reclining among open books and manuscripts, wearing elaborate robes with long black hair.',
                     'dcterms:title' => 'Murasaki Shikibu',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Tosa Mitsuoki (1617 - 1691)',
@@ -399,7 +404,7 @@ return [
                 'nasir-al-din-al-tusi',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q1031798',
+                '@value' => 'https://www.wikidata.org/entity/Q9038',
                 '@type' => 'uri',
             ],
             'dcterms:title' => 'Al-Khwarizmi',
@@ -434,6 +439,7 @@ return [
             'media' => [
                 [
                     'file' => 'al-khwarizmi.jpg',
+                    'o:alt_text' => 'Pen and ink portrait of Al-Khwarizmi, a bearded man wearing a turban and draped robes.',
                     'dcterms:title' => 'Al-Khwarizmi',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -499,6 +505,7 @@ return [
             'media' => [
                 [
                     'file' => 'ibn-al-haytham.jpg',
+                    'o:alt_text' => 'Engraving of Ibn al-Haytham, medieval Islamic scholar wearing a turban, depicted in detailed black ink line work.',
                     'dcterms:title' => 'Ibn al-Haytham',
                     'dcterms:rights' => 'CC BY-SA 4.0',
                     'dcterms:contributor' => 'Michel Bakni',
@@ -622,6 +629,7 @@ return [
             'media' => [
                 [
                     'file' => 'hildegard-of-bingen.jpg',
+                    'o:alt_text' => 'Manuscript illustration of Hildegard of Bingen receiving divine inspiration, depicted with flames above her head in a monastery setting.',
                     'dcterms:title' => 'Hildegard of Bingen',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -684,6 +692,7 @@ return [
             'media' => [
                 [
                     'file' => 'nasir-al-din-al-tusi.jpg',
+                    'o:alt_text' => 'Postage stamp of Nasir al-Din al-Tusi, Persian mathematician and astronomer, with ornate decorative border.',
                     'dcterms:title' => 'Nasir al-Din al-Tusi',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -747,6 +756,7 @@ return [
             'media' => [
                 [
                     'file' => 'rumi.jpg',
+                    'o:alt_text' => 'Manuscript illustration of Rumi wearing a white and rust-colored tall hat and dark robe with blue trim, attributed to Hossein Behzad.',
                     'dcterms:title' => 'Rumi',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Hossein Behzad',
@@ -854,6 +864,7 @@ return [
             'media' => [
                 [
                     'file' => 'christine-de-pizan.jpg',
+                    'o:alt_text' => 'Manuscript illustration of Christine de Pizan presenting her work to noble patrons in a medieval interior setting.',
                     'dcterms:title' => 'Christine de Pizan',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'photography The British Library Board, Harley 4431, f.259v',
@@ -916,6 +927,7 @@ return [
             'media' => [
                 [
                     'file' => 'ibn-battuta.jpg',
+                    'o:alt_text' => 'Marble bust of Ibn Battuta depicting the medieval traveler wearing a turban and draped robes.',
                     'dcterms:title' => 'Ibn Battuta',
                     'dcterms:rights' => 'CC BY-SA 4.0',
                     'dcterms:contributor' => 'Ideophagous',
@@ -978,6 +990,7 @@ return [
             'media' => [
                 [
                     'file' => 'mansa-musa.jpg',
+                    'o:alt_text' => 'Manuscript illustration of Mansa Musa seated on a throne, wearing a crown and holding a scepter and gold sphere.',
                     'dcterms:title' => 'Mansa Musa',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Cresques Abraham',
@@ -1040,6 +1053,7 @@ return [
             'media' => [
                 [
                     'file' => 'zheng-he.jpg',
+                    'o:alt_text' => 'Stone statue of Zheng He wearing traditional robes and cape, displayed in a public square with colonial architecture.',
                     'dcterms:title' => 'Zheng He',
                     'dcterms:rights' => 'CC BY-SA 4.0',
                     'dcterms:contributor' => 'Marcin Konsek',
@@ -1145,6 +1159,7 @@ return [
             'media' => [
                 [
                     'file' => 'queen-nzinga.jpg',
+                    'o:alt_text' => 'Colored engraving of Queen Nzinga wearing ornate red crown, green draped garment, and blue beaded necklace.',
                     'dcterms:title' => 'Queen Nzinga',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Achille Devéria',
@@ -1207,6 +1222,7 @@ return [
             'media' => [
                 [
                     'file' => 'copernicus.jpg',
+                    'o:alt_text' => 'Oil portrait of Nicolaus Copernicus wearing a red garment against a dark background.',
                     'dcterms:title' => 'Nicolaus Copernicus',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1264,6 +1280,7 @@ return [
             'media' => [
                 [
                     'file' => 'sor-juana.jpg',
+                    'o:alt_text' => 'Oil portrait of Sor Juana Inés de la Cruz holding a religious medallion, wearing white robes with biographical text panel.',
                     'dcterms:title' => 'Sor Juana Inés de la Cruz',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Fray Miguel de Herrera',
@@ -1322,6 +1339,7 @@ return [
             'media' => [
                 [
                     'file' => 'galileo.jpg',
+                    'o:alt_text' => 'Oil portrait of Galileo Galilei, an elderly bearded man in dark clothing against a brown background.',
                     'dcterms:title' => 'Galileo Galilei',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Justus Sustermans',
@@ -1375,6 +1393,7 @@ return [
             'media' => [
                 [
                     'file' => 'isaac-newton.jpg',
+                    'o:alt_text' => 'Oil portrait of Isaac Newton, wearing dark robes with long wavy gray hair against a dark background.',
                     'dcterms:title' => 'Isaac Newton',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'James Thronill after Sir Godfrey Kneller',
@@ -1426,6 +1445,7 @@ return [
             'media' => [
                 [
                     'file' => 'mary-wollstonecraft.jpg',
+                    'o:alt_text' => 'Oil portrait of Mary Wollstonecraft by John Opie, depicting her in a white draped garment against a dark background.',
                     'dcterms:title' => 'Mary Wollstonecraft',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'John Opie',
@@ -1479,6 +1499,7 @@ return [
             'media' => [
                 [
                     'file' => 'ada-lovelace.png',
+                    'o:alt_text' => 'Daguerreotype of Ada Lovelace wearing ornate dress with lace collar and decorative earrings, attributed to Antoine Claudet.',
                     'dcterms:title' => 'Ada Lovelace',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Antoine Claudet',
@@ -1531,6 +1552,7 @@ return [
             'media' => [
                 [
                     'file' => 'charles-darwin.jpg',
+                    'o:alt_text' => 'Photograph of Charles Darwin, elderly bearded naturalist, by Herbert Rose Barraud.',
                     'dcterms:title' => 'Charles Darwin',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Herbert Rose Barraud',
@@ -1588,6 +1610,7 @@ return [
             'media' => [
                 [
                     'file' => 'frederick-douglass.jpg',
+                    'o:alt_text' => 'Engraving of Frederick Douglass, a prominent abolitionist and orator, wearing a formal suit and vest.',
                     'dcterms:title' => 'Frederick Douglass',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Engraved by J.C. Buttre from a daguerreotype.',
@@ -1644,6 +1667,7 @@ return [
             'media' => [
                 [
                     'file' => 'harriet-tubman.jpg',
+                    'o:alt_text' => 'Photograph of Harriet Tubman wearing a patterned head wrap and dark shawl, attributed to Horatio Seymour Squyer.',
                     'dcterms:title' => 'Harriet Tubman',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Horatio Seymour Squyer',
@@ -1699,6 +1723,7 @@ return [
             'media' => [
                 [
                     'file' => 'enheduanna.jpg',
+                    'o:alt_text' => 'Ancient stone relief of Enheduanna, the first named author in recorded history, wearing traditional Sumerian robes and headdress.',
                     'dcterms:title' => 'Enheduanna',
                     'dcterms:rights' => 'CC0',
                     'dcterms:contributor' => 'Mefman00',
@@ -1764,6 +1789,7 @@ return [
             'media' => [
                 [
                     'file' => 'sappho.jpg',
+                    'o:alt_text' => 'Marble bust of Sappho with curled hair and wavy locks, inscribed with Greek text on the base.',
                     'dcterms:title' => 'Sappho',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Marie-Lan Nguyen',
@@ -1831,6 +1857,7 @@ return [
             'media' => [
                 [
                     'file' => 'confucius.jpg',
+                    'o:alt_text' => 'Stone statue of Confucius standing in robes holding a staff, surrounded by trees and foliage.',
                     'dcterms:title' => 'Confucius',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Anonymous Chinese painter of the Western Han period',
@@ -1893,6 +1920,7 @@ return [
             'media' => [
                 [
                     'file' => 'archimedes.jpg',
+                    'o:alt_text' => 'Oil painting of Archimedes contemplating a marble bust while surrounded by scientific instruments and manuscripts.',
                     'dcterms:title' => 'Archimedes',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Domenico Fetti',
@@ -1958,6 +1986,7 @@ return [
             'media' => [
                 [
                     'file' => 'ashoka.jpg',
+                    'o:alt_text' => 'Stone relief carving of Ashoka depicted in a chariot scene with attendants and decorative elements.',
                     'dcterms:title' => 'Ashoka',
                     'dcterms:rights' => 'CC BY 2.0',
                     'dcterms:contributor' => 'Photo Dharma from Sadao, Thailand',
@@ -2174,6 +2203,7 @@ return [
             'media' => [
                 [
                     'file' => 'fatima-al-fihri.jpg',
+                    'o:alt_text' => 'Museum wax figure of Fatima al-Fihri holding a manuscript, wearing traditional white robes and headscarf.',
                     'dcterms:title' => 'Fatima al-Fihri',
                     'dcterms:rights' => 'CC BY-SA 4.0',
                     'dcterms:contributor' => 'Anass Sedrati',
@@ -2238,6 +2268,7 @@ return [
             'media' => [
                 [
                     'file' => 'razia-sultana.jpg',
+                    'o:alt_text' => 'Manuscript illustration of Razia Sultana riding a decorated horse in ornate royal attire, releasing falcons against a green landscape.',
                     'dcterms:title' => 'Razia Sultana',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -2347,6 +2378,7 @@ return [
             'media' => [
                 [
                     'file' => 'suleiman-the-magnificent.jpg',
+                    'o:alt_text' => 'Manuscript illustration of Suleiman the Magnificent in royal attire with white turban, seated in ornate palace setting.',
                     'dcterms:title' => 'Suleiman the Magnificent',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Suleymanname, 1558',
@@ -2412,6 +2444,7 @@ return [
             'media' => [
                 [
                     'file' => 'akbar.jpg',
+                    'o:alt_text' => 'Manuscript illustration of Akbar holding a map, depicting the Mughal emperor in formal attire from early 17th-century Persian art.',
                     'dcterms:title' => 'Akbar',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => '1605 artist',
@@ -2470,6 +2503,7 @@ return [
             'media' => [
                 [
                     'file' => 'yi-sun-sin.jpg',
+                    'o:alt_text' => 'Bronze bust of Yi Sun-sin wearing traditional Korean armor and helmet topped with a trident symbol.',
                     'dcterms:title' => 'Yi Sun-sin',
                     'dcterms:rights' => 'KOGL Type 1',
                     'dcterms:contributor' => 'Unknown, War Memorial of Korea',
@@ -2528,6 +2562,7 @@ return [
             'media' => [
                 [
                     'file' => 'toussaint-louverture.jpg',
+                    'o:alt_text' => 'Oil portrait of Toussaint Louverture in full military regalia, holding a document, against a stormy sky background.',
                     'dcterms:title' => 'Toussaint Louverture',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -2586,6 +2621,7 @@ return [
             'media' => [
                 [
                     'file' => 'tecumseh.jpg',
+                    'o:alt_text' => 'Colored engraving of Tecumseh, Shawnee leader, wearing a red turban and military uniform with gold epaulettes.',
                     'dcterms:title' => 'Tecumseh',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'attributed to Owen Staples (1866–1949), based on the engraving published by Benson John Lossing[1]',
@@ -2646,6 +2682,7 @@ return [
             'media' => [
                 [
                     'file' => 'sojourner-truth.jpg',
+                    'o:alt_text' => 'Photograph of Sojourner Truth seated, wearing a white headwrap and shawl, holding papers and knitting.',
                     'dcterms:title' => 'Sojourner Truth',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Sojourner Truth',
@@ -2702,6 +2739,7 @@ return [
             'media' => [
                 [
                     'file' => 'yaa-asantewaa.jpg',
+                    'o:alt_text' => 'Photograph of a bronze statue of Yaa Asantewaa holding a rifle, mounted on a pedestal in a public square.',
                     'dcterms:title' => 'Yaa Asantewaa',
                     'dcterms:rights' => 'CC BY-SA 4.0',
                     'dcterms:contributor' => 'Noahalorwu',
@@ -2765,6 +2803,7 @@ return [
             'media' => [
                 [
                     'file' => 'nikola-tesla.jpeg',
+                    'o:alt_text' => 'Photograph of Nikola Tesla, a man with dark hair and mustache wearing a dark suit jacket with white collar.',
                     'dcterms:title' => 'Nikola Tesla',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Napoleon Sarony',
@@ -2820,6 +2859,7 @@ return [
             'media' => [
                 [
                     'file' => 'ida-b-wells.jpg',
+                    'o:alt_text' => 'Photograph of Ida B. Wells, African American investigative journalist and civil rights activist, in formal Victorian-era attire.',
                     'dcterms:title' => 'Ida B. Wells',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Adam Cuerden',
@@ -2879,6 +2919,7 @@ return [
             'media' => [
                 [
                     'file' => 'marie-curie.jpg',
+                    'o:alt_text' => 'Photograph of Marie Curie, Polish-born physicist and chemist who discovered polonium and radium.',
                     'dcterms:title' => 'Marie Curie',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -2932,6 +2973,7 @@ return [
             'media' => [
                 [
                     'file' => 'web-du-bois.jpg',
+                    'o:alt_text' => 'Photograph of W. E. B. Du Bois, African American scholar and NAACP co-founder, in formal attire with beard.',
                     'dcterms:title' => 'W. E. B. Du Bois',
                     'dcterms:rights' => 'CC0',
                     'dcterms:contributor' => 'James E. Purdy / Adam Cuerden',
@@ -2992,6 +3034,7 @@ return [
             'media' => [
                 [
                     'file' => 'srinivasa-ramanujan.jpg',
+                    'o:alt_text' => 'Black and white photograph of Srinivasa Ramanujan, a young man in formal attire with dark hair.',
                     'dcterms:title' => 'Srinivasa Ramanujan',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Konrad Jacobs',
@@ -3051,6 +3094,7 @@ return [
             'media' => [
                 [
                     'file' => 'aspasia.jpg',
+                    'o:alt_text' => 'Marble bust of Aspasia, Classical Athenian philosopher and companion of Pericles, depicted with wavy hair and serene expression.',
                     'dcterms:title' => 'Aspasia',
                     'dcterms:rights' => 'CC BY 3.0',
                     'dcterms:contributor' => 'Daigaz',
@@ -3161,6 +3205,7 @@ return [
             'media' => [
                 [
                     'file' => 'hannibal.jpg',
+                    'o:alt_text' => 'Marble bust of Hannibal Barca wearing a decorated headband and draped garment, depicted in profile against a dark background.',
                     'dcterms:title' => 'Hannibal Barca',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Fratelli Alinari',
@@ -3316,6 +3361,7 @@ return [
             'media' => [
                 [
                     'file' => 'omar-khayyam.jpg',
+                    'o:alt_text' => 'Historical illustration of Omar Khayyam, depicting the Persian polymath with a long blue beard and striped turban wearing a green robe.',
                     'dcterms:title' => 'Omar Khayyam',
                     'dcterms:rights' => 'CC BY-SA 3.0',
                     'dcterms:contributor' => 'The original uploader was Atilin at French Wikipedia.',
@@ -3371,6 +3417,7 @@ return [
             'media' => [
                 [
                     'file' => 'al-idrisi.jpg',
+                    'o:alt_text' => 'Medieval manuscript map by Al-Idrisi showing world geography in blue and tan, circular projection with landmasses and annotations.',
                     'dcterms:title' => 'Al-Idrisi',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Marek',
@@ -3431,6 +3478,7 @@ return [
             'media' => [
                 [
                     'file' => 'ibn-khaldun.jpg',
+                    'o:alt_text' => 'Brass bust of Ibn Khaldun wearing traditional robes against a brick wall background.',
                     'dcterms:title' => 'Ibn Khaldun',
                     'dcterms:rights' => 'CC BY-SA 4.0',
                     'dcterms:contributor' => 'Reda Kerbush',
@@ -3488,6 +3536,7 @@ return [
             'media' => [
                 [
                     'file' => 'afonso-i-kongo.png',
+                    'o:alt_text' => 'Heraldic coat of arms of Afonso I of Kongo featuring a crowned lion head and ornate red and blue shield with decorative flourishes.',
                     'dcterms:title' => 'Afonso I of Kongo',
                     'dcterms:rights' => 'CC BY 3.0',
                     'dcterms:contributor' => 'Samhanin',
@@ -3642,6 +3691,7 @@ return [
             'media' => [
                 [
                     'file' => 'kepler.jpg',
+                    'o:alt_text' => 'Oil portrait of Johannes Kepler, a bearded man wearing dark clothing with a white collar against a dark background.',
                     'dcterms:title' => 'Johannes Kepler',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Hans von Aachen',
@@ -3702,6 +3752,7 @@ return [
             'media' => [
                 [
                     'file' => 'ching-shih.jpg',
+                    'o:alt_text' => 'Engraving of Ching Shih commanding her pirate fleet aboard ship with sailors and vessels in the background.',
                     'dcterms:title' => 'Ching Shih',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -3759,6 +3810,7 @@ return [
             'media' => [
                 [
                     'file' => 'olaudah-equiano.png',
+                    'o:alt_text' => 'Engraving of Olaudah Equiano, an African man in eighteenth-century formal attire with white cravat and double-breasted coat.',
                     'dcterms:title' => 'Olaudah Equiano',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -3811,6 +3863,7 @@ return [
             'media' => [
                 [
                     'file' => 'simon-bolivar.jpg',
+                    'o:alt_text' => 'Oil portrait of Simón Bolívar in formal military dress with red coat and gold epaulettes against a brown background.',
                     'dcterms:title' => 'Simón Bolívar',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Ricardo Acevedo Bernal',
@@ -3871,6 +3924,7 @@ return [
             'media' => [
                 [
                     'file' => 'sacagawea.jpg',
+                    'o:alt_text' => 'Oil painting of Sacagawea, Shoshone interpreter, pointing westward while holding a staff during the Lewis and Clark Expedition.',
                     'dcterms:title' => 'Sacagawea',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Edgar Samuel Paxson',
@@ -3934,6 +3988,7 @@ return [
             'media' => [
                 [
                     'file' => 'cixi.png',
+                    'o:alt_text' => 'Photograph of Empress Dowager Cixi seated in formal Chinese imperial regalia with ornate embroidered robes and jewelry.',
                     'dcterms:title' => 'Empress Dowager Cixi',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'John Yu Shuinling',
@@ -3987,6 +4042,7 @@ return [
             'media' => [
                 [
                     'file' => 'mary-seacole.jpg',
+                    'o:alt_text' => 'Oil portrait of Mary Seacole wearing red and blue clothing with medals, painted in profile by Albert Charles Challen.',
                     'dcterms:title' => 'Mary Seacole',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Albert Charles Challen',
@@ -4044,6 +4100,7 @@ return [
             'media' => [
                 [
                     'file' => 'lakshmibai.jpg',
+                    'o:alt_text' => 'Oil portrait of Lakshmibai, Indian Rebellion leader, in ornate maroon robes holding a curved sword in a classical architectural setting.',
                     'dcterms:title' => 'Lakshmibai',
                     'dcterms:rights' => 'CC BY 2.0',
                     'dcterms:contributor' => 'the lost gallery',
@@ -4107,6 +4164,7 @@ return [
             'media' => [
                 [
                     'file' => 'rabindranath-tagore.jpg',
+                    'o:alt_text' => 'Black and white lithograph of Rabindranath Tagore in profile, depicting him with a long beard and period clothing.',
                     'dcterms:title' => 'Rabindranath Tagore',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Generalstabens litografiska anstalt',
@@ -4162,6 +4220,7 @@ return [
             'media' => [
                 [
                     'file' => 'lise-meitner.jpg',
+                    'o:alt_text' => 'Photograph of Lise Meitner, physicist and co-discoverer of nuclear fission, speaking at a microphone.',
                     'dcterms:title' => 'Lise Meitner',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Smithsonian Institution',
@@ -4219,6 +4278,7 @@ return [
             'media' => [
                 [
                     'file' => 'emmy-noether.jpg',
+                    'o:alt_text' => 'Black and white photograph of Emmy Noether, a woman wearing glasses and dark clothing, looking thoughtfully to the side.',
                     'dcterms:title' => 'Emmy Noether',
                     'dcterms:rights' => 'CC BY-SA 2.0 de',
                     'dcterms:contributor' => 'Konrad Jacobs, Erlangen',
@@ -4284,6 +4344,7 @@ return [
             'media' => [
                 [
                     'file' => 'mahatma-gandhi.jpg',
+                    'o:alt_text' => 'Black and white photograph of Mahatma Gandhi wearing glasses and wrapped in a white shawl, facing the camera with a gentle expression.',
                     'dcterms:title' => 'Mahatma Gandhi',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Elliott & Fry',
@@ -4339,6 +4400,7 @@ return [
             'media' => [
                 [
                     'file' => 'alan-turing.jpg',
+                    'o:alt_text' => 'Photograph of Alan Turing, black and white portrait showing a man in formal attire with dark hair and neutral expression.',
                     'dcterms:title' => 'Alan Turing',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Elliott & Fry',
@@ -4399,6 +4461,7 @@ return [
             'media' => [
                 [
                     'file' => 'imhotep.jpg',
+                    'o:alt_text' => 'Bronze statue of Imhotep seated on a chair, depicting the ancient Egyptian architect and physician in formal pose.',
                     'dcterms:title' => 'Imhotep',
                     'dcterms:rights' => 'CC BY-SA 3.0 fr',
                     'dcterms:contributor' => 'Rama',
@@ -4462,6 +4525,7 @@ return [
             'media' => [
                 [
                     'file' => 'sargon-of-akkad.jpg',
+                    'o:alt_text' => 'Stone bust of Sargon of Akkad depicting a bearded man wearing a cap and ornate headband.',
                     'dcterms:title' => 'Sargon of Akkad',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -4572,6 +4636,7 @@ return [
             'media' => [
                 [
                     'file' => 'li-bai.png',
+                    'o:alt_text' => 'Chinese ink portrait of Li Bai wearing white robes and black scholar\'s cap, depicting the Tang dynasty poet.',
                     'dcterms:title' => 'Li Bai',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -4634,6 +4699,7 @@ return [
             'media' => [
                 [
                     'file' => 'averroes.jpg',
+                    'o:alt_text' => 'Stone statue of Averroes seated in robes before a fortified medieval building with crenellated towers.',
                     'dcterms:title' => 'Averroes',
                     'dcterms:rights' => 'CC BY 3.0',
                     'dcterms:contributor' => 'Saleemzohaib',
@@ -4748,6 +4814,7 @@ return [
             'media' => [
                 [
                     'file' => 'tamar-of-georgia.jpg',
+                    'o:alt_text' => 'Fresco of Tamar of Georgia wearing a blue robe and crown, depicted in 13th-century Georgian artistic style with gold leaf details.',
                     'dcterms:title' => 'Tamar of Georgia',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => '13th century painter',
@@ -4805,6 +4872,7 @@ return [
             'media' => [
                 [
                     'file' => 'khutulun.jpeg',
+                    'o:alt_text' => 'Manuscript illustration of Khutulun wrestling a suitor while observers watch from a columned palace interior.',
                     'dcterms:title' => 'Khutulun',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Maître de la Mazarine',
@@ -4867,6 +4935,7 @@ return [
             'media' => [
                 [
                     'file' => 'amina-of-zaria.jpg',
+                    'o:alt_text' => 'Bronze statue of Amina of Zaria on horseback holding a spear, set in a landscaped park with modern stadium backdrop.',
                     'dcterms:title' => 'Amina of Zaria',
                     'dcterms:rights' => 'CC BY-SA 4.0',
                     'dcterms:contributor' => 'Solasly',
@@ -4926,6 +4995,7 @@ return [
             'media' => [
                 [
                     'file' => 'tokugawa-ieyasu.jpg',
+                    'o:alt_text' => 'Japanese scroll painting of Tokugawa Ieyasu seated in formal black robes against a landscape backdrop with decorative gold patterning.',
                     'dcterms:title' => 'Tokugawa Ieyasu',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Kanō Tan\'yū',
@@ -4981,6 +5051,7 @@ return [
             'media' => [
                 [
                     'file' => 'john-locke.png',
+                    'o:alt_text' => 'Oil portrait of John Locke, seventeenth-century philosopher, wearing dark robes against a brown background.',
                     'dcterms:title' => 'John Locke',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Godfrey Kneller',
@@ -5039,6 +5110,7 @@ return [
             'media' => [
                 [
                     'file' => 'leibniz.jpg',
+                    'o:alt_text' => 'Oil portrait of Gottfried Wilhelm Leibniz wearing a brown coat with long dark hair against a dark background.',
                     'dcterms:title' => 'Gottfried Wilhelm Leibniz',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Christoph Bernhard Francke',
@@ -5096,6 +5168,7 @@ return [
             'media' => [
                 [
                     'file' => 'nanny-of-the-maroons.jpg',
+                    'o:alt_text' => 'Stone bust of Nanny of the Maroons in a park setting with commemorative plaque beneath.',
                     'dcterms:title' => 'Nanny of the Maroons',
                     'dcterms:rights' => 'CC0',
                     'dcterms:contributor' => 'Jamaica1962',
@@ -5149,6 +5222,7 @@ return [
             'media' => [
                 [
                     'file' => 'voltaire.jpg',
+                    'o:alt_text' => 'Oil portrait of Voltaire, eighteenth-century French philosopher, wearing dark coat with white lace cravat against dark background.',
                     'dcterms:title' => 'Voltaire',
                     'dcterms:rights' => 'CC0',
                     'dcterms:contributor' => 'Nicolas de Largillière',
@@ -5211,6 +5285,7 @@ return [
             'media' => [
                 [
                     'file' => 'cao-xueqin.jpg',
+                    'o:alt_text' => 'Stone bust of Cao Xueqin, Chinese literary figure and author of Dream of the Red Chamber.',
                     'dcterms:title' => 'Cao Xueqin',
                     'dcterms:rights' => 'CC BY-SA 3.0',
                     'dcterms:contributor' => 'User:Yongxinge',
@@ -5268,6 +5343,7 @@ return [
             'media' => [
                 [
                     'file' => 'kamehameha-i.jpg',
+                    'o:alt_text' => 'Oil portrait of Kamehameha I wearing a gold cape and red garment, attributed to Louis Choris.',
                     'dcterms:title' => 'Kamehameha I',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Louis Choris',
@@ -5328,6 +5404,7 @@ return [
             'media' => [
                 [
                     'file' => 'sequoyah.jpg',
+                    'o:alt_text' => 'Lithograph of Sequoyah holding a tablet displaying the Cherokee syllabary he invented, wearing a blue jacket and red turban.',
                     'dcterms:title' => 'Sequoyah',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Lithographer: Lehman and Duval (George Lehman (d.1870); Peter S. Duval) Painter: Henry Inman (1801-20-28 - 1846-01-17); copy after a painting by Charles Bird King (1785 - 1862) which was lost in a fire in the Smithsonian in 1865.',
@@ -5387,6 +5464,7 @@ return [
             'media' => [
                 [
                     'file' => 'shaka.jpg',
+                    'o:alt_text' => 'Engraving of Shaka, Zulu leader, holding a curved spear and shield in traditional warrior attire.',
                     'dcterms:title' => 'Shaka',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'James King',
@@ -5440,6 +5518,7 @@ return [
             'media' => [
                 [
                     'file' => 'mary-shelley.jpg',
+                    'o:alt_text' => 'Oil portrait of Mary Shelley wearing a black off-shoulder dress against a dark background, attributed to Richard Rothwell.',
                     'dcterms:title' => 'Mary Shelley',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Richard Rothwell',
@@ -5492,6 +5571,7 @@ return [
             'media' => [
                 [
                     'file' => 'mary-anning.jpg',
+                    'o:alt_text' => 'Oil portrait of Mary Anning standing in period dress with a halo, holding a basket and walking stick near coastal cliffs.',
                     'dcterms:title' => 'Mary Anning',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Credited to \'Mr. Grey\' in Crispin Tickell\'s book \'Mary Anning of Lyme Regis\' (1996)',
@@ -5545,6 +5625,7 @@ return [
             'media' => [
                 [
                     'file' => 'george-eliot.jpg',
+                    'o:alt_text' => 'Oil portrait of George Eliot, a woman with reddish-brown hair wearing a dark velvet jacket and white lace collar.',
                     'dcterms:title' => 'George Eliot',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'replica by François D’Albert Durade (1804–1886)',
@@ -5602,6 +5683,7 @@ return [
             'media' => [
                 [
                     'file' => 'florence-nightingale.jpg',
+                    'o:alt_text' => 'Photograph of Florence Nightingale wearing a dark dress with white lace collar and bonnet, circa 1850s.',
                     'dcterms:title' => 'Florence Nightingale',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Henry Hering (1814-1893)',
@@ -5659,6 +5741,7 @@ return [
             'media' => [
                 [
                     'file' => 'sitting-bull.jpg',
+                    'o:alt_text' => 'Photograph of Sitting Bull wearing traditional Lakota clothing with braided hair and feathered headdress.',
                     'dcterms:title' => 'Sitting Bull',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'David Francis Barry',
@@ -5712,6 +5795,7 @@ return [
             'media' => [
                 [
                     'file' => 'james-clerk-maxwell.jpg',
+                    'o:alt_text' => 'Black and white photograph of James Clerk Maxwell, bearded man in formal 19th century attire against dark background.',
                     'dcterms:title' => 'James Clerk Maxwell',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -5817,6 +5901,7 @@ return [
             'media' => [
                 [
                     'file' => 'rosalind-franklin.jpg',
+                    'o:alt_text' => 'Black and white photograph of Rosalind Franklin using X-ray crystallography equipment in laboratory setting.',
                     'dcterms:title' => 'Rosalind Franklin',
                     'dcterms:rights' => 'CC BY-SA 4.0',
                     'dcterms:contributor' => 'MRC Laboratory of Molecular Biology',

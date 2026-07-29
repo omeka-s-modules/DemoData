@@ -90,6 +90,7 @@ return [
             'media' => [
                 [
                     'file' => 'lincoln-brayman-1854.tif',
+                    'o:alt_text' => 'Handwritten letter in English by Abraham Lincoln, 1854',
                     'dcterms:title' => 'Abraham Lincoln Letter to Mr. Brayman, September 23, 1854',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -123,6 +124,7 @@ return [
             'media' => [
                 [
                     'file' => 'einstein-brunauer-may-1943.tif',
+                    'o:alt_text' => 'Handwritten letter in English by Albert Einstein, 1943',
                     'dcterms:title' => 'Albert Einstein Letter to Lt. Stephen Brunauer, U.S. Navy Bureau of Ordnance, May 17, 1943',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -156,6 +158,7 @@ return [
             'media' => [
                 [
                     'file' => 'leverett-fragment-1653.tif',
+                    'o:alt_text' => 'Handwritten letter in English by John Leverett, 1653',
                     'dcterms:title' => 'John Leverett Letter Fragment, 1653',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -189,6 +192,7 @@ return [
             'media' => [
                 [
                     'file' => 'burnett-letter-1726.tif',
+                    'o:alt_text' => 'Handwritten letter in English by William Burnett, 1726',
                     'dcterms:title' => 'William Burnett Letter, May 24, 1726',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -222,6 +226,7 @@ return [
             'media' => [
                 [
                     'file' => 'hopkins-hollenberg-1776.tif',
+                    'o:alt_text' => 'Handwritten letter in English by Dan Hopkins, 1776',
                     'dcterms:title' => 'Dan Hopkins Letter to Sam Hollenberg, August 22, 1776',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -255,6 +260,7 @@ return [
             'media' => [
                 [
                     'file' => 'sullivan-jackson-1802.tif',
+                    'o:alt_text' => 'Handwritten letter in English by James Sullivan, 1802',
                     'dcterms:title' => 'James Sullivan Letter to Andrew Jackson, March 16, 1802',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -288,6 +294,7 @@ return [
             'media' => [
                 [
                     'file' => 'davis-cist-1837.tif',
+                    'o:alt_text' => 'Handwritten letter in English by John Davis, 1837',
                     'dcterms:title' => 'John Davis Letter to Louis Cist, September 3, 1837',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -321,6 +328,7 @@ return [
             'media' => [
                 [
                     'file' => 'morton-hamlin-1850.tif',
+                    'o:alt_text' => 'Handwritten letter in English by Marcus Morton, 1850',
                     'dcterms:title' => 'Marcus Morton Letter to Hannibal Hamlin, March 16, 1850',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -354,6 +362,7 @@ return [
             'media' => [
                 [
                     'file' => 'ware-letter-1840.tif',
+                    'o:alt_text' => 'Handwritten letter in English by Henry Ware, 1840',
                     'dcterms:title' => 'Reverend Henry Ware Letter, November 10, 1840',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -386,6 +395,7 @@ return [
             'media' => [
                 [
                     'file' => 'schnitzler-diary-1917.tif',
+                    'o:alt_text' => 'Handwritten diary entry in German by Arthur Schnitzler, 1917',
                     'dcterms:title' => 'Arthur Schnitzler\'s Diary, 14 May 1917',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -419,6 +429,7 @@ return [
             'media' => [
                 [
                     'file' => 'fersen-diary-1770.jpg',
+                    'o:alt_text' => 'Handwritten diary entry in French by Axel von Fersen the Younger, 1770',
                     'dcterms:title' => 'First Page of Axel von Fersen the Younger\'s Diary, 1770',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -453,6 +464,7 @@ return [
             'media' => [
                 [
                     'file' => 'chopin-impressions-1894.jpg',
+                    'o:alt_text' => 'Handwritten diary entry in English by Kate Chopin, 1894',
                     'dcterms:title' => 'Kate Chopin\'s Manuscript Book "Impressions," 1894–1895 (page 87)',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -486,6 +498,7 @@ return [
             'media' => [
                 [
                     'file' => 'browne-diary-1855.jpg',
+                    'o:alt_text' => 'Handwritten diary entry in English by Harriet Louisa Browne, 1855',
                     'dcterms:title' => 'Diary of Harriet Louisa Browne, 13 September 1855',
                     'dcterms:rights' => 'CC BY-SA 2.0',
                     'dcterms:contributor' => 'Archives New Zealand',
@@ -520,6 +533,7 @@ return [
             'media' => [
                 [
                     'file' => 'michinaga-diary-1010.jpg',
+                    'o:alt_text' => 'Handwritten diary entry in Japanese by Fujiwara no Michinaga, 1010',
                     'dcterms:title' => 'Midō Kanpaku-ki (御堂関白記): Diary of Fujiwara no Michinaga',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -555,6 +569,7 @@ return [
             'media' => [
                 [
                     'file' => 'zimmermann-telegram-1917.jpg',
+                    'o:alt_text' => 'Typed memorandum in English by Department of State, Office of the Secretary, 1917',
                     'dcterms:title' => 'Zimmermann Telegram as Received by the German Ambassador to Mexico',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -589,6 +604,7 @@ return [
             'media' => [
                 [
                     'file' => 'cia-nie-11-3-71.pdf',
+                    'o:alt_text' => 'Typed memorandum in English by Central Intelligence Agency, 1971',
                     'dcterms:title' => 'Memo to Holders of NIE 11-3-71, Soviet Strategic Defenses',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -623,11 +639,13 @@ return [
             'media' => [
                 [
                     'file' => 'cia-nie-11-10-63.pdf',
+                    'o:alt_text' => 'Typed memorandum in English by Central Intelligence Agency, 1963',
                     'dcterms:title' => 'NIE 11-10-63, Soviet Capabilities and Intentions with Respect to Chemical Warfare, 27 December 1963',
                     'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'cia-nie-11-10-63-memo.pdf',
+                    'o:alt_text' => 'Typed memorandum in English by Central Intelligence Agency, 1963',
                     'dcterms:title' => 'Memo to Holders of NIE 11-10-63, Soviet Capabilities and Intentions with Respect to Chemical Warfare',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -664,6 +682,7 @@ return [
             'media' => [
                 [
                     'file' => 'clinton-yeltsin-memcon-1993.pdf',
+                    'o:alt_text' => 'Typed memorandum in English by National Security Council, Clinton Administration, 1993',
                     'dcterms:title' => 'Memorandum of Conversation between President Clinton and President Yeltsin',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -698,6 +717,7 @@ return [
             'media' => [
                 [
                     'file' => 'fdr-manhattan-project-1942.jpg',
+                    'o:alt_text' => 'Handwritten and typed memorandum in English by Vannevar Bush, 1942',
                     'dcterms:title' => 'FDR Approves the Creation of the Manhattan Project, 17 June 1942',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -731,26 +751,31 @@ return [
             'media' => [
                 [
                     'file' => 'emancipation-proclamation-1862-1.jpg',
+                    'o:alt_text' => 'Handwritten and typed memorandum in English by Abraham Lincoln, 1862, page 1',
                     'dcterms:title' => 'Page 1',
                     'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'emancipation-proclamation-1862-2.jpg',
+                    'o:alt_text' => 'Handwritten and typed memorandum in English by Abraham Lincoln, 1862, page 2',
                     'dcterms:title' => 'Page 2',
                     'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'emancipation-proclamation-1862-3.jpg',
+                    'o:alt_text' => 'Handwritten and typed memorandum in English by Abraham Lincoln, 1862, page 3',
                     'dcterms:title' => 'Page 3',
                     'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'emancipation-proclamation-1862-4.jpg',
+                    'o:alt_text' => 'Handwritten and typed memorandum in English by Abraham Lincoln, 1862, page 4',
                     'dcterms:title' => 'Page 4',
                     'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'emancipation-proclamation-1862-5.jpg',
+                    'o:alt_text' => 'Handwritten and typed memorandum in English by Abraham Lincoln, 1862, page 5',
                     'dcterms:title' => 'Page 5',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -784,16 +809,19 @@ return [
             'media' => [
                 [
                     'file' => 'gettysburg-address-bliss-1864-1.jpg',
+                    'o:alt_text' => 'Handwritten memorandum in English by Abraham Lincoln, 1864, page 1',
                     'dcterms:title' => 'Page 1',
                     'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'gettysburg-address-bliss-1864-2.jpg',
+                    'o:alt_text' => 'Handwritten memorandum in English by Abraham Lincoln, 1864, page 2',
                     'dcterms:title' => 'Page 2',
                     'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'gettysburg-address-bliss-1864-3.jpg',
+                    'o:alt_text' => 'Handwritten memorandum in English by Abraham Lincoln, 1864, page 3',
                     'dcterms:title' => 'Page 3',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -828,6 +856,7 @@ return [
             'media' => [
                 [
                     'file' => 'honolulu-star-bulletin-1941.jpg',
+                    'o:alt_text' => 'Newspaper front page in English, 1941',
                     'dcterms:title' => 'Honolulu Star-Bulletin, December 7, 1941 (Extra Edition) — "WAR!"',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -861,6 +890,7 @@ return [
             'media' => [
                 [
                     'file' => 'nytimes-armistice-1918.jpg',
+                    'o:alt_text' => 'Newspaper front page in English, 1918',
                     'dcterms:title' => 'New York Times, November 11, 1918 — Armistice Day Front Page',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -895,6 +925,7 @@ return [
             'media' => [
                 [
                     'file' => 'aachener-nachrichten-1945.jpg',
+                    'o:alt_text' => 'Newspaper front page in German, 1945',
                     'dcterms:title' => 'Aachener Nachrichten, May 8, 1945 — German Surrender (VE Day)',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -927,6 +958,7 @@ return [
             'media' => [
                 [
                     'file' => 'nytimes-titanic-1912.jpg',
+                    'o:alt_text' => 'Newspaper front page in English, 1912',
                     'dcterms:title' => 'New York Times, April 16, 1912 — Titanic Sinking Front Page',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -961,6 +993,7 @@ return [
             'media' => [
                 [
                     'file' => 'berliner-borsen-zeitung-1914.png',
+                    'o:alt_text' => 'Newspaper front page in German, 1914',
                     'dcterms:title' => 'Berliner Börsen-Zeitung No. 355, August 1, 1914 — World War I Outbreak',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -995,6 +1028,7 @@ return [
             'media' => [
                 [
                     'file' => 'pentagon-papers-vi-c-1.pdf',
+                    'o:alt_text' => 'Typed report in English by U.S. Department of Defense, 1967',
                     'dcterms:title' => 'Pentagon Papers, Part VI-C-1',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1030,6 +1064,7 @@ return [
             'media' => [
                 [
                     'file' => 'project-solarium-task-force-c.jpg',
+                    'o:alt_text' => 'Typed report in English by Office of the Special Assistant for National Security Affairs, Eisenhower Administration, 1953',
                     'dcterms:title' => 'Report to the National Security Council by Project Solarium Task Force C, Part 7 of 9',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1064,6 +1099,7 @@ return [
             'media' => [
                 [
                     'file' => 'nuremberg-tribunal-ruling-1946.pdf',
+                    'o:alt_text' => 'Typed report in English by International Military Tribunal, 1946',
                     'dcterms:title' => 'International Military Tribunal, Nuremberg – Germany, Ruling of the Tribunal',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1099,11 +1135,13 @@ return [
             'media' => [
                 [
                     'file' => 'japanese-fo-doc-2748-part1.pdf',
+                    'o:alt_text' => 'Typed report in Japanese by Japanese Foreign Office; compiled by GHQ/SCAP International Prosecution Section, 1940',
                     'dcterms:title' => 'Typewritten File of Japanese Foreign Office Documents, 1940–1941 (Part 1)',
                     'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'japanese-fo-doc-2748-part2.pdf',
+                    'o:alt_text' => 'Typed report in Japanese by Japanese Foreign Office; compiled by GHQ/SCAP International Prosecution Section, 1940',
                     'dcterms:title' => 'Typewritten File of Japanese Foreign Office Documents, 1940–1941 (Part 2)',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1137,6 +1175,7 @@ return [
             'media' => [
                 [
                     'file' => 'dalembert-frederick-letters.tif',
+                    'o:alt_text' => 'Handwritten letter in French by Jean le Rond d\'Alembert, 1763',
                     'dcterms:title' => 'Three Months at the Court of Frederick the Great: Unpublished Letters',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1171,6 +1210,7 @@ return [
             'media' => [
                 [
                     'file' => 'boufflers-senegal-diary.tif',
+                    'o:alt_text' => 'Handwritten diary entry in French by Stanislas de Boufflers, 1786',
                     'dcterms:title' => 'Unpublished Journal of the Second Stay in Senegal, 1786–1787',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1204,6 +1244,7 @@ return [
             'media' => [
                 [
                     'file' => 'stendhal-journal-1810.tif',
+                    'o:alt_text' => 'Handwritten diary entry in French by Stendhal (Marie-Henri Beyle), 1810',
                     'dcterms:title' => 'Journal, 1810–1811',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1237,6 +1278,7 @@ return [
             'media' => [
                 [
                     'file' => 'renan-seminary-letters.tif',
+                    'o:alt_text' => 'Handwritten letter in French by Ernest Renan, 1838',
                     'dcterms:title' => 'Seminary Letters, 1838–1846',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1271,6 +1313,7 @@ return [
             'media' => [
                 [
                     'file' => 'napoleon-josephine-1796.jpg',
+                    'o:alt_text' => 'Handwritten letter in French by Napoleon Bonaparte, 1796',
                     'dcterms:title' => 'Napoleon Bonaparte Letter to Joséphine, November 24, 1796',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1304,11 +1347,13 @@ return [
             'media' => [
                 [
                     'file' => 'anthony-stanton-suffrage-1871-1.jpg',
+                    'o:alt_text' => 'Handwritten letter in English by Susan B. Anthony and Elizabeth Cady Stanton, 1871',
                     'dcterms:title' => 'Letter by Susan B. Anthony, Elizabeth Cady Stanton, and Others to Congress in Support of Women\'s Suffrage, December 1871, Page 1',
                     'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'anthony-stanton-suffrage-1871-2.jpg',
+                    'o:alt_text' => 'Handwritten letter in English by Susan B. Anthony and Elizabeth Cady Stanton, 1871',
                     'dcterms:title' => 'Letter by Susan B. Anthony, Elizabeth Cady Stanton, and Others to Congress in Support of Women\'s Suffrage, December 1871, Page 2',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1343,6 +1388,7 @@ return [
             'media' => [
                 [
                     'file' => 'galileo-jupiter-1610.jpg',
+                    'o:alt_text' => 'Handwritten diary entry in Italian by Galileo Galilei, 1610',
                     'dcterms:title' => 'Galileo Galilei, Manuscript Observations of Jupiter and its Satellites, January 7, 1610',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1376,21 +1422,25 @@ return [
             'media' => [
                 [
                     'file' => 'mary-queen-scots-1587-1.jpg',
+                    'o:alt_text' => 'Handwritten letter in French by Mary, Queen of Scots, 1587, page 1',
                     'dcterms:title' => 'Page 1',
                     'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'mary-queen-scots-1587-2.jpg',
+                    'o:alt_text' => 'Handwritten letter in French by Mary, Queen of Scots, 1587, page 2',
                     'dcterms:title' => 'Page 2',
                     'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'mary-queen-scots-1587-3.jpg',
+                    'o:alt_text' => 'Handwritten letter in French by Mary, Queen of Scots, 1587, page 3',
                     'dcterms:title' => 'Page 3',
                     'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'mary-queen-scots-1587-4.jpg',
+                    'o:alt_text' => 'Handwritten letter in French by Mary, Queen of Scots, 1587, page 4',
                     'dcterms:title' => 'Page 4',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1425,11 +1475,13 @@ return [
             'media' => [
                 [
                     'file' => 'pasteur-napoleon-1867-1.jpg',
+                    'o:alt_text' => 'Handwritten letter in French by Louis Pasteur, 1867, page 1',
                     'dcterms:title' => 'Page 1',
                     'dcterms:rights' => 'CC0',
                 ],
                 [
                     'file' => 'pasteur-napoleon-1867-2.jpg',
+                    'o:alt_text' => 'Handwritten letter in French by Louis Pasteur, 1867, page 2',
                     'dcterms:title' => 'Page 2',
                     'dcterms:rights' => 'CC0',
                 ],
@@ -1462,6 +1514,7 @@ return [
             'media' => [
                 [
                     'file' => 'mozart-leopold-1777.jpg',
+                    'o:alt_text' => 'Handwritten letter in German by Wolfgang Amadeus Mozart, 1777',
                     'dcterms:title' => 'Wolfgang Amadeus Mozart Birthday Letter to Leopold Mozart, November 8, 1777',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1496,12 +1549,14 @@ return [
             'media' => [
                 [
                     'file' => 'nightingale-herbert-1855-1.jpg',
+                    'o:alt_text' => 'Handwritten letter in English by Florence Nightingale, 1856, page 1',
                     'dcterms:title' => 'Page 1',
                     'dcterms:rights' => 'CC BY 4.0',
                     'dcterms:contributor' => 'Wellcome Collection',
                 ],
                 [
                     'file' => 'nightingale-herbert-1855-2.jpg',
+                    'o:alt_text' => 'Handwritten letter in English by Florence Nightingale, 1856, page 2 — with signature',
                     'dcterms:title' => 'Page 2 — with signature',
                     'dcterms:rights' => 'CC BY 4.0',
                     'dcterms:contributor' => 'Wellcome Collection',
@@ -1536,6 +1591,7 @@ return [
             'media' => [
                 [
                     'file' => 'chopin-kumelski-1831.jpg',
+                    'o:alt_text' => 'Handwritten letter in French by Frédéric Chopin, 1831',
                     'dcterms:title' => 'Frédéric Chopin Letter to Norbert Alfonse Kumelski, November 18, 1831',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1568,6 +1624,7 @@ return [
             'media' => [
                 [
                     'file' => 'bolivar-santander-1826.jpg',
+                    'o:alt_text' => 'Handwritten letter in Spanish by Simón Bolívar, 1826',
                     'dcterms:title' => 'Simón Bolívar Letter to Francisco de Paula Santander, 1826',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1601,6 +1658,7 @@ return [
             'media' => [
                 [
                     'file' => 'austen-cassandra-1799-1.jpg',
+                    'o:alt_text' => 'Handwritten letter in English by Jane Austen, 1799',
                     'dcterms:title' => 'Jane Austen Letter to Cassandra Austen, June 11, 1799',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1634,6 +1692,7 @@ return [
             'media' => [
                 [
                     'file' => 'clark-journal-1805.jpg',
+                    'o:alt_text' => 'Handwritten diary entry in English by William Clark, 1805',
                     'dcterms:title' => 'William Clark Voorhis Journal No. 1, Page 1, April 1805',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1668,6 +1727,7 @@ return [
             'media' => [
                 [
                     'file' => 'lovelace-emerson-1848.jpg',
+                    'o:alt_text' => 'Handwritten letter in English by Ada Lovelace, 1848',
                     'dcterms:title' => 'Ada Lovelace Letter to Ralph Waldo Emerson, July 7, 1848',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1702,6 +1762,7 @@ return [
             'media' => [
                 [
                     'file' => 'dickinson-alabaster-1862.jpg',
+                    'o:alt_text' => 'Handwritten diary entry in English by Emily Dickinson, 1862',
                     'dcterms:title' => 'Emily Dickinson, Autograph Manuscript Poem "Safe in their Alabaster Chambers," 1862',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1735,6 +1796,7 @@ return [
             'media' => [
                 [
                     'file' => 'darwin-notebook-b-1837.png',
+                    'o:alt_text' => 'Handwritten diary entry in English by Charles Darwin, 1837',
                     'dcterms:title' => 'Charles Darwin Notebook B: Transmutation of Species, 1837–1838',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1768,6 +1830,7 @@ return [
             'media' => [
                 [
                     'file' => 'bronte-letter-1847.jpg',
+                    'o:alt_text' => 'Handwritten letter in English by Charlotte Brontë, 1847',
                     'dcterms:title' => 'Charlotte Brontë Letter to Ellen Nussey, c. April 1847',
                     'dcterms:rights' => 'Public domain',
                 ],
@@ -1801,21 +1864,25 @@ return [
             'media' => [
                 [
                     'file' => 'leonardo-notebook-1490s-1.jpg',
+                    'o:alt_text' => 'Handwritten diary entry in Italian by Leonardo da Vinci, 1490',
                     'dcterms:title' => 'The anatomy of the leg, and other studies, RCIN 912617 (c. 1485–8)',
                     'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'leonardo-notebook-1490s-2.jpg',
+                    'o:alt_text' => 'Handwritten diary entry in Italian by Leonardo da Vinci, 1490',
                     'dcterms:title' => 'The anatomy of the thigh, RCIN 912618 (c. 1485–8)',
                     'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'leonardo-notebook-1490s-3.jpg',
+                    'o:alt_text' => 'Handwritten diary entry in Italian by Leonardo da Vinci, 1490',
                     'dcterms:title' => 'Notes on the treatise on anatomy, and the teeth, RCIN 919041 (c. 1508)',
                     'dcterms:rights' => 'Public domain',
                 ],
                 [
                     'file' => 'leonardo-notebook-1490s-4.jpg',
+                    'o:alt_text' => 'Handwritten diary entry in Italian by Leonardo da Vinci, 1490',
                     'dcterms:title' => 'Notes on anatomy and optics, RCIN 919141',
                     'dcterms:rights' => 'Public domain',
                 ],

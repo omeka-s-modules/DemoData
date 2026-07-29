@@ -5504,10 +5504,6 @@ return [
                 'composition-vii',
                 'the-scream',
             ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q64576581',
-                '@type' => 'uri',
-            ],
             'dcterms:title' => 'Self-Portrait as Soldier',
             'dcterms:creator' => 'Otto Dix',
             'dcterms:created' => [

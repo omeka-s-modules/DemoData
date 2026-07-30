@@ -135,7 +135,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'hatshepsut.png',
+                    'file' => 'hatshepsut.jpg',
                     'o:alt_text' => 'Stone bust of Hatshepsut wearing traditional Egyptian headdress and uraeus, photographed against light background.',
                     'dcterms:title' => 'Hatshepsut',
                     'dcterms:rights' => 'CC BY-SA 2.5',
@@ -321,7 +321,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'wu-zetian.png',
+                    'file' => 'wu-zetian.jpg',
                     'o:alt_text' => 'Manuscript illustration of Wu Zetian attributed to Zhang Xuan, depicting the empress in elaborate robes surrounded by attendants.',
                     'dcterms:title' => 'Wu Zetian',
                     'dcterms:rights' => 'Public domain',
@@ -383,7 +383,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'murasaki-shikibu.png',
+                    'file' => 'murasaki-shikibu.jpg',
                     'o:alt_text' => 'Japanese painting of Murasaki Shikibu reclining among open books and manuscripts, wearing elaborate robes with long black hair.',
                     'dcterms:title' => 'Murasaki Shikibu',
                     'dcterms:rights' => 'Public domain',
@@ -1498,7 +1498,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'ada-lovelace.png',
+                    'file' => 'ada-lovelace.jpg',
                     'o:alt_text' => 'Daguerreotype of Ada Lovelace wearing ornate dress with lace collar and decorative earrings, attributed to Antoine Claudet.',
                     'dcterms:title' => 'Ada Lovelace',
                     'dcterms:rights' => 'Public domain',
@@ -2802,7 +2802,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'nikola-tesla.jpeg',
+                    'file' => 'nikola-tesla.jpg',
                     'o:alt_text' => 'Photograph of Nikola Tesla, a man with dark hair and mustache wearing a dark suit jacket with white collar.',
                     'dcterms:title' => 'Nikola Tesla',
                     'dcterms:rights' => 'Public domain',
@@ -3535,7 +3535,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'afonso-i-kongo.png',
+                    'file' => 'afonso-i-kongo.jpg',
                     'o:alt_text' => 'Heraldic coat of arms of Afonso I of Kongo featuring a crowned lion head and ornate red and blue shield with decorative flourishes.',
                     'dcterms:title' => 'Afonso I of Kongo',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -3809,7 +3809,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'olaudah-equiano.png',
+                    'file' => 'olaudah-equiano.jpg',
                     'o:alt_text' => 'Engraving of Olaudah Equiano, an African man in eighteenth-century formal attire with white cravat and double-breasted coat.',
                     'dcterms:title' => 'Olaudah Equiano',
                     'dcterms:rights' => 'Public domain',
@@ -3987,7 +3987,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'cixi.png',
+                    'file' => 'cixi.jpg',
                     'o:alt_text' => 'Photograph of Empress Dowager Cixi seated in formal Chinese imperial regalia with ornate embroidered robes and jewelry.',
                     'dcterms:title' => 'Empress Dowager Cixi',
                     'dcterms:rights' => 'Public domain',
@@ -4635,7 +4635,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'li-bai.png',
+                    'file' => 'li-bai.jpg',
                     'o:alt_text' => 'Chinese ink portrait of Li Bai wearing white robes and black scholar\'s cap, depicting the Tang dynasty poet.',
                     'dcterms:title' => 'Li Bai',
                     'dcterms:rights' => 'Public domain',
@@ -4871,7 +4871,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'khutulun.jpeg',
+                    'file' => 'khutulun.jpg',
                     'o:alt_text' => 'Manuscript illustration of Khutulun wrestling a suitor while observers watch from a columned palace interior.',
                     'dcterms:title' => 'Khutulun',
                     'dcterms:rights' => 'Public domain',
@@ -5050,7 +5050,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'john-locke.png',
+                    'file' => 'john-locke.jpg',
                     'o:alt_text' => 'Oil portrait of John Locke, seventeenth-century philosopher, wearing dark robes against a brown background.',
                     'dcterms:title' => 'John Locke',
                     'dcterms:rights' => 'Public domain',

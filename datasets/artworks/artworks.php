@@ -390,41 +390,6 @@ return [
             ],
         ],
         [
-            'id' => 'the-persistence-of-memory',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'guernica',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q25729',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'The Persistence of Memory',
-            'dcterms:creator' => 'Salvador Dalí',
-            'dcterms:created' => [
-                '@value' => '1931',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Surrealist dreamscape featuring melting pocket watches draped over a barren landscape, exploring the fluidity of time.',
-            'dcterms:subject' => [
-                'Painting',
-                'Surrealism',
-                'Spanish',
-                'Dreamscape',
-            ],
-            'dcterms:medium' => 'Oil on canvas',
-            'dcterms:publisher' => 'MoMA, New York',
-            'demo-data:movement' => 'Surrealism',
-            'map_coordinates' => [
-                -73.9776,
-                40.7614,
-            ],
-        ],
-        [
             'id' => 'a-sunday-on-la-grande-jatte',
             'class' => 'demo-data:Painting',
             'sets' => [
@@ -755,7 +720,7 @@ return [
                 'paintings',
             ],
             'relations' => [
-                'the-persistence-of-memory',
+                'rousseau-the-dream',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q175036',
@@ -839,77 +804,6 @@ return [
             ],
         ],
         [
-            'id' => 'self-portrait-thorn-necklace',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'the-two-fridas',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q5880026',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Self-Portrait with Thorn Necklace and Hummingbird',
-            'dcterms:creator' => 'Frida Kahlo',
-            'dcterms:created' => [
-                '@value' => '1940',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Self-portrait in which Kahlo wears a thorn necklace, a black cat, a monkey, and a hummingbird, laden with personal and symbolic meaning.',
-            'dcterms:subject' => [
-                'Painting',
-                'Surrealism',
-                'Mexican',
-                'Self-portrait',
-            ],
-            'dcterms:medium' => 'Oil on canvas',
-            'dcterms:publisher' => 'Harry Ransom Center, Austin',
-            'demo-data:movement' => 'Surrealism',
-            'map_coordinates' => [
-                -97.7393,
-                30.2849,
-            ],
-        ],
-        [
-            'id' => 'american-gothic',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'stone-city-iowa',
-                'cradling-wheat',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q205886',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'American Gothic',
-            'dcterms:creator' => 'Grant Wood',
-            'dcterms:created' => [
-                '@value' => '1930',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Depicts a farmer and his daughter posed before a Carpenter Gothic house, now an iconic symbol of rural American identity.',
-            'dcterms:subject' => [
-                'Painting',
-                'American Regionalism',
-                'American',
-                'Portrait',
-            ],
-            'dcterms:medium' => 'Oil on beaver board',
-            'dcterms:publisher' => 'Art Institute of Chicago',
-            'demo-data:movement' => 'American Regionalism',
-            'map_coordinates' => [
-                -87.6237,
-                41.8796,
-            ],
-        ],
-        [
             'id' => 'the-swing',
             'class' => 'demo-data:Painting',
             'sets' => [
@@ -942,6 +836,16 @@ return [
             'map_coordinates' => [
                 -0.1531,
                 51.5156,
+            ],
+            'media' => [
+                [
+                    'file' => 'the-swing.jpg',
+                    'o:alt_text' => 'Oil painting depicting a woman in pink silk on a swing suspended by cherubs in a lush, flowering garden surrounded by attendants.',
+                    'dcterms:title' => 'The Swing',
+                    'dcterms:creator' => 'Jean-Honoré Fragonard',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Wallace Collection, London',
+                ],
             ],
         ],
         [
@@ -1853,6 +1757,16 @@ return [
                 -0.1269,
                 51.5194,
             ],
+            'media' => [
+                [
+                    'file' => 'frontispiece-to-jerusalem.jpg',
+                    'o:alt_text' => 'Relief etching with watercolor depicting ethereal figures and winged beings surrounding ornate calligraphic text on a cream-colored page.',
+                    'dcterms:title' => 'Frontispiece to Jerusalem',
+                    'dcterms:creator' => 'William Blake',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'British Museum, London',
+                ],
+            ],
         ],
         [
             'id' => 'book-of-kells',
@@ -2024,6 +1938,16 @@ return [
             'map_coordinates' => [
                 -0.1232,
                 51.5298,
+            ],
+            'media' => [
+                [
+                    'file' => 'divine-comedy-manuscript.jpg',
+                    'o:alt_text' => 'Illuminated manuscript page depicting a winged eagle-like creature facing a robed figure against a deep blue background.',
+                    'dcterms:title' => 'Divine Comedy (Yates Thompson Manuscript)',
+                    'dcterms:creator' => 'Giovanni di Paolo',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'British Library, London',
+                ],
             ],
         ],
         [
@@ -2295,6 +2219,16 @@ return [
                 11.256,
                 43.7776,
             ],
+            'media' => [
+                [
+                    'file' => 'the-annunciation-fra-angelico.jpg',
+                    'o:alt_text' => 'Fresco depicting the Angel Gabriel announcing to the Virgin Mary in a Renaissance arched colonnade setting.',
+                    'dcterms:title' => 'The Annunciation',
+                    'dcterms:creator' => 'Fra Angelico',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Museo di San Marco, Florence',
+                ],
+            ],
         ],
         [
             'id' => 'adoration-of-the-magi-botticelli',
@@ -2423,6 +2357,16 @@ return [
             'map_coordinates' => [
                 12.4534,
                 41.9065,
+            ],
+            'media' => [
+                [
+                    'file' => 'transfiguration-raphael.jpg',
+                    'o:alt_text' => 'Tempera and oil painting depicting Christ\'s transfiguration, with Jesus floating above apostles in heavenly light while disciples gather below in awe.',
+                    'dcterms:title' => 'The Transfiguration',
+                    'dcterms:creator' => 'Raphael',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Vatican Museums, Vatican City',
+                ],
             ],
         ],
         [
@@ -3809,6 +3753,16 @@ return [
                 2.3266,
                 48.86,
             ],
+            'media' => [
+                [
+                    'file' => 'the-angelus.jpg',
+                    'o:alt_text' => 'Oil painting depicting two peasants standing in a field at dusk, pausing to pray during the Angelus bell.',
+                    'dcterms:title' => 'The Angelus',
+                    'dcterms:creator' => 'Jean-François Millet',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Musée d\'Orsay, Paris',
+                ],
+            ],
         ],
         [
             'id' => 'olympia',
@@ -3953,43 +3907,6 @@ return [
             ],
         ],
         [
-            'id' => 'christinas-world',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'nighthawks',
-                'snap-the-whip',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q2465911',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Christina\'s World',
-            'dcterms:creator' => 'Andrew Wyeth',
-            'dcterms:created' => [
-                '@value' => '1948',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'A woman crawls through a dry grass field toward a distant farmhouse on the Maine coast; the model was a neighbor with a degenerative muscle condition, lending the image its poignant urgency.',
-            'dcterms:subject' => [
-                'Painting',
-                'Realism',
-                'American',
-                'Landscape',
-                'Figure',
-            ],
-            'dcterms:medium' => 'Tempera on panel',
-            'dcterms:publisher' => 'MoMA, New York',
-            'demo-data:movement' => 'Realism',
-            'map_coordinates' => [
-                -73.9776,
-                40.7614,
-            ],
-        ],
-        [
             'id' => 'nighthawks',
             'class' => 'demo-data:Painting',
             'sets' => [
@@ -3997,7 +3914,7 @@ return [
                 'paintings',
             ],
             'relations' => [
-                'christinas-world',
+                'eakins-gross-clinic',
                 'snap-the-whip',
             ],
             'dcterms:identifier' => [
@@ -5153,7 +5070,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'la-nature-mucha.png',
+                    'file' => 'la-nature-mucha.jpg',
                     'o:alt_text' => 'Gilt bronze and marble sculpture depicting a woman\'s bust with flowing hair, crowned headdress, and turquoise earrings, titled "La Nature" by Alphonse Mucha.',
                     'dcterms:title' => 'La Nature',
                     'dcterms:creator' => 'Alphonse Mucha',
@@ -5493,39 +5410,6 @@ return [
             ],
         ],
         [
-            'id' => 'self-portrait-dix',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'street-berlin',
-                'composition-vii',
-                'the-scream',
-            ],
-            'dcterms:title' => 'Self-Portrait as Soldier',
-            'dcterms:creator' => 'Otto Dix',
-            'dcterms:created' => [
-                '@value' => '1914',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Early self-portrait in which the young Dix depicts himself as a steely-gazed combatant on the eve of the First World War, anticipating the brutal realism of his later war paintings.',
-            'dcterms:subject' => [
-                'Painting',
-                'Expressionism',
-                'German',
-                'Self-portrait',
-            ],
-            'dcterms:medium' => 'Oil on paper on panel',
-            'dcterms:publisher' => 'Museum Kunstpalast, Düsseldorf',
-            'demo-data:movement' => 'Expressionism',
-            'map_coordinates' => [
-                6.7802,
-                51.2238,
-            ],
-        ],
-        [
             'id' => 'woman-with-the-hat',
             'class' => 'demo-data:Painting',
             'sets' => [
@@ -5606,6 +5490,16 @@ return [
             'map_coordinates' => [
                 30.3141,
                 59.9398,
+            ],
+            'media' => [
+                [
+                    'file' => 'the-dance-matisse.jpg',
+                    'o:alt_text' => 'Oil painting depicting five red nude figures dancing in a circle against a dark blue sky and green ground.',
+                    'dcterms:title' => 'The Dance',
+                    'dcterms:creator' => 'Henri Matisse',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Hermitage Museum, Saint Petersburg',
+                ],
             ],
         ],
         [
@@ -5753,79 +5647,6 @@ return [
             ],
         ],
         [
-            'id' => 'les-demoiselles-davignon',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'guernica',
-                'three-musicians',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q910199',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Les Demoiselles d\'Avignon',
-            'dcterms:creator' => 'Pablo Picasso',
-            'dcterms:created' => [
-                '@value' => '1907',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Five nude women in a brothel depicted in a shattered multi-perspectival space, incorporating the influences of Iberian sculpture and African masks; the founding work of Cubism.',
-            'dcterms:subject' => [
-                'Painting',
-                'Cubism',
-                'Spanish',
-                'Nude',
-                'Figure',
-            ],
-            'dcterms:medium' => 'Oil on canvas',
-            'dcterms:publisher' => 'MoMA, New York',
-            'demo-data:movement' => 'Cubism',
-            'map_coordinates' => [
-                -73.9776,
-                40.7614,
-            ],
-        ],
-        [
-            'id' => 'three-musicians',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'les-demoiselles-davignon',
-                'guernica',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q30332241',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Three Musicians',
-            'dcterms:creator' => 'Pablo Picasso',
-            'dcterms:created' => [
-                '@value' => '1921',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Three masked figures representing Pierrot, Harlequin, and a monk assembled from flat planes of colour in Picasso\'s Synthetic Cubist style; a synthesis of the commedia dell\'arte tradition.',
-            'dcterms:subject' => [
-                'Painting',
-                'Cubism',
-                'Spanish',
-                'Figurative',
-            ],
-            'dcterms:medium' => 'Oil on canvas',
-            'dcterms:publisher' => 'MoMA, New York',
-            'demo-data:movement' => 'Cubism',
-            'map_coordinates' => [
-                -73.9776,
-                40.7614,
-            ],
-        ],
-        [
             'id' => 'portrait-vollard',
             'class' => 'demo-data:Painting',
             'sets' => [
@@ -5833,11 +5654,11 @@ return [
                 'paintings',
             ],
             'relations' => [
-                'les-demoiselles-davignon',
-                'three-musicians',
+                'gris-portrait-picasso',
+                'gris-portrait-picasso',
                 'guernica',
-                'the-portuguese',
-                'fruit-dish-and-glass',
+                'delaunay-simultaneous-windows',
+                'leger-the-city',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q2842415',
@@ -5875,81 +5696,6 @@ return [
             ],
         ],
         [
-            'id' => 'the-portuguese',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'portrait-vollard',
-                'fruit-dish-and-glass',
-                'les-demoiselles-davignon',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q60313515',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'The Portuguese',
-            'dcterms:creator' => 'Georges Braque',
-            'dcterms:created' => [
-                '@value' => '1911',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Analytical Cubist study of a musician in a café, the figure fractured into facets of grey and ochre with stencilled letters and numbers integrated as texture, one of Braque\'s most radical works.',
-            'dcterms:subject' => [
-                'Painting',
-                'Cubism',
-                'French',
-                'Figurative',
-            ],
-            'dcterms:medium' => 'Oil on canvas',
-            'dcterms:publisher' => 'Kunstmuseum Basel',
-            'demo-data:movement' => 'Cubism',
-            'map_coordinates' => [
-                7.5969,
-                47.557,
-            ],
-        ],
-        [
-            'id' => 'fruit-dish-and-glass',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'the-portuguese',
-                'portrait-vollard',
-                'les-demoiselles-davignon',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q5506360',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Fruit Dish and Glass',
-            'dcterms:creator' => 'Georges Braque',
-            'dcterms:created' => [
-                '@value' => '1912',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Papier collé using wallpaper and newspaper fragments alongside drawn marks to represent a tabletop still life; among the first works to introduce non-art materials into fine art.',
-            'dcterms:subject' => [
-                'Works on Paper',
-                'Cubism',
-                'French',
-                'Still life',
-                'Collage',
-            ],
-            'dcterms:medium' => 'Charcoal, gouache, and papier collé on paper',
-            'dcterms:publisher' => 'Yale University Art Gallery',
-            'demo-data:movement' => 'Cubism',
-            'map_coordinates' => [
-                -72.9296,
-                41.3082,
-            ],
-        ],
-        [
             'id' => 'treachery-of-images',
             'class' => 'demo-data:Painting',
             'sets' => [
@@ -5958,8 +5704,8 @@ return [
             ],
             'relations' => [
                 'the-lovers-magritte',
-                'the-persistence-of-memory',
-                'harlekins-carnival',
+                'rousseau-the-dream',
+                'rousseau-sleeping-gypsy',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q1061035',
@@ -6042,341 +5788,6 @@ return [
             ],
         ],
         [
-            'id' => 'harlekins-carnival',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'treachery-of-images',
-                'the-persistence-of-memory',
-                'elephant-celebes',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q782079',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Harlequin\'s Carnival',
-            'dcterms:creator' => 'Joan Miró',
-            'dcterms:created' => [
-                '@value' => '1924',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'A riotous interior inhabited by biomorphic forms — fish, cats, insects, musical notes — the first fully achieved expression of Miró\'s poetic Surrealist vocabulary.',
-            'dcterms:subject' => [
-                'Painting',
-                'Surrealism',
-                'Spanish',
-                'Fantastical',
-                'Biomorphic',
-            ],
-            'dcterms:medium' => 'Oil on canvas',
-            'dcterms:publisher' => 'Albright-Knox Art Gallery, Buffalo',
-            'demo-data:movement' => 'Surrealism',
-            'map_coordinates' => [
-                -78.8818,
-                42.9305,
-            ],
-        ],
-        [
-            'id' => 'elephant-celebes',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'treachery-of-images',
-                'harlekins-carnival',
-                'the-persistence-of-memory',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q1052784',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'The Elephant Celebes',
-            'dcterms:creator' => 'Max Ernst',
-            'dcterms:created' => [
-                '@value' => '1921',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'A mechanical elephant-like form with a metal tube for a head dominates a surreal landscape; constructed from collage-derived imagery, it inaugurated Ernst\'s metamorphic machine aesthetic.',
-            'dcterms:subject' => [
-                'Painting',
-                'Surrealism',
-                'German',
-                'Fantastical',
-                'Machine',
-            ],
-            'dcterms:medium' => 'Oil on canvas',
-            'dcterms:publisher' => 'Tate Modern, London',
-            'demo-data:movement' => 'Surrealism',
-            'map_coordinates' => [
-                -0.0994,
-                51.5076,
-            ],
-        ],
-        [
-            'id' => 'no-31-pollock',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'autumn-rhythm',
-                'full-fathom-five',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q112675413',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'No. 31',
-            'dcterms:creator' => 'Jackson Pollock',
-            'dcterms:created' => [
-                '@value' => '1950',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Monumental drip painting produced by pouring and flicking industrial enamel paint from above onto a canvas laid on the floor, the allover composition recording the physical act of creation.',
-            'dcterms:subject' => [
-                'Painting',
-                'Abstract Expressionism',
-                'American',
-                'Abstract',
-                'Drip painting',
-            ],
-            'dcterms:medium' => 'Oil and enamel on canvas',
-            'dcterms:publisher' => 'MoMA, New York',
-            'demo-data:movement' => 'Abstract Expressionism',
-            'map_coordinates' => [
-                -73.9776,
-                40.7614,
-            ],
-        ],
-        [
-            'id' => 'autumn-rhythm',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'no-31-pollock',
-                'full-fathom-five',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q2873092',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Autumn Rhythm (Number 30)',
-            'dcterms:creator' => 'Jackson Pollock',
-            'dcterms:created' => [
-                '@value' => '1950',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Expansive field of black, white, brown, and grey skeins of paint, one of Pollock\'s largest drip works, conveying the season\'s energy through gestural density and improvised flow.',
-            'dcterms:subject' => [
-                'Painting',
-                'Abstract Expressionism',
-                'American',
-                'Abstract',
-                'Drip painting',
-            ],
-            'dcterms:medium' => 'Enamel on canvas',
-            'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
-            'demo-data:movement' => 'Abstract Expressionism',
-            'map_coordinates' => [
-                -73.9632,
-                40.7794,
-            ],
-        ],
-        [
-            'id' => 'full-fathom-five',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'no-31-pollock',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q5508036',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Full Fathom Five',
-            'dcterms:creator' => 'Jackson Pollock',
-            'dcterms:created' => [
-                '@value' => '1947',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Early drip painting incorporating nails, buttons, tacks, and cigarettes into the painted surface, its title from Shakespeare\'s Tempest and its texture evoking the ocean floor.',
-            'dcterms:subject' => [
-                'Painting',
-                'Abstract Expressionism',
-                'American',
-                'Abstract',
-            ],
-            'dcterms:medium' => 'Oil on canvas with nails, tacks, and other materials',
-            'dcterms:publisher' => 'MoMA, New York',
-            'demo-data:movement' => 'Abstract Expressionism',
-            'map_coordinates' => [
-                -73.9776,
-                40.7614,
-            ],
-        ],
-        [
-            'id' => 'woman-i',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'no-31-pollock',
-                'autumn-rhythm',
-                'orange-and-yellow',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q3569753',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Woman I',
-            'dcterms:creator' => 'Willem de Kooning',
-            'dcterms:created' => [
-                '@value' => '1952',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Monumental female figure assembled from slashing brushstrokes in a process of continual revision over two years; the ambivalent image of a goddess and a devouring predator shocked the art world.',
-            'dcterms:subject' => [
-                'Painting',
-                'Abstract Expressionism',
-                'American',
-                'Abstract',
-                'Figurative',
-            ],
-            'dcterms:medium' => 'Oil on canvas',
-            'dcterms:publisher' => 'MoMA, New York',
-            'demo-data:movement' => 'Abstract Expressionism',
-            'map_coordinates' => [
-                -73.9776,
-                40.7614,
-            ],
-        ],
-        [
-            'id' => 'orange-and-yellow',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'no-61-rust-and-blue',
-                'no-31-pollock',
-                'woman-i',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q3355073',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Orange and Yellow',
-            'dcterms:creator' => 'Mark Rothko',
-            'dcterms:created' => [
-                '@value' => '1956',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Two hovering rectangles of orange and yellow create an immersive, contemplative field; Rothko insisted his colour field paintings were not abstract but deeply humanistic in content.',
-            'dcterms:subject' => [
-                'Painting',
-                'Abstract Expressionism',
-                'American',
-                'Colour field',
-                'Abstract',
-            ],
-            'dcterms:medium' => 'Oil on canvas',
-            'dcterms:publisher' => 'Albright-Knox Art Gallery, Buffalo',
-            'demo-data:movement' => 'Abstract Expressionism',
-            'map_coordinates' => [
-                -78.8818,
-                42.9305,
-            ],
-        ],
-        [
-            'id' => 'no-61-rust-and-blue',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'orange-and-yellow',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q4540018',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'No. 61 (Rust and Blue)',
-            'dcterms:creator' => 'Mark Rothko',
-            'dcterms:created' => [
-                '@value' => '1953',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Characteristic stacked rectangles of rust and blue floating on a dark ground; the tremulous edges and colour temperature fluctuations create an experience of concentrated inwardness.',
-            'dcterms:subject' => [
-                'Painting',
-                'Abstract Expressionism',
-                'American',
-                'Colour field',
-                'Abstract',
-            ],
-            'dcterms:medium' => 'Oil on canvas',
-            'dcterms:publisher' => 'MOCA Los Angeles',
-            'demo-data:movement' => 'Abstract Expressionism',
-            'map_coordinates' => [
-                -118.2501,
-                34.0535,
-            ],
-        ],
-        [
-            'id' => 'mountains-and-sea',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'no-31-pollock',
-                'woman-i',
-                'orange-and-yellow',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q65048093',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Mountains and Sea',
-            'dcterms:creator' => 'Helen Frankenthaler',
-            'dcterms:created' => [
-                '@value' => '1952',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Stained directly into unprimed canvas with thinned paint, producing translucent washes of pink, blue, and green; the soak-stain technique Frankenthaler pioneered here influenced Color Field painting.',
-            'dcterms:subject' => [
-                'Painting',
-                'Abstract Expressionism',
-                'American',
-                'Colour field',
-                'Abstract',
-            ],
-            'dcterms:medium' => 'Oil and charcoal on canvas',
-            'dcterms:publisher' => 'National Gallery of Art, Washington DC',
-            'demo-data:movement' => 'Abstract Expressionism',
-            'map_coordinates' => [
-                -77.0199,
-                38.8913,
-            ],
-        ],
-        [
             'id' => 'campbells-soup-cans',
             'class' => 'demo-data:Painting',
             'sets' => [
@@ -6384,7 +5795,7 @@ return [
                 'paintings',
             ],
             'relations' => [
-                'marilyn-diptych',
+                'whaam',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q2697937',
@@ -6422,42 +5833,6 @@ return [
             ],
         ],
         [
-            'id' => 'marilyn-diptych',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'campbells-soup-cans',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q573949',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Marilyn Diptych',
-            'dcterms:creator' => 'Andy Warhol',
-            'dcterms:created' => [
-                '@value' => '1962',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Fifty silkscreened images of Marilyn Monroe, vivid and black-and-white, made weeks after her death; the repetition and fading explore fame, reproducibility, and mortality.',
-            'dcterms:subject' => [
-                'Painting',
-                'Pop Art',
-                'American',
-                'Portrait',
-                'Consumer culture',
-            ],
-            'dcterms:medium' => 'Silkscreen ink on synthetic polymer paint on canvas',
-            'dcterms:publisher' => 'Tate Modern, London',
-            'demo-data:movement' => 'Pop Art',
-            'map_coordinates' => [
-                -0.0994,
-                51.5076,
-            ],
-        ],
-        [
             'id' => 'whaam',
             'class' => 'demo-data:Painting',
             'sets' => [
@@ -6465,7 +5840,7 @@ return [
                 'paintings',
             ],
             'relations' => [
-                'drowning-girl',
+                'campbells-soup-cans',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q3567592',
@@ -6497,160 +5872,10 @@ return [
                     'file' => 'whaam.jpg',
                     'o:alt_text' => 'Acrylic and oil painting depicting a comic book-style aerial dogfight scene with bold lines and vibrant colors.',
                     'dcterms:title' => 'Whaam!',
+                    'dcterms:creator' => 'Roy Lichtenstein',
                     'dcterms:rights' => 'CC0',
                     'dcterms:contributor' => 'Eric Koch for Anefo',
                 ],
-            ],
-        ],
-        [
-            'id' => 'drowning-girl',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'whaam',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q5308687',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Drowning Girl',
-            'dcterms:creator' => 'Roy Lichtenstein',
-            'dcterms:created' => [
-                '@value' => '1963',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Weeping woman in a comic-book sea resigns herself to drowning rather than call Brad; the Ben-Day dot enlargement and melodramatic caption expose the emotional codes of mass-print romance.',
-            'dcterms:subject' => [
-                'Painting',
-                'Pop Art',
-                'American',
-                'Romance',
-                'Comic book',
-            ],
-            'dcterms:medium' => 'Oil and synthetic polymer paint on canvas',
-            'dcterms:publisher' => 'MoMA, New York',
-            'demo-data:movement' => 'Pop Art',
-            'map_coordinates' => [
-                -73.9776,
-                40.7614,
-            ],
-        ],
-        [
-            'id' => 'a-bigger-splash',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'campbells-soup-cans',
-                'marilyn-diptych',
-                'whaam',
-                'drowning-girl',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q673984',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'A Bigger Splash',
-            'dcterms:creator' => 'David Hockney',
-            'dcterms:created' => [
-                '@value' => '1967',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'A plunge into a Californian swimming pool rendered with meticulous flatness; the mechanically perfect diving board and house contrast with the irrational splash, the only spontaneous gesture.',
-            'dcterms:subject' => [
-                'Painting',
-                'Pop Art',
-                'British',
-                'Leisure',
-                'Architecture',
-            ],
-            'dcterms:medium' => 'Acrylic on canvas',
-            'dcterms:publisher' => 'Tate Modern, London',
-            'demo-data:movement' => 'Pop Art',
-            'map_coordinates' => [
-                -0.0994,
-                51.5076,
-            ],
-        ],
-        [
-            'id' => 'flag-johns',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'campbells-soup-cans',
-                'marilyn-diptych',
-                'a-bigger-splash',
-                'just-what-is-it',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q5456612',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Flag',
-            'dcterms:creator' => 'Jasper Johns',
-            'dcterms:created' => [
-                '@value' => '1954',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Encaustic over newspaper collage reproducing the American flag at near life-size; by painting a pre-existing image Johns raised questions about representation, perception, and artistic intention.',
-            'dcterms:subject' => [
-                'Painting',
-                'Pop Art',
-                'American',
-                'Conceptual',
-            ],
-            'dcterms:medium' => 'Encaustic, oil, and collage on fabric',
-            'dcterms:publisher' => 'MoMA, New York',
-            'demo-data:movement' => 'Pop Art',
-            'map_coordinates' => [
-                -73.9776,
-                40.7614,
-            ],
-        ],
-        [
-            'id' => 'just-what-is-it',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'campbells-soup-cans',
-                'flag-johns',
-                'a-bigger-splash',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q3190307',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Just What Is It That Makes Today\'s Homes So Different, So Appealing?',
-            'dcterms:creator' => 'Richard Hamilton',
-            'dcterms:created' => [
-                '@value' => '1956',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Small collage assembling magazine cut-outs of a muscleman and a pin-up in a modern interior surrounded by consumer goods and pop-culture imagery; a founding text of British Pop Art.',
-            'dcterms:subject' => [
-                'Works on Paper',
-                'Pop Art',
-                'British',
-                'Consumer culture',
-                'Collage',
-            ],
-            'dcterms:medium' => 'Collage',
-            'dcterms:publisher' => 'Kunsthalle Tübingen',
-            'demo-data:movement' => 'Pop Art',
-            'map_coordinates' => [
-                9.055,
-                48.5206,
             ],
         ],
         [
@@ -6832,7 +6057,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'proserpine.jpeg',
+                    'file' => 'proserpine.jpg',
                     'o:alt_text' => 'Oil painting depicting a woman with long red hair in a green draped gown, holding a pomegranate and ivy branch.',
                     'dcterms:title' => 'Proserpine',
                     'dcterms:creator' => 'Dante Gabriel Rossetti',
@@ -7085,8 +6310,8 @@ return [
                 'paintings',
             ],
             'relations' => [
-                'american-gothic',
-                'cradling-wheat',
+                'curry-baptism-in-kansas',
+                'curry-tornado-over-kansas',
             ],
             'dcterms:identifier' => [
                 '@value' => 'https://www.wikidata.org/entity/Q30041900',
@@ -7121,43 +6346,6 @@ return [
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Grant Wood',
                 ],
-            ],
-        ],
-        [
-            'id' => 'cradling-wheat',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'american-gothic',
-                'stone-city-iowa',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q78663009',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Cradling Wheat',
-            'dcterms:creator' => 'Thomas Hart Benton',
-            'dcterms:created' => [
-                '@value' => '1938',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Rhythmic composition of farmhands harvesting wheat in a Missouri field, the muscular bodies and rolling land unified by Benton\'s sinuous, sculptural brushwork.',
-            'dcterms:subject' => [
-                'Painting',
-                'American Regionalism',
-                'American',
-                'Rural life',
-                'Labour',
-            ],
-            'dcterms:medium' => 'Tempera on panel',
-            'dcterms:publisher' => 'Saint Louis Art Museum',
-            'demo-data:movement' => 'American Regionalism',
-            'map_coordinates' => [
-                -90.2958,
-                38.6289,
             ],
         ],
         [
@@ -7670,7 +6858,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'plum-estate.jpeg',
+                    'file' => 'plum-estate.jpg',
                     'o:alt_text' => 'Woodblock print depicting a nighttime scene of plum blossoms hanging from dark branches above a moonlit pond with silhouetted figures below.',
                     'dcterms:title' => 'Plum Estate, Kameido',
                     'dcterms:creator' => 'Utagawa Hiroshige',
@@ -7884,6 +7072,7 @@ return [
                 '@type' => 'uri',
             ],
             'dcterms:title' => 'Codex Manesse',
+            'dcterms:creator' => 'Unknown',
             'dcterms:created' => [
                 '@value' => '1304',
                 '@type' => 'numeric:timestamp',
@@ -7907,7 +7096,9 @@ return [
                     'file' => 'codex-manesse.jpg',
                     'o:alt_text' => 'Illuminated manuscript page from Codex Manesse featuring two columns of Middle High German text with decorated initials and marginal illustrations on aged parchment.',
                     'dcterms:title' => 'Codex Manesse',
+                    'dcterms:creator' => 'Unknown',
                     'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Heidelberg University Library',
                 ],
             ],
         ],
@@ -8289,7 +7480,7 @@ return [
             ],
             'relations' => [
                 'portrait-vollard',
-                'les-demoiselles-davignon',
+                'gris-portrait-picasso',
                 'the-city-rises',
             ],
             'dcterms:identifier' => [
@@ -8328,43 +7519,6 @@ return [
             ],
         ],
         [
-            'id' => 'nude-descending-staircase',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'portrait-vollard',
-                'les-demoiselles-davignon',
-                'the-portuguese',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q421716',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'Nude Descending a Staircase, No. 2',
-            'dcterms:creator' => 'Marcel Duchamp',
-            'dcterms:created' => [
-                '@value' => '1912',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Sequential overlapping forms suggesting a figure in motion adapted from Cubism and chronophotography, scandalising the 1913 Armory Show with its implicit challenge to painting as a static art.',
-            'dcterms:subject' => [
-                'Painting',
-                'Cubism',
-                'French',
-                'Motion',
-            ],
-            'dcterms:medium' => 'Oil on canvas',
-            'dcterms:publisher' => 'Philadelphia Museum of Art',
-            'demo-data:movement' => 'Cubism',
-            'map_coordinates' => [
-                -75.181,
-                39.9656,
-            ],
-        ],
-        [
             'id' => 'the-city-rises',
             'class' => 'demo-data:Painting',
             'sets' => [
@@ -8373,7 +7527,7 @@ return [
             ],
             'relations' => [
                 'composition-vii',
-                'les-demoiselles-davignon',
+                'gris-portrait-picasso',
                 'composition-red-blue-yellow',
             ],
             'dcterms:identifier' => [
@@ -8412,41 +7566,6 @@ return [
             ],
         ],
         [
-            'id' => 'the-two-fridas',
-            'class' => 'demo-data:Painting',
-            'sets' => [
-                'main',
-                'paintings',
-            ],
-            'relations' => [
-                'self-portrait-thorn-necklace',
-            ],
-            'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q3232010',
-                '@type' => 'uri',
-            ],
-            'dcterms:title' => 'The Two Fridas',
-            'dcterms:creator' => 'Frida Kahlo',
-            'dcterms:created' => [
-                '@value' => '1939',
-                '@type' => 'numeric:timestamp',
-            ],
-            'dcterms:description' => 'Two self-portraits of the artist side by side — one in European dress with an exposed, severed heart and one in Tehuana dress — painted during her divorce from Diego Rivera and read as a meditation on dual cultural identity.',
-            'dcterms:subject' => [
-                'Painting',
-                'Surrealism',
-                'Mexican',
-                'Self-portrait',
-            ],
-            'dcterms:medium' => 'Oil on canvas',
-            'dcterms:publisher' => 'Museo de Arte Moderno, Mexico City',
-            'demo-data:movement' => 'Surrealism',
-            'map_coordinates' => [
-                -99.1675,
-                19.4195,
-            ],
-        ],
-        [
             'id' => 'madame-x',
             'class' => 'demo-data:Painting',
             'sets' => [
@@ -8481,6 +7600,16 @@ return [
                 -73.9632,
                 40.7794,
             ],
+            'media' => [
+                [
+                    'file' => 'madame-x.jpg',
+                    'o:alt_text' => 'Oil painting depicting a woman in an elegant black evening gown standing in profile against a muted brown background.',
+                    'dcterms:title' => 'Madame X (Madame Pierre Gautreau)',
+                    'dcterms:creator' => 'John Singer Sargent',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Metropolitan Museum of Art, New York',
+                ],
+            ],
         ],
         [
             'id' => 'snap-the-whip',
@@ -8491,7 +7620,7 @@ return [
             ],
             'relations' => [
                 'nighthawks',
-                'christinas-world',
+                'eakins-gross-clinic',
                 'whistlers-mother',
             ],
             'dcterms:identifier' => [
@@ -8611,6 +7740,16 @@ return [
             'map_coordinates' => [
                 -0.1582,
                 51.5152,
+            ],
+            'media' => [
+                [
+                    'file' => 'laughing-cavalier.jpg',
+                    'o:alt_text' => 'Oil painting depicting a smiling man in a black hat and ornate embroidered jacket with a white collar, circa 1624.',
+                    'dcterms:title' => 'The Laughing Cavalier',
+                    'dcterms:creator' => 'Frans Hals',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Wallace Collection, London',
+                ],
             ],
         ],
         [
@@ -8836,7 +7975,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'golden-haggadah.png',
+                    'file' => 'golden-haggadah.jpg',
                     'o:alt_text' => 'Illuminated manuscript page featuring ornate decorative borders in gold and blue framing Hebrew text on vellum.',
                     'dcterms:title' => 'The Golden Haggadah',
                     'dcterms:creator' => 'Unknown (Catalan)',
@@ -8898,7 +8037,7 @@ return [
                 'sculptures',
             ],
             'relations' => [
-                'walking-man',
+                'boccioni-unique-forms',
                 'the-thinker',
             ],
             'dcterms:identifier' => [
@@ -8983,7 +8122,931 @@ return [
             ],
         ],
         [
-            'id' => 'walking-man',
+            'id' => 'rousseau-sleeping-gypsy',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'rousseau-the-dream',
+                'treachery-of-images',
+                'tanguy-indefinite-divisibility',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1219263',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'The Sleeping Gypsy',
+            'dcterms:creator' => 'Henri Rousseau',
+            'dcterms:created' => [
+                '@value' => '1897',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'A sleeping woman in bright robes lies beside a mandolin on a moonlit desert while a lion sniffs her curiously. Rousseau\'s flat, dreamlike style and unnerving calm made this a touchstone for the Surrealists who rediscovered him decades after his death.',
+            'dcterms:subject' => [
+                'Painting',
+                'Post-Impressionism',
+                'French',
+                'Naïve Art',
+                'Figurative',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Museum of Modern Art, New York',
+            'demo-data:movement' => 'Post-Impressionism',
+            'map_coordinates' => [
+                -73.9776,
+                40.7614,
+            ],
+            'media' => [
+                [
+                    'file' => 'rousseau-sleeping-gypsy.jpg',
+                    'o:alt_text' => 'Oil painting depicting a sleeping figure in striped clothing with a lion standing over them under a moonlit desert landscape.',
+                    'dcterms:title' => 'The Sleeping Gypsy',
+                    'dcterms:creator' => 'Henri Rousseau',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Museum of Modern Art, New York',
+                ],
+            ],
+        ],
+        [
+            'id' => 'rousseau-the-dream',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'rousseau-sleeping-gypsy',
+                'the-lovers-magritte',
+                'nash-totes-meer',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q548141',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'The Dream',
+            'dcterms:creator' => 'Henri Rousseau',
+            'dcterms:created' => [
+                '@value' => '1910',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'A nude woman reclines on a red velvet sofa in the heart of a dense, moonlit jungle while animals peer through the foliage and a snake charmer plays. Rousseau\'s largest canvas, completed the year he died, is a summation of his exotic imaginary landscapes.',
+            'dcterms:subject' => [
+                'Painting',
+                'Post-Impressionism',
+                'French',
+                'Naïve Art',
+                'Jungle',
+                'Figurative',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Museum of Modern Art, New York',
+            'demo-data:movement' => 'Post-Impressionism',
+            'map_coordinates' => [
+                -73.9776,
+                40.7614,
+            ],
+            'media' => [
+                [
+                    'file' => 'rousseau-the-dream.jpg',
+                    'o:alt_text' => 'Oil painting depicting a reclining nude woman in a lush jungle surrounded by exotic plants, flowers, animals, and a figure playing a musical instrument.',
+                    'dcterms:title' => 'The Dream',
+                    'dcterms:creator' => 'Henri Rousseau',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Museum of Modern Art, New York',
+                ],
+            ],
+        ],
+        [
+            'id' => 'ensor-entry-of-christ',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'beckmann-self-portrait-tuxedo',
+                'treachery-of-images',
+                'the-lovers-magritte',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3203172',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Christ\'s Entry into Brussels in 1889',
+            'dcterms:creator' => 'James Ensor',
+            'dcterms:created' => [
+                '@value' => '1888',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'A turbulent crowd of masked figures fills a wide Brussels avenue as a tiny Christ rides a donkey in the distance. Ensor\'s massive and satirical canvas anticipates Expressionism and was considered scandalous by his contemporaries for its irreverence and political bite.',
+            'dcterms:subject' => [
+                'Painting',
+                'Expressionism',
+                'Belgian',
+                'Figurative',
+                'Satirical',
+                'Religious',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'J. Paul Getty Museum, Los Angeles',
+            'demo-data:movement' => 'Expressionism',
+            'map_coordinates' => [
+                -118.4741,
+                34.0775,
+            ],
+            'media' => [
+                [
+                    'file' => 'ensor-entry-of-christ.jpg',
+                    'o:alt_text' => 'Oil painting depicting a chaotic, crowded procession through Brussels with Christ surrounded by masked figures, skeletons, and grotesque characters in a carnival-like scene.',
+                    'dcterms:title' => 'Christ\'s Entry into Brussels in 1889',
+                    'dcterms:creator' => 'James Ensor',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'J. Paul Getty Museum',
+                ],
+            ],
+        ],
+        [
+            'id' => 'tanguy-indefinite-divisibility',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'treachery-of-images',
+                'the-lovers-magritte',
+                'rousseau-sleeping-gypsy',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q77477098',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Indefinite Divisibility',
+            'dcterms:creator' => 'Yves Tanguy',
+            'dcterms:created' => [
+                '@value' => '1942',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'Strange biomorphic forms cast long shadows across an infinite flat plain under a grey sky. Tanguy\'s meticulously rendered imaginary landscape, with its ambiguous scale and alien calm, is a defining work of American Surrealism produced after his emigration from France.',
+            'dcterms:subject' => [
+                'Painting',
+                'Surrealism',
+                'French',
+                'Abstract',
+                'Biomorphic',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Buffalo AKG Art Museum, Buffalo',
+            'demo-data:movement' => 'Surrealism',
+            'map_coordinates' => [
+                -78.8785,
+                42.9326,
+            ],
+            'media' => [
+                [
+                    'file' => 'tanguy-indefinite-divisibility.jpg',
+                    'o:alt_text' => 'Oil painting depicting surreal abstract forms and tools floating in a barren landscape beneath a cloudy sky.',
+                    'dcterms:title' => 'Indefinite Divisibility',
+                    'dcterms:creator' => 'Yves Tanguy',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Buffalo AKG Art Museum',
+                ],
+            ],
+        ],
+        [
+            'id' => 'nash-totes-meer',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'the-lovers-magritte',
+                'treachery-of-images',
+                'ensor-entry-of-christ',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q28532596',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Totes Meer (Dead Sea)',
+            'dcterms:creator' => 'Paul Nash',
+            'dcterms:created' => [
+                '@value' => '1940',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'A sea of wrecked German aircraft fuselages fills a hollow under moonlight, their tail fins rising like surf. Nash\'s wartime painting transforms war wreckage into a haunting seascape, merging Surrealist landscape tradition with the reality of the Battle of Britain.',
+            'dcterms:subject' => [
+                'Painting',
+                'Surrealism',
+                'British',
+                'Landscape',
+                'World War II',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Tate, London',
+            'demo-data:movement' => 'Surrealism',
+            'map_coordinates' => [
+                -0.1205,
+                51.5005,
+            ],
+            'media' => [
+                [
+                    'file' => 'nash-totes-meer.jpg',
+                    'o:alt_text' => 'Oil painting depicting a surreal landscape of wrecked aircraft fuselages stacked together under a pale moon.',
+                    'dcterms:title' => 'Totes Meer (Dead Sea)',
+                    'dcterms:creator' => 'Paul Nash',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Tate, London',
+                ],
+            ],
+        ],
+        [
+            'id' => 'gorky-liver-cocks-comb',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'gorky-agony',
+                'kandinsky-yellow-red-blue',
+                'hartley-portrait-german-officer',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q77473719',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'The Liver Is the Cock\'s Comb',
+            'dcterms:creator' => 'Arshile Gorky',
+            'dcterms:created' => [
+                '@value' => '1944',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'Explosive biomorphic forms in vivid color erupt across a large canvas in what Gorky called a poem about Armenia\'s peasant life. A pivotal bridge between Surrealism and Abstract Expressionism, it influenced a generation of New York painters who saw it at its 1945 debut.',
+            'dcterms:subject' => [
+                'Painting',
+                'Abstract Expressionism',
+                'American',
+                'Armenian',
+                'Abstract',
+                'Biomorphic',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Buffalo AKG Art Museum, Buffalo',
+            'demo-data:movement' => 'Abstract Expressionism',
+            'map_coordinates' => [
+                -78.8785,
+                42.9326,
+            ],
+            'media' => [
+                [
+                    'file' => 'gorky-liver-cocks-comb.jpg',
+                    'o:alt_text' => 'Oil painting depicting abstract biomorphic forms in red, yellow, and black with organic shapes suggesting figures and animals.',
+                    'dcterms:title' => 'The Liver Is the Cock\'s Comb',
+                    'dcterms:creator' => 'Arshile Gorky',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Buffalo AKG Art Museum',
+                ],
+            ],
+        ],
+        [
+            'id' => 'gorky-agony',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'gorky-liver-cocks-comb',
+                'dove-nature-symbolized',
+                'kandinsky-yellow-red-blue',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q19885056',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Agony',
+            'dcterms:creator' => 'Arshile Gorky',
+            'dcterms:created' => [
+                '@value' => '1947',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'Thin, agitated lines and translucent veils of color evoke a state of psychological dissolution in one of Gorky\'s last major paintings before his death. The work\'s raw emotional exposure influenced de Kooning, Pollock, and the generation that defined Abstract Expressionism.',
+            'dcterms:subject' => [
+                'Painting',
+                'Abstract Expressionism',
+                'American',
+                'Abstract',
+                'Figurative',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Museum of Modern Art, New York',
+            'demo-data:movement' => 'Abstract Expressionism',
+            'map_coordinates' => [
+                -73.9776,
+                40.7614,
+            ],
+            'media' => [
+                [
+                    'file' => 'gorky-agony.jpg',
+                    'o:alt_text' => 'Oil painting depicting abstract forms in brown and red tones with gestural black shapes and white accents suggesting fragmented figures in a turbulent composition.',
+                    'dcterms:title' => 'Agony',
+                    'dcterms:creator' => 'Arshile Gorky',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Museum of Modern Art, New York',
+                ],
+            ],
+        ],
+        [
+            'id' => 'hartley-portrait-german-officer',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'gorky-liver-cocks-comb',
+                'demuth-figure-5-in-gold',
+                'gris-portrait-picasso',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q19917690',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Portrait of a German Officer',
+            'dcterms:creator' => 'Marsden Hartley',
+            'dcterms:created' => [
+                '@value' => '1914',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'Military insignia, regimental numbers, and Iron Cross emblems arranged in bold, flat shapes form an abstract tribute to a German officer killed at the start of World War I. One of the first overtly abstract American paintings, it draws on German Expressionism and Cubism simultaneously.',
+            'dcterms:subject' => [
+                'Painting',
+                'Modernism',
+                'American',
+                'Abstract',
+                'German Influence',
+                'Portrait',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
+            'demo-data:movement' => 'Modernism',
+            'map_coordinates' => [
+                -73.9632,
+                40.7794,
+            ],
+            'media' => [
+                [
+                    'file' => 'hartley-portrait-german-officer.jpg',
+                    'o:alt_text' => 'Oil painting depicting a stylized German military officer\'s portrait composed of geometric shapes, military insignia, flags, and symbolic elements in bold colors.',
+                    'dcterms:title' => 'Portrait of a German Officer',
+                    'dcterms:creator' => 'Marsden Hartley',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Metropolitan Museum of Art',
+                ],
+            ],
+        ],
+        [
+            'id' => 'dove-nature-symbolized',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'hartley-portrait-german-officer',
+                'gorky-agony',
+                'demuth-figure-5-in-gold',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.artic.edu/artworks/76295/nature-symbolized-no-2',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Nature Symbolized No. 2',
+            'dcterms:creator' => 'Arthur Dove',
+            'dcterms:created' => [
+                '@value' => '1911',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'Rhythmic curving forms in warm earth tones suggest wind moving through trees or grass without depicting them literally. Created around 1911, this is among the earliest abstract paintings made in America and anticipates the biomorphic abstraction that would flower three decades later.',
+            'dcterms:subject' => [
+                'Painting',
+                'Modernism',
+                'American',
+                'Abstract',
+                'Nature',
+            ],
+            'dcterms:medium' => 'Pastel on composition board',
+            'dcterms:publisher' => 'Art Institute of Chicago',
+            'demo-data:movement' => 'Modernism',
+            'map_coordinates' => [
+                -87.6237,
+                41.8796,
+            ],
+            'media' => [
+                [
+                    'file' => 'dove-nature-symbolized.jpg',
+                    'o:alt_text' => 'Pastel on composition board depicting abstract organic forms with warm golden and dark tones swirling together.',
+                    'dcterms:title' => 'Nature Symbolized No. 2',
+                    'dcterms:creator' => 'Arthur Dove',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Art Institute of Chicago',
+                ],
+            ],
+        ],
+        [
+            'id' => 'demuth-figure-5-in-gold',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'hartley-portrait-german-officer',
+                'dove-nature-symbolized',
+                'bird-in-space',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q6622215',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'I Saw the Figure 5 in Gold',
+            'dcterms:creator' => 'Charles Demuth',
+            'dcterms:created' => [
+                '@value' => '1928',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'Concentric golden fives recede into a dark urban background of arc lights, buildings, and the initials WCW, painted as a visual poem in homage to William Carlos Williams. The poster-portrait format links Precisionism to the word-and-image experiments of the European avant-garde.',
+            'dcterms:subject' => [
+                'Painting',
+                'Modernism',
+                'American',
+                'Precisionism',
+                'Urban',
+                'Abstract',
+            ],
+            'dcterms:medium' => 'Oil on composition board',
+            'dcterms:publisher' => 'Metropolitan Museum of Art, New York',
+            'demo-data:movement' => 'Modernism',
+            'map_coordinates' => [
+                -73.9632,
+                40.7794,
+            ],
+            'media' => [
+                [
+                    'file' => 'demuth-figure-5-in-gold.jpg',
+                    'o:alt_text' => 'Oil painting depicting a large golden number 5 surrounded by red and yellow geometric shapes with industrial typography and circular forms.',
+                    'dcterms:title' => 'I Saw the Figure 5 in Gold',
+                    'dcterms:creator' => 'Charles Demuth',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Metropolitan Museum of Art',
+                ],
+            ],
+        ],
+        [
+            'id' => 'malevich-white-on-white',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'kandinsky-yellow-red-blue',
+                'composition-red-blue-yellow',
+                'bird-in-space',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q579455',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Suprematist Composition: White on White',
+            'dcterms:creator' => 'Kazimir Malevich',
+            'dcterms:created' => [
+                '@value' => '1918',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'A barely visible white square tilted on a white ground pushes geometric abstraction to its logical extreme. Malevich\'s most radical Suprematist statement argued for pure sensation without reference to the material world, influencing Minimalism and Conceptualism half a century later.',
+            'dcterms:subject' => [
+                'Painting',
+                'Modernism',
+                'Russian',
+                'Suprematism',
+                'Abstract',
+                'Geometric',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Museum of Modern Art, New York',
+            'demo-data:movement' => 'Modernism',
+            'map_coordinates' => [
+                -73.9776,
+                40.7614,
+            ],
+            'media' => [
+                [
+                    'file' => 'malevich-white-on-white.jpg',
+                    'o:alt_text' => 'Oil painting depicting a tilted white square on a slightly off-white background, exemplifying abstract minimalism.',
+                    'dcterms:title' => 'Suprematist Composition: White on White',
+                    'dcterms:creator' => 'Kazimir Malevich',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Museum of Modern Art, New York',
+                ],
+            ],
+        ],
+        [
+            'id' => 'kandinsky-yellow-red-blue',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'malevich-white-on-white',
+                'gorky-liver-cocks-comb',
+                'composition-red-blue-yellow',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q18705525',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Yellow-Red-Blue',
+            'dcterms:creator' => 'Wassily Kandinsky',
+            'dcterms:created' => [
+                '@value' => '1925',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'Geometric shapes and curving lines in primary and secondary colors are arranged to evoke musical rhythm and emotional resonance across a large canvas. Painted at the Bauhaus, it synthesizes Kandinsky\'s spiritual theory of color with the constructive rigor of his German years.',
+            'dcterms:subject' => [
+                'Painting',
+                'Modernism',
+                'Russian',
+                'Bauhaus',
+                'Abstract',
+                'Geometric',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Musée National d\'Art Moderne, Centre Pompidou, Paris',
+            'demo-data:movement' => 'Modernism',
+            'map_coordinates' => [
+                2.3521,
+                48.8607,
+            ],
+            'media' => [
+                [
+                    'file' => 'kandinsky-yellow-red-blue.jpg',
+                    'o:alt_text' => 'Oil painting depicting abstract geometric forms in yellow, red, and blue with dynamic lines and shapes on a muted background.',
+                    'dcterms:title' => 'Yellow-Red-Blue',
+                    'dcterms:creator' => 'Wassily Kandinsky',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Centre Pompidou, Paris',
+                ],
+            ],
+        ],
+        [
+            'id' => 'gris-portrait-picasso',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'guernica',
+                'gris-still-life-before-open-window',
+                'hartley-portrait-german-officer',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3399451',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Portrait of Pablo Picasso',
+            'dcterms:creator' => 'Juan Gris',
+            'dcterms:created' => [
+                '@value' => '1912',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'Gris reconstructs Picasso\'s face and studio using interlocking planes of grey, green, and ochre in an early demonstration of Synthetic Cubism\'s clarity and structure. The portrait, made while Gris was Picasso\'s neighbor in the Bateau-Lavoir, is also a statement of artistic independence.',
+            'dcterms:subject' => [
+                'Painting',
+                'Cubism',
+                'Spanish',
+                'Portrait',
+                'Modernism',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Art Institute of Chicago',
+            'demo-data:movement' => 'Cubism',
+            'map_coordinates' => [
+                -87.6237,
+                41.8796,
+            ],
+            'media' => [
+                [
+                    'file' => 'gris-portrait-picasso.jpg',
+                    'o:alt_text' => 'Oil painting depicting a cubist portrait of a man in angular, geometric forms with muted earth tones and blue accents.',
+                    'dcterms:title' => 'Portrait of Pablo Picasso',
+                    'dcterms:creator' => 'Juan Gris',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Google Art Project / Art Institute of Chicago',
+                ],
+            ],
+        ],
+        [
+            'id' => 'gris-still-life-before-open-window',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'gris-portrait-picasso',
+                'guernica',
+                'delaunay-simultaneous-windows',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q18687773',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Still Life Before an Open Window',
+            'dcterms:creator' => 'Juan Gris',
+            'dcterms:created' => [
+                '@value' => '1915',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'A tabletop arrangement of newspaper, glass, and fruit merges seamlessly with a blue Parisian street view through an open window. Gris treats interior and exterior space with equal geometric precision, creating one of the most architecturally satisfying of all Cubist compositions.',
+            'dcterms:subject' => [
+                'Painting',
+                'Cubism',
+                'Spanish',
+                'Still Life',
+                'Urban',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Philadelphia Museum of Art',
+            'demo-data:movement' => 'Cubism',
+            'map_coordinates' => [
+                -75.1808,
+                39.9656,
+            ],
+            'media' => [
+                [
+                    'file' => 'gris-still-life-before-open-window.jpg',
+                    'o:alt_text' => 'Oil painting depicting a cubist still life with fragmented geometric shapes, a window view, and architectural elements in muted blues, pinks, and earth tones.',
+                    'dcterms:title' => 'Still Life Before an Open Window',
+                    'dcterms:creator' => 'Juan Gris',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Google Art Project / Philadelphia Museum of Art',
+                ],
+            ],
+        ],
+        [
+            'id' => 'delaunay-simultaneous-windows',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'gris-portrait-picasso',
+                'picabia-udnie',
+                'leger-the-city',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q19861807',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Simultaneous Windows on the City',
+            'dcterms:creator' => 'Robert Delaunay',
+            'dcterms:created' => [
+                '@value' => '1912',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'Triangular facets of pure color shimmer across the picture surface without a clear subject, reducing the view through a Parisian window to rhythmic fields of light. Delaunay\'s Orphism pushes Cubism from structure toward pure color sensation, influencing painters from Klee to Sonia Delaunay.',
+            'dcterms:subject' => [
+                'Painting',
+                'Cubism',
+                'French',
+                'Orphism',
+                'Abstract',
+                'Colorist',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Hamburger Kunsthalle, Hamburg',
+            'demo-data:movement' => 'Cubism',
+            'map_coordinates' => [
+                9.9931,
+                53.5681,
+            ],
+            'media' => [
+                [
+                    'file' => 'delaunay-simultaneous-windows.jpg',
+                    'o:alt_text' => 'Oil painting depicting fragmented, overlapping geometric shapes in vibrant colors of blue, orange, green, and yellow arranged in an abstract cubist composition.',
+                    'dcterms:title' => 'Simultaneous Windows on the City',
+                    'dcterms:creator' => 'Robert Delaunay',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Hamburger Kunsthalle',
+                ],
+            ],
+        ],
+        [
+            'id' => 'leger-the-city',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'delaunay-simultaneous-windows',
+                'picabia-udnie',
+                'guernica',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q20816594',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'The City',
+            'dcterms:creator' => 'Fernand Léger',
+            'dcterms:created' => [
+                '@value' => '1919',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'Billboards, scaffolding, mechanical staircases, and robotic figures are assembled from flat planes of primary color into a flickering urban panorama. Léger\'s largest Cubist painting celebrates the visual cacophony of the modern city as a machine-age spectacle rather than a human environment.',
+            'dcterms:subject' => [
+                'Painting',
+                'Cubism',
+                'French',
+                'Urban',
+                'Industrial',
+                'Abstract',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Philadelphia Museum of Art',
+            'demo-data:movement' => 'Cubism',
+            'map_coordinates' => [
+                -75.1808,
+                39.9656,
+            ],
+            'media' => [
+                [
+                    'file' => 'leger-the-city.jpg',
+                    'o:alt_text' => 'Oil painting depicting an abstract urban landscape with geometric shapes, bold colors, and fragmented architectural and mechanical forms in a Cubist style.',
+                    'dcterms:title' => 'The City',
+                    'dcterms:creator' => 'Fernand Léger',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Philadelphia Museum of Art',
+                ],
+            ],
+        ],
+        [
+            'id' => 'picabia-udnie',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'leger-the-city',
+                'gris-portrait-picasso',
+                'delaunay-simultaneous-windows',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q60144024',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Udnie (Young American Girl, the Dance)',
+            'dcterms:creator' => 'Francis Picabia',
+            'dcterms:created' => [
+                '@value' => '1913',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'Rotating biomorphic and mechanical forms in ochre, green, and blue translate the memory of a dancer on a transatlantic ocean liner into pure movement and abstraction. Picabia\'s monumental canvas marks his break with Cubism toward a personal vocabulary that anticipates Dada and Surrealism.',
+            'dcterms:subject' => [
+                'Painting',
+                'Cubism',
+                'French',
+                'Abstract',
+                'Mechanical',
+                'Dance',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Musée National d\'Art Moderne, Centre Pompidou, Paris',
+            'demo-data:movement' => 'Cubism',
+            'map_coordinates' => [
+                2.3521,
+                48.8607,
+            ],
+            'media' => [
+                [
+                    'file' => 'picabia-udnie.jpg',
+                    'o:alt_text' => 'Oil painting depicting abstracted geometric forms in blue, green, black, and white creating a dynamic, fragmented composition titled "Udnie."',
+                    'dcterms:title' => 'Udnie (Young American Girl, the Dance)',
+                    'dcterms:creator' => 'Francis Picabia',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Centre Pompidou, Paris',
+                ],
+            ],
+        ],
+        [
+            'id' => 'eakins-gross-clinic',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'snap-the-whip',
+                'nighthawks',
+                'whistlers-mother',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1213936',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'The Gross Clinic',
+            'dcterms:creator' => 'Thomas Eakins',
+            'dcterms:created' => [
+                '@value' => '1875',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'Dr. Samuel Gross pauses mid-operation in a surgical amphitheater, blood on his hand, surrounded by students and a grimacing patient. Eakins\'s unflinching portrayal of medicine was rejected from the 1876 Centennial Exhibition for its graphic realism, yet is now considered the greatest American painting of its era.',
+            'dcterms:subject' => [
+                'Painting',
+                'Realism',
+                'American',
+                'Portrait',
+                'Figurative',
+                'Medicine',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Thomas Jefferson University, Philadelphia',
+            'demo-data:movement' => 'Realism',
+            'map_coordinates' => [
+                -75.1559,
+                39.9517,
+            ],
+            'media' => [
+                [
+                    'file' => 'eakins-gross-clinic.jpg',
+                    'o:alt_text' => 'Oil painting depicting a surgical demonstration with a white-haired surgeon performing an operation while medical students and observers watch intently in an amphitheater.',
+                    'dcterms:title' => 'The Gross Clinic',
+                    'dcterms:creator' => 'Thomas Eakins',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Google Art Project / Thomas Jefferson University',
+                ],
+            ],
+        ],
+        [
+            'id' => 'beckmann-self-portrait-tuxedo',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'ensor-entry-of-christ',
+                'twittering-machine',
+                'hartley-portrait-german-officer',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q2267583',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Self-Portrait in Tuxedo',
+            'dcterms:creator' => 'Max Beckmann',
+            'dcterms:created' => [
+                '@value' => '1927',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'Beckmann stares out from behind a cigarette in evening dress, his boxer\'s bulk barely contained by the frame, projecting an image of defiant bourgeois confidence. The stark, planar style of this self-portrait established his reputation as Germany\'s leading Expressionist painter of the Weimar era.',
+            'dcterms:subject' => [
+                'Painting',
+                'Expressionism',
+                'German',
+                'Portrait',
+                'Self-Portrait',
+                'Figurative',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Busch-Reisinger Museum, Harvard University, Cambridge',
+            'demo-data:movement' => 'Expressionism',
+            'map_coordinates' => [
+                -71.1156,
+                42.374,
+            ],
+            'media' => [
+                [
+                    'file' => 'beckmann-self-portrait-tuxedo.jpg',
+                    'o:alt_text' => 'Oil painting depicting a man in formal black tuxedo and white shirt against a muted background, gazing directly forward with a serious expression.',
+                    'dcterms:title' => 'Self-Portrait in Tuxedo',
+                    'dcterms:creator' => 'Max Beckmann',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Harvard Art Museums',
+                ],
+            ],
+        ],
+        [
+            'id' => 'boccioni-unique-forms',
             'class' => 'demo-data:Sculpture',
             'sets' => [
                 'main',
@@ -8991,41 +9054,389 @@ return [
             ],
             'relations' => [
                 'bird-in-space',
+                'the-city-rises',
                 'the-thinker',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q706964',
+                '@value' => 'https://www.wikidata.org/entity/Q933665',
                 '@type' => 'uri',
             ],
-            'dcterms:title' => 'Walking Man I',
-            'dcterms:creator' => 'Alberto Giacometti',
+            'dcterms:title' => 'Unique Forms of Continuity in Space',
+            'dcterms:creator' => 'Umberto Boccioni',
             'dcterms:created' => [
-                '@value' => '1960',
+                '@value' => '1913',
                 '@type' => 'numeric:timestamp',
             ],
-            'dcterms:description' => 'Emaciated bronze figure striding forward on a broad base — at once ancient and existentially modern, Giacometti\'s signature form embodying isolation and the human condition in the post-war era.',
+            'dcterms:description' => 'A striding figure whose body seems to dissolve into swelling, flame-like surfaces captures the sensation of motion through space rather than a static pose. Boccioni\'s masterpiece of Futurist sculpture argues that form is meaningless without the energy of movement fused into it.',
             'dcterms:subject' => [
                 'Sculpture',
-                'Modernism',
-                'Swiss',
+                'Futurism',
+                'Italian',
+                'Bronze',
                 'Figurative',
+                'Modernism',
             ],
             'dcterms:medium' => 'Bronze',
-            'dcterms:publisher' => 'Fondation Beyeler, Riehen',
-            'demo-data:movement' => 'Modernism',
+            'dcterms:publisher' => 'Museum of Modern Art, New York',
+            'demo-data:movement' => 'Futurism',
             'map_coordinates' => [
-                7.6,
-                47.5696,
+                -73.9776,
+                40.7614,
             ],
             'media' => [
                 [
-                    'file' => 'walking-man.jpg',
-                    'o:alt_text' => 'Bronze sculpture depicting an elongated, thin male figure in a striding pose against a textured background.',
-                    'dcterms:title' => 'Walking Man I',
+                    'file' => 'boccioni-unique-forms.jpg',
+                    'o:alt_text' => 'Bronze sculpture depicting an abstracted, streamlined human figure in dynamic forward motion with curved, windswept forms.',
+                    'dcterms:title' => 'Unique Forms of Continuity in Space',
+                    'dcterms:creator' => 'Umberto Boccioni',
                     'dcterms:rights' => 'Public domain',
-                    'dcterms:contributor' => 'Swiss National Bank (SNB)',
+                    'dcterms:contributor' => 'Wikimedia Commons / Museum of Modern Art',
                 ],
             ],
         ],
+        [
+            'id' => 'curry-baptism-in-kansas',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'curry-tornado-over-kansas',
+                'stone-city-iowa',
+                'grant-wood-daughters-revolution',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q29468907',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Baptism in Kansas',
+            'dcterms:creator' => 'John Steuart Curry',
+            'dcterms:created' => [
+                '@value' => '1928',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'A white-robed congregation gathers around a farm water tank for a rural baptism under wide Kansas skies while a crowd looks on from wagons and automobiles. Curry\'s first major canvas established American Regionalism as a movement with serious artistic ambitions and launched his national reputation.',
+            'dcterms:subject' => [
+                'Painting',
+                'American Regionalism',
+                'American',
+                'Figurative',
+                'Rural',
+                'Religious',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Whitney Museum of American Art, New York',
+            'demo-data:movement' => 'American Regionalism',
+            'map_coordinates' => [
+                -74.0088,
+                40.7398,
+            ],
+            'media' => [
+                [
+                    'file' => 'curry-baptism-in-kansas.jpg',
+                    'o:alt_text' => 'Oil painting depicting a rural baptism ceremony in Kansas with a large gathered crowd around a wooden tank beneath a windmill and farm buildings.',
+                    'dcterms:title' => 'Baptism in Kansas',
+                    'dcterms:creator' => 'John Steuart Curry',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Whitney Museum of American Art',
+                ],
+            ],
+        ],
+        [
+            'id' => 'curry-tornado-over-kansas',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'curry-baptism-in-kansas',
+                'stone-city-iowa',
+                'grant-wood-daughters-revolution',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q106044093',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Tornado over Kansas',
+            'dcterms:creator' => 'John Steuart Curry',
+            'dcterms:created' => [
+                '@value' => '1929',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'A farm family scrambles for a storm cellar as a massive tornado bears down across flat fields, chickens and a pig scattering in the foreground. The scene\'s compressed terror and heroic scale make it the definitive American Regionalist image of Midwestern vulnerability before nature.',
+            'dcterms:subject' => [
+                'Painting',
+                'American Regionalism',
+                'American',
+                'Figurative',
+                'Rural',
+                'Weather',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Hackney Museum, London',
+            'demo-data:movement' => 'American Regionalism',
+            'map_coordinates' => [
+                -0.0595,
+                51.5449,
+            ],
+            'media' => [
+                [
+                    'file' => 'curry-tornado-over-kansas.jpg',
+                    'o:alt_text' => 'Oil painting depicting a family securing their farm against an approaching tornado in rural Kansas during a dust storm.',
+                    'dcterms:title' => 'Tornado over Kansas',
+                    'dcterms:creator' => 'John Steuart Curry',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Wikimedia Commons',
+                ],
+            ],
+        ],
+        [
+            'id' => 'marsh-why-not-use-the-l',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'eakins-gross-clinic',
+                'snap-the-whip',
+                'nighthawks',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q64508079',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Why Not Use the \'L\'?',
+            'dcterms:creator' => 'Reginald Marsh',
+            'dcterms:created' => [
+                '@value' => '1930',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'A crowd of New Yorkers passes under the Sixth Avenue elevated railway in summer heat, their clothing, postures, and faces catalogued with the sharp eye of a newspaper illustrator. Marsh\'s painting is a vivid document of Depression-era street life in the city\'s working-class neighborhoods.',
+            'dcterms:subject' => [
+                'Painting',
+                'American Regionalism',
+                'American',
+                'Urban',
+                'Figurative',
+                'New York',
+            ],
+            'dcterms:medium' => 'Egg tempera on board',
+            'dcterms:publisher' => 'Whitney Museum of American Art, New York',
+            'demo-data:movement' => 'American Regionalism',
+            'map_coordinates' => [
+                -74.0088,
+                40.7398,
+            ],
+            'media' => [
+                [
+                    'file' => 'marsh-why-not-use-the-l.jpg',
+                    'o:alt_text' => 'Egg tempera painting depicting passengers on a subway car, including a sleeping man and a woman in a green coat.',
+                    'dcterms:title' => 'Why Not Use the \'L\'?',
+                    'dcterms:creator' => 'Reginald Marsh',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Whitney Museum of American Art',
+                ],
+            ],
+        ],
+        [
+            'id' => 'grant-wood-daughters-revolution',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'curry-baptism-in-kansas',
+                'stone-city-iowa',
+                'marsh-why-not-use-the-l',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q5227954',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Daughters of the American Revolution',
+            'dcterms:creator' => 'Grant Wood',
+            'dcterms:created' => [
+                '@value' => '1932',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'Three prim women hold teacups in front of a wallpapered replica of Emmanuel Leutze\'s Washington Crossing the Delaware, their faces rendered with an ironic deadpan. Wood\'s satirical painting targeted the organization\'s opposition to immigration and its cultivation of a narrow, exclusionary patriotism.',
+            'dcterms:subject' => [
+                'Painting',
+                'American Regionalism',
+                'American',
+                'Figurative',
+                'Satire',
+                'Portrait',
+            ],
+            'dcterms:medium' => 'Oil on masonite',
+            'dcterms:publisher' => 'Cincinnati Art Museum',
+            'demo-data:movement' => 'American Regionalism',
+            'map_coordinates' => [
+                -84.5058,
+                39.1126,
+            ],
+            'media' => [
+                [
+                    'file' => 'grant-wood-daughters-revolution.jpg',
+                    'o:alt_text' => 'Oil painting depicting three stern-faced women in 1930s dress standing indoors with a framed landscape visible behind them.',
+                    'dcterms:title' => 'Daughters of the American Revolution',
+                    'dcterms:creator' => 'Grant Wood',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Cincinnati Art Museum',
+                ],
+            ],
+        ],
+        [
+            'id' => 'cassatt-the-childs-bath',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'sargent-carnation-lily',
+                'water-lilies',
+                'a-bar-at-the-folies-bergere',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q3172226',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'The Child\'s Bath',
+            'dcterms:creator' => 'Mary Cassatt',
+            'dcterms:created' => [
+                '@value' => '1893',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'A woman carefully washes a child\'s feet in a bowl, their figures seen from above in a high Japanese-influenced viewpoint that flattens pattern and form. Among the most resolved of Cassatt\'s Impressionist canvases, it captures the concentrated intimacy of domestic life with economy and warmth.',
+            'dcterms:subject' => [
+                'Painting',
+                'Impressionism',
+                'American',
+                'French',
+                'Figurative',
+                'Domestic',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Art Institute of Chicago',
+            'demo-data:movement' => 'Impressionism',
+            'map_coordinates' => [
+                -87.6237,
+                41.8796,
+            ],
+            'media' => [
+                [
+                    'file' => 'cassatt-the-childs-bath.jpg',
+                    'o:alt_text' => 'Oil painting depicting a woman bathing a young child in a basin, rendered in soft colors and intimate domestic setting.',
+                    'dcterms:title' => 'The Child\'s Bath',
+                    'dcterms:creator' => 'Mary Cassatt',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Google Art Project / Art Institute of Chicago',
+                ],
+            ],
+        ],
+        [
+            'id' => 'sargent-carnation-lily',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'cassatt-the-childs-bath',
+                'madame-x',
+                'laughing-cavalier',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q1560719',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'Carnation, Lily, Lily, Rose',
+            'dcterms:creator' => 'John Singer Sargent',
+            'dcterms:created' => [
+                '@value' => '1886',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'Two girls light paper lanterns in an English garden at dusk, surrounded by carnations, roses, and white lilies that glow in the fading light. Sargent painted the canvas in thirty-minute sessions at the precise twilight moment each evening over two autumns, capturing a fleeting chromatic sensation.',
+            'dcterms:subject' => [
+                'Painting',
+                'Impressionism',
+                'American',
+                'British',
+                'Figurative',
+                'Garden',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Tate, London',
+            'demo-data:movement' => 'Impressionism',
+            'map_coordinates' => [
+                -0.1205,
+                51.5005,
+            ],
+            'media' => [
+                [
+                    'file' => 'sargent-carnation-lily.jpg',
+                    'o:alt_text' => 'Oil painting depicting two young girls in white dresses lighting paper lanterns among blooming flowers in a garden at dusk.',
+                    'dcterms:title' => 'Carnation, Lily, Lily, Rose',
+                    'dcterms:creator' => 'John Singer Sargent',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Google Art Project / Tate, London',
+                ],
+            ],
+        ],
+        [
+            'id' => 'signac-port-saint-tropez',
+            'class' => 'demo-data:Painting',
+            'sets' => [
+                'main',
+                'paintings',
+            ],
+            'relations' => [
+                'a-sunday-on-la-grande-jatte',
+                'water-lilies',
+                'cassatt-the-childs-bath',
+            ],
+            'dcterms:identifier' => [
+                '@value' => 'https://www.wikidata.org/entity/Q23949070',
+                '@type' => 'uri',
+            ],
+            'dcterms:title' => 'The Port of Saint-Tropez',
+            'dcterms:creator' => 'Paul Signac',
+            'dcterms:created' => [
+                '@value' => '1901',
+                '@type' => 'numeric:timestamp',
+            ],
+            'dcterms:description' => 'Fishing boats and their reflections fill a harbor under dazzling Mediterranean light, rendered in Signac\'s mature Pointillist mosaic of separate color strokes. Painted at Saint-Tropez, where Signac had settled in 1892, the work exemplifies the Neo-Impressionist ambition to systematize color science as pure visual pleasure.',
+            'dcterms:subject' => [
+                'Painting',
+                'Post-Impressionism',
+                'French',
+                'Neo-Impressionism',
+                'Pointillism',
+                'Landscape',
+            ],
+            'dcterms:medium' => 'Oil on canvas',
+            'dcterms:publisher' => 'Hermitage Museum, Saint Petersburg',
+            'demo-data:movement' => 'Post-Impressionism',
+            'map_coordinates' => [
+                30.3148,
+                59.9398,
+            ],
+            'media' => [
+                [
+                    'file' => 'signac-port-saint-tropez.jpg',
+                    'o:alt_text' => 'Oil painting depicting a sun-dappled harbor with colorful boats, sailboats, and waterfront buildings in pointillist style.',
+                    'dcterms:title' => 'The Port of Saint-Tropez',
+                    'dcterms:creator' => 'Paul Signac',
+                    'dcterms:rights' => 'Public domain',
+                    'dcterms:contributor' => 'Google Art Project / Hermitage Museum',
+                ],
+            ],
+        ],
+
     ],
 ];

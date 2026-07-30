@@ -10,7 +10,7 @@ Each dataset creates its own item set(s) and resource template on import. Re-imp
 
 | Dataset | Items | Media |
 |---|---|---|
-| Artworks | 200 | 165 |
+| Artworks | 200 | 200 |
 | Civilizations | 450 | 352 |
 | Documents | 50 | 67 |
 | People | 100 | 85 |

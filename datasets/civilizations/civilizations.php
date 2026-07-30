@@ -156,7 +156,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'olmec-civilization.png',
+                    'file' => 'olmec-civilization.jpg',
                     'o:alt_text' => 'Map of the Gulf Coast region of Mexico showing major Olmec archaeological sites and geographic features including the Gulf of Mexico and Tuxtla Mountains.',
                     'dcterms:title' => 'Olmec Civilization',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -215,7 +215,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'zapotec-civilization.png',
+                    'file' => 'zapotec-civilization.jpg',
                     'o:alt_text' => 'Map depicting the geographic extent of Zapotec culture in Oaxaca, Mexico, with archaeological sites marked.',
                     'dcterms:title' => 'Zapotec Civilization',
                     'dcterms:rights' => 'Public domain',
@@ -501,7 +501,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'aztec-triple-alliance.png',
+                    'file' => 'aztec-triple-alliance.jpg',
                     'o:alt_text' => 'Globe map highlighting the Aztec Triple Alliance territory in green in central Mexico.',
                     'dcterms:title' => 'Aztec Triple Alliance',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -609,7 +609,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'tarascan-state.png',
+                    'file' => 'tarascan-state.jpg',
                     'o:alt_text' => 'Map of Mexico showing the Tarascan State territory in green within Michoacán, bordered by the Aztec Empire in brown.',
                     'dcterms:title' => 'Tarascan State',
                     'dcterms:rights' => 'Public domain',
@@ -670,7 +670,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'moche-civilization.png',
+                    'file' => 'moche-civilization.jpg',
                     'o:alt_text' => 'Map of Peru showing the geographic distribution of the Moche civilization and its sphere of influence along the northern coast.',
                     'dcterms:title' => 'Moche Civilization',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -793,7 +793,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'wari-empire.png',
+                    'file' => 'wari-empire.jpg',
                     'o:alt_text' => 'Map showing the geographic distribution of the Wari and Tiwanaku empires in ancient Peru and Bolivia.',
                     'dcterms:title' => 'Wari Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -853,7 +853,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'chim-kingdom.png',
+                    'file' => 'chim-kingdom.jpg',
                     'o:alt_text' => 'Gold ceremonial headdress and ornaments depicting a stylized human face with radiating crown and circular ear ornaments.',
                     'dcterms:title' => 'Chimú Kingdom',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -977,7 +977,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'nazca-culture.png',
+                    'file' => 'nazca-culture.jpg',
                     'o:alt_text' => 'Ceramic vessel depicting a stylized fish with open mouth, decorative patterns, and dual handles in polychrome Nazca style.',
                     'dcterms:title' => 'Nazca Culture',
                     'dcterms:rights' => 'CC BY-SA 2.0',
@@ -1262,7 +1262,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'iroquois-confederacy.png',
+                    'file' => 'iroquois-confederacy.jpg',
                     'o:alt_text' => 'Historical map depicting the territories of the Iroquois Confederacy nations between New York and Canada.',
                     'dcterms:title' => 'Iroquois Confederacy',
                     'dcterms:rights' => 'Public domain',
@@ -1825,7 +1825,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'muisca-confederation.png',
+                    'file' => 'muisca-confederation.jpg',
                     'o:alt_text' => 'Map depicting the territorial extent and settlements of the Muisca Confederation around 1500 CE in the Colombian Andes.',
                     'dcterms:title' => 'Muisca Confederation',
                     'dcterms:rights' => 'CC BY 1.0',
@@ -1942,7 +1942,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'tiwanaku-civilization.png',
+                    'file' => 'tiwanaku-civilization.jpg',
                     'o:alt_text' => 'Line graph showing simulated Tiwanaku population fluctuations from 0 to 1200 AD, peaking around 800 AD at approximately 20,000 inhabitants.',
                     'dcterms:title' => 'Tiwanaku Civilization',
                     'dcterms:rights' => 'Public domain',
@@ -2062,7 +2062,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'elamite-kingdom.png',
+                    'file' => 'elamite-kingdom.jpg',
                     'o:alt_text' => 'Map showing the historical territory of the Elamite Kingdom in ancient southwestern Iran with territorial boundaries and neighboring regions.',
                     'dcterms:title' => 'Elamite Kingdom',
                     'dcterms:rights' => 'Public domain',
@@ -2121,7 +2121,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'median-empire.png',
+                    'file' => 'median-empire.jpg',
                     'o:alt_text' => 'Map of the Ancient Medes empire showing its territorial extent from 678-549 BCE across the Iranian plateau and surrounding regions.',
                     'dcterms:title' => 'Median Empire',
                     'dcterms:rights' => 'CC BY 4.0',
@@ -2187,7 +2187,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'achaemenid-empire.png',
+                    'file' => 'achaemenid-empire.jpg',
                     'o:alt_text' => 'Map of the Achaemenid Empire showing its vast territorial extent across three continents with regional divisions marked by Roman numerals.',
                     'dcterms:title' => 'Achaemenid Empire',
                     'dcterms:rights' => 'CC BY 4.0',
@@ -2249,7 +2249,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'parthian-empire.png',
+                    'file' => 'parthian-empire.jpg',
                     'o:alt_text' => 'Map showing the Parthian Empire\'s territorial extent in green across ancient Persia and surrounding regions.',
                     'dcterms:title' => 'Parthian Empire',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -2311,7 +2311,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'sasanian-empire.png',
+                    'file' => 'sasanian-empire.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Sasanian Empire during the Byzantine-Sasanian War of 602-628 CE.',
                     'dcterms:title' => 'Sasanian Empire',
                     'dcterms:rights' => 'CC BY 4.0',
@@ -2372,7 +2372,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'greco-bactrian-kingdom.png',
+                    'file' => 'greco-bactrian-kingdom.jpg',
                     'o:alt_text' => 'Globe map highlighting the location of the Greco-Bactrian Kingdom in Central Asia and Afghanistan.',
                     'dcterms:title' => 'Greco-Bactrian Kingdom',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -2601,7 +2601,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'rashidun-caliphate.png',
+                    'file' => 'rashidun-caliphate.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Rashidun Caliphate under the first four caliphs, spanning from Arabia through Persia, Levant, Egypt, and North Africa.',
                     'dcterms:title' => 'Rashidun Caliphate',
                     'dcterms:rights' => 'CC0',
@@ -2663,7 +2663,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'umayyad-caliphate.png',
+                    'file' => 'umayyad-caliphate.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Umayyad Caliphate spanning from Spain across North Africa, the Middle East, to Central Asia.',
                     'dcterms:title' => 'Umayyad Caliphate',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -2730,7 +2730,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'abbasid-caliphate.png',
+                    'file' => 'abbasid-caliphate.jpg',
                     'o:alt_text' => 'Map of the Abbasid Caliphate\'s territorial extent shown in green across the Middle East, North Africa, and Central Asia.',
                     'dcterms:title' => 'Abbasid Caliphate',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -2902,7 +2902,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'ghaznavid-empire.png',
+                    'file' => 'ghaznavid-empire.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Ghaznavid Empire from 975-1187 CE in Central and South Asia.',
                     'dcterms:title' => 'Ghaznavid Empire',
                     'dcterms:rights' => 'Public domain',
@@ -3020,7 +3020,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'khwarazmian-empire.png',
+                    'file' => 'khwarazmian-empire.jpg',
                     'o:alt_text' => 'Map depicting the territorial extent of the Khwarazmian Empire from 1190-1220 AD across Central Asia and Iran.',
                     'dcterms:title' => 'Khwarazmian Empire',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -3146,7 +3146,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'timurid-empire.png',
+                    'file' => 'timurid-empire.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Timurid Empire in green across Central Asia, Iran, and surrounding regions.',
                     'dcterms:title' => 'Timurid Empire',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -3208,7 +3208,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'safavid-empire.png',
+                    'file' => 'safavid-empire.jpg',
                     'o:alt_text' => 'Map depicting the Safavid Iran empire from 1501-1736, showing territorial boundaries and neighboring Ottoman and Mughal empires.',
                     'dcterms:title' => 'Safavid Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -3269,7 +3269,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'afsharid-empire.png',
+                    'file' => 'afsharid-empire.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Afsharid Empire under Nader Shah in green across Central Asia and Iran.',
                     'dcterms:title' => 'Afsharid Empire',
                     'dcterms:rights' => 'CC BY 1.0',
@@ -3429,7 +3429,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'qarakhanid-khanate.png',
+                    'file' => 'qarakhanid-khanate.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Qarakhanid Khanate in Central Asia during the medieval period.',
                     'dcterms:title' => 'Qarakhanid Khanate',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -3487,7 +3487,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'chagatai-khanate.png',
+                    'file' => 'chagatai-khanate.jpg',
                     'o:alt_text' => 'Map highlighting the Chagatai Khanate in green across Central Asia between the Amu Darya and Tarim Basin regions.',
                     'dcterms:title' => 'Chagatai Khanate',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -3608,7 +3608,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'umayyad-caliphate-of-c-rdoba.png',
+                    'file' => 'umayyad-caliphate-of-c-rdoba.jpg',
                     'o:alt_text' => 'Map depicting the territorial extent of the Umayyad Caliphate of Córdoba in medieval Iberia, showing administrative divisions and major cities.',
                     'dcterms:title' => 'Umayyad Caliphate of Córdoba',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -3669,7 +3669,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'almoravid-dynasty.png',
+                    'file' => 'almoravid-dynasty.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Almoravid Dynasty in North Africa and Iberia during the medieval period.',
                     'dcterms:title' => 'Almoravid Dynasty',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -3732,7 +3732,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'almohad-caliphate.png',
+                    'file' => 'almohad-caliphate.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Almohad Empire across North Africa and medieval Spain during the 12th-13th centuries.',
                     'dcterms:title' => 'Almohad Caliphate',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -3854,7 +3854,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'ayyubid-sultanate.png',
+                    'file' => 'ayyubid-sultanate.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Ayyubid Sultanate across the Middle East and North Africa during medieval times.',
                     'dcterms:title' => 'Ayyubid Sultanate',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -3975,7 +3975,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'georgian-kingdom.png',
+                    'file' => 'georgian-kingdom.jpg',
                     'o:alt_text' => 'Map of Europe highlighting the Georgian Kingdom\'s territory during its medieval golden age under Queen Tamar.',
                     'dcterms:title' => 'Georgian Kingdom',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -4085,7 +4085,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'ghassanid-kingdom.png',
+                    'file' => 'ghassanid-kingdom.jpg',
                     'o:alt_text' => 'Map showing the location of the Ghassanid Kingdom in the Arabian Peninsula during the Byzantine period.',
                     'dcterms:title' => 'Ghassanid Kingdom',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -4144,7 +4144,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kara-khanid-khanate.png',
+                    'file' => 'kara-khanid-khanate.jpg',
                     'o:alt_text' => 'Map showing the Western Kara-Khanid Khanate territory in Central Asia, highlighting major cities including Urgench, Bukhara, Samarkand, and Suyab.',
                     'dcterms:title' => 'Kara-Khanid Khanate',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -4202,7 +4202,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'ziyarid-dynasty.png',
+                    'file' => 'ziyarid-dynasty.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Ziyarid Dynasty in Iran from 931-1090 CE.',
                     'dcterms:title' => 'Ziyarid Dynasty',
                     'dcterms:rights' => 'Public domain',
@@ -4370,7 +4370,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'ottoman-empire.png',
+                    'file' => 'ottoman-empire.jpg',
                     'o:alt_text' => 'Map of the Ottoman Empire showing territorial expansion from 1330 to 1683 across Europe, Asia, and Africa.',
                     'dcterms:title' => 'Ottoman Empire',
                     'dcterms:rights' => 'CC0',
@@ -4619,7 +4619,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'dutch-republic.png',
+                    'file' => 'dutch-republic.jpg',
                     'o:alt_text' => 'Map of Europe highlighting the Dutch Republic in green, located in northwestern Europe between England and Germany.',
                     'dcterms:title' => 'Dutch Republic',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -4681,7 +4681,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-sweden-early-modern.png',
+                    'file' => 'kingdom-of-sweden-early-modern.jpg',
                     'o:alt_text' => 'Map of Europe highlighting Sweden in dark green, showing its territorial extent during the Early Modern period.',
                     'dcterms:title' => 'Kingdom of Sweden (Early Modern)',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -4810,7 +4810,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'french-empire-napoleon.png',
+                    'file' => 'french-empire-napoleon.jpg',
                     'o:alt_text' => 'Map of Europe showing territories under French control during the Napoleonic Empire in green.',
                     'dcterms:title' => 'French Empire (Napoleon)',
                     'dcterms:rights' => 'Public domain',
@@ -4871,7 +4871,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-prussia.png',
+                    'file' => 'kingdom-of-prussia.jpg',
                     'o:alt_text' => 'Map showing the Kingdom of Prussia\'s territorial extent in dark blue during the eighteenth century.',
                     'dcterms:title' => 'Kingdom of Prussia',
                     'dcterms:rights' => 'CC BY-SA 2.5',
@@ -5056,7 +5056,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'tsardom-of-russia.png',
+                    'file' => 'tsardom-of-russia.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Tsardom of Russia and its expansion across Eastern Europe and Asia.',
                     'dcterms:title' => 'Tsardom of Russia',
                     'dcterms:rights' => 'GFDL',
@@ -5180,7 +5180,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-denmark-norway.png',
+                    'file' => 'kingdom-of-denmark-norway.jpg',
                     'o:alt_text' => 'Map showing the Kingdom of Denmark-Norway highlighted in red across Scandinavia and the North Atlantic region.',
                     'dcterms:title' => 'Kingdom of Denmark-Norway',
                     'dcterms:rights' => 'Public domain',
@@ -5239,7 +5239,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'electorate-of-saxony.png',
+                    'file' => 'electorate-of-saxony.jpg',
                     'o:alt_text' => 'Map of Europe highlighting the Electorate of Saxony in green, showing its location within the Holy Roman Empire.',
                     'dcterms:title' => 'Electorate of Saxony',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -5298,7 +5298,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'republic-of-the-seven-united-netherlands.png',
+                    'file' => 'republic-of-the-seven-united-netherlands.jpg',
                     'o:alt_text' => 'Map of Europe highlighting the Netherlands in green, showing its location among European nations during the Dutch Golden Age.',
                     'dcterms:title' => 'Republic of the Seven United Netherlands',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -5570,7 +5570,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'safavid-persia-early-modern.png',
+                    'file' => 'safavid-persia-early-modern.jpg',
                     'o:alt_text' => 'Map depicting the Safavid Iran empire under Shah Abbas I (1588-1629) and surrounding Ottoman and Mughal empires.',
                     'dcterms:title' => 'Safavid Persia (Early Modern)',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -5629,7 +5629,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'songhai-after-askia.png',
+                    'file' => 'songhai-after-askia.jpg',
                     'o:alt_text' => 'Map of the Songhai Empire showing its territorial extent in West Africa with major cities and the Niger River marked.',
                     'dcterms:title' => 'Songhai After Askia',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -5808,7 +5808,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'sokoto-caliphate.png',
+                    'file' => 'sokoto-caliphate.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Sokoto Caliphate in nineteenth-century West Africa and its neighboring regions.',
                     'dcterms:title' => 'Sokoto Caliphate',
                     'dcterms:rights' => 'Public domain',
@@ -5926,7 +5926,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'dahomey-kingdom-early-modern.png',
+                    'file' => 'dahomey-kingdom-early-modern.jpg',
                     'o:alt_text' => 'Map of Dahomey Kingdom showing Abomey and Ouidah in present-day Benin, bordered by Burkina Faso, Niger, Nigeria, and Togo.',
                     'dcterms:title' => 'Dahomey Kingdom (Early Modern)',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -6038,7 +6038,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'omani-empire.png',
+                    'file' => 'omani-empire.jpg',
                     'o:alt_text' => 'Map showing the nominal authority territories of the Omani Empire across the Arabian Peninsula and East African coast.',
                     'dcterms:title' => 'Omani Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -6324,7 +6324,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'viceroyalty-of-peru.png',
+                    'file' => 'viceroyalty-of-peru.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Viceroyalty of Peru in colonial South America, highlighted in green.',
                     'dcterms:title' => 'Viceroyalty of Peru',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -6383,7 +6383,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'new-france.png',
+                    'file' => 'new-france.jpg',
                     'o:alt_text' => 'Map of North America highlighting the territory of New France in dark green, showing French colonial possessions.',
                     'dcterms:title' => 'New France',
                     'dcterms:rights' => 'Public domain',
@@ -6442,7 +6442,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'bengal-sultanate.png',
+                    'file' => 'bengal-sultanate.jpg',
                     'o:alt_text' => 'Map of South Asia highlighting the Bengal Sultanate region in green during its historical period of dominance.',
                     'dcterms:title' => 'Bengal Sultanate',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -6503,7 +6503,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'bijapur-sultanate.png',
+                    'file' => 'bijapur-sultanate.jpg',
                     'o:alt_text' => 'Map of India highlighting the Bijapur Sultanate territory in red, located in the Deccan region of south-central India.',
                     'dcterms:title' => 'Bijapur Sultanate',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -6623,7 +6623,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'sikh-khalsa-confederacy.png',
+                    'file' => 'sikh-khalsa-confederacy.jpg',
                     'o:alt_text' => 'Map of the Indian subcontinent showing the territorial extent of the Sikh Confederacy in northwest Punjab during the eighteenth century.',
                     'dcterms:title' => 'Sikh Khalsa Confederacy',
                     'dcterms:rights' => 'CC BY 4.0',
@@ -6684,7 +6684,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'afghan-durrani-empire.png',
+                    'file' => 'afghan-durrani-empire.jpg',
                     'o:alt_text' => 'Map showing the Durrani Empire\'s territorial extent in blue across Afghanistan and surrounding regions during the 18th century.',
                     'dcterms:title' => 'Afghan Durrani Empire',
                     'dcterms:rights' => 'Public domain',
@@ -6744,7 +6744,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-mysore.png',
+                    'file' => 'kingdom-of-mysore.jpg',
                     'o:alt_text' => 'Map depicting the territorial extent of the Mysore Kingdom circa 1784, centered on its capital at Mysore in southern India.',
                     'dcterms:title' => 'Kingdom of Mysore',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -6803,7 +6803,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'zanzibar-sultanate.png',
+                    'file' => 'zanzibar-sultanate.jpg',
                     'o:alt_text' => 'Map of Zanzibar Sultanate showing coastal regions, major cities, and surrounding territories in East Africa.',
                     'dcterms:title' => 'Zanzibar Sultanate',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -6920,7 +6920,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'xia-dynasty.png',
+                    'file' => 'xia-dynasty.jpg',
                     'o:alt_text' => 'Map of China showing the approximate geographic extent of the Xia Dynasty in the Yellow River valley region.',
                     'dcterms:title' => 'Xia Dynasty',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -7099,7 +7099,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'eastern-zhou-dynasty.png',
+                    'file' => 'eastern-zhou-dynasty.jpg',
                     'o:alt_text' => 'Map depicting the principality states of the Zhou Dynasty, showing Zhou King\'s territory, major states, and tier classifications during Eastern Zhou period.',
                     'dcterms:title' => 'Eastern Zhou Dynasty',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -7558,7 +7558,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'qin-dynasty.png',
+                    'file' => 'qin-dynasty.jpg',
                     'o:alt_text' => 'Map of the Qin Empire in 210 BCE showing capitals, the Great Wall, and territorial boundaries across ancient China.',
                     'dcterms:title' => 'Qin Dynasty',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -7679,7 +7679,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'xin-dynasty.png',
+                    'file' => 'xin-dynasty.jpg',
                     'o:alt_text' => 'Map of the Xin Dynasty territorial extent during 9-23 CE, showing administrative divisions and regional control in ancient China.',
                     'dcterms:title' => 'Xin Dynasty',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -7976,7 +7976,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'western-jin-dynasty.png',
+                    'file' => 'western-jin-dynasty.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Western Jin Dynasty in yellow across central and eastern China around 280 CE.',
                     'dcterms:title' => 'Western Jin Dynasty',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -8038,7 +8038,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'eastern-jin-dynasty.png',
+                    'file' => 'eastern-jin-dynasty.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Eastern Jin Dynasty in yellow compared to the Former Qin state in blue, circa 376 CE.',
                     'dcterms:title' => 'Eastern Jin Dynasty',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -8099,7 +8099,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'sixteen-kingdoms.png',
+                    'file' => 'sixteen-kingdoms.jpg',
                     'o:alt_text' => 'Map depicting the territorial divisions of the Northern Wei Empire, Helian Xia, Jin Empire, and Western Liang during China\'s Sixteen Kingdoms period.',
                     'dcterms:title' => 'Sixteen Kingdoms',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -8225,7 +8225,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'northern-zhou-dynasty.png',
+                    'file' => 'northern-zhou-dynasty.jpg',
                     'o:alt_text' => 'Map of Northern Zhou Dynasty territory showing administrative divisions and regional states during sixth-century China.',
                     'dcterms:title' => 'Northern Zhou Dynasty',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -8284,7 +8284,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'sui-dynasty.png',
+                    'file' => 'sui-dynasty.jpg',
                     'o:alt_text' => 'Map depicting the Sui Dynasty\'s provinces and territorial extent in China around 610 CE.',
                     'dcterms:title' => 'Sui Dynasty',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -8355,7 +8355,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'tang-dynasty.png',
+                    'file' => 'tang-dynasty.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Tang Dynasty in 700 CE, highlighted in teal across eastern and central Asia.',
                     'dcterms:title' => 'Tang Dynasty',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -8629,7 +8629,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'jin-dynasty-jurchen.png',
+                    'file' => 'jin-dynasty-jurchen.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Jin Dynasty and neighboring regions including the Song, Xi Xia, and Mongols.',
                     'dcterms:title' => 'Jin Dynasty (Jurchen)',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -8691,7 +8691,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'yuan-dynasty.png',
+                    'file' => 'yuan-dynasty.jpg',
                     'o:alt_text' => 'Map of provinces in Yuan Dynasty China circa 1330 C.E., showing administrative divisions and major cities.',
                     'dcterms:title' => 'Yuan Dynasty',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -8915,7 +8915,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'xianbei-confederation.png',
+                    'file' => 'xianbei-confederation.jpg',
                     'o:alt_text' => 'Map depicting the territorial extent of the Xianbei Confederation of Tanshihuai, circa 156-181 CE in East Asia.',
                     'dcterms:title' => 'Xianbei Confederation',
                     'dcterms:rights' => 'Public domain',
@@ -8975,7 +8975,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'rouran-khaganate.png',
+                    'file' => 'rouran-khaganate.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Rouran Khaganate highlighted in green across the Mongolian plateau during the fourth to sixth centuries CE.',
                     'dcterms:title' => 'Rouran Khaganate',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -9035,7 +9035,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'northern-qi.png',
+                    'file' => 'northern-qi.jpg',
                     'o:alt_text' => 'Map of Northern Qi Dynasty territory in northeastern China circa 6th century CE, showing regional kingdoms and neighboring peoples.',
                     'dcterms:title' => 'Northern Qi',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -9937,7 +9937,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'unified-silla.png',
+                    'file' => 'unified-silla.jpg',
                     'o:alt_text' => 'Map of Unified Silla showing the kingdom\'s territorial extent across the Korean peninsula during its reign.',
                     'dcterms:title' => 'Unified Silla',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -10116,7 +10116,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'g-kt-rk-khaganate.png',
+                    'file' => 'g-kt-rk-khaganate.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Göktürk Khaganate in dark red across Central Asia and Mongolia.',
                     'dcterms:title' => 'Göktürk Khaganate',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -10226,7 +10226,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'uyghur-khaganate.png',
+                    'file' => 'uyghur-khaganate.jpg',
                     'o:alt_text' => 'Map of Asia showing the Uyghur Khaganate\'s territorial extent in purple during the medieval period.',
                     'dcterms:title' => 'Uyghur Khaganate',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -10296,7 +10296,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'mongol-empire.png',
+                    'file' => 'mongol-empire.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Mongol Empire highlighted in green across Asia and Eastern Europe.',
                     'dcterms:title' => 'Mongol Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -10415,7 +10415,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'western-xia.png',
+                    'file' => 'western-xia.jpg',
                     'o:alt_text' => 'Map showing Western Xia (Xi Xia) territory in green relative to surrounding Song dynasty and Liao empire regions during medieval China.',
                     'dcterms:title' => 'Western Xia',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -10475,7 +10475,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'tibetan-empire.png',
+                    'file' => 'tibetan-empire.jpg',
                     'o:alt_text' => 'Map of the world showing the territorial extent of the Tibetan Empire highlighted in purple across Central Asia.',
                     'dcterms:title' => 'Tibetan Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -10535,7 +10535,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'nanzhao-kingdom.png',
+                    'file' => 'nanzhao-kingdom.jpg',
                     'o:alt_text' => 'Map of the Kingdom of Nanzhao as of 379 AD showing its territory and neighboring empires and states.',
                     'dcterms:title' => 'Nanzhao Kingdom',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -10594,7 +10594,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'dali-kingdom.png',
+                    'file' => 'dali-kingdom.jpg',
                     'o:alt_text' => 'Map depicting the Dali Kingdom\'s territorial extent and major cities during the late 12th century.',
                     'dcterms:title' => 'Dali Kingdom',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -10652,7 +10652,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'liu-song-dynasty.png',
+                    'file' => 'liu-song-dynasty.jpg',
                     'o:alt_text' => 'Map of Liu Song Dynasty territory in China showing controlled regions in peach, Northern Wei in tan, Song Dynasty in gray, and surrounding areas in cyan.',
                     'dcterms:title' => 'Liu Song Dynasty',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -10876,7 +10876,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'eastern-wei.png',
+                    'file' => 'eastern-wei.jpg',
                     'o:alt_text' => 'Map of Eastern Wei dynasty territories in peach and salmon colors, showing administrative divisions and major cities circa 534-550 CE.',
                     'dcterms:title' => 'Eastern Wei',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -11091,7 +11091,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'nanyue-kingdom.png',
+                    'file' => 'nanyue-kingdom.jpg',
                     'o:alt_text' => 'Orthographic projection map highlighting the Nanyue Kingdom territory in dark green across southern China and northern Vietnam.',
                     'dcterms:title' => 'Nanyue Kingdom',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -11258,7 +11258,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'former-qin.png',
+                    'file' => 'former-qin.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Former Qin state in blue and Eastern Jin Dynasty in yellow during 376 CE.',
                     'dcterms:title' => 'Former Qin',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -11319,7 +11319,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'visigothic-kingdom.png',
+                    'file' => 'visigothic-kingdom.jpg',
                     'o:alt_text' => 'Map of the Visigothic Kingdom showing territorial divisions across the Iberian Peninsula during the medieval period.',
                     'dcterms:title' => 'Visigothic Kingdom',
                     'dcterms:rights' => 'Public domain',
@@ -11378,7 +11378,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'ostrogothic-kingdom.png',
+                    'file' => 'ostrogothic-kingdom.jpg',
                     'o:alt_text' => 'Map of the Ostrogothic Kingdom of Italy during Theodoric the Great\'s reign, highlighted in blue against surrounding European territories.',
                     'dcterms:title' => 'Ostrogothic Kingdom',
                     'dcterms:rights' => 'Public domain',
@@ -11437,7 +11437,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'frankish-kingdom.png',
+                    'file' => 'frankish-kingdom.jpg',
                     'o:alt_text' => 'Map of Gaul in 481 showing the division of the Frankish Kingdom into four regional realms under Merovingian rule.',
                     'dcterms:title' => 'Frankish Kingdom',
                     'dcterms:rights' => 'Public domain',
@@ -11500,7 +11500,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'carolingian-empire.png',
+                    'file' => 'carolingian-empire.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Carolingian Empire highlighted in dark green across western and central Europe.',
                     'dcterms:title' => 'Carolingian Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -11579,7 +11579,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'holy-roman-empire.png',
+                    'file' => 'holy-roman-empire.jpg',
                     'o:alt_text' => 'Map of the Holy Roman Empire in 1740 showing territorial divisions, ecclesiastical states, and neighboring kingdoms in Central Europe.',
                     'dcterms:title' => 'Holy Roman Empire',
                     'dcterms:rights' => 'CC BY 2.5',
@@ -11713,7 +11713,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-england.png',
+                    'file' => 'kingdom-of-england.jpg',
                     'o:alt_text' => 'Map of Europe highlighting the Kingdom of England in dark green among surrounding gray regions.',
                     'dcterms:title' => 'Kingdom of England',
                     'dcterms:rights' => 'Public domain',
@@ -11844,7 +11844,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kievan-rus.png',
+                    'file' => 'kievan-rus.jpg',
                     'o:alt_text' => 'Map depicting the borders and territorial extent of Kievan Rus during the eleventh century (1015-1113 CE).',
                     'dcterms:title' => 'Kievan Rus',
                     'dcterms:rights' => 'CC BY-SA 2.5',
@@ -11971,7 +11971,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-hungary.png',
+                    'file' => 'kingdom-of-hungary.jpg',
                     'o:alt_text' => 'Map of Europe highlighting the Kingdom of Hungary in dark green during the medieval period.',
                     'dcterms:title' => 'Kingdom of Hungary',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -12088,7 +12088,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-bohemia.png',
+                    'file' => 'kingdom-of-bohemia.jpg',
                     'o:alt_text' => 'Map of Central Europe highlighting the Kingdom of Bohemia in dark red during its historical extent.',
                     'dcterms:title' => 'Kingdom of Bohemia',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -12264,7 +12264,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-norway.png',
+                    'file' => 'kingdom-of-norway.jpg',
                     'o:alt_text' => 'Map of medieval Kingdom of Norway highlighting territorial extent including Scandinavia, British Isles, Greenland, and Iceland.',
                     'dcterms:title' => 'Kingdom of Norway',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -12387,7 +12387,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-castile.png',
+                    'file' => 'kingdom-of-castile.jpg',
                     'o:alt_text' => 'Map of the Iberian Peninsula in 1224 showing the kingdoms of Castile, Portugal, Aragon, Navarre, and the Caliphate of Almohade.',
                     'dcterms:title' => 'Kingdom of Castile',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -12447,7 +12447,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-aragon.png',
+                    'file' => 'kingdom-of-aragon.jpg',
                     'o:alt_text' => 'Map of the Kingdom of Aragon showing territorial divisions including Marquesado de Lérida, Marquesado de Tortosa, and Señorío de Albamacín.',
                     'dcterms:title' => 'Kingdom of Aragon',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -12508,7 +12508,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-portugal.png',
+                    'file' => 'kingdom-of-portugal.jpg',
                     'o:alt_text' => 'Map showing the Portuguese Empire\'s global territorial possessions and colonies across four continents during its maritime expansion.',
                     'dcterms:title' => 'Kingdom of Portugal',
                     'dcterms:rights' => 'Public domain',
@@ -12627,7 +12627,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'duchy-of-burgundy.png',
+                    'file' => 'duchy-of-burgundy.jpg',
                     'o:alt_text' => 'Map depicting the territorial extent of the House of Valois-Burgundy between 1465-1477 during Charles the Bold\'s reign.',
                     'dcterms:title' => 'Duchy of Burgundy',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -12691,7 +12691,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'republic-of-venice.png',
+                    'file' => 'republic-of-venice.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Venetian Republic and its colonies throughout the Mediterranean and Adriatic regions from 1205-1797.',
                     'dcterms:title' => 'Republic of Venice',
                     'dcterms:rights' => 'CC BY-SA 2.5',
@@ -12751,7 +12751,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'republic-of-genoa.png',
+                    'file' => 'republic-of-genoa.jpg',
                     'o:alt_text' => 'Map of the Mediterranean region showing the territorial extent of the Republic of Genoa highlighted in red.',
                     'dcterms:title' => 'Republic of Genoa',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -12926,7 +12926,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'teutonic-order-state.png',
+                    'file' => 'teutonic-order-state.jpg',
                     'o:alt_text' => 'Map of Northern Europe showing the territorial extent of the Teutonic Order State highlighted in green.',
                     'dcterms:title' => 'Teutonic Order State',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -13038,7 +13038,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'serbian-empire.png',
+                    'file' => 'serbian-empire.jpg',
                     'o:alt_text' => 'Map depicting the medieval Serbian Empire and surrounding Balkan regions, including the Byzantine Empire, Bulgarian Empire, and Kingdom of Hungary.',
                     'dcterms:title' => 'Serbian Empire',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -13100,7 +13100,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-bulgaria.png',
+                    'file' => 'kingdom-of-bulgaria.jpg',
                     'o:alt_text' => 'Map of Europe highlighting Bulgaria in green, showing its location in the southeastern Balkans region.',
                     'dcterms:title' => 'Kingdom of Bulgaria',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -13162,7 +13162,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-sicily.png',
+                    'file' => 'kingdom-of-sicily.jpg',
                     'o:alt_text' => 'Map of Europe highlighting the Kingdom of Sicily in dark green during the Norman medieval period.',
                     'dcterms:title' => 'Kingdom of Sicily',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -13222,7 +13222,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'republic-of-florence.png',
+                    'file' => 'republic-of-florence.jpg',
                     'o:alt_text' => 'Map of Italy highlighting the Republic of Florence in green during the Renaissance period.',
                     'dcterms:title' => 'Republic of Florence',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -13285,7 +13285,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'crusader-states.png',
+                    'file' => 'crusader-states.jpg',
                     'o:alt_text' => 'Map of the Crusader States in 1135, showing the County of Edessa, Principality of Antioch, County of Tripoli, and Kingdom of Jerusalem.',
                     'dcterms:title' => 'Crusader States',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -13345,7 +13345,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'duchy-of-normandy.png',
+                    'file' => 'duchy-of-normandy.jpg',
                     'o:alt_text' => 'Map of the Duchy of Normandy showing major cities and regions in medieval northern France.',
                     'dcterms:title' => 'Duchy of Normandy',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -13405,7 +13405,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-navarre.png',
+                    'file' => 'kingdom-of-navarre.jpg',
                     'o:alt_text' => 'Map of Europe highlighting the Kingdom of Navarre in green on the Iberian Peninsula.',
                     'dcterms:title' => 'Kingdom of Navarre',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -13465,7 +13465,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'second-bulgarian-empire.png',
+                    'file' => 'second-bulgarian-empire.jpg',
                     'o:alt_text' => 'Map of Europe highlighting the Second Bulgarian Empire\'s territorial extent in dark green during its medieval period.',
                     'dcterms:title' => 'Second Bulgarian Empire',
                     'dcterms:rights' => 'Public domain',
@@ -13528,7 +13528,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'latin-empire-of-constantinople.png',
+                    'file' => 'latin-empire-of-constantinople.jpg',
                     'o:alt_text' => 'Map depicting the Latin Empire of Constantinople and surrounding political entities in the Eastern Mediterranean region circa 1204.',
                     'dcterms:title' => 'Latin Empire of Constantinople',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -13589,7 +13589,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'empire-of-nicaea.png',
+                    'file' => 'empire-of-nicaea.jpg',
                     'o:alt_text' => 'Map showing the Empire of Nicaea and surrounding Byzantine successor states and Turkish sultanates circa 1215 CE.',
                     'dcterms:title' => 'Empire of Nicaea',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -13648,7 +13648,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'despotate-of-epirus.png',
+                    'file' => 'despotate-of-epirus.jpg',
                     'o:alt_text' => 'Map depicting the Despotate of Epirus and surrounding Byzantine successor states in the eastern Mediterranean circa 13th century.',
                     'dcterms:title' => 'Despotate of Epirus',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -13767,7 +13767,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'duchy-of-athens.png',
+                    'file' => 'duchy-of-athens.jpg',
                     'o:alt_text' => 'Map depicting the Duchy of Athens and surrounding medieval Mediterranean territories, circa 13th-15th centuries.',
                     'dcterms:title' => 'Duchy of Athens',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -13826,7 +13826,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-galicia-volhynia.png',
+                    'file' => 'kingdom-of-galicia-volhynia.jpg',
                     'o:alt_text' => 'Engraving of a mounted medieval warrior in ornate armor and helmet riding a horse.',
                     'dcterms:title' => 'Kingdom of Galicia-Volhynia',
                     'dcterms:rights' => 'CC0',
@@ -13888,7 +13888,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'principality-of-moscow.png',
+                    'file' => 'principality-of-moscow.jpg',
                     'o:alt_text' => 'Map of Principality of Moscow showing major cities including Novgorod, Moskva, Suzdal, Ryazan, and Smolensk during medieval period.',
                     'dcterms:title' => 'Principality of Moscow',
                     'dcterms:rights' => 'Attribution',
@@ -13947,7 +13947,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'trebizond-empire.png',
+                    'file' => 'trebizond-empire.jpg',
                     'o:alt_text' => 'Map of the Eastern Mediterranean and Black Sea region in 1300 showing the Empire of Trebizond and surrounding political entities.',
                     'dcterms:title' => 'Trebizond Empire',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -14057,7 +14057,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'principality-of-moldavia.png',
+                    'file' => 'principality-of-moldavia.jpg',
                     'o:alt_text' => 'Map depicting the Principality of Moldavia in 1483, showing state boundaries, counties, settlements, rivers, and elevation across Eastern Europe.',
                     'dcterms:title' => 'Principality of Moldavia',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -14176,7 +14176,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'black-death-period.png',
+                    'file' => 'black-death-period.jpg',
                     'o:alt_text' => 'Map showing the spread of the Black Death across Europe from 1346 to 1353 with trade routes indicated.',
                     'dcterms:title' => 'Black Death Period',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -14235,7 +14235,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'hundred-years-war-france-england.png',
+                    'file' => 'hundred-years-war-france-england.jpg',
                     'o:alt_text' => 'Map of France showing territorial control during the Hundred Years\' War, with English and Burgundian zones in red and French royal domains in green.',
                     'dcterms:title' => 'Hundred Years War France-England',
                     'dcterms:rights' => 'Public domain',
@@ -14344,7 +14344,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'crown-of-aragon-sicily.png',
+                    'file' => 'crown-of-aragon-sicily.jpg',
                     'o:alt_text' => 'Map depicting the territories and areas of influence of the Crown of Aragon from 1137-1707 across the Mediterranean region.',
                     'dcterms:title' => 'Crown of Aragon Sicily',
                     'dcterms:rights' => 'CC0',
@@ -14403,7 +14403,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'grand-principality-of-finland.png',
+                    'file' => 'grand-principality-of-finland.jpg',
                     'o:alt_text' => 'Map of Europe highlighting Finland in green, showing its historical territory during the Grand Principality period.',
                     'dcterms:title' => 'Grand Principality of Finland',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -14463,7 +14463,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-naples.png',
+                    'file' => 'kingdom-of-naples.jpg',
                     'o:alt_text' => 'Map depicting the Papal States administrative divisions into provinces including Abruzzo Ulteriore, Campania, Basilicata, and Calabria Ulteriore.',
                     'dcterms:title' => 'Kingdom of Naples',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -14524,7 +14524,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'duchy-of-milan.png',
+                    'file' => 'duchy-of-milan.jpg',
                     'o:alt_text' => 'Map of northern Italy showing the Visconti Duchy of Milan\'s territories in green at their maximum extent in 1402.',
                     'dcterms:title' => 'Duchy of Milan',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -14800,7 +14800,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-navarre-france.png',
+                    'file' => 'kingdom-of-navarre-france.jpg',
                     'o:alt_text' => 'Map of Europe highlighting the Kingdom of Navarre-France in green during the early modern period.',
                     'dcterms:title' => 'Kingdom of Navarre-France',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -14861,7 +14861,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'novgorod-republic.png',
+                    'file' => 'novgorod-republic.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Novgorod Republic in medieval Europe, highlighted in green.',
                     'dcterms:title' => 'Novgorod Republic',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -14970,7 +14970,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'albanian-league-of-lezh.png',
+                    'file' => 'albanian-league-of-lezh.jpg',
                     'o:alt_text' => 'Map depicting the League of Lezhë territory in red, surrounded by the Crnojevic principality, Frankish states, Ottoman Empire, and adjacent seas.',
                     'dcterms:title' => 'Albanian League of Lezhë',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -15080,7 +15080,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'duchy-of-savoy.png',
+                    'file' => 'duchy-of-savoy.jpg',
                     'o:alt_text' => 'Map of Europe highlighting the Duchy of Savoy in green, located in the Alpine region between France and Italy.',
                     'dcterms:title' => 'Duchy of Savoy',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -15139,7 +15139,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'angevin-empire.png',
+                    'file' => 'angevin-empire.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Angevin Empire under Henry II and Richard I in green across England, Ireland, and France.',
                     'dcterms:title' => 'Angevin Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -15199,7 +15199,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-jerusalem.png',
+                    'file' => 'kingdom-of-jerusalem.jpg',
                     'o:alt_text' => 'Map of the Near East in 1135 showing the Kingdom of Jerusalem and surrounding medieval polities during the Crusades era.',
                     'dcterms:title' => 'Kingdom of Jerusalem',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -15316,7 +15316,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'minoan-civilization.png',
+                    'file' => 'minoan-civilization.jpg',
                     'o:alt_text' => 'Map of Minoan Crete showing palace sites, country houses, tombs, settlements, and mountain sanctuaries across the island.',
                     'dcterms:title' => 'Minoan Civilization',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -15431,7 +15431,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-macedon.png',
+                    'file' => 'kingdom-of-macedon.jpg',
                     'o:alt_text' => 'Map depicting the Kingdom of Macedon and surrounding territories at the death of Philip II in 336 BC.',
                     'dcterms:title' => 'Kingdom of Macedon',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -16145,7 +16145,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'delian-league.png',
+                    'file' => 'delian-league.jpg',
                     'o:alt_text' => 'Map showing the Athenian Empire and Delian League territories at the time of the Peloponnesian War (431 BCE).',
                     'dcterms:title' => 'Delian League',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -16205,7 +16205,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'achaean-league.png',
+                    'file' => 'achaean-league.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Achaean League in ancient Greece, with member cities and regions highlighted in green.',
                     'dcterms:title' => 'Achaean League',
                     'dcterms:rights' => 'Public domain',
@@ -16435,7 +16435,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'seleucid-empire.png',
+                    'file' => 'seleucid-empire.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Seleucid Empire in green across Western Asia and the Mediterranean region.',
                     'dcterms:title' => 'Seleucid Empire',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -16548,7 +16548,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-pontus.png',
+                    'file' => 'kingdom-of-pontus.jpg',
                     'o:alt_text' => 'Map showing the Kingdom of Pontus at its greatest extent under Mithridates VI, circa first century BCE.',
                     'dcterms:title' => 'Kingdom of Pontus',
                     'dcterms:rights' => 'Public domain',
@@ -16708,7 +16708,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-the-bosporus.png',
+                    'file' => 'kingdom-of-the-bosporus.jpg',
                     'o:alt_text' => 'Map showing the territorial expansion of the Kingdom of the Bosporus across different periods from the fifth to first centuries BCE.',
                     'dcterms:title' => 'Kingdom of the Bosporus',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -16842,7 +16842,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'roman-republic.png',
+                    'file' => 'roman-republic.jpg',
                     'o:alt_text' => 'Map of the Roman Republic showing its territorial extent across the Mediterranean region in dark red.',
                     'dcterms:title' => 'Roman Republic',
                     'dcterms:rights' => 'CC BY-SA 2.5',
@@ -16971,7 +16971,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'western-roman-empire.png',
+                    'file' => 'western-roman-empire.jpg',
                     'o:alt_text' => 'Map depicting the territorial domains of the Western Augustus across Europe, North Africa, and the Mediterranean region in 400 A.D.',
                     'dcterms:title' => 'Western Roman Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -17165,7 +17165,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'etruscan-civilization.png',
+                    'file' => 'etruscan-civilization.jpg',
                     'o:alt_text' => 'Map depicting the geographic extent and major cities of Etruscan civilization in central Italy during 750-500 BCE.',
                     'dcterms:title' => 'Etruscan Civilization',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -17227,7 +17227,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'magna-graecia.png',
+                    'file' => 'magna-graecia.jpg',
                     'o:alt_text' => 'Map of ancient Greek dialects in Magna Graecia and Sicily, showing Dorian, Ionian, Achaean, and Northwestern Greek regions.',
                     'dcterms:title' => 'Magna Graecia',
                     'dcterms:rights' => 'Public domain',
@@ -17336,7 +17336,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'latin-league.png',
+                    'file' => 'latin-league.jpg',
                     'o:alt_text' => 'Map of ancient Latin League territory showing settlements and geographical features in central Italy during the pre-Roman period.',
                     'dcterms:title' => 'Latin League',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -17396,7 +17396,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'numidia.png',
+                    'file' => 'numidia.jpg',
                     'o:alt_text' => 'Map showing the territories of Carthage, Numidia, and Rome in ancient North Africa during the Second Punic War period.',
                     'dcterms:title' => 'Numidia',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -17504,7 +17504,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-thrace.png',
+                    'file' => 'kingdom-of-thrace.jpg',
                     'o:alt_text' => 'Map of the Thracian state during the 5th-3rd century BC, showing territory, tribes, borders, and major cities.',
                     'dcterms:title' => 'Kingdom of Thrace',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -17662,7 +17662,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-bithynia.png',
+                    'file' => 'kingdom-of-bithynia.jpg',
                     'o:alt_text' => 'Map depicting the Kingdom of Bithynia\'s territories and major cities in northwestern Anatolia during 297-74 BCE.',
                     'dcterms:title' => 'Kingdom of Bithynia',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -17829,7 +17829,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'galatia.png',
+                    'file' => 'galatia.jpg',
                     'o:alt_text' => 'Map depicting the Roman Empire circa second century CE with Galatia highlighted in dark red in central Anatolia.',
                     'dcterms:title' => 'Galatia',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -18002,7 +18002,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-armenia.png',
+                    'file' => 'kingdom-of-armenia.jpg',
                     'o:alt_text' => 'Map showing the Armenian Empire under Tigranes the Great circa 95 A.C., depicting territorial extent and neighboring kingdoms.',
                     'dcterms:title' => 'Kingdom of Armenia',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -18275,7 +18275,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'akkadian-empire.png',
+                    'file' => 'akkadian-empire.jpg',
                     'o:alt_text' => 'Map of the Akkadian Empire showing major cities and territorial extent across ancient Mesopotamia and surrounding regions.',
                     'dcterms:title' => 'Akkadian Empire',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -18340,7 +18340,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'third-dynasty-of-ur.png',
+                    'file' => 'third-dynasty-of-ur.jpg',
                     'o:alt_text' => 'Map of the Third Dynasty of Ur empire showing core territories in dark brown and peripheral regions in light red across ancient Mesopotamia.',
                     'dcterms:title' => 'Third Dynasty of Ur',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -18460,7 +18460,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'old-babylonian-empire.png',
+                    'file' => 'old-babylonian-empire.jpg',
                     'o:alt_text' => 'Map of the Old Babylonian Empire showing territorial divisions including Subartum, Suhum, and Acad with major cities marked.',
                     'dcterms:title' => 'Old Babylonian Empire',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -18628,7 +18628,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'neo-assyrian-empire.png',
+                    'file' => 'neo-assyrian-empire.jpg',
                     'o:alt_text' => 'Map showing the Neo-Assyrian Empire\'s territorial expansion between 824 B.C. and 671 B.C. across the ancient Near East.',
                     'dcterms:title' => 'Neo-Assyrian Empire',
                     'dcterms:rights' => 'Public domain',
@@ -18688,7 +18688,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'neo-babylonian-empire.png',
+                    'file' => 'neo-babylonian-empire.jpg',
                     'o:alt_text' => 'Map depicting the Neo-Babylonian Empire and surrounding ancient regions, including Mesopotamia, Egypt, Persia, and the Mediterranean.',
                     'dcterms:title' => 'Neo-Babylonian Empire',
                     'dcterms:rights' => 'Public domain',
@@ -19100,7 +19100,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'mitanni.png',
+                    'file' => 'mitanni.jpg',
                     'o:alt_text' => 'Map depicting the Mitanni kingdom and surrounding ancient Near Eastern states, including the Hittites, Egyptians, and Babylonians.',
                     'dcterms:title' => 'Mitanni',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -19165,7 +19165,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'hittite-empire.png',
+                    'file' => 'hittite-empire.jpg',
                     'o:alt_text' => 'Map of the Hittite Empire showing territorial divisions including Pala, Hatti, Upper Anatolia, Lower Land, Kizzuwatna, and Levant regions.',
                     'dcterms:title' => 'Hittite Empire',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -19222,7 +19222,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-urartu.png',
+                    'file' => 'kingdom-of-urartu.jpg',
                     'o:alt_text' => 'Map depicting the Kingdom of Urartu during its height of power under Sarduri II in 743 BCE, showing territorial extent and major cities.',
                     'dcterms:title' => 'Kingdom of Urartu',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -19281,7 +19281,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-lydia.png',
+                    'file' => 'kingdom-of-lydia.jpg',
                     'o:alt_text' => 'Map of the Kingdom of Lydia (1200-546 BC) showing its territory, major cities, and neighboring empires in Anatolia.',
                     'dcterms:title' => 'Kingdom of Lydia',
                     'dcterms:rights' => 'CC BY 4.0',
@@ -19392,7 +19392,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'phoenicia.png',
+                    'file' => 'phoenicia.jpg',
                     'o:alt_text' => 'Map of Phoenician territory in the Levant showing major cities and colonial settlements along the Mediterranean coast.',
                     'dcterms:title' => 'Phoenicia',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -19452,7 +19452,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-israel.png',
+                    'file' => 'kingdom-of-israel.jpg',
                     'o:alt_text' => 'Map showing the Kingdom of Israel in blue and Kingdom of Judah in yellow during the Iron Age Levant.',
                     'dcterms:title' => 'Kingdom of Israel',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -19512,7 +19512,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-judah.png',
+                    'file' => 'kingdom-of-judah.jpg',
                     'o:alt_text' => 'Map showing the Kingdom of Judah in yellow and Kingdom of Israel in blue, circa Iron Age Levant.',
                     'dcterms:title' => 'Kingdom of Judah',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -19633,7 +19633,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-aram-damascus.png',
+                    'file' => 'kingdom-of-aram-damascus.jpg',
                     'o:alt_text' => 'Map of ancient Levantine kingdoms and territories, highlighting the Kingdom of Aram-Damascus and surrounding political entities circa Iron Age.',
                     'dcterms:title' => 'Kingdom of Aram-Damascus',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -19750,7 +19750,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'egyptian-old-kingdom.png',
+                    'file' => 'egyptian-old-kingdom.jpg',
                     'o:alt_text' => 'Map depicting the administrative divisions, settlements, and geographical features of the Old Kingdom of Egypt (2686-2181 BC).',
                     'dcterms:title' => 'Egyptian Old Kingdom',
                     'dcterms:rights' => 'CC BY 4.0',
@@ -19808,7 +19808,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'egyptian-middle-kingdom.png',
+                    'file' => 'egyptian-middle-kingdom.jpg',
                     'o:alt_text' => 'Map showing ancient Egypt\'s territorial divisions, trade routes, and military expeditions during the Middle Kingdom period.',
                     'dcterms:title' => 'Egyptian Middle Kingdom',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -19869,7 +19869,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'egyptian-new-kingdom.png',
+                    'file' => 'egyptian-new-kingdom.jpg',
                     'o:alt_text' => 'Map depicting the Egyptian Empire\'s territorial extent during the XVth century BC, showing controlled regions in green and surrounding empires in gray.',
                     'dcterms:title' => 'Egyptian New Kingdom',
                     'dcterms:rights' => 'Public domain',
@@ -20028,7 +20028,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'third-intermediate-period-of-egypt.png',
+                    'file' => 'third-intermediate-period-of-egypt.jpg',
                     'o:alt_text' => 'Map of Egypt during the Third Intermediate Period showing territorial divisions among competing dynasties and rulers.',
                     'dcterms:title' => 'Third Intermediate Period of Egypt',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -20086,7 +20086,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'late-period-of-ancient-egypt.png',
+                    'file' => 'late-period-of-ancient-egypt.jpg',
                     'o:alt_text' => 'Map depicting the Ancient Near East in 540 BC, showing the Persian Empire, Neo-Babylonian Empire, Egypt, and surrounding territories.',
                     'dcterms:title' => 'Late Period of Ancient Egypt',
                     'dcterms:rights' => 'Public domain',
@@ -20578,7 +20578,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kingdom-of-yamhad.png',
+                    'file' => 'kingdom-of-yamhad.jpg',
                     'o:alt_text' => 'Map showing the Kingdom of Yamhad\'s territory in northern Syria bordered by the Hittites, Qatna Kingdom, Mari, and Assyria.',
                     'dcterms:title' => 'Kingdom of Yamhad',
                     'dcterms:rights' => 'CC0',
@@ -20697,7 +20697,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'larsa.png',
+                    'file' => 'larsa.jpg',
                     'o:alt_text' => 'Map of Babylonia circa 1792 BC showing major city-states including Larsa, Isin, Babylon, and Ur during Hammurabi\'s reign.',
                     'dcterms:title' => 'Larsa',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -21193,7 +21193,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'mahajanapadas.png',
+                    'file' => 'mahajanapadas.jpg',
                     'o:alt_text' => 'Map of India in 600 BCE showing the sixteen Mahajanapadas kingdoms, rivers, and modern political boundaries.',
                     'dcterms:title' => 'Mahajanapadas',
                     'dcterms:rights' => 'CC BY 2.5',
@@ -21530,7 +21530,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'gupta-empire.png',
+                    'file' => 'gupta-empire.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Gupta Empire across India between 320-600 AD.',
                     'dcterms:title' => 'Gupta Empire',
                     'dcterms:rights' => 'Public domain',
@@ -21649,7 +21649,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'pallava-kingdom.png',
+                    'file' => 'pallava-kingdom.jpg',
                     'o:alt_text' => 'Map showing the geographic location of the Pallava Kingdom in South India during its historical reign.',
                     'dcterms:title' => 'Pallava Kingdom',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -21818,7 +21818,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'pala-empire.png',
+                    'file' => 'pala-empire.jpg',
                     'o:alt_text' => 'Map of the Indian subcontinent highlighting the Pala Empire territory in blue across Bengal and Bihar regions.',
                     'dcterms:title' => 'Pala Empire',
                     'dcterms:rights' => 'Public domain',
@@ -21998,7 +21998,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'vijayanagara-empire.png',
+                    'file' => 'vijayanagara-empire.jpg',
                     'o:alt_text' => 'Map of India showing the Vijayanagara Empire\'s territorial extent highlighted in coral across southern India.',
                     'dcterms:title' => 'Vijayanagara Empire',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -22060,7 +22060,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'delhi-sultanate.png',
+                    'file' => 'delhi-sultanate.jpg',
                     'o:alt_text' => 'Three maps showing the territorial expansion of successive Delhi Sultanate dynasties across northern India from 1200 to 1451.',
                     'dcterms:title' => 'Delhi Sultanate',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -22131,7 +22131,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'mughal-empire.png',
+                    'file' => 'mughal-empire.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Mughal Empire in 1700 and the Maratha Confederacy in 1760 across the Indian subcontinent.',
                     'dcterms:title' => 'Mughal Empire',
                     'dcterms:rights' => 'CC0',
@@ -22245,7 +22245,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'bahmani-sultanate.png',
+                    'file' => 'bahmani-sultanate.jpg',
                     'o:alt_text' => 'Map of India showing the Bahmani Sultanate\'s territory highlighted in red in the Deccan region.',
                     'dcterms:title' => 'Bahmani Sultanate',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -22357,7 +22357,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'polonnaruwa-kingdom.png',
+                    'file' => 'polonnaruwa-kingdom.jpg',
                     'o:alt_text' => 'Choropleth map of Sri Lanka showing regional divisions in varying shades of green and yellow.',
                     'dcterms:title' => 'Polonnaruwa Kingdom',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -22525,7 +22525,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'chenla-kingdom.png',
+                    'file' => 'chenla-kingdom.jpg',
                     'o:alt_text' => 'Map of Southeast Asia highlighting the Chenla Kingdom in green, showing its territorial extent in mainland Southeast Asia.',
                     'dcterms:title' => 'Chenla Kingdom',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -22591,7 +22591,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'khmer-empire.png',
+                    'file' => 'khmer-empire.jpg',
                     'o:alt_text' => 'Map of the Khmer Empire showing its territory in red with capital at Angkor and surrounding neighboring states and dynasties.',
                     'dcterms:title' => 'Khmer Empire',
                     'dcterms:rights' => 'CC0',
@@ -22775,7 +22775,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'ava-kingdom.png',
+                    'file' => 'ava-kingdom.jpg',
                     'o:alt_text' => 'Map depicting the Kingdom of Ava in yellow within fifteenth-century Burma, showing neighboring kingdoms and regions.',
                     'dcterms:title' => 'Ava Kingdom',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -22837,7 +22837,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'toungoo-empire.png',
+                    'file' => 'toungoo-empire.jpg',
                     'o:alt_text' => 'Map depicting the territorial extent of the Toungoo Empire in sixteenth-century Southeast Asia, showing borders and major cities.',
                     'dcterms:title' => 'Toungoo Empire',
                     'dcterms:rights' => 'Public domain',
@@ -22897,7 +22897,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'dvaravati-kingdom.png',
+                    'file' => 'dvaravati-kingdom.jpg',
                     'o:alt_text' => 'Map of the Dvaravati Kingdom showing major cities and waterways in central Thailand and surrounding regions.',
                     'dcterms:title' => 'Dvaravati Kingdom',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -23020,7 +23020,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'ayutthaya-kingdom.png',
+                    'file' => 'ayutthaya-kingdom.jpg',
                     'o:alt_text' => 'Map of Southeast Asia showing the Ayutthaya Kingdom in purple and its neighboring kingdoms and empires in various colors.',
                     'dcterms:title' => 'Ayutthaya Kingdom',
                     'dcterms:rights' => 'CC0',
@@ -23079,7 +23079,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'lan-xang-kingdom.png',
+                    'file' => 'lan-xang-kingdom.jpg',
                     'o:alt_text' => 'Map of Southeast Asia circa 14th-16th centuries showing Lan Xang Kingdom in green among surrounding kingdoms and empires.',
                     'dcterms:title' => 'Lan Xang Kingdom',
                     'dcterms:rights' => 'CC0',
@@ -23250,7 +23250,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'majapahit-empire.png',
+                    'file' => 'majapahit-empire.jpg',
                     'o:alt_text' => 'Map depicting the Majapahit Empire\'s territorial extent, capital city, vassal states, and naval expeditions across Southeast Asia.',
                     'dcterms:title' => 'Majapahit Empire',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -23316,7 +23316,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'malacca-sultanate.png',
+                    'file' => 'malacca-sultanate.jpg',
                     'o:alt_text' => 'Map of Southeast Asia showing the maximum extent of the Malacca Sultanate in the late 15th century and surrounding regions.',
                     'dcterms:title' => 'Malacca Sultanate',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -23377,7 +23377,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'dai-viet-kingdom.png',
+                    'file' => 'dai-viet-kingdom.jpg',
                     'o:alt_text' => 'Map of Asia highlighting the territorial extent of the Dai Viet Kingdom in Southeast Asia during its historical period.',
                     'dcterms:title' => 'Dai Viet Kingdom',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -23485,7 +23485,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'singhasari-kingdom.png',
+                    'file' => 'singhasari-kingdom.jpg',
                     'o:alt_text' => 'Map showing the Singhasari Kingdom\'s territorial extent, trade networks, and military expeditions across Java and the Indian Ocean region, circa 1275-1284.',
                     'dcterms:title' => 'Singhasari Kingdom',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -23544,7 +23544,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'mataram-kingdom.png',
+                    'file' => 'mataram-kingdom.jpg',
                     'o:alt_text' => 'Map of Java showing the Mataram Kingdom\'s core territory and sphere of influence during the 8th-11th centuries.',
                     'dcterms:title' => 'Mataram Kingdom',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -23654,7 +23654,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'sultanate-of-brunei.png',
+                    'file' => 'sultanate-of-brunei.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Sultanate of Brunei in 1500, highlighted in yellow across Borneo and the Philippines.',
                     'dcterms:title' => 'Sultanate of Brunei',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -23713,7 +23713,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'aceh-sultanate.png',
+                    'file' => 'aceh-sultanate.jpg',
                     'o:alt_text' => 'Map depicting the Aceh Sultanate\'s territorial expansion and military expeditions against Portuguese and Malay states, 1524-1637.',
                     'dcterms:title' => 'Aceh Sultanate',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -23824,7 +23824,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'western-chalukya-empire.png',
+                    'file' => 'western-chalukya-empire.jpg',
                     'o:alt_text' => 'Map of India highlighting the territorial extent of the Western Chalukya Empire in red during the Deccan period.',
                     'dcterms:title' => 'Western Chalukya Empire',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -23883,7 +23883,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'hoysala-empire.png',
+                    'file' => 'hoysala-empire.jpg',
                     'o:alt_text' => 'Map of India highlighting the Hoysala Empire territory in red across central and southern Karnataka.',
                     'dcterms:title' => 'Hoysala Empire',
                     'dcterms:rights' => 'CC BY-SA 2.5',
@@ -23992,7 +23992,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kotte-kingdom.png',
+                    'file' => 'kotte-kingdom.jpg',
                     'o:alt_text' => 'Map of Sri Lanka showing the territorial extent of the Kotte Kingdom in darker red along the western and southern coasts.',
                     'dcterms:title' => 'Kotte Kingdom',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -24051,7 +24051,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'pyu-city-states.png',
+                    'file' => 'pyu-city-states.jpg',
                     'o:alt_text' => 'Map of Myanmar showing the geographic distribution of Pyu city-states including Tagaung, Halin, Maingmaw, Binnaka, Beikthano, and Sri Ksetra.',
                     'dcterms:title' => 'Pyu City-States',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -24111,7 +24111,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'mon-hanthawaddy-kingdom.png',
+                    'file' => 'mon-hanthawaddy-kingdom.jpg',
                     'o:alt_text' => 'Map showing the Hanthawaddy Pegu Kingdom and surrounding Shan States, Arakan, Lan Na, Lan Xang, and Siam in medieval Southeast Asia.',
                     'dcterms:title' => 'Mon Hanthawaddy Kingdom',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -24170,7 +24170,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'taungoo-dynasty.png',
+                    'file' => 'taungoo-dynasty.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Taungoo Empire in Southeast Asia during the 16th-17th centuries.',
                     'dcterms:title' => 'Taungoo Dynasty',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -24229,7 +24229,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'l-dynasty-vietnam.png',
+                    'file' => 'l-dynasty-vietnam.jpg',
                     'o:alt_text' => 'Map depicting the territorial extent of the Đại Minh (Later Lê Dynasty) Vietnam in red against surrounding regions.',
                     'dcterms:title' => 'Lê Dynasty Vietnam',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -24288,7 +24288,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'lan-na-kingdom.png',
+                    'file' => 'lan-na-kingdom.jpg',
                     'o:alt_text' => 'Map of Southeast Asia showing Lan Na Kingdom and surrounding states during the medieval period, circa 15th century.',
                     'dcterms:title' => 'Lan Na Kingdom',
                     'dcterms:rights' => 'CC0',
@@ -24347,7 +24347,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'chera-kingdom.png',
+                    'file' => 'chera-kingdom.jpg',
                     'o:alt_text' => 'Globe map highlighting the location of the Chera Kingdom in ancient South India.',
                     'dcterms:title' => 'Chera Kingdom',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -24528,7 +24528,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'ethiopian-empire.png',
+                    'file' => 'ethiopian-empire.jpg',
                     'o:alt_text' => 'Globe map highlighting Ethiopia in yellow, showing its location in the Horn of Africa region.',
                     'dcterms:title' => 'Ethiopian Empire',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -24588,7 +24588,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'ghana-empire.png',
+                    'file' => 'ghana-empire.jpg',
                     'o:alt_text' => 'Map of West Africa showing the Ghana Empire\'s territorial extent highlighted in green, with major cities labeled.',
                     'dcterms:title' => 'Ghana Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -24715,7 +24715,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'songhai-empire.png',
+                    'file' => 'songhai-empire.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Songhai Empire in West Africa during its peak period.',
                     'dcterms:title' => 'Songhai Empire',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -24777,7 +24777,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'kanem-bornu-empire.png',
+                    'file' => 'kanem-bornu-empire.jpg',
                     'o:alt_text' => 'Map showing the territorial extent of the Kanem-Bornu Empire around Lake Chad with marked capitals.',
                     'dcterms:title' => 'Kanem-Bornu Empire',
                     'dcterms:rights' => 'CC0',
@@ -25011,7 +25011,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'swahili-city-states.png',
+                    'file' => 'swahili-city-states.jpg',
                     'o:alt_text' => 'Map of Indian Ocean trade routes connecting Swahili city-states to Arabian, Indian, and Chinese ports.',
                     'dcterms:title' => 'Swahili City-States',
                     'dcterms:rights' => 'CC BY 4.0',
@@ -25317,7 +25317,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'dahomey-kingdom.png',
+                    'file' => 'dahomey-kingdom.jpg',
                     'o:alt_text' => 'Map of Dahomey Kingdom in present-day Benin, bordered by Togo, Burkina Faso, Niger, and Nigeria, with major rivers labeled.',
                     'dcterms:title' => 'Dahomey Kingdom',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -25595,7 +25595,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'adal-sultanate.png',
+                    'file' => 'adal-sultanate.jpg',
                     'o:alt_text' => 'Historical map depicting colored regions of the Horn of Africa, showing territorial boundaries during the Adal Sultanate period.',
                     'dcterms:title' => 'Adal Sultanate',
                     'dcterms:rights' => 'Public domain',
@@ -25714,7 +25714,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'mossi-kingdoms.png',
+                    'file' => 'mossi-kingdoms.jpg',
                     'o:alt_text' => 'Map showing the Mossi Kingdoms in yellow-green within West Africa, bordered by Mali, Songhai, and other regions.',
                     'dcterms:title' => 'Mossi Kingdoms',
                     'dcterms:rights' => 'CC BY-SA 4.0',
@@ -25833,7 +25833,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'funj-sultanate.png',
+                    'file' => 'funj-sultanate.jpg',
                     'o:alt_text' => 'Map of the Funj Sultanate of Sennar and surrounding regions in 1750, showing political boundaries in the Nile valley.',
                     'dcterms:title' => 'Funj Sultanate',
                     'dcterms:rights' => 'CC BY 3.0',
@@ -25892,7 +25892,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'darfur-sultanate.png',
+                    'file' => 'darfur-sultanate.jpg',
                     'o:alt_text' => 'Globe map highlighting the location of Darfur Sultanate in western Sudan, shown in dark green.',
                     'dcterms:title' => 'Darfur Sultanate',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -26011,7 +26011,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'ajuran-sultanate.png',
+                    'file' => 'ajuran-sultanate.jpg',
                     'o:alt_text' => 'Map showing the Ajuran Empire\'s territorial extent in medieval Somalia alongside neighboring sultanates and European colonial powers.',
                     'dcterms:title' => 'Ajuran Sultanate',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -26120,7 +26120,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'lunda-empire.png',
+                    'file' => 'lunda-empire.jpg',
                     'o:alt_text' => 'Map of the Lunda Empire showing territorial divisions including the Kuba kingdom, Lunda heartland, and Lunda Empire states in central Africa.',
                     'dcterms:title' => 'Lunda Empire',
                     'dcterms:rights' => 'Public domain',
@@ -26178,7 +26178,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'bunyoro-kingdom.png',
+                    'file' => 'bunyoro-kingdom.jpg',
                     'o:alt_text' => 'Map of Uganda highlighting the Bunyoro Kingdom region in red within its historical territorial boundaries.',
                     'dcterms:title' => 'Bunyoro Kingdom',
                     'dcterms:rights' => 'CC BY-SA 3.0',
@@ -26298,7 +26298,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'lydian-kingdom.png',
+                    'file' => 'lydian-kingdom.jpg',
                     'o:alt_text' => 'Map depicting the Kingdom of Lydia in western Anatolia during 1200-546 BC, showing major cities, neighboring empires, and battle sites.',
                     'dcterms:title' => 'Lydian Kingdom',
                     'dcterms:rights' => 'CC BY 4.0',
@@ -26359,7 +26359,7 @@ return [
             ],
             'media' => [
                 [
-                    'file' => 'avar-khaganate.png',
+                    'file' => 'avar-khaganate.jpg',
                     'o:alt_text' => 'Map depicting the Avar Khaganate\'s territorial extent in the Pannonian Basin during the early medieval period.',
                     'dcterms:title' => 'Avar Khaganate',
                     'dcterms:rights' => 'CC BY-SA 4.0',

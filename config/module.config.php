@@ -11,8 +11,8 @@ return [
                 'description' => 'Paintings, sculptures, works on paper, and manuscripts spanning art movements from antiquity to the present.',
                 'item_count' => 200,
                 'set_count' => 5,
-                'media_count' => 165,
-                'media_size' => '16 MB',
+                'media_count' => 200,
+                'media_size' => '17 MB',
             ],
             'civilizations' => [
                 'label' => 'Civilizations',
@@ -20,7 +20,7 @@ return [
                 'item_count' => 450,
                 'set_count' => 10,
                 'media_count' => 352,
-                'media_size' => '75 MB',
+                'media_size' => '19 MB',
             ],
             'documents' => [
                 'label' => 'Documents',
@@ -36,7 +36,7 @@ return [
                 'item_count' => 100,
                 'set_count' => 5,
                 'media_count' => 85,
-                'media_size' => '13 MB',
+                'media_size' => '8 MB',
             ],
         ],
     ],

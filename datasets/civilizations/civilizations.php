@@ -1943,7 +1943,7 @@ return [
             'media' => [
                 [
                     'file' => 'tiwanaku-civilization.jpg',
-                    'o:alt_text' => 'Line graph showing simulated Tiwanaku population fluctuations from 0 to 1200 AD, peaking around 800 AD at approximately 20,000 inhabitants.',
+                    'o:alt_text' => 'Photograph of the Sun Gate at Tiwanaku, Bolivia, a monolithic stone gateway carved with geometric and figural reliefs.',
                     'dcterms:title' => 'Tiwanaku Civilization',
                     'dcterms:rights' => 'Public domain',
                     'dcterms:contributor' => 'Mhwater',
@@ -6266,10 +6266,10 @@ return [
             'media' => [
                 [
                     'file' => 'aztec-cultural-legacy.jpg',
-                    'o:alt_text' => 'Scanned document page from the Federal Register displaying Presidential Proclamation 9559 regarding Gold Butte National Monument establishment.',
+                    'o:alt_text' => 'Scale model reconstruction of Tenochtitlan showing the ceremonial center with the Templo Mayor pyramid and surrounding causeways.',
                     'dcterms:title' => 'Aztec Cultural Legacy',
                     'dcterms:rights' => 'CC BY 2.0',
-                    'dcterms:contributor' => 'https://www.flickr.com/photos/rosemania/',
+                    'dcterms:contributor' => 'rosemania',
                 ],
             ],
         ],
@@ -9212,7 +9212,7 @@ return [
                     'o:alt_text' => 'Aerial photograph of multiple keyhole-shaped kofun mounds surrounded by urban development in Japan.',
                     'dcterms:title' => 'Kofun Period',
                     'dcterms:rights' => 'CC BY 3.0',
-                    'dcterms:contributor' => 'alisa_1988_08',
+                    'dcterms:contributor' => 'Ministry of Land, Infrastructure, Transport and Tourism of Japan',
                 ],
             ],
         ],
@@ -15227,8 +15227,8 @@ return [
                 12.6,
                 55.7,
             ],
-            'dcterms:title' => 'Waldemar IV Denmark',
-            'dcterms:description' => 'Waldemar IV "Atterdag" of Denmark reunified a fragmented kingdom and conquered Scania from Sweden, briefly making Denmark the dominant Baltic power before a commercial war with the Hanseatic League forced unfavorable terms at the Treaty of Stralsund (1370), which gave the Hanse unprecedented trading rights.',
+            'dcterms:title' => 'Denmark under Waldemar IV',
+            'dcterms:description' => 'The reign of Waldemar IV "Atterdag" reunified a fragmented kingdom and conquered Scania from Sweden, briefly making Denmark the dominant Baltic power before a commercial war with the Hanseatic League forced unfavorable terms at the Treaty of Stralsund (1370), which gave the Hanse unprecedented trading rights.',
             'dcterms:subject' => [
                 'Europe',
                 'Denmark',
@@ -15564,7 +15564,7 @@ return [
             'media' => [
                 [
                     'file' => 'sparta.jpg',
-                    'o:alt_text' => 'Photograph of a waterfront residential community with Tudor-style architecture and wooden docks reflected in calm water.',
+                    'o:alt_text' => 'Photograph of the ancient theatre ruins at Sparta, Greece, with stone seating tiers visible against a hillside landscape.',
                     'dcterms:title' => 'Sparta',
                     'dcterms:rights' => 'CC BY-SA 3.0',
                     'dcterms:contributor' => 'Napoleon Vier at Dutch Wikipedia',
@@ -15987,7 +15987,7 @@ return [
                 'magna-graecia',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q238903',
+                '@value' => 'https://www.wikidata.org/entity/Q3607380',
                 '@type' => 'uri',
             ],
             'map_bounds' => '12.09,35.79,15.09,38.79',
@@ -16026,10 +16026,10 @@ return [
             'media' => [
                 [
                     'file' => 'acragas.jpg',
-                    'o:alt_text' => 'Photograph of a green spider with spotted markings on a light surface.',
+                    'o:alt_text' => 'Etching depicting the ancient city of Akragas in Sicily, with temples and a cityscape visible along a hilltop above the valley.',
                     'dcterms:title' => 'Acragas',
                     'dcterms:rights' => 'CC BY 3.0',
-                    'dcterms:contributor' => 'Wayne Maddison',
+                    'dcterms:contributor' => 'Toni Pecoraro',
                 ],
             ],
         ],
@@ -17847,7 +17847,7 @@ return [
                 'roman-empire',
             ],
             'dcterms:identifier' => [
-                '@value' => 'https://www.wikidata.org/entity/Q27460',
+                '@value' => 'https://www.wikidata.org/entity/Q173082',
                 '@type' => 'uri',
             ],
             'map_bounds' => '21.371444,43.661444,25.308556,47.598556',
@@ -17886,10 +17886,10 @@ return [
             'media' => [
                 [
                     'file' => 'dacia.jpg',
-                    'o:alt_text' => 'Photograph of a modern silver SUV displayed at an auto show with visitors examining the vehicle.',
+                    'o:alt_text' => 'Photograph of the circular stone ruins of Sarmizegetusa Regia, the ancient Dacian capital, in the Orăștie Mountains of Romania.',
                     'dcterms:title' => 'Dacia',
-                    'dcterms:rights' => 'CC BY-SA',
-                    'dcterms:contributor' => 'Matti Blume',
+                    'dcterms:rights' => 'CC BY-SA 3.0',
+                    'dcterms:contributor' => 'TudorTulok',
                 ],
             ],
         ],
@@ -26238,10 +26238,10 @@ return [
             'media' => [
                 [
                     'file' => 'kanem-empire.jpg',
-                    'o:alt_text' => 'Map depicting the territorial extent of the Kanem-Bornu Empire during the 17th and 18th centuries in the Sahel region.',
+                    'o:alt_text' => 'Historical map showing the territorial extent of the Kanem-Bornu Empire in the Sahel region around Lake Chad, circa 1650.',
                     'dcterms:title' => 'Kanem Empire',
                     'dcterms:rights' => 'CC BY-SA 4.0',
-                    'dcterms:contributor' => '2012hamza',
+                    'dcterms:contributor' => 'Ermanarich',
                 ],
             ],
         ],

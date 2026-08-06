@@ -1,6 +1,6 @@
 # Demo Data
 
-An Omeka S module that imports demo datasets for development, testing, and evaluation. The datasets use realistic cultural heritage content to demonstrate the breadth of Omeka S's data model — vocabularies, resource classes, value types, media, and modules working together across four distinct domains.
+An Omeka S module that imports demo datasets for development, testing, and evaluation. The datasets use cultural heritage content to demonstrate the breadth of Omeka S's data model: vocabularies, resource classes, value types, media, and modules working together across four domains.
 
 The [NumericDataTypes](https://omeka.org/s/modules/NumericDataTypes/) module is optional; when active, date, duration, interval, and integer fields are stored as structured numeric values rather than plain text. The [Mapping](https://omeka.org/s/modules/Mapping/) module is optional; when active, geographic coordinates are displayed as map markers.
 
@@ -21,7 +21,7 @@ Paintings, sculptures, drawings, and manuscripts spanning antiquity to the 20th 
 
 ### Civilizations
 
-Historical polities — kingdoms, empires, dynasties, and cultural periods — from across the ancient, medieval, and early modern world. The largest dataset at 450 items. Exercises all four NumericDataTypes (timestamp, duration, interval, integer), map markers with bounding boxes, inter-item links, and media with title property values.
+Historical polities (kingdoms, empires, dynasties, and cultural periods) from across the ancient, medieval, and early modern world. The largest dataset at 450 items. Exercises all four NumericDataTypes (timestamp, duration, interval, integer), map markers with bounding boxes, inter-item links, and media with title property values.
 
 ### Documents
 
@@ -30,6 +30,14 @@ Historical handwritten and typed documents including letters, diaries, newspaper
 ### People
 
 Historical figures spanning science, literature, philosophy, exploration, and political leadership across cultures and centuries. Exercises value annotations (approximate birth and death dates flagged with a qualifier value), language-tagged title values (native-language names in 15 languages), URI identifiers, numeric date values, map markers, and media with title property values.
+
+## AI disclosure
+
+The items, images, and metadata in these datasets were generated or selected with the assistance of large language and vision models. This includes the selection of historical items, sourcing of images from Wikimedia Commons and institutional digital collections, and the generation of descriptive metadata such as subject classifications, descriptions, and media alt text.
+
+All datasets underwent human review, and some values were verified against canonical sources such as Wikidata. Despite these measures, inaccuracies may be present, particularly in areas requiring precise iconographic identification or specialized cultural knowledge.
+
+To report an error, please open an issue on [GitHub](https://github.com/omeka-s-modules/DemoData/issues). Corrections via pull request are also welcome.
 
 ## Copyright
 

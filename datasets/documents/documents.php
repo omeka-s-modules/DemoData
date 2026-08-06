@@ -86,7 +86,10 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA) / John F. Kennedy Presidential Library',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 192847',
-            'dcterms:identifier' => 'https://catalog.archives.gov/id/192847',
+            'dcterms:identifier' => [
+                '@value' => 'https://catalog.archives.gov/id/192847',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'lincoln-brayman-1854.tif',
@@ -120,7 +123,10 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA), Archives II, College Park, MD',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 305247; RG 74; NWCTM-74-EINSTEINLTRS',
-            'dcterms:identifier' => 'https://catalog.archives.gov/id/305247',
+            'dcterms:identifier' => [
+                '@value' => 'https://catalog.archives.gov/id/305247',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'einstein-brunauer-may-1943.tif',
@@ -154,7 +160,10 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA) / John F. Kennedy Presidential Library',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 192948',
-            'dcterms:identifier' => 'https://catalog.archives.gov/id/192948',
+            'dcterms:identifier' => [
+                '@value' => 'https://catalog.archives.gov/id/192948',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'leverett-fragment-1653.tif',
@@ -188,7 +197,10 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA) / John F. Kennedy Presidential Library',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 193049',
-            'dcterms:identifier' => 'https://catalog.archives.gov/id/193049',
+            'dcterms:identifier' => [
+                '@value' => 'https://catalog.archives.gov/id/193049',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'burnett-letter-1726.tif',
@@ -222,7 +234,10 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA) / John F. Kennedy Presidential Library',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 192869',
-            'dcterms:identifier' => 'https://catalog.archives.gov/id/192869',
+            'dcterms:identifier' => [
+                '@value' => 'https://catalog.archives.gov/id/192869',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'hopkins-hollenberg-1776.tif',
@@ -256,7 +271,10 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA) / John F. Kennedy Presidential Library',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 192980',
-            'dcterms:identifier' => 'https://catalog.archives.gov/id/192980',
+            'dcterms:identifier' => [
+                '@value' => 'https://catalog.archives.gov/id/192980',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'sullivan-jackson-1802.tif',
@@ -290,7 +308,10 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA) / John F. Kennedy Presidential Library',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 192962',
-            'dcterms:identifier' => 'https://catalog.archives.gov/id/192962',
+            'dcterms:identifier' => [
+                '@value' => 'https://catalog.archives.gov/id/192962',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'davis-cist-1837.tif',
@@ -324,7 +345,10 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA) / John F. Kennedy Presidential Library',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 192994',
-            'dcterms:identifier' => 'https://catalog.archives.gov/id/192994',
+            'dcterms:identifier' => [
+                '@value' => 'https://catalog.archives.gov/id/192994',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'morton-hamlin-1850.tif',
@@ -358,7 +382,10 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA) / John F. Kennedy Presidential Library',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'NAID 192923',
-            'dcterms:identifier' => 'https://catalog.archives.gov/id/192923',
+            'dcterms:identifier' => [
+                '@value' => 'https://catalog.archives.gov/id/192923',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'ware-letter-1840.tif',
@@ -391,7 +418,10 @@ return [
             'dcterms:language' => 'de',
             'dcterms:publisher' => 'Österreichische Nationalbibliothek (Austrian National Library)',
             'dcterms:format' => 'handwritten',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Arthur-Schnitzler_Tagebuch_1917-05-14.tif',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Arthur-Schnitzler_Tagebuch_1917-05-14.tif',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'schnitzler-diary-1917.tif',
@@ -460,7 +490,10 @@ return [
             'dcterms:publisher' => 'Missouri Historical Society, St. Louis',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Missouri Historical Society D03529; DPLA 049af3df8e9a433c9d0a594b33f127ec',
-            'dcterms:identifier' => 'https://dp.la/item/049af3df8e9a433c9d0a594b33f127ec',
+            'dcterms:identifier' => [
+                '@value' => 'https://dp.la/item/049af3df8e9a433c9d0a594b33f127ec',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'chopin-impressions-1894.jpg',
@@ -494,7 +527,10 @@ return [
             'dcterms:publisher' => 'Archives New Zealand',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'ADCZ 17007 W5601/1',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Diary_of_Harriet_Louisa_Browne,_1855_(15325246875).jpg',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Diary_of_Harriet_Louisa_Browne,_1855_(15325246875).jpg',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'browne-diary-1855.jpg',
@@ -529,7 +565,10 @@ return [
             'dcterms:publisher' => 'Yōmei Bunko, Kyoto, Japan',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'National Treasure of Japan (古文書)',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Michinaga_diary.jpg',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Michinaga_diary.jpg',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'michinaga-diary-1010.jpg',
@@ -565,7 +604,10 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA)',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'NARA NAID 302025; Record ID 862.20212/82A',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Zimmermann_Telegram_as_Received_by_the_German_Ambassador_to_Mexico_-_NARA_-_302025.jpg',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Zimmermann_Telegram_as_Received_by_the_German_Ambassador_to_Mexico_-_NARA_-_302025.jpg',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'zimmermann-telegram-1917.jpg',
@@ -600,7 +642,10 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA), College Park, Maryland',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'NARA RG 263, NAID 590; Series NAID 6942952',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Memo_to_Holders_of_NIE_11-3-71,_Soviet_Strategic_Defenses.pdf',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Memo_to_Holders_of_NIE_11-3-71,_Soviet_Strategic_Defenses.pdf',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'cia-nie-11-3-71.pdf',
@@ -635,7 +680,10 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration (NARA), College Park, Maryland',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'NARA RG 263, NAID 590; Series NAID 6942952',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:NIE_11-10-63,_27_Dec_63,_Soviet_Capabilities_and_Intentions_with_Respect_to_Chemical_Warfare.pdf',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:NIE_11-10-63,_27_Dec_63,_Soviet_Capabilities_and_Intentions_with_Respect_to_Chemical_Warfare.pdf',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'cia-nie-11-10-63.pdf',
@@ -678,7 +726,10 @@ return [
             'dcterms:publisher' => 'Clinton Presidential Center; National Archives and Records Administration',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'Clinton Presidential Center ID 163545436; DPLA ID a55d8fd18487037fc0e3eb47225370f1; Short title 2014-0948-M',
-            'dcterms:identifier' => 'https://dp.la/item/a55d8fd18487037fc0e3eb47225370f1',
+            'dcterms:identifier' => [
+                '@value' => 'https://dp.la/item/a55d8fd18487037fc0e3eb47225370f1',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'clinton-yeltsin-memcon-1993.pdf',
@@ -713,7 +764,10 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration, Washington, D.C.',
             'dcterms:format' => 'mixed',
             'dcterms:source' => 'NARA NAID 486272327; Harrison-Bundy Files M1108, Folder 58, Roll 4, Target 4',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:FDR_approves_the_creation_of_the_Manhattan_Project,_17_June_1942.jpg',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:FDR_approves_the_creation_of_the_Manhattan_Project,_17_June_1942.jpg',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'fdr-manhattan-project-1942.jpg',
@@ -747,7 +801,10 @@ return [
             'dcterms:publisher' => 'National Archives and Records Administration, Washington, D.C.',
             'dcterms:format' => 'mixed',
             'dcterms:source' => 'WDL2714; LOC Handle hdl.loc.gov/loc.wdl/dna.2714',
-            'dcterms:identifier' => 'https://hdl.loc.gov/loc.wdl/wdl.2714',
+            'dcterms:identifier' => [
+                '@value' => 'https://hdl.loc.gov/loc.wdl/wdl.2714',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'emancipation-proclamation-1862-1.jpg',
@@ -805,7 +862,10 @@ return [
             'dcterms:publisher' => 'White House, Washington, D.C.',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'White House collections; purchased at auction 1949 by Oscar Cintas, bequeathed to the United States 1957',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Gettysburg_Address_Bliss_copy.jpg',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Gettysburg_Address_Bliss_copy.jpg',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'gettysburg-address-bliss-1864-1.jpg',
@@ -852,7 +912,10 @@ return [
             'dcterms:publisher' => 'Castle Air Museum',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'Honolulu Star-Bulletin, 1st Extra, December 7, 1941',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Honolulu_Star-Bulletin_December_7th_1941.jpg',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Honolulu_Star-Bulletin_December_7th_1941.jpg',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'honolulu-star-bulletin-1941.jpg',
@@ -886,7 +949,10 @@ return [
             'dcterms:publisher' => 'Newspaper Archive (newspaperarchive.com)',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'newspaperarchive.com/new-york-times-nov-11-1918-p-1/',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:The_New_York_Times,_1918-11-11.pdf',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:The_New_York_Times,_1918-11-11.pdf',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'nytimes-armistice-1918.jpg',
@@ -921,7 +987,10 @@ return [
             'dcterms:publisher' => 'Centre Charlemagne, Aachen',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'Centre Charlemagne museum collection, Aachen',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Aachener_Nachrichten_8._Mai_1945.jpg',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Aachener_Nachrichten_8._Mai_1945.jpg',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'aachener-nachrichten-1945.jpg',
@@ -954,7 +1023,10 @@ return [
             'dcterms:language' => 'en',
             'dcterms:publisher' => 'The New York Times',
             'dcterms:format' => 'typed',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:19120415_New_Liner_Titanic_Hits_an_Iceberg_-_The_New_York_Times.png',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:19120415_New_Liner_Titanic_Hits_an_Iceberg_-_The_New_York_Times.png',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'nytimes-titanic-1912.jpg',
@@ -989,7 +1061,10 @@ return [
             'dcterms:publisher' => 'Public archive (digitized 2016)',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'Issue No. 355, 1 August 1914',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Berliner_boersenzeitung_no355_1_aug_1914.png',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Berliner_boersenzeitung_no355_1_aug_1914.png',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'berliner-borsen-zeitung-1914.png',
@@ -1024,7 +1099,10 @@ return [
             'dcterms:publisher' => 'U.S. Government',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'Pentagon Papers Part VI-C-1',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Pentagon-Papers-Part-VI-C-1.pdf',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Pentagon-Papers-Part-VI-C-1.pdf',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'pentagon-papers-vi-c-1.pdf',
@@ -1060,7 +1138,10 @@ return [
             'dcterms:publisher' => 'Dwight D. Eisenhower Presidential Library; National Archives and Records Administration',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'NARA Identifier 331916994; DPLA ID fc8c6af04191eb347db6b871bdbcad9a',
-            'dcterms:identifier' => 'https://catalog.archives.gov/id/331916994',
+            'dcterms:identifier' => [
+                '@value' => 'https://catalog.archives.gov/id/331916994',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'project-solarium-task-force-c.jpg',
@@ -1095,7 +1176,10 @@ return [
             'dcterms:publisher' => 'National Diet Library, Tokyo; U.S. National Archives (RG331)',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'NDL ID 9884726; Call No. IPS-36 R8: 0246-0305; NDLBibID 000006850832',
-            'dcterms:identifier' => 'https://dl.ndl.go.jp/info:ndljp/pid/9884726',
+            'dcterms:identifier' => [
+                '@value' => 'https://dl.ndl.go.jp/info:ndljp/pid/9884726',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'nuremberg-tribunal-ruling-1946.pdf',
@@ -1131,7 +1215,10 @@ return [
             'dcterms:publisher' => 'National Diet Library, Tokyo; U.S. National Archives (RG331)',
             'dcterms:format' => 'typed',
             'dcterms:source' => 'IPS Doc. No. 2748; IMT 505; NDL ID 12922668; Call No. IPS-18 R347: 0228-0390',
-            'dcterms:identifier' => 'https://dl.ndl.go.jp/info:ndljp/pid/12922668',
+            'dcterms:identifier' => [
+                '@value' => 'https://dl.ndl.go.jp/info:ndljp/pid/12922668',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'japanese-fo-doc-2748-part1.pdf',
@@ -1206,7 +1293,10 @@ return [
             'dcterms:publisher' => 'Bibliothèque nationale de France',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Gallica / BNF',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Boufflers_-_Journal_in%C3%A9dit_du_second_s%C3%A9jour_au_S%C3%A9n%C3%A9gal_1786-1787.tif',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Boufflers_-_Journal_in%C3%A9dit_du_second_s%C3%A9jour_au_S%C3%A9n%C3%A9gal_1786-1787.tif',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'boufflers-senegal-diary.tif',
@@ -1223,7 +1313,7 @@ return [
                 'main',
                 'diaries',
             ],
-            'dcterms:title' => 'Journal, 1810–1811',
+            'dcterms:title' => 'Journal of the Napoleonic Era, 1810–1811',
             'dcterms:creator' => 'Stendhal (Marie-Henri Beyle)',
             'dcterms:created' => [
                 '@value' => '1810',
@@ -1240,7 +1330,10 @@ return [
             'dcterms:publisher' => 'Bibliothèque nationale de France',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Gallica / BNF',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Stendhal_-_Journal,_1810-1811.tif',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Stendhal_-_Journal,_1810-1811.tif',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'stendhal-journal-1810.tif',
@@ -1274,7 +1367,10 @@ return [
             'dcterms:publisher' => 'Bibliothèque nationale de France',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Gallica / BNF',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Renan_-_Lettres_du_s%C3%A9minaire,_1838-1846.tif',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Renan_-_Lettres_du_s%C3%A9minaire,_1838-1846.tif',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'renan-seminary-letters.tif',
@@ -1309,7 +1405,10 @@ return [
             'dcterms:publisher' => 'Archives nationales, Paris',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Archives nationales 400AP-6, fol. 16',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Lettre_de_Napol%C3%A9on_%C3%A0_Jos%C3%A9phine-_Archives_nationales-_400AP-6,_fol._16.jpg',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Lettre_de_Napol%C3%A9on_%C3%A0_Jos%C3%A9phine-_Archives_nationales-_400AP-6,_fol._16.jpg',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'napoleon-josephine-1796.jpg',
@@ -1343,7 +1442,10 @@ return [
             'dcterms:language' => 'en',
             'dcterms:publisher' => 'National Archives and Records Administration',
             'dcterms:format' => 'handwritten',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Letter_by_Susan_B._Anthony_in_Support_of_Women%27s_Suffrage_page_1_of_2.jpg',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Letter_by_Susan_B._Anthony_in_Support_of_Women%27s_Suffrage_page_1_of_2.jpg',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'anthony-stanton-suffrage-1871-1.jpg',
@@ -1384,7 +1486,10 @@ return [
             'dcterms:publisher' => 'Biblioteca Nazionale Centrale di Firenze',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Ms. Gal. 48',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Galileo_Galilei_(1564_-_1642)_-_A_di_7_di_Gennaio_1610_Giove_-_Manuscript_of_observations_of_Jupiter_and_its_satellites,_January_1610.jpg',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Galileo_Galilei_(1564_-_1642)_-_A_di_7_di_Gennaio_1610_Giove_-_Manuscript_of_observations_of_Jupiter_and_its_satellites,_January_1610.jpg',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'galileo-jupiter-1610.jpg',
@@ -1418,7 +1523,10 @@ return [
             'dcterms:language' => 'fr',
             'dcterms:publisher' => 'Bibliothèque nationale de France',
             'dcterms:format' => 'handwritten',
-            'dcterms:identifier' => 'https://digital.nls.uk/mqs/',
+            'dcterms:identifier' => [
+                '@value' => 'https://digital.nls.uk/mqs/',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'mary-queen-scots-1587-1.jpg',
@@ -1471,7 +1579,10 @@ return [
             'dcterms:publisher' => 'Archives nationales, Paris',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Archives nationales F-17-21439',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Lettre_de_Pasteur_%C3%A0_Napol%C3%A9on_III_-_Archives_nationales_-_F-17-21439_page_1.jpg',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Lettre_de_Pasteur_%C3%A0_Napol%C3%A9on_III_-_Archives_nationales_-_F-17-21439_page_1.jpg',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'pasteur-napoleon-1867-1.jpg',
@@ -1545,7 +1656,10 @@ return [
             'dcterms:publisher' => 'Wellcome Collection, London',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Wellcome Collection M0000369–M0000370',
-            'dcterms:identifier' => 'https://wellcomecollection.org/works/d9suqc7s',
+            'dcterms:identifier' => [
+                '@value' => 'https://wellcomecollection.org/works/d9suqc7s',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'nightingale-herbert-1855-1.jpg',
@@ -1587,7 +1701,10 @@ return [
             'dcterms:publisher' => 'Bibliothèque nationale de France',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'BNF btv1b53142386j',
-            'dcterms:identifier' => 'https://gallica.bnf.fr/ark:/12148/btv1b53142386j',
+            'dcterms:identifier' => [
+                '@value' => 'https://gallica.bnf.fr/ark:/12148/btv1b53142386j',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'chopin-kumelski-1831.jpg',
@@ -1654,7 +1771,10 @@ return [
             'dcterms:language' => 'en',
             'dcterms:publisher' => 'National Library of Australia, Canberra',
             'dcterms:format' => 'handwritten',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Letter_from_Jane_Austen_to_her_sister_Cassandra,_1799_June_11._Page_1_(NLA).tiff',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Letter_from_Jane_Austen_to_her_sister_Cassandra,_1799_June_11._Page_1_(NLA).tiff',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'austen-cassandra-1799-1.jpg',
@@ -1688,7 +1808,10 @@ return [
             'dcterms:language' => 'en',
             'dcterms:publisher' => 'Missouri History Museum, St. Louis',
             'dcterms:format' => 'handwritten',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Clark_Family_Collection-_Volume_1._Voorhis_Journal_No._1,_page_2,_April_7,_1805.jpg',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Clark_Family_Collection-_Volume_1._Voorhis_Journal_No._1,_page_2,_April_7,_1805.jpg',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'clark-journal-1805.jpg',
@@ -1723,7 +1846,10 @@ return [
             'dcterms:publisher' => 'Houghton Library, Harvard University',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Houghton Library MS Am 1280 (folder 1965), Ralph Waldo Emerson Papers',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Houghton_MS_Am_1280_(1965)_-_Lovelacejpg.jpg',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Houghton_MS_Am_1280_(1965)_-_Lovelacejpg.jpg',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'lovelace-emerson-1848.jpg',
@@ -1758,7 +1884,10 @@ return [
             'dcterms:publisher' => 'Boston Public Library, Rare Books Department',
             'dcterms:format' => 'handwritten',
             'dcterms:source' => 'Boston Public Library Ms. Am. 1093 (2); Digital Commonwealth commonwealth:kh04mv67t',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Emily_Dickinson,_Amherst,_Mass.,_autograph_manuscript_poem,_Safe_in_their_Alabaster_Chamber,_1862,_from_the_Digital_Commonwealth_-_1_commonwealth_kh04mv67t.jpg',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Emily_Dickinson,_Amherst,_Mass.,_autograph_manuscript_poem,_Safe_in_their_Alabaster_Chamber,_1862,_from_the_Digital_Commonwealth_-_1_commonwealth_kh04mv67t.jpg',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'dickinson-alabaster-1862.jpg',
@@ -1792,7 +1921,10 @@ return [
             'dcterms:language' => 'en',
             'dcterms:publisher' => 'Cambridge University Library',
             'dcterms:format' => 'handwritten',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Darwin_Tree_1837_cropped.png',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Darwin_Tree_1837_cropped.png',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'darwin-notebook-b-1837.png',
@@ -1826,7 +1958,10 @@ return [
             'dcterms:language' => 'en',
             'dcterms:publisher' => 'Cornell University Library, Rare and Manuscript Collections',
             'dcterms:format' => 'handwritten',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Bront%C3%AB_Letter.jpg',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Bront%C3%AB_Letter.jpg',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'bronte-letter-1847.jpg',
@@ -1860,7 +1995,10 @@ return [
             'dcterms:language' => 'it',
             'dcterms:publisher' => 'Royal Collection Trust, Windsor Castle',
             'dcterms:format' => 'handwritten',
-            'dcterms:identifier' => 'https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912617,_The_anatomy_of_the_leg,_and_other_studies_c.1485-8.jpg',
+            'dcterms:identifier' => [
+                '@value' => 'https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912617,_The_anatomy_of_the_leg,_and_other_studies_c.1485-8.jpg',
+                '@type' => 'uri',
+            ],
             'media' => [
                 [
                     'file' => 'leonardo-notebook-1490s-1.jpg',

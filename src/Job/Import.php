@@ -9,6 +9,7 @@ class Import extends AbstractDemoDataJob
     private const MOD_NUMERIC = 'NumericDataTypes';
     private const MOD_MAPPING = 'Mapping';
     private const RELATION_TERM = 'dcterms:relation';
+    private const PROVENANCE = 'This resource is for demonstration purposes only and should not be treated as accurate or authoritative. It was created from materials on Wikimedia Commons and institutional digital collections with the assistance of Claude (Anthropic) between May and August 2026.';
 
     private string $dataset;
     private ?string $mediaBaseUrl;
@@ -203,6 +204,8 @@ class Import extends AbstractDemoDataJob
                 ];
             }
         }
+        $payload['dcterms:provenance'] = $this->buildValues(self::PROVENANCE);
+
         if (!empty($item['media']) && $this->mediaBaseUrl) {
             foreach ($this->normalizeMediaEntries($item['media']) as $entry) {
                 $file = $entry['file'] ?? null;
@@ -223,6 +226,7 @@ class Import extends AbstractDemoDataJob
                         $mediaEntry[$key] = $this->buildValues($value);
                     }
                 }
+                $mediaEntry['dcterms:provenance'] = $this->buildValues(self::PROVENANCE);
                 $payload['o:media'][] = $mediaEntry;
             }
         }

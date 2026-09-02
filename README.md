@@ -33,7 +33,7 @@ Historical figures spanning science, literature, philosophy, exploration, and po
 
 ## AI disclosure
 
-The items, images, and metadata in these datasets were generated or selected with the assistance of large language and vision models. This includes the selection of historical items, sourcing of images from Wikimedia Commons and institutional digital collections, and the generation of descriptive metadata such as subject classifications, descriptions, and media alt text.
+The items, images, and metadata in these datasets were generated or selected with the assistance of large language and vision models (Claude; May - August, 2026). This includes the selection of historical items, sourcing of images from Wikimedia Commons and institutional digital collections, and the generation of descriptive metadata such as subject classifications, descriptions, and media alt text.
 
 All datasets underwent human review, and some values were verified against canonical sources such as Wikidata. Despite these measures, inaccuracies may be present, particularly in areas requiring precise iconographic identification or specialized cultural knowledge.
 
@@ -41,8 +41,7 @@ To report an error, please open an issue on [GitHub](https://github.com/omeka-s-
 
 ## Copyright
 
-DemoData is Copyright © 2021-present Corporation for Digital Scholarship, Vienna,
-Virginia, USA http://digitalscholar.org
+DemoData is Copyright © 2021-present Corporation for Digital Scholarship, http://digitalscholar.org
 
 The Corporation for Digital Scholarship distributes the Demo Data source code under
 the GNU General Public License, version 3 (GPLv3). The full text of this license

@@ -73,13 +73,13 @@ class IndexController extends AbstractActionController
         foreach ($this->datasets as $name => $config) {
             $tracking = $settings->get("demo_data_imported_{$name}");
             $datasets[$name] = $config + [
-                'name'             => $name,
-                'imported'         => (bool) $tracking,
+                'name' => $name,
+                'imported' => (bool) $tracking,
                 'main_item_set_id' => $tracking['item_sets']['main'] ?? null,
-                'item_set_ids'     => $tracking ? array_values($tracking['item_sets']) : [],
-                'view_job_id'      => $tracking['job_id'] ?? null,
-                'pending_action'   => null,
-                'job_failed'       => false,
+                'item_set_ids' => $tracking ? array_values($tracking['item_sets']) : [],
+                'view_job_id' => $tracking['job_id'] ?? null,
+                'pending_action' => null,
+                'job_failed' => false,
             ];
 
             $pendingJob = $settings->get("demo_data_job_{$name}");
